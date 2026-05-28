@@ -770,158 +770,192 @@ SPECIALITY CENTERS
 <!-- =========================
     WHATS NEW SECTION
     ========================= -->
-<section class="section-padding bg-[#f5f5f5] overflow-hidden">
-    <div class="container-custom">
+<!-- =========================
+WHATS NEW SECTION
+========================= -->
+<section class="py-16 lg:py-20 bg-[#f5f5f5] overflow-hidden">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+
         <!-- HEADING -->
-        <div class="text-center mb-10 md:mb-14">
-            <h2 class="section-title">
+        <div class="text-center mb-8 lg:mb-12">
+            <h2 class="text-primary text-3xl md:text-4xl font-black">
                 What's New
             </h2>
         </div>
+
         <!-- GRID -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-6">
-            <!-- LARGE CARD -->
-            <div class="lg:col-span-5">
-                <div class="whatsnew-card group">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+
+            <!-- LEFT LARGE CARD -->
+            <div class="lg:col-span-4">
+                <div class="bg-white overflow-hidden shadow-md hover:shadow-xl transition duration-500 h-full group">
+
                     <!-- IMAGE -->
                     <div class="overflow-hidden">
                         <img
                             src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1200&auto=format&fit=crop"
                             alt=""
-                            class="whatsnew-img">
+                            class="w-full h-[240px] md:h-[280px] object-cover group-hover:scale-105 transition duration-700">
                     </div>
+
                     <!-- CONTENT -->
-                    <div class="whatsnew-content">
-                        <h3 class="whatsnew-title">
-                            Second Opinion
-                        </h3>
-                        <p class="whatsnew-desc">
-                            Confirm diagnosis and take informed decision about your treatment plan with some of Nepal’s top experts.
-                        </p>
-                        <div class="flex items-center justify-between mt-6">
-                            <!-- BUTTON -->
+                    <div class="p-6 md:p-8 flex flex-col justify-between">
+
+                        <div>
+                            <h3 class="text-primary text-[28px] md:text-[32px] font-bold leading-tight mb-4">
+                                Second Opinion
+                            </h3>
+
+                            <p class="text-gray-600 text-[15px] md:text-[17px] leading-7">
+                                Confirm diagnosis and take informed decision about your treatment plan with some of Nepal’s top experts.
+                            </p>
+                        </div>
+
+                        <!-- BOTTOM -->
+                        <div class="flex items-center justify-between mt-8">
+
                             <a href="#"
-                                class="whatsnew-link">
+                                class="inline-flex items-center gap-3 text-primary font-semibold text-[15px] hover:text-secondary transition">
+
                                 Know More
-                                <span class="whatsnew-arrow">
+
+                                <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center text-xs">
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </span>
                             </a>
-                            <!-- ICON -->
-                            <div class="text-[42px] text-secondary/30">
+
+                            <div class="text-secondary/20 text-[34px]">
                                 <i class="fa-solid fa-user-doctor"></i>
                             </div>
+
                         </div>
+
                     </div>
                 </div>
             </div>
-            <!-- RIGHT GRID -->
-            <div class="lg:col-span-7">
-                <div class="grid sm:grid-cols-2 gap-5 lg:gap-6">
+
+            <!-- CENTER SMALL CARDS -->
+            <div class="lg:col-span-4">
+                <div class="grid grid-cols-1 gap-6 h-full">
+
                     <!-- CARD -->
-                    <div class="whatsnew-card">
-                        <div class="whatsnew-content">
-                            <h3 class="whatsnew-title">
+                    <div class="bg-white shadow-md hover:shadow-xl transition duration-500 p-6 md:p-8 flex flex-col justify-between">
+
+                        <div>
+                            <h3 class="text-primary text-[24px] md:text-[28px] font-bold leading-tight mb-4">
                                 Buy Medicine
                             </h3>
-                            <p class="whatsnew-desc">
+
+                            <p class="text-gray-600 text-[15px] leading-7">
                                 Recover without worrying about going out to buy reliable medication delivered to your doorstep.
                             </p>
-                            <div class="flex items-center justify-between mt-6">
-                                <a href="#"
-                                    class="whatsnew-link">
-                                    Know More
-                                    <span class="whatsnew-arrow">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </span>
-                                </a>
-                                <div class="text-[38px] text-secondary/30">
-                                    <i class="fa-solid fa-capsules"></i>
-                                </div>
+                        </div>
+
+                        <div class="flex items-center justify-between mt-8">
+
+                            <a href="#"
+                                class="inline-flex items-center gap-3 text-primary font-semibold text-[15px] hover:text-secondary transition">
+
+                                Know More
+
+                                <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center text-xs">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </a>
+
+                            <div class="text-secondary/20 text-[30px]">
+                                <i class="fa-solid fa-capsules"></i>
                             </div>
+
                         </div>
                     </div>
+
                     <!-- CARD -->
-                    <div class="whatsnew-card group">
-                        <div class="overflow-hidden">
-                            <img
-                                src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1200&auto=format&fit=crop"
-                                alt=""
-                                class="whatsnew-img">
-                        </div>
-                        <div class="whatsnew-content">
-                            <h3 class="whatsnew-title">
-                                Health Check
-                            </h3>
-                            <p class="whatsnew-desc">
-                                Take charge of your well-being with a healthcare experience customised for you.
-                            </p>
-                            <div class="flex items-center justify-between mt-6">
-                                <a href="#"
-                                    class="whatsnew-link">
-                                    Know More
-                                    <span class="whatsnew-arrow">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </span>
-                                </a>
-                                <div class="text-[38px] text-secondary/30">
-                                    <i class="fa-solid fa-heart-pulse"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- CARD -->
-                    <div class="whatsnew-card">
-                        <div class="whatsnew-content">
-                            <h3 class="whatsnew-title">
+                    <div class="bg-white shadow-md hover:shadow-xl transition duration-500 p-6 md:p-8 flex flex-col justify-between">
+
+                        <div>
+                            <h3 class="text-primary text-[24px] md:text-[28px] font-bold leading-tight mb-4">
                                 Labs & Diagnostics
                             </h3>
-                            <p class="whatsnew-desc">
+
+                            <p class="text-gray-600 text-[15px] leading-7">
                                 Advanced diagnostics with modern infrastructure and expert medical professionals.
                             </p>
-                            <div class="flex items-center justify-between mt-6">
-                                <a href="#"
-                                    class="whatsnew-link">
-                                    Know More
-                                    <span class="whatsnew-arrow">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </span>
-                                </a>
-                                <div class="text-[38px] text-secondary/30">
-                                    <i class="fa-solid fa-flask-vial"></i>
-                                </div>
+                        </div>
+
+                        <div class="flex items-center justify-between mt-8">
+
+                            <a href="#"
+                                class="inline-flex items-center gap-3 text-primary font-semibold text-[15px] hover:text-secondary transition">
+
+                                Know More
+
+                                <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center text-xs">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </a>
+
+                            <div class="text-secondary/20 text-[30px]">
+                                <i class="fa-solid fa-flask-vial"></i>
                             </div>
+
                         </div>
                     </div>
-                    <!-- CARD -->
-                    <div class="whatsnew-card">
-                        <div class="whatsnew-content">
-                            <h3 class="whatsnew-title">
-                                Emergency Care
+
+                </div>
+            </div>
+
+            <!-- RIGHT LARGE CARD -->
+            <div class="lg:col-span-4">
+                <div class="bg-white overflow-hidden shadow-md hover:shadow-xl transition duration-500 h-full group">
+
+                    <!-- IMAGE -->
+                    <div class="overflow-hidden">
+                        <img
+                            src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1200&auto=format&fit=crop"
+                            alt=""
+                            class="w-full h-[240px] md:h-[280px] object-cover group-hover:scale-105 transition duration-700">
+                    </div>
+
+                    <!-- CONTENT -->
+                    <div class="p-6 md:p-8 flex flex-col justify-between">
+
+                        <div>
+                            <h3 class="text-primary text-[28px] md:text-[32px] font-bold leading-tight mb-4">
+                                Health Check
                             </h3>
-                            <p class="whatsnew-desc">
-                                24/7 emergency response team with experienced doctors and rapid medical support.
+
+                            <p class="text-gray-600 text-[15px] md:text-[17px] leading-7">
+                                Take charge of your well-being with a healthcare experience customised for you.
                             </p>
-                            <div class="flex items-center justify-between mt-6">
-                                <a href="#"
-                                    class="whatsnew-link">
-                                    Know More
-                                    <span class="whatsnew-arrow">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </span>
-                                </a>
-                                <div class="text-[38px] text-secondary/30">
-                                    <i class="fa-solid fa-truck-medical"></i>
-                                </div>
-                            </div>
                         </div>
+
+                        <!-- BOTTOM -->
+                        <div class="flex items-center justify-between mt-8">
+
+                            <a href="#"
+                                class="inline-flex items-center gap-3 text-primary font-semibold text-[15px] hover:text-secondary transition">
+
+                                Know More
+
+                                <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center text-xs">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </a>
+
+                            <div class="text-secondary/20 text-[34px]">
+                                <i class="fa-solid fa-heart-pulse"></i>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
-
 <!-- ACCOMMODATION -->
 <section class="section-padding">
     <div class="container-custom">
@@ -1438,7 +1472,419 @@ SPECIALITY CENTERS
     </div>
 </section>
 
+<!-- =========================================================
+    NEWSLETTER SECTION
+    ========================================================= -->
+<section class="section-padding bg-[#f5f8fc] overflow-hidden">
+    <div class="container-custom">
+        <!-- TOP -->
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6 md:mb-8">
+            <h2 class="section-title">
+                Newsletter
+            </h2>
+            <a href="#"
+                class="btn-primary text-sm md:text-base">
+                See All
+            </a>
+        </div>
+        <!-- CARD -->
+        <div class="bg-white shadow-[0_8px_30px_rgba(0,0,0,.05)] p-4 md:p-6 xl:p-8">
+            <!-- FILTER -->
+            <div class="flex flex-row items-center justify-between gap-4 mb-4">
+                <!-- SHOW -->
+                <div class="flex items-center gap-2">
+                    <select id="perPage"
+                        class="h-10 md:h-11 px-3 md:px-4
+                        border border-gray-300 bg-white
+                        text-[13px] md:text-[14px]
+                        text-gray-700 outline-none
+                        focus:border-secondary
+                        transition-all duration-300">
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                    </select>
+                    <span class="text-[13px] md:text-[14px] text-gray-600 font-medium">
+                        entries
+                    </span>
+                </div>
+                <!-- SEARCH -->
+                <div class="flex flex-col sm:flex-row sm:items-center gap-2">
+                    <span class="text-[13px] md:text-[14px] text-gray-600 font-medium">
+                        Search:
+                    </span>
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search newsletter..."
+                        class="w-full sm:w-[240px] md:w-[280px]
+                        h-10 md:h-11 px-4
+                        border border-gray-300
+                        text-[13px] md:text-[14px]
+                        text-gray-700
+                        outline-none
+                        focus:border-secondary
+                        transition-all duration-300">
+                </div>
+            </div>
+            <!-- LOADER -->
+            <div id="newsletterLoader"
+                class="hidden py-10">
+                <div class="w-10 h-10 border-[3px]
+                    border-gray-200 border-t-secondary
+                    rounded-full animate-spin mx-auto">
+                </div>
+            </div>
+            <!-- CONTENT -->
+            <div id="newsletterContent">
+                <!-- TABLE -->
+                <div class="overflow-x-auto">
+                    <table class="w-full min-w-[650px]">
+                        <!-- HEAD -->
+                        <thead>
+                            <tr class="border-b-2 border-gray-200">
+                                <th class="px-3 md:px-4 py-2 text-left
+                                    text-[13px] md:text-[15px]
+                                    font-black text-primary">
+                                    S.No
+                                </th>
+                                <th class="px-3 md:px-4 py-2 text-left
+                                    text-[13px] md:text-[15px]
+                                    font-black text-primary">
+                                    Title
+                                </th>
+                                <th class="px-3 md:px-4 py-2 text-left
+                                    text-[13px] md:text-[15px]
+                                    font-black text-primary">
+                                    Download
+                                </th>
+                            </tr>
+                        </thead>
+                        <!-- BODY -->
+                        <tbody id="newsletterTable">
+                            <!-- AJAX DATA -->
+                        </tbody>
+                    </table>
+                </div>
+                <!-- PAGINATION -->
+                <div id="newsletterPagination"
+                    class="flex flex-wrap justify-center gap-2 mt-4">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- =========================================================
+    DUMMY DATA
+    ========================================================= -->
+<script>
+    const newsletters = [
 
+        {
+            id: 1,
+            title: "Newsletter July 2025",
+            file: "./assets/pdf/news1.pdf"
+        },
+
+        {
+            id: 2,
+            title: "March – April Newsletter",
+            file: "./assets/pdf/news2.pdf"
+        },
+
+        {
+            id: 3,
+            title: "Newsletter Jan-Feb 2024",
+            file: "./assets/pdf/news3.pdf"
+        },
+
+        {
+            id: 4,
+            title: "Newsletter September – October 2023",
+            file: "./assets/pdf/news4.pdf"
+        },
+
+        {
+            id: 5,
+            title: "Newsletter July – August 2023",
+            file: "./assets/pdf/news5.pdf"
+        },
+
+        {
+            id: 6,
+            title: "Newsletter May 2023",
+            file: "./assets/pdf/news6.pdf"
+        },
+
+        {
+            id: 7,
+            title: "Newsletter January 2023",
+            file: "./assets/pdf/news7.pdf"
+        },
+
+        {
+            id: 8,
+            title: "Newsletter December 2022",
+            file: "./assets/pdf/news8.pdf"
+        },
+
+    ];
+</script>
+<!-- =========================================================
+    AJAX STYLE JS
+    ========================================================= -->
+<script>
+    const table = document.getElementById("newsletterTable");
+
+    const pagination = document.getElementById("newsletterPagination");
+
+    const loader = document.getElementById("newsletterLoader");
+
+    const content = document.getElementById("newsletterContent");
+
+    const searchInput = document.getElementById("searchInput");
+
+    const perPageSelect = document.getElementById("perPage");
+
+    let currentPage = 1;
+
+    let perPage = 5;
+
+    let search = "";
+
+    // =====================================================
+    // SHOW LOADER
+    // =====================================================
+
+    function showLoader() {
+
+        loader.classList.remove("hidden");
+
+        content.style.opacity = ".3";
+
+        content.style.pointerEvents = "none";
+
+    }
+
+    // =====================================================
+    // HIDE LOADER
+    // =====================================================
+
+    function hideLoader() {
+
+        loader.classList.add("hidden");
+
+        content.style.opacity = "1";
+
+        content.style.pointerEvents = "auto";
+
+    }
+
+    // =====================================================
+    // TABLE
+    // =====================================================
+
+    function renderTable(data) {
+
+        table.innerHTML = "";
+
+        if (data.length === 0) {
+
+            table.innerHTML = `
+    
+                <tr>
+    
+                    <td colspan="3"
+                        class="px-4 py-8 text-center text-gray-500 text-sm">
+    
+                        No newsletter found.
+    
+                    </td>
+    
+                </tr>
+    
+            `;
+
+            return;
+
+        }
+
+        data.forEach((item, index) => {
+
+            table.innerHTML += `
+    
+                <tr class="border-b border-gray-200 hover:bg-[#f8fbff] transition-all duration-300">
+    
+                    <!-- ID -->
+                    <td class="px-3 md:px-4 py-3 md:py-4
+                        text-[13px] md:text-[15px]
+                        text-gray-700 font-medium">
+    
+                        ${index + 1}
+    
+                    </td>
+    
+                    <!-- TITLE -->
+                    <td class="px-3 md:px-4 py-3 md:py-4
+                        text-[13px] md:text-[15px]
+                        text-gray-700 font-medium leading-relaxed">
+    
+                        ${item.title}
+    
+                    </td>
+    
+                    <!-- DOWNLOAD -->
+                    <td class="px-3 md:px-4 py-3 md:py-4">
+    
+                        <a href="${item.file}"
+                            download
+                            class="w-10 h-10 md:w-11 md:h-11
+                            rounded-[10px]
+                            bg-primary hover:bg-secondary
+                            text-white text-sm
+                            inline-flex items-center justify-center
+                            transition-all duration-300 hover:-translate-y-1">
+    
+                            <i class="fa-solid fa-download"></i>
+    
+                        </a>
+    
+                    </td>
+    
+                </tr>
+    
+            `;
+
+        });
+
+    }
+
+    // =====================================================
+    // PAGINATION
+    // =====================================================
+
+    function renderPagination(totalPages) {
+
+        pagination.innerHTML = "";
+
+        for (let i = 1; i <= totalPages; i++) {
+
+            pagination.innerHTML += `
+    
+                <button
+                    class="min-w-[40px] h-10 px-4 
+                    border border-gray-300
+                    text-[13px] md:text-[14px]
+                    font-bold
+                    transition-all duration-300
+    
+                    ${currentPage === i
+    
+                        ? 'bg-secondary text-white border-secondary'
+    
+                        : 'bg-white text-primary hover:bg-secondary hover:text-white hover:border-secondary'
+                    }"
+    
+                    onclick="changePage(${i})">
+    
+                    ${i}
+    
+                </button>
+    
+            `;
+
+        }
+
+    }
+
+    // =====================================================
+    // FETCH DATA
+    // =====================================================
+
+    function fetchNewsletters() {
+
+        showLoader();
+
+        setTimeout(() => {
+
+            let filtered = newsletters.filter(item =>
+
+                item.title.toLowerCase().includes(search.toLowerCase())
+
+            );
+
+            const totalPages = Math.ceil(filtered.length / perPage);
+
+            const start = (currentPage - 1) * perPage;
+
+            const end = start + perPage;
+
+            const paginated = filtered.slice(start, end);
+
+            renderTable(paginated);
+
+            renderPagination(totalPages);
+
+            hideLoader();
+
+        }, 2000);
+
+    }
+
+    // =====================================================
+    // PAGE CHANGE
+    // =====================================================
+
+    function changePage(page) {
+
+        currentPage = page;
+
+        fetchNewsletters();
+
+    }
+
+    // =====================================================
+    // PER PAGE
+    // =====================================================
+
+    perPageSelect.addEventListener("change", (e) => {
+
+        perPage = parseInt(e.target.value);
+
+        currentPage = 1;
+
+        fetchNewsletters();
+
+    });
+
+    // =====================================================
+    // SEARCH DEBOUNCE
+    // =====================================================
+
+    let typingTimer;
+
+    searchInput.addEventListener("keyup", (e) => {
+
+        clearTimeout(typingTimer);
+
+        typingTimer = setTimeout(() => {
+
+            search = e.target.value;
+
+            currentPage = 1;
+
+            fetchNewsletters();
+
+        }, 1000);
+
+    });
+
+    // =====================================================
+    // INITIAL LOAD
+    // =====================================================
+
+    fetchNewsletters();
+</script>
 <!-- script for the sticky footer bar  -->
 <script>
     const stickyBar = document.getElementById("stickyBar");
