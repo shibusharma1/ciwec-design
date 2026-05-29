@@ -1,7 +1,7 @@
 <button
     id="backToTop"
     aria-label="Back to top"
-    class="fixed bottom-5 right-5 z-50
+    class="fixed bottom-20 right-5 z-50
            w-11 h-11 md:w-12 md:h-12
            bg-[#0b2c5f]
            border-l-[3px] border-t-[3px] border-[#d71920]

@@ -10,7 +10,7 @@
 
     <link rel="icon" type="image/png" href="assets/img/logo.png">
     <!-- links -->
- 
+
     <!-- Swiper js CDN -->
     <link
         rel="stylesheet"
@@ -54,6 +54,13 @@
 </head>
 
 <body class="font-roboto">
+
+
+    <?php
+    include 'topbar.php';
+    ?>
+
+
     <!-- MOBILE OVERLAY -->
     <div id="overlay"
         class="mobile-overlay fixed inset-0 bg-black/60 z-[90]"></div>
@@ -258,8 +265,40 @@
                 </nav>
 
                 <div class="flex item-center gap-6">
-                    <button id="searchToggle" class="search-pulse text-[28px] text-primary">
+                    <!-- <button id="searchToggle" class="search-pulse text-[28px] text-primary">
                         <i class="fa-solid fa-magnifying-glass"></i>
+                    </button> -->
+                    <button
+                        id="searchToggle"
+                        class="group search-pulse hidden md:flex items-center
+           gap-3 px-4 py-2 rounded-full
+           border border-secondary
+           bg-white/80 backdrop-blur-sm
+           hover:bg-primary hover:text-white
+           hover:border-primary
+           transition-all duration-300">
+
+                        <i
+                            class="fa-solid fa-magnifying-glass text-[20px]
+               group-hover:rotate-12 transition-all duration-300">
+                        </i>
+
+                        <span
+                            class="hidden lg:block text-sm font-semibold uppercase tracking-wider">
+
+                            Search
+
+                        </span>
+
+                    </button>
+
+                    <!-- Mobile Icon Only -->
+                    <button
+                        id="searchToggleMobile"
+                        class="md:hidden search-pulse text-[28px] text-primary">
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
                     </button>
                     <button id="menuToggle" class="lg:hidden text-[32px] text-primary">
                         <i class="fa-solid fa-bars"></i>

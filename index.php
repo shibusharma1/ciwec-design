@@ -926,7 +926,7 @@ WHATS NEW SECTION
                             </h3>
 
                             <p class="text-gray-600 text-[15px] md:text-[17px] leading-7">
-                                Take charge of your well-being with a healthcare experience customised for you.
+                                Take charge of your health with a personalized healthcare experience designed around your needs and lifestyle.
                             </p>
                         </div>
 
@@ -1472,25 +1472,554 @@ WHATS NEW SECTION
     </div>
 </section>
 
+
+
+
+
+
+
+
+<!-- Statistics section -->
+<section class="relative overflow-hidden bg-primary py-16 md:py-20 xl:py-24">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 opacity-[0.05]">
+        <div class="absolute inset-0"
+            style="
+            background-image: radial-gradient(white 1px, transparent 1px);
+            background-size: 30px 30px;
+            ">
+        </div>
+    </div>
+    <div class="container-custom relative z-10">
+        <div class="grid xl:grid-cols-2 gap-12 xl:gap-16 items-center">
+            <!-- LEFT -->
+            <div>
+                <span
+                    class="inline-block text-secondary text-sm md:text-base font-bold uppercase tracking-wider mb-4">
+                    Trusted Worldwide
+                </span>
+                <h2
+                    class="text-white text-[28px] md:text-[40px] xl:text-[52px] font-black leading-tight mb-6">
+                    Delivering Quality Healthcare To Patients From Around The World
+                </h2>
+                <p
+                    class="text-white/90 text-sm md:text-lg leading-8 max-w-2xl mb-8">
+                    CIWEC Hospital has served international travelers, expatriates,
+                    diplomats, aid workers and local communities for more than
+                    four decades, providing trusted healthcare services with
+                    global standards.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#"
+                        class="btn-light">
+                        Learn More
+                    </a>
+                    <a href="#"
+                        class="inline-flex items-center justify-center bg-secondary hover:bg-primary text-white text-sm md:text-base font-bold px-7 md:px-8 py-3.5 md:py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+            <!-- RIGHT -->
+            <!-- <div>
+                <img
+                    src="./assets/img/world-health-map.jpg"
+                    alt="Global Reach"
+                    class="w-full max-w-[650px] mx-auto">
+            </div> -->
+            <div class="relative">
+                <!-- <img src="./assets/img/world-map.svg"> -->
+                <img
+                    src="./assets/img/world-map.svg"
+                    alt="World Map"
+                    class="w-full max-w-[650px] mx-auto">
+                <div class="absolute top-[35%] left-[70%] w-4 h-4 bg-secondary rounded-full animate-ping"></div>
+                <!-- <div class="absolute top-[50%] left-[40%] w-4 h-4 bg-secondary rounded-full animate-ping"></div> -->
+                <!-- <div class="absolute top-[60%] left-[75%] w-4 h-4 bg-secondary rounded-full animate-ping"></div> -->
+            </div>
+        </div>
+        <!-- STATS -->
+        <div
+            class="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-16 md:mt-20">
+            <!-- Item -->
+            <div class="text-center">
+                <h3
+                    class="counter text-white text-3xl md:text-5xl font-black"
+                    data-target="20000">
+                    0
+                </h3>
+                <p
+                    class="text-white/90 text-sm md:text-base mt-3">
+                    International Patients
+                </p>
+            </div>
+            <!-- Item -->
+            <div class="text-center">
+                <h3
+                    class="counter text-white text-3xl md:text-5xl font-black"
+                    data-target="130">
+                    0
+                </h3>
+                <p
+                    class="text-white/90 text-sm md:text-base mt-3">
+                    Countries Served
+                </p>
+            </div>
+            <!-- Item -->
+            <div class="text-center">
+                <h3
+                    class="counter text-white text-3xl md:text-5xl font-black"
+                    data-target="40">
+                    0
+                </h3>
+                <p
+                    class="text-white/90 text-sm md:text-base mt-3">
+                    Years Of Excellence
+                </p>
+            </div>
+            <!-- Item -->
+            <div class="text-center">
+                <h3
+                    class="counter text-white text-3xl md:text-5xl font-black"
+                    data-target="2">
+                    0
+                </h3>
+                <p
+                    class="text-white/90 text-sm md:text-base mt-3">
+                    Hospital Locations
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                document.querySelectorAll(".counter").forEach(counter => {
+                    const target = +counter.dataset.target;
+                    let current = 0;
+                    const increment = target / 120;
+                    const updateCounter = () => {
+                        if (current < target) {
+                            current += increment;
+                            counter.innerText = Math.floor(current);
+                            requestAnimationFrame(updateCounter);
+                        } else {
+                            counter.innerText = target.toLocaleString() + "+";
+                        }
+                    };
+                    updateCounter();
+                });
+                observer.disconnect();
+            }
+        });
+    });
+    observer.observe(document.querySelector(".counter"));
+</script>
+
+
+
+
+<style>
+    .history-year {
+        position: relative;
+        z-index: 2;
+
+        width: 70px;
+        height: 70px;
+
+        border-radius: 999px;
+
+        background: white;
+
+        border: 3px solid #dbe2ea;
+
+        font-weight: 700;
+
+        color: var(--primary-color);
+
+        transition: .3s;
+    }
+
+    .history-year:hover,
+    .history-year.active {
+
+        background: var(--secondary-color);
+
+        border-color: var(--secondary-color);
+
+        color: white;
+
+    }
+
+    .history-mobile-item {
+
+        display: flex;
+
+        gap: 16px;
+
+        align-items: flex-start;
+
+    }
+
+    .history-dot {
+
+        width: 14px;
+
+        height: 14px;
+
+        border-radius: 999px;
+
+        background: var(--secondary-color);
+
+        margin-top: 8px;
+
+        flex-shrink: 0;
+
+    }
+
+    .history-mobile-year {
+
+        color: var(--primary-color);
+
+        font-weight: 800;
+
+        font-size: 18px;
+
+        margin-bottom: 4px;
+
+    }
+
+    .history-mobile-text {
+
+        color: #6b7280;
+
+        line-height: 1.7;
+
+    }
+</style>
+<section class="section-padding bg-[#f5f8fc] overflow-hidden">
+
+    <div class="container-custom">
+
+        <!-- HEADING -->
+        <div class="text-center mb-12">
+
+            <span
+                class="inline-block text-secondary text-sm md:text-base font-bold uppercase tracking-wider mb-3">
+
+                Our Journey
+
+            </span>
+
+            <h2 class="section-title">
+
+                CIWEC Hospital History
+
+            </h2>
+
+        </div>
+
+        <!-- TIMELINE -->
+        <div class="relative mb-12 hidden lg:block">
+
+            <div
+                class="absolute top-1/2 left-0 right-0 h-[3px] bg-gray-200 -translate-y-1/2">
+            </div>
+
+            <div class="grid grid-cols-6 gap-4">
+
+                <button
+                    class="history-year active"
+                    data-year="1982">
+
+                    1982
+
+                </button>
+
+                <button
+                    class="history-year"
+                    data-year="2000">
+
+                    2000
+
+                </button>
+
+                <button
+                    class="history-year"
+                    data-year="2005">
+
+                    2005
+
+                </button>
+
+                <button
+                    class="history-year"
+                    data-year="2014">
+
+                    2014
+
+                </button>
+
+                <button
+                    class="history-year"
+                    data-year="2020">
+
+                    2020
+
+                </button>
+
+                <button
+                    class="history-year"
+                    data-year="2025">
+
+                    2025
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- CONTENT -->
+        <div
+            class="bg-white rounded-[24px] overflow-hidden shadow-[0_10px_35px_rgba(0,0,0,.06)]">
+
+            <div
+                class="grid lg:grid-cols-2 items-center">
+
+                <!-- IMAGE -->
+                <div>
+
+                    <img
+                        id="historyImage"
+                        src="./assets/img/history-1982.jpg"
+                        class="w-full h-[280px] md:h-[420px] object-cover">
+
+                </div>
+
+                <!-- CONTENT -->
+                <div
+                    class="p-6 md:p-10 xl:p-14">
+
+                    <span
+                        id="historyYear"
+                        class="inline-block text-secondary font-bold text-sm uppercase mb-3">
+
+                        1982
+
+                    </span>
+
+                    <h3
+                        id="historyTitle"
+                        class="text-primary text-2xl md:text-3xl font-black mb-5">
+
+                        Foundation Of CIWEC
+
+                    </h3>
+
+                    <div
+                        class="w-20 h-[4px] bg-secondary mb-6">
+                    </div>
+
+                    <p
+                        id="historyDescription"
+                        class="text-gray-600 text-sm md:text-lg leading-8">
+
+                        CIWEC was established in 1982 to provide western-standard
+                        healthcare services to diplomats, expatriates, aid workers,
+                        travelers and local communities in Nepal.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- MOBILE TIMELINE -->
+        <div class="lg:hidden mt-10">
+
+            <div class="space-y-5">
+
+                <div class="history-mobile-item">
+
+                    <div class="history-dot"></div>
+
+                    <div>
+
+                        <h4 class="history-mobile-year">
+
+                            1982
+
+                        </h4>
+
+                        <p class="history-mobile-text">
+
+                            CIWEC founded.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="history-mobile-item">
+
+                    <div class="history-dot"></div>
+
+                    <div>
+
+                        <h4 class="history-mobile-year">
+
+                            2005
+
+                        </h4>
+
+                        <p class="history-mobile-text">
+
+                            Expanded medical services.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="history-mobile-item">
+
+                    <div class="history-dot"></div>
+
+                    <div>
+
+                        <h4 class="history-mobile-year">
+
+                            2014
+
+                        </h4>
+
+                        <p class="history-mobile-text">
+
+                            Opened Pokhara Hospital.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<script>
+    const historyData = {
+
+        1982: {
+            title: "Foundation Of CIWEC",
+            image: "./assets/img/history/history1.webp",
+            description: "CIWEC was established in 1982..."
+        },
+
+        2000: {
+            title: "Service Expansion",
+            image: "./assets/img/history/history2.webp",
+            description: "Expanded specialist healthcare..."
+        },
+
+        2005: {
+            title: "Modern Medical Facilities",
+            image: "./assets/img/history/history3.webp",
+            description: "Introduced advanced diagnostics..."
+        },
+
+        2014: {
+            title: "CIWEC Pokhara Opened",
+            image: "./assets/img/history/history1.webp",
+            description: "Opened fully equipped Pokhara hospital..."
+        },
+
+        2020: {
+            title: "Enhanced Global Care",
+            image: "./assets/img/history/history2.webp",
+            description: "Strengthened international patient services..."
+        },
+
+        2025: {
+            title: "Future Ready Healthcare",
+            image: "./assets/img/history/history3.webp",
+            description: "Continued innovation and excellence..."
+        }
+
+    };
+
+    document.querySelectorAll(".history-year").forEach(button => {
+
+        button.addEventListener("click", () => {
+
+            document.querySelectorAll(".history-year")
+                .forEach(btn => btn.classList.remove("active"));
+
+            button.classList.add("active");
+
+            const year = button.dataset.year;
+
+            document.getElementById("historyYear").textContent = year;
+            document.getElementById("historyTitle").textContent = historyData[year].title;
+            document.getElementById("historyDescription").textContent = historyData[year].description;
+            document.getElementById("historyImage").src = historyData[year].image;
+
+        });
+
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- =========================================================
     NEWSLETTER SECTION
     ========================================================= -->
 <section class="section-padding bg-[#f5f8fc] overflow-hidden">
     <div class="container-custom">
         <!-- TOP -->
-        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6 md:mb-8">
-            <h2 class="section-title">
+        <div class="flex flex-row justify-between gap-4 mb-4 md:mb-4">
+            <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-5 uppercase">
                 Newsletter
             </h2>
             <a href="#"
-                class="btn-primary text-sm md:text-base">
+                class="inline-flex items-center justify-center bg-secondary hover:bg-primary text-white text-sm md:text-base font-bold px-7 md:px-8 py-3.5 md:py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
                 See All
             </a>
         </div>
         <!-- CARD -->
         <div class="bg-white shadow-[0_8px_30px_rgba(0,0,0,.05)] p-4 md:p-6 xl:p-8">
             <!-- FILTER -->
-            <div class="flex flex-row items-center justify-between gap-4 mb-4">
+            <div class="flex flex-row items-end justify-between gap-4 mb-4">
                 <!-- SHOW -->
                 <div class="flex items-center gap-2">
                     <select id="perPage"
@@ -1539,7 +2068,7 @@ WHATS NEW SECTION
             <div id="newsletterContent">
                 <!-- TABLE -->
                 <div class="overflow-x-auto">
-                    <table class="w-full min-w-[650px]">
+                    <table class="w-full">
                         <!-- HEAD -->
                         <thead>
                             <tr class="border-b-2 border-gray-200">
@@ -1716,7 +2245,7 @@ WHATS NEW SECTION
                 <tr class="border-b border-gray-200 hover:bg-[#f8fbff] transition-all duration-300">
     
                     <!-- ID -->
-                    <td class="px-3 md:px-4 py-3 md:py-4
+                    <td class="px-3 md:px-4 py-3 md:py-2
                         text-[13px] md:text-[15px]
                         text-gray-700 font-medium">
     
@@ -1725,7 +2254,7 @@ WHATS NEW SECTION
                     </td>
     
                     <!-- TITLE -->
-                    <td class="px-3 md:px-4 py-3 md:py-4
+                    <td class="px-3 md:px-4 py-3 md:py-2
                         text-[13px] md:text-[15px]
                         text-gray-700 font-medium leading-relaxed">
     
@@ -1739,7 +2268,6 @@ WHATS NEW SECTION
                         <a href="${item.file}"
                             download
                             class="w-10 h-10 md:w-11 md:h-11
-                            rounded-[10px]
                             bg-primary hover:bg-secondary
                             text-white text-sm
                             inline-flex items-center justify-center
