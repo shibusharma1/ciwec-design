@@ -40,23 +40,23 @@
                     </h3>
                     <div class="grid gap-3">
                         <a href="#"
-                            class="text-white text-sm font-semibold hover:text-primary transition-all">
+                            class="text-white text-sm font-semibold hover:text-secondary transition-all">
                             Home
                         </a>
                         <a href="#"
-                            class="text-white text-sm font-semibold hover:text-primary transition-all">
+                            class="text-white text-sm font-semibold hover:text-secondary transition-all">
                             About Us
                         </a>
                         <a href="#"
-                            class="text-white text-sm font-semibold hover:text-primary transition-all">
+                            class="text-white text-sm font-semibold hover:text-secondary transition-all">
                             Health Information
                         </a>
                         <a href="#"
-                            class="text-white text-sm font-semibold hover:text-primary transition-all">
+                            class="text-white text-sm font-semibold hover:text-secondary transition-all">
                             Services
                         </a>
                         <a href="#"
-                            class="text-white text-sm font-semibold hover:text-primary transition-all">
+                            class="text-white text-sm font-semibold hover:text-secondary transition-all">
                             Doctors At CIWEC
                         </a>
                     </div>
@@ -82,12 +82,12 @@
                     <!-- SOCIAL -->
                     <div class="flex items-center gap-6 mt-6">
                         <a href="#"
-                            class="flex items-center gap-2 text-white text-sm font-semibold hover:text-primary transition-all">
+                            class="flex items-center gap-2 text-white text-sm font-semibold hover:text-secondary transition-all">
                             <i class="fa-brands fa-facebook-f text-lg"></i>
                             Facebook
                         </a>
                         <a href="#"
-                            class="flex items-center gap-2 text-white text-sm font-semibold hover:text-primary transition-all">
+                            class="flex items-center gap-2 text-white text-sm font-semibold hover:text-secondary transition-all">
                             <i class="fa-brands fa-instagram text-lg"></i>
                             Instagram
                         </a>
@@ -107,11 +107,11 @@
                 </p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="#"
-                        class="text-xs md:text-sm text-gray-600 hover:text-primary">
+                        class="text-xs md:text-sm text-gray-600 hover:text-secondary">
                         Terms & Conditions
                     </a>
                     <a href="#"
-                        class="text-xs md:text-sm text-gray-600 hover:text-primary">
+                        class="text-xs md:text-sm text-gray-600 hover:text-secondary">
                         Privacy Policy
                     </a>
                 </div>
