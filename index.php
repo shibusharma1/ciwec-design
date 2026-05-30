@@ -2277,5 +2277,4 @@ WHATS NEW SECTION
     fetchNewsletters();
 </script>
 
-
 <?php include './include/footer.php'; ?>
