@@ -32,7 +32,7 @@
             <!-- RIGHT -->
             <div class="flex items-center justify-center md:justify-end gap-2">
                 <span
-                    class="w-2 h-2 rounded-full bg-secondary animate-pulse">
+                    class="w-3 h-3 rounded-full bg-secondary animate-pulse">
                 </span>
                 <span
                     class="text-white text-xs md:text-sm font-medium">

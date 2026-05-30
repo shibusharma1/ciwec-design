@@ -18,6 +18,7 @@ ROOT VARIABLES
   --bg-color-light: #ebf0f5;
   --bg-color-white: #ffffff;
 }
+
 /* =========================================================
 GLOBAL RESET
 ========================================================= */
@@ -31,10 +32,10 @@ HTML & BODY
 ========================================================= */
 html {
   scroll-behavior: smooth;
-  font-size: 16px;
+  font-size: 18px;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   background: var(--bg-color-light);
   overflow-x: hidden;
   color: var(--text-color);
@@ -100,21 +101,24 @@ SECTION SPACING
 SECTION TITLE
 ========================================================= */
 .section-title {
-  font-size: 24px;
+  font-size: 28px;
   line-height: 1;
   font-weight: 900;
+  margin-bottom: 0.75rem; /* 12px */
   color: var(--primary);
 }
+
 /* Tablet */
 @media (min-width: 768px) {
   .section-title {
-    font-size: 46px;
+    font-size: 32px;
   }
 }
+
 /* Desktop */
 @media (min-width: 1280px) {
   .section-title {
-    font-size: 58px;
+    font-size: 40px;
   }
 }
 
@@ -214,6 +218,7 @@ PRIMARY BUTTON
   font-weight: 700;
   border: 2px solid var(--secondary);
   transition: 0.3s;
+  border-radius: 0.75rem;
 }
 /* Hover */
 .btn-primary:hover {
@@ -234,6 +239,7 @@ LIGHT BUTTON
   font-weight: 700;
   border: 2px solid white;
   transition: 0.3s;
+  border-radius: 0.75rem;
 }
 /* Hover */
 .btn-light:hover {
@@ -263,7 +269,7 @@ REVIEW CARD
 ========================================================= */
 .review-card {
   position: relative;
-  background: #FFF3F3;
+  background: #fff3f3;
   padding: 56px 45px;
   height: 100%;
   transition: 0.3s;
@@ -524,7 +530,3 @@ FOOTER SOCIAL
 .footer-social:hover {
   opacity: 0.8;
 }
-
-
-
-

@@ -1,19 +1,69 @@
 <?php include './include/header.php'; ?>
 
+<style>
+    .history-year {
+        position: relative;
+        z-index: 2;
+        width: 65px;
+        height: 65px;
+        border-radius: 999px;
+        background: white;
+        border: 3px solid #dbe2ea;
+        font-weight: 700;
+        color: var(--primary);
+        transition: .3s;
+    }
+
+    .history-year:hover,
+    .history-year.active {
+        background: var(--secondary);
+        border-color: var(--secondary);
+        color: white;
+    }
+
+    .history-mobile-item {
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .history-dot {
+        width: 14px;
+        height: 14px;
+        border-radius: 999px;
+        background: var(--secondary);
+        margin-top: 8px;
+        flex-shrink: 0;
+    }
+
+    .history-mobile-year {
+        color: var(--primary);
+        font-weight: 800;
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .history-mobile-text {
+        color: #6b7280;
+        line-height: 1.7;
+    }
+</style>
+
 <!-- HERO -->
 <section class="relative overflow-visible">
-    <div class="relative h-[80vh] md:h-[85vh] xl:h-[90vh]">
+    <div class="relative h-[75vh] md:h-[80vh] xl:h-[88vh]">
         <!-- VIDEO -->
         <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline>
             <source src="./assets/vdo/banner.mp4" type="video/mp4">
         </video>
         <!-- OVERLAY -->
-        <div class="absolute inset-0 bg-black/30"></div>
+        <div class="absolute rounded-xl inset-0 bg-black/30"></div>
     </div>
+
     <!-- STICKY ACTION BAR -->
     <div id="actionBar"
         class="absolute left-1/2 bottom-0 -translate-x-1/2 translate-y-1/2 w-full px-3 sm:px-4 z-20">
-        <div class="max-w-5xl mx-auto bg-secondary text-white shadow-xl overflow-hidden">
+        <div class="max-w-5xl rounded-xl mx-auto bg-secondary text-white shadow-xl overflow-hidden">
             <!-- FORCE SINGLE ROW ALWAYS -->
             <div class="grid grid-cols-3 divide-x divide-white/30">
                 <!-- FIND A DOCTOR -->
@@ -41,7 +91,6 @@
         </div>
     </div>
 </section>
-
 
 <!-- Sticky bar at the bottom 0 -->
 <div id="stickyBar"
@@ -97,6 +146,7 @@
         </div>
     </div>
 </section>
+
 <!-- =========================
 SPECIALITY CENTERS
 ========================= -->
@@ -358,10 +408,231 @@ SPECIALITY CENTERS
         <div class="speciality-pagination mt-10 flex justify-center"></div>
     </div>
 </section>
-<!-- WHY CIWEC -->
-<section class="relative section-padding bg-[#f3f6f9]">
+
+<!-- =========================
+Our History
+========================= -->
+<section class="section-padding bg-[#f5f8fc] overflow-hidden">
     <div class="container-custom">
-        <!-- Heading -->
+        <!-- HEADING -->
+        <div class="text-center mb-8">
+            <span
+                class="inline-block text-secondary text-sm md:text-base font-bold uppercase tracking-wider mb-3">
+                Our Journey
+            </span>
+            <h2 class="section-title">
+                CIWEC Hospital History
+            </h2>
+        </div>
+        <!-- TIMELINE -->
+        <div class="relative mb-8 hidden lg:block">
+            <div
+                class="absolute top-1/2 left-0 right-0 h-[3px] bg-gray-200 -translate-y-1/2">
+            </div>
+            <div class="grid grid-cols-6 gap-44">
+                <button
+                    class="history-year active"
+                    data-year="1982">
+                    1982
+                </button>
+                <button
+                    class="history-year"
+                    data-year="2000">
+                    2000
+                </button>
+                <button
+                    class="history-year"
+                    data-year="2005">
+                    2005
+                </button>
+                <button
+                    class="history-year"
+                    data-year="2014">
+                    2014
+                </button>
+                <button
+                    class="history-year"
+                    data-year="2020">
+                    2020
+                </button>
+                <button
+                    class="history-year"
+                    data-year="2025">
+                    2025
+                </button>
+            </div>
+        </div>
+        <!-- CONTENT -->
+        <div
+            class="bg-white rounded-[0.75rem] overflow-hidden shadow-[0_10px_35px_rgba(0,0,0,.06)]">
+            <div class="grid lg:grid-cols-2 items-center">
+                <!-- IMAGE -->
+                <div>
+                    <img id="historyImage" src="./assets/img/history-1982.jpg" class="w-full h-[280px] md:h-[420px] object-cover">
+                </div>
+                <!-- CONTENT -->
+                <div class="p-6 md:p-8 xl:p-12">
+                    <span id="historyYear" class="inline-block text-secondary font-bold text-sm uppercase mb-3">
+                        1982
+                    </span>
+                    <h3 id="historyTitle" class="text-primary text-2xl md:text-3xl font-black mb-5">
+                        Foundation Of CIWEC
+                    </h3>
+                    <div
+                        class="w-20 h-[4px] bg-secondary mb-6">
+                    </div>
+                    <p id="historyDescription" class="text-gray-600 text-sm md:text-lg leading-8">
+                        CIWEC was established in 1982 to provide western-standard
+                        healthcare services to diplomats, expatriates, aid workers,
+                        travelers and local communities in Nepal.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- MOBILE TIMELINE -->
+        <div class="lg:hidden mt-10">
+            <div class="space-y-5">
+                <div class="history-mobile-item">
+                    <div class="history-dot"></div>
+                    <div>
+                        <h4 class="history-mobile-year">
+                            1982
+                        </h4>
+                        <p class="history-mobile-text">
+                            CIWEC founded.
+                        </p>
+                    </div>
+                </div>
+                <div class="history-mobile-item">
+                    <div class="history-dot"></div>
+                    <div>
+                        <h4 class="history-mobile-year">
+                            2005
+                        </h4>
+                        <p class="history-mobile-text">
+                            Expanded medical services.
+                        </p>
+                    </div>
+                </div>
+                <div class="history-mobile-item">
+                    <div class="history-dot"></div>
+                    <div>
+                        <h4 class="history-mobile-year">
+                            2014
+                        </h4>
+                        <p class="history-mobile-text">
+                            Opened Pokhara Hospital.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // const historyData = {
+
+    //     1982: {
+    //         title: "Foundation Of CIWEC",
+    //         image: "./assets/img/history/history1.webp",
+    //         description: "CIWEC was established in 1982 to provide western-standard healthcare services to diplomats, expatriates, aid workers,travelers and local communities in Nepal."
+    //     },
+
+    //     2000: {
+    //         title: "Service Expansion",
+    //         image: "./assets/img/history/history2.webp",
+    //         description: "Expanded specialist healthcare..."
+    //     },
+
+    //     2005: {
+    //         title: "Modern Medical Facilities",
+    //         image: "./assets/img/history/history3.webp",
+    //         description: "Introduced advanced diagnostics..."
+    //     },
+
+    //     2014: {
+    //         title: "CIWEC Pokhara Opened",
+    //         image: "./assets/img/history/history1.webp",
+    //         description: "Opened fully equipped Pokhara hospital..."
+    //     },
+
+    //     2020: {
+    //         title: "Enhanced Global Care",
+    //         image: "./assets/img/history/history2.webp",
+    //         description: "Strengthened international patient services..."
+    //     },
+
+    //     2025: {
+    //         title: "Future Ready Healthcare",
+    //         image: "./assets/img/history/history3.webp",
+    //         description: "Continued innovation and excellence..."
+    //     }
+
+    // };
+    const historyData = {
+
+        1982: {
+            title: "Foundation Of CIWEC",
+            image: "./assets/img/history/history1.webp",
+            description: "CIWEC Hospital was established in 1982 with a vision to provide international-standard healthcare services in Nepal. Initially serving diplomats, expatriates, aid workers, and travelers, the institution quickly earned a reputation for delivering high-quality medical care through experienced professionals, advanced diagnostics, and a patient-centered approach."
+        },
+
+        2000: {
+            title: "Service Expansion",
+            image: "./assets/img/history/history2.webp",
+            description: "As healthcare needs continued to evolve, CIWEC expanded its range of medical services and specialties. New departments, enhanced outpatient care, and comprehensive preventive health programs were introduced, enabling the hospital to serve a broader community while maintaining its commitment to international healthcare standards."
+        },
+
+        2005: {
+            title: "Modern Medical Facilities",
+            image: "./assets/img/history/history3.webp",
+            description: "CIWEC invested significantly in modern medical technology and infrastructure, introducing advanced diagnostic equipment, improved laboratory services, and upgraded clinical facilities. These developments strengthened the hospital's ability to provide accurate diagnoses, efficient treatments, and a higher standard of patient care."
+        },
+
+        2014: {
+            title: "CIWEC Pokhara Opened",
+            image: "./assets/img/history/history1.webp",
+            description: "Expanding beyond Kathmandu, CIWEC established its Pokhara facility in 2014 to provide trusted healthcare services to residents, travelers, trekkers, and international visitors in western Nepal. The new center offered comprehensive medical care while maintaining the same quality and expertise that defined the CIWEC brand."
+        },
+
+        2020: {
+            title: "Enhanced Global Care",
+            image: "./assets/img/history/history2.webp",
+            description: "During a period of global healthcare challenges, CIWEC strengthened its international patient support services and emergency response capabilities. Enhanced telemedicine solutions, infection prevention measures, and coordinated care systems ensured patients continued to receive safe, reliable, and accessible healthcare."
+        },
+
+        2025: {
+            title: "Future Ready Healthcare",
+            image: "./assets/img/history/history3.webp",
+            description: "Building on decades of excellence, CIWEC continues to embrace innovation, digital transformation, and patient-focused healthcare solutions. With ongoing investments in technology, medical expertise, and service quality, the institution remains dedicated to shaping the future of healthcare in Nepal while delivering exceptional care to every patient."
+        }
+    };
+
+    document.querySelectorAll(".history-year").forEach(button => {
+
+        button.addEventListener("click", () => {
+
+            document.querySelectorAll(".history-year")
+                .forEach(btn => btn.classList.remove("active"));
+
+            button.classList.add("active");
+
+            const year = button.dataset.year;
+
+            document.getElementById("historyYear").textContent = year;
+            document.getElementById("historyTitle").textContent = historyData[year].title;
+            document.getElementById("historyDescription").textContent = historyData[year].description;
+            document.getElementById("historyImage").src = historyData[year].image;
+
+        });
+
+    });
+</script>
+
+<!-- WHY CIWEC -->
+<!-- <section class="relative section-padding bg-[#f3f6f9]">
+    <div class="container-custom">
         <div class="text-center mb-20">
             <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-3">
                 Why CIWEC
@@ -370,9 +641,7 @@ SPECIALITY CENTERS
                 • 42 years of experience • Friendly and quiet environment • 24/7 availability of seasoned post graduate doctors/nurses • Doctors and senior nurses certified by ISTM in Travel Health • Best nurse to patient ratio • Short waiting time for appointments, diagnosis and reports • End to end handling of insurance cases
             </p>
         </div>
-        <!-- Grid -->
         <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-14">
-            <!-- Item -->
             <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
                 <img src="./assets/img/ISO-Certified-company-logo.webp"
                     class="w-24 h-24 object-contain">
@@ -385,7 +654,6 @@ SPECIALITY CENTERS
                     </p>
                 </div>
             </div>
-            <!-- Item -->
             <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
                 <img src="./assets/img/consulting.webp"
                     class="w-24 h-24 rounded-full object-cover">
@@ -398,7 +666,6 @@ SPECIALITY CENTERS
                     </p>
                 </div>
             </div>
-            <!-- Item -->
             <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
                 <img src="./assets/img/42-years.webp"
                     class="w-24 h-24 rounded-full object-cover">
@@ -411,7 +678,6 @@ SPECIALITY CENTERS
                     </p>
                 </div>
             </div>
-            <!-- Item -->
             <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
                 <img src="./assets/img/170.webp"
                     class="w-24 h-24 rounded-full object-cover">
@@ -424,7 +690,6 @@ SPECIALITY CENTERS
                     </p>
                 </div>
             </div>
-            <!-- Item -->
             <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
                 <img src="./assets/img/3000.webp"
                     class="w-24 h-24 rounded-full object-cover">
@@ -437,7 +702,6 @@ SPECIALITY CENTERS
                     </p>
                 </div>
             </div>
-            <!-- Item -->
             <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
                 <img src="./assets/img/circular.webp"
                     class="w-24 h-24 rounded-full object-cover">
@@ -450,7 +714,6 @@ SPECIALITY CENTERS
                     </p>
                 </div>
             </div>
-            <!-- Item -->
             <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
                 <img src="./assets/img/ismt_certified.webp"
                     class="w-24 h-24 rounded-full object-cover">
@@ -463,14 +726,12 @@ SPECIALITY CENTERS
                     </p>
                 </div>
             </div>
-
         </div>
     </div>
-</section>
-
+</section> -->
 
 <!-- Circular design of why ciwec -->
-<section class="relative overflow-hidden bg-[#f3f6f9] py-6 md:py-8 xl:py-10 border-4 border-t-primary">
+<section class="relative overflow-hidden bg-[#ebf0f5] py-6 md:py-8 xl:py-10">
     <!-- BACKGROUND -->
     <div class="absolute inset-0 opacity-[0.03]"
         style="background-image:url('https://www.transparenttextures.com/patterns/wavy-lines.png');">
@@ -498,7 +759,7 @@ SPECIALITY CENTERS
             </div>
             <!-- CENTER -->
             <div
-                class="relative w-[300px] h-[300px] rounded-full overflow-hidden border-[8px] border-white shadow-[0_18px_50px_rgba(0,0,0,.10)] z-20 bg-white flex items-center justify-center mb-8">
+                class="relative w-[350px] h-[350px] rounded-full overflow-hidden border-[8px] border-white shadow-[0_18px_50px_rgba(0,0,0,.10)] z-20 bg-white flex items-center justify-center mb-8">
                 <div class="text-center px-8">
                     <h3 class="text-primary text-[34px] font-black leading-tight mb-4">
                         Why CIWEC
@@ -766,149 +1027,111 @@ SPECIALITY CENTERS
     </div>
 </section>
 
-
-<!-- =========================
-    WHATS NEW SECTION
-    ========================= -->
 <!-- =========================
 WHATS NEW SECTION
 ========================= -->
-<section class="py-16 lg:py-20 bg-[#f5f5f5] overflow-hidden">
+<section class="py-16 lg:py-20 bg-[#f5f8fc] overflow-hidden">
     <div class="max-w-7xl mx-auto px-5 lg:px-8">
-
         <!-- HEADING -->
         <div class="text-center mb-8 lg:mb-12">
             <h2 class="text-primary text-3xl md:text-4xl font-black">
                 What's New
             </h2>
-        </div>
 
+            <p class="max-w-3xl mx-auto text-gray-600 text-sm md:text-base leading-relaxed">
+                Stay informed about our latest healthcare services and innovations, designed to provide expert care, greater convenience, and a seamless patient experience for you and your family.
+            </p>
+        </div>
         <!-- GRID -->
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
-
             <!-- LEFT LARGE CARD -->
             <div class="lg:col-span-4">
-                <div class="bg-white overflow-hidden shadow-md hover:shadow-xl transition duration-500 h-full group">
-
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-500 h-full group">
                     <!-- IMAGE -->
                     <div class="overflow-hidden">
-                        <img
-                            src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1200&auto=format&fit=crop"
-                            alt=""
-                            class="w-full h-[240px] md:h-[280px] object-cover group-hover:scale-105 transition duration-700">
+                        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1200&auto=format&fit=crop" alt="" class="w-full h-[240px] md:h-[280px] object-cover group-hover:scale-105 transition duration-700">
                     </div>
-
                     <!-- CONTENT -->
                     <div class="p-6 md:p-8 flex flex-col justify-between">
-
                         <div>
                             <h3 class="text-primary text-[28px] md:text-[32px] font-bold leading-tight mb-4">
                                 Second Opinion
                             </h3>
-
                             <p class="text-gray-600 text-[15px] md:text-[17px] leading-7">
                                 Confirm diagnosis and take informed decision about your treatment plan with some of Nepal’s top experts.
                             </p>
                         </div>
-
                         <!-- BOTTOM -->
                         <div class="flex items-center justify-between mt-8">
-
                             <a href="#"
                                 class="inline-flex items-center gap-3 text-primary font-semibold text-[15px] hover:text-secondary transition">
-
                                 Know More
-
                                 <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center text-xs">
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </span>
                             </a>
-
                             <div class="text-secondary/20 text-[34px]">
                                 <i class="fa-solid fa-user-doctor"></i>
                             </div>
-
                         </div>
-
                     </div>
                 </div>
             </div>
-
             <!-- CENTER SMALL CARDS -->
             <div class="lg:col-span-4">
                 <div class="grid grid-cols-1 gap-6 h-full">
-
                     <!-- CARD -->
-                    <div class="bg-white shadow-md hover:shadow-xl transition duration-500 p-6 md:p-8 flex flex-col justify-between">
-
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-500 p-6 md:p-8 flex flex-col justify-between">
                         <div>
                             <h3 class="text-primary text-[24px] md:text-[28px] font-bold leading-tight mb-4">
                                 Buy Medicine
                             </h3>
-
                             <p class="text-gray-600 text-[15px] leading-7">
                                 Recover without worrying about going out to buy reliable medication delivered to your doorstep.
                             </p>
                         </div>
 
                         <div class="flex items-center justify-between mt-8">
-
                             <a href="#"
                                 class="inline-flex items-center gap-3 text-primary font-semibold text-[15px] hover:text-secondary transition">
-
                                 Know More
-
                                 <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center text-xs">
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </span>
                             </a>
-
                             <div class="text-secondary/20 text-[30px]">
                                 <i class="fa-solid fa-capsules"></i>
                             </div>
-
                         </div>
                     </div>
-
                     <!-- CARD -->
-                    <div class="bg-white shadow-md hover:shadow-xl transition duration-500 p-6 md:p-8 flex flex-col justify-between">
-
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-500 p-6 md:p-8 flex flex-col justify-between">
                         <div>
                             <h3 class="text-primary text-[24px] md:text-[28px] font-bold leading-tight mb-4">
                                 Labs & Diagnostics
                             </h3>
-
                             <p class="text-gray-600 text-[15px] leading-7">
                                 Advanced diagnostics with modern infrastructure and expert medical professionals.
                             </p>
                         </div>
-
                         <div class="flex items-center justify-between mt-8">
-
                             <a href="#"
                                 class="inline-flex items-center gap-3 text-primary font-semibold text-[15px] hover:text-secondary transition">
-
                                 Know More
-
                                 <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center text-xs">
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </span>
                             </a>
-
                             <div class="text-secondary/20 text-[30px]">
                                 <i class="fa-solid fa-flask-vial"></i>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </div>
-
             <!-- RIGHT LARGE CARD -->
             <div class="lg:col-span-4">
-                <div class="bg-white overflow-hidden shadow-md hover:shadow-xl transition duration-500 h-full group">
-
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-500 h-full group">
                     <!-- IMAGE -->
                     <div class="overflow-hidden">
                         <img
@@ -916,48 +1139,38 @@ WHATS NEW SECTION
                             alt=""
                             class="w-full h-[240px] md:h-[280px] object-cover group-hover:scale-105 transition duration-700">
                     </div>
-
                     <!-- CONTENT -->
                     <div class="p-6 md:p-8 flex flex-col justify-between">
-
                         <div>
                             <h3 class="text-primary text-[28px] md:text-[32px] font-bold leading-tight mb-4">
                                 Health Check
                             </h3>
-
                             <p class="text-gray-600 text-[15px] md:text-[17px] leading-7">
                                 Take charge of your health with a personalized healthcare experience designed around your needs and lifestyle.
                             </p>
                         </div>
-
                         <!-- BOTTOM -->
                         <div class="flex items-center justify-between mt-8">
-
                             <a href="#"
                                 class="inline-flex items-center gap-3 text-primary font-semibold text-[15px] hover:text-secondary transition">
-
                                 Know More
-
                                 <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center text-xs">
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </span>
                             </a>
-
                             <div class="text-secondary/20 text-[34px]">
                                 <i class="fa-solid fa-heart-pulse"></i>
                             </div>
-
                         </div>
-
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
+
 <!-- ACCOMMODATION -->
-<section class="section-padding">
+<!-- <section class="section-padding">
     <div class="container-custom">
         <div class="text-center mb-8">
             <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-3 uppercase">
@@ -967,9 +1180,7 @@ WHATS NEW SECTION
                 Patient comfort and accommodation are closely intertwined aspects of healthcare that focus on creating a supportive and conducive environment for individuals receiving medical care. The quality of patient accommodation significantly impacts the overall comfort and well-being of patients.
             </p>
         </div>
-        <!-- Cards -->
         <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-6">
-            <!-- Card -->
             <div class="feature-card">
                 <div class="w-[45px] h-[45px] rounded-full bg-[#D50505] text-white text-[24px] text-center mx-auto flex items-center justify-center">
                     <i class="text-sm fa-solid fa-bed"></i>
@@ -978,7 +1189,6 @@ WHATS NEW SECTION
                     Electronically Adjustable Beds
                 </h3>
             </div>
-            <!-- Card -->
             <div class="feature-card">
                 <div class="w-[45px] h-[45px] rounded-full bg-[#D50505] text-white text-[24px] text-center mx-auto flex items-center justify-center">
                     <i class="text-sm fa-solid fa-user-nurse"></i>
@@ -987,7 +1197,6 @@ WHATS NEW SECTION
                     Computerized Personal Nurse Call System
                 </h3>
             </div>
-            <!-- Card -->
             <div class="feature-card">
                 <div class="w-[45px] h-[45px] rounded-full bg-[#D50505] text-white text-[24px] text-center mx-auto flex items-center justify-center">
                     <i class="text-sm fa-solid fa-tv"></i>
@@ -996,7 +1205,6 @@ WHATS NEW SECTION
                     Digital TV For Entertainment
                 </h3>
             </div>
-            <!-- Card -->
             <div class="feature-card">
                 <div class="w-[45px] h-[45px] rounded-full bg-[#D50505] text-white text-[24px] text-center mx-auto flex items-center justify-center">
                     <i class="text-sm fa-solid fa-bread-slice"></i>
@@ -1005,7 +1213,6 @@ WHATS NEW SECTION
                     Healthy And Hygienic Food
                 </h3>
             </div>
-            <!-- Card -->
             <div class="feature-card">
                 <div class="w-[45px] h-[45px] rounded-full bg-[#D50505] text-white text-[24px] text-center mx-auto flex items-center justify-center">
                     <i class="text-sm fa-solid fa-wifi"></i>
@@ -1014,7 +1221,6 @@ WHATS NEW SECTION
                     Hi-Speed Wifi
                 </h3>
             </div>
-            <!-- Card -->
             <div class="feature-card">
                 <div class="w-[45px] h-[45px] rounded-full bg-[#D50505] text-white text-[24px] text-center mx-auto flex items-center justify-center">
                     <i class="text-sm fa-solid fa-phone"></i>
@@ -1025,13 +1231,12 @@ WHATS NEW SECTION
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- =========================================
    OUR DOCTORS SECTION
-   MODERN • RESPONSIVE • CIWEC THEME
-   ========================================= -->
-<section class="relative overflow-hidden bg-[#f3f6f9] py-10 md:py-14 xl:py-16">
+========================================= -->
+<section class="relative overflow-hidden bg-[#EBF0F5] py-10 md:py-14 xl:py-16">
     <!-- BACKGROUND PATTERN -->
     <div class="absolute inset-0 opacity-[0.03]"
         style="background-image:url('https://www.transparenttextures.com/patterns/wavy-lines.png');">
@@ -1041,8 +1246,7 @@ WHATS NEW SECTION
             <!-- =========================================
             DOCTOR CARD 1
             ========================================= -->
-            <div
-                class="group bg-white overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_18px_40px_rgba(0,0,0,.10)] transition-all duration-500">
+            <div class="group rounded-xl bg-white overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_18px_40px_rgba(0,0,0,.10)] transition-all duration-500">
                 <!-- IMAGE -->
                 <div class="relative overflow-hidden">
                     <img src="./assets/doctors/doc1.jpg"
@@ -1069,8 +1273,7 @@ WHATS NEW SECTION
             <!-- =========================================
             DOCTOR CARD 2
             ========================================= -->
-            <div
-                class="group bg-white overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_18px_40px_rgba(0,0,0,.10)] transition-all duration-500">
+            <div class="group rounded-xl bg-white overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_18px_40px_rgba(0,0,0,.10)] transition-all duration-500">
                 <!-- IMAGE -->
                 <div class="relative overflow-hidden">
                     <img src="./assets/doctors/doc2.jpg"
@@ -1108,20 +1311,19 @@ WHATS NEW SECTION
                 </div>
                 <!-- MAIN TITLE -->
                 <h2
-                    class="text-primary text-[30px] md:text-[40px] xl:text-[46px] font-black leading-tight mb-5">
+                    class="section-title mb-5">
                     Meet our Specialists
                 </h2>
                 <!-- DESCRIPTION -->
                 <p
                     class="text-gray-600 text-[15px] md:text-[17px] leading-7 md:leading-8 mb-8 max-w-[560px]">
-                    Our experienced doctors from Kathmandu and Pokhara provide world-class healthcare,
-                    travel medicine expertise, compassionate consultation, and patient-centered care
-                    with international standards.
+                    Our experienced doctors in Kathmandu and Pokhara provide world-class healthcare, travel medicine expertise, and compassionate patient-centered care.
                 </p>
                 <!-- BUTTON -->
                 <div>
                     <a href="#"
-                        class="inline-flex items-center justify-center bg-secondary hover:bg-primary text-white text-sm md:text-base font-bold px-7 md:px-8 py-3.5 md:py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                        class="btn-primary">
+                        <!-- class="inline-flex items-center justify-center bg-secondary hover:bg-primary text-white text-sm md:text-base font-bold px-7 md:px-8 py-3.5 md:py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"> -->
                         VIEW ALL DOCTORS
                     </a>
                 </div>
@@ -1129,16 +1331,22 @@ WHATS NEW SECTION
         </div>
     </div>
 </section>
+
 <!-- =====================================================
     PATIENT STORIES SECTION
-    ===================================================== -->
-<section class="relative py-10 md:py-14 xl:py-16 bg-[#f7f7f7] overflow-hidden">
+===================================================== -->
+<section class="relative py-10 md:py-14 xl:py-16 bg-[#f5f8fc] overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
         <div class="text-center mb-8 md:mb-10">
             <h2 class="text-primary text-[24px] md:text-[30px] xl:text-[36px] font-black leading-tight">
                 Patient Stories
             </h2>
+
+            <p class="max-w-3xl mx-auto text-gray-600 text-sm md:text-base leading-relaxed">
+                CIWEC Hospital has been recognized nationally and internationally
+                for excellence in healthcare, travel medicine and patient care.
+            </p>
         </div>
         <!-- =====================================================
             DESKTOP GRID
@@ -1348,9 +1556,9 @@ WHATS NEW SECTION
     VIDEO MODAL
     ===================================================== -->
 <div id="videoModal"
-    class="fixed inset-0 z-[9999] hidden items-center justify-center bg-black/80 px-4">
+    class="fixed inset-0 z-[9999] hidden items-center rounded-xl justify-center bg-black/80 px-4">
     <!-- MODAL BOX -->
-    <div class="relative w-full max-w-5xl bg-black">
+    <div class="relative rounded-xl w-full max-w-5xl bg-black">
         <!-- CLOSE -->
         <button id="closeVideoModal"
             class="absolute -top-12 right-0 text-white text-3xl hover:text-secondary transition-all duration-300 z-50">
@@ -1359,125 +1567,11 @@ WHATS NEW SECTION
         <!-- VIDEO -->
         <video id="storyVideo"
             controls
-            class="w-full h-auto max-h-[85vh] bg-black">
+            class="w-full h-auto rounded-xl max-h-[85vh] bg-black">
             <source src="" type="video/mp4">
         </video>
     </div>
 </div>
-
-<!-- TESTIMONIAL -->
-<section class="section-padding bg-[#ffffff]">
-    <div class="container-custom">
-        <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-5 uppercase">
-            Patient Feedback (Google Review)
-        </h2>
-
-        <!-- Reviews -->
-        <div class="swiper reviewSwiper">
-            <div class="swiper-wrapper">
-                <!-- REVIEW -->
-                <div class="swiper-slide">
-                    <div class="review-card h-full">
-                        <div class="absolute top-6 right-6 text-secondary text-3xl md:text-5xl">
-                            <i class="fa-solid fa-quote-right"></i>
-                        </div>
-                        <img src="https://randomuser.me/api/portraits/men/32.jpg"
-                            class="w-20 h-20 rounded-full mb-6">
-                        <h3 class="text-[18px] md:text-[22px] font-black text-primary mb-2">
-                            Joris Van Dorpe
-                        </h3>
-                        <div class="text-orange-500 text-lg mb-4">
-                            ★★★★★
-                        </div>
-                        <p class="text-[15px] md:text-[17px] leading-[1.8] text-gray-600">
-                            Thank you so much CIWEC Hospital for all your amazing care. All of the staff was super friendly and made me feel at home immediately.
-                            <a href="#"
-                                class="text-secondary font-semibold ml-1 hover:underline">
-                                Read more
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <!-- REVIEW -->
-                <div class="swiper-slide">
-                    <div class="review-card h-full">
-                        <div class="absolute top-6 right-6 text-secondary text-3xl md:text-5xl">
-                            <i class="fa-solid fa-quote-right"></i>
-                        </div>
-                        <img src="https://randomuser.me/api/portraits/women/32.jpg"
-                            class="w-20 h-20 rounded-full mb-6">
-                        <h3 class="text-[18px] md:text-[22px] font-black text-primary mb-2">
-                            Ashley Hagaman
-                        </h3>
-                        <div class="text-orange-500 text-lg mb-4">
-                            ★★★★★
-                        </div>
-                        <p class="text-[15px] md:text-[17px] leading-[1.8] text-gray-600">
-                            Dr Sandee Gupta cared for me when I took a fall hiking in the Himalayas. He was very professional and showed great concern.
-                            <a href="#"
-                                class="text-secondary font-semibold ml-1 hover:underline">
-                                Read more
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <!-- REVIEW -->
-                <div class="swiper-slide">
-                    <div class="review-card h-full">
-                        <div class="absolute top-6 right-6 text-secondary text-3xl md:text-5xl">
-                            <i class="fa-solid fa-quote-right"></i>
-                        </div>
-                        <img src="https://randomuser.me/api/portraits/men/45.jpg"
-                            class="w-20 h-20 rounded-full mb-6">
-                        <h3 class="text-[18px] md:text-[22px] font-black text-primary mb-2">
-                            Andrew Attard
-                        </h3>
-                        <div class="text-orange-500 text-lg mb-4">
-                            ★★★★★
-                        </div>
-                        <p class="text-[15px] md:text-[17px] leading-[1.8] text-gray-600">
-                            Excellent care and support from the whole medical team. The experience was extremely professional.
-                            <a href="#"
-                                class="text-secondary font-semibold ml-1 hover:underline">
-                                Read more
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <!-- REVIEW -->
-                <div class="swiper-slide">
-                    <div class="review-card h-full">
-                        <div class="absolute top-6 right-6 text-secondary text-3xl md:text-5xl">
-                            <i class="fa-solid fa-quote-right"></i>
-                        </div>
-                        <img src="https://randomuser.me/api/portraits/men/45.jpg"
-                            class="w-20 h-20 rounded-full mb-6">
-                        <h3 class="text-[18px] md:text-[22px] font-black text-primary mb-2">
-                            John Attard
-                        </h3>
-                        <div class="text-orange-500 text-lg mb-4">
-                            ★★★★★
-                        </div>
-                        <p class="text-[15px] md:text-[17px] leading-[1.8] text-gray-600">
-                            Good care and support from the whole medical team. The Well experienced was extremely professional.
-                            <a href="#"
-                                class="text-secondary font-semibold ml-1 hover:underline">
-                                Read more
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-
 
 <!-- Statistics section -->
 <section class="relative overflow-hidden bg-primary py-16 md:py-20 xl:py-24">
@@ -1515,7 +1609,8 @@ WHATS NEW SECTION
                         Learn More
                     </a>
                     <a href="#"
-                        class="inline-flex items-center justify-center bg-secondary hover:bg-primary text-white text-sm md:text-base font-bold px-7 md:px-8 py-3.5 md:py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                        class="btn-primary">
+                        <!-- class="inline-flex items-center justify-center bg-secondary hover:bg-primary text-white text-sm md:text-base font-bold px-7 md:px-8 py-3.5 md:py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"> -->
                         Contact Us
                     </a>
                 </div>
@@ -1533,7 +1628,7 @@ WHATS NEW SECTION
                     src="./assets/img/world-map.svg"
                     alt="World Map"
                     class="w-full max-w-[650px] mx-auto">
-                <div class="absolute top-[35%] left-[70%] w-4 h-4 bg-secondary rounded-full animate-ping"></div>
+                <div class="absolute top-[35%] left-[71%] w-4 h-4 bg-secondary rounded-full animate-ping"></div>
                 <!-- <div class="absolute top-[50%] left-[40%] w-4 h-4 bg-secondary rounded-full animate-ping"></div> -->
                 <!-- <div class="absolute top-[60%] left-[75%] w-4 h-4 bg-secondary rounded-full animate-ping"></div> -->
             </div>
@@ -1619,405 +1714,285 @@ WHATS NEW SECTION
     observer.observe(document.querySelector(".counter"));
 </script>
 
-
-
-
-<style>
-    .history-year {
-        position: relative;
-        z-index: 2;
-
-        width: 70px;
-        height: 70px;
-
-        border-radius: 999px;
-
-        background: white;
-
-        border: 3px solid #dbe2ea;
-
-        font-weight: 700;
-
-        color: var(--primary-color);
-
-        transition: .3s;
-    }
-
-    .history-year:hover,
-    .history-year.active {
-
-        background: var(--secondary-color);
-
-        border-color: var(--secondary-color);
-
-        color: white;
-
-    }
-
-    .history-mobile-item {
-
-        display: flex;
-
-        gap: 16px;
-
-        align-items: flex-start;
-
-    }
-
-    .history-dot {
-
-        width: 14px;
-
-        height: 14px;
-
-        border-radius: 999px;
-
-        background: var(--secondary-color);
-
-        margin-top: 8px;
-
-        flex-shrink: 0;
-
-    }
-
-    .history-mobile-year {
-
-        color: var(--primary-color);
-
-        font-weight: 800;
-
-        font-size: 18px;
-
-        margin-bottom: 4px;
-
-    }
-
-    .history-mobile-text {
-
-        color: #6b7280;
-
-        line-height: 1.7;
-
-    }
-</style>
-<section class="section-padding bg-[#f5f8fc] overflow-hidden">
-
+<!-- TESTIMONIAL -->
+<section class="section-padding bg-[#ebf0f5]">
     <div class="container-custom">
-
-        <!-- HEADING -->
-        <div class="text-center mb-12">
-
-            <span
-                class="inline-block text-secondary text-sm md:text-base font-bold uppercase tracking-wider mb-3">
-
-                Our Journey
-
-            </span>
-
-            <h2 class="section-title">
-
-                CIWEC Hospital History
-
-            </h2>
-
-        </div>
-
-        <!-- TIMELINE -->
-        <div class="relative mb-12 hidden lg:block">
-
-            <div
-                class="absolute top-1/2 left-0 right-0 h-[3px] bg-gray-200 -translate-y-1/2">
-            </div>
-
-            <div class="grid grid-cols-6 gap-4">
-
-                <button
-                    class="history-year active"
-                    data-year="1982">
-
-                    1982
-
-                </button>
-
-                <button
-                    class="history-year"
-                    data-year="2000">
-
-                    2000
-
-                </button>
-
-                <button
-                    class="history-year"
-                    data-year="2005">
-
-                    2005
-
-                </button>
-
-                <button
-                    class="history-year"
-                    data-year="2014">
-
-                    2014
-
-                </button>
-
-                <button
-                    class="history-year"
-                    data-year="2020">
-
-                    2020
-
-                </button>
-
-                <button
-                    class="history-year"
-                    data-year="2025">
-
-                    2025
-
-                </button>
-
-            </div>
-
-        </div>
-
-        <!-- CONTENT -->
-        <div
-            class="bg-white rounded-[24px] overflow-hidden shadow-[0_10px_35px_rgba(0,0,0,.06)]">
-
-            <div
-                class="grid lg:grid-cols-2 items-center">
-
-                <!-- IMAGE -->
-                <div>
-
-                    <img
-                        id="historyImage"
-                        src="./assets/img/history-1982.jpg"
-                        class="w-full h-[280px] md:h-[420px] object-cover">
-
-                </div>
-
-                <!-- CONTENT -->
-                <div
-                    class="p-6 md:p-10 xl:p-14">
-
-                    <span
-                        id="historyYear"
-                        class="inline-block text-secondary font-bold text-sm uppercase mb-3">
-
-                        1982
-
-                    </span>
-
-                    <h3
-                        id="historyTitle"
-                        class="text-primary text-2xl md:text-3xl font-black mb-5">
-
-                        Foundation Of CIWEC
-
-                    </h3>
-
-                    <div
-                        class="w-20 h-[4px] bg-secondary mb-6">
-                    </div>
-
-                    <p
-                        id="historyDescription"
-                        class="text-gray-600 text-sm md:text-lg leading-8">
-
-                        CIWEC was established in 1982 to provide western-standard
-                        healthcare services to diplomats, expatriates, aid workers,
-                        travelers and local communities in Nepal.
-
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- MOBILE TIMELINE -->
-        <div class="lg:hidden mt-10">
-
-            <div class="space-y-5">
-
-                <div class="history-mobile-item">
-
-                    <div class="history-dot"></div>
-
-                    <div>
-
-                        <h4 class="history-mobile-year">
-
-                            1982
-
-                        </h4>
-
-                        <p class="history-mobile-text">
-
-                            CIWEC founded.
-
+        <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-5 uppercase">
+            Patient Feedback (Google Review)
+        </h2>
+        
+        <!-- Reviews -->
+        <div class="swiper reviewSwiper">
+            <div class="swiper-wrapper">
+                <!-- REVIEW -->
+                <div class="swiper-slide">
+                    <div class="review-card rounded-2xl h-full">
+                        <div class="absolute top-6 right-6 text-secondary text-3xl md:text-5xl">
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg"
+                            class="w-20 h-20 rounded-full mb-6">
+                        <h3 class="text-[18px] md:text-[22px] font-black text-primary mb-2">
+                            Joris Van Dorpe
+                        </h3>
+                        <div class="text-orange-500 text-lg mb-4">
+                            ★★★★★
+                        </div>
+                        <p class="text-[15px] md:text-[17px] leading-[1.8] text-gray-600">
+                            Thank you so much CIWEC Hospital for all your amazing care. All of the staff was super friendly and made me feel at home immediately.
+                            <a href="#"
+                                class="text-secondary font-semibold ml-1 hover:underline">
+                                Read more
+                            </a>
                         </p>
-
                     </div>
-
                 </div>
-
-                <div class="history-mobile-item">
-
-                    <div class="history-dot"></div>
-
-                    <div>
-
-                        <h4 class="history-mobile-year">
-
-                            2005
-
-                        </h4>
-
-                        <p class="history-mobile-text">
-
-                            Expanded medical services.
-
+                <!-- REVIEW -->
+                <div class="swiper-slide">
+                    <div class="review-card rounded-2xl h-full">
+                        <div class="absolute top-6 right-6 text-secondary text-3xl md:text-5xl">
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg"
+                            class="w-20 h-20 rounded-full mb-6">
+                        <h3 class="text-[18px] md:text-[22px] font-black text-primary mb-2">
+                            Ashley Hagaman
+                        </h3>
+                        <div class="text-orange-500 text-lg mb-4">
+                            ★★★★★
+                        </div>
+                        <p class="text-[15px] md:text-[17px] leading-[1.8] text-gray-600">
+                            Dr Sandee Gupta cared for me when I took a fall hiking in the Himalayas. He was very professional and showed great concern.
+                            <a href="#"
+                                class="text-secondary font-semibold ml-1 hover:underline">
+                                Read more
+                            </a>
                         </p>
-
                     </div>
-
                 </div>
-
-                <div class="history-mobile-item">
-
-                    <div class="history-dot"></div>
-
-                    <div>
-
-                        <h4 class="history-mobile-year">
-
-                            2014
-
-                        </h4>
-
-                        <p class="history-mobile-text">
-
-                            Opened Pokhara Hospital.
-
+                <!-- REVIEW -->
+                <div class="swiper-slide">
+                    <div class="review-card rounded-2xl h-full">
+                        <div class="absolute top-6 right-6 text-secondary text-3xl md:text-5xl">
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg"
+                            class="w-20 h-20 rounded-full mb-6">
+                        <h3 class="text-[18px] md:text-[22px] font-black text-primary mb-2">
+                            Andrew Attard
+                        </h3>
+                        <div class="text-orange-500 text-lg mb-4">
+                            ★★★★★
+                        </div>
+                        <p class="text-[15px] md:text-[17px] leading-[1.8] text-gray-600">
+                            Excellent care and support from the whole medical team. The experience was extremely professional.
+                            <a href="#"
+                                class="text-secondary font-semibold ml-1 hover:underline">
+                                Read more
+                            </a>
                         </p>
-
                     </div>
-
                 </div>
-
+                <!-- REVIEW -->
+                <div class="swiper-slide">
+                    <div class="review-card rounded-2xl h-full">
+                        <div class="absolute top-6 right-6 text-secondary text-3xl md:text-5xl">
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg"
+                            class="w-20 h-20 rounded-full mb-6">
+                        <h3 class="text-[18px] md:text-[22px] font-black text-primary mb-2">
+                            John Attard
+                        </h3>
+                        <div class="text-orange-500 text-lg mb-4">
+                            ★★★★★
+                        </div>
+                        <p class="text-[15px] md:text-[17px] leading-[1.8] text-gray-600">
+                            Good care and support from the whole medical team. The Well experienced was extremely professional.
+                            <a href="#"
+                                class="text-secondary font-semibold ml-1 hover:underline">
+                                Read more
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
-
         </div>
-
     </div>
-
 </section>
+
+
+<!-- Awards and Recognition -->
+<section class="section-padding bg-[#f5f8fc]">
+   <div class="container-custom">
+      <!-- Heading -->
+      <div class="text-center mb-10 lg:mb-14">
+         <!-- <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-3"> -->
+            <h2 class="section-title mb-3">
+            Awards & Recognitions
+         </h2>
+         <p class="max-w-3xl mx-auto text-gray-600 text-sm md:text-base leading-relaxed">
+            CIWEC Hospital has been recognized nationally and internationally
+            for excellence in healthcare, travel medicine and patient care.
+         </p>
+      </div>
+      <div class="swiper awardSwiper">
+         <div class="swiper-wrapper">
+            <!-- CARD -->
+            <div class="swiper-slide h-auto">
+               <div
+                  class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
+                  <div
+                     class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-secondary/10 flex items-center justify-center">
+                     <i class="fa-solid fa-award text-secondary text-2xl md:text-3xl"></i>
+                  </div>
+                  <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
+                     2025
+                  </div>
+                  <h3 class="text-primary text-lg md:text-xl font-black mb-4">
+                     Best Travel Medicine Hospital
+                  </h3>
+                  <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
+                     Recognized for excellence in travel medicine,
+                     preventive healthcare and international patient care.
+                  </p>
+                  <span
+                     class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
+                  International Healthcare Forum
+                  </span>
+               </div>
+            </div>
+            <!-- CARD -->
+            <div class="swiper-slide h-auto">
+               <div
+                  class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
+                  <div
+                     class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-primary/10 flex items-center justify-center">
+                     <i class="fa-solid fa-trophy text-primary text-2xl md:text-3xl"></i>
+                  </div>
+                  <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
+                     2024
+                  </div>
+                  <h3 class="text-primary text-lg md:text-xl font-black mb-4">
+                     Healthcare Excellence Award
+                  </h3>
+                  <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
+                     Awarded for delivering exceptional healthcare services,
+                     patient safety and innovation.
+                  </p>
+                  <span
+                     class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
+                  Nepal Medical Association
+                  </span>
+               </div>
+            </div>
+            <!-- CARD -->
+            <div class="swiper-slide h-auto">
+               <div
+                  class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
+                  <div
+                     class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-secondary/10 flex items-center justify-center">
+                     <i class="fa-solid fa-medal text-secondary text-2xl md:text-3xl"></i>
+                  </div>
+                  <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
+                     2023
+                  </div>
+                  <h3 class="text-primary text-lg md:text-xl font-black mb-4">
+                     Quality Healthcare Recognition
+                  </h3>
+                  <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
+                     Honored for maintaining international standards
+                     in healthcare quality and patient satisfaction.
+                  </p>
+                  <span
+                     class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
+                  Global Healthcare Council
+                  </span>
+               </div>
+            </div>
+            <!-- CARD -->
+            <div class="swiper-slide h-auto">
+               <div
+                  class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
+                  <div
+                     class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-primary/10 flex items-center justify-center">
+                     <i class="fa-solid fa-star text-primary text-2xl md:text-3xl"></i>
+                  </div>
+                  <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
+                     2022
+                  </div>
+                  <h3 class="text-primary text-lg md:text-xl font-black mb-4">
+                     Excellence In Patient Care
+                  </h3>
+                  <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
+                     Recognized for exceptional patient satisfaction
+                     and international healthcare standards.
+                  </p>
+                  <span
+                     class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
+                  Healthcare Excellence Council
+                  </span>
+               </div>
+            </div>
+         </div>
+         <!-- Pagination -->
+         <div class="award-pagination flex justify-center mt-10"></div>
+      </div>
+   </div>
+</section>
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+
 <script>
-    const historyData = {
+    document.addEventListener("DOMContentLoaded", function() {
+        new Swiper(".awardSwiper", {
+            loop: true,
+            speed: 1000,
+            spaceBetween: 24,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            },
 
-        1982: {
-            title: "Foundation Of CIWEC",
-            image: "./assets/img/history/history1.webp",
-            description: "CIWEC was established in 1982..."
-        },
+            pagination: {
+                el: ".award-pagination",
+                clickable: true,
+            },
 
-        2000: {
-            title: "Service Expansion",
-            image: "./assets/img/history/history2.webp",
-            description: "Expanded specialist healthcare..."
-        },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
 
-        2005: {
-            title: "Modern Medical Facilities",
-            image: "./assets/img/history/history3.webp",
-            description: "Introduced advanced diagnostics..."
-        },
+                768: {
+                    slidesPerView: 2,
+                },
 
-        2014: {
-            title: "CIWEC Pokhara Opened",
-            image: "./assets/img/history/history1.webp",
-            description: "Opened fully equipped Pokhara hospital..."
-        },
-
-        2020: {
-            title: "Enhanced Global Care",
-            image: "./assets/img/history/history2.webp",
-            description: "Strengthened international patient services..."
-        },
-
-        2025: {
-            title: "Future Ready Healthcare",
-            image: "./assets/img/history/history3.webp",
-            description: "Continued innovation and excellence..."
-        }
-
-    };
-
-    document.querySelectorAll(".history-year").forEach(button => {
-
-        button.addEventListener("click", () => {
-
-            document.querySelectorAll(".history-year")
-                .forEach(btn => btn.classList.remove("active"));
-
-            button.classList.add("active");
-
-            const year = button.dataset.year;
-
-            document.getElementById("historyYear").textContent = year;
-            document.getElementById("historyTitle").textContent = historyData[year].title;
-            document.getElementById("historyDescription").textContent = historyData[year].description;
-            document.getElementById("historyImage").src = historyData[year].image;
-
+                1280: {
+                    slidesPerView: 3,
+                },
+            },
         });
-
     });
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- =========================================================
     NEWSLETTER SECTION
     ========================================================= -->
-<section class="section-padding bg-[#f5f8fc] overflow-hidden">
+<section class="section-padding bg-[#ebf0f5] overflow-hidden">
     <div class="container-custom">
         <!-- TOP -->
-        <div class="flex flex-row justify-between gap-4 mb-4 md:mb-4">
-            <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-5 uppercase">
+        <div class="flex flex-row item-center justify-between gap-4 mb-4 md:mb-4">
+            <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black uppercase">
                 Newsletter
             </h2>
             <a href="#"
-                class="inline-flex items-center justify-center bg-secondary hover:bg-primary text-white text-sm md:text-base font-bold px-7 md:px-8 py-3.5 md:py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                class="btn-primary">
                 See All
             </a>
         </div>
         <!-- CARD -->
-        <div class="bg-white shadow-[0_8px_30px_rgba(0,0,0,.05)] p-4 md:p-6 xl:p-8">
+        <div class="bg-white rounded-xl shadow-[0_8px_30px_rgba(0,0,0,.05)] p-4 md:p-6 xl:p-8">
             <!-- FILTER -->
             <div class="flex flex-row items-end justify-between gap-4 mb-4">
                 <!-- SHOW -->
@@ -2025,6 +2000,7 @@ WHATS NEW SECTION
                     <select id="perPage"
                         class="h-10 md:h-11 px-3 md:px-4
                         border border-gray-300 bg-white
+                        rounded-xl
                         text-[13px] md:text-[14px]
                         text-gray-700 outline-none
                         focus:border-secondary
@@ -2033,7 +2009,7 @@ WHATS NEW SECTION
                         <option value="10">10</option>
                         <option value="20">20</option>
                     </select>
-                    <span class="text-[13px] md:text-[14px] text-gray-600 font-medium">
+                    <span class="text-[16px] md:text-[18px] text-gray-600 font-medium">
                         entries
                     </span>
                 </div>
@@ -2047,7 +2023,7 @@ WHATS NEW SECTION
                         id="searchInput"
                         placeholder="Search newsletter..."
                         class="w-full sm:w-[240px] md:w-[280px]
-                        h-10 md:h-11 px-4
+                        h-10 md:h-11 px-4 rounded-xl
                         border border-gray-300
                         text-[13px] md:text-[14px]
                         text-gray-700
@@ -2103,6 +2079,7 @@ WHATS NEW SECTION
         </div>
     </div>
 </section>
+
 <!-- =========================================================
     DUMMY DATA
     ========================================================= -->
@@ -2164,21 +2141,13 @@ WHATS NEW SECTION
     ========================================================= -->
 <script>
     const table = document.getElementById("newsletterTable");
-
     const pagination = document.getElementById("newsletterPagination");
-
     const loader = document.getElementById("newsletterLoader");
-
     const content = document.getElementById("newsletterContent");
-
     const searchInput = document.getElementById("searchInput");
-
     const perPageSelect = document.getElementById("perPage");
-
     let currentPage = 1;
-
     let perPage = 5;
-
     let search = "";
 
     // =====================================================
@@ -2186,233 +2155,149 @@ WHATS NEW SECTION
     // =====================================================
 
     function showLoader() {
-
         loader.classList.remove("hidden");
-
         content.style.opacity = ".3";
-
         content.style.pointerEvents = "none";
-
     }
 
     // =====================================================
     // HIDE LOADER
     // =====================================================
-
     function hideLoader() {
-
         loader.classList.add("hidden");
-
         content.style.opacity = "1";
-
         content.style.pointerEvents = "auto";
-
     }
 
     // =====================================================
     // TABLE
     // =====================================================
-
     function renderTable(data) {
-
         table.innerHTML = "";
-
         if (data.length === 0) {
-
             table.innerHTML = `
-    
                 <tr>
-    
-                    <td colspan="3"
-                        class="px-4 py-8 text-center text-gray-500 text-sm">
-    
+                    <td colspan="3" class="px-4 py-8 text-center text-gray-500 text-sm">
                         No newsletter found.
-    
                     </td>
-    
                 </tr>
-    
             `;
-
             return;
-
         }
 
         data.forEach((item, index) => {
-
             table.innerHTML += `
-    
                 <tr class="border-b border-gray-200 hover:bg-[#f8fbff] transition-all duration-300">
-    
                     <!-- ID -->
-                    <td class="px-3 md:px-4 py-3 md:py-2
+                    <td class="px-3 md:px-4 py-2 md:py-2
                         text-[13px] md:text-[15px]
                         text-gray-700 font-medium">
-    
                         ${index + 1}
     
-                    </td>
-    
                     <!-- TITLE -->
-                    <td class="px-3 md:px-4 py-3 md:py-2
+                    <td class="px-3 md:px-4 py-2 md:py-2
                         text-[13px] md:text-[15px]
                         text-gray-700 font-medium leading-relaxed">
-    
                         ${item.title}
-    
                     </td>
     
                     <!-- DOWNLOAD -->
-                    <td class="px-3 md:px-4 py-3 md:py-4">
-    
+                    <td class="px-3 md:px-4 py-2 md:py-2">
                         <a href="${item.file}"
                             download
-                            class="w-10 h-10 md:w-11 md:h-11
+                            class="w-8 h-8 md:w-10 md:h-10 rounded-xl
                             bg-primary hover:bg-secondary
                             text-white text-sm
                             inline-flex items-center justify-center
                             transition-all duration-300 hover:-translate-y-1">
-    
                             <i class="fa-solid fa-download"></i>
-    
                         </a>
-    
                     </td>
-    
                 </tr>
-    
             `;
-
         });
-
     }
 
     // =====================================================
     // PAGINATION
     // =====================================================
-
     function renderPagination(totalPages) {
-
         pagination.innerHTML = "";
-
         for (let i = 1; i <= totalPages; i++) {
-
             pagination.innerHTML += `
-    
                 <button
                     class="min-w-[40px] h-10 px-4 
                     border border-gray-300
                     text-[13px] md:text-[14px]
                     font-bold
                     transition-all duration-300
-    
                     ${currentPage === i
-    
-                        ? 'bg-secondary text-white border-secondary'
-    
-                        : 'bg-white text-primary hover:bg-secondary hover:text-white hover:border-secondary'
+                        ? 'bg-secondary rounded-xl text-white border-secondary'
+                        : 'bg-white rounded-xl text-primary hover:bg-secondary hover:text-white hover:border-secondary'
                     }"
-    
                     onclick="changePage(${i})">
-    
                     ${i}
-    
                 </button>
-    
             `;
-
         }
-
     }
 
     // =====================================================
     // FETCH DATA
     // =====================================================
-
     function fetchNewsletters() {
-
         showLoader();
-
         setTimeout(() => {
-
             let filtered = newsletters.filter(item =>
-
                 item.title.toLowerCase().includes(search.toLowerCase())
-
             );
 
             const totalPages = Math.ceil(filtered.length / perPage);
-
             const start = (currentPage - 1) * perPage;
-
             const end = start + perPage;
-
             const paginated = filtered.slice(start, end);
-
             renderTable(paginated);
-
             renderPagination(totalPages);
-
             hideLoader();
-
         }, 2000);
-
     }
 
     // =====================================================
     // PAGE CHANGE
     // =====================================================
-
     function changePage(page) {
-
         currentPage = page;
-
         fetchNewsletters();
-
     }
 
     // =====================================================
     // PER PAGE
     // =====================================================
-
     perPageSelect.addEventListener("change", (e) => {
-
         perPage = parseInt(e.target.value);
-
         currentPage = 1;
-
         fetchNewsletters();
-
     });
 
     // =====================================================
     // SEARCH DEBOUNCE
     // =====================================================
-
     let typingTimer;
-
     searchInput.addEventListener("keyup", (e) => {
-
         clearTimeout(typingTimer);
-
         typingTimer = setTimeout(() => {
-
             search = e.target.value;
-
             currentPage = 1;
-
             fetchNewsletters();
-
         }, 1000);
-
     });
 
     // =====================================================
     // INITIAL LOAD
     // =====================================================
-
     fetchNewsletters();
 </script>
+
 <!-- script for the sticky footer bar  -->
 <script>
     const stickyBar = document.getElementById("stickyBar");

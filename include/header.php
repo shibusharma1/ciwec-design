@@ -22,8 +22,11 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-        rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <!-- Tailwind Config -->
     <script>
         tailwind.config = {
@@ -37,7 +40,7 @@
                         bordercolor: '#d7dde5'
                     },
                     fontFamily: {
-                        roboto: ['Roboto', 'sans-serif']
+                        roboto: ['inter', 'sans-serif']
                     },
                     boxShadow: {
                         soft: '0 2px 15px rgba(0,0,0,.06)'
@@ -53,7 +56,7 @@
     <link rel="stylesheet" href="./assets/css/whatsnew.css">
 </head>
 
-<body class="font-roboto">
+<body>
 
 
     <?php
@@ -198,7 +201,7 @@
                         <!-- MENU -->
                         <div
                             id="aboutDropdown"
-                            class="dropdown-menu absolute top-[170%] left-0 w-[320px] bg-white border border-gray-100 shadow-[0_15px_40px_rgba(0,0,0,.12)] opacity-0 invisible translate-y-3 transition-all duration-300 z-50">
+                            class="dropdown-menu rounded-xl border-4 border-b-secondary absolute top-[170%] left-0 w-[320px] bg-white border border-gray-100 shadow-[0_15px_40px_rgba(0,0,0,.12)] opacity-0 invisible translate-y-3 transition-all duration-300 z-50">
                             <a href="#"
                                 class="dropdown-link">
                                 About Us
@@ -229,7 +232,7 @@
                         <!-- MENU -->
                         <div
                             id="servicesDropdown"
-                            class="dropdown-menu absolute top-[170%] left-0 w-[360px] bg-white border border-gray-100 shadow-[0_15px_40px_rgba(0,0,0,.12)] opacity-0 invisible translate-y-3 transition-all duration-300 z-50">
+                            class="dropdown-menu absolute top-[170%] left-0 w-[360px] rounded-xl border-4 border-b-secondary bg-white border border-gray-100 shadow-[0_15px_40px_rgba(0,0,0,.12)] opacity-0 invisible translate-y-3 transition-all duration-300 z-50">
                             <a href="#"
                                 class="dropdown-link">
                                 Services
@@ -271,25 +274,19 @@
                     <button
                         id="searchToggle"
                         class="group search-pulse hidden md:flex items-center
-           gap-3 px-4 py-2 rounded-full
-           border border-secondary
-           bg-white/80 backdrop-blur-sm
-           hover:bg-primary hover:text-white
-           hover:border-primary
-           transition-all duration-300">
+                                gap-3 px-4 py-2 rounded-full
+                                border border-secondary
+                                bg-white/80 backdrop-blur-sm
+                                hover:bg-primary hover:text-white
+                                hover:border-primary
+                                transition-all duration-300">
 
-                        <i
-                            class="fa-solid fa-magnifying-glass text-[20px]
-               group-hover:rotate-12 transition-all duration-300">
-                        </i>
+                        <i class="fa-solid fa-magnifying-glass text-[20px]
+               group-hover:rotate-12 transition-all duration-300"></i>
 
-                        <span
-                            class="hidden lg:block text-sm font-semibold uppercase tracking-wider">
-
+                        <span class="hidden lg:block text-sm font-semibold uppercase tracking-wider">
                             Search
-
                         </span>
-
                     </button>
 
                     <!-- Mobile Icon Only -->
@@ -307,7 +304,6 @@
             </div>
         </div>
     </header>
-
 
     <!-- Searchbar -->
     <?php

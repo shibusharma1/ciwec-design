@@ -7,6 +7,7 @@
            border-l-[3px] border-t-[3px] border-[#d71920]
            text-white
            shadow-lg
+           rounded-xl
            opacity-0 pointer-events-none
            translate-x-8
            transition-all duration-500 ease-out
@@ -19,6 +20,7 @@
 
 <!-- ========================= HOVER DETECTION AREA ========================= -->
 <div id="hoverZone"
-     class="fixed top-0 right-0 w-24 h-full z-40">
+    class="fixed top-0 right-0 w-24 h-full z-40">
 </div>
+
 

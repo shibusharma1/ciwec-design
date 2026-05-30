@@ -12,7 +12,7 @@
             <div
                 class="w-full sm:max-w-[85%] md:max-w-[70%] lg:max-w-[55%] xl:max-w-[40%] mx-auto shadow-[0_20px_60px_rgba(0,0,0,.25)]">
                 <form
-                    class="flex items-center bg-white overflow-hidden">
+                    class="rounded-xl flex items-center bg-white overflow-hidden">
                     <!-- INPUT -->
                     <input type="text"
                         placeholder="Search.."

@@ -16,9 +16,7 @@ window.addEventListener("scroll", () => {
 // Show button slowly
 hoverZone.addEventListener("mouseenter", () => {
   if (!isScrolled) return;
-
   clearTimeout(hideTimeout);
-
   showButton();
 });
 
