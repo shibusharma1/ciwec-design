@@ -49,6 +49,9 @@
     }
 </style>
 
+<?php
+include './include/stickyfooterbar.php';
+?>
 <!-- HERO -->
 <section class="relative overflow-visible">
     <div class="relative h-[75vh] md:h-[80vh] xl:h-[88vh]">
@@ -92,36 +95,6 @@
     </div>
 </section>
 
-<!-- Sticky bar at the bottom 0 -->
-<div id="stickyBar"
-    class="fixed bottom-0 left-0 w-full bg-secondary text-white shadow-xl z-50 
-   translate-y-full opacity-0 pointer-events-none
-   transition-all duration-500 ease-in-out border-t-2 border-[var(--color-primary)]">
-    <div class="max-w-5xl mx-auto grid grid-cols-3 text-center divide-x divide-white/30">
-        <!-- FIND A DOCTOR -->
-        <div class="py-3 sm:py-4 px-2 sm:px-0 flex flex-col sm:flex-row justify-center items-center gap-1 sm:gap-3 hover:bg-white/10 transition">
-            <i class="fa-solid fa-stethoscope text-lg sm:text-2xl md:text-3xl"></i>
-            <span class="text-[10px] sm:text-xs md:text-sm font-semibold uppercase leading-tight">
-                Find A Doctor
-            </span>
-        </div>
-        <!-- INQUIRY -->
-        <div class="py-3 sm:py-4 px-2 sm:px-0 flex flex-col sm:flex-row justify-center items-center gap-1 sm:gap-3 hover:bg-white/10 transition">
-            <i class="fa-regular fa-clipboard text-lg sm:text-2xl md:text-3xl"></i>
-            <span class="text-[10px] sm:text-xs md:text-sm font-semibold uppercase leading-tight">
-                Inquiry
-            </span>
-        </div>
-        <!-- APPOINTMENT -->
-        <div class="py-3 sm:py-4 px-2 sm:px-0 flex flex-col sm:flex-row justify-center items-center gap-1 sm:gap-3 hover:bg-white/10 transition">
-            <i class="fa-regular fa-calendar-check text-lg sm:text-2xl md:text-3xl"></i>
-            <span class="text-[10px] sm:text-xs md:text-sm font-semibold uppercase leading-tight">
-                Appointment
-            </span>
-        </div>
-    </div>
-</div>
-
 <!-- ABOUT -->
 <section class="relative bg-primary section-padding overflow-visible">
     <div class="container-custom text-center">
@@ -146,6 +119,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- =========================
 SPECIALITY CENTERS
@@ -629,6 +604,8 @@ Our History
 
     });
 </script>
+
+
 
 <!-- WHY CIWEC -->
 <!-- <section class="relative section-padding bg-[#f3f6f9]">
@@ -1720,7 +1697,7 @@ WHATS NEW SECTION
         <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-5 uppercase">
             Patient Feedback (Google Review)
         </h2>
-        
+
         <!-- Reviews -->
         <div class="swiper reviewSwiper">
             <div class="swiper-wrapper">
@@ -1822,123 +1799,125 @@ WHATS NEW SECTION
 </section>
 
 
+
+
 <!-- Awards and Recognition -->
 <section class="section-padding bg-[#f5f8fc]">
-   <div class="container-custom">
-      <!-- Heading -->
-      <div class="text-center mb-10 lg:mb-14">
-         <!-- <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-3"> -->
+    <div class="container-custom">
+        <!-- Heading -->
+        <div class="text-center mb-10 lg:mb-14">
+            <!-- <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-3"> -->
             <h2 class="section-title mb-3">
-            Awards & Recognitions
-         </h2>
-         <p class="max-w-3xl mx-auto text-gray-600 text-sm md:text-base leading-relaxed">
-            CIWEC Hospital has been recognized nationally and internationally
-            for excellence in healthcare, travel medicine and patient care.
-         </p>
-      </div>
-      <div class="swiper awardSwiper">
-         <div class="swiper-wrapper">
-            <!-- CARD -->
-            <div class="swiper-slide h-auto">
-               <div
-                  class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
-                  <div
-                     class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-secondary/10 flex items-center justify-center">
-                     <i class="fa-solid fa-award text-secondary text-2xl md:text-3xl"></i>
-                  </div>
-                  <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
-                     2025
-                  </div>
-                  <h3 class="text-primary text-lg md:text-xl font-black mb-4">
-                     Best Travel Medicine Hospital
-                  </h3>
-                  <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
-                     Recognized for excellence in travel medicine,
-                     preventive healthcare and international patient care.
-                  </p>
-                  <span
-                     class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
-                  International Healthcare Forum
-                  </span>
-               </div>
+                Awards & Recognitions
+            </h2>
+            <p class="max-w-3xl mx-auto text-gray-600 text-sm md:text-base leading-relaxed">
+                CIWEC Hospital has been recognized nationally and internationally
+                for excellence in healthcare, travel medicine and patient care.
+            </p>
+        </div>
+        <div class="swiper awardSwiper">
+            <div class="swiper-wrapper">
+                <!-- CARD -->
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
+                        <div
+                            class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-secondary/10 flex items-center justify-center">
+                            <i class="fa-solid fa-award text-secondary text-2xl md:text-3xl"></i>
+                        </div>
+                        <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
+                            2025
+                        </div>
+                        <h3 class="text-primary text-lg md:text-xl font-black mb-4">
+                            Best Travel Medicine Hospital
+                        </h3>
+                        <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
+                            Recognized for excellence in travel medicine,
+                            preventive healthcare and international patient care.
+                        </p>
+                        <span
+                            class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
+                            International Healthcare Forum
+                        </span>
+                    </div>
+                </div>
+                <!-- CARD -->
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
+                        <div
+                            class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-primary/10 flex items-center justify-center">
+                            <i class="fa-solid fa-trophy text-primary text-2xl md:text-3xl"></i>
+                        </div>
+                        <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
+                            2024
+                        </div>
+                        <h3 class="text-primary text-lg md:text-xl font-black mb-4">
+                            Healthcare Excellence Award
+                        </h3>
+                        <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
+                            Awarded for delivering exceptional healthcare services,
+                            patient safety and innovation.
+                        </p>
+                        <span
+                            class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
+                            Nepal Medical Association
+                        </span>
+                    </div>
+                </div>
+                <!-- CARD -->
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
+                        <div
+                            class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-secondary/10 flex items-center justify-center">
+                            <i class="fa-solid fa-medal text-secondary text-2xl md:text-3xl"></i>
+                        </div>
+                        <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
+                            2023
+                        </div>
+                        <h3 class="text-primary text-lg md:text-xl font-black mb-4">
+                            Quality Healthcare Recognition
+                        </h3>
+                        <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
+                            Honored for maintaining international standards
+                            in healthcare quality and patient satisfaction.
+                        </p>
+                        <span
+                            class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
+                            Global Healthcare Council
+                        </span>
+                    </div>
+                </div>
+                <!-- CARD -->
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
+                        <div
+                            class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-primary/10 flex items-center justify-center">
+                            <i class="fa-solid fa-star text-primary text-2xl md:text-3xl"></i>
+                        </div>
+                        <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
+                            2022
+                        </div>
+                        <h3 class="text-primary text-lg md:text-xl font-black mb-4">
+                            Excellence In Patient Care
+                        </h3>
+                        <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
+                            Recognized for exceptional patient satisfaction
+                            and international healthcare standards.
+                        </p>
+                        <span
+                            class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
+                            Healthcare Excellence Council
+                        </span>
+                    </div>
+                </div>
             </div>
-            <!-- CARD -->
-            <div class="swiper-slide h-auto">
-               <div
-                  class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
-                  <div
-                     class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-primary/10 flex items-center justify-center">
-                     <i class="fa-solid fa-trophy text-primary text-2xl md:text-3xl"></i>
-                  </div>
-                  <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
-                     2024
-                  </div>
-                  <h3 class="text-primary text-lg md:text-xl font-black mb-4">
-                     Healthcare Excellence Award
-                  </h3>
-                  <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
-                     Awarded for delivering exceptional healthcare services,
-                     patient safety and innovation.
-                  </p>
-                  <span
-                     class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
-                  Nepal Medical Association
-                  </span>
-               </div>
-            </div>
-            <!-- CARD -->
-            <div class="swiper-slide h-auto">
-               <div
-                  class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
-                  <div
-                     class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-secondary/10 flex items-center justify-center">
-                     <i class="fa-solid fa-medal text-secondary text-2xl md:text-3xl"></i>
-                  </div>
-                  <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
-                     2023
-                  </div>
-                  <h3 class="text-primary text-lg md:text-xl font-black mb-4">
-                     Quality Healthcare Recognition
-                  </h3>
-                  <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
-                     Honored for maintaining international standards
-                     in healthcare quality and patient satisfaction.
-                  </p>
-                  <span
-                     class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
-                  Global Healthcare Council
-                  </span>
-               </div>
-            </div>
-            <!-- CARD -->
-            <div class="swiper-slide h-auto">
-               <div
-                  class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
-                  <div
-                     class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-primary/10 flex items-center justify-center">
-                     <i class="fa-solid fa-star text-primary text-2xl md:text-3xl"></i>
-                  </div>
-                  <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
-                     2022
-                  </div>
-                  <h3 class="text-primary text-lg md:text-xl font-black mb-4">
-                     Excellence In Patient Care
-                  </h3>
-                  <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
-                     Recognized for exceptional patient satisfaction
-                     and international healthcare standards.
-                  </p>
-                  <span
-                     class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
-                  Healthcare Excellence Council
-                  </span>
-               </div>
-            </div>
-         </div>
-         <!-- Pagination -->
-         <div class="award-pagination flex justify-center mt-10"></div>
-      </div>
-   </div>
+            <!-- Pagination -->
+            <div class="award-pagination flex justify-center mt-10"></div>
+        </div>
+    </div>
 </section>
 <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
 
@@ -2298,28 +2277,5 @@ WHATS NEW SECTION
     fetchNewsletters();
 </script>
 
-<!-- script for the sticky footer bar  -->
-<script>
-    const stickyBar = document.getElementById("stickyBar");
-    const heroSection = document.querySelector("section"); // HERO section
-
-    let lastScroll = 0;
-
-    window.addEventListener("scroll", () => {
-        const currentScroll = window.scrollY;
-        const heroHeight = heroSection.offsetHeight;
-
-        // show only AFTER hero
-        if (currentScroll > heroHeight - 100) {
-            stickyBar.classList.remove("translate-y-full", "opacity-0", "pointer-events-none");
-            stickyBar.classList.add("translate-y-0", "opacity-100");
-        } else {
-            stickyBar.classList.add("translate-y-full", "opacity-0", "pointer-events-none");
-            stickyBar.classList.remove("translate-y-0", "opacity-100");
-        }
-
-        lastScroll = currentScroll;
-    });
-</script>
 
 <?php include './include/footer.php'; ?>
