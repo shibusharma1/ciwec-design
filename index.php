@@ -1,504 +1,693 @@
 <?php include './include/header.php'; ?>
 
-<style>
-    .history-year {
-        position: relative;
-        z-index: 2;
-        width: 65px;
-        height: 65px;
-        border-radius: 999px;
-        background: white;
-        border: 3px solid #dbe2ea;
-        font-weight: 700;
-        color: var(--primary);
-        transition: .3s;
-    }
-
-    .history-year:hover,
-    .history-year.active {
-        background: var(--secondary);
-        border-color: var(--secondary);
-        color: white;
-    }
-
-    .history-mobile-item {
-        display: flex;
-        gap: 16px;
-        align-items: flex-start;
-    }
-
-    .history-dot {
-        width: 14px;
-        height: 14px;
-        border-radius: 999px;
-        background: var(--secondary);
-        margin-top: 8px;
-        flex-shrink: 0;
-    }
-
-    .history-mobile-year {
-        color: var(--primary);
-        font-weight: 800;
-        font-size: 18px;
-        margin-bottom: 4px;
-    }
-
-    .history-mobile-text {
-        color: #6b7280;
-        line-height: 1.7;
-    }
-</style>
-
 <?php
 include './include/stickyfooterbar.php';
 ?>
+
 <!-- HERO -->
-<section class="relative overflow-visible">
-    <div class="relative h-[75vh] md:h-[80vh] xl:h-[88vh]">
-        <!-- VIDEO -->
-        <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline>
+<section class="relative">
+    <!-- VIDEO HERO -->
+    <div class="relative h-[70vh] md:h-[80vh] xl:h-[90vh] overflow-hidden">
+        <video
+            class="absolute inset-0 w-full h-full object-cover"
+            autoplay
+            muted
+            loop
+            playsinline>
             <source src="./assets/vdo/banner.mp4" type="video/mp4">
         </video>
-        <!-- OVERLAY -->
-        <div class="absolute rounded-xl inset-0 bg-black/30"></div>
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/60 to-black/20"></div>
+        <!-- Content -->
+        <div class="absolute inset-0 flex items-center">
+            <div class="container-custom">
+                <div class="max-w-3xl">
+                    <span
+                        class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white text-sm font-medium px-4 py-2 mb-6">
+                        <span class="w-2 h-2 bg-secondary rounded-full animate-pulse"></span>
+                        Trusted Since 1982
+                    </span>
+                    <h1
+                        class="text-white font-black leading-tight text-[34px] md:text-[52px] xl:text-[70px]">
+                        International Standard Healthcare in Nepal
+                    </h1>
+                    <p
+                        class="mt-6 text-white/90 text-base md:text-lg xl:text-xl leading-relaxed max-w-2xl">
+                        Providing world-class travel medicine, family medicine,
+                        specialist care and emergency services from Kathmandu and
+                        Pokhara for over 40 years.
+                    </p>
+                    <!-- <div class="flex flex-wrap gap-4 mt-8">
+                        <a href="#"
+                            class="bg-secondary hover:bg-secondary/90 text-white px-8 py-4 font-semibold transition">
+                            Book Appointment
+                        </a>
+                        <a href="#"
+                            class="border border-white text-white hover:bg-white hover:text-primary px-8 py-4 font-semibold transition">
+                            Find A Doctor
+                        </a> -->
+                </div>
+            </div>
+        </div>
     </div>
+    </div>
+</section>
 
-    <!-- STICKY ACTION BAR -->
-    <div id="actionBar"
-        class="absolute left-1/2 bottom-0 -translate-x-1/2 translate-y-1/2 w-full px-3 sm:px-4 z-20">
-        <div class="max-w-5xl rounded-xl mx-auto bg-secondary text-white shadow-xl overflow-hidden">
-            <!-- FORCE SINGLE ROW ALWAYS -->
-            <div class="grid grid-cols-3 divide-x divide-white/30">
-                <!-- FIND A DOCTOR -->
-                <div class="flex items-center justify-center gap-2 sm:gap-3 py-3 sm:py-5 px-2 hover:bg-white/10 transition">
-                    <i class="fa-solid fa-stethoscope text-lg sm:text-xl md:text-2xl"></i>
-                    <span class="text-[10px] sm:text-xs md:text-sm lg:text-base font-semibold uppercase text-center leading-tight">
-                        Find A Doctor
-                    </span>
-                </div>
+<!-- CTA -->
+<!-- =========================================
+    QUICK ACTIONS
+    ========================================= -->
+<section class="relative z-20 -mt-10 md:-mt-12 xl:-mt-16">
+    <div class="container-custom">
+        <div
+            class="bg-white border border-slate-200 shadow-[0_15px_40px_rgba(0,0,0,.08)]">
+            <div
+                class="grid grid-cols-1 md:grid-cols-3">
+                <!-- FIND DOCTOR -->
+                <a href="#"
+                    class="group
+                    flex
+                    items-center
+                    gap-4
+                    p-5 md:p-7
+                    border-b md:border-b-0 md:border-r border-slate-200
+                    hover:bg-slate-50
+                    transition-all duration-300">
+                    <div
+                        class="w-12 h-12 md:w-14 md:h-14
+                        bg-primary/10
+                        text-primary
+                        flex items-center justify-center
+                        flex-shrink-0
+                        transition-all duration-300
+                        group-hover:bg-primary
+                        group-hover:text-white">
+                        <i class="fa-solid fa-user-doctor text-lg md:text-xl"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h3
+                            class="text-primary
+                            text-base md:text-lg
+                            font-bold">
+                            Find a Doctor
+                        </h3>
+                        <p
+                            class="hidden md:block
+                            text-slate-500
+                            text-sm
+                            mt-1">
+                            Search specialists
+                        </p>
+                    </div>
+                    <i
+                        class="fa-solid fa-arrow-right
+                        text-secondary
+                        text-sm
+                        transition-all duration-300
+                        group-hover:translate-x-1">
+                    </i>
+                </a>
                 <!-- INQUIRY -->
-                <div class="flex items-center justify-center gap-2 sm:gap-3 py-3 sm:py-5 px-2 hover:bg-white/10 transition">
-                    <i class="fa-regular fa-clipboard text-lg sm:text-xl md:text-2xl"></i>
-                    <span class="text-[10px] sm:text-xs md:text-sm lg:text-base font-semibold uppercase text-center leading-tight">
-                        Inquiry
-                    </span>
-                </div>
+                <a href="#"
+                    class="group
+                    flex
+                    items-center
+                    gap-4
+                    p-5 md:p-7
+                    border-b md:border-b-0 md:border-r border-slate-200
+                    hover:bg-slate-50
+                    transition-all duration-300">
+                    <div
+                        class="w-12 h-12 md:w-14 md:h-14
+                        bg-primary/10
+                        text-primary
+                        flex items-center justify-center
+                        flex-shrink-0
+                        transition-all duration-300
+                        group-hover:bg-primary
+                        group-hover:text-white">
+                        <i class="fa-solid fa-comments text-lg md:text-xl"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h3
+                            class="text-primary
+                            text-base md:text-lg
+                            font-bold">
+                            Inquiry
+                        </h3>
+                        <p
+                            class="hidden md:block
+                            text-slate-500
+                            text-sm
+                            mt-1">
+                            Contact our team
+                        </p>
+                    </div>
+                    <i
+                        class="fa-solid fa-arrow-right
+                        text-secondary
+                        text-sm
+                        transition-all duration-300
+                        group-hover:translate-x-1">
+                    </i>
+                </a>
                 <!-- APPOINTMENT -->
-                <div class="flex items-center justify-center gap-2 sm:gap-3 py-3 sm:py-5 px-2 hover:bg-white/10 transition">
-                    <i class="fa-regular fa-calendar-check text-lg sm:text-xl md:text-2xl"></i>
-                    <span class="text-[10px] sm:text-xs md:text-sm lg:text-base font-semibold uppercase text-center leading-tight">
-                        Appointment
-                    </span>
-                </div>
+                <a href="#"
+                    class="group
+                    flex
+                    items-center
+                    gap-4
+                    p-5 md:p-7
+                    bg-primary
+                    text-white
+                    hover:bg-secondary
+                    transition-all duration-300">
+                    <div
+                        class="w-12 h-12 md:w-14 md:h-14
+                        bg-white/10
+                        flex items-center justify-center
+                        flex-shrink-0">
+                        <i class="fa-solid fa-calendar-check text-lg md:text-xl"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h3
+                            class="text-base md:text-lg
+                            font-bold">
+                            Appointment
+                        </h3>
+                        <p
+                            class="hidden md:block
+                            text-white/70
+                            text-sm
+                            mt-1">
+                            Schedule your visit
+                        </p>
+                    </div>
+                    <i
+                        class="fa-solid fa-arrow-right
+                        text-white
+                        text-sm
+                        transition-all duration-300
+                        group-hover:translate-x-1">
+                    </i>
+                </a>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ABOUT -->
-<section class="relative bg-primary section-padding overflow-visible">
-    <div class="container-custom text-center">
-        <h2 class="text-white text-xl md:text-2xl xl:text-[32px] font-black mb-4">
-            About CIWEC Hospital
-        </h2>
-        <div class="flex items-center max-w-[480px] mx-auto mt-5 mb-8">
-            <div class="flex-1 h-[3px] bg-white"></div>
-            <div class="w-20 md:w-24 h-[12px] rounded-full bg-[#2f8bcf] mx-3 shadow-[0_0_15px_rgba(47,139,207,.35)]">
+<section class="section-padding bg-white">
+    <div class="container-custom">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <!-- Image -->
+            <div>
+                <img
+                    src="./assets/img/about-ciwec.webp"
+                    class="w-full h-[500px] object-cover">
             </div>
-            <div class="flex-1 h-[3px] bg-white"></div>
-        </div>
-        <p class="max-w-5xl text-[1rem] leading-[2rem] mx-auto text-white font-light font-normal">
-            CIWEC Hospital and Travel Medicine Center is one of the most reputable destination travel medicine centers in the world. It was established as a clinic in 1982 to meet the need for a western standard clinic to treat foreign diplomats and aid workers in Nepal. During its 40 plus years of journey, it has expanded its services from a small clinic set up in 1982, to a full service hospital providing both outpatient and inpatient care.&nbsp; In September 2014, CIWEC opened a fully equipped hospital in Pokhara. CIWEC is widely known around the world as ”CIWEC Clinic” and ”CIWEC Clinic Travel Medic[...]
-        </p>
-
-        <div class="mt-8">
-            <a href="#"
-                class="btn-light text-sm">
-                Read More
-            </a>
+            <!-- Content -->
+            <div>
+                <span
+                    class="text-secondary uppercase tracking-[3px] text-sm font-semibold">
+                    About CIWEC
+                </span>
+                <h2
+                    class="text-primary font-black text-3xl md:text-5xl mt-4 leading-tight">
+                    Nepal's Leading Travel Medicine & International Healthcare Provider
+                </h2>
+                <p
+                    class="mt-6 text-slate-600 leading-8">
+                    Established in 1982, CIWEC Hospital and Travel Medicine
+                    Center has grown from a specialist clinic into one of the
+                    world's most respected travel medicine institutions.
+                </p>
+                <p
+                    class="mt-4 text-slate-600 leading-8">
+                    With facilities in Kathmandu and Pokhara, we provide
+                    international-standard healthcare services to residents,
+                    expatriates, travelers and organizations.
+                </p>
+                <a href="#"
+                    class="inline-flex mt-8 bg-primary text-white px-7 py-4 font-semibold hover:bg-primary/90 transition">
+                    Learn More
+                </a>
+            </div>
         </div>
     </div>
 </section>
 
-
-
 <!-- =========================
 SPECIALITY CENTERS
 ========================= -->
-<section class="speciality-section section-padding">
+<section class="speciality-section section-padding bg-slate-50">
     <div class="container-custom">
-        <!-- TOP -->
-        <div class="flex items-end justify-between mb-8 md:mb-10">
-            <!-- TITLE -->
+        <!-- HEADER -->
+        <div class="flex items-end justify-between mb-10">
             <div>
-                <span class="block text-secondary uppercase tracking-[3px] text-[30px] md:text-base font-semibold mb-2">
-                    Our Specialty
+                <span class="section-label">
+                    Centers of Excellence
                 </span>
-                <h2 class="text-primary text-[32px] md:text-[36px] font-semibold leading-none">
-                    Centers
+                <h2 class="section-title mb-0">
+                    Specialized Medical Services
                 </h2>
             </div>
-            <!-- SEE ALL -->
             <a href="#"
-                class="hidden md:flex items-center gap-3 text-primary text-sm uppercase tracking-[2px] hover:text-secondary transition-all duration-300">
-                See All
-                <i class="fa-solid fa-arrow-right text-xs"></i>
+                class="hidden lg:inline-flex items-center gap-2 text-primary font-semibold hover:text-secondary transition">
+                View All
+                <i class="fa-solid fa-arrow-right"></i>
             </a>
         </div>
     </div>
-    <!-- SLIDER -->
-    <div class="specialitySwiper pl-4 md:pl-10 xl:pl-[80px]">
+    <!-- SWIPER -->
+    <div class="specialitySwiper">
         <div class="swiper-wrapper">
+
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#"
-                    class="speciality-card group">
-                    <!-- IMAGE -->
+                <a href="#" class="speciality-card group">
                     <img src="./assets/img/speciality/img1.jpg"
                         class="speciality-image">
-                    <!-- OVERLAY -->
                     <div class="speciality-overlay"></div>
-                    <!-- CONTENT -->
                     <div class="speciality-content">
+                        <span class="speciality-badge">
+                            Travel Medicine
+                        </span>
                         <h3 class="speciality-title">
-                            Cardio-Neuro-Vascular
-                            Intervention Center
+                            Travel & Tropical Medicine
                         </h3>
                         <p class="speciality-desc">
-                            Innovative treatment for strokes and cardiovascular disease with modern medical care.
+                            Internationally recognized expertise in travel medicine,
+                            infectious diseases and preventive healthcare.
                         </p>
-                        <span class="speciality-link">
-                            See Details
-                        </span>
+                        <div class="speciality-btn">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
                     </div>
                 </a>
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#"
-                    class="speciality-card group">
+                <a href="#" class="speciality-card group">
                     <img src="./assets/img/speciality/img11.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
+                        <span class="speciality-badge">
+                            Family Medicine
+                        </span>
                         <h3 class="speciality-title">
-                            Pediatric Orthopedic Clinic
+                            Family Healthcare
                         </h3>
                         <p class="speciality-desc">
-                            Specialized orthopedic treatment and rehabilitation care for children.
+                            Comprehensive healthcare services for individuals
+                            and families of all ages.
                         </p>
-                        <span class="speciality-link">
-                            See Details
-                        </span>
+                        <div class="speciality-btn">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
                     </div>
                 </a>
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#"
-                    class="speciality-card group">
-                    <!-- IMAGE -->
-                    <img src="./assets/img/speciality/img2.png"
+                <a href="#" class="speciality-card group">
+                    <img src="./assets/img/speciality/img1.jpg"
                         class="speciality-image">
-                    <!-- OVERLAY -->
                     <div class="speciality-overlay"></div>
-                    <!-- CONTENT -->
                     <div class="speciality-content">
+                        <span class="speciality-badge">
+                            Travel Medicine
+                        </span>
                         <h3 class="speciality-title">
-                            Cardio-Neuro-Vascular
-                            Intervention Center
+                            Travel & Tropical Medicine
                         </h3>
                         <p class="speciality-desc">
-                            Innovative treatment for strokes and cardiovascular disease with modern medical care.
+                            Internationally recognized expertise in travel medicine,
+                            infectious diseases and preventive healthcare.
                         </p>
-                        <span class="speciality-link">
-                            See Details
-                        </span>
+                        <div class="speciality-btn">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
                     </div>
                 </a>
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#"
-                    class="speciality-card group">
-                    <img src="./assets/img/speciality/img3.png"
+                <a href="#" class="speciality-card group">
+                    <img src="./assets/img/speciality/img11.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
+                        <span class="speciality-badge">
+                            Family Medicine
+                        </span>
                         <h3 class="speciality-title">
-                            Pediatric Rehabilitation Center
+                            Family Healthcare
                         </h3>
                         <p class="speciality-desc">
-                            Rehabilitation programs designed specifically for children and young patients.
+                            Comprehensive healthcare services for individuals
+                            and families of all ages.
                         </p>
-                        <span class="speciality-link">
-                            See Details
-                        </span>
+                        <div class="speciality-btn">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
                     </div>
                 </a>
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#"
-                    class="speciality-card group">
-                    <img src="./assets/img/speciality/img10.jpg"
+                <a href="#" class="speciality-card group">
+                    <img src="./assets/img/speciality/img1.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
+                        <span class="speciality-badge">
+                            Travel Medicine
+                        </span>
                         <h3 class="speciality-title">
-                            Scoliosis Center
+                            Travel & Tropical Medicine
                         </h3>
                         <p class="speciality-desc">
-                            Advanced scoliosis diagnosis and treatment for both children and adults.
+                            Internationally recognized expertise in travel medicine,
+                            infectious diseases and preventive healthcare.
                         </p>
-                        <span class="speciality-link">
-                            See Details
-                        </span>
+                        <div class="speciality-btn">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
                     </div>
                 </a>
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#"
-                    class="speciality-card group">
-                    <img src="./assets/img/speciality/img4.jpg"
+                <a href="#" class="speciality-card group">
+                    <img src="./assets/img/speciality/img11.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
+                        <span class="speciality-badge">
+                            Family Medicine
+                        </span>
                         <h3 class="speciality-title">
-                            Pediatric Orthopedic Clinic
+                            Family Healthcare
                         </h3>
                         <p class="speciality-desc">
-                            Specialized orthopedic treatment and rehabilitation care for children.
+                            Comprehensive healthcare services for individuals
+                            and families of all ages.
                         </p>
-                        <span class="speciality-link">
-                            See Details
-                        </span>
+                        <div class="speciality-btn">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
                     </div>
                 </a>
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#"
-                    class="speciality-card group">
-                    <img src="./assets/img/speciality/img5.jpg"
+                <a href="#" class="speciality-card group">
+                    <img src="./assets/img/speciality/img1.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
+                        <span class="speciality-badge">
+                            Travel Medicine
+                        </span>
                         <h3 class="speciality-title">
-                            Hematology Center
+                            Travel & Tropical Medicine
                         </h3>
                         <p class="speciality-desc">
-                            Blood disorder diagnosis and comprehensive hematology treatments.
+                            Internationally recognized expertise in travel medicine,
+                            infectious diseases and preventive healthcare.
                         </p>
-                        <span class="speciality-link">
-                            See Details
-                        </span>
+                        <div class="speciality-btn">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
                     </div>
                 </a>
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#"
-                    class="speciality-card group">
-                    <img src="./assets/img/speciality/img6.jpg"
+                <a href="#" class="speciality-card group">
+                    <img src="./assets/img/speciality/img11.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
+                        <span class="speciality-badge">
+                            Family Medicine
+                        </span>
                         <h3 class="speciality-title">
-                            Hematology Center
+                            Family Healthcare
                         </h3>
                         <p class="speciality-desc">
-                            Blood disorder diagnosis and comprehensive hematology treatments.
+                            Comprehensive healthcare services for individuals
+                            and families of all ages.
                         </p>
-                        <span class="speciality-link">
-                            See Details
-                        </span>
+                        <div class="speciality-btn">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
                     </div>
                 </a>
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#"
-                    class="speciality-card group">
-                    <img src="./assets/img/speciality/img7.jpg"
+                <a href="#" class="speciality-card group">
+                    <img src="./assets/img/speciality/img1.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
+                        <span class="speciality-badge">
+                            Travel Medicine
+                        </span>
                         <h3 class="speciality-title">
-                            Hematology Center
+                            Travel & Tropical Medicine
                         </h3>
                         <p class="speciality-desc">
-                            Blood disorder diagnosis and comprehensive hematology treatments.
+                            Internationally recognized expertise in travel medicine,
+                            infectious diseases and preventive healthcare.
                         </p>
-                        <span class="speciality-link">
-                            See Details
-                        </span>
+                        <div class="speciality-btn">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
                     </div>
                 </a>
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#"
-                    class="speciality-card group">
-                    <img src="./assets/img/speciality/img8.jpg"
+                <a href="#" class="speciality-card group">
+                    <img src="./assets/img/speciality/img11.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
+                        <span class="speciality-badge">
+                            Family Medicine
+                        </span>
                         <h3 class="speciality-title">
-                            Hematology Center
+                            Family Healthcare
                         </h3>
                         <p class="speciality-desc">
-                            Blood disorder diagnosis and comprehensive hematology treatments.
+                            Comprehensive healthcare services for individuals
+                            and families of all ages.
                         </p>
-                        <span class="speciality-link">
-                            See Details
-                        </span>
-                    </div>
-                </a>
-            </div>
-            <!-- CARD -->
-            <div class="swiper-slide">
-                <a href="#"
-                    class="speciality-card group">
-                    <img src="./assets/img/speciality/img9.jpg"
-                        class="speciality-image">
-                    <div class="speciality-overlay"></div>
-                    <div class="speciality-content">
-                        <h3 class="speciality-title">
-                            Hematology Center
-                        </h3>
-                        <p class="speciality-desc">
-                            Blood disorder diagnosis and comprehensive hematology treatments.
-                        </p>
-                        <span class="speciality-link">
-                            See Details
-                        </span>
+                        <div class="speciality-btn">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
                     </div>
                 </a>
             </div>
 
         </div>
-        <!-- PAGINATION -->
-        <div class="speciality-pagination mt-10 flex justify-center"></div>
+        <!-- KEEP SAME PAGINATION -->
+        <div class="speciality-pagination mt-10"></div>
     </div>
 </section>
 
 <!-- =========================
 Our History
 ========================= -->
-<section class="section-padding bg-[#f5f8fc] overflow-hidden">
+<section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
-        <!-- HEADING -->
-        <div class="text-center mb-8">
+        <!-- HEADER -->
+        <div class="max-w-3xl mb-14">
             <span
-                class="inline-block text-secondary text-sm md:text-base font-bold uppercase tracking-wider mb-3">
+                class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
+                <span class="w-2 h-2 bg-secondary"></span>
                 Our Journey
             </span>
-            <h2 class="section-title">
-                CIWEC Hospital History
+            <h2
+                class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight">
+                Over Four Decades of Healthcare Excellence
             </h2>
+            <p
+                class="text-slate-600 mt-5 text-base md:text-lg leading-8">
+                Since 1982, CIWEC has evolved from a travel medicine clinic into
+                one of Nepal's most trusted international healthcare providers.
+            </p>
         </div>
-        <!-- TIMELINE -->
-        <div class="relative mb-8 hidden lg:block">
-            <div
-                class="absolute top-1/2 left-0 right-0 h-[3px] bg-gray-200 -translate-y-1/2">
-            </div>
-            <div class="grid grid-cols-6 gap-44">
-                <button
-                    class="history-year active"
-                    data-year="1982">
-                    1982
-                </button>
-                <button
-                    class="history-year"
-                    data-year="2000">
-                    2000
-                </button>
-                <button
-                    class="history-year"
-                    data-year="2005">
-                    2005
-                </button>
-                <button
-                    class="history-year"
-                    data-year="2014">
-                    2014
-                </button>
-                <button
-                    class="history-year"
-                    data-year="2020">
-                    2020
-                </button>
-                <button
-                    class="history-year"
-                    data-year="2025">
-                    2025
-                </button>
-            </div>
-        </div>
-        <!-- CONTENT -->
-        <div
-            class="bg-white rounded-[0.75rem] overflow-hidden shadow-[0_10px_35px_rgba(0,0,0,.06)]">
-            <div class="grid lg:grid-cols-2 items-center">
-                <!-- IMAGE -->
-                <div>
-                    <img id="historyImage" src="./assets/img/history-1982.jpg" class="w-full h-[280px] md:h-[420px] object-cover">
+        <!-- DESKTOP TIMELINE -->
+        <div class="hidden lg:block mb-14">
+            <div class="relative">
+                <div
+                    class="absolute left-0 right-0 top-1/2 h-px bg-slate-300">
                 </div>
-                <!-- CONTENT -->
-                <div class="p-6 md:p-8 xl:p-12">
-                    <span id="historyYear" class="inline-block text-secondary font-bold text-sm uppercase mb-3">
+                <div class="flex justify-between">
+                    <button
+                        class="history-year active relative z-10 flex flex-col items-center"
+                        data-year="1982">
+                        <span
+                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
+                        </span>
+                        <span
+                            class="font-bold text-primary text-sm">
+                            1982
+                        </span>
+                    </button>
+                    <button
+                        class="history-year relative z-10 flex flex-col items-center"
+                        data-year="2000">
+                        <span
+                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
+                        </span>
+                        <span
+                            class="font-bold text-primary text-sm">
+                            2000
+                        </span>
+                    </button>
+                    <button
+                        class="history-year relative z-10 flex flex-col items-center"
+                        data-year="2005">
+                        <span
+                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
+                        </span>
+                        <span
+                            class="font-bold text-primary text-sm">
+                            2005
+                        </span>
+                    </button>
+                    <button
+                        class="history-year relative z-10 flex flex-col items-center"
+                        data-year="2014">
+                        <span
+                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
+                        </span>
+                        <span
+                            class="font-bold text-primary text-sm">
+                            2014
+                        </span>
+                    </button>
+                    <button
+                        class="history-year relative z-10 flex flex-col items-center"
+                        data-year="2020">
+                        <span
+                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
+                        </span>
+                        <span
+                            class="font-bold text-primary text-sm">
+                            2020
+                        </span>
+                    </button>
+                    <button
+                        class="history-year relative z-10 flex flex-col items-center"
+                        data-year="2025">
+                        <span
+                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
+                        </span>
+                        <span
+                            class="font-bold text-primary text-sm">
+                            2025
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- CONTENT CARD -->
+        <div
+            class="grid lg:grid-cols-12 bg-slate-50 border border-slate-200 overflow-hidden">
+            <!-- IMAGE -->
+            <div class="lg:col-span-5">
+                <img
+                    id="historyImage"
+                    src="./assets/img/history-1982.jpg"
+                    class="w-full h-[280px] md:h-[420px] lg:h-[520px] object-cover">
+            </div>
+            <!-- CONTENT -->
+            <div
+                class="lg:col-span-7 flex items-center">
+                <div
+                    class="p-8 md:p-10 xl:p-14">
+                    <span
+                        id="historyYear"
+                        class="inline-flex items-center gap-2 text-secondary text-sm font-bold uppercase tracking-[2px] mb-4">
                         1982
                     </span>
-                    <h3 id="historyTitle" class="text-primary text-2xl md:text-3xl font-black mb-5">
-                        Foundation Of CIWEC
+                    <h3
+                        id="historyTitle"
+                        class="text-primary text-3xl md:text-4xl font-black leading-tight mb-6">
+                        Foundation of CIWEC
                     </h3>
                     <div
-                        class="w-20 h-[4px] bg-secondary mb-6">
+                        class="w-20 h-[3px] bg-secondary mb-8">
                     </div>
-                    <p id="historyDescription" class="text-gray-600 text-sm md:text-lg leading-8">
+                    <p
+                        id="historyDescription"
+                        class="text-slate-600 text-base md:text-lg leading-8 max-w-3xl">
                         CIWEC was established in 1982 to provide western-standard
                         healthcare services to diplomats, expatriates, aid workers,
-                        travelers and local communities in Nepal.
+                        travelers and local communities throughout Nepal.
                     </p>
                 </div>
             </div>
         </div>
         <!-- MOBILE TIMELINE -->
         <div class="lg:hidden mt-10">
-            <div class="space-y-5">
-                <div class="history-mobile-item">
-                    <div class="history-dot"></div>
-                    <div>
-                        <h4 class="history-mobile-year">
-                            1982
-                        </h4>
-                        <p class="history-mobile-text">
-                            CIWEC founded.
-                        </p>
-                    </div>
+            <div
+                class="border-l-2 border-secondary pl-6 space-y-8">
+                <div class="relative">
+                    <span
+                        class="absolute -left-[34px] top-1 w-4 h-4 bg-secondary rounded-full">
+                    </span>
+                    <h4
+                        class="text-primary font-bold">
+                        1982
+                    </h4>
+                    <p
+                        class="text-slate-600 text-sm mt-1">
+                        CIWEC established in Kathmandu.
+                    </p>
                 </div>
-                <div class="history-mobile-item">
-                    <div class="history-dot"></div>
-                    <div>
-                        <h4 class="history-mobile-year">
-                            2005
-                        </h4>
-                        <p class="history-mobile-text">
-                            Expanded medical services.
-                        </p>
-                    </div>
+                <div class="relative">
+                    <span
+                        class="absolute -left-[34px] top-1 w-4 h-4 bg-secondary rounded-full">
+                    </span>
+                    <h4
+                        class="text-primary font-bold">
+                        2005
+                    </h4>
+                    <p
+                        class="text-slate-600 text-sm mt-1">
+                        Expanded specialist medical services.
+                    </p>
                 </div>
-                <div class="history-mobile-item">
-                    <div class="history-dot"></div>
-                    <div>
-                        <h4 class="history-mobile-year">
-                            2014
-                        </h4>
-                        <p class="history-mobile-text">
-                            Opened Pokhara Hospital.
-                        </p>
-                    </div>
+                <div class="relative">
+                    <span
+                        class="absolute -left-[34px] top-1 w-4 h-4 bg-secondary rounded-full">
+                    </span>
+                    <h4
+                        class="text-primary font-bold">
+                        2014
+                    </h4>
+                    <p
+                        class="text-slate-600 text-sm mt-1">
+                        Opened full-service hospital in Pokhara.
+                    </p>
                 </div>
             </div>
         </div>
@@ -506,45 +695,6 @@ Our History
 </section>
 
 <script>
-    // const historyData = {
-
-    //     1982: {
-    //         title: "Foundation Of CIWEC",
-    //         image: "./assets/img/history/history1.webp",
-    //         description: "CIWEC was established in 1982 to provide western-standard healthcare services to diplomats, expatriates, aid workers,travelers and local communities in Nepal."
-    //     },
-
-    //     2000: {
-    //         title: "Service Expansion",
-    //         image: "./assets/img/history/history2.webp",
-    //         description: "Expanded specialist healthcare..."
-    //     },
-
-    //     2005: {
-    //         title: "Modern Medical Facilities",
-    //         image: "./assets/img/history/history3.webp",
-    //         description: "Introduced advanced diagnostics..."
-    //     },
-
-    //     2014: {
-    //         title: "CIWEC Pokhara Opened",
-    //         image: "./assets/img/history/history1.webp",
-    //         description: "Opened fully equipped Pokhara hospital..."
-    //     },
-
-    //     2020: {
-    //         title: "Enhanced Global Care",
-    //         image: "./assets/img/history/history2.webp",
-    //         description: "Strengthened international patient services..."
-    //     },
-
-    //     2025: {
-    //         title: "Future Ready Healthcare",
-    //         image: "./assets/img/history/history3.webp",
-    //         description: "Continued innovation and excellence..."
-    //     }
-
-    // };
     const historyData = {
 
         1982: {
@@ -605,400 +755,144 @@ Our History
     });
 </script>
 
-
-
-<!-- WHY CIWEC -->
-<!-- <section class="relative section-padding bg-[#f3f6f9]">
+<!-- Rectangular design of why ciwec -->
+<section class="section-padding bg-white">
     <div class="container-custom">
-        <div class="text-center mb-20">
-            <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-3">
-                Why CIWEC
+        <div class="max-w-3xl mb-14">
+            <span
+                class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
+                <span class="w-2 h-2 bg-secondary"></span>
+                Why Choose CIWEC
+            </span>
+            <h2
+                class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-6">
+                Trusted Healthcare For
+                International Travelers
+                And Local Communities
             </h2>
-            <p class="max-w-5xl text-[1rem] leading-[2rem] mx-auto font-light font-normal">
-                • 42 years of experience • Friendly and quiet environment • 24/7 availability of seasoned post graduate doctors/nurses • Doctors and senior nurses certified by ISTM in Travel Health • Best nurse to patient ratio • Short waiting time for appointments, diagnosis and reports • End to end handling of insurance cases
+            <p
+                class="text-slate-600 text-base md:text-lg leading-8">
+                More than four decades of excellence in travel medicine,
+                emergency care, diagnostics and specialist healthcare.
             </p>
         </div>
-        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-14">
-            <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
-                <img src="./assets/img/ISO-Certified-company-logo.webp"
-                    class="w-24 h-24 object-contain">
-                <div>
-                    <h3 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-2">
-                        ISO Certified
-                    </h3>
-                    <p class="max-w-5xl text-[1rem] leading-[2rem] mx-auto font-light font-normal">
-                        Both branches of CIWEC hospital are ISO certified
-                    </p>
-                </div>
-            </div>
-            <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
-                <img src="./assets/img/consulting.webp"
-                    class="w-24 h-24 rounded-full object-cover">
-                <div>
-                    <h3 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-2">
-                        80+
-                    </h3>
-                    <p class="max-w-5xl text-[1rem] leading-[2rem] mx-auto font-light font-normal">
-                        Consultants in various specialists
-                    </p>
-                </div>
-            </div>
-            <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
-                <img src="./assets/img/42-years.webp"
-                    class="w-24 h-24 rounded-full object-cover">
-                <div>
-                    <h3 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-2">
-                        42 years+
-                    </h3>
-                    <p class="max-w-5xl text-[1rem] leading-[2rem] mx-auto font-light font-normal">
-                        experience in dealing with travel related illnesses
-                    </p>
-                </div>
-            </div>
-            <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
-                <img src="./assets/img/170.webp"
-                    class="w-24 h-24 rounded-full object-cover">
-                <div>
-                    <h3 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-2">
-                        170 +
-                    </h3>
-                    <p class="max-w-5xl text-[1rem] leading-[2rem] mx-auto font-light font-normal">
-                        Nationalities as patients
-                    </p>
-                </div>
-            </div>
-            <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
-                <img src="./assets/img/3000.webp"
-                    class="w-24 h-24 rounded-full object-cover">
-                <div>
-                    <h3 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-2">
-                        30,000+
-                    </h3>
-                    <p class="max-w-5xl text-[1rem] leading-[2rem] mx-auto font-light font-normal">
-                        Insurance cases closed
-                    </p>
-                </div>
-            </div>
-            <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
-                <img src="./assets/img/circular.webp"
-                    class="w-24 h-24 rounded-full object-cover">
-                <div>
-                    <h3 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-2">
-                        35+
-                    </h3>
-                    <p class="max-w-5xl text-[1rem] leading-[2rem] mx-auto font-light font-normal">
-                        Years research in travel related illnesses
-                    </p>
-                </div>
-            </div>
-            <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8 text-center sm:text-left">
-                <img src="./assets/img/ismt_certified.webp"
-                    class="w-24 h-24 rounded-full object-cover">
-                <div>
-                    <h3 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-2">
-                        ISTM Certified
-                    </h3>
-                    <p class="max-w-5xl text-[1rem] leading-[2rem] mx-auto font-light font-normal">
-                        Our doctors and nurses are certified in travel health by the International Society of Travel Medicine
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-<!-- Circular design of why ciwec -->
-<section class="relative overflow-hidden bg-[#ebf0f5] py-6 md:py-8 xl:py-10">
-    <!-- BACKGROUND -->
-    <div class="absolute inset-0 opacity-[0.03]"
-        style="background-image:url('https://www.transparenttextures.com/patterns/wavy-lines.png');">
-    </div>
-    <div class="container-custom relative z-10">
-        <!-- =========================================
-         HEADING
-         ========================================= -->
-        <div class="text-center max-w-5xl mx-auto mb-10 lg:mb-14">
-            <h2 class="text-primary text-[24px] md:text-[32px] xl:text-[38px] font-black mb-3">
-                Why CIWEC
-            </h2>
-            <p class="text-gray-600 text-sm md:text-[15px] leading-relaxed md:leading-7 font-normal">
-                • 42 years of experience • Friendly and quiet environment • 24/7 availability of seasoned post graduate doctors/nurses • Doctors and senior nurses certified by ISTM in Travel Health • Best nurse to patient ratio • Short waiting time for appointments, diagnosis and reports • End to end handling of insurance cases
-            </p>
-        </div>
-        <!-- =========================================
-         DESKTOP / LARGE SCREEN
-         ========================================= -->
-        <div
-            class="hidden xl:flex items-center justify-center relative max-w-[1200px] mx-auto min-h-[650px]">
-            <!-- OUTER CIRCLE -->
-            <div
-                class="absolute w-[560px] h-[560px] rounded-full border border-dashed border-gray-500">
-            </div>
-            <!-- CENTER -->
-            <div
-                class="relative w-[350px] h-[350px] rounded-full overflow-hidden border-[8px] border-white shadow-[0_18px_50px_rgba(0,0,0,.10)] z-20 bg-white flex items-center justify-center mb-8">
-                <div class="text-center px-8">
-                    <h3 class="text-primary text-[34px] font-black leading-tight mb-4">
-                        Why CIWEC
-                    </h3>
-                    <p class="text-gray-500 text-sm leading-6">
-                        Trusted travel healthcare with global expertise.
-                    </p>
-                </div>
-            </div>
-            <!-- =========================================
-            TOP
-            ========================================= -->
-            <div class="absolute top-[-7%] left-1/2 -translate-x-1/2 text-center max-w-[190px] ">
-                <h3 class="text-primary text-[18px] font-black leading-[1.3] mb-2">
-
-                    ISO Certified
-                </h3>
-                <p class="text-gray-600 text-[13px] leading-5">
-                    Both branches of CIWEC hospital are ISO certified
-                </p>
-                <img src="./assets/img/ISO-Certified-company-logo.webp"
-                    class="w-14 h-14 object-contain mx-auto mb-3">
-            </div>
-            <!-- RIGHT TOP -->
-            <div class="absolute right-[16%] top-[22%] max-w-[200px]">
-                <div class="flex items-start gap-3">
-                    <img src="./assets/img/consulting.webp"
-                        class="w-14 h-14 rounded-full object-cover shrink-0">
-                    <div>
-                        <h3 class="text-primary text-[18px] font-black leading-[1.3] mb-1">
-                            80+
+        <div class="grid xl:grid-cols-12 gap-8 xl:gap-12 items-center">
+            <div class="xl:col-span-5">
+                <div class="relative overflow-hidden">
+                    <img
+                        src="./assets/img/speciality/img1.jpg"
+                        class="w-full h-[320px] md:h-[500px] object-cover">
+                    <div
+                        class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-8">
+                        <h3
+                            class="text-white text-2xl font-black mb-2">
+                            42+ Years
                         </h3>
-                        <p class="text-gray-600 text-[13px] leading-5">
-                            Consultants in various specialists
+                        <p
+                            class="text-white/90">
+                            Delivering trusted healthcare services in Nepal
                         </p>
                     </div>
                 </div>
             </div>
-            <!-- RIGHT CENTER -->
-            <div class="absolute right-[13%] bottom-[28%] max-w-[220px]">
-                <div class="flex items-start gap-3">
-                    <img src="./assets/img/3000.webp"
-                        class="w-14 h-14 rounded-full object-cover shrink-0">
-                    <div>
-                        <h3 class="text-primary text-[18px] font-black leading-[1.3] mb-1">
+            <div class="xl:col-span-7">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300">
+                        <img src="./assets/img/ISO-Certified-company-logo.webp"
+                            class="w-14 h-14 object-contain mb-4">
+                        <h3 class="text-primary text-lg font-black mb-3">
+                            ISO Certified
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-6">
+                            Internationally recognized quality standards.
+                        </p>
+                    </div>
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300">
+                        <img src="./assets/img/consulting.webp"
+                            class="w-14 h-14 object-cover mb-4">
+                        <h3 class="text-primary text-lg font-black mb-3">
+                            80+ Specialists
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-6">
+                            Multi-disciplinary consultant team.
+                        </p>
+                    </div>
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300">
+                        <img src="./assets/img/42-years.webp"
+                            class="w-14 h-14 object-cover mb-4">
+                        <h3 class="text-primary text-lg font-black mb-3">
+                            42+ Years
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-6">
+                            Experience in travel medicine.
+                        </p>
+                    </div>
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300">
+                        <img src="./assets/img/170.webp"
+                            class="w-14 h-14 object-cover mb-4">
+                        <h3 class="text-primary text-lg font-black mb-3">
+                            170+ Nations
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-6">
+                            Patients from around the globe.
+                        </p>
+                    </div>
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300">
+                        <img src="./assets/img/3000.webp"
+                            class="w-14 h-14 object-cover mb-4">
+                        <h3 class="text-primary text-lg font-black mb-3">
                             30,000+
                         </h3>
-                        <p class="text-gray-600 text-[13px] leading-5">
-                            Insurance cases closed successfully
+                        <p class="text-slate-600 text-sm leading-6">
+                            Insurance cases successfully handled.
                         </p>
                     </div>
-                </div>
-            </div>
-            <!-- RIGHT BOTTOM -->
-            <div class="absolute right-[26%] bottom-[3%] max-w-[210px]">
-                <div class="flex items-start gap-3">
-                    <img src="./assets/img/circular.webp"
-                        class="w-14 h-14 rounded-full object-cover shrink-0">
-                    <div>
-                        <h3 class="text-primary text-[18px] font-black leading-[1.3] mb-1">
-                            35+
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300">
+                        <img src="./assets/img/circular.webp"
+                            class="w-14 h-14 object-cover mb-4">
+                        <h3 class="text-primary text-lg font-black mb-3">
+                            35+ Years
                         </h3>
-                        <p class="text-gray-600 text-[13px] leading-5">
-                            Years research in travel related illnesses
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- LEFT TOP -->
-            <div class="absolute left-[14%] top-[22%] max-w-[220px] text-right">
-                <div class="flex items-start gap-3 flex-row-reverse">
-                    <img src="./assets/img/42-years.webp"
-                        class="w-14 h-14 rounded-full object-cover shrink-0">
-                    <div>
-                        <h3 class="text-primary text-[18px] font-black leading-[1.3] mb-1">
-                            42 Years+
-                        </h3>
-                        <p class="text-gray-600 text-[13px] leading-5">
-                            Experience in travel related illnesses
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- LEFT CENTER -->
-            <div class="absolute left-[14%] bottom-[28%] max-w-[220px] text-right">
-                <div class="flex items-start gap-3 flex-row-reverse">
-                    <img src="./assets/img/170.webp"
-                        class="w-14 h-14 rounded-full object-cover shrink-0">
-                    <div>
-                        <h3 class="text-primary text-[18px] font-black leading-[1.3] mb-1">
-                            170+
-                        </h3>
-                        <p class="text-gray-600 text-[13px] leading-5">
-                            Nationalities as patients
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- LEFT BOTTOM -->
-            <div class="absolute left-[24%] bottom-[3%] max-w-[230px] text-right">
-                <div class="flex items-start gap-3 flex-row-reverse">
-                    <img src="./assets/img/ismt_certified.webp"
-                        class="w-14 h-14 rounded-full object-cover shrink-0">
-                    <div>
-                        <h3 class="text-primary text-[18px] font-black leading-[1.3] mb-1">
-                            ISTM Certified
-                        </h3>
-                        <p class="text-gray-600 text-[13px] leading-5">
-                            Certified in travel health by ISTM
+                        <p class="text-slate-600 text-sm leading-6">
+                            Research in travel related illnesses.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- =========================================
-         TABLET VIEW
-         ========================================= -->
-        <div class="hidden md:grid xl:hidden grid-cols-2 gap-5">
-            <!-- ITEM -->
-            <div
-                class="bg-white rounded-2xl p-5 shadow-sm flex items-start gap-4 hover:shadow-md transition-all duration-300">
-                <img src="./assets/img/ISO-Certified-company-logo.webp"
-                    class="w-14 h-14 object-contain shrink-0">
-                <div>
-                    <h3 class="text-primary text-lg font-black mb-1">
-                        ISO Certified
-                    </h3>
-                    <p class="text-gray-600 text-sm leading-6">
-                        Both branches of CIWEC hospital are ISO certified
-                    </p>
-                </div>
+        <div
+            class="mt-14 grid grid-cols-2 lg:grid-cols-4 border-t border-slate-200">
+            <div class="py-8 text-center">
+                <h3 class="text-primary text-3xl font-black mb-2">
+                    42+
+                </h3>
+                <p class="text-slate-600 text-sm">
+                    Years Experience
+                </p>
             </div>
-            <!-- ITEM -->
-            <div
-                class="bg-white rounded-2xl p-5 shadow-sm flex items-start gap-4 hover:shadow-md transition-all duration-300">
-                <img src="./assets/img/consulting.webp"
-                    class="w-14 h-14 rounded-full object-cover shrink-0">
-                <div>
-                    <h3 class="text-primary text-lg font-black mb-1">
-                        80+
-                    </h3>
-                    <p class="text-gray-600 text-sm leading-6">
-                        Consultants in various specialists
-                    </p>
-                </div>
+            <div class="py-8 text-center">
+                <h3 class="text-primary text-3xl font-black mb-2">
+                    80+
+                </h3>
+                <p class="text-slate-600 text-sm">
+                    Specialists
+                </p>
             </div>
-            <!-- ITEM -->
-            <div
-                class="bg-white rounded-2xl p-5 shadow-sm flex items-start gap-4 hover:shadow-md transition-all duration-300">
-                <img src="./assets/img/42-years.webp"
-                    class="w-14 h-14 rounded-full object-cover shrink-0">
-                <div>
-                    <h3 class="text-primary text-lg font-black mb-1">
-                        42 Years+
-                    </h3>
-                    <p class="text-gray-600 text-sm leading-6">
-                        Experience in travel related illnesses
-                    </p>
-                </div>
+            <div class="py-8 text-center">
+                <h3 class="text-primary text-3xl font-black mb-2">
+                    170+
+                </h3>
+                <p class="text-slate-600 text-sm">
+                    Nationalities Served
+                </p>
             </div>
-            <!-- ITEM -->
-            <div
-                class="bg-white rounded-2xl p-5 shadow-sm flex items-start gap-4 hover:shadow-md transition-all duration-300">
-                <img src="./assets/img/170.webp"
-                    class="w-14 h-14 rounded-full object-cover shrink-0">
-                <div>
-                    <h3 class="text-primary text-lg font-black mb-1">
-                        170+
-                    </h3>
-                    <p class="text-gray-600 text-sm leading-6">
-                        Nationalities as patients
-                    </p>
-                </div>
-            </div>
-            <!-- ITEM -->
-            <div
-                class="bg-white rounded-2xl p-5 shadow-sm flex items-start gap-4 hover:shadow-md transition-all duration-300">
-                <img src="./assets/img/3000.webp"
-                    class="w-14 h-14 rounded-full object-cover shrink-0">
-                <div>
-                    <h3 class="text-primary text-lg font-black mb-1">
-                        30,000+
-                    </h3>
-                    <p class="text-gray-600 text-sm leading-6">
-                        Insurance cases closed
-                    </p>
-                </div>
-            </div>
-            <!-- ITEM -->
-            <div
-                class="bg-white rounded-2xl p-5 shadow-sm flex items-start gap-4 hover:shadow-md transition-all duration-300">
-                <img src="./assets/img/circular.webp"
-                    class="w-14 h-14 rounded-full object-cover shrink-0">
-                <div>
-                    <h3 class="text-primary text-lg font-black mb-1">
-                        35+
-                    </h3>
-                    <p class="text-gray-600 text-sm leading-6">
-                        Years research in travel related illnesses
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- =========================================
-         MOBILE VIEW
-         ========================================= -->
-        <div class="md:hidden space-y-4">
-            <!-- CARD -->
-            <div
-                class="bg-white rounded-2xl p-4 shadow-sm flex items-center gap-4">
-                <img src="./assets/img/ISO-Certified-company-logo.webp"
-                    class="w-12 h-12 object-contain shrink-0">
-                <div>
-                    <h3 class="text-primary text-[17px] font-black mb-1">
-                        ISO Certified
-                    </h3>
-                    <p class="text-gray-600 text-[13px] leading-5">
-                        Both branches of CIWEC hospital are ISO certified
-                    </p>
-                </div>
-            </div>
-            <!-- CARD -->
-            <div
-                class="bg-white rounded-2xl p-4 shadow-sm flex items-center gap-4">
-                <img src="./assets/img/consulting.webp"
-                    class="w-12 h-12 rounded-full object-cover shrink-0">
-                <div>
-                    <h3 class="text-primary text-[17px] font-black mb-1">
-                        80+
-                    </h3>
-                    <p class="text-gray-600 text-[13px] leading-5">
-                        Consultants in various specialists
-                    </p>
-                </div>
-            </div>
-            <!-- CARD -->
-            <div
-                class="bg-white rounded-2xl p-4 shadow-sm flex items-center gap-4">
-                <img src="./assets/img/42-years.webp"
-                    class="w-12 h-12 rounded-full object-cover shrink-0">
-                <div>
-                    <h3 class="text-primary text-[17px] font-black mb-1">
-                        42 Years+
-                    </h3>
-                    <p class="text-gray-600 text-[13px] leading-5">
-                        Experience in travel related illnesses
-                    </p>
-                </div>
-            </div>
-            <!-- CARD -->
-            <div
-                class="bg-white rounded-2xl p-4 shadow-sm flex items-center gap-4">
-                <img src="./assets/img/170.webp"
-                    class="w-12 h-12 rounded-full object-cover shrink-0">
-                <div>
-                    <h3 class="text-primary text-[17px] font-black mb-1">
-                        170+
-                    </h3>
-                    <p class="text-gray-600 text-[13px] leading-5">
-                        Nationalities as patients
-                    </p>
-                </div>
+            <div class="py-8 text-center">
+                <h3 class="text-primary text-3xl font-black mb-2">
+                    24/7
+                </h3>
+                <p class="text-slate-600 text-sm">
+                    Emergency Care
+                </p>
             </div>
         </div>
     </div>
@@ -1007,139 +901,166 @@ Our History
 <!-- =========================
 WHATS NEW SECTION
 ========================= -->
-<section class="py-16 lg:py-20 bg-[#f5f8fc] overflow-hidden">
-    <div class="max-w-7xl mx-auto px-5 lg:px-8">
-        <!-- HEADING -->
-        <div class="text-center mb-8 lg:mb-12">
-            <h2 class="text-primary text-3xl md:text-4xl font-black">
-                What's New
-            </h2>
-
-            <p class="max-w-3xl mx-auto text-gray-600 text-sm md:text-base leading-relaxed">
-                Stay informed about our latest healthcare services and innovations, designed to provide expert care, greater convenience, and a seamless patient experience for you and your family.
-            </p>
+<!-- =========================================
+    WHAT'S NEW
+    ========================================= -->
+<section class="section-padding bg-white">
+    <div class="container-custom">
+        <!-- HEADER -->
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
+            <div class="max-w-3xl">
+                <span
+                    class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
+                    <span class="w-2 h-2 bg-secondary"></span>
+                    What's New
+                </span>
+                <h2
+                    class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-4">
+                    New Services & Healthcare Innovations
+                </h2>
+                <p
+                    class="text-gray-600 text-base md:text-lg leading-8">
+                    Discover the latest healthcare services, specialist programs,
+                    diagnostic facilities and patient-focused innovations at CIWEC.
+                </p>
+            </div>
+            <a href="#"
+                class="inline-flex items-center gap-3 text-primary font-bold group">
+                View All Updates
+                <span
+                    class="w-9 h-9 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
+                    <i class="fa-solid fa-arrow-right text-xs"></i>
+                </span>
+            </a>
         </div>
         <!-- GRID -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
-            <!-- LEFT LARGE CARD -->
-            <div class="lg:col-span-4">
-                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-500 h-full group">
-                    <!-- IMAGE -->
-                    <div class="overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1200&auto=format&fit=crop" alt="" class="w-full h-[240px] md:h-[280px] object-cover group-hover:scale-105 transition duration-700">
-                    </div>
-                    <!-- CONTENT -->
-                    <div class="p-6 md:p-8 flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-primary text-[28px] md:text-[32px] font-bold leading-tight mb-4">
-                                Second Opinion
-                            </h3>
-                            <p class="text-gray-600 text-[15px] md:text-[17px] leading-7">
-                                Confirm diagnosis and take informed decision about your treatment plan with some of Nepal’s top experts.
-                            </p>
-                        </div>
-                        <!-- BOTTOM -->
-                        <div class="flex items-center justify-between mt-8">
-                            <a href="#"
-                                class="inline-flex items-center gap-3 text-primary font-semibold text-[15px] hover:text-secondary transition">
-                                Know More
-                                <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center text-xs">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </span>
-                            </a>
-                            <div class="text-secondary/20 text-[34px]">
-                                <i class="fa-solid fa-user-doctor"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- CENTER SMALL CARDS -->
-            <div class="lg:col-span-4">
-                <div class="grid grid-cols-1 gap-6 h-full">
-                    <!-- CARD -->
-                    <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-500 p-6 md:p-8 flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-primary text-[24px] md:text-[28px] font-bold leading-tight mb-4">
-                                Buy Medicine
-                            </h3>
-                            <p class="text-gray-600 text-[15px] leading-7">
-                                Recover without worrying about going out to buy reliable medication delivered to your doorstep.
-                            </p>
-                        </div>
-
-                        <div class="flex items-center justify-between mt-8">
-                            <a href="#"
-                                class="inline-flex items-center gap-3 text-primary font-semibold text-[15px] hover:text-secondary transition">
-                                Know More
-                                <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center text-xs">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </span>
-                            </a>
-                            <div class="text-secondary/20 text-[30px]">
-                                <i class="fa-solid fa-capsules"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- CARD -->
-                    <div class="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-500 p-6 md:p-8 flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-primary text-[24px] md:text-[28px] font-bold leading-tight mb-4">
-                                Labs & Diagnostics
-                            </h3>
-                            <p class="text-gray-600 text-[15px] leading-7">
-                                Advanced diagnostics with modern infrastructure and expert medical professionals.
-                            </p>
-                        </div>
-                        <div class="flex items-center justify-between mt-8">
-                            <a href="#"
-                                class="inline-flex items-center gap-3 text-primary font-semibold text-[15px] hover:text-secondary transition">
-                                Know More
-                                <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center text-xs">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </span>
-                            </a>
-                            <div class="text-secondary/20 text-[30px]">
-                                <i class="fa-solid fa-flask-vial"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- RIGHT LARGE CARD -->
-            <div class="lg:col-span-4">
-                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-500 h-full group">
-                    <!-- IMAGE -->
+        <div class="grid lg:grid-cols-12 gap-6">
+            <!-- FEATURED CARD -->
+            <div class="lg:col-span-5">
+                <article
+                    class="group border border-slate-200 bg-white h-full hover:border-secondary transition-all duration-500">
                     <div class="overflow-hidden">
                         <img
-                            src="https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=1200&auto=format&fit=crop"
+                            src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=1200"
                             alt=""
-                            class="w-full h-[240px] md:h-[280px] object-cover group-hover:scale-105 transition duration-700">
+                            class="w-full h-[260px] md:h-[340px] object-cover transition duration-700 group-hover:scale-105">
                     </div>
-                    <!-- CONTENT -->
-                    <div class="p-6 md:p-8 flex flex-col justify-between">
-                        <div>
-                            <h3 class="text-primary text-[28px] md:text-[32px] font-bold leading-tight mb-4">
-                                Health Check
-                            </h3>
-                            <p class="text-gray-600 text-[15px] md:text-[17px] leading-7">
-                                Take charge of your health with a personalized healthcare experience designed around your needs and lifestyle.
-                            </p>
-                        </div>
-                        <!-- BOTTOM -->
-                        <div class="flex items-center justify-between mt-8">
-                            <a href="#"
-                                class="inline-flex items-center gap-3 text-primary font-semibold text-[15px] hover:text-secondary transition">
-                                Know More
-                                <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center text-xs">
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </span>
-                            </a>
-                            <div class="text-secondary/20 text-[34px]">
-                                <i class="fa-solid fa-heart-pulse"></i>
-                            </div>
-                        </div>
+                    <div class="p-6 md:p-8">
+                        <span
+                            class="text-secondary text-xs uppercase tracking-[2px] font-bold">
+                            Featured Service
+                        </span>
+                        <h3
+                            class="text-primary text-2xl md:text-3xl font-black leading-tight mt-3 mb-4">
+                            Second Opinion Consultation
+                        </h3>
+                        <p
+                            class="text-gray-600 leading-8 mb-8">
+                            Get expert medical advice from experienced specialists
+                            before making important treatment decisions.
+                        </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-3 text-primary font-bold group">
+                            Learn More
+                            <span
+                                class="w-9 h-9 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
+                                <i class="fa-solid fa-arrow-right text-xs"></i>
+                            </span>
+                        </a>
                     </div>
+                </article>
+            </div>
+            <!-- RIGHT COLUMN -->
+            <div class="lg:col-span-7">
+                <div class="grid md:grid-cols-2 gap-6 h-full">
+                    <!-- CARD -->
+                    <article
+                        class="border border-slate-200 p-6 md:p-8 hover:border-secondary transition-all duration-500 flex flex-col">
+                        <div
+                            class="w-14 h-14 bg-primary/5 text-primary flex items-center justify-center mb-6">
+                            <i class="fa-solid fa-capsules text-xl"></i>
+                        </div>
+                        <h3
+                            class="text-primary text-xl md:text-2xl font-black mb-4">
+                            Buy Medicine
+                        </h3>
+                        <p
+                            class="text-gray-600 leading-7 flex-grow">
+                            Reliable medication delivered safely to your home
+                            with professional pharmacy support.
+                        </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-3 text-primary font-bold mt-6">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right text-secondary"></i>
+                        </a>
+                    </article>
+                    <!-- CARD -->
+                    <article
+                        class="border border-slate-200 p-6 md:p-8 hover:border-secondary transition-all duration-500 flex flex-col">
+                        <div
+                            class="w-14 h-14 bg-primary/5 text-primary flex items-center justify-center mb-6">
+                            <i class="fa-solid fa-flask text-xl"></i>
+                        </div>
+                        <h3
+                            class="text-primary text-xl md:text-2xl font-black mb-4">
+                            Labs & Diagnostics
+                        </h3>
+                        <p
+                            class="text-gray-600 leading-7 flex-grow">
+                            Comprehensive diagnostic services powered by modern
+                            equipment and expert laboratory professionals.
+                        </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-3 text-primary font-bold mt-6">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right text-secondary"></i>
+                        </a>
+                    </article>
+                    <!-- CARD -->
+                    <article
+                        class="border border-slate-200 p-6 md:p-8 hover:border-secondary transition-all duration-500 flex flex-col">
+                        <div
+                            class="w-14 h-14 bg-primary/5 text-primary flex items-center justify-center mb-6">
+                            <i class="fa-solid fa-heart-pulse text-xl"></i>
+                        </div>
+                        <h3
+                            class="text-primary text-xl md:text-2xl font-black mb-4">
+                            Health Screening
+                        </h3>
+                        <p
+                            class="text-gray-600 leading-7 flex-grow">
+                            Preventive healthcare programs tailored for
+                            individuals, families and corporate clients.
+                        </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-3 text-primary font-bold mt-6">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right text-secondary"></i>
+                        </a>
+                    </article>
+                    <!-- CARD -->
+                    <article
+                        class="border border-slate-200 p-6 md:p-8 hover:border-secondary transition-all duration-500 flex flex-col">
+                        <div
+                            class="w-14 h-14 bg-primary/5 text-primary flex items-center justify-center mb-6">
+                            <i class="fa-solid fa-user-doctor text-xl"></i>
+                        </div>
+                        <h3
+                            class="text-primary text-xl md:text-2xl font-black mb-4">
+                            Specialist Care
+                        </h3>
+                        <p
+                            class="text-gray-600 leading-7 flex-grow">
+                            Access expert consultations from experienced doctors
+                            across multiple medical specialties.
+                        </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-3 text-primary font-bold mt-6">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right text-secondary"></i>
+                        </a>
+                    </article>
                 </div>
             </div>
         </div>
@@ -1213,95 +1134,111 @@ WHATS NEW SECTION
 <!-- =========================================
    OUR DOCTORS SECTION
 ========================================= -->
-<section class="relative overflow-hidden bg-[#EBF0F5] py-10 md:py-14 xl:py-16">
-    <!-- BACKGROUND PATTERN -->
-    <div class="absolute inset-0 opacity-[0.03]"
-        style="background-image:url('https://www.transparenttextures.com/patterns/wavy-lines.png');">
-    </div>
-    <div class="container-custom relative z-10">
-        <div class="grid xl:grid-cols-[1fr_1fr_1.5fr] gap-5 xl:gap-8 items-stretch">
-            <!-- =========================================
-            DOCTOR CARD 1
-            ========================================= -->
-            <div class="group rounded-xl bg-white overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_18px_40px_rgba(0,0,0,.10)] transition-all duration-500">
+<section class="section-padding bg-white">
+    <div class="container-custom">
+        <div class="grid xl:grid-cols-[1fr_1fr_1.2fr] gap-6 xl:gap-8 items-stretch">
+            <!-- =========================
+                DOCTOR 1
+                ========================= -->
+            <article
+                class="group border border-slate-200 bg-white overflow-hidden transition-all duration-500 hover:border-secondary">
                 <!-- IMAGE -->
                 <div class="relative overflow-hidden">
-                    <img src="./assets/doctors/doc1.jpg"
-                        alt="Kathmandu Doctor"
-                        class="w-full h-[300px] md:h-[360px] object-cover transition-transform duration-700 group-hover:scale-105">
-                    <!-- LOCATION -->
+                    <img
+                        src="./assets/doctors/doc1.jpg"
+                        alt=""
+                        class="w-full h-[320px] md:h-[420px] object-cover transition duration-700 group-hover:scale-105">
+                    <!-- BRANCH -->
                     <div
-                        class="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-sm">
-                        <span class="text-primary text-[12px] font-semibold">
-                            Kathmandu Branch
+                        class="absolute left-5 top-5 bg-white px-4 py-2 border border-slate-200">
+                        <span
+                            class="text-primary text-xs font-bold uppercase tracking-[1px]">
+                            Kathmandu
                         </span>
                     </div>
                 </div>
                 <!-- CONTENT -->
-                <div class="bg-secondary px-5 py-5 text-center">
-                    <h3 class="text-white text-[24px] md:text-[28px] font-bold leading-tight mb-1">
+                <div class="p-6">
+                    <h3
+                        class="text-primary text-[24px] font-black leading-tight mb-2">
                         Dr. Sarah Sharma
                     </h3>
-                    <p class="text-white/90 text-sm md:text-base font-medium">
+                    <p
+                        class="text-secondary font-semibold mb-5">
                         Senior Consultant Physician
                     </p>
+                    <a href="#"
+                        class="inline-flex items-center gap-3 text-primary font-bold text-sm group">
+                        View Profile
+                        <span
+                            class="w-8 h-8 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
+                            <i class="fa-solid fa-arrow-right text-[11px]"></i>
+                        </span>
+                    </a>
                 </div>
-            </div>
-            <!-- =========================================
-            DOCTOR CARD 2
-            ========================================= -->
-            <div class="group rounded-xl bg-white overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_18px_40px_rgba(0,0,0,.10)] transition-all duration-500">
-                <!-- IMAGE -->
+            </article>
+            <!-- =========================
+                DOCTOR 2
+                ========================= -->
+            <article
+                class="group border border-slate-200 bg-white overflow-hidden transition-all duration-500 hover:border-secondary">
                 <div class="relative overflow-hidden">
-                    <img src="./assets/doctors/doc2.jpg"
-                        alt="Pokhara Doctor"
-                        class="w-full h-[300px] block md:h-[360px] object-cover transition-transform duration-700 group-hover:scale-105">
-                    <!-- LOCATION -->
+                    <img
+                        src="./assets/doctors/doc2.jpg"
+                        alt=""
+                        class="w-full h-[320px] md:h-[420px] object-cover transition duration-700 group-hover:scale-105">
                     <div
-                        class="absolute top-4 left-4 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-full shadow-sm">
-                        <span class="text-primary text-[12px] font-semibold">
-                            Pokhara Branch
+                        class="absolute left-5 top-5 bg-white px-4 py-2 border border-slate-200">
+                        <span
+                            class="text-primary text-xs font-bold uppercase tracking-[1px]">
+                            Pokhara
                         </span>
                     </div>
                 </div>
-                <!-- CONTENT -->
-                <div class="bg-secondary px-5 py-5 text-center">
-                    <h3 class="text-white text-[24px] md:text-[28px] font-bold leading-tight mb-1">
+                <div class="p-6">
+                    <h3
+                        class="text-primary text-[24px] font-black leading-tight mb-2">
                         Dr. Anisha Gurung
                     </h3>
-                    <p class="text-white/90 text-sm md:text-base font-medium">
+                    <p
+                        class="text-secondary font-semibold mb-5">
                         Travel Medicine Specialist
                     </p>
+                    <a href="#"
+                        class="inline-flex items-center gap-3 text-primary font-bold text-sm group">
+                        View Profile
+                        <span
+                            class="w-8 h-8 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
+                            <i class="fa-solid fa-arrow-right text-[11px]"></i>
+                        </span>
+                    </a>
                 </div>
-            </div>
-            <!-- =========================================
-            CONTENT SIDE
-            ========================================= -->
+            </article>
+            <!-- =========================
+                CONTENT
+                ========================= -->
             <div
-                class="bg-[#f7f7f7] rounded-[20px] p-7 md:p-10 xl:p-12 flex flex-col justify-center">
-                <!-- SMALL TITLE -->
-                <div class="flex items-center gap-3 mb-4">
-                    <span class="text-secondary text-sm md:text-base font-black uppercase tracking-wide">
-                        Our Doctors
-                    </span>
-                    <div class="w-12 h-[2px] bg-secondary"></div>
-                </div>
-                <!-- MAIN TITLE -->
+                class="bg-slate-50 border border-slate-200 p-8 md:p-10 xl:p-12 flex flex-col justify-center">
+                <span
+                    class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-5">
+                    <span class="w-2 h-2 bg-secondary"></span>
+                    Meet Our Experts
+                </span>
                 <h2
-                    class="section-title mb-5">
-                    Meet our Specialists
+                    class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-6">
+                    Healthcare Professionals You Can Trust
                 </h2>
-                <!-- DESCRIPTION -->
                 <p
-                    class="text-gray-600 text-[15px] md:text-[17px] leading-7 md:leading-8 mb-8 max-w-[560px]">
-                    Our experienced doctors in Kathmandu and Pokhara provide world-class healthcare, travel medicine expertise, and compassionate patient-centered care.
+                    class="text-slate-600 text-base md:text-lg leading-8 mb-8">
+                    Our experienced physicians in Kathmandu and Pokhara deliver
+                    evidence-based healthcare, travel medicine expertise,
+                    preventive care and specialist consultations for patients
+                    from Nepal and around the world.
                 </p>
-                <!-- BUTTON -->
                 <div>
                     <a href="#"
                         class="btn-primary">
-                        <!-- class="inline-flex items-center justify-center bg-secondary hover:bg-primary text-white text-sm md:text-base font-bold px-7 md:px-8 py-3.5 md:py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"> -->
-                        VIEW ALL DOCTORS
+                        View All Doctors
                     </a>
                 </div>
             </div>
@@ -1328,336 +1265,364 @@ WHATS NEW SECTION
         <!-- =====================================================
             DESKTOP GRID
             ===================================================== -->
-        <div class="hidden xl:grid grid-cols-5 gap-4 auto-rows-[220px]">
-            <!-- CARD -->
-            <div class="story-card row-span-2 mt-20 mb-20"
-                data-video="./assets/vdo/banner.mp4">
-                <img src="./assets/img/speciality/img7.jpg"
-                    class="story-image">
-                <div class="story-overlay"></div>
-                <button class="story-play-btn">
-                    <i class="fa-solid fa-play"></i>
-                </button>
-                <div class="story-content">
-                    <h3 class="story-title">
-                        Mauritian Patient Treated For Esophageal Cancer
-                    </h3>
-                    <p class="story-subtitle">
-                        Mr Fazl Hosany
-                    </p>
+        <!-- STORIES GRID -->
+
+        <div class="hidden xl:grid grid-cols-12 gap-6">
+
+            <!-- FEATURED STORY -->
+
+            <div class="col-span-6">
+
+                <div class="story-card h-[620px]"
+                    data-video="./assets/vdo/banner.mp4">
+
+                    <img
+                        src="./assets/img/speciality/img9.jpg"
+                        class="story-image">
+
+                    <div class="story-overlay"></div>
+
+                    <button class="story-play-btn">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+
+                    <div class="story-content">
+
+                        <span
+                            class="inline-block px-3 py-1 bg-secondary text-white text-xs font-semibold uppercase tracking-[1px] mb-4">
+
+                            Featured Story
+
+                        </span>
+
+                        <h3 class="story-title !text-[34px]">
+                            Pre-Term Babies
+                        </h3>
+
+                        <p class="story-subtitle">
+                            Ms Sakshi
+                        </p>
+
+                    </div>
+
                 </div>
+
             </div>
-            <!-- CARD -->
-            <div class="story-card"
-                data-video="./assets/vdo/banner.mp4">
-                <img src="./assets/img/speciality/img8.jpg"
-                    class="story-image">
-                <div class="story-overlay"></div>
-                <button class="story-play-btn">
-                    <i class="fa-solid fa-play"></i>
-                </button>
-                <div class="story-content">
-                    <h3 class="story-title">
-                        Liver Failure
-                    </h3>
-                    <p class="story-subtitle">
-                        Baby Bhavika
-                    </p>
+
+            <!-- RIGHT -->
+
+            <div class="col-span-6">
+
+                <div class="grid grid-cols-2 gap-6 h-full">
+
+                    <!-- CARD -->
+
+                    <div class="story-card h-[300px]"
+                        data-video="./assets/vdo/banner.mp4">
+
+                        <img
+                            src="./assets/img/speciality/img8.jpg"
+                            class="story-image">
+
+                        <div class="story-overlay"></div>
+
+                        <button class="story-play-btn">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+
+                        <div class="story-content">
+
+                            <h3 class="story-title">
+                                Liver Failure
+                            </h3>
+
+                            <p class="story-subtitle">
+                                Baby Bhavika
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="story-card h-[300px]"
+                        data-video="./assets/vdo/banner.mp4">
+
+                        <img
+                            src="./assets/img/speciality/img10.jpg"
+                            class="story-image">
+
+                        <div class="story-overlay"></div>
+
+                        <button class="story-play-btn">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+
+                        <div class="story-content">
+
+                            <h3 class="story-title">
+                                Neurosurgical Treatment
+                            </h3>
+
+                            <p class="story-subtitle">
+                                Mr Devender Jeet Singh
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="story-card h-[300px]"
+                        data-video="./assets/vdo/banner.mp4">
+
+                        <img
+                            src="./assets/img/speciality/img1.jpg"
+                            class="story-image">
+
+                        <div class="story-overlay"></div>
+
+                        <button class="story-play-btn">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+
+                        <div class="story-content">
+
+                            <h3 class="story-title">
+                                Bone Marrow Transplant
+                            </h3>
+
+                            <p class="story-subtitle">
+                                Mr Haider
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="story-card h-[300px]"
+                        data-video="./assets/vdo/banner.mp4">
+
+                        <img
+                            src="./assets/img/speciality/img11.jpg"
+                            class="story-image">
+
+                        <div class="story-overlay"></div>
+
+                        <button class="story-play-btn">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+
+                        <div class="story-content">
+
+                            <h3 class="story-title">
+                                Kidney Donation
+                            </h3>
+
+                            <p class="story-subtitle">
+                                Ms Paluk Sunger
+                            </p>
+
+                        </div>
+
+                    </div>
+
                 </div>
+
             </div>
-            <!-- CARD LARGE -->
-            <div class="story-card row-span-2"
-                data-video="./assets/vdo/banner.mp4">
-                <img src="./assets/img/speciality/img9.jpg"
-                    class="story-image">
-                <div class="story-overlay"></div>
-                <button class="story-play-btn">
-                    <i class="fa-solid fa-play"></i>
-                </button>
-                <div class="story-content">
-                    <h3 class="story-title">
-                        Pre-term Babies
-                    </h3>
-                    <p class="story-subtitle">
-                        Ms Sakshi
-                    </p>
-                </div>
-            </div>
-            <!-- CARD -->
-            <div class="story-card"
-                data-video="./assets/vdo/banner.mp4">
-                <img src="./assets/img/speciality/img10.jpg"
-                    class="story-image">
-                <div class="story-overlay"></div>
-                <button class="story-play-btn">
-                    <i class="fa-solid fa-play"></i>
-                </button>
-                <div class="story-content">
-                    <h3 class="story-title">
-                        Neurosurgical Treatment
-                    </h3>
-                    <p class="story-subtitle">
-                        Mr Devender Jeet Singh
-                    </p>
-                </div>
-            </div>
-            <!-- CARD -->
-            <div class="story-card row-span-2 mt-20 mb-20"
-                data-video="./assets/vdo/banner.mp4">
-                <img src="./assets/img/speciality/img11.jpg"
-                    class="story-image">
-                <div class="story-overlay"></div>
-                <button class="story-play-btn">
-                    <i class="fa-solid fa-play"></i>
-                </button>
-                <div class="story-content">
-                    <h3 class="story-title">
-                        Mother Saves Daughter By Donating A Kidney
-                    </h3>
-                    <p class="story-subtitle">
-                        Ms Paluk Sunger
-                    </p>
-                </div>
-            </div>
-            <!-- CARD -->
-            <div class="story-card"
-                data-video="./assets/vdo/banner.mp4">
-                <img src="./assets/img/speciality/img1.jpg"
-                    class="story-image">
-                <div class="story-overlay"></div>
-                <button class="story-play-btn">
-                    <i class="fa-solid fa-play"></i>
-                </button>
-                <div class="story-content">
-                    <h3 class="story-title">
-                        Jaw Cancer
-                    </h3>
-                    <p class="story-subtitle">
-                        Dr Abhilasha Agarwal
-                    </p>
-                </div>
-            </div>
-            <!-- CARD -->
-            <div class="story-card"
-                data-video="./assets/vdo/banner.mp4">
-                <img src="./assets/img/speciality/img4.jpg"
-                    class="story-image">
-                <div class="story-overlay"></div>
-                <button class="story-play-btn">
-                    <i class="fa-solid fa-play"></i>
-                </button>
-                <div class="story-content">
-                    <h3 class="story-title">
-                        Bone Marrow Transplant
-                    </h3>
-                    <p class="story-subtitle">
-                        Patient Father Mr Haider
-                    </p>
-                </div>
-            </div>
+
         </div>
         <!-- =====================================================
             MOBILE / TABLET SLIDER
             ===================================================== -->
         <div class="xl:hidden">
-            <div class="swiper patientStoriesSwiper overflow-hidden" dir="rtl">
+
+            <div class="swiper patientStoriesSwiper">
+
                 <div class="swiper-wrapper">
-                    <!-- SLIDE -->
+
                     <div class="swiper-slide">
+
                         <div class="story-card h-[420px]"
                             data-video="./assets/vdo/banner.mp4">
-                            <img src="./assets/img/speciality/img7.jpg"
+
+                            <img
+                                src="./assets/img/speciality/img9.jpg"
                                 class="story-image">
+
                             <div class="story-overlay"></div>
+
                             <button class="story-play-btn">
                                 <i class="fa-solid fa-play"></i>
                             </button>
+
                             <div class="story-content">
+
                                 <h3 class="story-title">
-                                    Mauritian Patient Treated For Esophageal Cancer
+                                    Pre-Term Babies
                                 </h3>
-                                <p class="story-subtitle">
-                                    Mr Fazl Hosany
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- SLIDE -->
-                    <div class="swiper-slide">
-                        <div class="story-card h-[420px]"
-                            data-video="./assets/vdo/banner.mp4">
-                            <img src="./assets/img/speciality/img8.jpg"
-                                class="story-image">
-                            <div class="story-overlay"></div>
-                            <button class="story-play-btn">
-                                <i class="fa-solid fa-play"></i>
-                            </button>
-                            <div class="story-content">
-                                <h3 class="story-title">
-                                    Liver Failure
-                                </h3>
-                                <p class="story-subtitle">
-                                    Baby Bhavika
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- SLIDE -->
-                    <div class="swiper-slide">
-                        <div class="story-card h-[420px]"
-                            data-video="./assets/vdo/banner.mp4">
-                            <img src="./assets/img/speciality/img9.jpg"
-                                class="story-image">
-                            <div class="story-overlay"></div>
-                            <button class="story-play-btn">
-                                <i class="fa-solid fa-play"></i>
-                            </button>
-                            <div class="story-content">
-                                <h3 class="story-title">
-                                    Pre-term Babies
-                                </h3>
+
                                 <p class="story-subtitle">
                                     Ms Sakshi
                                 </p>
+
                             </div>
+
                         </div>
+
                     </div>
+
                 </div>
-                <!-- DOTS -->
-                <div class="swiper-pagination patient-story-pagination mt-8 !relative"></div>
+
+                <div class="patient-story-pagination mt-8"></div>
+
             </div>
+
         </div>
+
     </div>
 </section>
+
 <!-- =====================================================
     VIDEO MODAL
     ===================================================== -->
-<div id="videoModal"
-    class="fixed inset-0 z-[9999] hidden items-center rounded-xl justify-center bg-black/80 px-4">
-    <!-- MODAL BOX -->
-    <div class="relative rounded-xl w-full max-w-5xl bg-black">
+<div
+    id="videoModal"
+    class="fixed inset-0 z-[9999] hidden items-center justify-center bg-black/90 p-4">
+
+    <div
+        class="relative w-full max-w-6xl">
+
         <!-- CLOSE -->
-        <button id="closeVideoModal"
-            class="absolute -top-12 right-0 text-white text-3xl hover:text-secondary transition-all duration-300 z-50">
-            <i class="fa-solid fa-xmark"></i>
+
+        <button
+            id="closeVideoModal"
+            class="absolute -top-14 right-0 w-11 h-11 bg-white text-primary hover:bg-secondary hover:text-white transition-all duration-300">
+
+            <i class="fa-solid fa-xmark text-lg"></i>
+
         </button>
+
         <!-- VIDEO -->
-        <video id="storyVideo"
+
+        <video
+            id="storyVideo"
             controls
-            class="w-full h-auto rounded-xl max-h-[85vh] bg-black">
-            <source src="" type="video/mp4">
+            playsinline
+            class="w-full h-[75vh] aspect-video bg-black">
+
         </video>
+
     </div>
+
 </div>
 
 <!-- Statistics section -->
-<section class="relative overflow-hidden bg-primary py-16 md:py-20 xl:py-24">
-    <!-- Background Pattern -->
-    <div class="absolute inset-0 opacity-[0.05]">
-        <div class="absolute inset-0"
-            style="
-            background-image: radial-gradient(white 1px, transparent 1px);
-            background-size: 30px 30px;
-            ">
-        </div>
-    </div>
-    <div class="container-custom relative z-10">
-        <div class="grid xl:grid-cols-2 gap-12 xl:gap-16 items-center">
+<section class="section-padding bg-white overflow-hidden">
+    <div class="container-custom">
+        <div class="grid xl:grid-cols-2 gap-12 xl:gap-20 items-center">
             <!-- LEFT -->
             <div>
                 <span
-                    class="inline-block text-secondary text-sm md:text-base font-bold uppercase tracking-wider mb-4">
+                    class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
+                    <span class="w-2 h-2 bg-secondary"></span>
                     Trusted Worldwide
                 </span>
                 <h2
-                    class="text-white text-[28px] md:text-[40px] xl:text-[52px] font-black leading-tight mb-6">
-                    Delivering Quality Healthcare To Patients From Around The World
+                    class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-6">
+                    Delivering Quality Healthcare To Patients Across The Globe
                 </h2>
                 <p
-                    class="text-white/90 text-sm md:text-lg leading-8 max-w-2xl mb-8">
-                    CIWEC Hospital has served international travelers, expatriates,
-                    diplomats, aid workers and local communities for more than
-                    four decades, providing trusted healthcare services with
-                    global standards.
+                    class="text-slate-600 text-base md:text-lg leading-8 mb-8 max-w-2xl">
+                    CIWEC Hospital has served international travelers,
+                    diplomats, aid workers, expatriates and local communities
+                    for over four decades with trusted healthcare services
+                    built on international standards and medical excellence.
                 </p>
-                <div class="flex flex-wrap gap-4">
+                <div
+                    class="flex flex-wrap gap-4">
                     <a href="#"
-                        class="btn-light">
+                        class="border border-primary text-white font-bold px-7 py-4 bg-primary hover:bg-secondary hover:text-white transition-all duration-300">
                         Learn More
                     </a>
                     <a href="#"
-                        class="btn-primary">
-                        <!-- class="inline-flex items-center justify-center bg-secondary hover:bg-primary text-white text-sm md:text-base font-bold px-7 md:px-8 py-3.5 md:py-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"> -->
+                        class="border border-primary text-primary font-bold px-7 py-4 hover:bg-primary hover:text-white transition-all duration-300">
                         Contact Us
                     </a>
                 </div>
             </div>
             <!-- RIGHT -->
-            <!-- <div>
-                <img
-                    src="./assets/img/world-health-map.jpg"
-                    alt="Global Reach"
-                    class="w-full max-w-[650px] mx-auto">
-            </div> -->
             <div class="relative">
-                <!-- <img src="./assets/img/world-map.svg"> -->
+                <!-- GLOW -->
+                <div
+                    class="absolute inset-0 bg-primary/5 blur-3xl">
+                </div>
                 <img
                     src="./assets/img/world-map.svg"
                     alt="World Map"
-                    class="w-full max-w-[650px] mx-auto">
-                <div class="absolute top-[35%] left-[71%] w-4 h-4 bg-secondary rounded-full animate-ping"></div>
-                <!-- <div class="absolute top-[50%] left-[40%] w-4 h-4 bg-secondary rounded-full animate-ping"></div> -->
-                <!-- <div class="absolute top-[60%] left-[75%] w-4 h-4 bg-secondary rounded-full animate-ping"></div> -->
+                    class="relative z-10 w-full max-w-[700px] mx-auto">
+                <!-- NEPAL -->
+                <div
+                    class="absolute top-[37%] left-[71%] z-20">
+                    <span
+                        class="absolute inset-0 w-5 h-5 bg-secondary rounded-full animate-ping">
+                    </span>
+                    <span
+                        class="relative block w-5 h-5 bg-secondary rounded-full shadow-[0_0_20px_rgba(220,38,38,.6)]">
+                    </span>
+                </div>
             </div>
         </div>
         <!-- STATS -->
         <div
-            class="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-16 md:mt-20">
-            <!-- Item -->
-            <div class="text-center">
+            class="grid grid-cols-2 xl:grid-cols-4 gap-5 mt-16 xl:mt-20">
+            <!-- ITEM -->
+            <div
+                class="border border-slate-200 bg-white p-6 md:p-8 text-center hover:border-secondary transition-all duration-300">
                 <h3
-                    class="counter text-white text-3xl md:text-5xl font-black"
+                    class="counter text-primary text-3xl md:text-5xl font-black"
                     data-target="20000">
                     0
                 </h3>
                 <p
-                    class="text-white/90 text-sm md:text-base mt-3">
+                    class="text-slate-600 mt-3 text-sm md:text-base">
                     International Patients
                 </p>
             </div>
-            <!-- Item -->
-            <div class="text-center">
+            <!-- ITEM -->
+            <div
+                class="border border-slate-200 bg-white p-6 md:p-8 text-center hover:border-secondary transition-all duration-300">
                 <h3
-                    class="counter text-white text-3xl md:text-5xl font-black"
+                    class="counter text-primary text-3xl md:text-5xl font-black"
                     data-target="130">
                     0
                 </h3>
                 <p
-                    class="text-white/90 text-sm md:text-base mt-3">
+                    class="text-slate-600 mt-3 text-sm md:text-base">
                     Countries Served
                 </p>
             </div>
-            <!-- Item -->
-            <div class="text-center">
+            <!-- ITEM -->
+            <div
+                class="border border-slate-200 bg-white p-6 md:p-8 text-center hover:border-secondary transition-all duration-300">
                 <h3
-                    class="counter text-white text-3xl md:text-5xl font-black"
+                    class="counter text-primary text-3xl md:text-5xl font-black"
                     data-target="40">
                     0
                 </h3>
                 <p
-                    class="text-white/90 text-sm md:text-base mt-3">
+                    class="text-slate-600 mt-3 text-sm md:text-base">
                     Years Of Excellence
                 </p>
             </div>
-            <!-- Item -->
-            <div class="text-center">
+            <!-- ITEM -->
+            <div
+                class="border border-slate-200 bg-white p-6 md:p-8 text-center hover:border-secondary transition-all duration-300">
                 <h3
-                    class="counter text-white text-3xl md:text-5xl font-black"
+                    class="counter text-primary text-3xl md:text-5xl font-black"
                     data-target="2">
                     0
                 </h3>
                 <p
-                    class="text-white/90 text-sm md:text-base mt-3">
+                    class="text-slate-600 mt-3 text-sm md:text-base">
                     Hospital Locations
                 </p>
             </div>
@@ -1692,230 +1657,540 @@ WHATS NEW SECTION
 </script>
 
 <!-- TESTIMONIAL -->
-<section class="section-padding bg-[#ebf0f5]">
+<section class="section-padding bg-slate-50 overflow-hidden">
     <div class="container-custom">
-        <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-5 uppercase">
-            Patient Feedback (Google Review)
-        </h2>
-
-        <!-- Reviews -->
+        <!-- HEADER -->
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12">
+            <div class="max-w-3xl">
+                <span
+                    class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
+                    <span class="w-2 h-2 bg-secondary"></span>
+                    Patient Feedback
+                </span>
+                <h2
+                    class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-4">
+                    What Our Patients Say
+                </h2>
+                <p
+                    class="text-slate-600 text-base md:text-lg leading-8">
+                    Trusted by travelers, expatriates, diplomats and local
+                    communities for over four decades.
+                </p>
+            </div>
+            <!-- GOOGLE RATING -->
+            <div
+                class="border border-slate-200 bg-white px-6 py-5">
+                <div class="flex items-center gap-4">
+                    <!-- <i
+                        class="fa-brands fa-google text-[40px] text-[#4285F4]">
+                    </i> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="w-10 h-10">
+                        <path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303C33.655 32.657 29.203 36 24 36c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.277 4 24 4 12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z" />
+                        <path fill="#FF3D00" d="M6.306 14.691l6.571 4.819C14.655 16.108 18.961 13 24 13c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.277 4 24 4 16.318 4 9.656 8.337 6.306 14.691z" />
+                        <path fill="#4CAF50" d="M24 44c5.176 0 9.86-1.977 13.409-5.192l-6.19-5.238C29.143 35.091 26.715 36 24 36c-5.181 0-9.625-3.327-11.287-7.946l-6.522 5.025C9.507 39.556 16.227 44 24 44z" />
+                        <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303c-.792 2.237-2.231 4.166-4.084 5.57l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z" />
+                    </svg>
+                    <div>
+                        <div
+                            class="flex text-[#f59e0b] text-lg mb-1">
+                            ★★★★★
+                        </div>
+                        <div
+                            class="text-primary font-black text-xl">
+                            4.9/5 Rating
+                        </div>
+                        <div
+                            class="text-slate-500 text-sm">
+                            Based on Google Reviews
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- REVIEWS -->
         <div class="swiper reviewSwiper">
             <div class="swiper-wrapper">
                 <!-- REVIEW -->
                 <div class="swiper-slide">
-                    <div class="review-card rounded-2xl h-full">
-                        <div class="absolute top-6 right-6 text-secondary text-3xl md:text-5xl">
-                            <i class="fa-solid fa-quote-right"></i>
+                    <article
+                        class="group h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img
+                                src="https://randomuser.me/api/portraits/men/32.jpg"
+                                class="w-16 h-16 object-cover">
+                            <div>
+                                <h3
+                                    class="text-primary text-lg font-bold">
+                                    Joris Van Dorpe
+                                </h3>
+                                <div
+                                    class="text-[#f59e0b] text-sm">
+                                    ★★★★★
+                                </div>
+                            </div>
                         </div>
-                        <img src="https://randomuser.me/api/portraits/men/32.jpg"
-                            class="w-20 h-20 rounded-full mb-6">
-                        <h3 class="text-[18px] md:text-[22px] font-black text-primary mb-2">
-                            Joris Van Dorpe
-                        </h3>
-                        <div class="text-orange-500 text-lg mb-4">
-                            ★★★★★
-                        </div>
-                        <p class="text-[15px] md:text-[17px] leading-[1.8] text-gray-600">
-                            Thank you so much CIWEC Hospital for all your amazing care. All of the staff was super friendly and made me feel at home immediately.
-                            <a href="#"
-                                class="text-secondary font-semibold ml-1 hover:underline">
-                                Read more
-                            </a>
+                        <p
+                            class="text-slate-600 leading-8 mb-6">
+                            Thank you so much CIWEC Hospital for all your amazing care.
+                            All of the staff was super friendly and made me feel
+                            at home immediately.
                         </p>
-                    </div>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
+                        </a>
+                    </article>
                 </div>
                 <!-- REVIEW -->
                 <div class="swiper-slide">
-                    <div class="review-card rounded-2xl h-full">
-                        <div class="absolute top-6 right-6 text-secondary text-3xl md:text-5xl">
-                            <i class="fa-solid fa-quote-right"></i>
+                    <article
+                        class="group h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img
+                                src="https://randomuser.me/api/portraits/women/32.jpg"
+                                class="w-16 h-16 object-cover">
+                            <div>
+                                <h3
+                                    class="text-primary text-lg font-bold">
+                                    Ashley Hagaman
+                                </h3>
+                                <div
+                                    class="text-[#f59e0b] text-sm">
+                                    ★★★★★
+                                </div>
+                            </div>
                         </div>
-                        <img src="https://randomuser.me/api/portraits/women/32.jpg"
-                            class="w-20 h-20 rounded-full mb-6">
-                        <h3 class="text-[18px] md:text-[22px] font-black text-primary mb-2">
-                            Ashley Hagaman
-                        </h3>
-                        <div class="text-orange-500 text-lg mb-4">
-                            ★★★★★
-                        </div>
-                        <p class="text-[15px] md:text-[17px] leading-[1.8] text-gray-600">
-                            Dr Sandee Gupta cared for me when I took a fall hiking in the Himalayas. He was very professional and showed great concern.
-                            <a href="#"
-                                class="text-secondary font-semibold ml-1 hover:underline">
-                                Read more
-                            </a>
+                        <p
+                            class="text-slate-600 leading-8 mb-6">
+                            Dr Sandee Gupta cared for me when I took a fall
+                            hiking in the Himalayas. He was very professional
+                            and showed great concern.
                         </p>
-                    </div>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
+                        </a>
+                    </article>
                 </div>
                 <!-- REVIEW -->
                 <div class="swiper-slide">
-                    <div class="review-card rounded-2xl h-full">
-                        <div class="absolute top-6 right-6 text-secondary text-3xl md:text-5xl">
-                            <i class="fa-solid fa-quote-right"></i>
+                    <article
+                        class="group h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img
+                                src="https://randomuser.me/api/portraits/men/45.jpg"
+                                class="w-16 h-16 object-cover">
+                            <div>
+                                <h3
+                                    class="text-primary text-lg font-bold">
+                                    Andrew Attard
+                                </h3>
+                                <div
+                                    class="text-[#f59e0b] text-sm">
+                                    ★★★★★
+                                </div>
+                            </div>
                         </div>
-                        <img src="https://randomuser.me/api/portraits/men/45.jpg"
-                            class="w-20 h-20 rounded-full mb-6">
-                        <h3 class="text-[18px] md:text-[22px] font-black text-primary mb-2">
-                            Andrew Attard
-                        </h3>
-                        <div class="text-orange-500 text-lg mb-4">
-                            ★★★★★
-                        </div>
-                        <p class="text-[15px] md:text-[17px] leading-[1.8] text-gray-600">
-                            Excellent care and support from the whole medical team. The experience was extremely professional.
-                            <a href="#"
-                                class="text-secondary font-semibold ml-1 hover:underline">
-                                Read more
-                            </a>
+                        <p
+                            class="text-slate-600 leading-8 mb-6">
+                            Excellent care and support from the whole medical
+                            team. The experience was extremely professional
+                            from start to finish.
                         </p>
-                    </div>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
+                        </a>
+                    </article>
                 </div>
                 <!-- REVIEW -->
                 <div class="swiper-slide">
-                    <div class="review-card rounded-2xl h-full">
-                        <div class="absolute top-6 right-6 text-secondary text-3xl md:text-5xl">
-                            <i class="fa-solid fa-quote-right"></i>
+                    <article
+                        class="group h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img
+                                src="https://randomuser.me/api/portraits/men/32.jpg"
+                                class="w-16 h-16 object-cover">
+                            <div>
+                                <h3
+                                    class="text-primary text-lg font-bold">
+                                    Joris Van Dorpe
+                                </h3>
+                                <div
+                                    class="text-[#f59e0b] text-sm">
+                                    ★★★★★
+                                </div>
+                            </div>
                         </div>
-                        <img src="https://randomuser.me/api/portraits/men/45.jpg"
-                            class="w-20 h-20 rounded-full mb-6">
-                        <h3 class="text-[18px] md:text-[22px] font-black text-primary mb-2">
-                            John Attard
-                        </h3>
-                        <div class="text-orange-500 text-lg mb-4">
-                            ★★★★★
-                        </div>
-                        <p class="text-[15px] md:text-[17px] leading-[1.8] text-gray-600">
-                            Good care and support from the whole medical team. The Well experienced was extremely professional.
-                            <a href="#"
-                                class="text-secondary font-semibold ml-1 hover:underline">
-                                Read more
-                            </a>
+                        <p
+                            class="text-slate-600 leading-8 mb-6">
+                            Thank you so much CIWEC Hospital for all your amazing care.
+                            All of the staff was super friendly and made me feel
+                            at home immediately.
                         </p>
-                    </div>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
+                        </a>
+                    </article>
                 </div>
+                <!-- REVIEW -->
+                <div class="swiper-slide">
+                    <article
+                        class="group h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img
+                                src="https://randomuser.me/api/portraits/women/32.jpg"
+                                class="w-16 h-16 object-cover">
+                            <div>
+                                <h3
+                                    class="text-primary text-lg font-bold">
+                                    Ashley Hagaman
+                                </h3>
+                                <div
+                                    class="text-[#f59e0b] text-sm">
+                                    ★★★★★
+                                </div>
+                            </div>
+                        </div>
+                        <p
+                            class="text-slate-600 leading-8 mb-6">
+                            Dr Sandee Gupta cared for me when I took a fall
+                            hiking in the Himalayas. He was very professional
+                            and showed great concern.
+                        </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
+                        </a>
+                    </article>
+                </div>
+                <!-- REVIEW -->
+                <div class="swiper-slide">
+                    <article
+                        class="group h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img
+                                src="https://randomuser.me/api/portraits/men/45.jpg"
+                                class="w-16 h-16 object-cover">
+                            <div>
+                                <h3
+                                    class="text-primary text-lg font-bold">
+                                    Andrew Attard
+                                </h3>
+                                <div
+                                    class="text-[#f59e0b] text-sm">
+                                    ★★★★★
+                                </div>
+                            </div>
+                        </div>
+                        <p
+                            class="text-slate-600 leading-8 mb-6">
+                            Excellent care and support from the whole medical
+                            team. The experience was extremely professional
+                            from start to finish.
+                        </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
+                        </a>
+                    </article>
+                </div>
+                <!-- REVIEW -->
+                <div class="swiper-slide">
+                    <article
+                        class="group h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img
+                                src="https://randomuser.me/api/portraits/men/32.jpg"
+                                class="w-16 h-16 object-cover">
+                            <div>
+                                <h3
+                                    class="text-primary text-lg font-bold">
+                                    Joris Van Dorpe
+                                </h3>
+                                <div
+                                    class="text-[#f59e0b] text-sm">
+                                    ★★★★★
+                                </div>
+                            </div>
+                        </div>
+                        <p
+                            class="text-slate-600 leading-8 mb-6">
+                            Thank you so much CIWEC Hospital for all your amazing care.
+                            All of the staff was super friendly and made me feel
+                            at home immediately.
+                        </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
+                        </a>
+                    </article>
+                </div>
+                <!-- REVIEW -->
+                <div class="swiper-slide">
+                    <article
+                        class="group h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img
+                                src="https://randomuser.me/api/portraits/men/45.jpg"
+                                class="w-16 h-16 object-cover">
+                            <div>
+                                <h3
+                                    class="text-primary text-lg font-bold">
+                                    Andrew Attard
+                                </h3>
+                                <div
+                                    class="text-[#f59e0b] text-sm">
+                                    ★★★★★
+                                </div>
+                            </div>
+                        </div>
+                        <p
+                            class="text-slate-600 leading-8 mb-6">
+                            Excellent care and support from the whole medical
+                            team. The experience was extremely professional
+                            from start to finish.
+                        </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
+                        </a>
+                    </article>
+                </div>
+
             </div>
+            <!-- PAGINATION -->
+            <div class="review-pagination mt-10"></div>
         </div>
     </div>
 </section>
 
 
-
-
-<!-- Awards and Recognition -->
-<section class="section-padding bg-[#f5f8fc]">
+<!-- Award section -->
+<section class="section-padding bg-slate-50">
     <div class="container-custom">
-        <!-- Heading -->
-        <div class="text-center mb-10 lg:mb-14">
-            <!-- <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black mb-3"> -->
-            <h2 class="section-title mb-3">
+        <!-- HEADER -->
+        <div class="max-w-3xl mb-12">
+            <span
+                class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
+                <span class="w-2 h-2 bg-secondary"></span>
+                Recognition & Excellence
+            </span>
+            <h2
+                class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-4">
                 Awards & Recognitions
             </h2>
-            <p class="max-w-3xl mx-auto text-gray-600 text-sm md:text-base leading-relaxed">
-                CIWEC Hospital has been recognized nationally and internationally
-                for excellence in healthcare, travel medicine and patient care.
+            <p
+                class="text-slate-600 text-base md:text-lg leading-8">
+                CIWEC Hospital has received national and international
+                recognition for excellence in healthcare, travel medicine
+                and patient-centered services.
             </p>
         </div>
+        <!-- SWIPER -->
         <div class="swiper awardSwiper">
             <div class="swiper-wrapper">
                 <!-- CARD -->
                 <div class="swiper-slide h-auto">
-                    <div
-                        class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
-                        <div
-                            class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-secondary/10 flex items-center justify-center">
-                            <i class="fa-solid fa-award text-secondary text-2xl md:text-3xl"></i>
+                    <article
+                        class="h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300 flex flex-col">
+                        <!-- TOP -->
+                        <div class="flex items-center justify-between mb-8">
+                            <div
+                                class="w-14 h-14 bg-primary/5 flex items-center justify-center">
+                                <i
+                                    class="fa-solid fa-award text-primary text-2xl">
+                                </i>
+                            </div>
+                            <span
+                                class="text-secondary text-2xl font-black">
+                                2025
+                            </span>
                         </div>
-                        <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
-                            2025
-                        </div>
-                        <h3 class="text-primary text-lg md:text-xl font-black mb-4">
+                        <!-- CONTENT -->
+                        <h3
+                            class="text-primary text-2xl font-black leading-tight mb-4">
                             Best Travel Medicine Hospital
                         </h3>
-                        <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
+                        <p
+                            class="text-slate-600 leading-8 flex-grow">
                             Recognized for excellence in travel medicine,
                             preventive healthcare and international patient care.
                         </p>
-                        <span
-                            class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
-                            International Healthcare Forum
-                        </span>
-                    </div>
+                        <!-- ORGANIZATION -->
+                        <div
+                            class="mt-8 pt-6 border-t border-slate-200">
+                            <span
+                                class="text-sm font-semibold text-primary">
+                                International Healthcare Forum
+                            </span>
+                        </div>
+                    </article>
                 </div>
                 <!-- CARD -->
                 <div class="swiper-slide h-auto">
-                    <div
-                        class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
-                        <div
-                            class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-primary/10 flex items-center justify-center">
-                            <i class="fa-solid fa-trophy text-primary text-2xl md:text-3xl"></i>
+                    <article
+                        class="h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300 flex flex-col">
+                        <div class="flex items-center justify-between mb-8">
+                            <div
+                                class="w-14 h-14 bg-primary/5 flex items-center justify-center">
+                                <i
+                                    class="fa-solid fa-trophy text-primary text-2xl">
+                                </i>
+                            </div>
+                            <span
+                                class="text-secondary text-2xl font-black">
+                                2024
+                            </span>
                         </div>
-                        <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
-                            2024
-                        </div>
-                        <h3 class="text-primary text-lg md:text-xl font-black mb-4">
+                        <h3
+                            class="text-primary text-2xl font-black leading-tight mb-4">
                             Healthcare Excellence Award
                         </h3>
-                        <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
-                            Awarded for delivering exceptional healthcare services,
-                            patient safety and innovation.
+                        <p
+                            class="text-slate-600 leading-8 flex-grow">
+                            Awarded for delivering exceptional healthcare
+                            services, patient safety and innovation.
                         </p>
-                        <span
-                            class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
-                            Nepal Medical Association
-                        </span>
-                    </div>
+                        <div
+                            class="mt-8 pt-6 border-t border-slate-200">
+                            <span
+                                class="text-sm font-semibold text-primary">
+                                Nepal Medical Association
+                            </span>
+                        </div>
+                    </article>
                 </div>
                 <!-- CARD -->
                 <div class="swiper-slide h-auto">
-                    <div
-                        class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
-                        <div
-                            class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-secondary/10 flex items-center justify-center">
-                            <i class="fa-solid fa-medal text-secondary text-2xl md:text-3xl"></i>
+                    <article
+                        class="h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300 flex flex-col">
+                        <div class="flex items-center justify-between mb-8">
+                            <div
+                                class="w-14 h-14 bg-primary/5 flex items-center justify-center">
+                                <i
+                                    class="fa-solid fa-medal text-primary text-2xl">
+                                </i>
+                            </div>
+                            <span
+                                class="text-secondary text-2xl font-black">
+                                2023
+                            </span>
                         </div>
-                        <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
-                            2023
-                        </div>
-                        <h3 class="text-primary text-lg md:text-xl font-black mb-4">
-                            Quality Healthcare Recognition
+                        <h3
+                            class="text-primary text-2xl font-black leading-tight mb-4">
+                            International Patient Care Recognition
                         </h3>
-                        <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
-                            Honored for maintaining international standards
-                            in healthcare quality and patient satisfaction.
+                        <p
+                            class="text-slate-600 leading-8 flex-grow">
+                            Honored for outstanding services to international
+                            travelers, expatriates and aid organizations.
                         </p>
-                        <span
-                            class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
-                            Global Healthcare Council
-                        </span>
-                    </div>
+                        <div
+                            class="mt-8 pt-6 border-t border-slate-200">
+                            <span
+                                class="text-sm font-semibold text-primary">
+                                Global Health Network
+                            </span>
+                        </div>
+                    </article>
                 </div>
                 <!-- CARD -->
                 <div class="swiper-slide h-auto">
-                    <div
-                        class="bg-white rounded-[20px] p-6 md:p-8 h-full text-center shadow-[0_10px_30px_rgba(0,0,0,.06)] hover:shadow-[0_20px_50px_rgba(0,0,0,.12)] hover:-translate-y-2 transition-all duration-500">
-                        <div
-                            class="w-16 h-16 md:w-20 md:h-20 mx-auto mb-5 rounded-full bg-primary/10 flex items-center justify-center">
-                            <i class="fa-solid fa-star text-primary text-2xl md:text-3xl"></i>
+                    <article
+                        class="h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300 flex flex-col">
+                        <div class="flex items-center justify-between mb-8">
+                            <div
+                                class="w-14 h-14 bg-primary/5 flex items-center justify-center">
+                                <i
+                                    class="fa-solid fa-trophy text-primary text-2xl">
+                                </i>
+                            </div>
+                            <span
+                                class="text-secondary text-2xl font-black">
+                                2024
+                            </span>
                         </div>
-                        <div class="text-secondary text-2xl md:text-3xl font-black mb-3">
-                            2022
-                        </div>
-                        <h3 class="text-primary text-lg md:text-xl font-black mb-4">
-                            Excellence In Patient Care
+                        <h3
+                            class="text-primary text-2xl font-black leading-tight mb-4">
+                            Healthcare Excellence Award
                         </h3>
-                        <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-5">
-                            Recognized for exceptional patient satisfaction
-                            and international healthcare standards.
+                        <p
+                            class="text-slate-600 leading-8 flex-grow">
+                            Awarded for delivering exceptional healthcare
+                            services, patient safety and innovation.
                         </p>
-                        <span
-                            class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-bold">
-                            Healthcare Excellence Council
-                        </span>
-                    </div>
+                        <div
+                            class="mt-8 pt-6 border-t border-slate-200">
+                            <span
+                                class="text-sm font-semibold text-primary">
+                                Nepal Medical Association
+                            </span>
+                        </div>
+                    </article>
+                </div>
+                <!-- CARD -->
+                <div class="swiper-slide h-auto">
+                    <article
+                        class="h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300 flex flex-col">
+                        <div class="flex items-center justify-between mb-8">
+                            <div
+                                class="w-14 h-14 bg-primary/5 flex items-center justify-center">
+                                <i
+                                    class="fa-solid fa-medal text-primary text-2xl">
+                                </i>
+                            </div>
+                            <span
+                                class="text-secondary text-2xl font-black">
+                                2023
+                            </span>
+                        </div>
+                        <h3
+                            class="text-primary text-2xl font-black leading-tight mb-4">
+                            International Patient Care Recognition
+                        </h3>
+                        <p
+                            class="text-slate-600 leading-8 flex-grow">
+                            Honored for outstanding services to international
+                            travelers, expatriates and aid organizations.
+                        </p>
+                        <div
+                            class="mt-8 pt-6 border-t border-slate-200">
+                            <span
+                                class="text-sm font-semibold text-primary">
+                                Global Health Network
+                            </span>
+                        </div>
+                    </article>
                 </div>
             </div>
-            <!-- Pagination -->
-            <div class="award-pagination flex justify-center mt-10"></div>
+            <!-- PAGINATION -->
+            <!-- <div class="award-pagination mt-10"></div> -->
         </div>
     </div>
 </section>
@@ -1958,102 +2233,118 @@ WHATS NEW SECTION
 <!-- =========================================================
     NEWSLETTER SECTION
     ========================================================= -->
-<section class="section-padding bg-[#ebf0f5] overflow-hidden">
+<section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
-        <!-- TOP -->
-        <div class="flex flex-row item-center justify-between gap-4 mb-4 md:mb-4">
-            <h2 class="text-primary text-xl md:text-2xl xl:text-[32px] font-black uppercase">
-                Newsletter
-            </h2>
+        <!-- HEADER -->
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">
+            <div class="max-w-3xl">
+                <span
+                    class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
+                    <span class="w-2 h-2 bg-secondary"></span>
+                    Publications
+                </span>
+                <h2
+                    class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-4">
+                    Newsletters & Health Publications
+                </h2>
+                <p
+                    class="text-slate-600 text-base md:text-lg leading-8">
+                    Explore healthcare updates, travel medicine insights,
+                    research publications and hospital newsletters.
+                </p>
+            </div>
             <a href="#"
-                class="btn-primary">
-                See All
+                class="inline-flex items-center gap-3 text-primary font-bold group">
+                View All Publications
+                <span
+                    class="w-9 h-9 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
+                    <i class="fa-solid fa-arrow-right text-xs"></i>
+                </span>
             </a>
         </div>
-        <!-- CARD -->
-        <div class="bg-white rounded-xl shadow-[0_8px_30px_rgba(0,0,0,.05)] p-4 md:p-6 xl:p-8">
-            <!-- FILTER -->
-            <div class="flex flex-row items-end justify-between gap-4 mb-4">
-                <!-- SHOW -->
-                <div class="flex items-center gap-2">
-                    <select id="perPage"
-                        class="h-10 md:h-11 px-3 md:px-4
-                        border border-gray-300 bg-white
-                        rounded-xl
-                        text-[13px] md:text-[14px]
-                        text-gray-700 outline-none
-                        focus:border-secondary
-                        transition-all duration-300">
+        <!-- FILTER BAR -->
+        <div
+            class="border border-slate-200 bg-slate-50 p-5 md:p-6 mb-6">
+            <div
+                class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
+                <!-- LEFT -->
+                <div
+                    class="flex items-center gap-3">
+                    <span
+                        class="text-sm font-semibold text-primary">
+                        Show
+                    </span>
+                    <select
+                        id="perPage"
+                        class="h-11 px-4 border border-slate-300 bg-white text-sm text-slate-700 focus:border-secondary outline-none">
                         <option value="5">5</option>
                         <option value="10">10</option>
                         <option value="20">20</option>
                     </select>
-                    <span class="text-[16px] md:text-[18px] text-gray-600 font-medium">
+                    <span
+                        class="text-sm text-slate-600">
                         entries
                     </span>
                 </div>
                 <!-- SEARCH -->
-                <div class="flex flex-col sm:flex-row sm:items-center gap-2">
-                    <span class="text-[13px] md:text-[14px] text-gray-600 font-medium">
-                        Search:
-                    </span>
+                <div
+                    class="relative w-full lg:w-[320px]">
                     <input
                         type="text"
                         id="searchInput"
-                        placeholder="Search newsletter..."
-                        class="w-full sm:w-[240px] md:w-[280px]
-                        h-10 md:h-11 px-4 rounded-xl
-                        border border-gray-300
-                        text-[13px] md:text-[14px]
-                        text-gray-700
-                        outline-none
-                        focus:border-secondary
-                        transition-all duration-300">
+                        placeholder="Search publications..."
+                        class="w-full h-11 pl-11 pr-4 border border-slate-300 bg-white text-sm outline-none focus:border-secondary">
+                    <i
+                        class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-slate-400">
+                    </i>
                 </div>
             </div>
-            <!-- LOADER -->
-            <div id="newsletterLoader"
-                class="hidden py-10">
-                <div class="w-10 h-10 border-[3px]
-                    border-gray-200 border-t-secondary
-                    rounded-full animate-spin mx-auto">
-                </div>
+        </div>
+        <!-- LOADER -->
+        <div
+            id="newsletterLoader"
+            class="hidden py-12">
+            <div
+                class="w-12 h-12 border-[3px]
+                border-slate-200
+                border-t-secondary
+                rounded-full
+                animate-spin
+                mx-auto">
             </div>
-            <!-- CONTENT -->
-            <div id="newsletterContent">
-                <!-- TABLE -->
-                <div class="overflow-x-auto">
-                    <table class="w-full">
-                        <!-- HEAD -->
-                        <thead>
-                            <tr class="border-b-2 border-gray-200">
-                                <th class="px-3 md:px-4 py-2 text-left
-                                    text-[13px] md:text-[15px]
-                                    font-black text-primary">
-                                    S.No
-                                </th>
-                                <th class="px-3 md:px-4 py-2 text-left
-                                    text-[13px] md:text-[15px]
-                                    font-black text-primary">
-                                    Title
-                                </th>
-                                <th class="px-3 md:px-4 py-2 text-left
-                                    text-[13px] md:text-[15px]
-                                    font-black text-primary">
-                                    Download
-                                </th>
-                            </tr>
-                        </thead>
-                        <!-- BODY -->
-                        <tbody id="newsletterTable">
-                            <!-- AJAX DATA -->
-                        </tbody>
-                    </table>
-                </div>
-                <!-- PAGINATION -->
-                <div id="newsletterPagination"
-                    class="flex flex-wrap justify-center gap-2 mt-4">
-                </div>
+        </div>
+        <!-- CONTENT -->
+        <div id="newsletterContent">
+            <!-- TABLE -->
+            <div
+                class="overflow-x-auto border border-slate-200 bg-white">
+                <table class="w-full">
+                    <thead>
+                        <tr
+                            class="bg-primary text-white">
+                            <th
+                                class="px-5 py-4 text-left text-sm font-bold uppercase tracking-wide">
+                                #
+                            </th>
+                            <th
+                                class="px-5 py-4 text-left text-sm font-bold uppercase tracking-wide">
+                                Publication Title
+                            </th>
+                            <th
+                                class="px-5 py-4 text-center text-sm font-bold uppercase tracking-wide">
+                                Download
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="newsletterTable">
+                        <!-- AJAX DATA -->
+                    </tbody>
+                </table>
+            </div>
+            <!-- PAGINATION -->
+            <div
+                id="newsletterPagination"
+                class="flex flex-wrap justify-center gap-2 mt-8">
             </div>
         </div>
     </div>
@@ -2155,9 +2446,19 @@ WHATS NEW SECTION
         table.innerHTML = "";
         if (data.length === 0) {
             table.innerHTML = `
-                <tr>
-                    <td colspan="3" class="px-4 py-8 text-center text-gray-500 text-sm">
-                        No newsletter found.
+                <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+                    <td class="px-5 py-4 font-semibold text-primary">
+                        1
+                    </td>
+                    <td class="px-5 py-4 text-slate-700">
+                        CIWEC Healthcare Newsletter 2025
+                    </td>
+                    <td class="px-5 py-4 text-center">
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-primary font-semibold hover:text-secondary transition">
+                        <i class="fa-solid fa-file-pdf text-secondary"></i>
+                        Download
+                        </a>
                     </td>
                 </tr>
             `;
@@ -2166,33 +2467,21 @@ WHATS NEW SECTION
 
         data.forEach((item, index) => {
             table.innerHTML += `
-                <tr class="border-b border-gray-200 hover:bg-[#f8fbff] transition-all duration-300">
-                    <!-- ID -->
-                    <td class="px-3 md:px-4 py-2 md:py-2
-                        text-[13px] md:text-[15px]
-                        text-gray-700 font-medium">
-                        ${index + 1}
-    
-                    <!-- TITLE -->
-                    <td class="px-3 md:px-4 py-2 md:py-2
-                        text-[13px] md:text-[15px]
-                        text-gray-700 font-medium leading-relaxed">
-                        ${item.title}
-                    </td>
-    
-                    <!-- DOWNLOAD -->
-                    <td class="px-3 md:px-4 py-2 md:py-2">
-                        <a href="${item.file}"
-                            download
-                            class="w-8 h-8 md:w-10 md:h-10 rounded-xl
-                            bg-primary hover:bg-secondary
-                            text-white text-sm
-                            inline-flex items-center justify-center
-                            transition-all duration-300 hover:-translate-y-1">
-                            <i class="fa-solid fa-download"></i>
-                        </a>
-                    </td>
-                </tr>
+            <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+                <td class="px-5 py-4 font-semibold text-primary">
+                   ${index + 1}
+                </td>
+                <td class="px-5 py-4 text-slate-700">
+                     ${item.title}
+                </td>
+                <td class="px-5 py-4 text-center">
+                    <a href="${item.file}"
+                        class="inline-flex items-center gap-2 text-primary font-semibold hover:text-secondary transition">
+                    <i class="fa-solid fa-file-pdf text-secondary"></i>
+                    Download
+                    </a>
+                </td>
+            </tr>
             `;
         });
     }
@@ -2205,18 +2494,37 @@ WHATS NEW SECTION
         for (let i = 1; i <= totalPages; i++) {
             pagination.innerHTML += `
                 <button
-                    class="min-w-[40px] h-10 px-4 
-                    border border-gray-300
-                    text-[13px] md:text-[14px]
-                    font-bold
-                    transition-all duration-300
+                class="
+                    min-w-[42px]
+                    h-[42px]
+                    px-4
+                    text-sm
+                    font-semibold
+                    transition-all
+                    duration-300
                     ${currentPage === i
-                        ? 'bg-secondary rounded-xl text-white border-secondary'
-                        : 'bg-white rounded-xl text-primary hover:bg-secondary hover:text-white hover:border-secondary'
-                    }"
-                    onclick="changePage(${i})">
-                    ${i}
-                </button>
+                        ? `
+                            bg-primary
+                            text-white
+                            border
+                            border-primary
+                        `
+                        : `
+                            bg-white
+                            text-primary
+                            border
+                            border-slate-300
+                            hover:border-secondary
+                            hover:text-secondary
+                        `
+                    }
+                "
+                onclick="changePage(${i})">
+
+                ${i}
+
+            </button>
+        
             `;
         }
     }

@@ -1,125 +1,182 @@
-<!-- FOOTER -->
-<footer>
-    <?php
-    include './include/locationsection.php';
-    ?>
-    <!-- ========================================= -->
-    <!-- MAIN FOOTER -->
-    <!-- ========================================= -->
-    <div class="bg-primary relative overflow-hidden">
+<?php 
+ include './include/locationsection.php';
+?>
+<footer class="bg-primary overflow-hidden">
+    <!-- TOP -->
+    <div class="border-b border-white/10">
         <div class="container-custom">
-            <div class="grid lg:grid-cols-3 gap-10 lg:gap-12 py-12 lg:py-16">
-                <!-- LOGO -->
+            <div class="grid lg:grid-cols-4 gap-10 py-14">
+                <!-- ABOUT -->
                 <div>
                     <img
                         src="./assets/img/logo.png"
-                        class="h-[95px] bg-white p-4 rounded-xl mb-8">
-                    <div class="space-y-4">
-                        <div>
-                            <p class="text-white/70 text-xs uppercase tracking-wider mb-1">
-                                Contact
-                            </p>
-                            <p class="text-white text-base md:text-lg font-bold">
-                                +977-61-453082, 457053
-                            </p>
-                        </div>
-                        <div>
-                            <p class="text-white/70 text-xs uppercase tracking-wider mb-1">
-                                Email
-                            </p>
-                            <p class="text-white text-base md:text-lg font-bold break-all">
-                                info@ciwec-clinic.com
-                            </p>
-                        </div>
-                    </div>
+                        class="h-20 bg-white p-3 mb-6">
+                    <p
+                        class="text-white/80 text-sm leading-7">
+                        CIWEC Hospital is Nepal's leading travel medicine
+                        and international healthcare provider serving
+                        travelers, expatriates, diplomats and local communities.
+                    </p>
                 </div>
-                <!-- LINKS -->
-                <div class="lg:border-x lg:border-white/20 lg:px-10">
-                    <h3 class="text-white text-xl font-black uppercase mb-6">
-                        Useful Links
-                    </h3>
-                    <div class="grid gap-3">
-                        <a href="#"
-                            class="text-white text-sm font-semibold hover:text-secondary transition-all">
-                            Home
-                        </a>
-                        <a href="#"
-                            class="text-white text-sm font-semibold hover:text-secondary transition-all">
-                            About Us
-                        </a>
-                        <a href="#"
-                            class="text-white text-sm font-semibold hover:text-secondary transition-all">
-                            Health Information
-                        </a>
-                        <a href="#"
-                            class="text-white text-sm font-semibold hover:text-secondary transition-all">
-                            Services
-                        </a>
-                        <a href="#"
-                            class="text-white text-sm font-semibold hover:text-secondary transition-all">
-                            Doctors At CIWEC
-                        </a>
-                    </div>
-                </div>
-                <!-- SUBSCRIBE -->
+                <!-- QUICK LINKS -->
                 <div>
-                    <h3 class="text-white text-xl font-black uppercase mb-4">
+                    <h3
+                        class="text-white text-lg font-black mb-6">
+                        Quick Links
+                    </h3>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#"
+                                class="text-white/80 hover:text-secondary transition">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-white/80 hover:text-secondary transition">
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-white/80 hover:text-secondary transition">
+                                Doctors
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-white/80 hover:text-secondary transition">
+                                Research
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- SERVICES -->
+                <div>
+                    <h3
+                        class="text-white text-lg font-black mb-6">
+                        Key Services
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="text-white/80">
+                            Travel Medicine
+                        </li>
+                        <li class="text-white/80">
+                            Family Medicine
+                        </li>
+                        <li class="text-white/80">
+                            Health Screening
+                        </li>
+                        <li class="text-white/80">
+                            Emergency Care
+                        </li>
+                    </ul>
+                </div>
+                <!-- NEWSLETTER -->
+                <div>
+                    <h3
+                        class="text-white text-lg font-black mb-6">
                         Subscribe
                     </h3>
-                    <p class="text-white/90 text-sm leading-6 mb-5">
-                        Get the latest updates and offers.
+                    <p
+                        class="text-white/70 text-sm mb-5">
+                        Get healthcare updates and newsletters.
                     </p>
-                    <form class="flex overflow-hidden rounded-lg">
+                    <form class="flex">
                         <input
                             type="email"
-                            placeholder="Enter email address"
-                            class="flex-1 h-[52px] px-4 text-sm text-gray-700 outline-none">
+                            placeholder="Email Address"
+                            class="flex-1 h-12 px-4 text-sm text-slate-700 outline-none">
                         <button
-                            class="w-[60px] bg-primary text-white hover:bg-[#0f4060] transition-all duration-300">
-                            <i class="fa-regular fa-envelope"></i>
+                            class="w-14 bg-secondary text-white hover:bg-white hover:text-primary transition">
+                            <i class="fa-solid fa-arrow-right"></i>
                         </button>
                     </form>
                     <!-- SOCIAL -->
-                    <div class="flex items-center gap-6 mt-6">
+                    <div class="flex gap-3 mt-6">
                         <a href="#"
-                            class="flex items-center gap-2 text-white text-sm font-semibold hover:text-secondary transition-all">
-                            <i class="fa-brands fa-facebook-f text-lg"></i>
-                            Facebook
+                            class="w-10 h-10 border border-white/20 text-white flex items-center justify-center hover:bg-secondary hover:border-secondary transition">
+                            <i class="fab fa-facebook-f"></i>
                         </a>
                         <a href="#"
-                            class="flex items-center gap-2 text-white text-sm font-semibold hover:text-secondary transition-all">
-                            <i class="fa-brands fa-instagram text-lg"></i>
-                            Instagram
+                            class="w-10 h-10 border border-white/20 text-white flex items-center justify-center hover:bg-secondary hover:border-secondary transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 border border-white/20 text-white flex items-center justify-center hover:bg-secondary hover:border-secondary transition">
+                            <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- ========================================= -->
-    <!-- COPYRIGHT -->
-    <!-- ========================================= -->
-    <div class="bg-[#dfe4ea] mb-16">
+    <!-- LOCATION STRIP -->
+    <!-- <div class="border-b border-white/10">
         <div class="container-custom">
-            <div class="py-5 flex flex-col md:flex-row items-center justify-between gap-3">
-                <p class="text-xs md:text-sm text-gray-600 text-center md:text-left">
-                    Copyright ©2026 CIWEC Hospital. All Rights Reserved.
+            <div
+                class="grid md:grid-cols-3 gap-6 py-8">
+                <div>
+                    <h4
+                        class="text-secondary font-bold mb-2">
+                        Kathmandu
+                    </h4>
+                    <p class="text-white/70 text-sm">
+                        +977-1-4524111
+                    </p>
+                    <p class="text-white/70 text-sm">
+                        info@ciwec-clinic.com
+                    </p>
+                </div>
+                <div>
+                    <h4
+                        class="text-secondary font-bold mb-2">
+                        Pokhara
+                    </h4>
+                    <p class="text-white/70 text-sm">
+                        +977-61-453082
+                    </p>
+                    <p class="text-white/70 text-sm">
+                        pkradministrator@ciwec-clinic.com
+                    </p>
+                </div>
+                <div>
+                    <h4
+                        class="text-secondary font-bold mb-2">
+                        Emergency
+                    </h4>
+                    <p
+                        class="text-white text-lg font-bold">
+                        24/7 Available
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- COPYRIGHT -->
+    <div class="pb-20 lg:pb-0 md:pb-0">
+        <div class="container-custom">
+            <div
+                class="flex flex-col md:flex-row justify-between items-center gap-4 py-6">
+                <p
+                    class="text-white/60 text-sm">
+                    © 2025 CIWEC Hospital. All Rights Reserved.
                 </p>
-                <div class="flex flex-wrap justify-center gap-4">
+                <div
+                    class="flex gap-5 text-sm">
                     <a href="#"
-                        class="text-xs md:text-sm text-gray-600 hover:text-secondary">
-                        Terms & Conditions
+                        class="text-white/60 hover:text-secondary transition">
+                        Privacy Policy
                     </a>
                     <a href="#"
-                        class="text-xs md:text-sm text-gray-600 hover:text-secondary">
-                        Privacy Policy
+                        class="text-white/60 hover:text-secondary transition">
+                        Terms & Conditions
                     </a>
                 </div>
             </div>
         </div>
     </div>
 </footer>
-
 
 
 <?php

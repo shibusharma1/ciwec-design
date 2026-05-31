@@ -1,9 +1,8 @@
-const header = document.getElementById("header");
-
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 30) {
-    header.classList.add("sticky-header");
+  const header = document.getElementById("header");
+  if (window.scrollY > 20) {
+    header.classList.add("shadow-md");
   } else {
-    header.classList.remove("sticky-header");
+    header.classList.remove("shadow-md");
   }
 });

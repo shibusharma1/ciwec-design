@@ -1,44 +1,59 @@
 <!-- =========================================
-   TOP BAR
-   ========================================= -->
-<div class="bg-primary border-b border-white/10">
+    TOP UTILITY BAR
+    ========================================= -->
+<div class="hidden lg:block bg-white border-b border-slate-200">
     <div class="container-custom">
-        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2 py-2 md:py-0 md:h-[42px]">
+        <div class="h-11 flex items-center justify-between">
             <!-- LEFT -->
-            <div class="flex flex-wrap items-center justify-center md:justify-start gap-x-6 gap-y-1">
+            <div class="flex items-center gap-8">
                 <!-- Kathmandu -->
-                <div class="flex items-center gap-2">
-                    <span class="text-white/60 text-xs md:text-sm">
+                <div class="flex items-center gap-2 text-sm">
+                    <i class="fa-solid fa-location-dot text-secondary"></i>
+                    <span class="text-slate-500">
                         Kathmandu
                     </span>
                     <a href="tel:+97714524111"
-                        class="text-white text-xs md:text-sm font-medium hover:text-secondary transition-all duration-300">
+                        class="font-medium text-slate-800 hover:text-primary transition">
                         +977-1-4524111
                     </a>
                 </div>
                 <!-- Divider -->
-                <span class="hidden md:block text-white/20">|</span>
+                <div class="w-px h-4 bg-slate-200"></div>
                 <!-- Pokhara -->
-                <div class="flex items-center gap-2">
-                    <span class="text-white/60 text-xs md:text-sm">
+                <div class="flex items-center gap-2 text-sm">
+                    <i class="fa-solid fa-location-dot text-secondary"></i>
+                    <span class="text-slate-500">
                         Pokhara
                     </span>
                     <a href="tel:+97761453082"
-                        class="text-white text-xs md:text-sm font-medium hover:text-secondary transition-all duration-300">
+                        class="font-medium text-slate-800 hover:text-primary transition">
                         +977-61-453082
                     </a>
                 </div>
             </div>
             <!-- RIGHT -->
-            <div class="flex items-center justify-center md:justify-end gap-2">
+            <div
+                class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-50 border border-red-100">
                 <span
-                    class="w-3 h-3 rounded-full bg-secondary animate-pulse">
+                    class="w-2 h-2 rounded-full bg-secondary animate-pulse">
                 </span>
                 <span
-                    class="text-white text-xs md:text-sm font-medium">
-                    24/7 Emergency
+                    class="text-xs font-semibold text-secondary">
+                    24/7 Emergency Care
                 </span>
             </div>
+        </div>
+    </div>
+</div>
+
+<!-- MOBILE TOP BAR -->
+<div class="lg:hidden bg-primary">
+    <div class="container-custom">
+        <div class="h-10 flex items-center justify-center">
+            <a href="tel:+97714524111"
+                class="text-white text-sm font-medium">
+                Emergency: +977-1-4524111
+            </a>
         </div>
     </div>
 </div>
