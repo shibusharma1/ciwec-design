@@ -9,7 +9,6 @@
     </title>
 
     <link rel="icon" type="image/png" href="assets/img/logo.png">
-    <!-- links -->
 
     <!-- Swiper js CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -20,11 +19,10 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- Google Font -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-        rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
     <!-- Tailwind Config -->
     <script>
         tailwind.config = {
@@ -52,27 +50,18 @@
     <link rel="stylesheet" href="./assets/css/speciality.css">
     <link rel="stylesheet" href="./assets/css/patient-stories.css">
     <link rel="stylesheet" href="./assets/css/whatsnew.css">
+    <link rel="stylesheet" href="./assets/css/faq.css">
 </head>
 
 <body>
-
 
     <?php
     include 'topbar.php';
     ?>
 
-
     <!-- MOBILE OVERLAY -->
-    <!-- <div id="overlay" class="mobile-overlay fixed inset-0 bg-black/60 z-[90]"></div> -->
     <div id="mobileOverlay"
-        class="fixed inset-0
-                bg-black/50
-                backdrop-blur-sm
-                opacity-0
-                invisible
-                transition-all
-                duration-300
-                z-[998]">
+        class="fixed inset-0 bg-black/50 backdrop-blur-sm opacity-0 invisible transition-all duration-300 z-[998]">
     </div>
 
     <!-- MOBILE MENU -->
@@ -89,9 +78,7 @@
             </button>
         </div>
         <div class="p-5 border-b border-slate-200">
-
             <div class="relative">
-
                 <input type="text"
                     placeholder="Search..."
                     class="w-full h-12 pl-11 pr-4
@@ -105,9 +92,7 @@
             -translate-y-1/2
             text-slate-400">
                 </i>
-
             </div>
-
         </div>
 
         <div class="p-5">
@@ -174,19 +159,19 @@
                 </div>
             </div>
             <!-- HEALTH INFO -->
-            <a href="#"
+            <a href="./healthinformation.php"
                 class="flex items-center justify-between py-4 border-b border-slate-200 text-[15px] font-semibold text-slate-800 hover:text-secondary transition">
                 <span>Health Information</span>
                 <i class="fa-solid fa-arrow-right text-[11px] text-slate-400"></i>
             </a>
             <!-- RESEARCH -->
-            <a href="#"
+            <a href="./researchandpublication.php"
                 class="flex items-center justify-between py-4 border-b border-slate-200 text-[15px] font-semibold text-slate-800 hover:text-secondary transition">
                 <span>Research & Publication</span>
                 <i class="fa-solid fa-arrow-right text-[11px] text-slate-400"></i>
             </a>
             <!-- CONTACT -->
-            <a href="#"
+            <a href="./contactus.php"
                 class="flex items-center justify-between py-4 text-[15px] font-semibold text-slate-800 hover:text-secondary transition">
                 <span>Contact</span>
                 <i class="fa-solid fa-arrow-right text-[11px] text-slate-400"></i>
@@ -232,33 +217,13 @@
                             About Us
                             <i class="fa-solid fa-angle-down text-[13px] transition-all duration-300 dropdown-icon"></i>
                         </button>
-                        <!-- MENU -->
-                        <!-- <div id="aboutDropdown"
-                            class="dropdown-menu absolute top-[130%] left-0 w-[300px] bg-white border border-slate-200 rounded-lg shadow-lg  opacity-0 invisible translate-y-3 transition-all duration-300 z-50">
 
-                            <a href="#"
-                                class="dropdown-link">
-                                About Us
-                            </a>
-                            <a href="#"
-                                class="dropdown-link">
-                                CIWEC History
-                            </a>
-                            <a href="#"
-                                class="dropdown-link">
-                                Gallery
-                            </a>
-                            <a href="#"
-                                class="dropdown-link border-b-0">
-                                CIWEC CSR
-                            </a>
-                        </div> -->
                         <div id="aboutDropdown"
                             class="dropdown-menu absolute top-[120%] left-0 w-[340px]
-    bg-white rounded-xl border border-slate-200
-    shadow-[0_15px_40px_rgba(0,0,0,0.08)]
-    opacity-0 invisible translate-y-3
-    transition-all duration-300 z-50 overflow-hidden">
+                                    bg-white rounded-xl border border-slate-200
+                                    shadow-[0_15px_40px_rgba(0,0,0,0.08)]
+                                    opacity-0 invisible translate-y-3
+                                    transition-all duration-300 z-50 overflow-hidden">
 
                             <!-- Header -->
                             <div class="px-5 py-4 bg-slate-50 border-b border-slate-200">
@@ -324,10 +289,10 @@
                         <!-- MENU -->
                         <div id="servicesDropdown"
                             class="dropdown-menu absolute top-[120%] left-0 w-[380px]
-    bg-white rounded-xl border border-slate-200
-    shadow-[0_15px_40px_rgba(0,0,0,0.08)]
-    opacity-0 invisible translate-y-3
-    transition-all duration-300 z-50 overflow-hidden">
+                                    bg-white rounded-xl border border-slate-200
+                                    shadow-[0_15px_40px_rgba(0,0,0,0.08)]
+                                    opacity-0 invisible translate-y-3
+                                    transition-all duration-300 z-50 overflow-hidden">
 
                             <!-- Header -->
                             <div class="px-5 py-4 bg-slate-50 border-b border-slate-200">
@@ -383,73 +348,37 @@
                         </div>
                     </div>
                     <!-- OTHER LINKS -->
-                    <a href="#"
+                    <a href="./healthinformation.php"
                         class="nav-link">
                         Health Information
                     </a>
-                    <a href="#"
+                    <a href="./researchandpublication.php"
                         class="nav-link">
                         Research & Publication
                     </a>
-                    <a href="#"
+                    <a href="./contactus.php"
                         class="nav-link">
                         Contact
                     </a>
                 </nav>
 
                 <div class="flex items-center gap-8">
-                    <!-- <button id="searchToggle" class="search-pulse text-[28px] text-primary">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button> -->
-                    <!-- <button
-                            id="searchToggle"
-                            class="group search-pulse hidden md:flex items-center
-                                    gap-3 px-4 py-2 rounded-full
-                                    border border-secondary
-                                    bg-white/80 backdrop-blur-sm
-                                    hover:bg-primary hover:text-white
-                                    hover:border-primary
-                                    transition-all duration-300">
-
-                            <i class="fa-solid fa-magnifying-glass text-[20px]
-                                    group-hover:rotate-12 transition-all duration-300"></i>
-
-                            <span class="hidden lg:block text-sm font-semibold uppercase tracking-wider">
-                                Search
-                            </span>
-                        </button> -->
                     <button
-                        id="searchToggle"
-                        class="hidden md:flex items-center gap-2 text-slate-600 hover:text-primary transition">
+                        class="searchToggle hidden md:flex items-center gap-2 text-slate-600 hover:text-primary transition">
                         <i class="fa-solid fa-magnifying-glass text-lg"></i>
                         <span class="text-sm font-medium">
                             Search
                         </span>
                     </button>
 
-                    <a href="contact.php"
+                    <a href="contactus.php"
                         class="hidden lg:inline-flex items-center justify-center h-11 px-5 bg-primary text-white text-sm font-semibold rounded-lg hover:bg-primary-dark transition">
                         Book Appointment
                     </a>
-
-                    <!-- Mobile Icon Only -->
-                    <!-- <button
-                            id="searchToggleMobile"
-                            class="md:hidden search-pulse text-[28px] text-primary">
-
-                            <i class="fa-solid fa-magnifying-glass"></i>
-
-                        </button> -->
-
-                    <!-- <button id="menuToggle" class="lg:hidden text-[32px] text-primary">
-                            <i class="fa-solid fa-bars"></i>
-                        </button> -->
                 </div>
 
                 <div class="flex xl:hidden items-center gap-4">
-
-                    <button id="searchToggle"
-                        class="text-primary text-xl">
+                    <button class="searchToggleMobile text-primary text-xl">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
 
@@ -533,7 +462,30 @@
             /* =========================================
                SEARCH SYSTEM
             ========================================= */
-            const searchToggle = document.getElementById("searchToggle");
+            // const searchToggle = document.getElementById("searchToggle");
+            // const searchWrapper = document.getElementById("searchWrapper");
+            // const searchOverlay = document.getElementById("searchOverlay");
+            // const closeSearch = document.getElementById("closeSearch");
+
+            // function openSearch() {
+            //     searchWrapper?.classList.add("search-active");
+            //     document.body.classList.add("menu-open");
+            // }
+
+            // function closeSearchModal() {
+            //     searchWrapper?.classList.remove("search-active");
+            //     document.body.classList.remove("menu-open");
+            // }
+
+            // searchToggle?.addEventListener("click", (e) => {
+            //     e.preventDefault();
+            //     openSearch();
+            // });
+
+            // closeSearch?.addEventListener("click", closeSearchModal);
+            // searchOverlay?.addEventListener("click", closeSearchModal);
+
+            const searchToggles = document.querySelectorAll(".searchToggle, .searchToggleMobile");
             const searchWrapper = document.getElementById("searchWrapper");
             const searchOverlay = document.getElementById("searchOverlay");
             const closeSearch = document.getElementById("closeSearch");
@@ -548,11 +500,15 @@
                 document.body.classList.remove("menu-open");
             }
 
-            searchToggle?.addEventListener("click", (e) => {
-                e.preventDefault();
-                openSearch();
+            /* Attach event to BOTH desktop + mobile search buttons */
+            searchToggles.forEach(btn => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    openSearch();
+                });
             });
 
+            /* close actions */
             closeSearch?.addEventListener("click", closeSearchModal);
             searchOverlay?.addEventListener("click", closeSearchModal);
 

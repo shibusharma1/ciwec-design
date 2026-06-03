@@ -1,0 +1,17 @@
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.35s ease;
+}
+
+.faq-item.active .faq-content {
+  max-height: 300px;
+}
+
+.faq-item.active .faq-btn {
+  border-color: var(--color-secondary);
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(45deg);
+}

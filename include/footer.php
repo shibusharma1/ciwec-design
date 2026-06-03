@@ -1,11 +1,12 @@
-<?php 
- include './include/locationsection.php';
+<?php
+include './include/locationsection.php';
 ?>
 <footer class="bg-primary overflow-hidden">
     <!-- TOP -->
     <div class="border-b border-white/10">
         <div class="container-custom">
-            <div class="grid lg:grid-cols-4 gap-10 py-14">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 py-14">
+                <!-- <div class="grid lg:grid-cols-4 gap-10 py-14"> -->
                 <!-- ABOUT -->
                 <div>
                     <img
@@ -26,7 +27,7 @@
                     </h3>
                     <ul class="space-y-3">
                         <li>
-                            <a href="#"
+                            <a href=""
                                 class="text-white/80 hover:text-secondary transition">
                                 About Us
                             </a>
@@ -38,7 +39,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="./researchandpublication.php"
                                 class="text-white/80 hover:text-secondary transition">
                                 Doctors
                             </a>
@@ -53,22 +54,30 @@
                 </div>
                 <!-- SERVICES -->
                 <div>
-                    <h3
-                        class="text-white text-lg font-black mb-6">
+                    <h3 class="text-white text-lg font-black mb-6">
                         Key Services
                     </h3>
+
                     <ul class="space-y-3">
-                        <li class="text-white/80">
-                            Travel Medicine
+                        <li>
+                            <a href="#" class="text-white/80 hover:text-secondary transition">
+                                Travel Medicine
+                            </a>
                         </li>
-                        <li class="text-white/80">
-                            Family Medicine
+                        <li>
+                            <a href="#" class="text-white/80 hover:text-secondary transition">
+                                Family Medicine
+                            </a>
                         </li>
-                        <li class="text-white/80">
-                            Health Screening
+                        <li>
+                            <a href="#" class="text-white/80 hover:text-secondary transition">
+                                Health Screening
+                            </a>
                         </li>
-                        <li class="text-white/80">
-                            Emergency Care
+                        <li>
+                            <a href="#" class="text-white/80 hover:text-secondary transition">
+                                Emergency Care
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -86,7 +95,7 @@
                         <input
                             type="email"
                             placeholder="Email Address"
-                            class="flex-1 h-12 px-4 text-sm text-slate-700 outline-none">
+                            class="flex-1 h-12 px-4 text-sm text-slate-700 outline-none focus:ring-2 focus:ring-secondary focus:border-secondary transition">
                         <button
                             class="w-14 bg-secondary text-white hover:bg-white hover:text-primary transition">
                             <i class="fa-solid fa-arrow-right"></i>
@@ -178,34 +187,25 @@
     </div>
 </footer>
 
-
 <?php
 include './include/backtotop.php';
 ?>
-
-
-
 
 <!-- swiper js  -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!-- script for the sticky header -->
 <script src="./assets/js/stickyheader.js"></script>
-<!-- script for the sticky footerbar -->
-<!-- <script src="./assets/js/stickyfooterbar.js"></script> -->
+
 <!-- script for the back to top -->
-<!-- <script src="./assets/js/backtotop.js"></script> -->
 <script defer src="./assets/js/backtotop.js"></script>
-<!-- script to toggle the searchbar -->
-<script src="./assets/js/searchtoggle.js"></script>
+
+<!-- Js for FAQ -->
+<script defer src="./assets/js/faq.js"></script>
+
 <!-- script for the Testimonial -->
 <script src="./assets/js/swiperslider.js"></script>
-<!-- script for the swiper slider of specialityslider -->
-<!-- <script src="./assets/js/specialityslider.js"></script> -->
-<script>
-    // =========================
-    // SPECIALITY SLIDER
-    // =========================
 
+<script>
     const specialitySwiper = new Swiper(".specialitySwiper", {
         loop: false,
         speed: 900,
@@ -231,6 +231,7 @@ include './include/backtotop.php';
         }
     });
 </script>
+
 <!-- =====================================================
    SWIPER JS
    ===================================================== -->
@@ -326,7 +327,6 @@ include './include/backtotop.php';
 
     });
 </script>
-
 
 <!-- script for the sticky footer bar  -->
 <script>

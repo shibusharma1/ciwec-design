@@ -59,139 +59,72 @@ include './include/stickyfooterbar.php';
     ========================================= -->
 <section class="relative z-20 -mt-10 md:-mt-12 xl:-mt-16">
     <div class="container-custom">
-        <div
-            class="bg-white border border-slate-200 shadow-[0_15px_40px_rgba(0,0,0,.08)]">
-            <div
-                class="grid grid-cols-1 md:grid-cols-3">
-                <!-- FIND DOCTOR -->
-                <a href="#"
-                    class="group
-                    flex
-                    items-center
-                    gap-4
-                    p-5 md:p-7
-                    border-b md:border-b-0 md:border-r border-slate-200
-                    hover:bg-slate-50
-                    transition-all duration-300">
-                    <div
-                        class="w-12 h-12 md:w-14 md:h-14
-                        bg-primary/10
-                        text-primary
-                        flex items-center justify-center
-                        flex-shrink-0
-                        transition-all duration-300
-                        group-hover:bg-primary
-                        group-hover:text-white">
-                        <i class="fa-solid fa-user-doctor text-lg md:text-xl"></i>
-                    </div>
-                    <div class="flex-1">
-                        <h3
-                            class="text-primary
-                            text-base md:text-lg
-                            font-bold">
-                            Find a Doctor
-                        </h3>
-                        <p
-                            class="hidden md:block
-                            text-slate-500
-                            text-sm
-                            mt-1">
-                            Search specialists
-                        </p>
-                    </div>
-                    <i
-                        class="fa-solid fa-arrow-right
-                        text-secondary
-                        text-sm
-                        transition-all duration-300
-                        group-hover:translate-x-1">
-                    </i>
-                </a>
-                <!-- INQUIRY -->
-                <a href="#"
-                    class="group
-                    flex
-                    items-center
-                    gap-4
-                    p-5 md:p-7
-                    border-b md:border-b-0 md:border-r border-slate-200
-                    hover:bg-slate-50
-                    transition-all duration-300">
-                    <div
-                        class="w-12 h-12 md:w-14 md:h-14
-                        bg-primary/10
-                        text-primary
-                        flex items-center justify-center
-                        flex-shrink-0
-                        transition-all duration-300
-                        group-hover:bg-primary
-                        group-hover:text-white">
-                        <i class="fa-solid fa-comments text-lg md:text-xl"></i>
-                    </div>
-                    <div class="flex-1">
-                        <h3
-                            class="text-primary
-                            text-base md:text-lg
-                            font-bold">
-                            Inquiry
-                        </h3>
-                        <p
-                            class="hidden md:block
-                            text-slate-500
-                            text-sm
-                            mt-1">
-                            Contact our team
-                        </p>
-                    </div>
-                    <i
-                        class="fa-solid fa-arrow-right
-                        text-secondary
-                        text-sm
-                        transition-all duration-300
-                        group-hover:translate-x-1">
-                    </i>
-                </a>
-                <!-- APPOINTMENT -->
-                <a href="#"
-                    class="group
-                    flex
-                    items-center
-                    gap-4
-                    p-5 md:p-7
-                    bg-primary
-                    text-white
-                    hover:bg-secondary
-                    transition-all duration-300">
-                    <div
-                        class="w-12 h-12 md:w-14 md:h-14
-                        bg-white/10
-                        flex items-center justify-center
-                        flex-shrink-0">
-                        <i class="fa-solid fa-calendar-check text-lg md:text-xl"></i>
-                    </div>
-                    <div class="flex-1">
-                        <h3
-                            class="text-base md:text-lg
-                            font-bold">
-                            Appointment
-                        </h3>
-                        <p
-                            class="hidden md:block
-                            text-white/70
-                            text-sm
-                            mt-1">
-                            Schedule your visit
-                        </p>
-                    </div>
-                    <i
-                        class="fa-solid fa-arrow-right
-                        text-white
-                        text-sm
-                        transition-all duration-300
-                        group-hover:translate-x-1">
-                    </i>
-                </a>
-            </div>
+        <div class="bg-white border border-slate-200 shadow-[0_15px_40px_rgba(0,0,0,.08)]">
+            <div class="grid grid-cols-1 md:grid-cols-3">
+
+    <!-- FIND DOCTOR (Hidden on Mobile) -->
+    <a href="#"
+        class="hidden md:flex group items-center gap-4 p-5 md:p-7 border-r border-slate-200 hover:bg-slate-50 transition-all duration-300">
+
+        <div class="w-14 h-14 bg-primary/10 text-primary flex items-center justify-center flex-shrink-0 transition-all duration-300 group-hover:bg-primary group-hover:text-white">
+            <i class="fa-solid fa-user-doctor text-xl"></i>
+        </div>
+
+        <div class="flex-1">
+            <h3 class="text-primary text-lg font-bold">
+                Find a Doctor
+            </h3>
+            <p class="text-slate-500 text-sm mt-1">
+                Search specialists
+            </p>
+        </div>
+
+        <i class="fa-solid fa-arrow-right text-secondary text-sm transition-all duration-300 group-hover:translate-x-1"></i>
+    </a>
+
+    <!-- INQUIRY (Hidden on Mobile) -->
+    <a href="#"
+        class="hidden md:flex group items-center gap-4 p-5 md:p-7 border-r border-slate-200 hover:bg-slate-50 transition-all duration-300">
+
+        <div class="w-14 h-14 bg-primary/10 text-primary flex items-center justify-center flex-shrink-0 transition-all duration-300 group-hover:bg-primary group-hover:text-white">
+            <i class="fa-solid fa-comments text-xl"></i>
+        </div>
+
+        <div class="flex-1">
+            <h3 class="text-primary text-lg font-bold">
+                Inquiry
+            </h3>
+            <p class="text-slate-500 text-sm mt-1">
+                Contact our team
+            </p>
+        </div>
+
+        <i class="fa-solid fa-arrow-right text-secondary text-sm transition-all duration-300 group-hover:translate-x-1"></i>
+    </a>
+
+    <!-- APPOINTMENT (Visible on All Devices) -->
+    <a href="#"
+        class="group flex items-center gap-4 p-5 md:p-7 bg-primary text-white hover:bg-secondary transition-all duration-300 w-full">
+
+        <div class="w-12 h-12 md:w-14 md:h-14 bg-white/10 flex items-center justify-center flex-shrink-0">
+            <i class="fa-solid fa-calendar-check text-lg md:text-xl"></i>
+        </div>
+
+        <div class="flex-1">
+            <h3 class="text-base md:text-lg font-bold">
+                Appointment
+            </h3>
+
+            <!-- Visible on Mobile & Desktop -->
+            <p class="text-white/80 text-sm mt-1">
+                Schedule your visit
+            </p>
+        </div>
+
+        <i class="fa-solid fa-arrow-right text-white text-sm transition-all duration-300 group-hover:translate-x-1"></i>
+    </a>
+
+</div>
         </div>
     </div>
 </section>
