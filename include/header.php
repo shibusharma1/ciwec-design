@@ -51,6 +51,7 @@
     <link rel="stylesheet" href="./assets/css/patient-stories.css">
     <link rel="stylesheet" href="./assets/css/whatsnew.css">
     <link rel="stylesheet" href="./assets/css/faq.css">
+    <link rel="stylesheet" href="./assets/css/services.css">
 </head>
 
 <body>
@@ -97,7 +98,7 @@
 
         <div class="p-5">
             <!-- HOME -->
-            <a href="#"
+            <a href="./index.php"
                 class="flex items-center justify-between py-4 border-b border-slate-200 text-[15px] font-semibold text-slate-800 hover:text-secondary transition">
                 <span>Home</span>
                 <i class="fa-solid fa-arrow-right text-[11px] text-slate-400"></i>
@@ -111,19 +112,19 @@
                 </button>
                 <div class="mobile-dropdown-menu">
                     <div class="pb-4 pl-4 border-l-2 border-slate-100 space-y-3">
-                        <a href="#"
+                        <a href="./about.php"
                             class="block text-[14px] text-slate-600 hover:text-secondary transition">
                             About Us
                         </a>
-                        <a href="#"
+                        <a href="./history.php"
                             class="block text-[14px] text-slate-600 hover:text-secondary transition">
                             CIWEC History
                         </a>
-                        <a href="#"
+                        <a href="./gallery.php"
                             class="block text-[14px] text-slate-600 hover:text-secondary transition">
                             Gallery
                         </a>
-                        <a href="#"
+                        <a href="./csr.php"
                             class="block text-[14px] text-slate-600 hover:text-secondary transition">
                             CIWEC CSR
                         </a>
@@ -139,19 +140,19 @@
                 </button>
                 <div class="mobile-dropdown-menu">
                     <div class="pb-4 pl-4 border-l-2 border-slate-100 space-y-3">
-                        <a href="#"
+                        <a href="./services.php"
                             class="block text-[14px] text-slate-600 hover:text-secondary transition">
                             Services
                         </a>
-                        <a href="#"
+                        <a href="./doctors.php"
                             class="block text-[14px] text-slate-600 hover:text-secondary transition">
                             Doctors at CIWEC
                         </a>
-                        <a href="#"
+                        <a href="./healthscreening.php"
                             class="block text-[14px] text-slate-600 hover:text-secondary transition">
                             Family Medicine & Health Screening
                         </a>
-                        <a href="#"
+                        <a href="./altitudesickness.php"
                             class="block text-[14px] text-slate-600 hover:text-secondary transition">
                             Altitude Illness & Frostbite
                         </a>
@@ -238,7 +239,7 @@
                             <!-- Links -->
                             <div class="py-2">
 
-                                <a href="#"
+                                <a href="./about.php"
                                     class="dropdown-item">
                                     <div>
                                         <h5>About Us</h5>
@@ -247,7 +248,7 @@
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </a>
 
-                                <a href="#"
+                                <a href="./history.php"
                                     class="dropdown-item">
                                     <div>
                                         <h5>CIWEC History</h5>
@@ -256,7 +257,7 @@
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </a>
 
-                                <a href="#"
+                                <a href="./gallery.php"
                                     class="dropdown-item">
                                     <div>
                                         <h5>Gallery</h5>
@@ -265,7 +266,7 @@
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </a>
 
-                                <a href="#"
+                                <a href="./csr.php"
                                     class="dropdown-item">
                                     <div>
                                         <h5>CIWEC CSR</h5>
@@ -307,7 +308,7 @@
                             <!-- Links -->
                             <div class="py-2">
 
-                                <a href="#"
+                                <a href="./services.php"
                                     class="dropdown-item">
                                     <div>
                                         <h5>Services</h5>
@@ -316,7 +317,7 @@
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </a>
 
-                                <a href="#"
+                                <a href="./doctors.php"
                                     class="dropdown-item">
                                     <div>
                                         <h5>Doctors at CIWEC</h5>
@@ -325,7 +326,7 @@
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </a>
 
-                                <a href="#"
+                                <a href="./healthscreening.php"
                                     class="dropdown-item">
                                     <div>
                                         <h5>Family Medicine & Health Screening</h5>
@@ -334,7 +335,7 @@
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </a>
 
-                                <a href="#"
+                                <a href="./altitudesickness.php"
                                     class="dropdown-item">
                                     <div>
                                         <h5>Altitude Illness & Frostbite</h5>

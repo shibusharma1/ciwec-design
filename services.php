@@ -1,44 +1,7 @@
 <?php
 include './include/header.php';
 ?>
-<style>
-    .service-tab {
-        padding: 14px 28px;
-        border: 1px solid #e2e8f0;
-        background: white;
-        color: var(--color-primary);
-        font-weight: 600;
-        transition: .3s;
-    }
 
-    .service-tab:hover {
-        border-color: var(--color-secondary);
-    }
-
-    .active-service-tab {
-        background: var(--color-primary);
-        color: black;
-        border-color: var(--color-primary);
-    }
-
-    .service-content {
-        animation: fadeService .35s ease;
-    }
-
-    @keyframes fadeService {
-
-        from {
-            opacity: 0;
-            transform: translateY(15px);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-    }
-</style>
 <section class="relative h-[220px] md:h-[280px] overflow-hidden">
     <img src="./assets/img/researchandpublication.png"
         class="absolute inset-0 w-full h-full object-cover">
