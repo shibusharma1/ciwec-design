@@ -33,6 +33,7 @@
         </p>
     </div>
 </section>
+
 <section class="section-padding bg-white">
     <div class="container-custom">
         <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-5">
@@ -85,6 +86,7 @@
         </div>
     </div>
 </section>
+
 <section class="section-padding bg-slate-50">
     <div class="container-custom">
         <div class="grid xl:grid-cols-[1.3fr_.7fr] gap-10">
@@ -154,10 +156,7 @@
         </div>
     </div>
 </section>
-<?php
-include './include/stickyfooterbar.php';
-// include './include/locationsection.php';
-?>
+
 <section class="section-padding bg-primary">
     <div class="container-custom">
         <div

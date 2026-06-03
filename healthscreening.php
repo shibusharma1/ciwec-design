@@ -1,5 +1,4 @@
 <?php include './include/header.php'; ?>
-
 <section class="relative h-[220px] md:h-[280px] overflow-hidden">
     <img src="./assets/img/contact-banner.jpg"
         class="absolute inset-0 w-full h-full object-cover">
@@ -168,26 +167,18 @@
         </div>
     </div>
 </section>
-
-
 <!-- HEALTH SCREENING MODAL -->
-
 <div
     id="packageModal"
     class="fixed inset-0 z-[9999] hidden">
-
     <!-- BACKDROP -->
-
     <div
         id="packageOverlay"
         class="absolute inset-0 bg-black/70 backdrop-blur-sm">
     </div>
-
     <!-- CONTENT -->
-
     <div
         class="relative h-screen flex items-center justify-center p-4">
-
         <div
             class="bg-white
             w-full
@@ -195,327 +186,186 @@
             max-h-[92vh]
             overflow-y-auto
             shadow-[0_30px_100px_rgba(0,0,0,.20)]">
-
             <!-- CLOSE -->
-
             <button
                 id="closePackageModal"
                 class="absolute top-5 right-5 z-10 w-11 h-11 bg-primary text-white hover:bg-secondary transition">
-
                 <i class="fa-solid fa-xmark"></i>
-
             </button>
-
             <!-- HEADER -->
-
             <div
                 class="bg-primary text-white p-10">
-
                 <span
                     class="text-secondary font-bold uppercase tracking-[3px]">
-
                     Health Screening Package
-
                 </span>
-
                 <h2
                     class="text-4xl font-black mt-4">
-
                     Executive Health Check
-
                 </h2>
-
                 <p
                     class="text-white/80 mt-4 max-w-3xl">
-
                     A comprehensive preventive health screening package
                     designed for busy professionals seeking early detection,
                     health risk assessment and complete wellness evaluation.
-
                 </p>
-
             </div>
-
             <!-- BODY -->
-
             <div class="p-8 md:p-10">
-
                 <!-- STATS -->
-
                 <div
                     class="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-
                     <div class="bg-slate-50 p-5 text-center">
-
                         <h4 class="text-primary text-2xl font-black">
-
                             40+
-
                         </h4>
-
                         <p class="text-slate-500 text-sm">
-
                             Diagnostic Tests
-
                         </p>
-
                     </div>
-
                     <div class="bg-slate-50 p-5 text-center">
-
                         <h4 class="text-primary text-2xl font-black">
-
                             1 Day
-
                         </h4>
-
                         <p class="text-slate-500 text-sm">
-
                             Completion
-
                         </p>
-
                     </div>
-
                     <div class="bg-slate-50 p-5 text-center">
-
                         <h4 class="text-primary text-2xl font-black">
-
                             Doctor
-
                         </h4>
-
                         <p class="text-slate-500 text-sm">
-
                             Consultation
-
                         </p>
-
                     </div>
-
                     <div class="bg-slate-50 p-5 text-center">
-
                         <h4 class="text-primary text-2xl font-black">
-
                             Full
-
                         </h4>
-
                         <p class="text-slate-500 text-sm">
-
                             Report Review
-
                         </p>
-
                     </div>
-
                 </div>
-
                 <!-- INCLUDED TESTS -->
-
                 <h3
                     class="text-primary text-2xl font-black mb-6">
-
                     Included Assessments
-
                 </h3>
-
                 <div
                     class="grid md:grid-cols-2 xl:grid-cols-3 gap-5 mb-12">
-
                     <div class="border border-slate-200 p-5">
                         Physical Examination
                     </div>
-
                     <div class="border border-slate-200 p-5">
                         Complete Blood Count
                     </div>
-
                     <div class="border border-slate-200 p-5">
                         Blood Sugar Test
                     </div>
-
                     <div class="border border-slate-200 p-5">
                         Liver Function Test
                     </div>
-
                     <div class="border border-slate-200 p-5">
                         Kidney Function Test
                     </div>
-
                     <div class="border border-slate-200 p-5">
                         Lipid Profile
                     </div>
-
                     <div class="border border-slate-200 p-5">
                         ECG
                     </div>
-
                     <div class="border border-slate-200 p-5">
                         Chest X-Ray
                     </div>
-
                     <div class="border border-slate-200 p-5">
                         Physician Consultation
                     </div>
-
                 </div>
-
                 <!-- WHO SHOULD TAKE -->
-
                 <h3
                     class="text-primary text-2xl font-black mb-6">
-
                     Recommended For
-
                 </h3>
-
                 <div
                     class="bg-slate-50 p-8 mb-12">
-
                     <ul class="space-y-4 text-slate-600">
-
                         <li>✔ Adults above 30 years</li>
-
                         <li>✔ Corporate executives</li>
-
                         <li>✔ Individuals with family history of disease</li>
-
                         <li>✔ Preventive annual wellness checkups</li>
-
                         <li>✔ Lifestyle risk assessment</li>
-
                     </ul>
-
                 </div>
-
                 <!-- PREPARATION -->
-
                 <h3
                     class="text-primary text-2xl font-black mb-6">
-
                     Preparation Guidelines
-
                 </h3>
-
                 <div
                     class="space-y-4 text-slate-600 leading-8 mb-12">
-
                     <p>
-
                         • Fast for 10–12 hours before your appointment.
-
                     </p>
-
                     <p>
-
                         • Continue prescribed medications unless advised otherwise.
-
                     </p>
-
                     <p>
-
                         • Bring previous medical reports if available.
-
                     </p>
-
                     <p>
-
                         • Wear comfortable clothing.
-
                     </p>
-
                 </div>
-
                 <!-- BENEFITS -->
-
                 <h3
                     class="text-primary text-2xl font-black mb-6">
-
                     Benefits
-
                 </h3>
-
                 <div
                     class="grid md:grid-cols-2 gap-6 mb-12">
-
                     <div class="border border-slate-200 p-6">
-
                         Early Detection Of Disease
-
                     </div>
-
                     <div class="border border-slate-200 p-6">
-
                         Personalized Health Recommendations
-
                     </div>
-
                     <div class="border border-slate-200 p-6">
-
                         Reduced Long-Term Health Risks
-
                     </div>
-
                     <div class="border border-slate-200 p-6">
-
                         Comprehensive Wellness Evaluation
-
                     </div>
-
                 </div>
-
                 <!-- CTA -->
-
                 <div
                     class="bg-primary text-white p-10 text-center">
-
                     <h3
                         class="text-3xl font-black mb-4">
-
                         Ready To Schedule Your Screening?
-
                     </h3>
-
                     <p
                         class="text-white/80 mb-8">
-
                         Book your appointment today and take the first
                         step toward better health.
-
                     </p>
-
                     <div
                         class="flex flex-wrap justify-center gap-4">
-
                         <a href="#"
                             class="btn-light">
-
                             Book Appointment
-
                         </a>
-
                         <a href="#"
                             class="btn-secondary">
-
                             Contact Us
-
                         </a>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </div>
-
-
-
 <section class="bg-slate-50 py-20">
     <div class="container-custom">
         <div class="text-center mb-14">
@@ -685,7 +535,6 @@
         </div>
     </div>
 </section>
-
 <script>
     const packageModal =
         document.getElementById("packageModal");
