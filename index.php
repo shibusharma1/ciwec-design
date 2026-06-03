@@ -1,9 +1,5 @@
 <?php include './include/header.php'; ?>
 
-<?php
-include './include/stickyfooterbar.php';
-?>
-
 <!-- HERO -->
 <section class="relative">
     <!-- VIDEO HERO -->
@@ -831,9 +827,6 @@ Our History
     </div>
 </section>
 
-<!-- =========================
-WHATS NEW SECTION
-========================= -->
 <!-- =========================================
     WHAT'S NEW
     ========================================= -->
@@ -1078,7 +1071,7 @@ WHATS NEW SECTION
                 <!-- IMAGE -->
                 <div class="relative overflow-hidden">
                     <img
-                        src="./assets/doctors/doc1.jpg"
+                        src="./assets/img/doctors/doc1.png"
                         alt=""
                         class="w-full h-[320px] md:h-[420px] object-cover transition duration-700 group-hover:scale-105">
                     <!-- BRANCH -->
@@ -1117,7 +1110,7 @@ WHATS NEW SECTION
                 class="group border border-slate-200 bg-white overflow-hidden transition-all duration-500 hover:border-secondary">
                 <div class="relative overflow-hidden">
                     <img
-                        src="./assets/doctors/doc2.jpg"
+                        src="./assets/img/doctors/doc2.png"
                         alt=""
                         class="w-full h-[320px] md:h-[420px] object-cover transition duration-700 group-hover:scale-105">
                     <div

@@ -132,8 +132,7 @@
                             </p>
                         </div>
                         <div>
-                            <h4
-                                class="text-primary font-semibold mb-1">
+                            <h4 class="text-primary font-semibold mb-1">
                                 Phone
                             </h4>
                             <a
@@ -143,12 +142,10 @@
                             </a>
                         </div>
                         <div>
-                            <h4
-                                class="text-primary font-semibold mb-1">
+                            <h4 class="text-primary font-semibold mb-1">
                                 Email
                             </h4>
-                            <a
-                                href="mailto:pkradministrator@ciwec-clinic.com"
+                            <a href="mailto:pkradministrator@ciwec-clinic.com"
                                 class="text-slate-600 hover:text-secondary">
                                 pkradministrator@ciwec-clinic.com
                             </a>

@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    
+
     <!-- Tailwind Config -->
     <script>
         tailwind.config = {
@@ -45,6 +45,7 @@
             }
         }
     </script>
+
     <!-- css links -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/speciality.css">
@@ -52,6 +53,7 @@
     <link rel="stylesheet" href="./assets/css/whatsnew.css">
     <link rel="stylesheet" href="./assets/css/faq.css">
     <link rel="stylesheet" href="./assets/css/services.css">
+
 </head>
 
 <body>
@@ -458,33 +460,6 @@
                     dropdown.classList.toggle("active");
                 });
             });
-
-
-            /* =========================================
-               SEARCH SYSTEM
-            ========================================= */
-            // const searchToggle = document.getElementById("searchToggle");
-            // const searchWrapper = document.getElementById("searchWrapper");
-            // const searchOverlay = document.getElementById("searchOverlay");
-            // const closeSearch = document.getElementById("closeSearch");
-
-            // function openSearch() {
-            //     searchWrapper?.classList.add("search-active");
-            //     document.body.classList.add("menu-open");
-            // }
-
-            // function closeSearchModal() {
-            //     searchWrapper?.classList.remove("search-active");
-            //     document.body.classList.remove("menu-open");
-            // }
-
-            // searchToggle?.addEventListener("click", (e) => {
-            //     e.preventDefault();
-            //     openSearch();
-            // });
-
-            // closeSearch?.addEventListener("click", closeSearchModal);
-            // searchOverlay?.addEventListener("click", closeSearchModal);
 
             const searchToggles = document.querySelectorAll(".searchToggle, .searchToggleMobile");
             const searchWrapper = document.getElementById("searchWrapper");

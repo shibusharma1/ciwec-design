@@ -1,6 +1,7 @@
 <?php
 include './include/locationsection.php';
 ?>
+
 <footer class="bg-primary overflow-hidden">
     <!-- TOP -->
     <div class="border-b border-white/10">
@@ -9,8 +10,7 @@ include './include/locationsection.php';
                 <!-- <div class="grid lg:grid-cols-4 gap-10 py-14"> -->
                 <!-- ABOUT -->
                 <div>
-                    <img
-                        src="./assets/img/logo.png"
+                    <img src="./assets/img/logo.png"
                         class="h-20 bg-white p-3 mb-6">
                     <p
                         class="text-white/80 text-sm leading-7">
@@ -21,8 +21,7 @@ include './include/locationsection.php';
                 </div>
                 <!-- QUICK LINKS -->
                 <div>
-                    <h3
-                        class="text-white text-lg font-black mb-6">
+                    <h3 class="text-white text-lg font-black mb-6">
                         Quick Links
                     </h3>
                     <ul class="space-y-3">
@@ -120,53 +119,11 @@ include './include/locationsection.php';
             </div>
         </div>
     </div>
-    <!-- LOCATION STRIP -->
-    <!-- <div class="border-b border-white/10">
-        <div class="container-custom">
-            <div
-                class="grid md:grid-cols-3 gap-6 py-8">
-                <div>
-                    <h4
-                        class="text-secondary font-bold mb-2">
-                        Kathmandu
-                    </h4>
-                    <p class="text-white/70 text-sm">
-                        +977-1-4524111
-                    </p>
-                    <p class="text-white/70 text-sm">
-                        info@ciwec-clinic.com
-                    </p>
-                </div>
-                <div>
-                    <h4
-                        class="text-secondary font-bold mb-2">
-                        Pokhara
-                    </h4>
-                    <p class="text-white/70 text-sm">
-                        +977-61-453082
-                    </p>
-                    <p class="text-white/70 text-sm">
-                        pkradministrator@ciwec-clinic.com
-                    </p>
-                </div>
-                <div>
-                    <h4
-                        class="text-secondary font-bold mb-2">
-                        Emergency
-                    </h4>
-                    <p
-                        class="text-white text-lg font-bold">
-                        24/7 Available
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div> -->
+
     <!-- COPYRIGHT -->
     <div class="pb-20 lg:pb-0 md:pb-0">
         <div class="container-custom">
-            <div
-                class="flex flex-col md:flex-row justify-between items-center gap-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 py-6">
                 <p
                     class="text-white/60 text-sm">
                     © 2025 CIWEC Hospital. All Rights Reserved.
@@ -189,10 +146,12 @@ include './include/locationsection.php';
 
 <?php
 include './include/backtotop.php';
+include './include/stickyfooterbar.php';
 ?>
 
 <!-- swiper js  -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <!-- script for the sticky header -->
 <script src="./assets/js/stickyheader.js"></script>
 
@@ -353,5 +312,4 @@ include './include/backtotop.php';
 </script>
 
 </body>
-
 </html>

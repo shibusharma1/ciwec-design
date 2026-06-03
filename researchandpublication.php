@@ -372,6 +372,5 @@
    }
 </script>
 <?php
-   include './include/stickyfooterbar.php';
    include './include/footer.php';
    ?>
