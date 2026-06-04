@@ -1495,7 +1495,7 @@ include "./include/header.php"; ?>
                 justify-center
                 gap-4
                 mt-10">
-                <a href="#"
+                <a href="./bookappointment.php"
                     class="btn-primary bg-white text-primary hover:text-white">
                 Book Appointment
                 </a>

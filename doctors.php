@@ -803,7 +803,7 @@
        </ul>
    
        <a
-       href="#"
+       href="./bookappointment.php"
        class="btn-primary mt-8 inline-flex">
    
            Book Appointment
@@ -1020,7 +1020,7 @@
                   View Profile
                   </a>
                   <a
-                     href="appointment.php"
+                     href="./bookappointment.php"
                      class="border border-primary text-primary px-8 py-4 font-semibold hover:bg-primary hover:text-white transition">
                   Book Appointment
                   </a>
@@ -1264,7 +1264,7 @@
          View Profile
          </button>
          <a
-            href="appointment.php"
+            href="./bookappointment.php"
             class="flex-1 border border-primary text-primary text-center py-3 font-semibold hover:bg-primary hover:text-white transition">
          Book
          </a>
@@ -1841,7 +1841,7 @@
                   with a trusted specialist.
                </p>
                <a
-                  href="appointment.php"
+                  href="./bookappointment.php"
                   class="inline-block mt-8 bg-primary text-white px-8 py-3 font-semibold hover:bg-secondary transition">
                Book Now
                </a>

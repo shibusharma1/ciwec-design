@@ -1320,7 +1320,7 @@ include "./include/header.php"; ?>
                 justify-center
                 gap-4
                 mt-8">
-                <a href="#"
+                <a href="./bookappointment.php"
                     class="btn-primary bg-white text-primary hover:text-white">
                 Book Appointment
                 </a>
@@ -1463,7 +1463,7 @@ include "./include/header.php"; ?>
                 justify-center
                 gap-4
                 mt-12">
-                <a href="#"
+                <a href="./bookappointment.php"
                     class="btn-primary">
                 Book Appointment
                 </a>

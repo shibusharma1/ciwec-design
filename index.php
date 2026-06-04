@@ -14,8 +14,8 @@
                 <div class="max-w-3xl">
                     <span
                         class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white text-sm font-medium px-4 py-2 mb-6">
-                    <span class="w-2 h-2 bg-secondary rounded-full animate-pulse"></span>
-                    Trusted Since 1982
+                        <span class="w-2 h-2 bg-secondary rounded-full animate-pulse"></span>
+                        Trusted Since 1982
                     </span>
                     <h1
                         class="text-white font-black leading-tight text-[34px] md:text-[52px] xl:text-[70px]">
@@ -107,7 +107,7 @@
             <div>
                 <span
                     class="text-secondary uppercase tracking-[3px] text-sm font-semibold">
-                About CIWEC
+                    About CIWEC
                 </span>
                 <h2
                     class="text-primary font-black text-3xl md:text-5xl mt-4 leading-tight">
@@ -127,7 +127,7 @@
                 </p>
                 <a href="#"
                     class="inline-flex mt-8 bg-primary text-white px-7 py-4 font-semibold hover:bg-primary/90 transition">
-                Learn More
+                    Learn More
                 </a>
             </div>
         </div>
@@ -142,7 +142,7 @@
         <div class="flex items-end justify-between mb-10">
             <div>
                 <span class="section-label">
-                Centers of Excellence
+                    Centers of Excellence
                 </span>
                 <h2 class="section-title mb-0">
                     Specialized Medical Services
@@ -150,8 +150,8 @@
             </div>
             <a href="#"
                 class="hidden lg:inline-flex items-center gap-2 text-primary font-semibold hover:text-secondary transition">
-            View All
-            <i class="fa-solid fa-arrow-right"></i>
+                View All
+                <i class="fa-solid fa-arrow-right"></i>
             </a>
         </div>
     </div>
@@ -166,7 +166,7 @@
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
                         <span class="speciality-badge">
-                        Travel Medicine
+                            Travel Medicine
                         </span>
                         <h3 class="speciality-title">
                             Travel & Tropical Medicine
@@ -190,7 +190,7 @@
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
                         <span class="speciality-badge">
-                        Family Medicine
+                            Family Medicine
                         </span>
                         <h3 class="speciality-title">
                             Family Healthcare
@@ -214,7 +214,7 @@
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
                         <span class="speciality-badge">
-                        Travel Medicine
+                            Travel Medicine
                         </span>
                         <h3 class="speciality-title">
                             Travel & Tropical Medicine
@@ -238,7 +238,7 @@
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
                         <span class="speciality-badge">
-                        Family Medicine
+                            Family Medicine
                         </span>
                         <h3 class="speciality-title">
                             Family Healthcare
@@ -262,7 +262,7 @@
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
                         <span class="speciality-badge">
-                        Travel Medicine
+                            Travel Medicine
                         </span>
                         <h3 class="speciality-title">
                             Travel & Tropical Medicine
@@ -286,7 +286,7 @@
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
                         <span class="speciality-badge">
-                        Family Medicine
+                            Family Medicine
                         </span>
                         <h3 class="speciality-title">
                             Family Healthcare
@@ -310,7 +310,7 @@
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
                         <span class="speciality-badge">
-                        Travel Medicine
+                            Travel Medicine
                         </span>
                         <h3 class="speciality-title">
                             Travel & Tropical Medicine
@@ -334,7 +334,7 @@
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
                         <span class="speciality-badge">
-                        Family Medicine
+                            Family Medicine
                         </span>
                         <h3 class="speciality-title">
                             Family Healthcare
@@ -358,7 +358,7 @@
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
                         <span class="speciality-badge">
-                        Travel Medicine
+                            Travel Medicine
                         </span>
                         <h3 class="speciality-title">
                             Travel & Tropical Medicine
@@ -382,7 +382,7 @@
                     <div class="speciality-overlay"></div>
                     <div class="speciality-content">
                         <span class="speciality-badge">
-                        Family Medicine
+                            Family Medicine
                         </span>
                         <h3 class="speciality-title">
                             Family Healthcare
@@ -412,8 +412,8 @@
         <div class="max-w-3xl mb-14">
             <span
                 class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
-            <span class="w-2 h-2 bg-secondary"></span>
-            Our Journey
+                <span class="w-2 h-2 bg-secondary"></span>
+                Our Journey
             </span>
             <h2
                 class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight">
@@ -435,68 +435,68 @@
                     <button
                         class="history-year active relative z-10 flex flex-col items-center"
                         data-year="1982">
-                    <span
-                        class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                    </span>
-                    <span
-                        class="font-bold text-primary text-sm">
-                    1982
-                    </span>
+                        <span
+                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
+                        </span>
+                        <span
+                            class="font-bold text-primary text-sm">
+                            1982
+                        </span>
                     </button>
                     <button
                         class="history-year relative z-10 flex flex-col items-center"
                         data-year="2000">
-                    <span
-                        class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                    </span>
-                    <span
-                        class="font-bold text-primary text-sm">
-                    2000
-                    </span>
+                        <span
+                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
+                        </span>
+                        <span
+                            class="font-bold text-primary text-sm">
+                            2000
+                        </span>
                     </button>
                     <button
                         class="history-year relative z-10 flex flex-col items-center"
                         data-year="2005">
-                    <span
-                        class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                    </span>
-                    <span
-                        class="font-bold text-primary text-sm">
-                    2005
-                    </span>
+                        <span
+                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
+                        </span>
+                        <span
+                            class="font-bold text-primary text-sm">
+                            2005
+                        </span>
                     </button>
                     <button
                         class="history-year relative z-10 flex flex-col items-center"
                         data-year="2014">
-                    <span
-                        class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                    </span>
-                    <span
-                        class="font-bold text-primary text-sm">
-                    2014
-                    </span>
+                        <span
+                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
+                        </span>
+                        <span
+                            class="font-bold text-primary text-sm">
+                            2014
+                        </span>
                     </button>
                     <button
                         class="history-year relative z-10 flex flex-col items-center"
                         data-year="2020">
-                    <span
-                        class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                    </span>
-                    <span
-                        class="font-bold text-primary text-sm">
-                    2020
-                    </span>
+                        <span
+                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
+                        </span>
+                        <span
+                            class="font-bold text-primary text-sm">
+                            2020
+                        </span>
                     </button>
                     <button
                         class="history-year relative z-10 flex flex-col items-center"
                         data-year="2025">
-                    <span
-                        class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                    </span>
-                    <span
-                        class="font-bold text-primary text-sm">
-                    2025
-                    </span>
+                        <span
+                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
+                        </span>
+                        <span
+                            class="font-bold text-primary text-sm">
+                            2025
+                        </span>
                     </button>
                 </div>
             </div>
@@ -519,7 +519,7 @@
                     <span
                         id="historyYear"
                         class="inline-flex items-center gap-2 text-secondary text-sm font-bold uppercase tracking-[2px] mb-4">
-                    1982
+                        1982
                     </span>
                     <h3
                         id="historyTitle"
@@ -592,8 +592,8 @@
         <div class="max-w-3xl mb-14">
             <span
                 class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
-            <span class="w-2 h-2 bg-secondary"></span>
-            Why Choose CIWEC
+                <span class="w-2 h-2 bg-secondary"></span>
+                Why Choose CIWEC
             </span>
             <h2
                 class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-6">
@@ -738,8 +738,8 @@
             <div class="max-w-3xl">
                 <span
                     class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
-                <span class="w-2 h-2 bg-secondary"></span>
-                What's New
+                    <span class="w-2 h-2 bg-secondary"></span>
+                    What's New
                 </span>
                 <h2
                     class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-4">
@@ -753,11 +753,11 @@
             </div>
             <a href="#"
                 class="inline-flex items-center gap-3 text-primary font-bold group">
-            View All Updates
-            <span
-                class="w-9 h-9 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
-            <i class="fa-solid fa-arrow-right text-xs"></i>
-            </span>
+                View All Updates
+                <span
+                    class="w-9 h-9 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
+                    <i class="fa-solid fa-arrow-right text-xs"></i>
+                </span>
             </a>
         </div>
         <!-- GRID -->
@@ -775,7 +775,7 @@
                     <div class="p-6 md:p-8">
                         <span
                             class="text-secondary text-xs uppercase tracking-[2px] font-bold">
-                        Featured Service
+                            Featured Service
                         </span>
                         <h3
                             class="text-primary text-2xl md:text-3xl font-black leading-tight mt-3 mb-4">
@@ -788,11 +788,11 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-3 text-primary font-bold group">
-                        Learn More
-                        <span
-                            class="w-9 h-9 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
-                        <i class="fa-solid fa-arrow-right text-xs"></i>
-                        </span>
+                            Learn More
+                            <span
+                                class="w-9 h-9 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
+                                <i class="fa-solid fa-arrow-right text-xs"></i>
+                            </span>
                         </a>
                     </div>
                 </article>
@@ -818,8 +818,8 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-3 text-primary font-bold mt-6">
-                        Learn More
-                        <i class="fa-solid fa-arrow-right text-secondary"></i>
+                            Learn More
+                            <i class="fa-solid fa-arrow-right text-secondary"></i>
                         </a>
                     </article>
                     <!-- CARD -->
@@ -840,8 +840,8 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-3 text-primary font-bold mt-6">
-                        Learn More
-                        <i class="fa-solid fa-arrow-right text-secondary"></i>
+                            Learn More
+                            <i class="fa-solid fa-arrow-right text-secondary"></i>
                         </a>
                     </article>
                     <!-- CARD -->
@@ -862,8 +862,8 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-3 text-primary font-bold mt-6">
-                        Learn More
-                        <i class="fa-solid fa-arrow-right text-secondary"></i>
+                            Learn More
+                            <i class="fa-solid fa-arrow-right text-secondary"></i>
                         </a>
                     </article>
                     <!-- CARD -->
@@ -884,8 +884,8 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-3 text-primary font-bold mt-6">
-                        Learn More
-                        <i class="fa-solid fa-arrow-right text-secondary"></i>
+                            Learn More
+                            <i class="fa-solid fa-arrow-right text-secondary"></i>
                         </a>
                     </article>
                 </div>
@@ -912,7 +912,7 @@
                     <!-- BRANCH -->
                     <div class="absolute left-5 top-5 bg-white px-4 py-2 border border-slate-200">
                         <span class="text-primary text-xs font-bold uppercase tracking-[1px]">
-                        Kathmandu
+                            Kathmandu
                         </span>
                     </div>
                 </div>
@@ -925,10 +925,10 @@
                         Senior Consultant Physician
                     </p>
                     <a href="#" class="inline-flex items-center gap-3 text-primary font-bold text-sm group">
-                    View Profile
-                    <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
-                    <i class="fa-solid fa-arrow-right text-[11px]"></i>
-                    </span>
+                        View Profile
+                        <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
+                            <i class="fa-solid fa-arrow-right text-[11px]"></i>
+                        </span>
                     </a>
                 </div>
             </article>
@@ -943,7 +943,7 @@
                         class="w-full h-[320px] md:h-[420px] object-cover transition duration-700 group-hover:scale-105">
                     <div class="absolute left-5 top-5 bg-white px-4 py-2 border border-slate-200">
                         <span class="text-primary text-xs font-bold uppercase tracking-[1px]">
-                        Pokhara
+                            Pokhara
                         </span>
                     </div>
                 </div>
@@ -956,18 +956,18 @@
                     </p>
                     <a href="#"
                         class="inline-flex items-center gap-3 text-primary font-bold text-sm group">
-                    View Profile
-                    <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
-                    <i class="fa-solid fa-arrow-right text-[11px]"></i>
-                    </span>
+                        View Profile
+                        <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
+                            <i class="fa-solid fa-arrow-right text-[11px]"></i>
+                        </span>
                     </a>
                 </div>
             </article>
-            
+
             <div class="bg-slate-50 border border-slate-200 p-8 md:p-10 xl:p-12 flex flex-col justify-center">
                 <span class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-5">
-                <span class="w-2 h-2 bg-secondary"></span>
-                Meet Our Experts
+                    <span class="w-2 h-2 bg-secondary"></span>
+                    Meet Our Experts
                 </span>
                 <h2 class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-6">
                     Healthcare Professionals You Can Trust
@@ -981,7 +981,7 @@
                 <div>
                     <a href="#"
                         class="btn-primary">
-                    View All Doctors
+                        View All Doctors
                     </a>
                 </div>
             </div>
@@ -1013,11 +1013,11 @@
                         class="story-image">
                     <div class="story-overlay"></div>
                     <button class="story-play-btn">
-                    <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-play"></i>
                     </button>
                     <div class="story-content">
                         <span class="inline-block px-3 py-1 bg-secondary text-white text-xs font-semibold uppercase tracking-[1px] mb-4">
-                        Featured Story
+                            Featured Story
                         </span>
                         <h3 class="story-title !text-[34px]">
                             Pre-Term Babies
@@ -1039,7 +1039,7 @@
                             class="story-image">
                         <div class="story-overlay"></div>
                         <button class="story-play-btn">
-                        <i class="fa-solid fa-play"></i>
+                            <i class="fa-solid fa-play"></i>
                         </button>
                         <div class="story-content">
                             <h3 class="story-title">
@@ -1057,7 +1057,7 @@
                             class="story-image">
                         <div class="story-overlay"></div>
                         <button class="story-play-btn">
-                        <i class="fa-solid fa-play"></i>
+                            <i class="fa-solid fa-play"></i>
                         </button>
                         <div class="story-content">
                             <h3 class="story-title">
@@ -1075,7 +1075,7 @@
                             class="story-image">
                         <div class="story-overlay"></div>
                         <button class="story-play-btn">
-                        <i class="fa-solid fa-play"></i>
+                            <i class="fa-solid fa-play"></i>
                         </button>
                         <div class="story-content">
                             <h3 class="story-title">
@@ -1093,7 +1093,7 @@
                             class="story-image">
                         <div class="story-overlay"></div>
                         <button class="story-play-btn">
-                        <i class="fa-solid fa-play"></i>
+                            <i class="fa-solid fa-play"></i>
                         </button>
                         <div class="story-content">
                             <h3 class="story-title">
@@ -1122,7 +1122,7 @@
                                 class="story-image">
                             <div class="story-overlay"></div>
                             <button class="story-play-btn">
-                            <i class="fa-solid fa-play"></i>
+                                <i class="fa-solid fa-play"></i>
                             </button>
                             <div class="story-content">
                                 <h3 class="story-title">
@@ -1153,7 +1153,7 @@
         <button
             id="closeVideoModal"
             class="absolute -top-14 right-0 w-11 h-11 bg-white text-primary hover:bg-secondary hover:text-white transition-all duration-300">
-        <i class="fa-solid fa-xmark text-lg"></i>
+            <i class="fa-solid fa-xmark text-lg"></i>
         </button>
         <!-- VIDEO -->
         <video
@@ -1174,8 +1174,8 @@
             <div>
                 <span
                     class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
-                <span class="w-2 h-2 bg-secondary"></span>
-                Trusted Worldwide
+                    <span class="w-2 h-2 bg-secondary"></span>
+                    Trusted Worldwide
                 </span>
                 <h2
                     class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-6">
@@ -1192,11 +1192,11 @@
                     class="flex flex-wrap gap-4">
                     <a href="#"
                         class="border border-primary text-white font-bold px-7 py-4 bg-primary hover:bg-secondary hover:text-white transition-all duration-300">
-                    Learn More
+                        Learn More
                     </a>
                     <a href="#"
                         class="border border-primary text-primary font-bold px-7 py-4 hover:bg-primary hover:text-white transition-all duration-300">
-                    Contact Us
+                        Contact Us
                     </a>
                 </div>
             </div>
@@ -1289,8 +1289,8 @@
             <div class="max-w-3xl">
                 <span
                     class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
-                <span class="w-2 h-2 bg-secondary"></span>
-                Patient Feedback
+                    <span class="w-2 h-2 bg-secondary"></span>
+                    Patient Feedback
                 </span>
                 <h2
                     class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-4">
@@ -1362,10 +1362,10 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
-                        Read Full Story
-                        <i
-                            class="fa-solid fa-arrow-right text-secondary">
-                        </i>
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
                         </a>
                     </article>
                 </div>
@@ -1395,10 +1395,10 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
-                        Read Full Story
-                        <i
-                            class="fa-solid fa-arrow-right text-secondary">
-                        </i>
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
                         </a>
                     </article>
                 </div>
@@ -1428,10 +1428,10 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
-                        Read Full Story
-                        <i
-                            class="fa-solid fa-arrow-right text-secondary">
-                        </i>
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
                         </a>
                     </article>
                 </div>
@@ -1463,10 +1463,10 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
-                        Read Full Story
-                        <i
-                            class="fa-solid fa-arrow-right text-secondary">
-                        </i>
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
                         </a>
                     </article>
                 </div>
@@ -1497,10 +1497,10 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
-                        Read Full Story
-                        <i
-                            class="fa-solid fa-arrow-right text-secondary">
-                        </i>
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
                         </a>
                     </article>
                 </div>
@@ -1531,10 +1531,10 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
-                        Read Full Story
-                        <i
-                            class="fa-solid fa-arrow-right text-secondary">
-                        </i>
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
                         </a>
                     </article>
                 </div>
@@ -1565,10 +1565,10 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
-                        Read Full Story
-                        <i
-                            class="fa-solid fa-arrow-right text-secondary">
-                        </i>
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
                         </a>
                     </article>
                 </div>
@@ -1599,10 +1599,10 @@
                         </p>
                         <a href="#"
                             class="inline-flex items-center gap-2 text-primary font-semibold text-sm">
-                        Read Full Story
-                        <i
-                            class="fa-solid fa-arrow-right text-secondary">
-                        </i>
+                            Read Full Story
+                            <i
+                                class="fa-solid fa-arrow-right text-secondary">
+                            </i>
                         </a>
                     </article>
                 </div>
@@ -1619,8 +1619,8 @@
         <div class="max-w-3xl mb-12">
             <span
                 class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
-            <span class="w-2 h-2 bg-secondary"></span>
-            Recognition & Excellence
+                <span class="w-2 h-2 bg-secondary"></span>
+                Recognition & Excellence
             </span>
             <h2
                 class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-4">
@@ -1650,7 +1650,7 @@
                             </div>
                             <span
                                 class="text-secondary text-2xl font-black">
-                            2025
+                                2025
                             </span>
                         </div>
                         <!-- CONTENT -->
@@ -1668,7 +1668,7 @@
                             class="mt-8 pt-6 border-t border-slate-200">
                             <span
                                 class="text-sm font-semibold text-primary">
-                            International Healthcare Forum
+                                International Healthcare Forum
                             </span>
                         </div>
                     </article>
@@ -1686,7 +1686,7 @@
                             </div>
                             <span
                                 class="text-secondary text-2xl font-black">
-                            2024
+                                2024
                             </span>
                         </div>
                         <h3
@@ -1702,7 +1702,7 @@
                             class="mt-8 pt-6 border-t border-slate-200">
                             <span
                                 class="text-sm font-semibold text-primary">
-                            Nepal Medical Association
+                                Nepal Medical Association
                             </span>
                         </div>
                     </article>
@@ -1720,7 +1720,7 @@
                             </div>
                             <span
                                 class="text-secondary text-2xl font-black">
-                            2023
+                                2023
                             </span>
                         </div>
                         <h3
@@ -1736,7 +1736,7 @@
                             class="mt-8 pt-6 border-t border-slate-200">
                             <span
                                 class="text-sm font-semibold text-primary">
-                            Global Health Network
+                                Global Health Network
                             </span>
                         </div>
                     </article>
@@ -1746,23 +1746,18 @@
                     <article
                         class="h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300 flex flex-col">
                         <div class="flex items-center justify-between mb-8">
-                            <div
-                                class="w-14 h-14 bg-primary/5 flex items-center justify-center">
-                                <i
-                                    class="fa-solid fa-trophy text-primary text-2xl">
+                            <div class="w-14 h-14 bg-primary/5 flex items-center justify-center">
+                                <i class="fa-solid fa-trophy text-primary text-2xl">
                                 </i>
                             </div>
-                            <span
-                                class="text-secondary text-2xl font-black">
-                            2024
+                            <span class="text-secondary text-2xl font-black">
+                                2024
                             </span>
                         </div>
-                        <h3
-                            class="text-primary text-2xl font-black leading-tight mb-4">
+                        <h3 class="text-primary text-2xl font-black leading-tight mb-4">
                             Healthcare Excellence Award
                         </h3>
-                        <p
-                            class="text-slate-600 leading-8 flex-grow">
+                        <p class="text-slate-600 leading-8 flex-grow">
                             Awarded for delivering exceptional healthcare
                             services, patient safety and innovation.
                         </p>
@@ -1770,7 +1765,7 @@
                             class="mt-8 pt-6 border-t border-slate-200">
                             <span
                                 class="text-sm font-semibold text-primary">
-                            Nepal Medical Association
+                                Nepal Medical Association
                             </span>
                         </div>
                     </article>
@@ -1788,7 +1783,7 @@
                             </div>
                             <span
                                 class="text-secondary text-2xl font-black">
-                            2023
+                                2023
                             </span>
                         </div>
                         <h3
@@ -1804,7 +1799,7 @@
                             class="mt-8 pt-6 border-t border-slate-200">
                             <span
                                 class="text-sm font-semibold text-primary">
-                            Global Health Network
+                                Global Health Network
                             </span>
                         </div>
                     </article>
@@ -1825,8 +1820,8 @@
             <div class="max-w-3xl">
                 <span
                     class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
-                <span class="w-2 h-2 bg-secondary"></span>
-                Publications
+                    <span class="w-2 h-2 bg-secondary"></span>
+                    Publications
                 </span>
                 <h2 class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-4">
                     Newsletters & Health Publications
@@ -1837,10 +1832,10 @@
                 </p>
             </div>
             <a href="#" class="inline-flex items-center gap-3 text-primary font-bold group">
-            View All Publications
-            <span class="w-9 h-9 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
-            <i class="fa-solid fa-arrow-right text-xs"></i>
-            </span>
+                View All Publications
+                <span class="w-9 h-9 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
+                    <i class="fa-solid fa-arrow-right text-xs"></i>
+                </span>
             </a>
         </div>
         <!-- FILTER BAR -->
@@ -1851,7 +1846,7 @@
                     class="flex items-center gap-3">
                     <span
                         class="text-sm font-semibold text-primary">
-                    Show
+                        Show
                     </span>
                     <select
                         id="perPage"
@@ -1862,7 +1857,7 @@
                     </select>
                     <span
                         class="text-sm text-slate-600">
-                    entries
+                        entries
                     </span>
                 </div>
                 <!-- SEARCH -->

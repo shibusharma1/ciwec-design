@@ -167,6 +167,8 @@ include "./include/stickyfooterbar.php";
 <script src="./assets/js/history.js"></script>
 <script src="./assets/js/counter.js"></script>
 <script src="./assets/js/newsletters.js"></script>
+<script src="./assets/js/healthinformationcards.js"></script>
+<script src="./assets/js/healthinformation.js"></script>
 
 </body>
 </html>

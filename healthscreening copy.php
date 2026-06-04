@@ -352,7 +352,7 @@
                     </p>
                     <div
                         class="flex flex-wrap justify-center gap-4">
-                        <a href="#"
+                        <a href="./bookappointment.php"
                             class="btn-light">
                             Book Appointment
                         </a>
@@ -525,7 +525,7 @@
                 or explore our health screening packages.
             </p>
             <div class="flex flex-wrap justify-center gap-4 mt-8">
-                <a href="#" class="btn-secondary">
+                <a href="./bookappointment.php" class="btn-secondary">
                     Book Appointment
                 </a>
                 <a href="#" class="btn-light">

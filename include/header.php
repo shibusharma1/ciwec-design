@@ -372,7 +372,7 @@
                         </span>
                     </button>
 
-                    <a href="contactus.php"
+                    <a href="./bookappointment.php"
                         class="hidden lg:inline-flex items-center justify-center h-11 px-5 bg-primary text-white text-sm font-semibold rounded-lg hover:bg-primary-dark transition">
                         Book Appointment
                     </a>

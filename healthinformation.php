@@ -1,44 +1,21 @@
 <?php
-include "./include/header.php"; ?>
-<section class="relative h-[220px] md:h-[280px] overflow-hidden">
-    <img src="./assets/img/researchandpublication.png"
-        class="absolute inset-0 w-full h-full object-cover">
-    <div class="absolute inset-0 bg-primary/80"></div>
-    <div class="relative z-10 h-full flex items-center">
-        <div class="container-custom">
-            <h1 class="text-white text-center text-3xl md:text-5xl font-black mb-3">
-                Health Information
-            </h1>
-            <div class="flex items-center justify-center gap-2 text-white/90">
-                <a href="index.php" class="hover:text-secondary">
-                Home
-                </a>
-                <i class="fa-solid fa-angle-right text-xs"></i>
-                <span class="text-secondary">
-                Health Information
-                </span>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- ========================================= -->
-<!-- HEALTH INFORMATION INTRO -->
-<!-- ========================================= -->
+$hero_title = "Health Information";
+include "./include/header.php";
+include "./include/herobanner.php";
+?>
+
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
-        <div
-            class="grid lg:grid-cols-12 gap-16 items-center">
+        <div class="grid lg:grid-cols-12 gap-16 items-center">
             <!-- LEFT CONTENT -->
-            <div
-                class="lg:col-span-6">
+            <div class="lg:col-span-6">
                 <span class="section-subtitle">
-                Patient Education
+                    Patient Education
                 </span>
                 <h2 class="section-title">
                     Trusted Health Information From Medical Experts
                 </h2>
-                <p
-                    class="text-slate-600 leading-8 mt-8">
+                <p class="text-slate-600 leading-8 mt-8">
                     Access reliable, evidence-based health information
                     prepared by CIWEC's healthcare professionals.
                     Our goal is to help patients, families, travelers
@@ -119,13 +96,7 @@ include "./include/header.php"; ?>
                 <div class="relative">
                     <img src="./assets/img/health/healthinformation.png" alt="Health Information" class="w-full h-[650px] object-cover">
                     <!-- FLOATING CARD -->
-                    <div class="absolute
-                        bottom-8
-                        left-8
-                        bg-white
-                        p-6
-                        shadow-xl
-                        max-w-[280px]">
+                    <div class="absolute bottom-8 left-8 bg-white p-6 shadow-xl max-w-[280px]">
                         <div class="flex items-center gap-4">
                             <div class="w-14 h-14 bg-primary text-white flex items-center justify-center">
                                 <i class="fa-solid fa-user-doctor text-xl"></i>
@@ -180,15 +151,13 @@ include "./include/header.php"; ?>
         </div>
     </div>
 </section>
-<!-- ========================================= -->
-<!-- HEALTH CATEGORIES -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-slate-50 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
         <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
-            Explore Topics
+                Explore Topics
             </span>
             <h2 class="section-title">
                 Browse Health Information By Category
@@ -218,7 +187,7 @@ include "./include/header.php"; ?>
                 </p>
                 <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
                     <span class="text-secondary font-semibold">
-                    25 Articles
+                        25 Articles
                     </span>
                     <i class="fa-solid fa-arrow-right text-primary group-hover:text-secondary">
                     </i>
@@ -240,7 +209,7 @@ include "./include/header.php"; ?>
                 </p>
                 <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
                     <span class="text-secondary font-semibold">
-                    18 Articles
+                        18 Articles
                     </span>
                     <i class="fa-solid fa-arrow-right text-primary group-hover:text-secondary">
                     </i>
@@ -262,7 +231,7 @@ include "./include/header.php"; ?>
                 </p>
                 <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
                     <span class="text-secondary font-semibold">
-                    15 Articles
+                        15 Articles
                     </span>
                     <i class="fa-solid fa-arrow-right text-primary group-hover:text-secondary">
                     </i>
@@ -285,7 +254,7 @@ include "./include/header.php"; ?>
                 </p>
                 <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
                     <span class="text-secondary font-semibold">
-                    30 Articles
+                        30 Articles
                     </span>
                     <i class="fa-solid fa-arrow-right text-primary group-hover:text-secondary">
                     </i>
@@ -308,7 +277,7 @@ include "./include/header.php"; ?>
                 <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
                     <span
                         class="text-secondary font-semibold">
-                    20 Articles
+                        20 Articles
                     </span>
                     <i class="fa-solid fa-arrow-right text-primary group-hover:text-secondary">
                     </i>
@@ -330,7 +299,7 @@ include "./include/header.php"; ?>
                 </p>
                 <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
                     <span class="text-secondary font-semibold">
-                    22 Articles
+                        22 Articles
                     </span>
                     <i class="fa-solid fa-arrow-right text-primary group-hover:text-secondary">
                     </i>
@@ -351,41 +320,7 @@ include "./include/header.php"; ?>
         </div>
     </div>
 </section>
-<script>
-    const categoryCards =
-        document.querySelectorAll(".health-category");
-    
-    const categorySelect =
-        document.getElementById("healthCategory");
-    
-    categoryCards.forEach(card => {
-    
-        card.addEventListener("click", () => {
-    
-            const category =
-                card.dataset.category;
-    
-            if (categorySelect) {
-    
-                categorySelect.value =
-                    category;
-    
-                categorySelect.dispatchEvent(
-                    new Event("change")
-                );
-    
-            }
-    
-            document
-                .getElementById("health-library")
-                ?.scrollIntoView({
-                    behavior: "smooth"
-                });
-    
-        });
-    
-    });
-</script>
+
 <!-- ========================================= -->
 <!-- FEATURED HEALTH GUIDES -->
 <!-- ========================================= -->
@@ -394,7 +329,7 @@ include "./include/header.php"; ?>
         <!-- HEADING -->
         <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
-            Featured Resources
+                Featured Resources
             </span>
             <h2 class="section-title">
                 Essential Health Guides
@@ -415,14 +350,14 @@ include "./include/header.php"; ?>
                         class="w-full h-full min-h-[550px] object-cover">
                     <div class="absolute top-6 left-6">
                         <span class="bg-secondary text-white px-4 py-2 text-sm font-bold uppercase">
-                        Most Popular Guide
+                            Most Popular Guide
                         </span>
                     </div>
                 </div>
                 <!-- CONTENT -->
                 <div class="lg:col-span-7 p-10 lg:p-14">
                     <span class="text-primary font-bold uppercase tracking-[3px]">
-                    Altitude Medicine
+                        Altitude Medicine
                     </span>
                     <h3 class="text-primary text-4xl font-black mt-5 leading-tight">
                         Complete Guide To Altitude Sickness
@@ -440,21 +375,21 @@ include "./include/header.php"; ?>
                             <i class="fa-solid fa-circle-check text-secondary">
                             </i>
                             <span>
-                            Symptoms Explained
+                                Symptoms Explained
                             </span>
                         </div>
                         <div class="flex items-center gap-3">
                             <i class="fa-solid fa-circle-check text-secondary">
                             </i>
                             <span>
-                            Prevention Strategies
+                                Prevention Strategies
                             </span>
                         </div>
                         <div class="flex items-center gap-3">
                             <i class="fa-solid fa-circle-check text-secondary">
                             </i>
                             <span>
-                            Emergency Warning Signs
+                                Emergency Warning Signs
                             </span>
                         </div>
                         <div
@@ -463,7 +398,7 @@ include "./include/header.php"; ?>
                                 class="fa-solid fa-circle-check text-secondary">
                             </i>
                             <span>
-                            Treatment Options
+                                Treatment Options
                             </span>
                         </div>
                     </div>
@@ -472,11 +407,11 @@ include "./include/header.php"; ?>
                         class="flex flex-wrap gap-4 mt-10">
                         <button
                             class="btn-primary">
-                        Read Full Guide
+                            Read Full Guide
                         </button>
                         <button
-                            class="border border-primary text-primary px-8 py-4 font-semibold hover:bg-primary hover:text-white transition">
-                        Download PDF
+                            class="btn-light border-1 border-primary">
+                            Download PDF
                         </button>
                     </div>
                 </div>
@@ -494,7 +429,7 @@ include "./include/header.php"; ?>
                 <div class="p-8">
                     <span
                         class="text-secondary text-sm font-bold uppercase">
-                    Travel Health
+                        Travel Health
                     </span>
                     <h3
                         class="text-primary text-2xl font-black mt-4">
@@ -507,10 +442,10 @@ include "./include/header.php"; ?>
                     </p>
                     <a href="#"
                         class="inline-flex items-center gap-2 text-primary hover:text-secondary font-semibold mt-6">
-                    Read Guide
-                    <i
-                        class="fa-solid fa-arrow-right">
-                    </i>
+                        Read Guide
+                        <i
+                            class="fa-solid fa-arrow-right">
+                        </i>
                     </a>
                 </div>
             </article>
@@ -523,7 +458,7 @@ include "./include/header.php"; ?>
                 <div class="p-8">
                     <span
                         class="text-secondary text-sm font-bold uppercase">
-                    Vaccinations
+                        Vaccinations
                     </span>
                     <h3
                         class="text-primary text-2xl font-black mt-4">
@@ -536,10 +471,10 @@ include "./include/header.php"; ?>
                     </p>
                     <a href="#"
                         class="inline-flex items-center gap-2 text-primary hover:text-secondary font-semibold mt-6">
-                    Read Guide
-                    <i
-                        class="fa-solid fa-arrow-right">
-                    </i>
+                        Read Guide
+                        <i
+                            class="fa-solid fa-arrow-right">
+                        </i>
                     </a>
                 </div>
             </article>
@@ -552,7 +487,7 @@ include "./include/header.php"; ?>
                 <div class="p-8">
                     <span
                         class="text-secondary text-sm font-bold uppercase">
-                    Preventive Care
+                        Preventive Care
                     </span>
                     <h3
                         class="text-primary text-2xl font-black mt-4">
@@ -565,10 +500,10 @@ include "./include/header.php"; ?>
                     </p>
                     <a href="#"
                         class="inline-flex items-center gap-2 text-primary hover:text-secondary font-semibold mt-6">
-                    Read Guide
-                    <i
-                        class="fa-solid fa-arrow-right">
-                    </i>
+                        Read Guide
+                        <i
+                            class="fa-solid fa-arrow-right">
+                        </i>
                     </a>
                 </div>
             </article>
@@ -586,7 +521,7 @@ include "./include/header.php"; ?>
         <div
             class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
-            Medical Resource Center
+                Medical Resource Center
             </span>
             <h2 class="section-title">
                 Health Information Library
@@ -608,7 +543,7 @@ include "./include/header.php"; ?>
                     class="lg:col-span-6">
                     <label
                         class="block text-primary font-semibold mb-3">
-                    Search Resources
+                        Search Resources
                     </label>
                     <div
                         class="relative">
@@ -627,7 +562,7 @@ include "./include/header.php"; ?>
                     class="lg:col-span-3">
                     <label
                         class="block text-primary font-semibold mb-3">
-                    Category
+                        Category
                     </label>
                     <select
                         id="healthCategory"
@@ -657,7 +592,7 @@ include "./include/header.php"; ?>
                     class="lg:col-span-3">
                     <label
                         class="block text-primary font-semibold mb-3">
-                    Sort By
+                        Sort By
                     </label>
                     <select
                         id="healthSort"
@@ -688,7 +623,7 @@ include "./include/header.php"; ?>
             <span
                 id="resourceCount"
                 class="text-slate-500">
-            Showing 0 Resources
+                Showing 0 Resources
             </span>
         </div>
         <!-- LOADER -->
@@ -716,7 +651,7 @@ include "./include/header.php"; ?>
     </div>
 </section>
 
-<section class="pb-20">
+<section class="section-padding overflow-hidden">
     <div class="container-custom">
         <div id="healthLoader" class="hidden py-16">
             <div class="flex flex-col items-center">
@@ -753,7 +688,7 @@ include "./include/header.php"; ?>
             <button
                 id="closePdfModal"
                 class="w-10 h-10 border border-slate-200 hover:border-secondary">
-            <i class="fa-solid fa-xmark"></i>
+                <i class="fa-solid fa-xmark"></i>
             </button>
         </div>
         <iframe
@@ -767,7 +702,7 @@ include "./include/header.php"; ?>
     class="flex justify-center mt-10 gap-2"></div>
 <script>
     const healthData = [
-    
+
         {
             title: "Adult Immunizations",
             pdf: "./assets/pdf/news1.pdf"
@@ -811,22 +746,22 @@ include "./include/header.php"; ?>
 <script>
     const healthGrid =
         document.getElementById("healthGrid");
-    
+
     const healthLoader =
         document.getElementById("healthLoader");
-    
+
     function showLoader() {
         healthLoader.classList.remove("hidden");
         healthGrid.classList.add("opacity-40");
         healthGrid.classList.add("pointer-events-none");
     }
-    
+
     function hideLoader() {
         healthLoader.classList.add("hidden");
         healthGrid.classList.remove("opacity-40");
         healthGrid.classList.remove("pointer-events-none");
     }
-    
+
     function renderCards(data) {
         healthGrid.innerHTML = "";
         if (data.length === 0) {
@@ -868,7 +803,7 @@ include "./include/header.php"; ?>
         `;
             return;
         }
-    
+
         data.forEach(item => {
             healthGrid.innerHTML += `
     
@@ -937,7 +872,7 @@ include "./include/header.php"; ?>
     </article>
     
     `;
-    
+
         });
     }
 </script>
@@ -967,14 +902,14 @@ include "./include/header.php"; ?>
         document.getElementById("pdfViewer");
     const closePdfModal =
         document.getElementById("closePdfModal");
-    
+
     function openPDF(pdfUrl) {
         pdfViewer.src = pdfUrl;
         pdfModal.classList.remove("hidden");
         pdfModal.classList.add("flex");
         document.body.style.overflow = "hidden";
     }
-    
+
     function closePDF() {
         pdfModal.classList.add("hidden");
         pdfModal.classList.remove("flex");
@@ -993,53 +928,7 @@ include "./include/header.php"; ?>
         }
     });
 </script>
-<div
-    class="grid md:grid-cols-4 gap-6 mt-20">
-    <div
-        class="bg-white border border-slate-200 p-8 text-center">
-        <h3
-            class="text-primary text-4xl font-black">
-            100+
-        </h3>
-        <p
-            class="text-slate-600 mt-3">
-            Health Resources
-        </p>
-    </div>
-    <div
-        class="bg-white border border-slate-200 p-8 text-center">
-        <h3
-            class="text-primary text-4xl font-black">
-            Expert
-        </h3>
-        <p
-            class="text-slate-600 mt-3">
-            Reviewed Content
-        </p>
-    </div>
-    <div
-        class="bg-white border border-slate-200 p-8 text-center">
-        <h3
-            class="text-primary text-4xl font-black">
-            Updated
-        </h3>
-        <p
-            class="text-slate-600 mt-3">
-            Medical Information
-        </p>
-    </div>
-    <div
-        class="bg-white border border-slate-200 p-8 text-center">
-        <h3
-            class="text-primary text-4xl font-black">
-            Trusted
-        </h3>
-        <p
-            class="text-slate-600 mt-3">
-            Healthcare Guidance
-        </p>
-    </div>
-</div>
+
 <!-- ========================================= -->
 <!-- TRAVEL HEALTH CENTER -->
 <!-- ========================================= -->
@@ -1049,7 +938,7 @@ include "./include/header.php"; ?>
         <div
             class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
-            Travel Medicine Expertise
+                Travel Medicine Expertise
             </span>
             <h2 class="section-title">
                 CIWEC Travel Health Center
@@ -1072,7 +961,7 @@ include "./include/header.php"; ?>
                     class="lg:col-span-7 p-10 lg:p-14">
                     <span
                         class="text-secondary font-bold uppercase tracking-[3px]">
-                    Featured Travel Guide
+                        Featured Travel Guide
                     </span>
                     <h3
                         class="text-white text-4xl font-black mt-5">
@@ -1093,7 +982,7 @@ include "./include/header.php"; ?>
                                 class="fa-solid fa-circle-check text-secondary">
                             </i>
                             <span class="text-white">
-                            Vaccination Guidance
+                                Vaccination Guidance
                             </span>
                         </div>
                         <div
@@ -1102,7 +991,7 @@ include "./include/header.php"; ?>
                                 class="fa-solid fa-circle-check text-secondary">
                             </i>
                             <span class="text-white">
-                            Trekking Preparation
+                                Trekking Preparation
                             </span>
                         </div>
                         <div
@@ -1111,7 +1000,7 @@ include "./include/header.php"; ?>
                                 class="fa-solid fa-circle-check text-secondary">
                             </i>
                             <span class="text-white">
-                            Altitude Awareness
+                                Altitude Awareness
                             </span>
                         </div>
                         <div
@@ -1120,7 +1009,7 @@ include "./include/header.php"; ?>
                                 class="fa-solid fa-circle-check text-secondary">
                             </i>
                             <span class="text-white">
-                            Emergency Planning
+                                Emergency Planning
                             </span>
                         </div>
                     </div>
@@ -1128,11 +1017,11 @@ include "./include/header.php"; ?>
                         class="flex flex-wrap gap-4 mt-10">
                         <button
                             class="btn-secondary">
-                        Read Guide
+                            Read Guide
                         </button>
                         <button
-                            class="btn-light">
-                        Download PDF
+                            class="btn-light text-white">
+                            Download PDF
                         </button>
                     </div>
                 </div>
@@ -1266,7 +1155,7 @@ include "./include/header.php"; ?>
         </div>
         <!-- QUICK STATS -->
         <div
-            class="grid md:grid-cols-4 gap-6 mt-20">
+            class="grid md:grid-cols-4 gap-6 mt-16">
             <div
                 class="bg-slate-50 border border-slate-200 p-8 text-center">
                 <h3
@@ -1281,7 +1170,7 @@ include "./include/header.php"; ?>
             <div
                 class="bg-slate-50 border border-slate-200 p-8 text-center">
                 <h3
-                    class="text-primary text-4xl font-black">
+                    class="text-primary text-3xl font-black">
                     Global
                 </h3>
                 <p
@@ -1292,7 +1181,7 @@ include "./include/header.php"; ?>
             <div
                 class="bg-slate-50 border border-slate-200 p-8 text-center">
                 <h3
-                    class="text-primary text-4xl font-black">
+                    class="text-primary text-3xl font-black">
                     Trusted
                 </h3>
                 <p
@@ -1303,7 +1192,7 @@ include "./include/header.php"; ?>
             <div
                 class="bg-slate-50 border border-slate-200 p-8 text-center">
                 <h3
-                    class="text-primary text-4xl font-black">
+                    class="text-primary text-3xl font-black">
                     24/7
                 </h3>
                 <p
@@ -1314,16 +1203,14 @@ include "./include/header.php"; ?>
         </div>
     </div>
 </section>
-<!-- ========================================= -->
-<!-- FAQ SECTION -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-slate-50 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
         <div
             class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
-            Frequently Asked Questions
+                Frequently Asked Questions
             </span>
             <h2 class="section-title">
                 Health Information FAQs
@@ -1342,13 +1229,13 @@ include "./include/header.php"; ?>
                 class="faq-item bg-white border border-slate-200">
                 <button
                     class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                <span
-                    class="text-primary text-lg font-bold">
-                How can I prevent altitude sickness while trekking?
-                </span>
-                <i
-                    class="fa-solid fa-plus faq-icon text-secondary">
-                </i>
+                    <span
+                        class="text-primary text-lg font-bold">
+                        How can I prevent altitude sickness while trekking?
+                    </span>
+                    <i
+                        class="fa-solid fa-plus faq-icon text-secondary">
+                    </i>
                 </button>
                 <div
                     class="faq-content hidden px-6 pb-6">
@@ -1366,13 +1253,13 @@ include "./include/header.php"; ?>
                 class="faq-item bg-white border border-slate-200">
                 <button
                     class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                <span
-                    class="text-primary text-lg font-bold">
-                What vaccinations should I consider before traveling?
-                </span>
-                <i
-                    class="fa-solid fa-plus faq-icon text-secondary">
-                </i>
+                    <span
+                        class="text-primary text-lg font-bold">
+                        What vaccinations should I consider before traveling?
+                    </span>
+                    <i
+                        class="fa-solid fa-plus faq-icon text-secondary">
+                    </i>
                 </button>
                 <div
                     class="faq-content hidden px-6 pb-6">
@@ -1391,13 +1278,13 @@ include "./include/header.php"; ?>
                 class="faq-item bg-white border border-slate-200">
                 <button
                     class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                <span
-                    class="text-primary text-lg font-bold">
-                How can I avoid traveler's diarrhea?
-                </span>
-                <i
-                    class="fa-solid fa-plus faq-icon text-secondary">
-                </i>
+                    <span
+                        class="text-primary text-lg font-bold">
+                        How can I avoid traveler's diarrhea?
+                    </span>
+                    <i
+                        class="fa-solid fa-plus faq-icon text-secondary">
+                    </i>
                 </button>
                 <div
                     class="faq-content hidden px-6 pb-6">
@@ -1415,13 +1302,13 @@ include "./include/header.php"; ?>
                 class="faq-item bg-white border border-slate-200">
                 <button
                     class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                <span
-                    class="text-primary text-lg font-bold">
-                When should I seek medical attention while traveling?
-                </span>
-                <i
-                    class="fa-solid fa-plus faq-icon text-secondary">
-                </i>
+                    <span
+                        class="text-primary text-lg font-bold">
+                        When should I seek medical attention while traveling?
+                    </span>
+                    <i
+                        class="fa-solid fa-plus faq-icon text-secondary">
+                    </i>
                 </button>
                 <div
                     class="faq-content hidden px-6 pb-6">
@@ -1440,13 +1327,13 @@ include "./include/header.php"; ?>
                 class="faq-item bg-white border border-slate-200">
                 <button
                     class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                <span
-                    class="text-primary text-lg font-bold">
-                What should I include in a travel medical kit?
-                </span>
-                <i
-                    class="fa-solid fa-plus faq-icon text-secondary">
-                </i>
+                    <span
+                        class="text-primary text-lg font-bold">
+                        What should I include in a travel medical kit?
+                    </span>
+                    <i
+                        class="fa-solid fa-plus faq-icon text-secondary">
+                    </i>
                 </button>
                 <div
                     class="faq-content hidden px-6 pb-6">
@@ -1475,7 +1362,7 @@ include "./include/header.php"; ?>
             </p>
             <a href="#"
                 class="btn-secondary mt-8">
-            Contact Our Team
+                Contact Our Team
             </a>
         </div>
     </div>
@@ -1483,55 +1370,55 @@ include "./include/header.php"; ?>
 <script>
     const faqButtons =
         document.querySelectorAll(".faq-btn");
-    
+
     faqButtons.forEach(button => {
-    
+
         button.addEventListener("click", () => {
-    
+
             const currentItem =
                 button.parentElement;
-    
+
             const currentContent =
                 currentItem.querySelector(".faq-content");
-    
+
             const currentIcon =
                 currentItem.querySelector(".faq-icon");
-    
+
             document
                 .querySelectorAll(".faq-item")
                 .forEach(item => {
-    
+
                     if (item !== currentItem) {
-    
+
                         item.querySelector(".faq-content")
                             .classList.add("hidden");
-    
+
                         item.querySelector(".faq-icon")
                             .classList.remove("fa-minus");
-    
+
                         item.querySelector(".faq-icon")
                             .classList.add("fa-plus");
-    
+
                     }
-    
+
                 });
-    
+
             currentContent.classList.toggle("hidden");
-    
+
             if (currentContent.classList.contains("hidden")) {
-    
+
                 currentIcon.classList.remove("fa-minus");
                 currentIcon.classList.add("fa-plus");
-    
+
             } else {
-    
+
                 currentIcon.classList.remove("fa-plus");
                 currentIcon.classList.add("fa-minus");
-    
+
             }
-    
+
         });
-    
+
     });
 </script>
 <!-- ========================================= -->
@@ -1581,8 +1468,8 @@ include "./include/header.php"; ?>
                     text-sm
                     font-bold
                     uppercase">
-                <i class="fa-solid fa-triangle-exclamation"></i>
-                Emergency Health Information
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    Emergency Health Information
                 </span>
                 <h2
                     class="text-white
@@ -1713,17 +1600,17 @@ include "./include/header.php"; ?>
                             <a
                                 href="tel:+977XXXXXXXXX"
                                 class="block bg-red-600 text-white text-center py-4 font-bold hover:bg-red-700 transition">
-                            Emergency Hotline
+                                Emergency Hotline
                             </a>
                             <a
                                 href="contact.php"
                                 class="block bg-primary text-white text-center py-4 font-bold hover:bg-secondary transition">
-                            Contact Hospital
+                                Contact Hospital
                             </a>
                             <a
                                 href="doctors.php"
                                 class="block border border-primary text-primary text-center py-4 font-bold hover:bg-primary hover:text-white transition">
-                            Find A Doctor
+                                Find A Doctor
                             </a>
                         </div>
                     </div>
@@ -1732,123 +1619,6 @@ include "./include/header.php"; ?>
         </div>
     </div>
 </section>
-<!-- ========================================= -->
-<!-- HEALTH EDUCATION CTA -->
-<!-- ========================================= -->
-<section class="section-padding bg-white overflow-hidden">
-    <div class="container-custom">
-        <div
-            class="bg-primary relative overflow-hidden">
-            <!-- DECORATION -->
-            <div
-                class="absolute top-0 right-0 w-80 h-80 bg-secondary/10 rounded-full translate-x-1/3 -translate-y-1/3">
-            </div>
-            <div
-                class="absolute bottom-0 left-0 w-64 h-64 bg-white/5 rounded-full -translate-x-1/3 translate-y-1/3">
-            </div>
-            <div
-                class="relative z-10 p-10 lg:p-20">
-                <div
-                    class="max-w-5xl mx-auto text-center">
-                    <span
-                        class="inline-block text-secondary font-bold uppercase tracking-[4px] mb-5">
-                    Professional Medical Guidance
-                    </span>
-                    <h2
-                        class="text-white text-4xl lg:text-6xl font-black leading-tight">
-                        Need Personalized Medical Advice?
-                    </h2>
-                    <p
-                        class="text-white/80 text-lg leading-8 mt-8 max-w-3xl mx-auto">
-                        The health information provided on this page is
-                        intended for educational purposes. If you have
-                        symptoms, medical concerns or require treatment,
-                        our healthcare professionals are ready to help.
-                    </p>
-                    <!-- CTA BUTTONS -->
-                    <div
-                        class="flex flex-wrap justify-center gap-5 mt-12">
-                        <a
-                            href="appointment.php"
-                            class="bg-secondary text-white px-8 py-4 font-bold hover:bg-white hover:text-primary transition">
-                        Book Appointment
-                        </a>
-                        <a
-                            href="doctors.php"
-                            class="bg-white text-primary px-8 py-4 font-bold hover:bg-secondary hover:text-white transition">
-                        Find A Doctor
-                        </a>
-                        <a
-                            href="contact.php"
-                            class="border border-white text-white px-8 py-4 font-bold hover:bg-white hover:text-primary transition">
-                        Contact CIWEC
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- SUPPORT CARDS -->
-        <div
-            class="grid md:grid-cols-3 gap-8 mt-12">
-            <!-- CARD -->
-            <div
-                class="bg-slate-50 border border-slate-200 p-8 text-center">
-                <div
-                    class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-user-doctor text-primary text-2xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Expert Doctors
-                </h3>
-                <p
-                    class="text-slate-600 mt-4 leading-7">
-                    Access experienced physicians,
-                    specialists and healthcare professionals.
-                </p>
-            </div>
-            <!-- CARD -->
-            <div
-                class="bg-slate-50 border border-slate-200 p-8 text-center">
-                <div
-                    class="w-16 h-16 mx-auto bg-secondary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-hospital text-secondary text-2xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Comprehensive Care
-                </h3>
-                <p
-                    class="text-slate-600 mt-4 leading-7">
-                    From preventive healthcare to
-                    specialist consultations and treatment.
-                </p>
-            </div>
-            <!-- CARD -->
-            <div
-                class="bg-slate-50 border border-slate-200 p-8 text-center">
-                <div
-                    class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-headset text-primary text-2xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Patient Support
-                </h3>
-                <p
-                    class="text-slate-600 mt-4 leading-7">
-                    Our team is available to assist
-                    with appointments and health inquiries.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+
 <?php include "./include/footer.php";
 ?>

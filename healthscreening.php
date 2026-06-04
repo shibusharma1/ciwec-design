@@ -1782,7 +1782,7 @@
                <div
                   class="flex flex-wrap justify-center gap-5 mt-12">
                   <a
-                     href="appointment.php"
+                     href="./bookappointment.php"
                      class="bg-secondary text-white px-8 py-4 font-bold hover:bg-white hover:text-primary transition">
                   Book Appointment
                   </a>
@@ -2103,7 +2103,7 @@
                   assessment with our experts.
                </p>
                <a
-                  href="appointment.php"
+                  href="./bookappointment.php"
                   class="inline-block mt-8 bg-primary text-white px-8 py-3 font-semibold hover:bg-secondary transition">
                Book Now
                </a>

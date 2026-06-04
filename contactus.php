@@ -1,25 +1,8 @@
-<?php include "./include/header.php"; ?>
-<section class="relative h-[220px] md:h-[280px] overflow-hidden">
-    <img src="./assets/img/contact-banner.jpg"
-        class="absolute inset-0 w-full h-full object-cover">
-    <div class="absolute inset-0 bg-primary/80"></div>
-    <div class="relative z-10 h-full flex items-center">
-        <div class="container-custom">
-            <h1 class="text-white text-center text-3xl md:text-5xl font-black mb-3">
-                Contact Us
-            </h1>
-            <div class="flex items-center justify-center gap-2 text-white/90">
-                <a href="index.php" class="hover:text-secondary">
-                    Home
-                </a>
-                <i class="fa-solid fa-angle-right text-xs"></i>
-                <span class="text-secondary">
-                    Contact Us
-                </span>
-            </div>
-        </div>
-    </div>
-</section>
+<?php
+$hero_title = "Contact Us";
+include "./include/header.php";
+include "./include/herobanner.php";
+?>
 <!-- ========================================= -->
 <!-- CONTACT INFORMATION CARDS -->
 <!-- ========================================= -->
@@ -527,20 +510,7 @@
                     </a>
                 </div>
             </div>
-            <!-- MAP -->
-            <div
-                id="hospital-map"
-                class="mt-20 overflow-hidden shadow-2xl">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.327777863118!2d85.3182323752868!3d27.72221487617295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1901dff14f83%3A0x60db36e18b2f4d51!2sCIWEC%20Hospital!5e0!3m2!1sen!2snp!4v1749999999999"
-                    width="100%"
-                    height="550"
-                    style="border:0;"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
+           
             <!-- BOTTOM INFO -->
             <div
                 class="grid md:grid-cols-3 gap-8 mt-16 text-center">

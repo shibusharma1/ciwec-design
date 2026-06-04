@@ -1219,7 +1219,7 @@
                         Call Now
                         </a>
                         <a
-                            href="#appointmentForm"
+                            href="./bookappointment.php"
                             class="bg-primary
                             text-white
                             py-4

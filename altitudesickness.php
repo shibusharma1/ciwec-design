@@ -88,7 +88,7 @@
             <div
                class="flex flex-wrap gap-5 mt-10">
                <a
-                  href="appointment.php"
+                  href="./bookappointment.php"
                   class="bg-secondary text-white px-8 py-4 font-bold hover:bg-white hover:text-primary transition">
                Book Consultation
                </a>
@@ -2250,7 +2250,7 @@
                   <div
                      class="flex flex-col gap-4">
                      <a
-                        href="appointment.php"
+                        href="./bookappointment.php"
                         class="bg-secondary text-white text-center py-4 font-bold hover:bg-white hover:text-primary transition">
                      Book Consultation
                      </a>

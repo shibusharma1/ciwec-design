@@ -1,30 +1,6 @@
-<button
-    id="backToTop"
-    aria-label="Back to top"
-    class="fixed
-           bottom-6
-           rounded-full
-           right-6
-           z-50
-           w-14
-           h-14
-           bg-white
-           border-2
-           border-slate-200
-           shadow-[0_8px_25px_rgba(0,0,0,.08)]
-           text-primary
-           opacity-0
-           pointer-events-none
-           translate-y-8
-           transition-all
-           duration-500
-           hover:border-primary
-           hover:text-secondary">
+<button id="backToTop" aria-label="Back to top" class="fixed bottom-6 right-6 z-50 w-14 h-14 bg-white border-2 border-slate-200 shadow-[0_8px_25px_rgba(0,0,0,.08)] text-primary opacity-0 pointer-events-none translate-y-8 transition-all duration-500 rounded-full hover:border-primary hover:text-secondary">
 
-    <svg
-        class="absolute inset-0 w-full h-full -rotate-90"
-        viewBox="0 0 100 100">
-
+    <svg class="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 100 100">
         <circle
             cx="50"
             cy="50"
@@ -52,4 +28,3 @@
 <div id="hoverZone"
     class="fixed top-0 right-0 w-24 h-full z-40">
 </div>
-    

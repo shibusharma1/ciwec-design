@@ -1,32 +1,15 @@
 <?php
-   include "./include/header.php"; ?>
-<section class="relative h-[220px] md:h-[280px] overflow-hidden">
-   <img src="./assets/img/researchandpublication.png"
-      class="absolute inset-0 w-full h-full object-cover">
-   <div class="absolute inset-0 bg-primary/80"></div>
-   <div class="relative z-10 h-full flex items-center">
-      <div class="container-custom">
-         <h1 class="text-white text-center text-3xl md:text-5xl font-black mb-3">
-            Research & Publications
-         </h1>
-         <div class="flex items-center justify-center gap-2 text-white/90">
-            <a href="index.php" class="hover:text-secondary">
-            Home
-            </a>
-            <i class="fa-solid fa-angle-right text-xs"></i>
-            <span class="text-secondary">
-            Research & Publications
-            </span>
-         </div>
-      </div>
-   </div>
-</section>
+$hero_title = " Research & Publications";
+include "./include/header.php";
+include "./include/herobanner.php";
+?>
+
 <section class="section-padding bg-white">
    <div class="container-custom">
       <div class="grid lg:grid-cols-12 gap-16 items-center">
          <div class="lg:col-span-6">
             <span class="section-subtitle">
-            Research Excellence
+               Research Excellence
             </span>
             <h2 class="section-title">
                Advancing Travel & Tropical Medicine Through Research
@@ -50,15 +33,13 @@
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- RESEARCH IMPACT -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-slate-50 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
       <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
-         Global Impact
+            Global Impact
          </span>
          <h2 class="section-title">
             Research That Reaches Beyond Borders
@@ -160,7 +141,7 @@
                class="lg:col-span-7 p-10 lg:p-16">
                <span
                   class="text-secondary font-bold uppercase tracking-[3px]">
-               Research Legacy
+                  Research Legacy
                </span>
                <h3
                   class="text-white text-4xl font-black mt-5">
@@ -223,56 +204,56 @@
 <script>
    const counters =
       document.querySelectorAll('.counter');
-   
+
    const observer =
       new IntersectionObserver((entries) => {
-   
+
          entries.forEach(entry => {
-   
+
             if (entry.isIntersecting) {
-   
+
                const counter =
                   entry.target;
-   
+
                const target = +counter.dataset.count;
-   
+
                let count = 0;
-   
+
                const update = () => {
-   
+
                   const increment =
                      target / 80;
-   
+
                   count += increment;
-   
+
                   if (count < target) {
-   
+
                      counter.innerText =
                         Math.ceil(count);
-   
+
                      requestAnimationFrame(update);
-   
+
                   } else {
-   
+
                      counter.innerText =
                         target + '+';
-   
+
                   }
-   
+
                };
-   
+
                update();
-   
+
                observer.unobserve(counter);
-   
+
             }
-   
+
          });
-   
+
       }, {
          threshold: 0.4
       });
-   
+
    counters.forEach(counter => {
       observer.observe(counter);
    });
@@ -285,7 +266,7 @@
       <!-- HEADING -->
       <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
-         Areas Of Expertise
+            Areas Of Expertise
          </span>
          <h2 class="section-title">
             Research Focus Areas
@@ -324,7 +305,7 @@
                class="mt-6 pt-6 border-t border-slate-200">
                <span
                   class="text-secondary font-semibold">
-               150+ Publications
+                  150+ Publications
                </span>
             </div>
          </div>
@@ -351,7 +332,7 @@
                class="mt-6 pt-6 border-t border-slate-200">
                <span
                   class="text-secondary font-semibold">
-               Global Recognition
+                  Global Recognition
                </span>
             </div>
          </div>
@@ -378,7 +359,7 @@
                class="mt-6 pt-6 border-t border-slate-200">
                <span
                   class="text-secondary font-semibold">
-               Ongoing Studies
+                  Ongoing Studies
                </span>
             </div>
          </div>
@@ -405,7 +386,7 @@
                class="mt-6 pt-6 border-t border-slate-200">
                <span
                   class="text-secondary font-semibold">
-               International Collaboration
+                  International Collaboration
                </span>
             </div>
          </div>
@@ -432,7 +413,7 @@
                class="mt-6 pt-6 border-t border-slate-200">
                <span
                   class="text-secondary font-semibold">
-               Community Impact
+                  Community Impact
                </span>
             </div>
          </div>
@@ -459,7 +440,7 @@
                class="mt-6 pt-6 border-t border-slate-200">
                <span
                   class="text-secondary font-semibold">
-               Evidence-Based Care
+                  Evidence-Based Care
                </span>
             </div>
          </div>
@@ -473,7 +454,7 @@
                class="lg:col-span-8 p-10 lg:p-14">
                <span
                   class="text-secondary font-bold uppercase tracking-[3px]">
-               Research Philosophy
+                  Research Philosophy
                </span>
                <h3
                   class="text-white text-4xl font-black mt-5">
@@ -517,7 +498,7 @@
       <!-- HEADER -->
       <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
-         Knowledge Center
+            Knowledge Center
          </span>
          <h2 class="section-title">
             Research Publication Library
@@ -540,7 +521,7 @@
                class="lg:col-span-6">
                <label
                   class="block text-primary font-semibold mb-3">
-               Search Publications
+                  Search Publications
                </label>
                <div class="relative">
                   <input
@@ -558,7 +539,7 @@
                class="lg:col-span-3">
                <label
                   class="block text-primary font-semibold mb-3">
-               Category
+                  Category
                </label>
                <select
                   id="researchCategory"
@@ -585,7 +566,7 @@
                class="lg:col-span-3">
                <label
                   class="block text-primary font-semibold mb-3">
-               Publication Year
+                  Publication Year
                </label>
                <select
                   id="researchYear"
@@ -619,7 +600,7 @@
          <span
             id="publicationCount"
             class="text-slate-500">
-         Showing 0 Publications
+            Showing 0 Publications
          </span>
       </div>
       <!-- LOADER -->
@@ -645,50 +626,15 @@
          <button
             id="viewAllPublications"
             class="btn-primary">
-         View All Publications
+            View All Publications
          </button>
       </div>
    </div>
 </section>
-<div
-   class="grid md:grid-cols-3 gap-8 mt-20">
-   <div
-      class="bg-white border border-slate-200 p-8 text-center">
-      <h3
-         class="text-primary text-5xl font-black">
-         500+
-      </h3>
-      <p
-         class="text-slate-600 mt-3">
-         Publications Available
-      </p>
-   </div>
-   <div
-      class="bg-white border border-slate-200 p-8 text-center">
-      <h3
-         class="text-primary text-5xl font-black">
-         40+
-      </h3>
-      <p
-         class="text-slate-600 mt-3">
-         Years Of Research
-      </p>
-   </div>
-   <div
-      class="bg-white border border-slate-200 p-8 text-center">
-      <h3
-         class="text-primary text-5xl font-black">
-         Global
-      </h3>
-      <p
-         class="text-slate-600 mt-3">
-         Scientific Recognition
-      </p>
-   </div>
-</div>
+
 <script>
    const publications = [
-   
+
       {
          id: 1,
          year: 1985,
@@ -696,7 +642,7 @@
          title: "Dexamethasone in the treatment of acute mountain sickness",
          pdf: "./assets/pdf/news1.pdf"
       },
-   
+
       {
          id: 2,
          year: 1985,
@@ -704,7 +650,7 @@
          title: "Blastocystis Hominis in Kathmandu, Nepal",
          pdf: "#"
       },
-   
+
       {
          id: 3,
          year: 1988,
@@ -712,7 +658,7 @@
          title: "Tickbite appendicitis",
          pdf: "#"
       },
-   
+
       {
          id: 4,
          year: 1989,
@@ -720,7 +666,7 @@
          title: "Guillain-Barre syndrome presenting as high altitude cerebral edema",
          pdf: "#"
       },
-   
+
       {
          id: 5,
          year: 1992,
@@ -728,7 +674,7 @@
          title: "Abnormal d-xylose absorption in patients with cyanobacteria-like body diarrhea",
          pdf: "#"
       },
-   
+
       {
          id: 6,
          year: 1992,
@@ -736,7 +682,7 @@
          title: "Duodenal aspirates in nine patients with diarrhea associated with CLB",
          pdf: "#"
       },
-   
+
       {
          id: 7,
          year: 1994,
@@ -744,7 +690,7 @@
          title: "Azithromycin treatment of Cyclospora infections",
          pdf: "#"
       },
-   
+
       {
          id: 8,
          year: 2024,
@@ -752,7 +698,7 @@
          title: "Travel Medicine Research in Nepal",
          pdf: "#"
       }
-   
+
    ];
 </script>
 <script>
@@ -762,7 +708,7 @@
          renderTable(publications);
          hideLoader();
       }, 1200);
-   
+
    });
 </script>
 <script>
@@ -770,21 +716,21 @@
       document.getElementById("researchGrid");
    const researchLoader =
       document.getElementById("researchLoader");
-   
+
    function showLoader() {
       researchLoader.classList.remove("hidden");
       researchGrid.classList.add("opacity-40");
       researchGrid.classList.add("pointer-events-none");
    }
-   
+
    function hideLoader() {
-   
+
       researchLoader.classList.add("hidden");
       researchGrid.classList.remove("opacity-40");
       researchGrid.classList.remove("pointer-events-none");
-   
+
    }
-   
+
    function renderTable(data) {
       researchGrid.innerHTML = "";
       if (data.length === 0) {
@@ -853,7 +799,7 @@
    `;
          return;
       }
-   
+
       data.forEach(item => {
          researchGrid.innerHTML += `
        <article
@@ -913,17 +859,17 @@
        </article>
    
        `;
-   
+
       });
-   
+
    }
 </script>
 <script>
    const searchInput = document.getElementById("researchSearch");
-   
+
    searchInput.addEventListener("keyup", function() {
       const keyword = this.value.toLowerCase();
-   
+
       const filtered = publications.filter(item => {
          return (
             item.title.toLowerCase().includes(keyword) ||
@@ -931,7 +877,7 @@
             item.year.toString().includes(keyword)
          );
       });
-   
+
       showLoader();
       setTimeout(() => {
          renderTable(filtered);
@@ -941,19 +887,19 @@
 </script>
 <script>
    const categoryFilter = document.getElementById("researchCategory");
-   
+
    categoryFilter.addEventListener("change", function() {
       const category = this.value;
-   
+
       if (category === "") {
          renderTable(publications);
          return;
       }
-   
+
       const filtered = publications.filter(item =>
          item.category.toLowerCase() === category.toLowerCase()
       );
-   
+
       // renderTable(filtered);
       showLoader();
       setTimeout(() => {
@@ -961,7 +907,7 @@
          hideLoader();
       }, 1000);
    });
-   
+
    function changePage(page) {
       currentPage = page;
       showLoader();
@@ -971,6 +917,8 @@
       }, 1000);
    }
 </script>
+
+
 <!-- ========================================= -->
 <!-- FEATURED RESEARCH -->
 <!-- ========================================= -->
@@ -979,7 +927,7 @@
       <!-- HEADING -->
       <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
-         Featured Publication
+            Featured Publication
          </span>
          <h2 class="section-title">
             Highlighted Research Study
@@ -1006,7 +954,7 @@
                   class="absolute top-6 left-6">
                   <span
                      class="bg-secondary text-white px-4 py-2 text-sm font-bold uppercase">
-                  Featured Research
+                     Featured Research
                   </span>
                </div>
             </div>
@@ -1015,7 +963,7 @@
                class="lg:col-span-7 p-10 lg:p-14">
                <span
                   class="text-primary font-bold uppercase tracking-[3px]">
-               Travel Medicine Research
+                  Travel Medicine Research
                </span>
                <h3
                   class="text-primary text-4xl font-black mt-5 leading-tight">
@@ -1088,11 +1036,11 @@
                   class="flex flex-wrap gap-4 mt-10">
                   <button
                      class="btn-primary">
-                  Read Full Publication
+                     Read Full Publication
                   </button>
                   <button
-                     class="border border-primary text-primary px-8 py-4 font-semibold hover:bg-primary hover:text-white transition">
-                  Download PDF
+                     class="btn-light border-1 border-primary">
+                     Download PDF
                   </button>
                </div>
             </div>
@@ -1169,7 +1117,7 @@
       <!-- HEADER -->
       <div class="text-center max-w-4xl mx-auto mb-20">
          <span class="section-subtitle">
-         Research Journey
+            Research Journey
          </span>
          <h2 class="section-title">
             Four Decades Of Medical Discovery
@@ -1194,7 +1142,7 @@
                class="lg:text-right">
                <span
                   class="inline-block bg-primary text-white px-5 py-2 font-bold">
-               1983
+                  1983
                </span>
                <h3
                   class="text-primary text-3xl font-black mt-5">
@@ -1235,7 +1183,7 @@
                class="order-1 lg:order-2">
                <span
                   class="inline-block bg-secondary text-white px-5 py-2 font-bold">
-               1995
+                  1995
                </span>
                <h3
                   class="text-primary text-3xl font-black mt-5">
@@ -1256,7 +1204,7 @@
                class="lg:text-right">
                <span
                   class="inline-block bg-primary text-white px-5 py-2 font-bold">
-               2005
+                  2005
                </span>
                <h3
                   class="text-primary text-3xl font-black mt-5">
@@ -1294,7 +1242,7 @@
                class="order-1 lg:order-2">
                <span
                   class="inline-block bg-secondary text-white px-5 py-2 font-bold">
-               2015
+                  2015
                </span>
                <h3
                   class="text-primary text-3xl font-black mt-5">
@@ -1315,7 +1263,7 @@
                class="lg:text-right">
                <span
                   class="inline-block bg-primary text-white px-5 py-2 font-bold">
-               Today
+                  Today
                </span>
                <h3
                   class="text-primary text-3xl font-black mt-5">
@@ -1401,7 +1349,7 @@
       <!-- HEADING -->
       <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
-         Global Partnerships
+            Global Partnerships
          </span>
          <h2 class="section-title">
             Research Collaborations & Academic Partnerships
@@ -1430,7 +1378,7 @@
             class="xl:col-span-6">
             <span
                class="text-secondary font-bold uppercase tracking-[3px]">
-            International Research Network
+               International Research Network
             </span>
             <h3
                class="text-primary text-4xl font-black mt-5">
@@ -1641,7 +1589,7 @@
 <!-- ========================================= -->
 <!-- RESEARCH PARTNERSHIP & INQUIRY CTA -->
 <!-- ========================================= -->
-<section class="relative overflow-hidden bg-primary">
+<section class="section-padding relative overflow-hidden bg-primary">
    <!-- DECORATION -->
    <div
       class="absolute
@@ -1669,8 +1617,7 @@
       class="container-custom
       relative
       z-10">
-      <div
-         class="py-24 lg:py-32">
+      <div>
          <!-- HEADING -->
          <div
             class="max-w-5xl mx-auto text-center">
@@ -1681,7 +1628,7 @@
                tracking-[4px]
                font-bold
                mb-5">
-            Research Opportunities
+               Research Opportunities
             </span>
             <h2
                class="text-white
@@ -1878,7 +1825,7 @@
                      font-bold
                      uppercase
                      tracking-[3px]">
-                  Start A Conversation
+                     Start A Conversation
                   </span>
                   <h3
                      class="text-primary
@@ -1907,7 +1854,7 @@
                      class="space-y-4">
                      <a href="#"
                         class="btn-primary w-full text-center">
-                     Research Inquiry
+                        Research Inquiry
                      </a>
                      <a href="#"
                         class="w-full
@@ -1922,7 +1869,7 @@
                         hover:bg-primary
                         hover:text-white
                         transition">
-                     Partner With Us
+                        Partner With Us
                      </a>
                      <a href="mailto:research@ciwec.com"
                         class="w-full
@@ -1937,7 +1884,7 @@
                         hover:border-secondary
                         hover:text-secondary
                         transition">
-                     Contact Research Team
+                        Contact Research Team
                      </a>
                   </div>
                </div>
@@ -2010,4 +1957,4 @@
    </div>
 </section>
 <?php include "./include/footer.php";
-   ?>
+?>

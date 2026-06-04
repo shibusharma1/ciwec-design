@@ -415,7 +415,7 @@
         </ul>
     
         <a
-        href="#"
+        href="./bookappointment.php"
         class="btn-primary mt-8 inline-flex">
     
             Book Appointment

@@ -71,7 +71,7 @@
     class="hidden lg:flex md:flex fixed right-6 inset-y-0 items-center z-50">
     <div class="overflow-hidden shadow-[0_12px_35px_rgba(0,0,0,.12)]">
         <!-- APPOINTMENT -->
-        <a href="#" class="group flex
+        <a href="./bookappointment.php" class="group flex
             items-center
             w-[64px]
             hover:w-[260px]

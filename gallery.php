@@ -1206,7 +1206,7 @@
             justify-center
             gap-4
             mt-12">
-            <a href="#"
+            <a href="./bookappointment.php"
                class="btn-primary">
             Book Appointment
             </a>
