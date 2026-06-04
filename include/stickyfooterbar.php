@@ -160,8 +160,10 @@
     </div>
 </div>
 <!-- MOBILE STICKY CTA -->
-<div
-    class="lg:hidden md:hidden fixed bottom-0 left-0 w-full z-50 bg-white border-t border-slate-200 shadow-[0_-8px_25px_rgba(0,0,0,.08)]">
+<div id="mobileStickyBar"
+    class="fixed bottom-0 left-0 w-full z-50 bg-white border-t border-slate-200 shadow-[0_-8px_25px_rgba(0,0,0,.08)]
+    transform transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
+    lg:hidden md:hidden">
     <div class="grid grid-cols-3">
         <!-- DOCTOR -->
         <a href="#"

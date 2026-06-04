@@ -58,9 +58,7 @@
 
 <body>
 
-    <?php
-    include 'topbar.php';
-    ?>
+    <?php include "topbar.php"; ?>
 
     <!-- MOBILE OVERLAY -->
     <div id="mobileOverlay"
@@ -396,9 +394,7 @@
     </header>
 
     <!-- Searchbar -->
-    <?php
-    include './include/searchbar.php';
-    ?>
+    <?php include "./include/searchbar.php"; ?>
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {

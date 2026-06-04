@@ -151,6 +151,29 @@ body {
   background: var(--secondary-dark);
 }
 
+/* =========================================================
+LIGHT BUTTON
+========================================================= */
+.btn-light {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 48px;
+  padding-inline: 24px;
+  background: var(--bg-color-white);
+  color: var(--primary);
+  font-weight: 700;
+  border: 2px solid white;
+  transition: 0.3s;
+  border-radius: 0.75rem;
+}
+/* Hover */
+.btn-light:hover {
+  background: var(--secondary);
+  border-color: var(--secondary);
+  color: var(--text-white);
+}
 .btn-outline {
   display: inline-flex;
   align-items: center;

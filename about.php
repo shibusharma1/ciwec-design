@@ -1,6 +1,5 @@
 <?php
-    include './include/header.php';
-    ?>
+include "./include/header.php"; ?>
 <section class="relative h-[220px] md:h-[280px] overflow-hidden">
     <img src="./assets/img/researchandpublication.png"
         class="absolute inset-0 w-full h-full object-cover">
@@ -1497,11 +1496,11 @@
                 gap-4
                 mt-10">
                 <a href="#"
-                    class="btn-primary">
+                    class="btn-primary bg-white text-primary hover:text-white">
                 Book Appointment
                 </a>
                 <a href="#"
-                    class="btn-light">
+                    class="btn-secondary">
                 Contact Us
                 </a>
             </div>
@@ -1572,6 +1571,5 @@
         </div>
     </div>
 </section>
-<?php
-    include './include/footer.php';
-    ?>
+<?php include "./include/footer.php";
+?>

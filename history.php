@@ -1,6 +1,5 @@
 <?php
-    include './include/header.php';
-    ?>
+include "./include/header.php"; ?>
 <section class="relative h-[220px] md:h-[280px] overflow-hidden">
     <img src="./assets/img/researchandpublication.png"
         class="absolute inset-0 w-full h-full object-cover">
@@ -278,8 +277,7 @@
             <h2 class="section-title">
                 Four Decades Of Healthcare Excellence
             </h2>
-            <p
-                class="max-w-3xl mx-auto
+            <p class="max-w-3xl mx-auto
                 text-slate-600
                 mt-6
                 leading-8">
@@ -290,14 +288,12 @@
             </p>
         </div>
         <!-- STATS -->
-        <div
-            class="grid
+        <div class="grid
             md:grid-cols-2
             xl:grid-cols-4
             gap-8">
             <!-- ITEM -->
-            <div
-                class="group
+            <div class="group
                 bg-slate-50
                 border
                 border-slate-200
@@ -306,8 +302,7 @@
                 hover:border-secondary
                 hover:-translate-y-2
                 transition-all duration-500">
-                <div
-                    class="w-20 h-20
+                <div class="w-20 h-20
                     mx-auto
                     bg-primary/5
                     rounded-full
@@ -315,30 +310,26 @@
                     items-center
                     justify-center
                     mb-6">
-                    <i
-                        class="fa-regular fa-calendar-check
+                    <i class="fa-regular fa-calendar-check
                         text-primary
                         text-3xl">
                     </i>
                 </div>
-                <h3
-                    class="text-primary
+                <h3 class="text-primary
                     text-5xl
                     font-black
                     counter"
                     data-target="42">
                     42+
                 </h3>
-                <p
-                    class="text-slate-600
+                <p class="text-slate-600
                     mt-4
                     font-medium">
                     Years Of Excellence
                 </p>
             </div>
             <!-- ITEM -->
-            <div
-                class="group
+            <div class="group
                 bg-slate-50
                 border
                 border-slate-200
@@ -347,8 +338,7 @@
                 hover:border-secondary
                 hover:-translate-y-2
                 transition-all duration-500">
-                <div
-                    class="w-20 h-20
+                <div class="w-20 h-20
                     mx-auto
                     bg-primary/5
                     rounded-full
@@ -356,28 +346,24 @@
                     items-center
                     justify-center
                     mb-6">
-                    <i
-                        class="fa-solid fa-earth-americas
+                    <i class="fa-solid fa-earth-americas
                         text-primary
                         text-3xl">
                     </i>
                 </div>
-                <h3
-                    class="text-primary
+                <h3 class="text-primary
                     text-5xl
                     font-black">
                     170+
                 </h3>
-                <p
-                    class="text-slate-600
+                <p class="text-slate-600
                     mt-4
                     font-medium">
                     Nationalities Served
                 </p>
             </div>
             <!-- ITEM -->
-            <div
-                class="group
+            <div class="group
                 bg-slate-50
                 border
                 border-slate-200
@@ -1279,8 +1265,7 @@
         -translate-x-1/2
         -translate-y-1/2">
     </div>
-    <div
-        class="absolute
+    <div class="absolute
         bottom-0
         right-0
         w-[600px]
@@ -1291,9 +1276,8 @@
         translate-y-1/3">
     </div>
     <div class="container-custom relative z-10">
-        <div
-            class="py-24
-            lg:py-32
+        <div class="py-14
+            lg:py-14
             text-center
             max-w-5xl
             mx-auto">
@@ -1308,19 +1292,17 @@
             Continuing The Journey
             </span>
             <!-- TITLE -->
-            <h2
-                class="text-white
-                text-4xl
-                md:text-5xl
-                xl:text-6xl
+            <h2 class="text-white
+                text-3xl
+                md:text-4xl
+                xl:text-5xl
                 font-black
                 leading-tight">
                 Building On More Than
                 Four Decades Of Excellence
             </h2>
             <!-- TEXT -->
-            <p
-                class="max-w-3xl
+            <p class="max-w-3xl
                 mx-auto
                 text-white/80
                 text-lg
@@ -1333,18 +1315,17 @@
                 for future generations.
             </p>
             <!-- CTA BUTTONS -->
-            <div
-                class="flex
+            <div class="flex
                 flex-wrap
                 justify-center
                 gap-4
-                mt-12">
+                mt-8">
                 <a href="#"
-                    class="btn-primary">
+                    class="btn-primary bg-white text-primary hover:text-white">
                 Book Appointment
                 </a>
                 <a href="#"
-                    class="btn-light">
+                    class="btn-secondary">
                 Find A Doctor
                 </a>
             </div>
@@ -1375,34 +1356,29 @@
                         font-black">
                         170+
                     </h3>
-                    <p
-                        class="text-white/80
+                    <p class="text-white/80
                         mt-3">
                         Nationalities Served
                     </p>
                 </div>
                 <div>
-                    <h3
-                        class="text-secondary
+                    <h3 class="text-secondary
                         text-4xl
                         font-black">
                         80+
                     </h3>
-                    <p
-                        class="text-white/80
+                    <p class="text-white/80
                         mt-3">
                         Specialists
                     </p>
                 </div>
                 <div>
-                    <h3
-                        class="text-secondary
+                    <h3 class="text-secondary
                         text-4xl
                         font-black">
                         2
                     </h3>
-                    <p
-                        class="text-white/80
+                    <p class="text-white/80
                         mt-3">
                         Hospital Locations
                     </p>
@@ -1440,8 +1416,8 @@
     </div>
     <div class="container-custom relative z-10">
         <div
-            class="py-24
-            lg:py-32
+            class="py-8
+            lg:py-8
             text-center
             max-w-5xl
             mx-auto">
@@ -1458,9 +1434,9 @@
             <!-- TITLE -->
             <h2
                 class="text-white
-                text-4xl
-                md:text-5xl
-                xl:text-6xl
+                text-3xl
+                md:text-4xl
+                xl:text-5xl
                 font-black
                 leading-tight">
                 Building On More Than
@@ -1777,6 +1753,5 @@
         </div>
     </div>
 </section>
-<?php
-    include './include/footer.php';
-    ?>
+<?php include "./include/footer.php";
+?>

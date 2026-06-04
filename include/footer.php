@@ -1,13 +1,12 @@
 <?php
-include './include/locationsection.php';
-?>
+include "./include/locationsection.php"; ?>
 
 <footer class="bg-primary overflow-hidden">
     <!-- TOP -->
     <div class="border-b border-white/10">
         <div class="container-custom">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 py-14">
-                <!-- <div class="grid lg:grid-cols-4 gap-10 py-14"> -->
+                
                 <!-- ABOUT -->
                 <div>
                     <img src="./assets/img/logo.png"
@@ -25,26 +24,31 @@ include './include/locationsection.php';
                         Quick Links
                     </h3>
                     <ul class="space-y-3">
+                         <li>
+                            <a href="./index.php"
+                                class="text-white/80 hover:text-secondary transition">
+                                Home
+                            </a>
                         <li>
-                            <a href=""
+                            <a href="./about.php"
                                 class="text-white/80 hover:text-secondary transition">
                                 About Us
                             </a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="./services.php"
                                 class="text-white/80 hover:text-secondary transition">
                                 Services
                             </a>
                         </li>
                         <li>
-                            <a href="./researchandpublication.php"
+                            <a href="./doctors.php"
                                 class="text-white/80 hover:text-secondary transition">
                                 Doctors
                             </a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="./researchandpublication.php"
                                 class="text-white/80 hover:text-secondary transition">
                                 Research
                             </a>
@@ -59,22 +63,22 @@ include './include/locationsection.php';
 
                     <ul class="space-y-3">
                         <li>
-                            <a href="#" class="text-white/80 hover:text-secondary transition">
+                            <a href="./altitudesickness.php" class="text-white/80 hover:text-secondary transition">
                                 Travel Medicine
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="text-white/80 hover:text-secondary transition">
+                            <a href="./healthinformation.php" class="text-white/80 hover:text-secondary transition">
                                 Family Medicine
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="text-white/80 hover:text-secondary transition">
+                            <a href="./healthscreening.php" class="text-white/80 hover:text-secondary transition">
                                 Health Screening
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="text-white/80 hover:text-secondary transition">
+                            <a href="./contactus.php" class="text-white/80 hover:text-secondary transition">
                                 Emergency Care
                             </a>
                         </li>
@@ -144,172 +148,25 @@ include './include/locationsection.php';
     </div>
 </footer>
 
+
 <?php
-include './include/backtotop.php';
-include './include/stickyfooterbar.php';
+include "./include/backtotop.php";
+include "./include/stickyfooterbar.php";
 ?>
 
 <!-- swiper js  -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<!-- script for the sticky header -->
 <script src="./assets/js/stickyheader.js"></script>
-
-<!-- script for the back to top -->
 <script defer src="./assets/js/backtotop.js"></script>
-
-<!-- Js for FAQ -->
 <script defer src="./assets/js/faq.js"></script>
-
-<!-- script for the Testimonial -->
 <script src="./assets/js/swiperslider.js"></script>
-
-<script>
-    const specialitySwiper = new Swiper(".specialitySwiper", {
-        loop: false,
-        speed: 900,
-        slidesPerView: 1.15,
-        spaceBetween: 1,
-        autoplay: true,
-        pagination: {
-            el: ".speciality-pagination",
-            clickable: true,
-            dynamicBullets: false,
-        },
-
-        breakpoints: {
-            640: {
-                slidesPerView: 2.1,
-            },
-            1024: {
-                slidesPerView: 3.2,
-            },
-            1280: {
-                slidesPerView: 4.5,
-            }
-        }
-    });
-</script>
-
-<!-- =====================================================
-   SWIPER JS
-   ===================================================== -->
-<script>
-    const patientStoriesSwiper = new Swiper(".patientStoriesSwiper", {
-
-        loop: true,
-        speed: 1000,
-        spaceBetween: 20,
-
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-        },
-
-        pagination: {
-            el: ".patient-story-pagination",
-            clickable: true,
-        },
-
-        breakpoints: {
-
-            0: {
-                slidesPerView: 1,
-            },
-
-            768: {
-                slidesPerView: 2,
-            },
-
-        },
-
-    });
-
-    // =====================================================
-    // VIDEO MODAL
-    // =====================================================
-
-    const videoModal = document.getElementById("videoModal");
-    const storyVideo = document.getElementById("storyVideo");
-    const closeVideoModal = document.getElementById("closeVideoModal");
-
-    document.querySelectorAll(".story-card").forEach((card) => {
-
-        card.addEventListener("click", () => {
-
-            const video = card.getAttribute("data-video");
-
-            storyVideo.src = video;
-
-            videoModal.classList.remove("hidden");
-            videoModal.classList.add("flex");
-
-            storyVideo.play();
-
-            document.body.style.overflow = "hidden";
-
-        });
-
-    });
-
-    // CLOSE
-    function closeModal() {
-
-        videoModal.classList.add("hidden");
-        videoModal.classList.remove("flex");
-
-        storyVideo.pause();
-        storyVideo.currentTime = 0;
-
-        document.body.style.overflow = "auto";
-
-    }
-
-    closeVideoModal.addEventListener("click", closeModal);
-
-    // CLICK OUTSIDE
-    videoModal.addEventListener("click", (e) => {
-
-        if (e.target === videoModal) {
-            closeModal();
-        }
-
-    });
-
-    // ESC CLOSE
-    document.addEventListener("keydown", (e) => {
-
-        if (e.key === "Escape") {
-            closeModal();
-        }
-
-    });
-</script>
-
-<!-- script for the sticky footer bar  -->
-<script>
-    const stickyBar = document.getElementById("stickyBar");
-    const heroSection = document.querySelector("section"); // HERO section
-
-    let lastScroll = 0;
-
-    window.addEventListener("scroll", () => {
-        const currentScroll = window.scrollY;
-        const heroHeight = heroSection.offsetHeight;
-
-        // show only AFTER hero
-        if (currentScroll > heroHeight - 100) {
-            stickyBar.classList.remove("translate-y-full", "opacity-0", "pointer-events-none");
-            stickyBar.classList.add("translate-y-0", "opacity-100");
-        } else {
-            stickyBar.classList.add("translate-y-full", "opacity-0", "pointer-events-none");
-            stickyBar.classList.remove("translate-y-0", "opacity-100");
-        }
-
-        lastScroll = currentScroll;
-    });
-</script>
+<script src="./assets/js/awardswiper.js"></script>
+<script src="./assets/js/specialityswiper.js"></script>
+<script src="./assets/js/patientStoriesSwiper.js"></script>
+<script src="./assets/js/stickyfooter.js"></script>
+<script src="./assets/js/history.js"></script>
+<script src="./assets/js/counter.js"></script>
+<script src="./assets/js/newsletters.js"></script>
 
 </body>
 </html>
