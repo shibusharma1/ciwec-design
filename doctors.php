@@ -15,7 +15,7 @@ include "./include/herobanner.php";
                class="relative">
                <!-- MAIN IMAGE -->
                <img
-                  src="./assets/img/medical-excellence.jpg"
+                  src="./assets/img/doctors/medical-expert.png"
                   alt="Medical Excellence"
                   class="w-full h-[700px] object-cover">
                <!-- FLOATING CARD -->
@@ -374,7 +374,7 @@ include "./include/herobanner.php";
    <div
       class="relative h-screen flex items-center justify-center p-4">
       <div
-         class="bg-white max-w-6xl w-full max-h-[90vh] overflow-y-auto relative">
+         class="bg-white max-w-6xl w-full max-h-[80vh] overflow-y-auto relative">
          <!-- CLOSE -->
          <button
             id="closeDoctorModal"
@@ -589,7 +589,7 @@ include "./include/herobanner.php";
             <div
                class="lg:col-span-4">
                <img
-                  src="./assets/img/medical-specialties.jpg"
+                  src="./assets/img/altitude-expert-doctor.png"
                   alt=""
                   class="w-full h-[300px] object-cover">
             </div>
@@ -804,7 +804,7 @@ include "./include/herobanner.php";
          <div
             class="lg:col-span-5">
             <img
-               src="./assets/img/consultation-journey.jpg"
+               src="./assets/img/consulting.webp"
                alt="Consultation Journey"
                class="w-full h-[350px] object-cover">
          </div>

@@ -12,7 +12,7 @@ include "./include/herobanner.php";
                 class="lg:col-span-5">
                 <div class="relative">
                     <img
-                        src="./assets/img/privacy-commitment.jpg"
+                        src="./assets/img/history/history1.webp"
                         alt="Privacy Commitment"
                         class="w-full h-[750px] object-cover">
                     <!-- FLOATING CARD -->
@@ -436,7 +436,7 @@ include "./include/herobanner.php";
                 <div
                     class="lg:col-span-5">
                     <img
-                        src="./assets/img/information-collection.jpg"
+                        src="./assets/img/information-collection.png"
                         alt="Information Collection"
                         class="w-full h-[500px] object-cover">
                 </div>
@@ -681,7 +681,7 @@ include "./include/herobanner.php";
                 <div
                     class="lg:col-span-5">
                     <img
-                        src="./assets/img/information-collection.jpg"
+                        src="./assets/img/information-collection.png"
                         alt="Information Collection"
                         class="w-full h-[500px] object-cover">
                 </div>
@@ -815,7 +815,7 @@ include "./include/herobanner.php";
             <div
                 class="lg:col-span-5">
                 <img
-                    src="./assets/img/patient-rights.jpg"
+                    src="./assets/img/patient-rights.png"
                     alt="Patient Rights"
                     class="w-full h-[600px] object-cover">
             </div>
@@ -1017,7 +1017,7 @@ include "./include/herobanner.php";
             <div
                 class="lg:col-span-5">
                 <img
-                    src="./assets/img/privacy-support.jpg"
+                    src="./assets/img/patient-rights.png"
                     alt="Privacy Support"
                     class="w-full h-full min-h-[600px] object-cover">
             </div>

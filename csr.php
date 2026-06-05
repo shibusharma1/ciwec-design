@@ -1,26 +1,8 @@
 <?php
-include "./include/header.php"; ?>
-<section class="relative h-[220px] md:h-[280px] overflow-hidden">
-   <img src="./assets/img/researchandpublication.png"
-      class="absolute inset-0 w-full h-full object-cover">
-   <div class="absolute inset-0 bg-primary/80"></div>
-   <div class="relative z-10 h-full flex items-center">
-      <div class="container-custom">
-         <h1 class="text-white text-center text-3xl md:text-5xl font-black mb-3">
-            Ciwec CSR
-         </h1>
-         <div class="flex items-center justify-center gap-2 text-white/90">
-            <a href="index.php" class="hover:text-secondary">
-               Home
-            </a>
-            <i class="fa-solid fa-angle-right text-xs"></i>
-            <span class="text-secondary">
-               Ciwec CSR
-            </span>
-         </div>
-      </div>
-   </div>
-</section>
+$hero_title = "Ciwec CSR";
+include "./include/header.php";
+include "./include/herobanner.php";
+?>
 <!-- ========================================= -->
 <!-- CSR MISSION -->
 <!-- ========================================= -->
@@ -116,7 +98,7 @@ include "./include/header.php"; ?>
          <div class="relative">
             <!-- MAIN IMAGE -->
             <img
-               src="./assets/img/csr-main.jpg"
+               src="./assets/img/csr-main.png"
                alt="CIWEC CSR"
                class="w-full h-[600px] object-cover shadow-[0_25px_60px_rgba(0,0,0,.10)]">
             <!-- FLOATING CARD -->
@@ -371,7 +353,7 @@ include "./include/header.php"; ?>
             <div class="grid md:grid-cols-2">
                <div class="overflow-hidden">
                   <img
-                     src="./assets/img/csr-firstaid.jpg"
+                     src="./assets/img/csr-firstaid.png"
                      class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
                </div>
                <div class="p-8">
@@ -403,7 +385,7 @@ include "./include/header.php"; ?>
             <div class="grid md:grid-cols-2">
                <div class="overflow-hidden">
                   <img
-                     src="./assets/img/csr-blood.jpg"
+                     src="./assets/img/csr-blood.png"
                      class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
                </div>
                <div class="p-8">
@@ -435,7 +417,7 @@ include "./include/header.php"; ?>
             <div class="grid md:grid-cols-2">
                <div class="overflow-hidden">
                   <img
-                     src="./assets/img/csr-medicalcamp.jpg"
+                     src="./assets/img/csr-medicalcamp.png"
                      class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
                </div>
                <div class="p-8">
@@ -466,7 +448,7 @@ include "./include/header.php"; ?>
             <div class="grid md:grid-cols-2">
                <div class="overflow-hidden">
                   <img
-                     src="./assets/img/csr-community.jpg"
+                     src="./assets/img/csr-community.png"
                      class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
                </div>
                <div class="p-8">
@@ -579,7 +561,7 @@ include "./include/header.php"; ?>
                class="bg-white border border-slate-200 overflow-hidden">
                <img
                   id="timelineImage"
-                  src="./assets/img/csr-timeline-1.jpg"
+                  src="./assets/img/csr-timeline-1.png"
                   class="w-full h-[420px] object-cover">
                <div class="p-8">
                   <span
@@ -645,7 +627,7 @@ include "./include/header.php"; ?>
    const timelineData = {
 
       2015: {
-         image: "./assets/img/csr-timeline-1.jpg",
+         image: "./assets/img/csr-timeline-1.png",
          title: "Community Health Outreach Program",
          description: "CIWEC initiated large-scale healthcare awareness and outreach activities, providing health education, screening and preventive care services to local communities.",
          impact1: "1,200+",
@@ -654,7 +636,7 @@ include "./include/header.php"; ?>
       },
 
       2018: {
-         image: "./assets/img/csr-timeline-2.jpg",
+         image: "./assets/img/csr-firstaid.png",
          title: "First Aid Training Expansion",
          description: "Training schools, businesses and community groups in emergency response and lifesaving first aid techniques.",
          impact1: "2,500+",
@@ -663,7 +645,7 @@ include "./include/header.php"; ?>
       },
 
       2020: {
-         image: "./assets/img/csr-timeline-3.jpg",
+         image: "./assets/img/csr-main.png",
          title: "Pandemic Response & Support",
          description: "Providing healthcare support, awareness and emergency assistance during the COVID-19 pandemic.",
          impact1: "10,000+",
@@ -672,7 +654,7 @@ include "./include/header.php"; ?>
       },
 
       2023: {
-         image: "./assets/img/csr-timeline-4.jpg",
+         image: "./assets/img/csr-blood.png",
          title: "Blood Donation Campaigns",
          description: "Organizing regular blood donation drives to support hospitals and emergency care services.",
          impact1: "500+",
@@ -681,7 +663,7 @@ include "./include/header.php"; ?>
       },
 
       2025: {
-         image: "./assets/img/csr-timeline-5.jpg",
+         image: "./assets/img/csr-timeline-1.png",
          title: "Sustainable Community Impact",
          description: "Expanding CSR initiatives with long-term community partnerships and healthcare education programs.",
          impact1: "15,000+",
@@ -783,7 +765,7 @@ include "./include/header.php"; ?>
                <div
                   class="flex items-center gap-4 mt-8 pt-6 border-t border-slate-200">
                   <img
-                     src="./assets/img/story-1.jpg"
+                     src="./assets/img/doctors/doc2.png"
                      class="w-14 h-14 rounded-full object-cover">
                   <div>
                      <h4
@@ -818,7 +800,7 @@ include "./include/header.php"; ?>
                <div
                   class="flex items-center gap-4 mt-8 pt-6 border-t border-slate-200">
                   <img
-                     src="./assets/img/story-2.jpg"
+                     src="./assets/img/csr-main.png"
                      class="w-14 h-14 rounded-full object-cover">
                   <div>
                      <h4
@@ -852,7 +834,7 @@ include "./include/header.php"; ?>
                <div
                   class="flex items-center gap-4 mt-8 pt-6 border-t border-slate-200">
                   <img
-                     src="./assets/img/story-3.jpg"
+                     src="./assets/img/doctors/doc3.jpg"
                      class="w-14 h-14 rounded-full object-cover">
                   <div>
                      <h4
@@ -875,7 +857,7 @@ include "./include/header.php"; ?>
             <!-- IMAGE -->
             <div class="lg:col-span-5">
                <img
-                  src="./assets/img/csr-feature-story.jpg"
+                  src="./assets/img/csr-main.png"
                   class="w-full h-full object-cover">
             </div>
             <!-- CONTENT -->
@@ -907,9 +889,7 @@ include "./include/header.php"; ?>
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- CSR GALLERY -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
@@ -965,7 +945,7 @@ include "./include/header.php"; ?>
             class="csr-item medical
             group relative overflow-hidden cursor-pointer">
             <img
-               src="./assets/img/csr-gallery-1.jpg"
+               src="./assets/img/csr-medicalcamp.png"
                class="w-full h-[300px] object-cover transition duration-700 group-hover:scale-110">
             <div
                class="absolute inset-0 bg-primary/0 group-hover:bg-primary/75 transition duration-500">
@@ -985,7 +965,7 @@ include "./include/header.php"; ?>
             class="csr-item blood
             group relative overflow-hidden cursor-pointer">
             <img
-               src="./assets/img/csr-gallery-2.jpg"
+               src="./assets/img/csr-blood.png"
                class="w-full h-[300px] object-cover transition duration-700 group-hover:scale-110">
             <div
                class="absolute inset-0 bg-primary/0 group-hover:bg-primary/75 transition duration-500">
@@ -1005,7 +985,7 @@ include "./include/header.php"; ?>
             class="csr-item training
             group relative overflow-hidden cursor-pointer">
             <img
-               src="./assets/img/csr-gallery-3.jpg"
+               src="./assets/img/csr-firstaid.png"
                class="w-full h-[300px] object-cover transition duration-700 group-hover:scale-110">
             <div
                class="absolute inset-0 bg-primary/0 group-hover:bg-primary/75 transition duration-500">
@@ -1025,7 +1005,7 @@ include "./include/header.php"; ?>
             class="csr-item community
             group relative overflow-hidden cursor-pointer">
             <img
-               src="./assets/img/csr-gallery-4.jpg"
+               src="./assets/img/csr-community.png"
                class="w-full h-[300px] object-cover transition duration-700 group-hover:scale-110">
             <div
                class="absolute inset-0 bg-primary/0 group-hover:bg-primary/75 transition duration-500">
@@ -1129,7 +1109,7 @@ include "./include/header.php"; ?>
                   class="hidden lg:flex absolute left-0 top-1/2 -translate-x-[34px] -translate-y-1/2 w-6 h-6 bg-secondary border-4 border-white rounded-full">
                </div>
                <img
-                  src="./assets/img/csr-upcoming-1.jpg"
+                  src="./assets/img/csr-community.png"
                   class="w-full h-[280px] object-cover">
             </div>
          </div>
@@ -1138,7 +1118,7 @@ include "./include/header.php"; ?>
             class="grid lg:grid-cols-2 gap-10 items-center mb-16">
             <div class="order-2 lg:order-1">
                <img
-                  src="./assets/img/csr-upcoming-2.jpg"
+                  src="./assets/img/csr-blood.png"
                   class="w-full h-[280px] object-cover">
             </div>
             <div
@@ -1181,7 +1161,7 @@ include "./include/header.php"; ?>
             </div>
             <div>
                <img
-                  src="./assets/img/csr-upcoming-3.jpg"
+                  src="./assets/img/csr-main.png"
                   class="w-full h-[280px] object-cover">
             </div>
          </div>

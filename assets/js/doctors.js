@@ -191,7 +191,7 @@ function openDoctor(index) {
     
          <!-- DETAILS -->
     
-         <div class="lg:col-span-7 p-8 lg:p-12">
+         <div class="lg:col-span-7 p-6 lg:p-8">
     
              <span
                  class="inline-block bg-secondary/10 text-secondary px-4 py-2 font-semibold">
@@ -201,7 +201,7 @@ function openDoctor(index) {
              </span>
     
              <h2
-                 class="text-primary text-4xl font-black mt-5">
+                 class="text-primary text-4xl font-black mt-4">
     
                  ${doctor.name}
     
@@ -215,7 +215,7 @@ function openDoctor(index) {
              </p>
     
              <div
-                 class="grid grid-cols-3 gap-5 mt-10">
+                 class="grid grid-cols-3 gap-5 mt-6">
     
                  <div>
     
@@ -270,7 +270,7 @@ function openDoctor(index) {
     
              </div>
     
-             <div class="mt-10">
+             <div class="mt-6">
     
                  <h3
                      class="text-primary text-xl font-black mb-4">
@@ -288,7 +288,7 @@ function openDoctor(index) {
     
              </div>
     
-             <div class="mt-10">
+             <div class="mt-6">
     
                  <h3
                      class="text-primary text-xl font-black mb-4">
@@ -314,7 +314,7 @@ function openDoctor(index) {
     
              </div>
     
-             <div class="mt-10">
+             <div class="mt-6">
     
                  <h3
                      class="text-primary text-xl font-black mb-4">

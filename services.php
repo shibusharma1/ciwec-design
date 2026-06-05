@@ -15,7 +15,7 @@
                     class="relative">
                     <!-- MAIN IMAGE -->
                     <img
-                        src="./assets/img/healthcare-excellence.jpg"
+                        src="./assets/img/speciality/img1.jpg"
                         alt="Healthcare Excellence"
                         class="w-full h-[650px] object-cover">
                     <!-- FLOATING CARD -->
@@ -527,7 +527,7 @@
                     class="lg:col-span-4">
                     <img
                         id="locationImage"
-                        src="./assets/img/kathmandu-hospital.jpg"
+                        src="./assets/img/speciality/img4.jpg"
                         class="w-full h-[300px] object-cover">
                 </div>
             </div>
@@ -780,7 +780,7 @@
                 <div
                     class="lg:col-span-5">
                     <img
-                        src="./assets/img/travel-medicine.jpg"
+                        src="./assets/img/health/altitude.png"
                         alt=""
                         class="w-full h-full min-h-[450px] object-cover">
                 </div>
@@ -869,7 +869,7 @@
                 <div
                     class="lg:col-span-5 order-1 lg:order-2">
                     <img
-                        src="./assets/img/altitude-medicine.jpg"
+                        src="./assets/img/heathinformation.png  "
                         alt=""
                         class="w-full h-full min-h-[450px] object-cover">
                 </div>
@@ -1250,7 +1250,7 @@
                 <div
                     class="relative">
                     <img
-                        src="./assets/img/why-ciwec-services.jpg"
+                        src="./assets/img/altitude-expert-doctor.png"
                         alt="Why Choose CIWEC"
                         class="w-full h-[700px] object-cover">
                     <!-- FLOATING STATS -->
@@ -1350,7 +1350,7 @@
                     </div>
                     <!-- ITEM -->
                     <div
-                        class="bg-white border border-slate-200 p-8 hover:border-secondary transition">
+                        class="bg-white hidden border border-slate-200 p-8 hover:border-secondary transition">
                         <div
                             class="w-16 h-16 bg-red-100 flex items-center justify-center mb-6">
                             <i
@@ -1369,7 +1369,7 @@
                     </div>
                     <!-- ITEM -->
                     <div
-                        class="bg-white border border-slate-200 p-8 hover:border-secondary transition">
+                        class="bg-white hidden border border-slate-200 p-8 hover:border-secondary transition">
                         <div
                             class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                             <i
@@ -1467,7 +1467,7 @@
             <div
                 class="lg:col-span-6">
                 <img
-                    src="./assets/img/medical-laboratory.jpg"
+                    src="./assets/img/health/cyclospora.png"
                     alt=""
                     class="w-full h-full min-h-[550px] object-cover">
             </div>
@@ -1538,7 +1538,7 @@
                 class="group overflow-hidden bg-white border border-slate-200 hover:border-secondary transition-all duration-500">
                 <div class="overflow-hidden">
                     <img
-                        src="./assets/img/radiology.jpg"
+                        src="./assets/img/radiology.png"
                         class="w-full h-72 object-cover group-hover:scale-110 transition duration-700">
                 </div>
                 <div class="p-8">
@@ -1558,7 +1558,7 @@
                 class="group overflow-hidden bg-white border border-slate-200 hover:border-secondary transition-all duration-500">
                 <div class="overflow-hidden">
                     <img
-                        src="./assets/img/emergency-unit.jpg"
+                        src="./assets/img/emergency-unit.png"
                         class="w-full h-72 object-cover group-hover:scale-110 transition duration-700">
                 </div>
                 <div class="p-8">
@@ -1578,7 +1578,7 @@
                 class="group overflow-hidden bg-white border border-slate-200 hover:border-secondary transition-all duration-500">
                 <div class="overflow-hidden">
                     <img
-                        src="./assets/img/travel-clinic.jpg"
+                        src="./assets/img/travel-clinic.png"
                         class="w-full h-72 object-cover group-hover:scale-110 transition duration-700">
                 </div>
                 <div class="p-8">
@@ -1598,7 +1598,7 @@
                 class="group overflow-hidden bg-white border border-slate-200 hover:border-secondary transition-all duration-500">
                 <div class="overflow-hidden">
                     <img
-                        src="./assets/img/vaccination-center.jpg"
+                        src="./assets/img/vaccination-center.png"
                         class="w-full h-72 object-cover group-hover:scale-110 transition duration-700">
                 </div>
                 <div class="p-8">
@@ -1618,7 +1618,7 @@
                 class="group overflow-hidden bg-white border border-slate-200 hover:border-secondary transition-all duration-500">
                 <div class="overflow-hidden">
                     <img
-                        src="./assets/img/inpatient-care.jpg"
+                        src="./assets/img/inpatient-care.png"
                         class="w-full h-72 object-cover group-hover:scale-110 transition duration-700">
                 </div>
                 <div class="p-8">
@@ -1638,7 +1638,7 @@
                 class="group overflow-hidden bg-white border border-slate-200 hover:border-secondary transition-all duration-500">
                 <div class="overflow-hidden">
                     <img
-                        src="./assets/img/health-screening.jpg"
+                        src="./assets/img/health-screening.png"
                         class="w-full h-72 object-cover group-hover:scale-110 transition duration-700">
                 </div>
                 <div class="p-8">

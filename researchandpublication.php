@@ -27,7 +27,7 @@ include "./include/herobanner.php";
          </div>
          <div class="lg:col-span-6">
             <img
-               src="./assets/img/research-intro.jpg"
+               src="./assets/img/research-intro.png"
                class="w-full h-[500px] object-cover">
          </div>
       </div>
@@ -133,7 +133,7 @@ include "./include/herobanner.php";
       </div>
       <!-- FEATURED IMPACT -->
       <div
-         class="mt-20 bg-primary overflow-hidden">
+         class="mt-16 bg-primary overflow-hidden">
          <div
             class="grid lg:grid-cols-12 items-center">
             <!-- LEFT -->
@@ -193,7 +193,7 @@ include "./include/herobanner.php";
             <div
                class="lg:col-span-5">
                <img
-                  src="./assets/img/research-impact.jpg"
+                  src="./assets/img/research-impact.png"
                   alt=""
                   class="w-full h-full object-cover">
             </div>
@@ -258,9 +258,7 @@ include "./include/herobanner.php";
       observer.observe(counter);
    });
 </script>
-<!-- ========================================= -->
-<!-- RESEARCH FOCUS AREAS -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
@@ -947,7 +945,7 @@ include "./include/herobanner.php";
             <div
                class="lg:col-span-5 relative">
                <img
-                  src="./assets/img/featured-research.jpg"
+                  src="./assets/img/featured-research.png"
                   alt=""
                   class="w-full h-full object-cover min-h-[500px]">
                <div
@@ -1369,7 +1367,7 @@ include "./include/herobanner.php";
          <div
             class="xl:col-span-6">
             <img
-               src="./assets/img/research-collaboration.jpg"
+               src="./assets/img/history/history1.webp"
                alt=""
                class="w-full h-[550px] object-cover">
          </div>
@@ -1565,22 +1563,22 @@ include "./include/herobanner.php";
          <div
             class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-6">
             <div class="border border-slate-200 p-8 flex items-center justify-center">
-               <img src="./assets/img/logo1.png" class="h-12 object-contain">
+               <img src="./assets/img/ismt_certified.webp" class="h-12 object-contain">
             </div>
             <div class="border border-slate-200 p-8 flex items-center justify-center">
-               <img src="./assets/img/logo2.png" class="h-12 object-contain">
+               <img src="./assets/img/ismt_certified.webp" class="h-12 object-contain">
             </div>
             <div class="border border-slate-200 p-8 flex items-center justify-center">
-               <img src="./assets/img/logo3.png" class="h-12 object-contain">
+               <img src="./assets/img/ismt_certified.webp" class="h-12 object-contain">
             </div>
             <div class="border border-slate-200 p-8 flex items-center justify-center">
-               <img src="./assets/img/logo4.png" class="h-12 object-contain">
+               <img src="./assets/img/ismt_certified.webp" class="h-12 object-contain">
             </div>
             <div class="border border-slate-200 p-8 flex items-center justify-center">
-               <img src="./assets/img/logo5.png" class="h-12 object-contain">
+               <img src="./assets/img/ismt_certified.webp" class="h-12 object-contain">
             </div>
             <div class="border border-slate-200 p-8 flex items-center justify-center">
-               <img src="./assets/img/logo6.png" class="h-12 object-contain">
+               <img src="./assets/img/ismt_certified.webp" class="h-12 object-contain">
             </div>
          </div>
       </div>

@@ -430,7 +430,7 @@ include "./include/herobanner.php";
          <article
             class="group bg-white border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <img
-               src="./assets/img/travel-health-guide.jpg"
+               src="./assets/img/travel-health-guide.png"
                class="w-full h-60 object-cover">
             <div class="p-8">
                <span
@@ -459,7 +459,7 @@ include "./include/herobanner.php";
          <article
             class="group bg-white border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <img
-               src="./assets/img/vaccination-guide.jpg"
+               src="./assets/img/vaccination-center.png"
                class="w-full h-60 object-cover">
             <div class="p-8">
                <span
@@ -488,7 +488,7 @@ include "./include/herobanner.php";
          <article
             class="group bg-white border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <img
-               src="./assets/img/preventive-guide.jpg"
+               src="./assets/img/preventive-guide.png"
                class="w-full h-60 object-cover">
             <div class="p-8">
                <span
@@ -614,7 +614,7 @@ include "./include/herobanner.php";
             <div
                class="lg:col-span-5">
                <img
-                  src="./assets/img/travel-health-center.jpg"
+                  src="./assets/img/travel-health-preparation.png"
                   alt=""
                   class="w-full h-full min-h-[500px] object-cover">
             </div>
