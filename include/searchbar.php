@@ -56,23 +56,23 @@
                         </p>
                         <div
                             class="flex flex-wrap gap-3">
-                            <a href="#"
+                            <a href="./doctors.php"
                                 class="px-4 py-2 border border-slate-300 text-sm text-slate-600 hover:border-secondary hover:text-secondary transition">
                                 Doctors
                             </a>
-                            <a href="#"
+                            <a href="./services.php"
                                 class="px-4 py-2 border border-slate-300 text-sm text-slate-600 hover:border-secondary hover:text-secondary transition">
                                 Services
                             </a>
-                            <a href="#"
+                            <a href="./healthinformation.php"
                                 class="px-4 py-2 border border-slate-300 text-sm text-slate-600 hover:border-secondary hover:text-secondary transition">
                                 Health Information
                             </a>
-                            <a href="#"
+                            <a href="./researchandpublication.php"
                                 class="px-4 py-2 border border-slate-300 text-sm text-slate-600 hover:border-secondary hover:text-secondary transition">
                                 Publications
                             </a>
-                            <a href="#"
+                            <a href="./contactus.php"
                                 class="px-4 py-2 border border-slate-300 text-sm text-slate-600 hover:border-secondary hover:text-secondary transition">
                                 Contact
                             </a>

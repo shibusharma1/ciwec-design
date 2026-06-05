@@ -1,6 +1,6 @@
 <?php include "./include/header.php"; ?>
 <!-- HERO -->
-<section class="relative">
+<section  id="hero-section" class="relative">
     <!-- VIDEO HERO -->
     <div class="relative h-[70vh] md:h-[80vh] xl:h-[90vh] overflow-hidden">
         <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline>
@@ -41,7 +41,7 @@
         <div class="bg-white border border-slate-200 shadow-[0_15px_40px_rgba(0,0,0,.08)]">
             <div class="grid grid-cols-1 md:grid-cols-3">
                 <!-- FIND DOCTOR (Hidden on Mobile) -->
-                <a href="#"
+                <a href="./doctors.php"
                     class="hidden md:flex group items-center gap-4 p-5 md:p-7 border-r border-slate-200 hover:bg-slate-100 transition-all duration-300">
                     <div class="w-14 h-14 bg-primary/10 text-primary flex items-center justify-center flex-shrink-0 transition-all duration-300 group-hover:bg-primary group-hover:text-white">
                         <i class="fa-solid fa-user-doctor text-xl"></i>
@@ -57,7 +57,7 @@
                     <i class="fa-solid fa-arrow-right text-secondary text-sm transition-all duration-300 group-hover:translate-x-1"></i>
                 </a>
                 <!-- INQUIRY (Hidden on Mobile) -->
-                <a href="#"
+                <a href="./contactus.php"
                     class="hidden md:flex group items-center gap-4 p-5 md:p-7 border-r border-slate-200 hover:bg-slate-100 transition-all duration-300">
                     <div class="w-14 h-14 bg-primary/10 text-primary flex items-center justify-center flex-shrink-0 transition-all duration-300 group-hover:bg-primary group-hover:text-white">
                         <i class="fa-solid fa-comments text-xl"></i>
@@ -73,7 +73,7 @@
                     <i class="fa-solid fa-arrow-right text-secondary text-sm transition-all duration-300 group-hover:translate-x-1"></i>
                 </a>
                 <!-- APPOINTMENT (Visible on All Devices) -->
-                <a href="#"
+                <a href="./bookappointment.php"
                     class="group flex items-center gap-4 p-5 md:p-7 bg-primary text-white hover:bg-secondary transition-all duration-300 w-full">
                     <div class="w-12 h-12 md:w-14 md:h-14 bg-white/10 flex items-center justify-center flex-shrink-0">
                         <i class="fa-solid fa-calendar-check text-lg md:text-xl"></i>

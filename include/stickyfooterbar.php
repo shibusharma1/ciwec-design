@@ -58,7 +58,7 @@
                 flex items-center justify-center
                 rounded-full
                 border-2 border-white">
-            1
+                1
             </span>
             <i class="fa-brands fa-whatsapp
                 text-[32px]
@@ -68,7 +68,7 @@
     </div>
 </a>
 <div id="stickyBar"
-    class="hidden lg:flex md:flex fixed right-6 inset-y-0 items-center z-50">
+    class="hidden lg:flex md:flex fixed right-6 inset-y-0 items-center z-40">
     <div class="overflow-hidden shadow-[0_12px_35px_rgba(0,0,0,.12)]">
         <!-- APPOINTMENT -->
         <a href="./bookappointment.php" class="group flex
@@ -98,11 +98,11 @@
                 text-[15px]
                 font-semibold
                 pr-8">
-            Book Appointment
+                Book Appointment
             </span>
         </a>
         <!-- DOCTOR -->
-        <a href="#"
+        <a href="./doctors.php"
             class="group
             flex
             items-center
@@ -133,11 +133,11 @@
                 text-[15px]
                 font-semibold
                 pr-8">
-            Find Doctor
+                Find Doctor
             </span>
         </a>
         <!-- INQUIRY -->
-        <a href="#"
+        <a href="./contactus.php"
             class="group
             flex
             items-center
@@ -154,7 +154,7 @@
                 <i class="fa-regular fa-message text-xl"></i>
             </div>
             <span class="opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap text-[15px] font-semibold pr-8">
-            Make Inquiry
+                Make Inquiry
             </span>
         </a>
     </div>
@@ -166,28 +166,47 @@
     lg:hidden md:hidden">
     <div class="grid grid-cols-3">
         <!-- DOCTOR -->
-        <a href="#"
+        <a href="./doctors.php"
             class="flex flex-col items-center justify-center py-3 text-primary">
-        <i class="fa-solid fa-user-doctor text-lg mb-1"></i>
-        <span class="text-[11px] font-semibold">
-        Doctor
-        </span>
+            <i class="fa-solid fa-user-doctor text-lg mb-1"></i>
+            <span class="text-[11px] font-semibold">
+                Doctor
+            </span>
         </a>
         <!-- INQUIRY -->
-        <a href="#"
+        <a href="./contactus.php"
             class="flex flex-col items-center justify-center py-3 border-x border-slate-200 text-primary">
-        <i class="fa-regular fa-message text-lg mb-1"></i>
-        <span class="text-[11px] font-semibold">
-        Inquiry
-        </span>
+            <i class="fa-regular fa-message text-lg mb-1"></i>
+            <span class="text-[11px] font-semibold">
+                Inquiry
+            </span>
         </a>
         <!-- APPOINTMENT -->
-        <a href="#"
+        <a href="./bookappointment.php"
             class="flex flex-col items-center justify-center py-3 bg-primary text-white">
-        <i class="fa-regular fa-calendar-check text-lg mb-1"></i>
-        <span class="text-[11px] font-semibold">
-        Appointment
-        </span>
+            <i class="fa-regular fa-calendar-check text-lg mb-1"></i>
+            <span class="text-[11px] font-semibold">
+                Appointment
+            </span>
         </a>
     </div>
 </div>
+
+<script>
+// document.addEventListener('DOMContentLoaded', function () {
+//     const hero = document.getElementById('hero-section');
+//     const stickyBar = document.getElementById('stickyBar');
+
+//     window.addEventListener('scroll', () => {
+//         const heroBottom = hero.offsetTop + hero.offsetHeight;
+
+//         if (window.scrollY >= heroBottom - 100) {
+//             stickyBar.classList.remove('opacity-0', 'pointer-events-none');
+//             stickyBar.classList.add('opacity-100');
+//         } else {
+//             stickyBar.classList.add('opacity-0', 'pointer-events-none');
+//             stickyBar.classList.remove('opacity-100');
+//         }
+//     });
+// });
+</script>

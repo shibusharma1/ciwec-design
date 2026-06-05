@@ -1,6 +1,13 @@
 const backToTop = document.getElementById("backToTop");
 const whatsappBtn = document.getElementById("whatsappBtn");
 
+document.getElementById("backToTop").onclick = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
+
 window.addEventListener("scroll", () => {
   if (window.scrollY > 250) {
     backToTop.classList.remove(
@@ -36,3 +43,4 @@ window.addEventListener("scroll", () => {
   progressCircle.style.strokeDashoffset =
     circumference - progress * circumference;
 });
+

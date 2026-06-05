@@ -229,14 +229,14 @@
                                     transition-all duration-300 z-50 overflow-hidden">
 
                             <!-- Header -->
-                            <div class="px-5 py-4 bg-slate-100 border-b border-slate-200">
+                            <!-- <div class="px-5 py-4 bg-slate-100 border-b border-slate-200">
                                 <h4 class="text-[15px] font-semibold text-primary">
                                     About CIWEC
                                 </h4>
                                 <p class="text-[13px] text-slate-500 mt-1">
                                     Learn more about our history, mission and community initiatives.
                                 </p>
-                            </div>
+                            </div> -->
 
                             <!-- Links -->
                             <div class="py-2">
@@ -298,14 +298,14 @@
                                     transition-all duration-300 z-50 overflow-hidden">
 
                             <!-- Header -->
-                            <div class="px-5 py-4 bg-slate-100 border-b border-slate-200">
+                            <!-- <div class="px-5 py-4 bg-slate-100 border-b border-slate-200">
                                 <h4 class="text-[15px] font-semibold text-primary">
                                     Medical Services
                                 </h4>
                                 <p class="text-[13px] text-slate-500 mt-1">
                                     Explore our healthcare specialties and expert medical care.
                                 </p>
-                            </div>
+                            </div> -->
 
                             <!-- Links -->
                             <div class="py-2">
