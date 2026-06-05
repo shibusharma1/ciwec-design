@@ -134,11 +134,11 @@ include "./include/locationsection.php"; ?>
                 </p>
                 <div
                     class="flex gap-5 text-sm">
-                    <a href="#"
+                    <a href="./privacypolicy.php"
                         class="text-white/60 hover:text-secondary transition">
                         Privacy Policy
                     </a>
-                    <a href="#"
+                    <a href="./termsandconditions.php"
                         class="text-white/60 hover:text-secondary transition">
                         Terms & Conditions
                     </a>
@@ -168,7 +168,7 @@ include "./include/stickyfooterbar.php";
 <script src="./assets/js/counter.js"></script>
 <script src="./assets/js/newsletters.js"></script>
 <script src="./assets/js/healthinformationcards.js"></script>
-<script src="./assets/js/healthinformation.js"></script>
+<!-- <script src="./assets/js/healthinformation.js"></script> -->
 
 </body>
 </html>

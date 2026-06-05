@@ -6,7 +6,7 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- CONTACT INFORMATION CARDS -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- SECTION HEADER -->
         <div class="text-center max-w-4xl mx-auto mb-16">
@@ -251,7 +251,7 @@ include "./include/herobanner.php";
                 <div
                     class="grid md:grid-cols-3 gap-4 mt-10">
                     <div
-                        class="bg-slate-50 p-4 text-center">
+                        class="bg-slate-100 p-4 text-center">
                         <i
                             class="fa-solid fa-clock text-secondary mb-2">
                         </i>
@@ -260,7 +260,7 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                     <div
-                        class="bg-slate-50 p-4 text-center">
+                        class="bg-slate-100 p-4 text-center">
                         <i
                             class="fa-solid fa-shield-halved text-secondary mb-2">
                         </i>
@@ -269,7 +269,7 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                     <div
-                        class="bg-slate-50 p-4 text-center">
+                        class="bg-slate-100 p-4 text-center">
                         <i
                             class="fa-solid fa-user-doctor text-secondary mb-2">
                         </i>
@@ -365,7 +365,7 @@ include "./include/herobanner.php";
                 </div>
                 <!-- OFFICE HOURS -->
                 <div
-                    class="bg-slate-50 border border-slate-200 p-8">
+                    class="bg-slate-100 border border-slate-200 p-8">
                     <h3
                         class="text-primary text-xl font-black mb-5">
                         Office Hours
@@ -390,31 +390,25 @@ include "./include/herobanner.php";
         </div>
     </div>
 </section>
-<!-- ========================================= -->
-<!-- EMERGENCY CTA + LOCATION -->
-<!-- ========================================= -->
+
 <section id="map" class="relative overflow-hidden bg-primary">
-    <!-- BACKGROUND SHAPES -->
-    <div
-        class="absolute top-0 left-0 w-[500px] h-[500px] bg-white/5 rounded-full -translate-x-1/2 -translate-y-1/2">
+    <div class="absolute top-0 left-0 w-[500px] h-[500px] bg-white/5 rounded-full -translate-x-1/2 -translate-y-1/2">
     </div>
-    <div
-        class="absolute bottom-0 right-0 w-[600px] h-[600px] bg-secondary/10 rounded-full translate-x-1/3 translate-y-1/3">
+    <div class="absolute bottom-0 right-0 w-[600px] h-[600px] bg-secondary/10 rounded-full translate-x-1/3 translate-y-1/3">
     </div>
     <div class="container-custom relative z-10">
-        <div class="py-24">
+        <div class="py-16">
             <!-- EMERGENCY CTA -->
             <div
                 class="max-w-5xl mx-auto text-center">
                 <span
                     class="inline-flex items-center gap-3 bg-white/10 px-5 py-3 text-white font-semibold">
-                    <i
-                        class="fa-solid fa-truck-medical text-secondary">
+                    <i class="fa-solid fa-truck-medical text-secondary">
                     </i>
                     24/7 Emergency Support
                 </span>
                 <h2
-                    class="text-white text-4xl md:text-6xl font-black mt-8">
+                    class="text-white text-4xl md:text-5xl font-black mt-8">
                     Need Immediate
                     Medical Assistance?
                 </h2>
@@ -425,7 +419,7 @@ include "./include/herobanner.php";
                     assistance whenever you need help.
                 </p>
                 <div
-                    class="flex flex-wrap justify-center gap-5 mt-10">
+                    class="flex flex-wrap justify-center gap-5 mt-8">
                     <a
                         href="tel:+97714524111"
                         class="bg-secondary text-white px-8 py-4 font-bold hover:bg-white hover:text-primary transition">
@@ -440,7 +434,7 @@ include "./include/herobanner.php";
             </div>
             <!-- LOCATION CARDS -->
             <div
-                class="grid md:grid-cols-2 gap-8 mt-24">
+                class="grid md:grid-cols-2 gap-8 mt-12">
                 <!-- KATHMANDU -->
                 <div
                     class="bg-white p-8">
@@ -511,40 +505,6 @@ include "./include/herobanner.php";
                 </div>
             </div>
            
-            <!-- BOTTOM INFO -->
-            <div
-                class="grid md:grid-cols-3 gap-8 mt-16 text-center">
-                <div>
-                    <div
-                        class="text-secondary text-4xl font-black">
-                        24/7
-                    </div>
-                    <p
-                        class="text-white/80 mt-2">
-                        Emergency Services
-                    </p>
-                </div>
-                <div>
-                    <div
-                        class="text-secondary text-4xl font-black">
-                        2
-                    </div>
-                    <p
-                        class="text-white/80 mt-2">
-                        Hospital Locations
-                    </p>
-                </div>
-                <div>
-                    <div
-                        class="text-secondary text-4xl font-black">
-                        Fast
-                    </div>
-                    <p
-                        class="text-white/80 mt-2">
-                        Response Time
-                    </p>
-                </div>
-            </div>
         </div>
     </div>
 </section>

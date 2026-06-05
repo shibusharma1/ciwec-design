@@ -116,7 +116,7 @@ include "./include/herobanner.php";
         </div>
         <!-- BOTTOM STATS -->
         <div class="grid md:grid-cols-4 gap-6 mt-20">
-            <div class="bg-slate-50 border border-slate-200 p-8 text-center">
+            <div class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <h3 class="text-primary text-4xl font-black">
                     100+
                 </h3>
@@ -124,7 +124,7 @@ include "./include/herobanner.php";
                     Health Articles
                 </p>
             </div>
-            <div class="bg-slate-50 border border-slate-200 p-8 text-center">
+            <div class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <h3 class="text-primary text-4xl font-black">
                     40+
                 </h3>
@@ -132,7 +132,7 @@ include "./include/herobanner.php";
                     Years Of Expertise
                 </p>
             </div>
-            <div class="bg-slate-50 border border-slate-200 p-8 text-center">
+            <div class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <h3 class="text-primary text-4xl font-black">
                     Travel
                 </h3>
@@ -140,7 +140,7 @@ include "./include/herobanner.php";
                     Health Specialists
                 </p>
             </div>
-            <div class="bg-slate-50 border border-slate-200 p-8 text-center">
+            <div class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <h3 class="text-primary text-4xl font-black">
                     Trusted
                 </h3>
@@ -152,7 +152,7 @@ include "./include/herobanner.php";
     </div>
 </section>
 
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
         <div class="text-center max-w-4xl mx-auto mb-16">
@@ -321,9 +321,6 @@ include "./include/herobanner.php";
     </div>
 </section>
 
-<!-- ========================================= -->
-<!-- FEATURED HEALTH GUIDES -->
-<!-- ========================================= -->
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
@@ -341,7 +338,7 @@ include "./include/herobanner.php";
             </p>
         </div>
         <!-- FEATURED GUIDE -->
-        <div class="bg-slate-50 border border-slate-200 overflow-hidden">
+        <div class="bg-slate-100 border border-slate-200 overflow-hidden">
             <div class="grid lg:grid-cols-12 items-center">
                 <!-- IMAGE -->
                 <div class="lg:col-span-5 relative">
@@ -510,12 +507,10 @@ include "./include/herobanner.php";
         </div>
     </div>
 </section>
-<!-- ========================================= -->
-<!-- HEALTH INFORMATION LIBRARY -->
-<!-- ========================================= -->
+
 <section
     id="health-library"
-    class="section-padding bg-slate-50 overflow-hidden">
+    class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
         <div
@@ -649,33 +644,11 @@ include "./include/herobanner.php";
             class="flex justify-center mt-16 gap-3">
         </div>
     </div>
+    <!-- <div id="researchPagination" class="flex justify-center mt-10 gap-2">
+    </div> -->
 </section>
 
-<section class="section-padding overflow-hidden">
-    <div class="container-custom">
-        <div id="healthLoader" class="hidden py-16">
-            <div class="flex flex-col items-center">
-                <div class="w-12 h-12
-                    border-[3px]
-                    border-slate-200
-                    border-t-secondary
-                    rounded-full
-                    animate-spin">
-                </div>
-                <p class="mt-4 text-sm
-                    text-slate-500">
-                    Loading Health Information...
-                </p>
-            </div>
-        </div>
-        <div
-            id="healthGrid"
-            class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
-        </div>
-    </div>
-</section>
-<div
-    id="pdfModal"
+<div id="pdfModal"
     class="fixed inset-0 bg-black/80 hidden items-center justify-center z-[9999]">
     <div
         class="bg-white w-[95%] max-w-7xl h-[90vh] shadow-[0_30px_80px_rgba(0,0,0,.3)] relative">
@@ -697,9 +670,9 @@ include "./include/herobanner.php";
         </iframe>
     </div>
 </div>
-<div
-    id="researchPagination"
-    class="flex justify-center mt-10 gap-2"></div>
+
+
+
 <script>
     const healthData = [
 
@@ -728,8 +701,7 @@ include "./include/herobanner.php";
             pdf: "./assets/pdf/news1.pdf"
         }
     ];
-</script>
-<script>
+
     document.addEventListener("DOMContentLoaded", () => {
         showLoader();
         setTimeout(() => {
@@ -742,8 +714,7 @@ include "./include/herobanner.php";
             }
         }, 800);
     });
-</script>
-<script>
+
     const healthGrid =
         document.getElementById("healthGrid");
 
@@ -875,8 +846,7 @@ include "./include/herobanner.php";
 
         });
     }
-</script>
-<script>
+
     const searchInput =
         document.getElementById("healthSearch");
     searchInput.addEventListener("keyup", function() {
@@ -894,8 +864,7 @@ include "./include/herobanner.php";
             hideLoader();
         }, 600);
     });
-</script>
-<script>
+
     const pdfModal =
         document.getElementById("pdfModal");
     const pdfViewer =
@@ -929,9 +898,6 @@ include "./include/herobanner.php";
     });
 </script>
 
-<!-- ========================================= -->
-<!-- TRAVEL HEALTH CENTER -->
-<!-- ========================================= -->
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
@@ -1040,7 +1006,7 @@ include "./include/herobanner.php";
             class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-16">
             <!-- CARD -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                     <i
@@ -1059,7 +1025,7 @@ include "./include/herobanner.php";
             </div>
             <!-- CARD -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                     <i
@@ -1078,7 +1044,7 @@ include "./include/herobanner.php";
             </div>
             <!-- CARD -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                     <i
@@ -1097,7 +1063,7 @@ include "./include/herobanner.php";
             </div>
             <!-- CARD -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                     <i
@@ -1116,7 +1082,7 @@ include "./include/herobanner.php";
             </div>
             <!-- CARD -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                     <i
@@ -1135,7 +1101,7 @@ include "./include/herobanner.php";
             </div>
             <!-- CARD -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                     <i
@@ -1157,7 +1123,7 @@ include "./include/herobanner.php";
         <div
             class="grid md:grid-cols-4 gap-6 mt-16">
             <div
-                class="bg-slate-50 border border-slate-200 p-8 text-center">
+                class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <h3
                     class="text-primary text-4xl font-black">
                     40+
@@ -1168,7 +1134,7 @@ include "./include/herobanner.php";
                 </p>
             </div>
             <div
-                class="bg-slate-50 border border-slate-200 p-8 text-center">
+                class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <h3
                     class="text-primary text-3xl font-black">
                     Global
@@ -1179,7 +1145,7 @@ include "./include/herobanner.php";
                 </p>
             </div>
             <div
-                class="bg-slate-50 border border-slate-200 p-8 text-center">
+                class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <h3
                     class="text-primary text-3xl font-black">
                     Trusted
@@ -1190,7 +1156,7 @@ include "./include/herobanner.php";
                 </p>
             </div>
             <div
-                class="bg-slate-50 border border-slate-200 p-8 text-center">
+                class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <h3
                     class="text-primary text-3xl font-black">
                     24/7
@@ -1204,7 +1170,7 @@ include "./include/herobanner.php";
     </div>
 </section>
 
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
         <div
@@ -1263,8 +1229,7 @@ include "./include/herobanner.php";
                 </button>
                 <div
                     class="faq-content hidden px-6 pb-6">
-                    <p
-                        class="text-slate-600 leading-8">
+                    <p class="text-slate-600 leading-8">
                         Vaccination recommendations depend
                         on your destination, travel duration
                         and medical history. Common travel
@@ -1274,22 +1239,16 @@ include "./include/herobanner.php";
                 </div>
             </div>
             <!-- FAQ 3 -->
-            <div
-                class="faq-item bg-white border border-slate-200">
-                <button
-                    class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                    <span
-                        class="text-primary text-lg font-bold">
+            <div class="faq-item bg-white border border-slate-200">
+                <button class="faq-btn w-full flex items-center justify-between p-6 text-left">
+                    <span class="text-primary text-lg font-bold">
                         How can I avoid traveler's diarrhea?
                     </span>
-                    <i
-                        class="fa-solid fa-plus faq-icon text-secondary">
+                    <i class="fa-solid fa-plus faq-icon text-secondary">
                     </i>
                 </button>
-                <div
-                    class="faq-content hidden px-6 pb-6">
-                    <p
-                        class="text-slate-600 leading-8">
+                <div class="faq-content hidden px-6 pb-6">
+                    <p class="text-slate-600 leading-8">
                         Drink safe water, eat thoroughly
                         cooked food, practice good hand
                         hygiene and avoid questionable
@@ -1298,22 +1257,16 @@ include "./include/herobanner.php";
                 </div>
             </div>
             <!-- FAQ 4 -->
-            <div
-                class="faq-item bg-white border border-slate-200">
-                <button
-                    class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                    <span
-                        class="text-primary text-lg font-bold">
+            <div class="faq-item bg-white border border-slate-200">
+                <button class="faq-btn w-full flex items-center justify-between p-6 text-left">
+                    <span class="text-primary text-lg font-bold">
                         When should I seek medical attention while traveling?
                     </span>
-                    <i
-                        class="fa-solid fa-plus faq-icon text-secondary">
+                    <i class="fa-solid fa-plus faq-icon text-secondary">
                     </i>
                 </button>
-                <div
-                    class="faq-content hidden px-6 pb-6">
-                    <p
-                        class="text-slate-600 leading-8">
+                <div class="faq-content hidden px-6 pb-6">
+                    <p class="text-slate-600 leading-8">
                         Seek immediate medical attention if
                         you experience severe breathing
                         difficulty, chest pain, persistent
@@ -1323,22 +1276,17 @@ include "./include/herobanner.php";
                 </div>
             </div>
             <!-- FAQ 5 -->
-            <div
-                class="faq-item bg-white border border-slate-200">
-                <button
-                    class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                    <span
-                        class="text-primary text-lg font-bold">
+            <div class="faq-item bg-white border border-slate-200">
+                <button class="faq-btn w-full flex items-center justify-between p-6 text-left">
+                    <span class="text-primary text-lg font-bold">
                         What should I include in a travel medical kit?
                     </span>
                     <i
                         class="fa-solid fa-plus faq-icon text-secondary">
                     </i>
                 </button>
-                <div
-                    class="faq-content hidden px-6 pb-6">
-                    <p
-                        class="text-slate-600 leading-8">
+                <div class="faq-content hidden px-6 pb-6">
+                    <p class="text-slate-600 leading-8">
                         A travel medical kit should include
                         prescription medications, pain relievers,
                         antiseptics, bandages, oral rehydration
@@ -1348,19 +1296,16 @@ include "./include/herobanner.php";
             </div>
         </div>
         <!-- HELP BOX -->
-        <div
-            class="bg-primary text-center p-10 mt-16 max-w-5xl mx-auto">
-            <h3
-                class="text-white text-3xl font-black">
+        <div class="bg-primary text-center p-10 mt-16 max-w-5xl mx-auto">
+            <h3 class="text-white text-3xl font-black">
                 Still Have Questions?
             </h3>
-            <p
-                class="text-white/80 mt-4 max-w-2xl mx-auto leading-8">
+            <p class="text-white/80 mt-4 max-w-2xl mx-auto leading-8">
                 Our healthcare professionals are available
                 to provide personalized medical advice and
                 travel health recommendations.
             </p>
-            <a href="#"
+            <a href="./contactus.php"
                 class="btn-secondary mt-8">
                 Contact Our Team
             </a>
@@ -1424,7 +1369,7 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- EMERGENCY HEALTH RESOURCES -->
 <!-- ========================================= -->
-<section class="relative overflow-hidden bg-primary">
+<section class="section-padding relative overflow-hidden bg-primary">
     <!-- BACKGROUND SHAPES -->
     <div
         class="absolute
@@ -1452,8 +1397,7 @@ include "./include/herobanner.php";
         class="container-custom
         relative
         z-10">
-        <div
-            class="py-24">
+        <div>
             <!-- HEADER -->
             <div
                 class="text-center max-w-4xl mx-auto">
@@ -1473,8 +1417,8 @@ include "./include/herobanner.php";
                 </span>
                 <h2
                     class="text-white
-                    text-4xl
-                    md:text-5xl
+                    text-3xl
+                    md:text-4xl
                     font-black
                     mt-8">
                     Know When To Seek Immediate Medical Care

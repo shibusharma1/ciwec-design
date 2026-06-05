@@ -1,183 +1,25 @@
-<?php include "./include/header.php"; ?>
-<section class="relative h-[220px] md:h-[280px] overflow-hidden">
-    <img src="./assets/img/contact-banner.jpg"
-        class="absolute inset-0 w-full h-full object-cover">
-    <div class="absolute inset-0 bg-primary/80"></div>
-    <div class="relative z-10 h-full flex items-center">
-        <div class="container-custom">
-            <h1 class="text-white text-center text-3xl md:text-5xl font-black mb-3">
-                Booking/Inquiry Form
-            </h1>
-            <div class="flex items-center justify-center gap-2 text-white/90">
-                <a href="index.php" class="hover:text-secondary">
-                Home
-                </a>
-                <i class="fa-solid fa-angle-right text-xs"></i>
-                <span class="text-secondary">
-                Booking/Inquiry Form
-                </span>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- ========================================= -->
-<!-- QUICK ACTIONS -->
-<!-- ========================================= -->
-<section class="relative -mt-16 lg:-mt-20 z-20">
+<?php
+$hero_title = "Booking/Inquiry Form";
+include "./include/header.php";
+include "./include/herobanner.php";
+?>
+<section id="appointmentForm" class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
-        <div
-            class="grid md:grid-cols-2 xl:grid-cols-4
-            bg-white
-            border border-slate-200
-            shadow-[0_20px_60px_rgba(0,0,0,.08)]">
-            <!-- APPOINTMENT -->
-            <a href="#appointmentForm"
-                class="group p-8 border-b md:border-b md:border-r border-slate-200 hover:bg-slate-50 transition-all duration-300">
-                <div
-                    class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-calendar-check
-                        text-primary text-2xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary
-                    text-xl
-                    font-black">
-                    Book Appointment
-                </h3>
-                <p
-                    class="text-slate-600
-                    mt-3
-                    leading-7">
-                    Schedule a consultation with our
-                    experienced specialists.
-                </p>
-                <span
-                    class="inline-flex items-center gap-2
-                    text-secondary font-semibold mt-5">
-                Get Started
-                <i class="fa-solid fa-arrow-right"></i>
-                </span>
-            </a>
-            <!-- MEDICAL INQUIRY -->
-            <a href="#appointmentForm"
-                class="group p-8 border-b md:border-b xl:border-r border-slate-200 hover:bg-slate-50 transition-all duration-300">
-                <div
-                    class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-comments
-                        text-secondary text-2xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary
-                    text-xl
-                    font-black">
-                    Medical Inquiry
-                </h3>
-                <p
-                    class="text-slate-600
-                    mt-3
-                    leading-7">
-                    Ask questions about treatments,
-                    services and healthcare options.
-                </p>
-                <span
-                    class="inline-flex items-center gap-2
-                    text-secondary font-semibold mt-5">
-                Ask Now
-                <i class="fa-solid fa-arrow-right"></i>
-                </span>
-            </a>
-            <!-- FIND DOCTOR -->
-            <a href="doctors.php"
-                class="group p-8 border-b md:border-b-0 md:border-r border-slate-200 hover:bg-slate-50 transition-all duration-300">
-                <div
-                    class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-user-doctor
-                        text-primary text-2xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary
-                    text-xl
-                    font-black">
-                    Find A Doctor
-                </h3>
-                <p
-                    class="text-slate-600
-                    mt-3
-                    leading-7">
-                    Explore our specialists and
-                    choose the right doctor.
-                </p>
-                <span
-                    class="inline-flex items-center gap-2
-                    text-secondary font-semibold mt-5">
-                View Doctors
-                <i class="fa-solid fa-arrow-right"></i>
-                </span>
-            </a>
-            <!-- EMERGENCY -->
-            <a href="tel:+977XXXXXXXXX"
-                class="group p-8 hover:bg-slate-50 transition-all duration-300">
-                <div
-                    class="w-16 h-16 bg-red-100 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-truck-medical
-                        text-red-600 text-2xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary
-                    text-xl
-                    font-black">
-                    Emergency Support
-                </h3>
-                <p
-                    class="text-slate-600
-                    mt-3
-                    leading-7">
-                    Immediate assistance for urgent
-                    medical situations.
-                </p>
-                <span
-                    class="inline-flex items-center gap-2
-                    text-red-600 font-semibold mt-5">
-                Call Now
-                <i class="fa-solid fa-phone"></i>
-                </span>
-            </a>
-        </div>
-    </div>
-</section>
-<!-- ========================================= -->
-<!-- APPOINTMENT & INQUIRY FORM -->
-<!-- ========================================= -->
-<section
-    id="appointmentForm"
-    class="section-padding bg-slate-50 overflow-hidden">
-    <div class="container-custom">
-        <div class="text-center max-w-4xl mx-auto mb-16">
+        <div class="text-center max-w-4xl mx-auto mb-8">
             <span class="section-subtitle">
             Appointment & Inquiry
             </span>
             <h2 class="section-title">
                 How Can We Help You Today?
             </h2>
-            <p
-                class="text-slate-600 mt-6 leading-8">
+            <p class="text-slate-600 mt-4 leading-8">
                 Submit your appointment request or medical inquiry
                 and our team will contact you as soon as possible.
             </p>
         </div>
-        <div
-            class="grid xl:grid-cols-12 gap-10">
+        <div class="grid xl:grid-cols-12 gap-8">
             <!-- FORM -->
-            <div
-                class="xl:col-span-8">
+            <div class="xl:col-span-8">
                 <div
                     class="bg-white border border-slate-200 p-8 lg:p-10">
                     <form>
@@ -230,7 +72,7 @@
                         </div>
                         <!-- PERSONAL INFO -->
                         <div
-                            class="grid md:grid-cols-2 gap-6">
+                            class="grid md:grid-cols-2 gap-4">
                             <div>
                                 <label
                                     class="block text-primary font-semibold mb-2">
@@ -270,7 +112,7 @@
                         </div>
                         <!-- HOSPITAL DETAILS -->
                         <div
-                            class="grid md:grid-cols-2 gap-6 mt-6">
+                            class="grid md:grid-cols-2 gap-6 mt-4">
                             <div>
                                 <label
                                     class="block text-primary font-semibold mb-2">
@@ -330,18 +172,18 @@
                             </div>
                         </div>
                         <!-- MESSAGE -->
-                        <div class="mt-6">
+                        <div class="mt-4">
                             <label
                                 class="block text-primary font-semibold mb-2">
                             Message / Requirement
                             </label>
                             <textarea
-                                rows="6"
+                                rows="4"
                                 class="w-full border border-slate-300 p-5 resize-none focus:border-secondary outline-none"
                                 placeholder="Describe your symptoms, appointment request, inquiry or healthcare requirement..."></textarea>
                         </div>
                         <!-- SUBMIT -->
-                        <div class="mt-8">
+                        <div class="mt-6">
                             <button
                                 type="submit"
                                 class="btn-primary">
@@ -429,7 +271,7 @@
                             please call our emergency team directly.
                         </p>
                         <a href="tel:+977XXXXXXXX"
-                            class="btn-secondary mt-6">
+                            class="btn-secondary mt-4">
                         Call Emergency
                         </a>
                     </div>
@@ -452,7 +294,7 @@
                 Trusted Healthcare For Local & International Patients
             </h2>
             <p
-                class="text-slate-600 mt-6 leading-8">
+                class="text-slate-600 mt-4 leading-8">
                 For more than four decades, CIWEC Hospital has been
                 providing world-class healthcare services, combining
                 medical expertise, advanced diagnostics and compassionate care.
@@ -462,7 +304,7 @@
         <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
             <!-- CARD -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                     <i
@@ -482,7 +324,7 @@
             </div>
             <!-- CARD -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                     <i
@@ -502,7 +344,7 @@
             </div>
             <!-- CARD -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                     <i
@@ -522,7 +364,7 @@
             </div>
             <!-- CARD -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                     <i
@@ -594,7 +436,7 @@
 <!-- ========================================= -->
 <!-- FIND YOUR DEPARTMENT -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
         <div class="text-center max-w-4xl mx-auto mb-16">
@@ -605,7 +447,7 @@
                 Find The Right Department
             </h2>
             <p
-                class="text-slate-600 mt-6 leading-8">
+                class="text-slate-600 mt-4 leading-8">
                 Not sure where to start? Explore our specialties and
                 choose the department that best matches your healthcare needs.
             </p>
@@ -633,7 +475,7 @@
                     chronic diseases and preventive care.
                 </p>
                 <span
-                    class="inline-flex items-center gap-2 text-secondary font-semibold mt-6">
+                    class="inline-flex items-center gap-2 text-secondary font-semibold mt-4">
                 Select Department
                 <i class="fa-solid fa-arrow-right"></i>
                 </span>
@@ -658,7 +500,7 @@
                     for infants, children and adolescents.
                 </p>
                 <span
-                    class="inline-flex items-center gap-2 text-secondary font-semibold mt-6">
+                    class="inline-flex items-center gap-2 text-secondary font-semibold mt-4">
                 Select Department
                 <i class="fa-solid fa-arrow-right"></i>
                 </span>
@@ -683,7 +525,7 @@
                     of heart and cardiovascular conditions.
                 </p>
                 <span
-                    class="inline-flex items-center gap-2 text-secondary font-semibold mt-6">
+                    class="inline-flex items-center gap-2 text-secondary font-semibold mt-4">
                 Select Department
                 <i class="fa-solid fa-arrow-right"></i>
                 </span>
@@ -708,7 +550,7 @@
                     muscles and sports injuries.
                 </p>
                 <span
-                    class="inline-flex items-center gap-2 text-secondary font-semibold mt-6">
+                    class="inline-flex items-center gap-2 text-secondary font-semibold mt-4">
                 Select Department
                 <i class="fa-solid fa-arrow-right"></i>
                 </span>
@@ -733,7 +575,7 @@
                     and executive screening packages.
                 </p>
                 <span
-                    class="inline-flex items-center gap-2 text-secondary font-semibold mt-6">
+                    class="inline-flex items-center gap-2 text-secondary font-semibold mt-4">
                 Select Department
                 <i class="fa-solid fa-arrow-right"></i>
                 </span>
@@ -758,7 +600,7 @@
                     and international healthcare support.
                 </p>
                 <span
-                    class="inline-flex items-center gap-2 text-secondary font-semibold mt-6">
+                    class="inline-flex items-center gap-2 text-secondary font-semibold mt-4">
                 Select Department
                 <i class="fa-solid fa-arrow-right"></i>
                 </span>
@@ -821,7 +663,7 @@
                 What Happens After You Submit?
             </h2>
             <p
-                class="text-slate-600 mt-6 leading-8">
+                class="text-slate-600 mt-4 leading-8">
                 Our appointment and inquiry process is designed to be
                 simple, efficient and patient-focused. Here's what you
                 can expect after submitting your request.
@@ -968,7 +810,7 @@
 <!-- ========================================= -->
 <!-- EMERGENCY SUPPORT -->
 <!-- ========================================= -->
-<section class="relative overflow-hidden bg-primary">
+<section class="section-padding relative overflow-hidden bg-primary">
     <!-- SHAPES -->
     <div
         class="absolute
@@ -1000,8 +842,7 @@
             class="grid
             xl:grid-cols-12
             gap-12
-            items-center
-            py-24">
+            items-center">
             <!-- LEFT -->
             <div
                 class="xl:col-span-7">
@@ -1022,8 +863,8 @@
                 </span>
                 <h2
                     class="text-white
-                    text-4xl
-                    md:text-5xl
+                    text-3xl
+                    md:text-4xl
                     font-black
                     leading-tight
                     mt-8">
@@ -1204,7 +1045,7 @@
                         class="grid
                         grid-cols-2
                         gap-4
-                        mt-6">
+                        mt-4">
                         <a
                             href="#"
                             class="border

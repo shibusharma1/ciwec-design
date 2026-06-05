@@ -74,7 +74,7 @@ function renderTable(data) {
   table.innerHTML = "";
   if (data.length === 0) {
     table.innerHTML = `
-                <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+                <tr class="border-b border-slate-200 hover:bg-slate-100 transition">
                     <td class="px-5 py-4 font-semibold text-primary">
                         1
                     </td>
@@ -95,7 +95,7 @@ function renderTable(data) {
 
   data.forEach((item, index) => {
     table.innerHTML += `
-            <tr class="border-b border-slate-200 hover:bg-slate-50 transition">
+            <tr class="border-b border-slate-200 hover:bg-slate-100 transition">
                 <td class="px-5 py-4 font-semibold text-primary">
                    ${index + 1}
                 </td>

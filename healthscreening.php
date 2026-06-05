@@ -158,7 +158,7 @@
       </div>
       <!-- BOTTOM STATS -->
       <div class="grid md:grid-cols-4 gap-6 mt-20">
-         <div class="bg-slate-50 border border-slate-200 p-8 text-center">
+         <div class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3 class="text-primary text-4xl font-black">
                100+
             </h3>
@@ -166,7 +166,7 @@
                Health Articles
             </p>
          </div>
-         <div class="bg-slate-50 border border-slate-200 p-8 text-center">
+         <div class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3 class="text-primary text-4xl font-black">
                40+
             </h3>
@@ -174,7 +174,7 @@
                Years Of Expertise
             </p>
          </div>
-         <div class="bg-slate-50 border border-slate-200 p-8 text-center">
+         <div class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3 class="text-primary text-4xl font-black">
                Travel
             </h3>
@@ -182,7 +182,7 @@
                Health Specialists
             </p>
          </div>
-         <div class="bg-slate-50 border border-slate-200 p-8 text-center">
+         <div class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3 class="text-primary text-4xl font-black">
                Trusted
             </h3>
@@ -196,7 +196,7 @@
 <!-- ========================================= -->
 <!-- HEALTH CATEGORIES -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
       <div class="text-center max-w-4xl mx-auto mb-16">
@@ -418,7 +418,7 @@
          </p>
       </div>
       <!-- FEATURED GUIDE -->
-      <div class="bg-slate-50 border border-slate-200 overflow-hidden">
+      <div class="bg-slate-100 border border-slate-200 overflow-hidden">
          <div class="grid lg:grid-cols-12 items-center">
             <!-- IMAGE -->
             <div class="lg:col-span-5 relative">
@@ -487,7 +487,7 @@
                   Read Full Guide
                   </button>
                   <button
-                     class="border border-primary text-primary px-8 py-4 font-semibold hover:bg-primary hover:text-white transition">
+                     class="btn-secondary">
                   Download PDF
                   </button>
                </div>
@@ -592,7 +592,7 @@
 <!-- ========================================= -->
 <section
    id="health-library"
-   class="section-padding bg-slate-50 overflow-hidden">
+   class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
       <div
@@ -1142,7 +1142,7 @@
                   Read Guide
                   </button>
                   <button
-                     class="btn-light">
+                     class="btn-light text-white">
                   Download PDF
                   </button>
                </div>
@@ -1162,7 +1162,7 @@
          class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-16">
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -1181,7 +1181,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -1200,7 +1200,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -1219,7 +1219,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -1238,7 +1238,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -1257,7 +1257,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -1279,7 +1279,7 @@
       <div
          class="grid md:grid-cols-4 gap-6 mt-20">
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
                class="text-primary text-4xl font-black">
                40+
@@ -1290,7 +1290,7 @@
             </p>
          </div>
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
                class="text-primary text-4xl font-black">
                Global
@@ -1301,7 +1301,7 @@
             </p>
          </div>
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
                class="text-primary text-4xl font-black">
                Trusted
@@ -1312,7 +1312,7 @@
             </p>
          </div>
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
                class="text-primary text-4xl font-black">
                24/7
@@ -1328,7 +1328,7 @@
 <!-- ========================================= -->
 <!-- FAQ SECTION -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
       <div
@@ -1550,7 +1550,7 @@
 <!-- ========================================= -->
 <!-- EMERGENCY HEALTH RESOURCES -->
 <!-- ========================================= -->
-<section class="relative overflow-hidden bg-primary">
+<section class="section-padding relative overflow-hidden bg-primary">
    <!-- BACKGROUND SHAPES -->
    <div
       class="absolute
@@ -1578,8 +1578,7 @@
       class="container-custom
       relative
       z-10">
-      <div
-         class="py-24">
+      <div>
          <!-- HEADER -->
          <div
             class="text-center max-w-4xl mx-auto">
@@ -1599,7 +1598,7 @@
             </span>
             <h2
                class="text-white
-               text-4xl
+               text-3xl
                md:text-5xl
                font-black
                mt-8">
@@ -1617,7 +1616,7 @@
          </div>
          <!-- WARNING SIGNS -->
          <div
-            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-20">
+            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-16">
             <!-- ITEM -->
             <div
                class="bg-white/5 border border-white/10 p-8">
@@ -1805,7 +1804,7 @@
          class="grid md:grid-cols-3 gap-8 mt-12">
          <!-- CARD -->
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <div
                class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -1824,7 +1823,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <div
                class="w-16 h-16 mx-auto bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -1843,7 +1842,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <div
                class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -2048,7 +2047,7 @@
 <!-- ========================================= -->
 <!-- HEALTH SCREENING CTA -->
 <!-- ========================================= -->
-<section class="relative overflow-hidden bg-slate-950">
+<section class="relative overflow-hidden hidden bg-slate-950">
    <!-- DECORATIVE SHAPES -->
    <div
       class="absolute top-0 left-0 w-[500px] h-[500px] bg-primary/20 rounded-full -translate-x-1/2 -translate-y-1/2">
@@ -2069,7 +2068,7 @@
             Take Control Of Your Health
             </span>
             <h2
-               class="text-white text-5xl lg:text-6xl font-black mt-8 leading-tight">
+               class="text-white text-4xl lg:text-6xl font-black mt-8 leading-tight">
                Your Future Health
                Starts With One Screening
             </h2>
@@ -2186,7 +2185,7 @@
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-24">
             <div class="text-center">
                <h3
-                  class="text-white text-5xl font-black">
+                  class="text-white text-4xl font-black">
                   40+
                </h3>
                <p
@@ -2196,7 +2195,7 @@
             </div>
             <div class="text-center">
                <h3
-                  class="text-white text-5xl font-black">
+                  class="text-white text-4xl font-black">
                   Trusted
                </h3>
                <p
@@ -2206,7 +2205,7 @@
             </div>
             <div class="text-center">
                <h3
-                  class="text-white text-5xl font-black">
+                  class="text-white text-4xl font-black">
                   Preventive
                </h3>
                <p
@@ -2216,7 +2215,7 @@
             </div>
             <div class="text-center">
                <h3
-                  class="text-white text-5xl font-black">
+                  class="text-white text-4xl font-black">
                   Expert
                </h3>
                <p

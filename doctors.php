@@ -1,42 +1,28 @@
-<?php include "./include/header.php"; ?>
+<?php
+$hero_title = "Doctors at CIWEC";
+include "./include/header.php";
+include "./include/herobanner.php";
+?>
 <style>
    .specialty-chip {
-   padding: 12px 24px;
-   border: 1px solid #e2e8f0;
-   background: white;
-   font-weight: 600;
-   transition: all .3s ease;
+      padding: 12px 24px;
+      border: 1px solid #e2e8f0;
+      background: white;
+      font-weight: 600;
+      transition: all .3s ease;
    }
+
    .specialty-chip:hover {
-   border-color: #f59e0b;
+      border-color: var(--primary);
    }
+
    .active-specialty {
-   background: #0A3C69;
-   color: white;
-   border-color: #0A3C69;
+      background: #0A3C69;
+      color: white;
+      border-color: #0A3C69;
    }
 </style>
-<section class="relative h-[220px] md:h-[280px] overflow-hidden">
-   <img src="./assets/img/contact-banner.jpg"
-      class="absolute inset-0 w-full h-full object-cover">
-   <div class="absolute inset-0 bg-primary/80"></div>
-   <div class="relative z-10 h-full flex items-center">
-      <div class="container-custom">
-         <h1 class="text-white text-center text-3xl md:text-5xl font-black mb-3">
-            Doctors at CIWEC
-         </h1>
-         <div class="flex items-center justify-center gap-2 text-white/90">
-            <a href="index.php" class="hover:text-secondary">
-            Home
-            </a>
-            <i class="fa-solid fa-angle-right text-xs"></i>
-            <span class="text-secondary">
-            Doctors at CIWEC
-            </span>
-         </div>
-      </div>
-   </div>
-</section>
+
 <!-- ========================================= -->
 <!-- MEDICAL EXCELLENCE -->
 <!-- ========================================= -->
@@ -59,7 +45,7 @@
                   class="absolute bottom-8 left-8 bg-white shadow-2xl p-6 max-w-[300px]">
                   <span
                      class="text-secondary font-bold uppercase text-sm">
-                  Patient-Centered Care
+                     Patient-Centered Care
                   </span>
                   <h3
                      class="text-primary text-2xl font-black mt-3">
@@ -77,7 +63,7 @@
          <div
             class="lg:col-span-7">
             <span class="section-subtitle">
-            Medical Excellence
+               Medical Excellence
             </span>
             <h2 class="section-title">
                Healthcare Delivered By
@@ -189,11 +175,11 @@
       </div>
       <!-- STATISTICS -->
       <div
-         class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-24">
+         class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-16">
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
-               class="text-primary text-5xl font-black">
+               class="text-primary text-4xl font-black">
                40+
             </h3>
             <p
@@ -202,9 +188,9 @@
             </p>
          </div>
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
-               class="text-primary text-5xl font-black">
+               class="text-primary text-4xl font-black">
                Expert
             </h3>
             <p
@@ -213,9 +199,9 @@
             </p>
          </div>
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
-               class="text-primary text-5xl font-black">
+               class="text-primary text-4xl font-black">
                Trusted
             </h3>
             <p
@@ -224,9 +210,9 @@
             </p>
          </div>
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
-               class="text-primary text-5xl font-black">
+               class="text-primary text-4xl font-black">
                Global
             </h3>
             <p
@@ -240,1068 +226,763 @@
 <!-- ========================================= -->
 <!-- DOCTOR SEARCH CENTER -->
 <!-- ========================================= -->
-<section
-   id="doctor-search"
-   class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-50 overflow-hidden">
+
    <div class="container-custom">
-      <!-- HEADER -->
-      <div
-         class="text-center max-w-4xl mx-auto mb-16">
+
+      <div class="max-w-5xl mx-auto text-center">
+
          <span class="section-subtitle">
-         Find Your Specialist
+            Medical Specialists
          </span>
-         <h2 class="section-title">
-            Doctor Search Center
-         </h2>
-         <p
-            class="text-slate-600 mt-6 leading-8">
-            Quickly find the right healthcare professional
-            based on specialty, location or doctor name.
+
+         <h1 class="section-title">
+            Find The Right Doctor
+         </h1>
+
+         <p class="text-slate-600 mt-6 leading-8 max-w-3xl mx-auto">
+            Search our team of experienced healthcare professionals
+            by name, specialty or location.
          </p>
+
       </div>
-      <!-- SEARCH PANEL -->
+
+      <!-- SEARCH -->
+
       <div
-         class="bg-white border border-slate-200 p-8 lg:p-10 shadow-sm">
+         class="max-w-5xl mx-auto mt-14 bg-white border border-slate-200 p-6 lg:p-8 shadow-sm">
+
          <div
             class="grid lg:grid-cols-12 gap-5">
+
             <!-- SEARCH -->
-            <div
-               class="lg:col-span-5">
+
+            <div class="lg:col-span-5">
+
                <label
                   class="block text-primary font-semibold mb-3">
-               Search Doctor
+
+                  Search Doctor
+
                </label>
-               <div
-                  class="relative">
+
+               <div class="relative">
+
                   <input
                      type="text"
                      id="doctorSearch"
-                     placeholder="Enter doctor name..."
+                     placeholder="Search by doctor name..."
                      class="w-full h-14 border border-slate-300 pl-14 pr-5 focus:border-secondary outline-none">
+
                   <i
                      class="fa-solid fa-magnifying-glass absolute left-5 top-1/2 -translate-y-1/2 text-slate-400">
                   </i>
+
                </div>
+
             </div>
-            <!-- SPECIALTY -->
-            <div
-               class="lg:col-span-3">
+
+            <!-- DEPARTMENT -->
+
+            <div class="lg:col-span-3">
+
                <label
                   class="block text-primary font-semibold mb-3">
-               Specialty
+
+                  Specialty
+
                </label>
+
                <select
                   id="departmentFilter"
                   class="w-full h-14 border border-slate-300 px-4">
+
                   <option value="">
                      All Specialties
                   </option>
-                  <option value="Internal Medicine">
-                     Internal Medicine
-                  </option>
-                  <option value="Cardiology">
-                     Cardiology
-                  </option>
-                  <option value="Pediatrics">
-                     Pediatrics
-                  </option>
-                  <option value="Travel Medicine">
-                     Travel Medicine
-                  </option>
-                  <option value="Dermatology">
-                     Dermatology
-                  </option>
+
                </select>
+
             </div>
+
             <!-- LOCATION -->
-            <div
-               class="lg:col-span-2">
+
+            <div class="lg:col-span-2">
+
                <label
                   class="block text-primary font-semibold mb-3">
-               Location
+
+                  Location
+
                </label>
+
                <select
                   id="locationFilter"
                   class="w-full h-14 border border-slate-300 px-4">
+
                   <option value="">
                      All Locations
                   </option>
+
                   <option value="Kathmandu">
                      Kathmandu
                   </option>
+
                   <option value="Pokhara">
                      Pokhara
                   </option>
+
                </select>
+
             </div>
+
             <!-- BUTTON -->
+
             <div
                class="lg:col-span-2 flex items-end">
+
                <button
                   id="searchDoctorBtn"
                   class="btn-primary w-full">
-               Search
+
+                  Search
+
                </button>
+
             </div>
+
          </div>
+
       </div>
-      <!-- QUICK SPECIALTIES -->
-      <div
-         class="mt-12">
-         <div
-            class="flex flex-wrap justify-center gap-4">
-            <button
-               class="specialty-chip active-specialty"
-               data-specialty="all">
-            All Specialists
-            </button>
-            <button
-               class="specialty-chip"
-               data-specialty="Internal Medicine">
-            Internal Medicine
-            </button>
-            <button
-               class="specialty-chip"
-               data-specialty="Travel Medicine">
-            Travel Medicine
-            </button>
-            <button
-               class="specialty-chip"
-               data-specialty="Cardiology">
-            Cardiology
-            </button>
-            <button
-               class="specialty-chip"
-               data-specialty="Pediatrics">
-            Pediatrics
-            </button>
-            <button
-               class="specialty-chip"
-               data-specialty="Dermatology">
-            Dermatology
-            </button>
-         </div>
-      </div>
-      <!-- RESULT BAR -->
-      <div
-         class="bg-white border border-slate-200 mt-10 p-6 flex flex-wrap justify-between items-center">
-         <h3
-            class="text-primary text-xl font-black">
-            Available Doctors
-         </h3>
-         <span
-            id="doctorCount"
-            class="text-slate-500">
-         Showing All Doctors
-         </span>
-      </div>
-      <!-- QUICK INFO -->
-      <div
-         class="grid md:grid-cols-3 gap-8 mt-10">
-         <div
-            class="bg-white border border-slate-200 p-8 text-center">
-            <div
-               class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-5">
-               <i
-                  class="fa-solid fa-user-doctor text-primary text-2xl">
-               </i>
-            </div>
-            <h3
-               class="text-primary text-3xl font-black">
-               Expert Team
-            </h3>
-            <p
-               class="text-slate-600 mt-3">
-               Highly qualified specialists across disciplines.
-            </p>
-         </div>
-         <div
-            class="bg-white border border-slate-200 p-8 text-center">
-            <div
-               class="w-16 h-16 mx-auto bg-secondary/10 flex items-center justify-center mb-5">
-               <i
-                  class="fa-solid fa-calendar-check text-secondary text-2xl">
-               </i>
-            </div>
-            <h3
-               class="text-primary text-3xl font-black">
-               Easy Booking
-            </h3>
-            <p
-               class="text-slate-600 mt-3">
-               Schedule appointments with your preferred doctor.
-            </p>
-         </div>
-         <div
-            class="bg-white border border-slate-200 p-8 text-center">
-            <div
-               class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-5">
-               <i
-                  class="fa-solid fa-hospital text-primary text-2xl">
-               </i>
-            </div>
-            <h3
-               class="text-primary text-3xl font-black">
-               Multiple Locations
-            </h3>
-            <p
-               class="text-slate-600 mt-3">
-               Access care in Kathmandu and Pokhara.
-            </p>
-         </div>
-      </div>
+
    </div>
+
 </section>
-<section class="py-20">
+<section class="pb-10 bg-slate-50">
+
    <div class="container-custom">
+
       <div
-         id="doctorLoader"
-         class="hidden py-20">
-         <div class="flex flex-col items-center">
-            <div
-               class="w-14 h-14
-               border-[3px]
-               border-slate-200
-               border-t-secondary
-               rounded-full
-               animate-spin">
-            </div>
-            <p class="text-slate-500
-               text-sm
-               font-medium
-               mt-4">
-               Loading Doctors...
-            </p>
-         </div>
+         class="flex flex-wrap justify-center gap-3">
+
+         <button
+            class="gallery-filter specialty-chip active"
+            data-specialty="all">
+
+            All Specialists
+
+         </button>
+
+         <button
+            class="gallery-filter specialty-chip"
+            data-specialty="Internal Medicine">
+
+            Internal Medicine
+
+         </button>
+
+         <button
+            class="gallery-filter specialty-chip"
+            data-specialty="Travel">
+
+            Travel Medicine
+
+         </button>
+
+         <button
+            class="gallery-filter specialty-chip"
+            data-specialty="Cardiology">
+
+            Cardiology
+
+         </button>
+
+         <button
+            class="gallery-filter specialty-chip"
+            data-specialty="Pediatrics">
+
+            Pediatrics
+
+         </button>
+
       </div>
+
+   </div>
+
+</section>
+<section class="pb-20 bg-white">
+
+   <div class="container-custom">
+
+      <div
+         class="grid md:grid-cols-3 gap-8">
+
+         <div
+            class="bg-slate-50 border border-slate-200 p-10 text-center">
+
+            <div
+               class="text-primary text-5xl font-black">
+
+               50+
+
+            </div>
+
+            <h3
+               class="text-primary font-bold mt-4">
+
+               Specialists
+
+            </h3>
+
+         </div>
+
+         <div
+            class="bg-slate-50 border border-slate-200 p-10 text-center">
+
+            <div
+               class="text-secondary text-5xl font-black">
+
+               2
+
+            </div>
+
+            <h3
+               class="text-primary font-bold mt-4">
+
+               Locations
+
+            </h3>
+
+         </div>
+
+         <div
+            class="bg-slate-50 border border-slate-200 p-10 text-center">
+
+            <div
+               class="text-primary text-5xl font-black">
+
+               24/7
+
+            </div>
+
+            <h3
+               class="text-primary font-bold mt-4">
+
+               Healthcare Support
+
+            </h3>
+
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- <section class="py-20">
+    <div class="container-custom">
+        <div
+            id="doctorLoader"
+            class="hidden py-20">
+
+            <div class="flex flex-col items-center">
+
+                <div
+                    class="w-14 h-14
+                    border-[3px]
+                    border-slate-200
+                    border-t-secondary
+                    rounded-full
+                    animate-spin">
+                </div>
+
+                <p class="text-slate-500
+                        text-sm
+                        font-medium
+                        mt-4">
+                    Loading Doctors...
+                </p>
+            </div>
+        </div>
+        <div
+            id="doctorGrid"
+            class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        </div>
+    </div>
+</section> -->
+<section class="pb-24 bg-white">
+
+   <div class="container-custom">
+
+      <div
+         class="flex flex-wrap items-center justify-between gap-4 mb-12">
+
+         <div>
+
+            <h2
+               class="text-primary text-4xl font-black">
+
+               Available Doctors
+
+            </h2>
+
+            <p
+               class="text-slate-500 mt-2">
+
+               Browse our medical professionals
+
+            </p>
+
+         </div>
+
+         <div
+            class="bg-primary text-white px-6 py-3 font-semibold">
+
+            <span id="doctorCount">
+
+               Showing All Doctors
+
+            </span>
+
+         </div>
+
+      </div>
+
+      <div id="doctorLoader"></div>
+
       <div
          id="doctorGrid"
          class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
       </div>
+
    </div>
+
 </section>
-<div id="doctorModal"
-   class="fixed inset-0 z-[9999] hidden">
-   <div id="doctorOverlay" class="absolute inset-0 bg-black/70 backdrop-blur-sm">
-   </div>
-   <div
-      class="relative h-screen flex items-center justify-center p-4">
-      <div
-         class="bg-white max-w-5xl w-full max-h-[90vh] overflow-y-auto">
-         <button
-            id="closeDoctorModal"
-            class="absolute top-4 right-4 w-10 h-10 bg-primary text-white">
-         <i class="fa-solid fa-xmark"></i>
-         </button>
-         <div id="doctorModalContent"></div>
-      </div>
-   </div>
-</div>
+
+
+
+
+
+
 <script>
    const doctors = [
-   
-       {
-           name: "Dr. David R. Shlim",
-           location: "Kathmandu",
-           department: "Internal Medicine",
-           specialty: "Pediatrics",
-           qualification: "MD, Medical Director Emeritus",
-           experience: "25+ Years",
-           image: "./assets/img/doctors/david.png",
-   
-           about: "Extensive experience in travel medicine and infectious disease.",
-   
-           education: [
-               "Harvard Medical School",
-               "Internal Medicine Residency"
-           ],
-   
-           languages: "English, Nepali",
-   
-           patients: "5000+",
-           research: "12"
-   
-       },
-   
-       {
-           name: "Dr. Samrat Bashyal",
-           location: "Kathmandu",
-           department: "General Practice",
-           specialty: "Travel",
-           qualification: "MD, General Practitioner",
-           experience: "10+ Years",
-           image: "./assets/img/doctors/samrat.png",
-   
-           about: "Experienced physician focusing on primary healthcare.",
-   
-           education: [
-               "Kathmandu University",
-               "MD General Practice"
-           ],
-   
-           languages: "English, Nepali",
-   
-           patients: "3500+",
-           research: "5"
-       }
-   
+
+      {
+         name: "Dr. David R. Shlim",
+         location: "Kathmandu",
+         department: "Internal Medicine",
+         qualification: "MD, Medical Director Emeritus",
+         experience: "25+ Years",
+         image: "./assets/doctors/david.png",
+
+         about: "Extensive experience in travel medicine and infectious disease.",
+
+         education: [
+            "Harvard Medical School",
+            "Internal Medicine Residency"
+         ],
+
+         languages: "English, Nepali",
+
+         patients: "5000+",
+         research: "12"
+
+      },
+
+      {
+         name: "Dr. Samrat Bashyal",
+         location: "Kathmandu",
+         department: "General Practice",
+         qualification: "MD, General Practitioner",
+         experience: "10+ Years",
+         image: "./assets/doctors/samrat.png",
+
+         about: "Experienced physician focusing on primary healthcare.",
+
+         education: [
+            "Kathmandu University",
+            "MD General Practice"
+         ],
+
+         languages: "English, Nepali",
+
+         patients: "3500+",
+         research: "5"
+      }
+
    ];
 </script>
 <script>
    const doctorLoader =
-       document.getElementById("doctorLoader");
-   
+      document.getElementById("doctorLoader");
+
    const doctorGrid =
-       document.getElementById("doctorGrid");
-   
+      document.getElementById("doctorGrid");
+
    function showLoader() {
-   
-       doctorLoader.classList.remove("hidden");
-   
-       doctorGrid.classList.add("hidden");
-   
+
+      doctorLoader.classList.remove("hidden");
+
+      doctorGrid.classList.add("hidden");
+
    }
-   
+
    function hideLoader() {
-   
-       doctorLoader.classList.add("hidden");
-   
-       doctorGrid.classList.remove("hidden");
-   
+
+      doctorLoader.classList.add("hidden");
+
+      doctorGrid.classList.remove("hidden");
+
    }
 </script>
 <script>
    function renderDoctors(data) {
-   
-       doctorGrid.innerHTML = "";
-   
-       if (data.length === 0) {
-   
-           doctorGrid.innerHTML = `
-   
-   <div class="col-span-full text-center py-20">
-   
-   <i class="fa-solid fa-user-doctor text-5xl text-slate-300 mb-4"></i>
-   
-   <p class="text-slate-500">
-   
-       No doctors found
-   
-   </p>
-   
-   </div>
-   
-   `;
-   
-           return;
-   
-       }
-   
-       data.forEach((doctor, index) => {
-   
-           doctorGrid.innerHTML += `
-   
+
+      doctorGrid.innerHTML = "";
+
+      if (data.length === 0) {
+
+         doctorGrid.innerHTML = `
+    
+    <div class="col-span-full text-center py-20">
+    
+    <i class="fa-solid fa-user-doctor text-5xl text-slate-300 mb-4"></i>
+    
+    <p class="text-slate-500">
+    
+        No doctors found
+    
+    </p>
+    
+    </div>
+    
+    `;
+
+         return;
+
+      }
+
+      data.forEach((doctor, index) => {
+
+         doctorGrid.innerHTML += `
+    
    <article
-   class="group bg-white border border-slate-200 hover:border-secondary hover:shadow-xl transition-all duration-300  data-specialty="${doctor.specialty}"
-   data-location="${doctor.location}"">
-   
-   <div class="relative">
-   
-       <img
-       src="${doctor.image}"
-       class="w-full h-[320px] object-cover">
-   
-       <div class="absolute top-4 left-4">
-   
-           <span
-           class="bg-primary text-white px-3 py-1 text-xs">
-   
-               ${doctor.location}
-   
-           </span>
-   
-       </div>
-   
-   </div>
-   
-   <div class="p-6">
-   
-       <h3
-       class="text-primary text-xl font-black">
-   
-           ${doctor.name}
-   
-       </h3>
-   
-       <p
-       class="text-secondary font-semibold mt-2">
-   
-           ${doctor.department}
-   
-       </p>
-   
-       <p
-       class="text-slate-500 text-sm mt-3">
-   
-           ${doctor.qualification}
-   
-       </p>
-   
-       <div
-       class="mt-4 pt-4 border-t">
-   
-           <span
-           class="text-sm text-slate-600">
-   
-               ${doctor.experience}
-   
-           </span>
-   
-       </div>
-   
-       <button
-       onclick="openDoctor(${index})"
-       class="btn-primary w-full mt-5">
-   
-           View Profile
-   
-       </button>
-   
-   </div>
-   
-   </article>
-   
-   `;
-   
-       });
-   
+    class="doctor-card group bg-white border border-slate-200 hover:border-secondary hover:shadow-xl transition-all duration-300"
+    data-specialty="${doctor.specialty}"
+    data-location="${doctor.location}">   
+    
+    <div class="relative">
+    
+        <img
+        src="${doctor.image}"
+        class="w-full h-[320px] object-cover">
+    
+        <div class="absolute top-4 left-4">
+    
+            <span
+            class="bg-primary text-white px-3 py-1 text-xs">
+    
+                ${doctor.location}
+    
+            </span>
+    
+        </div>
+    
+    </div>
+    
+    <div class="p-6">
+    
+        <h3
+        class="text-primary text-xl font-black">
+    
+            ${doctor.name}
+    
+        </h3>
+    
+        <p
+        class="text-secondary font-semibold mt-2">
+    
+            ${doctor.department}
+    
+        </p>
+    
+        <p
+        class="text-slate-500 text-sm mt-3">
+    
+            ${doctor.qualification}
+    
+        </p>
+    
+        <div
+        class="mt-4 pt-4 border-t">
+    
+            <span
+            class="text-sm text-slate-600">
+    
+                ${doctor.experience}
+    
+            </span>
+    
+        </div>
+    
+        <button
+        onclick="openDoctor(${index})"
+        class="btn-primary w-full mt-5">
+    
+            View Profile
+    
+        </button>
+    
+    </div>
+    
+    </article>
+    
+    `;
+
+      });
+
    }
 </script>
 <script>
    const doctorModal =
-       document.getElementById("doctorModal");
-   
+      document.getElementById("doctorModal");
+
    const doctorModalContent =
-       document.getElementById("doctorModalContent");
-   
+      document.getElementById("doctorModalContent");
+
    function openDoctor(index) {
-   
-       const doctor = doctors[index];
-   
-       doctorModalContent.innerHTML = `
-   
-   <div class="grid lg:grid-cols-2">
-   
-   <div>
-   
-       <img
-       src="${doctor.image}"
-       class="w-full h-full object-cover">
-   
-   </div>
-   
-   <div class="p-10">
-   
-       <h2
-       class="text-primary text-4xl font-black">
-   
-           ${doctor.name}
-   
-       </h2>
-   
-       <p
-       class="text-secondary font-bold mt-2">
-   
-           ${doctor.department}
-   
-       </p>
-   
-       <p
-       class="text-slate-600 mt-4">
-   
-           ${doctor.qualification}
-   
-       </p>
-   
-       <div
-       class="grid grid-cols-3 gap-4 mt-8">
-   
-           <div>
-   
-               <h4 class="text-2xl font-black text-primary">
-   
-                   ${doctor.experience}
-   
-               </h4>
-   
-               <p class="text-sm">
-   
-                   Experience
-   
-               </p>
-   
-           </div>
-   
-           <div>
-   
-               <h4 class="text-2xl font-black text-primary">
-   
-                   ${doctor.patients}
-   
-               </h4>
-   
-               <p class="text-sm">
-   
-                   Patients
-   
-               </p>
-   
-           </div>
-   
-           <div>
-   
-               <h4 class="text-2xl font-black text-primary">
-   
-                   ${doctor.research}
-   
-               </h4>
-   
-               <p class="text-sm">
-   
-                   Publications
-   
-               </p>
-   
-           </div>
-   
-       </div>
-   
-       <h3
-       class="font-black text-primary mt-10 mb-3">
-   
-           About Doctor
-   
-       </h3>
-   
-       <p class="text-slate-600">
-   
-           ${doctor.about}
-   
-       </p>
-   
-       <h3
-       class="font-black text-primary mt-8 mb-3">
-   
-           Education
-   
-       </h3>
-   
-       <ul class="space-y-2">
-   
-           ${doctor.education.map(item=>`<li>${item}</li>`).join("")}
-   
-       </ul>
-   
-       <a
-       href="./bookappointment.php"
-       class="btn-primary mt-8 inline-flex">
-   
-           Book Appointment
-   
-       </a>
-   
-   </div>
-   
-   </div>
-   
-   `;
-   
-       doctorModal.classList.remove("hidden");
-   
-       document.body.style.overflow = "hidden";
-   
+
+      const doctor = doctors[index];
+
+      doctorModalContent.innerHTML = `
+    
+    <div class="grid lg:grid-cols-2">
+    
+    <div>
+    
+        <img
+        src="${doctor.image}"
+        class="w-full h-full object-cover">
+    
+    </div>
+    
+    <div class="p-10">
+    
+        <h2
+        class="text-primary text-4xl font-black">
+    
+            ${doctor.name}
+    
+        </h2>
+    
+        <p
+        class="text-secondary font-bold mt-2">
+    
+            ${doctor.department}
+    
+        </p>
+    
+        <p
+        class="text-slate-600 mt-4">
+    
+            ${doctor.qualification}
+    
+        </p>
+    
+        <div
+        class="grid grid-cols-3 gap-4 mt-8">
+    
+            <div>
+    
+                <h4 class="text-2xl font-black text-primary">
+    
+                    ${doctor.experience}
+    
+                </h4>
+    
+                <p class="text-sm">
+    
+                    Experience
+    
+                </p>
+    
+            </div>
+    
+            <div>
+    
+                <h4 class="text-2xl font-black text-primary">
+    
+                    ${doctor.patients}
+    
+                </h4>
+    
+                <p class="text-sm">
+    
+                    Patients
+    
+                </p>
+    
+            </div>
+    
+            <div>
+    
+                <h4 class="text-2xl font-black text-primary">
+    
+                    ${doctor.research}
+    
+                </h4>
+    
+                <p class="text-sm">
+    
+                    Publications
+    
+                </p>
+    
+            </div>
+    
+        </div>
+    
+        <h3
+        class="font-black text-primary mt-10 mb-3">
+    
+            About Doctor
+    
+        </h3>
+    
+        <p class="text-slate-600">
+    
+            ${doctor.about}
+    
+        </p>
+    
+        <h3
+        class="font-black text-primary mt-8 mb-3">
+    
+            Education
+    
+        </h3>
+    
+        <ul class="space-y-2">
+    
+            ${doctor.education.map(item=>`<li>${item}</li>`).join("")}
+    
+        </ul>
+    
+        <a
+        href="./bookappointment.php"
+        class="btn-primary mt-8 inline-flex">
+    
+            Book Appointment
+    
+        </a>
+    
+    </div>
+    
+    </div>
+    
+    `;
+
+      doctorModal.classList.remove("hidden");
+
+      document.body.style.overflow = "hidden";
+
    }
 </script>
 <script>
    document
-       .getElementById("closeDoctorModal")
-       .addEventListener("click", closeDoctor);
-   
+      .getElementById("closeDoctorModal")
+      .addEventListener("click", closeDoctor);
+
    document
-       .getElementById("doctorOverlay")
-       .addEventListener("click", closeDoctor);
-   
+      .getElementById("doctorOverlay")
+      .addEventListener("click", closeDoctor);
+
    function closeDoctor() {
-   
-       doctorModal.classList.add("hidden");
-   
-       document.body.style.overflow = "";
-   
+
+      doctorModal.classList.add("hidden");
+
+      document.body.style.overflow = "";
+
    }
 </script>
 <script>
    const search =
-       document.getElementById("doctorSearch");
-   
+      document.getElementById("doctorSearch");
+
    const department =
-       document.getElementById("departmentFilter");
-   
+      document.getElementById("departmentFilter");
+
    const location =
-       document.getElementById("locationFilter");
-   
+      document.getElementById("locationFilter");
+
    let doctorFilterTimeout;
-   
+
    let filterTimeout;
-   
+
    function filterDoctors() {
-   
-       clearTimeout(filterTimeout);
-   
-       showLoader();
-   
-       filterTimeout = setTimeout(() => {
-   
-           const keyword =
-               search.value.toLowerCase();
-   
-           const dept =
-               department.value;
-   
-           const loc =
-               location.value;
-   
-           const filtered =
-               doctors.filter(doctor => {
-   
-                   const matchSearch =
-                       doctor.name.toLowerCase().includes(keyword);
-   
-                   const matchDepartment =
-                       dept === "" ||
-                       doctor.department === dept;
-   
-                   const matchLocation =
-                       loc === "" ||
-                       doctor.location === loc;
-   
-                   return (
-                       matchSearch &&
-                       matchDepartment &&
-                       matchLocation
-                   );
-   
-               });
-   
-           renderDoctors(filtered);
-   
-           hideLoader();
-   
-       }, 700);
-   
+
+      clearTimeout(filterTimeout);
+
+      showLoader();
+
+      filterTimeout = setTimeout(() => {
+
+         const keyword =
+            search.value.toLowerCase();
+
+         const dept =
+            department.value;
+
+         const loc =
+            location.value;
+
+         const filtered =
+            doctors.filter(doctor => {
+
+               const matchSearch =
+                  doctor.name.toLowerCase().includes(keyword);
+
+               const matchDepartment =
+                  dept === "" ||
+                  doctor.department === dept;
+
+               const matchLocation =
+                  loc === "" ||
+                  doctor.location === loc;
+
+               return (
+                  matchSearch &&
+                  matchDepartment &&
+                  matchLocation
+               );
+
+            });
+
+         renderDoctors(filtered);
+
+         hideLoader();
+
+      }, 700);
+
    }
 </script>
 <script>
    document.addEventListener("DOMContentLoaded", () => {
-   
-       showLoader();
-   
-       setTimeout(() => {
-   
-           renderDoctors(doctors);
-   
-           hideLoader();
-   
-       }, 1000);
-   
+
+      showLoader();
+
+      setTimeout(() => {
+
+         renderDoctors(doctors);
+
+         hideLoader();
+
+      }, 1000);
+
    });
 </script>
-<!-- ========================================= -->
-<!-- FEATURED SPECIALISTS -->
-<!-- ========================================= -->
-<section class="section-padding bg-white overflow-hidden">
-   <div class="container-custom">
-      <!-- HEADER -->
-      <div
-         class="text-center max-w-4xl mx-auto mb-20">
-         <span class="section-subtitle">
-         Featured Specialists
-         </span>
-         <h2 class="section-title">
-            Meet Some Of Our Leading Doctors
-         </h2>
-         <p
-            class="text-slate-600 mt-6 leading-8">
-            Our experienced specialists combine clinical
-            expertise, compassion and evidence-based medicine
-            to deliver exceptional healthcare services.
-         </p>
-      </div>
-      <!-- FEATURED DOCTOR -->
-      <div
-         class="bg-slate-50 border border-slate-200 overflow-hidden mb-12">
-         <div
-            class="grid lg:grid-cols-12 items-center">
-            <!-- IMAGE -->
-            <div
-               class="lg:col-span-4">
-               <img
-                  src="./assets/img/featured-doctor.jpg"
-                  alt=""
-                  class="w-full h-full min-h-[550px] object-cover">
-            </div>
-            <!-- CONTENT -->
-            <div
-               class="lg:col-span-8 p-10 lg:p-14">
-               <span
-                  class="text-secondary font-bold uppercase tracking-[3px]">
-               Chief Specialist
-               </span>
-               <h3
-                  class="text-primary text-4xl font-black mt-4">
-                  Dr. John Smith
-               </h3>
-               <p
-                  class="text-secondary text-xl font-semibold mt-3">
-                  Internal Medicine & Travel Medicine
-               </p>
-               <p
-                  class="text-slate-600 mt-8 leading-8">
-                  With decades of experience in internal
-                  medicine and travel health, Dr. Smith
-                  has helped thousands of local and
-                  international patients receive expert
-                  medical care and preventive health guidance.
-               </p>
-               <!-- HIGHLIGHTS -->
-               <div
-                  class="grid md:grid-cols-2 gap-5 mt-10">
-                  <div
-                     class="flex items-center gap-3">
-                     <i
-                        class="fa-solid fa-award text-secondary">
-                     </i>
-                     <span>
-                     Senior Consultant
-                     </span>
-                  </div>
-                  <div
-                     class="flex items-center gap-3">
-                     <i
-                        class="fa-solid fa-graduation-cap text-secondary">
-                     </i>
-                     <span>
-                     International Training
-                     </span>
-                  </div>
-                  <div
-                     class="flex items-center gap-3">
-                     <i
-                        class="fa-solid fa-user-group text-secondary">
-                     </i>
-                     <span>
-                     Thousands Of Patients
-                     </span>
-                  </div>
-                  <div
-                     class="flex items-center gap-3">
-                     <i
-                        class="fa-solid fa-stethoscope text-secondary">
-                     </i>
-                     <span>
-                     Travel Medicine Expert
-                     </span>
-                  </div>
-               </div>
-               <div
-                  class="flex flex-wrap gap-4 mt-10">
-                  <a
-                     href="#"
-                     class="btn-primary">
-                  View Profile
-                  </a>
-                  <a
-                     href="./bookappointment.php"
-                     class="border border-primary text-primary px-8 py-4 font-semibold hover:bg-primary hover:text-white transition">
-                  Book Appointment
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- OTHER FEATURED DOCTORS -->
-      <div
-         class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-         <!-- CARD -->
-         <div
-            class="group bg-white border border-slate-200 hover:border-secondary transition-all duration-500">
-            <div class="overflow-hidden">
-               <img
-                  src="./assets/img/doctor-1.jpg"
-                  class="w-full h-80 object-cover group-hover:scale-110 transition duration-700">
-            </div>
-            <div class="p-8">
-               <h3
-                  class="text-primary text-2xl font-black">
-                  Dr. Sarah Johnson
-               </h3>
-               <p
-                  class="text-secondary font-semibold mt-2">
-                  Pediatrics
-               </p>
-               <p
-                  class="text-slate-600 mt-4 leading-7">
-                  Dedicated pediatric specialist focused
-                  on comprehensive child healthcare.
-               </p>
-               <a
-                  href="#"
-                  class="inline-flex items-center gap-2 mt-6 text-primary hover:text-secondary font-semibold">
-               View Profile
-               <i
-                  class="fa-solid fa-arrow-right">
-               </i>
-               </a>
-            </div>
-         </div>
-         <!-- CARD -->
-         <div
-            class="group bg-white border border-slate-200 hover:border-secondary transition-all duration-500">
-            <div class="overflow-hidden">
-               <img
-                  src="./assets/img/doctor-2.jpg"
-                  class="w-full h-80 object-cover group-hover:scale-110 transition duration-700">
-            </div>
-            <div class="p-8">
-               <h3
-                  class="text-primary text-2xl font-black">
-                  Dr. Michael Brown
-               </h3>
-               <p
-                  class="text-secondary font-semibold mt-2">
-                  Cardiology
-               </p>
-               <p
-                  class="text-slate-600 mt-4 leading-7">
-                  Specialist in cardiovascular health
-                  and preventive heart care.
-               </p>
-               <a
-                  href="#"
-                  class="inline-flex items-center gap-2 mt-6 text-primary hover:text-secondary font-semibold">
-               View Profile
-               <i
-                  class="fa-solid fa-arrow-right">
-               </i>
-               </a>
-            </div>
-         </div>
-         <!-- CARD -->
-         <div
-            class="group bg-white border border-slate-200 hover:border-secondary transition-all duration-500">
-            <div class="overflow-hidden">
-               <img
-                  src="./assets/img/doctor-3.jpg"
-                  class="w-full h-80 object-cover group-hover:scale-110 transition duration-700">
-            </div>
-            <div class="p-8">
-               <h3
-                  class="text-primary text-2xl font-black">
-                  Dr. Emily Wilson
-               </h3>
-               <p
-                  class="text-secondary font-semibold mt-2">
-                  Dermatology
-               </p>
-               <p
-                  class="text-slate-600 mt-4 leading-7">
-                  Expert in skin health, dermatologic
-                  treatments and cosmetic care.
-               </p>
-               <a
-                  href="#"
-                  class="inline-flex items-center gap-2 mt-6 text-primary hover:text-secondary font-semibold">
-               View Profile
-               <i
-                  class="fa-solid fa-arrow-right">
-               </i>
-               </a>
-            </div>
-         </div>
-      </div>
-      <!-- QUICK STATS -->
-      <div
-         class="grid md:grid-cols-4 gap-6 mt-20">
-         <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
-            <h3
-               class="text-primary text-5xl font-black">
-               Expert
-            </h3>
-            <p
-               class="text-slate-600 mt-3">
-               Medical Team
-            </p>
-         </div>
-         <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
-            <h3
-               class="text-primary text-5xl font-black">
-               Multi
-            </h3>
-            <p
-               class="text-slate-600 mt-3">
-               Specialties
-            </p>
-         </div>
-         <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
-            <h3
-               class="text-primary text-5xl font-black">
-               Trusted
-            </h3>
-            <p
-               class="text-slate-600 mt-3">
-               Patient Care
-            </p>
-         </div>
-         <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
-            <h3
-               class="text-primary text-5xl font-black">
-               Global
-            </h3>
-            <p
-               class="text-slate-600 mt-3">
-               Healthcare Standards
-            </p>
-         </div>
-      </div>
-   </div>
-</section>
-<!-- ========================================= -->
-<!-- DOCTORS DIRECTORY -->
-<!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
-   <div class="container-custom">
-      <!-- HEADER -->
-      <div
-         class="text-center max-w-4xl mx-auto mb-16">
-         <span class="section-subtitle">
-         Medical Team
-         </span>
-         <h2 class="section-title">
-            Meet Our Healthcare Specialists
-         </h2>
-         <p
-            class="text-slate-600 mt-6 leading-8">
-            Browse our complete directory of experienced
-            physicians and specialists dedicated to providing
-            exceptional healthcare services.
-         </p>
-      </div>
-      <!-- RESULT BAR -->
-      <div
-         class="bg-white border border-slate-200 p-6 flex flex-wrap justify-between items-center mb-10">
-         <h3
-            class="text-primary text-2xl font-black">
-            Available Specialists
-         </h3>
-         <span
-            id="doctorCountDisplay"
-            class="text-slate-500">
-         Showing All Doctors
-         </span>
-      </div>
-      <!-- YOUR EXISTING DOCTOR GRID GOES HERE -->
-   </div>
-</section>
-<article
-   class="doctor-card group bg-white border border-slate-200 hover:border-secondary transition-all duration-500 hover:-translate-y-2 overflow-hidden"
-   data-specialty="<?= $doctor["specialty"] ?>"
-   data-location="<?= $doctor["location"] ?>">
-   <!-- IMAGE -->
-   <div
-      class="relative overflow-hidden">
-      <img
-         src="<?= $doctor["image"] ?>"
-         alt="<?= $doctor["name"] ?>"
-         class="w-full h-[380px] object-cover group-hover:scale-110 transition duration-700">
-      <!-- LOCATION -->
-      <div
-         class="absolute top-5 left-5">
-         <span
-            class="bg-primary text-white px-4 py-2 text-sm font-semibold">
-         <?= $doctor["location"] ?>
-         </span>
-      </div>
-   </div>
-   <!-- CONTENT -->
-   <div class="p-8">
-      <span
-         class="text-secondary font-bold uppercase tracking-[2px]">
-      <?= $doctor["specialty"] ?>
-      </span>
-      <h3
-         class="text-primary text-2xl font-black mt-4">
-         <?= $doctor["name"] ?>
-      </h3>
-      <?php if (!empty($doctor["qualification"])): ?>
-      <p
-         class="text-slate-500 mt-3">
-         <?= $doctor["qualification"] ?>
-      </p>
-      <?php endif; ?>
-      <p
-         class="text-slate-600 mt-5 leading-7 line-clamp-3">
-         <?= $doctor["short_description"] ?>
-      </p>
-      <!-- ACTIONS -->
-      <div
-         class="flex gap-3 mt-8">
-         <button
-            onclick="openDoctorModal(<?= $doctor["id"] ?>)"
-            class="flex-1 bg-primary text-white py-3 font-semibold hover:bg-secondary transition">
-         View Profile
-         </button>
-         <a
-            href="./bookappointment.php"
-            class="flex-1 border border-primary text-primary text-center py-3 font-semibold hover:bg-primary hover:text-white transition">
-         Book
-         </a>
-      </div>
-   </div>
-</article>
-<div
-   id="noDoctorsFound"
-   class="hidden bg-white border border-slate-200 p-16 text-center">
-   <i
-      class="fa-solid fa-user-doctor text-6xl text-slate-300">
-   </i>
-   <h3
-      class="text-primary text-3xl font-black mt-8">
-      No Doctors Found
-   </h3>
-   <p
-      class="text-slate-600 mt-4">
-      Try adjusting your search criteria
-      or specialty filter.
-   </p>
-</div>
-<div
-   class="flex justify-center mt-16 gap-3">
-   <button
-      class="w-12 h-12 border border-slate-300 hover:bg-primary hover:text-white transition">
-   1
-   </button>
-   <button
-      class="w-12 h-12 border border-slate-300 hover:bg-primary hover:text-white transition">
-   2
-   </button>
-   <button
-      class="w-12 h-12 border border-slate-300 hover:bg-primary hover:text-white transition">
-   3
-   </button>
-</div>
+
 <!-- ========================================= -->
 <!-- SPECIALTIES -->
 <!-- ========================================= -->
@@ -1311,7 +992,7 @@
       <div
          class="text-center max-w-4xl mx-auto mb-20">
          <span class="section-subtitle">
-         Areas Of Expertise
+            Areas Of Expertise
          </span>
          <h2 class="section-title">
             Medical Specialties We Cover
@@ -1328,7 +1009,7 @@
          class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -1347,7 +1028,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-20 h-20 mx-auto bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -1366,7 +1047,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -1385,7 +1066,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-20 h-20 mx-auto bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -1404,7 +1085,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -1423,7 +1104,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-20 h-20 mx-auto bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -1442,7 +1123,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -1461,7 +1142,7 @@
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-20 h-20 mx-auto bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -1488,7 +1169,7 @@
                class="lg:col-span-8 p-10 lg:p-14">
                <span
                   class="text-secondary font-bold uppercase tracking-[3px]">
-               Comprehensive Healthcare
+                  Comprehensive Healthcare
                </span>
                <h3
                   class="text-white text-4xl font-black mt-5">
@@ -1514,9 +1195,9 @@
       <div
          class="grid md:grid-cols-4 gap-6 mt-20">
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
-               class="text-primary text-5xl font-black">
+               class="text-primary text-4xl font-black">
                Multi
             </h3>
             <p
@@ -1525,9 +1206,9 @@
             </p>
          </div>
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
-               class="text-primary text-5xl font-black">
+               class="text-primary text-4xl font-black">
                Expert
             </h3>
             <p
@@ -1536,9 +1217,9 @@
             </p>
          </div>
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
-               class="text-primary text-5xl font-black">
+               class="text-primary text-4xl font-black">
                Trusted
             </h3>
             <p
@@ -1547,9 +1228,9 @@
             </p>
          </div>
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
-               class="text-primary text-5xl font-black">
+               class="text-primary text-4xl font-black">
                Quality
             </h3>
             <p
@@ -1569,7 +1250,7 @@
       <div
          class="text-center max-w-4xl mx-auto mb-20">
          <span class="section-subtitle">
-         Patient Experience
+            Patient Experience
          </span>
          <h2 class="section-title">
             Your Consultation Journey
@@ -1600,7 +1281,7 @@
                <div class="mt-8">
                   <span
                      class="text-secondary font-bold">
-                  STEP 01
+                     STEP 01
                   </span>
                   <h3
                      class="text-primary text-2xl font-black mt-3">
@@ -1625,7 +1306,7 @@
                <div class="mt-8">
                   <span
                      class="text-secondary font-bold">
-                  STEP 02
+                     STEP 02
                   </span>
                   <h3
                      class="text-primary text-2xl font-black mt-3">
@@ -1649,7 +1330,7 @@
                <div class="mt-8">
                   <span
                      class="text-secondary font-bold">
-                  STEP 03
+                     STEP 03
                   </span>
                   <h3
                      class="text-primary text-2xl font-black mt-3">
@@ -1673,7 +1354,7 @@
                <div class="mt-8">
                   <span
                      class="text-secondary font-bold">
-                  STEP 04
+                     STEP 04
                   </span>
                   <h3
                      class="text-primary text-2xl font-black mt-3">
@@ -1697,7 +1378,7 @@
                <div class="mt-8">
                   <span
                      class="text-secondary font-bold">
-                  STEP 05
+                     STEP 05
                   </span>
                   <h3
                      class="text-primary text-2xl font-black mt-3">
@@ -1728,7 +1409,7 @@
             class="lg:col-span-7">
             <span
                class="text-secondary font-bold uppercase tracking-[3px]">
-            Seamless Patient Experience
+               Seamless Patient Experience
             </span>
             <h3
                class="text-primary text-4xl font-black mt-5">
@@ -1749,7 +1430,7 @@
                      class="fa-solid fa-circle-check text-secondary text-xl mt-1">
                   </i>
                   <span>
-                  Easy Appointment Scheduling
+                     Easy Appointment Scheduling
                   </span>
                </div>
                <div class="flex gap-4">
@@ -1757,7 +1438,7 @@
                      class="fa-solid fa-circle-check text-secondary text-xl mt-1">
                   </i>
                   <span>
-                  Personalized Consultation
+                     Personalized Consultation
                   </span>
                </div>
                <div class="flex gap-4">
@@ -1765,7 +1446,7 @@
                      class="fa-solid fa-circle-check text-secondary text-xl mt-1">
                   </i>
                   <span>
-                  Comprehensive Evaluation
+                     Comprehensive Evaluation
                   </span>
                </div>
                <div class="flex gap-4">
@@ -1773,7 +1454,7 @@
                      class="fa-solid fa-circle-check text-secondary text-xl mt-1">
                   </i>
                   <span>
-                  Ongoing Follow-Up Care
+                     Ongoing Follow-Up Care
                   </span>
                </div>
             </div>
@@ -1801,10 +1482,10 @@
             class="max-w-5xl mx-auto text-center">
             <span
                class="inline-flex items-center gap-3 bg-white/10 px-5 py-3 text-white font-semibold">
-            <i
-               class="fa-solid fa-user-doctor text-secondary">
-            </i>
-            Expert Medical Care Starts Here
+               <i
+                  class="fa-solid fa-user-doctor text-secondary">
+               </i>
+               Expert Medical Care Starts Here
             </span>
             <h2
                class="text-white text-5xl lg:text-6xl font-black mt-8 leading-tight">
@@ -1843,7 +1524,7 @@
                <a
                   href="./bookappointment.php"
                   class="inline-block mt-8 bg-primary text-white px-8 py-3 font-semibold hover:bg-secondary transition">
-               Book Now
+                  Book Now
                </a>
             </div>
             <!-- FIND DOCTOR -->
@@ -1867,7 +1548,7 @@
                <a
                   href="#doctor-search"
                   class="inline-block mt-8 bg-secondary text-white px-8 py-3 font-semibold hover:bg-primary transition">
-               Find Doctor
+                  Find Doctor
                </a>
             </div>
             <!-- CONTACT -->
@@ -1889,9 +1570,9 @@
                   doctors and appointments.
                </p>
                <a
-                  href="contact.php"
+                  href="./contact.php"
                   class="inline-block mt-8 bg-primary text-white px-8 py-3 font-semibold hover:bg-secondary transition">
-               Contact Us
+                  Contact Us
                </a>
             </div>
             <!-- EMERGENCY -->
@@ -1915,16 +1596,16 @@
                <a
                   href="tel:+977XXXXXXXXX"
                   class="inline-block mt-8 bg-red-600 text-white px-8 py-3 font-semibold hover:bg-red-700 transition">
-               Call Now
+                  Call Now
                </a>
             </div>
          </div>
          <!-- BOTTOM STATS -->
          <div
-            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-24">
+            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-16">
             <div class="text-center">
                <h3
-                  class="text-white text-5xl font-black">
+                  class="text-white text-4xl font-black">
                   Expert
                </h3>
                <p
@@ -1934,7 +1615,7 @@
             </div>
             <div class="text-center">
                <h3
-                  class="text-white text-5xl font-black">
+                  class="text-white text-4xl font-black">
                   Multi
                </h3>
                <p
@@ -1944,7 +1625,7 @@
             </div>
             <div class="text-center">
                <h3
-                  class="text-white text-5xl font-black">
+                  class="text-white text-4xl font-black">
                   Trusted
                </h3>
                <p
@@ -1954,7 +1635,7 @@
             </div>
             <div class="text-center">
                <h3
-                  class="text-white text-5xl font-black">
+                  class="text-white text-4xl font-black">
                   24/7
                </h3>
                <p

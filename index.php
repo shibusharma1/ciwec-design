@@ -42,7 +42,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3">
                 <!-- FIND DOCTOR (Hidden on Mobile) -->
                 <a href="#"
-                    class="hidden md:flex group items-center gap-4 p-5 md:p-7 border-r border-slate-200 hover:bg-slate-50 transition-all duration-300">
+                    class="hidden md:flex group items-center gap-4 p-5 md:p-7 border-r border-slate-200 hover:bg-slate-100 transition-all duration-300">
                     <div class="w-14 h-14 bg-primary/10 text-primary flex items-center justify-center flex-shrink-0 transition-all duration-300 group-hover:bg-primary group-hover:text-white">
                         <i class="fa-solid fa-user-doctor text-xl"></i>
                     </div>
@@ -58,7 +58,7 @@
                 </a>
                 <!-- INQUIRY (Hidden on Mobile) -->
                 <a href="#"
-                    class="hidden md:flex group items-center gap-4 p-5 md:p-7 border-r border-slate-200 hover:bg-slate-50 transition-all duration-300">
+                    class="hidden md:flex group items-center gap-4 p-5 md:p-7 border-r border-slate-200 hover:bg-slate-100 transition-all duration-300">
                     <div class="w-14 h-14 bg-primary/10 text-primary flex items-center justify-center flex-shrink-0 transition-all duration-300 group-hover:bg-primary group-hover:text-white">
                         <i class="fa-solid fa-comments text-xl"></i>
                     </div>
@@ -136,7 +136,7 @@
 <!-- =========================
     SPECIALITY CENTERS
     ========================= -->
-<section class="speciality-section section-padding bg-slate-50">
+<section class="speciality-section section-padding bg-slate-100">
     <div class="container-custom">
         <!-- HEADER -->
         <div class="flex items-end justify-between mb-10">
@@ -403,191 +403,12 @@
         <div class="speciality-pagination mt-10"></div>
     </div>
 </section>
-<!-- =========================
-    Our History
-    ========================= -->
-<section class="section-padding bg-white overflow-hidden">
-    <div class="container-custom">
-        <!-- HEADER -->
-        <div class="max-w-3xl mb-14">
-            <span
-                class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
-                <span class="w-2 h-2 bg-secondary"></span>
-                Our Journey
-            </span>
-            <h2
-                class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight">
-                Over Four Decades of Healthcare Excellence
-            </h2>
-            <p
-                class="text-slate-600 mt-5 text-base md:text-lg leading-8">
-                Since 1982, CIWEC has evolved from a travel medicine clinic into
-                one of Nepal's most trusted international healthcare providers.
-            </p>
-        </div>
-        <!-- DESKTOP TIMELINE -->
-        <div class="hidden lg:block mb-14">
-            <div class="relative">
-                <div
-                    class="absolute left-0 right-0 top-1/2 h-px bg-slate-300">
-                </div>
-                <div class="flex justify-between">
-                    <button
-                        class="history-year active relative z-10 flex flex-col items-center"
-                        data-year="1982">
-                        <span
-                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                        </span>
-                        <span
-                            class="font-bold text-primary text-sm">
-                            1982
-                        </span>
-                    </button>
-                    <button
-                        class="history-year relative z-10 flex flex-col items-center"
-                        data-year="2000">
-                        <span
-                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                        </span>
-                        <span
-                            class="font-bold text-primary text-sm">
-                            2000
-                        </span>
-                    </button>
-                    <button
-                        class="history-year relative z-10 flex flex-col items-center"
-                        data-year="2005">
-                        <span
-                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                        </span>
-                        <span
-                            class="font-bold text-primary text-sm">
-                            2005
-                        </span>
-                    </button>
-                    <button
-                        class="history-year relative z-10 flex flex-col items-center"
-                        data-year="2014">
-                        <span
-                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                        </span>
-                        <span
-                            class="font-bold text-primary text-sm">
-                            2014
-                        </span>
-                    </button>
-                    <button
-                        class="history-year relative z-10 flex flex-col items-center"
-                        data-year="2020">
-                        <span
-                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                        </span>
-                        <span
-                            class="font-bold text-primary text-sm">
-                            2020
-                        </span>
-                    </button>
-                    <button
-                        class="history-year relative z-10 flex flex-col items-center"
-                        data-year="2025">
-                        <span
-                            class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                        </span>
-                        <span
-                            class="font-bold text-primary text-sm">
-                            2025
-                        </span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- CONTENT CARD -->
-        <div
-            class="grid lg:grid-cols-12 bg-slate-50 border border-slate-200 overflow-hidden">
-            <!-- IMAGE -->
-            <div class="lg:col-span-5">
-                <img
-                    id="historyImage"
-                    src="./assets/img/history-1982.jpg"
-                    class="w-full h-[280px] md:h-[420px] lg:h-[520px] object-cover">
-            </div>
-            <!-- CONTENT -->
-            <div
-                class="lg:col-span-7 flex items-center">
-                <div
-                    class="p-8 md:p-10 xl:p-14">
-                    <span
-                        id="historyYear"
-                        class="inline-flex items-center gap-2 text-secondary text-sm font-bold uppercase tracking-[2px] mb-4">
-                        1982
-                    </span>
-                    <h3
-                        id="historyTitle"
-                        class="text-primary text-3xl md:text-4xl font-black leading-tight mb-6">
-                        Foundation of CIWEC
-                    </h3>
-                    <div
-                        class="w-20 h-[3px] bg-secondary mb-8">
-                    </div>
-                    <p
-                        id="historyDescription"
-                        class="text-slate-600 text-base md:text-lg leading-8 max-w-3xl">
-                        CIWEC was established in 1982 to provide western-standard
-                        healthcare services to diplomats, expatriates, aid workers,
-                        travelers and local communities throughout Nepal.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- MOBILE TIMELINE -->
-        <div class="lg:hidden mt-10">
-            <div
-                class="border-l-2 border-secondary pl-6 space-y-8">
-                <div class="relative">
-                    <span
-                        class="absolute -left-[34px] top-1 w-4 h-4 bg-secondary rounded-full">
-                    </span>
-                    <h4
-                        class="text-primary font-bold">
-                        1982
-                    </h4>
-                    <p
-                        class="text-slate-600 text-sm mt-1">
-                        CIWEC established in Kathmandu.
-                    </p>
-                </div>
-                <div class="relative">
-                    <span
-                        class="absolute -left-[34px] top-1 w-4 h-4 bg-secondary rounded-full">
-                    </span>
-                    <h4
-                        class="text-primary font-bold">
-                        2005
-                    </h4>
-                    <p
-                        class="text-slate-600 text-sm mt-1">
-                        Expanded specialist medical services.
-                    </p>
-                </div>
-                <div class="relative">
-                    <span
-                        class="absolute -left-[34px] top-1 w-4 h-4 bg-secondary rounded-full">
-                    </span>
-                    <h4
-                        class="text-primary font-bold">
-                        2014
-                    </h4>
-                    <p
-                        class="text-slate-600 text-sm mt-1">
-                        Opened full-service hospital in Pokhara.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php 
+include "./include/historytimelinesection.php";
+?>
+
 <!-- Rectangular design of why ciwec -->
-<section class="section-padding bg-slate-50">
+<section class="section-padding bg-slate-100">
     <div class="container-custom">
         <div class="max-w-3xl mb-14">
             <span
@@ -964,7 +785,7 @@
                 </div>
             </article>
 
-            <div class="bg-slate-50 border border-slate-200 p-8 md:p-10 xl:p-12 flex flex-col justify-center">
+            <div class="bg-slate-100 border border-slate-200 p-8 md:p-10 xl:p-12 flex flex-col justify-center">
                 <span class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-5">
                     <span class="w-2 h-2 bg-secondary"></span>
                     Meet Our Experts
@@ -1282,7 +1103,7 @@
 </section>
 
 <!-- TESTIMONIAL -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
         <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12">
@@ -1613,7 +1434,7 @@
     </div>
 </section>
 <!-- Award section -->
-<section class="section-padding bg-slate-50">
+<section class="section-padding bg-slate-100">
     <div class="container-custom">
         <!-- HEADER -->
         <div class="max-w-3xl mb-12">
@@ -1839,7 +1660,7 @@
             </a>
         </div>
         <!-- FILTER BAR -->
-        <div class="border border-slate-200 bg-slate-50 p-5 md:p-6 mb-6">
+        <div class="border border-slate-200 bg-slate-100 p-5 md:p-6 mb-6">
             <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
                 <!-- LEFT -->
                 <div

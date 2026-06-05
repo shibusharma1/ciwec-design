@@ -37,7 +37,7 @@
         </p>
     </div>
 </section>
-<section class="bg-slate-50 py-10 -mt-10 relative z-20">
+<section class="bg-slate-100 py-10 -mt-10 relative z-20">
     <div class="container-custom">
         <div class="bg-white border border-slate-200 shadow-sm p-6">
             <div class="grid lg:grid-cols-3 gap-4">

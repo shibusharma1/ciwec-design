@@ -95,7 +95,7 @@
         </div>
     </div>
 </section>
-<section class="bg-slate-50 py-20">
+<section class="bg-slate-100 py-20">
     <div class="container-custom">
         <div class="text-center mb-16">
             <h2 class="section-title">
@@ -215,7 +215,7 @@
                 <!-- STATS -->
                 <div
                     class="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-                    <div class="bg-slate-50 p-5 text-center">
+                    <div class="bg-slate-100 p-5 text-center">
                         <h4 class="text-primary text-2xl font-black">
                             40+
                         </h4>
@@ -223,7 +223,7 @@
                             Diagnostic Tests
                         </p>
                     </div>
-                    <div class="bg-slate-50 p-5 text-center">
+                    <div class="bg-slate-100 p-5 text-center">
                         <h4 class="text-primary text-2xl font-black">
                             1 Day
                         </h4>
@@ -231,7 +231,7 @@
                             Completion
                         </p>
                     </div>
-                    <div class="bg-slate-50 p-5 text-center">
+                    <div class="bg-slate-100 p-5 text-center">
                         <h4 class="text-primary text-2xl font-black">
                             Doctor
                         </h4>
@@ -239,7 +239,7 @@
                             Consultation
                         </p>
                     </div>
-                    <div class="bg-slate-50 p-5 text-center">
+                    <div class="bg-slate-100 p-5 text-center">
                         <h4 class="text-primary text-2xl font-black">
                             Full
                         </h4>
@@ -289,7 +289,7 @@
                     Recommended For
                 </h3>
                 <div
-                    class="bg-slate-50 p-8 mb-12">
+                    class="bg-slate-100 p-8 mb-12">
                     <ul class="space-y-4 text-slate-600">
                         <li>✔ Adults above 30 years</li>
                         <li>✔ Corporate executives</li>
@@ -366,7 +366,7 @@
         </div>
     </div>
 </div>
-<section class="bg-slate-50 py-20">
+<section class="bg-slate-100 py-20">
     <div class="container-custom">
         <div class="text-center mb-14">
             <span class="text-secondary uppercase tracking-[3px] font-bold text-sm">

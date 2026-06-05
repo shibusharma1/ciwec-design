@@ -11,259 +11,21 @@ include "./include/header.php"; ?>
             </h1>
             <div class="flex items-center justify-center gap-2 text-white/90">
                 <a href="index.php" class="hover:text-secondary">
-                Home
+                    Home
                 </a>
                 <i class="fa-solid fa-angle-right text-xs"></i>
                 <span class="text-secondary">
-                Our History
+                    Our History
                 </span>
             </div>
         </div>
     </div>
 </section>
-<!-- =========================
-    Our History
-    ========================= -->
-<section class="section-padding bg-white overflow-hidden">
-    <div class="container-custom">
-        <!-- HEADER -->
-        <div class="max-w-3xl mb-14">
-            <span
-                class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
-            <span class="w-2 h-2 bg-secondary"></span>
-            Our Journey
-            </span>
-            <h2
-                class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight">
-                Over Four Decades of Healthcare Excellence
-            </h2>
-            <p
-                class="text-slate-600 mt-5 text-base md:text-lg leading-8">
-                Since 1982, CIWEC has evolved from a travel medicine clinic into
-                one of Nepal's most trusted international healthcare providers.
-            </p>
-        </div>
-        <!-- DESKTOP TIMELINE -->
-        <div class="hidden lg:block mb-14">
-            <div class="relative">
-                <div
-                    class="absolute left-0 right-0 top-1/2 h-px bg-slate-300">
-                </div>
-                <div class="flex justify-between">
-                    <button
-                        class="history-year active relative z-10 flex flex-col items-center"
-                        data-year="1982">
-                    <span
-                        class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                    </span>
-                    <span
-                        class="font-bold text-primary text-sm">
-                    1982
-                    </span>
-                    </button>
-                    <button
-                        class="history-year relative z-10 flex flex-col items-center"
-                        data-year="2000">
-                    <span
-                        class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                    </span>
-                    <span
-                        class="font-bold text-primary text-sm">
-                    2000
-                    </span>
-                    </button>
-                    <button
-                        class="history-year relative z-10 flex flex-col items-center"
-                        data-year="2005">
-                    <span
-                        class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                    </span>
-                    <span
-                        class="font-bold text-primary text-sm">
-                    2005
-                    </span>
-                    </button>
-                    <button
-                        class="history-year relative z-10 flex flex-col items-center"
-                        data-year="2014">
-                    <span
-                        class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                    </span>
-                    <span
-                        class="font-bold text-primary text-sm">
-                    2014
-                    </span>
-                    </button>
-                    <button
-                        class="history-year relative z-10 flex flex-col items-center"
-                        data-year="2020">
-                    <span
-                        class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                    </span>
-                    <span
-                        class="font-bold text-primary text-sm">
-                    2020
-                    </span>
-                    </button>
-                    <button
-                        class="history-year relative z-10 flex flex-col items-center"
-                        data-year="2025">
-                    <span
-                        class="w-5 h-5 rounded-full border-4 border-white bg-slate-300 shadow-lg mb-4">
-                    </span>
-                    <span
-                        class="font-bold text-primary text-sm">
-                    2025
-                    </span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- CONTENT CARD -->
-        <div
-            class="grid lg:grid-cols-12 bg-slate-50 border border-slate-200 overflow-hidden">
-            <!-- IMAGE -->
-            <div class="lg:col-span-5">
-                <img
-                    id="historyImage"
-                    src="./assets/img/history-1982.jpg"
-                    class="w-full h-[280px] md:h-[420px] lg:h-[520px] object-cover">
-            </div>
-            <!-- CONTENT -->
-            <div
-                class="lg:col-span-7 flex items-center">
-                <div
-                    class="p-8 md:p-10 xl:p-14">
-                    <span
-                        id="historyYear"
-                        class="inline-flex items-center gap-2 text-secondary text-sm font-bold uppercase tracking-[2px] mb-4">
-                    1982
-                    </span>
-                    <h3
-                        id="historyTitle"
-                        class="text-primary text-3xl md:text-4xl font-black leading-tight mb-6">
-                        Foundation of CIWEC
-                    </h3>
-                    <div
-                        class="w-20 h-[3px] bg-secondary mb-8">
-                    </div>
-                    <p
-                        id="historyDescription"
-                        class="text-slate-600 text-base md:text-lg leading-8 max-w-3xl">
-                        CIWEC was established in 1982 to provide western-standard
-                        healthcare services to diplomats, expatriates, aid workers,
-                        travelers and local communities throughout Nepal.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- MOBILE TIMELINE -->
-        <div class="lg:hidden mt-10">
-            <div
-                class="border-l-2 border-secondary pl-6 space-y-8">
-                <div class="relative">
-                    <span
-                        class="absolute -left-[34px] top-1 w-4 h-4 bg-secondary rounded-full">
-                    </span>
-                    <h4
-                        class="text-primary font-bold">
-                        1982
-                    </h4>
-                    <p
-                        class="text-slate-600 text-sm mt-1">
-                        CIWEC established in Kathmandu.
-                    </p>
-                </div>
-                <div class="relative">
-                    <span
-                        class="absolute -left-[34px] top-1 w-4 h-4 bg-secondary rounded-full">
-                    </span>
-                    <h4
-                        class="text-primary font-bold">
-                        2005
-                    </h4>
-                    <p
-                        class="text-slate-600 text-sm mt-1">
-                        Expanded specialist medical services.
-                    </p>
-                </div>
-                <div class="relative">
-                    <span
-                        class="absolute -left-[34px] top-1 w-4 h-4 bg-secondary rounded-full">
-                    </span>
-                    <h4
-                        class="text-primary font-bold">
-                        2014
-                    </h4>
-                    <p
-                        class="text-slate-600 text-sm mt-1">
-                        Opened full-service hospital in Pokhara.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<script>
-    const historyData = {
-    
-        1982: {
-            title: "Foundation Of CIWEC",
-            image: "./assets/img/history/history1.webp",
-            description: "CIWEC Hospital was established in 1982 with a vision to provide international-standard healthcare services in Nepal. Initially serving diplomats, expatriates, aid workers, and travelers, the institution quickly earned a reputation for delivering high-quality medical care through experienced professionals, advanced diagnostics, and a patient-centered approach."
-        },
-    
-        2000: {
-            title: "Service Expansion",
-            image: "./assets/img/history/history2.webp",
-            description: "As healthcare needs continued to evolve, CIWEC expanded its range of medical services and specialties. New departments, enhanced outpatient care, and comprehensive preventive health programs were introduced, enabling the hospital to serve a broader community while maintaining its commitment to international healthcare standards."
-        },
-    
-        2005: {
-            title: "Modern Medical Facilities",
-            image: "./assets/img/history/history3.webp",
-            description: "CIWEC invested significantly in modern medical technology and infrastructure, introducing advanced diagnostic equipment, improved laboratory services, and upgraded clinical facilities. These developments strengthened the hospital's ability to provide accurate diagnoses, efficient treatments, and a higher standard of patient care."
-        },
-    
-        2014: {
-            title: "CIWEC Pokhara Opened",
-            image: "./assets/img/history/history1.webp",
-            description: "Expanding beyond Kathmandu, CIWEC established its Pokhara facility in 2014 to provide trusted healthcare services to residents, travelers, trekkers, and international visitors in western Nepal. The new center offered comprehensive medical care while maintaining the same quality and expertise that defined the CIWEC brand."
-        },
-    
-        2020: {
-            title: "Enhanced Global Care",
-            image: "./assets/img/history/history2.webp",
-            description: "During a period of global healthcare challenges, CIWEC strengthened its international patient support services and emergency response capabilities. Enhanced telemedicine solutions, infection prevention measures, and coordinated care systems ensured patients continued to receive safe, reliable, and accessible healthcare."
-        },
-    
-        2025: {
-            title: "Future Ready Healthcare",
-            image: "./assets/img/history/history3.webp",
-            description: "Building on decades of excellence, CIWEC continues to embrace innovation, digital transformation, and patient-focused healthcare solutions. With ongoing investments in technology, medical expertise, and service quality, the institution remains dedicated to shaping the future of healthcare in Nepal while delivering exceptional care to every patient."
-        }
-    };
-    
-    document.querySelectorAll(".history-year").forEach(button => {
-    
-        button.addEventListener("click", () => {
-    
-            document.querySelectorAll(".history-year")
-                .forEach(btn => btn.classList.remove("active"));
-    
-            button.classList.add("active");
-    
-            const year = button.dataset.year;
-    
-            document.getElementById("historyYear").textContent = year;
-            document.getElementById("historyTitle").textContent = historyData[year].title;
-            document.getElementById("historyDescription").textContent = historyData[year].description;
-            document.getElementById("historyImage").src = historyData[year].image;
-    
-        });
-    
-    });
-</script>
+
+<?php 
+include "./include/historytimelinesection.php";
+?>
+
 <!-- ========================================= -->
 <!-- CIWEC AT A GLANCE -->
 <!-- ========================================= -->
@@ -272,7 +34,7 @@ include "./include/header.php"; ?>
         <!-- HEADING -->
         <div class="text-center mb-16">
             <span class="section-subtitle">
-            CIWEC At A Glance
+                CIWEC At A Glance
             </span>
             <h2 class="section-title">
                 Four Decades Of Healthcare Excellence
@@ -294,7 +56,7 @@ include "./include/header.php"; ?>
             gap-8">
             <!-- ITEM -->
             <div class="group
-                bg-slate-50
+                bg-slate-100
                 border
                 border-slate-200
                 p-8
@@ -330,7 +92,7 @@ include "./include/header.php"; ?>
             </div>
             <!-- ITEM -->
             <div class="group
-                bg-slate-50
+                bg-slate-100
                 border
                 border-slate-200
                 p-8
@@ -364,7 +126,7 @@ include "./include/header.php"; ?>
             </div>
             <!-- ITEM -->
             <div class="group
-                bg-slate-50
+                bg-slate-100
                 border
                 border-slate-200
                 p-8
@@ -514,12 +276,12 @@ include "./include/header.php"; ?>
 <!-- ========================================= -->
 <!-- GROWTH THROUGH THE YEARS -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
         <div class="text-center mb-20">
             <span class="section-subtitle">
-            Evolution Of CIWEC
+                Evolution Of CIWEC
             </span>
             <h2 class="section-title">
                 Growing With Purpose
@@ -558,8 +320,7 @@ include "./include/header.php"; ?>
                         mb-6">
                         Humble Beginnings
                     </h3>
-                    <p
-                        class="text-slate-600
+                    <p class="text-slate-600
                         leading-8">
                         CIWEC was founded to provide high-quality
                         healthcare services for diplomats,
@@ -568,8 +329,7 @@ include "./include/header.php"; ?>
                     </p>
                 </div>
                 <div>
-                    <img
-                        src="./assets/img/history-1982.jpg"
+                    <img src="./assets/img/history-1982.jpg"
                         class="w-full
                         h-[400px]
                         object-cover
@@ -577,11 +337,9 @@ include "./include/header.php"; ?>
                 </div>
             </div>
             <!-- ROW 2 -->
-            <div
-                class="grid lg:grid-cols-2 gap-12 items-center">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div class="lg:order-2">
-                    <div
-                        class="inline-flex
+                    <div class="inline-flex
                         items-center
                         bg-secondary
                         text-white
@@ -590,15 +348,13 @@ include "./include/header.php"; ?>
                         mb-6">
                         2000
                     </div>
-                    <h3
-                        class="text-primary
+                    <h3 class="text-primary
                         text-3xl
                         font-black
                         mb-6">
                         Expanding Medical Services
                     </h3>
-                    <p
-                        class="text-slate-600
+                    <p class="text-slate-600
                         leading-8">
                         Growing demand led to the expansion of
                         healthcare services, introducing broader
@@ -606,8 +362,7 @@ include "./include/header.php"; ?>
                     </p>
                 </div>
                 <div class="lg:order-1">
-                    <img
-                        src="./assets/img/history-2000.jpg"
+                    <img src="./assets/img/history-2000.jpg"
                         class="w-full
                         h-[400px]
                         object-cover
@@ -615,11 +370,9 @@ include "./include/header.php"; ?>
                 </div>
             </div>
             <!-- ROW 3 -->
-            <div
-                class="grid lg:grid-cols-2 gap-12 items-center">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
-                    <div
-                        class="inline-flex
+                    <div class="inline-flex
                         items-center
                         bg-primary
                         text-white
@@ -628,15 +381,13 @@ include "./include/header.php"; ?>
                         mb-6">
                         2014
                     </div>
-                    <h3
-                        class="text-primary
+                    <h3 class="text-primary
                         text-3xl
                         font-black
                         mb-6">
                         Opening Of Pokhara Hospital
                     </h3>
-                    <p
-                        class="text-slate-600
+                    <p class="text-slate-600
                         leading-8">
                         CIWEC expanded its reach by establishing a
                         fully equipped hospital in Pokhara, bringing
@@ -703,7 +454,7 @@ include "./include/header.php"; ?>
         <!-- HEADING -->
         <div class="text-center mb-16">
             <span class="section-subtitle">
-            Historical Gallery
+                Historical Gallery
             </span>
             <h2 class="section-title">
                 Moments That Shaped CIWEC
@@ -750,7 +501,7 @@ include "./include/header.php"; ?>
                     <span
                         class="text-secondary
                         font-bold">
-                    1982
+                        1982
                     </span>
                     <h3
                         class="text-white
@@ -787,7 +538,7 @@ include "./include/header.php"; ?>
                     <span
                         class="text-secondary
                         font-bold">
-                    1995
+                        1995
                     </span>
                     <h3
                         class="text-white
@@ -825,7 +576,7 @@ include "./include/header.php"; ?>
                     <span
                         class="text-secondary
                         font-bold">
-                    2005
+                        2005
                     </span>
                     <h3
                         class="text-white
@@ -870,7 +621,7 @@ include "./include/header.php"; ?>
                     <span
                         class="text-secondary
                         font-bold">
-                    2014
+                        2014
                     </span>
                     <h3
                         class="text-white
@@ -913,7 +664,7 @@ include "./include/header.php"; ?>
                     <span
                         class="text-secondary
                         font-bold">
-                    Today
+                        Today
                     </span>
                     <h3
                         class="text-white
@@ -950,7 +701,7 @@ include "./include/header.php"; ?>
                     <span
                         class="text-secondary
                         font-bold">
-                    Future
+                        Future
                     </span>
                     <h3
                         class="text-white
@@ -965,7 +716,7 @@ include "./include/header.php"; ?>
         <!-- QUOTE -->
         <div
             class="mt-20
-            bg-slate-50
+            bg-slate-100
             border-l-4
             border-secondary
             p-10
@@ -988,12 +739,12 @@ include "./include/header.php"; ?>
 <!-- ========================================= -->
 <!-- LEGACY & FUTURE VISION -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
         <div class="text-center mb-20">
             <span class="section-subtitle">
-            Looking Back & Moving Forward
+                Looking Back & Moving Forward
             </span>
             <h2 class="section-title">
                 Our Legacy & Future Vision
@@ -1051,7 +802,7 @@ include "./include/header.php"; ?>
                     font-bold
                     uppercase
                     tracking-wider">
-                Our Legacy
+                    Our Legacy
                 </span>
                 <h3
                     class="text-primary
@@ -1149,7 +900,7 @@ include "./include/header.php"; ?>
                         font-bold
                         uppercase
                         tracking-wider">
-                    Future Vision
+                        Future Vision
                     </span>
                     <h3
                         class="text-3xl
@@ -1186,7 +937,7 @@ include "./include/header.php"; ?>
                                 text-secondary">
                             </i>
                             <span>
-                            Advanced Medical Technology
+                                Advanced Medical Technology
                             </span>
                         </div>
                         <div
@@ -1196,7 +947,7 @@ include "./include/header.php"; ?>
                                 text-secondary">
                             </i>
                             <span>
-                            Expanded Research Initiatives
+                                Expanded Research Initiatives
                             </span>
                         </div>
                         <div
@@ -1206,7 +957,7 @@ include "./include/header.php"; ?>
                                 text-secondary">
                             </i>
                             <span>
-                            Greater Global Collaboration
+                                Greater Global Collaboration
                             </span>
                         </div>
                         <div
@@ -1216,7 +967,7 @@ include "./include/header.php"; ?>
                                 text-secondary">
                             </i>
                             <span>
-                            Enhanced Patient Experience
+                                Enhanced Patient Experience
                             </span>
                         </div>
                     </div>
@@ -1249,147 +1000,7 @@ include "./include/header.php"; ?>
         </div>
     </div>
 </section>
-<!-- ========================================= -->
-<!-- HISTORY CTA -->
-<!-- ========================================= -->
-<section class="relative overflow-hidden bg-primary">
-    <!-- DECORATION -->
-    <div
-        class="absolute
-        top-0
-        left-0
-        w-[500px]
-        h-[500px]
-        bg-white/[0.03]
-        rounded-full
-        -translate-x-1/2
-        -translate-y-1/2">
-    </div>
-    <div class="absolute
-        bottom-0
-        right-0
-        w-[600px]
-        h-[600px]
-        bg-secondary/[0.08]
-        rounded-full
-        translate-x-1/3
-        translate-y-1/3">
-    </div>
-    <div class="container-custom relative z-10">
-        <div class="py-14
-            lg:py-14
-            text-center
-            max-w-5xl
-            mx-auto">
-            <!-- SUBTITLE -->
-            <span
-                class="inline-block
-                text-secondary
-                font-bold
-                uppercase
-                tracking-[4px]
-                mb-5">
-            Continuing The Journey
-            </span>
-            <!-- TITLE -->
-            <h2 class="text-white
-                text-3xl
-                md:text-4xl
-                xl:text-5xl
-                font-black
-                leading-tight">
-                Building On More Than
-                Four Decades Of Excellence
-            </h2>
-            <!-- TEXT -->
-            <p class="max-w-3xl
-                mx-auto
-                text-white/80
-                text-lg
-                leading-8
-                mt-8">
-                Our history is built on trust, innovation,
-                compassion and clinical excellence.
-                As we move forward, CIWEC Hospital remains
-                committed to delivering world-class healthcare
-                for future generations.
-            </p>
-            <!-- CTA BUTTONS -->
-            <div class="flex
-                flex-wrap
-                justify-center
-                gap-4
-                mt-8">
-                <a href="./bookappointment.php"
-                    class="btn-primary bg-white text-primary hover:text-white">
-                Book Appointment
-                </a>
-                <a href="#"
-                    class="btn-secondary">
-                Find A Doctor
-                </a>
-            </div>
-            <!-- TRUST BAR -->
-            <div
-                class="grid
-                grid-cols-2
-                lg:grid-cols-4
-                gap-8
-                mt-20">
-                <div>
-                    <h3
-                        class="text-secondary
-                        text-4xl
-                        font-black">
-                        42+
-                    </h3>
-                    <p
-                        class="text-white/80
-                        mt-3">
-                        Years Of Service
-                    </p>
-                </div>
-                <div>
-                    <h3
-                        class="text-secondary
-                        text-4xl
-                        font-black">
-                        170+
-                    </h3>
-                    <p class="text-white/80
-                        mt-3">
-                        Nationalities Served
-                    </p>
-                </div>
-                <div>
-                    <h3 class="text-secondary
-                        text-4xl
-                        font-black">
-                        80+
-                    </h3>
-                    <p class="text-white/80
-                        mt-3">
-                        Specialists
-                    </p>
-                </div>
-                <div>
-                    <h3 class="text-secondary
-                        text-4xl
-                        font-black">
-                        2
-                    </h3>
-                    <p class="text-white/80
-                        mt-3">
-                        Hospital Locations
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- ========================================= -->
-<!-- HISTORY CTA -->
-<!-- ========================================= -->
+
 <section class="relative overflow-hidden bg-primary">
     <!-- DECORATION -->
     <div
@@ -1429,7 +1040,7 @@ include "./include/header.php"; ?>
                 uppercase
                 tracking-[4px]
                 mb-5">
-            Continuing The Journey
+                Continuing The Journey
             </span>
             <!-- TITLE -->
             <h2
@@ -1457,19 +1068,18 @@ include "./include/header.php"; ?>
                 for future generations.
             </p>
             <!-- CTA BUTTONS -->
-            <div
-                class="flex
+            <div class="flex
                 flex-wrap
                 justify-center
                 gap-4
                 mt-12">
                 <a href="./bookappointment.php"
-                    class="btn-primary">
-                Book Appointment
+                    class="btn-secondary">
+                    Book Appointment
                 </a>
                 <a href="#"
-                    class="btn-light">
-                Find A Doctor
+                    class="btn-light text-white">
+                    Find A Doctor
                 </a>
             </div>
             <!-- TRUST BAR -->
@@ -1565,7 +1175,7 @@ include "./include/header.php"; ?>
                 right-0
                 text-white
                 text-3xl">
-            <i class="fa-solid fa-xmark"></i>
+                <i class="fa-solid fa-xmark"></i>
             </button>
             <!-- IFRAME -->
             <div
@@ -1583,53 +1193,53 @@ include "./include/header.php"; ?>
 <script>
     const historyVideoBtns =
         document.querySelectorAll(".historyVideoBtn");
-    
+
     const historyVideoModal =
         document.getElementById("historyVideoModal");
-    
+
     const historyVideoFrame =
         document.getElementById("historyVideoFrame");
-    
+
     const closeHistoryVideo =
         document.getElementById("closeHistoryVideo");
-    
+
     const historyVideoOverlay =
         document.getElementById("historyVideoOverlay");
-    
+
     historyVideoBtns.forEach(btn => {
-    
+
         btn.addEventListener("click", () => {
-    
+
             const video =
                 btn.dataset.video;
-    
+
             historyVideoFrame.src =
                 video + "?autoplay=1";
-    
+
             historyVideoModal.classList.remove("hidden");
-    
+
             document.body.style.overflow =
                 "hidden";
-    
+
         });
-    
+
     });
-    
+
     function closeVideo() {
-    
+
         historyVideoModal.classList.add("hidden");
-    
+
         historyVideoFrame.src = "";
-    
+
         document.body.style.overflow = "";
-    
+
     }
-    
+
     closeHistoryVideo.addEventListener(
         "click",
         closeVideo
     );
-    
+
     historyVideoOverlay.addEventListener(
         "click",
         closeVideo
@@ -1638,11 +1248,11 @@ include "./include/header.php"; ?>
 <!-- ========================================= -->
 <!-- LEADERSHIP THROUGH THE YEARS -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <div class="text-center mb-16">
             <span class="section-subtitle">
-            Leadership Legacy
+                Leadership Legacy
             </span>
             <h2 class="section-title">
                 The People Who Shaped CIWEC

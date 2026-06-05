@@ -1,4 +1,4 @@
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
         <div class="max-w-3xl mb-12">

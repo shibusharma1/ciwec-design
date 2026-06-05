@@ -53,7 +53,7 @@ include "./include/header.php"; ?>
 </section>
 <section class="pb-12">
    <div class="container-custom">
-      <div class="bg-slate-50 border border-slate-200 p-6 md:p-8">
+      <div class="bg-slate-100 border border-slate-200 p-6 md:p-8">
          <div class="grid lg:grid-cols-4 gap-4">
             <div class="lg:col-span-3 relative">
                <input

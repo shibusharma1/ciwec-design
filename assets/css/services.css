@@ -32,3 +32,17 @@
     transform: translateY(0);
   }
 }
+
+   .active-filter {
+      background: #0A3C69;
+      border-color: #0A3C69;
+   }
+
+   .active-filter h3 {
+      color: white;
+   }
+
+   .active-location {
+      background: #0A3C69;
+      color: white;
+   }

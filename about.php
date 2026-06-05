@@ -1,32 +1,15 @@
 <?php
-include "./include/header.php"; ?>
-<section class="relative h-[220px] md:h-[280px] overflow-hidden">
-    <img src="./assets/img/researchandpublication.png"
-        class="absolute inset-0 w-full h-full object-cover">
-    <div class="absolute inset-0 bg-primary/80"></div>
-    <div class="relative z-10 h-full flex items-center">
-        <div class="container-custom">
-            <h1 class="text-white text-center text-3xl md:text-5xl font-black mb-3">
-                About Us
-            </h1>
-            <div class="flex items-center justify-center gap-2 text-white/90">
-                <a href="index.php" class="hover:text-secondary">
-                Home
-                </a>
-                <i class="fa-solid fa-angle-right text-xs"></i>
-                <span class="text-secondary">
-                About Us
-                </span>
-            </div>
-        </div>
-    </div>
-</section>
+$hero_title = "About Us";
+include "./include/header.php";
+include "./include/herobanner.php";
+?>
+
 <section class="section-padding bg-white">
     <div class="container-custom">
         <div class="grid lg:grid-cols-12 gap-12 items-center">
             <div class="lg:col-span-7">
                 <span class="section-subtitle">
-                About CIWEC
+                    About CIWEC
                 </span>
                 <h2 class="section-title mt-4">
                     Nepal's Leading Travel Medicine &
@@ -73,7 +56,7 @@ include "./include/header.php"; ?>
         </div>
     </div>
 </section>
-<section class="bg-slate-50 section-padding">
+<section class="bg-slate-100 section-padding">
     <div class="container-custom">
         <div
             class="grid lg:grid-cols-12 gap-10 items-center">
@@ -84,7 +67,7 @@ include "./include/header.php"; ?>
             </div>
             <div class="lg:col-span-8">
                 <span class="section-subtitle">
-                Leadership Message
+                    Leadership Message
                 </span>
                 <h2
                     class="section-title mt-4">
@@ -114,12 +97,12 @@ include "./include/header.php"; ?>
 <!-- ========================================= -->
 <!-- OUR JOURNEY -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
         <div class="text-center mb-16">
             <span class="section-subtitle">
-            Our Journey
+                Our Journey
             </span>
             <h2 class="section-title">
                 More Than Four Decades Of Excellence
@@ -436,7 +419,7 @@ include "./include/header.php"; ?>
         <!-- HEADING -->
         <div class="text-center mb-16">
             <span class="section-subtitle">
-            What Drives Us
+                What Drives Us
             </span>
             <h2 class="section-title">
                 Vision, Mission & Values
@@ -595,7 +578,7 @@ include "./include/header.php"; ?>
                             text-secondary">
                         </i>
                         <span class="text-slate-700">
-                        Compassionate Care
+                            Compassionate Care
                         </span>
                     </li>
                     <li
@@ -605,7 +588,7 @@ include "./include/header.php"; ?>
                             text-secondary">
                         </i>
                         <span class="text-slate-700">
-                        Integrity & Ethics
+                            Integrity & Ethics
                         </span>
                     </li>
                     <li
@@ -615,7 +598,7 @@ include "./include/header.php"; ?>
                             text-secondary">
                         </i>
                         <span class="text-slate-700">
-                        Clinical Excellence
+                            Clinical Excellence
                         </span>
                     </li>
                     <li
@@ -625,7 +608,7 @@ include "./include/header.php"; ?>
                             text-secondary">
                         </i>
                         <span class="text-slate-700">
-                        Innovation
+                            Innovation
                         </span>
                     </li>
                     <li
@@ -635,7 +618,7 @@ include "./include/header.php"; ?>
                             text-secondary">
                         </i>
                         <span class="text-slate-700">
-                        International Standards
+                            International Standards
                         </span>
                     </li>
                 </ul>
@@ -656,12 +639,12 @@ include "./include/header.php"; ?>
 <!-- ========================================= -->
 <!-- WHY PATIENTS TRUST CIWEC -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
         <div class="text-center mb-16">
             <span class="section-subtitle">
-            Why Choose CIWEC
+                Why Choose CIWEC
             </span>
             <h2 class="section-title">
                 Trusted By Patients From Around The World
@@ -933,7 +916,7 @@ include "./include/header.php"; ?>
                 uppercase
                 tracking-[3px]
                 font-bold">
-            Global Recognition
+                Global Recognition
             </span>
             <h2
                 class="text-white
@@ -1173,7 +1156,7 @@ include "./include/header.php"; ?>
         <!-- HEADING -->
         <div class="text-center mb-16">
             <span class="section-subtitle">
-            Our Culture
+                Our Culture
             </span>
             <h2 class="section-title">
                 The Values That Define Us
@@ -1400,7 +1383,7 @@ include "./include/header.php"; ?>
         <!-- QUOTE -->
         <div
             class="mt-20
-            bg-slate-50
+            bg-slate-100
             border-l-4
             border-secondary
             p-10
@@ -1423,7 +1406,7 @@ include "./include/header.php"; ?>
 <!-- ========================================= -->
 <!-- ABOUT PAGE CTA -->
 <!-- ========================================= -->
-<section class="relative overflow-hidden bg-primary">
+<section class="section-padding relative overflow-hidden bg-primary">
     <!-- BACKGROUND SHAPES -->
     <div
         class="absolute
@@ -1448,25 +1431,20 @@ include "./include/header.php"; ?>
         translate-y-1/3">
     </div>
     <div class="container-custom relative z-10">
-        <div
-            class="py-20
-            lg:py-28
-            text-center
+        <div class="text-center
             max-w-5xl
             mx-auto">
             <!-- SUBTITLE -->
-            <span
-                class="inline-block
+            <span class="inline-block
                 text-secondary
                 uppercase
                 tracking-[3px]
                 font-bold
                 mb-5">
-            Your Health, Our Commitment
+                Your Health, Our Commitment
             </span>
             <!-- TITLE -->
-            <h2
-                class="text-white
+            <h2 class="text-white
                 text-4xl
                 md:text-5xl
                 xl:text-6xl
@@ -1476,8 +1454,7 @@ include "./include/header.php"; ?>
                 At CIWEC Hospital
             </h2>
             <!-- DESCRIPTION -->
-            <p
-                class="text-white/80
+            <p class="text-white/80
                 text-lg
                 leading-8
                 max-w-3xl
@@ -1489,19 +1466,18 @@ include "./include/header.php"; ?>
                 healthcare services tailored to your needs.
             </p>
             <!-- ACTIONS -->
-            <div
-                class="flex
+            <div class="flex
                 flex-wrap
                 justify-center
                 gap-4
                 mt-10">
                 <a href="./bookappointment.php"
                     class="btn-primary bg-white text-primary hover:text-white">
-                Book Appointment
+                    Book Appointment
                 </a>
-                <a href="#"
+                <a href="./contactus.php"
                     class="btn-secondary">
-                Contact Us
+                    Contact Us
                 </a>
             </div>
             <!-- TRUST NUMBERS -->

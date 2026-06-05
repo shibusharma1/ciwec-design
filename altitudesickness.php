@@ -1,193 +1,8 @@
-<?php include "./include/header.php"; ?>
-<section class="relative h-[220px] md:h-[280px] overflow-hidden">
-   <img src="./assets/img/contact-banner.jpg"
-      class="absolute inset-0 w-full h-full object-cover">
-   <div class="absolute inset-0 bg-primary/80"></div>
-   <div class="relative z-10 h-full flex items-center">
-      <div class="container-custom">
-         <h1 class="text-white text-center text-3xl md:text-5xl font-black mb-3">
-            Altitude sickness
-         </h1>
-         <div class="flex items-center justify-center gap-2 text-white/90">
-            <a href="index.php" class="hover:text-secondary">
-            Home
-            </a>
-            <i class="fa-solid fa-angle-right text-xs"></i>
-            <span class="text-secondary">
-            Altitude sickness
-            </span>
-         </div>
-      </div>
-   </div>
-</section>
-<!-- ========================================= -->
-<!-- ALTITUDE MEDICINE HERO -->
-<!-- ========================================= -->
-<section class="relative min-h-[850px] overflow-hidden">
-   <!-- BACKGROUND IMAGE -->
-   <img
-      src="./assets/img/altitude-medicine-hero.jpg"
-      alt="Altitude Medicine"
-      class="absolute inset-0 w-full h-full object-cover">
-   <!-- OVERLAY -->
-   <div
-      class="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-primary/90 to-primary/70">
-   </div>
-   <!-- MOUNTAIN OVERLAY -->
-   <div
-      class="absolute inset-0 bg-[url('./assets/img/mountain-pattern.png')] opacity-10">
-   </div>
-   <div
-      class="container-custom relative z-10">
-      <div
-         class="min-h-[850px] flex items-center">
-         <div
-            class="max-w-5xl">
-            <!-- BREADCRUMB -->
-            <div
-               class="flex items-center gap-3 text-white/70 mb-8">
-               <a
-                  href="index.php"
-                  class="hover:text-secondary transition">
-               Home
-               </a>
-               <i
-                  class="fa-solid fa-angle-right text-xs">
-               </i>
-               <span
-                  class="text-secondary">
-               Altitude & Mountain Medicine
-               </span>
-            </div>
-            <!-- BADGE -->
-            <span
-               class="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm px-5 py-3 text-white font-semibold border border-white/20">
-            <i
-               class="fa-solid fa-mountain text-secondary">
-            </i>
-            Nepal's Altitude Medicine Experts
-            </span>
-            <!-- TITLE -->
-            <h1
-               class="text-white text-5xl md:text-6xl xl:text-7xl font-black leading-tight mt-8">
-               Stay Safe.
-               <br>
-               Climb Higher.
-               <br>
-               Travel Smarter.
-            </h1>
-            <!-- DESCRIPTION -->
-            <p
-               class="text-white/80 text-lg leading-8 mt-8 max-w-3xl">
-               Specialized altitude, trekking and expedition
-               medicine services designed to help travelers,
-               trekkers and climbers safely navigate Nepal's
-               mountains while minimizing altitude-related risks.
-            </p>
-            <!-- ACTION BUTTONS -->
-            <div
-               class="flex flex-wrap gap-5 mt-10">
-               <a
-                  href="./bookappointment.php"
-                  class="bg-secondary text-white px-8 py-4 font-bold hover:bg-white hover:text-primary transition">
-               Book Consultation
-               </a>
-               <a
-                  href="tel:+977XXXXXXXXX"
-                  class="border border-white text-white px-8 py-4 font-bold hover:bg-white hover:text-primary transition">
-               Emergency Assistance
-               </a>
-            </div>
-            <!-- QUICK FEATURES -->
-            <div
-               class="flex flex-wrap gap-8 mt-12 text-white">
-               <div
-                  class="flex items-center gap-3">
-                  <i
-                     class="fa-solid fa-circle-check text-secondary">
-                  </i>
-                  Altitude Sickness Care
-               </div>
-               <div
-                  class="flex items-center gap-3">
-                  <i
-                     class="fa-solid fa-circle-check text-secondary">
-                  </i>
-                  Expedition Medicine
-               </div>
-               <div
-                  class="flex items-center gap-3">
-                  <i
-                     class="fa-solid fa-circle-check text-secondary">
-                  </i>
-                  Travel Health Services
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- FLOATING STATS -->
-   <div
-      class="container-custom relative z-20">
-      <div
-         class="grid md:grid-cols-2 xl:grid-cols-4 gap-6 -mt-24">
-         <div
-            class="bg-white p-8 shadow-2xl">
-            <h3
-               class="text-primary text-5xl font-black">
-               40+
-            </h3>
-            <p
-               class="text-slate-600 mt-2">
-               Years Experience
-            </p>
-         </div>
-         <div
-            class="bg-white p-8 shadow-2xl">
-            <h3
-               class="text-primary text-5xl font-black">
-               AMS
-            </h3>
-            <p
-               class="text-slate-600 mt-2">
-               Altitude Illness Expertise
-            </p>
-         </div>
-         <div
-            class="bg-white p-8 shadow-2xl">
-            <h3
-               class="text-primary text-5xl font-black">
-               HAPE
-            </h3>
-            <p
-               class="text-slate-600 mt-2">
-               Emergency Treatment
-            </p>
-         </div>
-         <div
-            class="bg-white p-8 shadow-2xl">
-            <h3
-               class="text-primary text-5xl font-black">
-               24/7
-            </h3>
-            <p
-               class="text-slate-600 mt-2">
-               Medical Support
-            </p>
-         </div>
-      </div>
-   </div>
-   <!-- SCROLL INDICATOR -->
-   <div
-      class="absolute bottom-10 left-1/2 -translate-x-1/2 text-white animate-bounce">
-      <i
-         class="fa-solid fa-chevron-down text-2xl">
-      </i>
-   </div>
-</section>
-<!-- ========================================= -->
-<!-- ALTITUDE MEDICINE EXCELLENCE -->
-<!-- ========================================= -->
+<?php
+$hero_title = "Altitude sickness";
+include "./include/header.php";
+include "./include/herobanner.php";
+?>
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <div
@@ -341,9 +156,9 @@
       <div
          class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-24">
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
-               class="text-primary text-5xl font-black">
+               class="text-primary text-4xl font-black">
                40+
             </h3>
             <p
@@ -352,9 +167,9 @@
             </p>
          </div>
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
-               class="text-primary text-5xl font-black">
+               class="text-primary text-4xl font-black">
                Global
             </h3>
             <p
@@ -363,9 +178,9 @@
             </p>
          </div>
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
-               class="text-primary text-5xl font-black">
+               class="text-primary text-4xl font-black">
                Expert
             </h3>
             <p
@@ -374,9 +189,9 @@
             </p>
          </div>
          <div
-            class="bg-slate-50 border border-slate-200 p-8 text-center">
+            class="bg-slate-100 border border-slate-200 p-8 text-center">
             <h3
-               class="text-primary text-5xl font-black">
+               class="text-primary text-4xl font-black">
                24/7
             </h3>
             <p
@@ -422,7 +237,7 @@
 <!-- ========================================= -->
 <!-- ALTITUDE RISK LEVELS -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
       <div class="text-center max-w-4xl mx-auto mb-20">
@@ -440,7 +255,7 @@
          </p>
       </div>
       <!-- MOUNTAIN VISUAL -->
-      <div class="relative mb-24">
+      <div class="relative mb-16">
          <img
             src="./assets/img/mountain-altitude-map.jpg"
             alt="Altitude Risk Levels"
@@ -477,7 +292,7 @@
             LOW RISK
             </span>
             <h3
-               class="text-primary text-3xl font-black mt-6">
+               class="text-primary text-2xl font-black mt-6">
                2,500m
             </h3>
             <p
@@ -515,7 +330,7 @@
             MODERATE RISK
             </span>
             <h3
-               class="text-primary text-3xl font-black mt-6">
+               class="text-primary text-2xl font-black mt-6">
                3,500m
             </h3>
             <p
@@ -553,7 +368,7 @@
             HIGH RISK
             </span>
             <h3
-               class="text-primary text-3xl font-black mt-6">
+               class="text-primary text-2xl font-black mt-6">
                4,500m
             </h3>
             <p
@@ -591,7 +406,7 @@
             EXTREME RISK
             </span>
             <h3
-               class="text-primary text-3xl font-black mt-6">
+               class="text-primary text-2xl font-black mt-6">
                5,500m+
             </h3>
             <p
@@ -648,7 +463,7 @@
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
-      <div class="text-center max-w-4xl mx-auto mb-20">
+      <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
          Altitude Illness Education
          </span>
@@ -668,11 +483,11 @@
          class="grid lg:grid-cols-2 gap-8">
          <!-- AMS -->
          <div
-            class="group bg-slate-50 border border-slate-200 hover:border-yellow-500 transition-all duration-500 overflow-hidden">
+            class="group bg-slate-100 border border-slate-200 hover:border-yellow-500 transition-all duration-500 overflow-hidden">
             <div
                class="h-2 bg-yellow-500">
             </div>
-            <div class="p-10">
+            <div class="p-8">
                <div
                   class="flex flex-wrap justify-between items-center gap-4">
                   <div>
@@ -681,7 +496,7 @@
                      MOST COMMON
                      </span>
                      <h3
-                        class="text-primary text-3xl font-black mt-5">
+                        class="text-primary text-2xl font-black mt-5">
                         Acute Mountain
                         Sickness (AMS)
                      </h3>
@@ -730,11 +545,11 @@
          </div>
          <!-- HAPE -->
          <div
-            class="group bg-slate-50 border border-slate-200 hover:border-red-500 transition-all duration-500 overflow-hidden">
+            class="group bg-slate-100 border border-slate-200 hover:border-red-500 transition-all duration-500 overflow-hidden">
             <div
                class="h-2 bg-red-500">
             </div>
-            <div class="p-10">
+            <div class="p-8">
                <div
                   class="flex flex-wrap justify-between items-center gap-4">
                   <div>
@@ -743,7 +558,7 @@
                      LIFE THREATENING
                      </span>
                      <h3
-                        class="text-primary text-3xl font-black mt-5">
+                        class="text-primary text-2xl font-black mt-5">
                         High Altitude Pulmonary
                         Edema (HAPE)
                      </h3>
@@ -792,11 +607,11 @@
          </div>
          <!-- HACE -->
          <div
-            class="group bg-slate-50 border border-slate-200 hover:border-red-600 transition-all duration-500 overflow-hidden">
+            class="group bg-slate-100 border border-slate-200 hover:border-red-600 transition-all duration-500 overflow-hidden">
             <div
                class="h-2 bg-red-600">
             </div>
-            <div class="p-10">
+            <div class="p-8">
                <div
                   class="flex flex-wrap justify-between items-center gap-4">
                   <div>
@@ -805,7 +620,7 @@
                      CRITICAL EMERGENCY
                      </span>
                      <h3
-                        class="text-primary text-3xl font-black mt-5">
+                        class="text-primary text-2xl font-black mt-5">
                         High Altitude Cerebral
                         Edema (HACE)
                      </h3>
@@ -854,11 +669,11 @@
          </div>
          <!-- DEHYDRATION -->
          <div
-            class="group bg-slate-50 border border-slate-200 hover:border-blue-500 transition-all duration-500 overflow-hidden">
+            class="group bg-slate-100 border border-slate-200 hover:border-blue-500 transition-all duration-500 overflow-hidden">
             <div
                class="h-2 bg-blue-500">
             </div>
-            <div class="p-10">
+            <div class="p-8">
                <div
                   class="flex flex-wrap justify-between items-center gap-4">
                   <div>
@@ -867,7 +682,7 @@
                      COMMON CONDITION
                      </span>
                      <h3
-                        class="text-primary text-3xl font-black mt-5">
+                        class="text-primary text-2xl font-black mt-5">
                         Dehydration &
                         Exhaustion
                      </h3>
@@ -917,18 +732,18 @@
       </div>
       <!-- EMERGENCY NOTICE -->
       <div
-         class="mt-20 bg-slate-950 p-10 lg:p-14 text-center">
+         class="mt-20 bg-slate-200 p-10 lg:p-14 text-center">
          <div
             class="max-w-4xl mx-auto">
             <i
                class="fa-solid fa-triangle-exclamation text-red-500 text-5xl">
             </i>
             <h3
-               class="text-white text-4xl font-black mt-6">
+               class="text-primary text-4xl font-black mt-6">
                Never Ignore Severe Altitude Symptoms
             </h3>
             <p
-               class="text-white/70 mt-6 leading-8">
+               class="text-secondary mt-6 leading-8">
                Symptoms such as severe breathlessness, confusion,
                inability to walk normally or loss of consciousness
                require immediate medical attention and rapid descent.
@@ -940,7 +755,7 @@
 <!-- ========================================= -->
 <!-- SYMPTOMS & WARNING SIGNS -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
       <div class="text-center max-w-4xl mx-auto mb-20">
@@ -974,7 +789,7 @@
                MONITOR SYMPTOMS
                </span>
                <h3
-                  class="text-primary text-3xl font-black mt-6">
+                  class="text-primary text-2xl font-black mt-6">
                   Mild Symptoms
                </h3>
                <p
@@ -1034,7 +849,7 @@
                SERIOUS SYMPTOMS
                </span>
                <h3
-                  class="text-primary text-3xl font-black mt-6">
+                  class="text-primary text-2xl font-black mt-6">
                   Seek Medical Advice
                </h3>
                <p
@@ -1094,7 +909,7 @@
                MEDICAL EMERGENCY
                </span>
                <h3
-                  class="text-primary text-3xl font-black mt-6">
+                  class="text-primary text-2xl font-black mt-6">
                   Immediate Action Required
                </h3>
                <p
@@ -1441,7 +1256,7 @@
 <!-- ========================================= -->
 <!-- FROSTBITE & COLD INJURY CARE -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
       <div class="text-center max-w-4xl mx-auto mb-20">
@@ -1703,9 +1518,9 @@
    </div>
 </section>
 <!-- ========================================= -->
-<!-- EMERGENCY ALTITUDE RESPONSE -->
+<!-- EMERGENCY ALTITUDE RESPONSE design if necessary -->
 <!-- ========================================= -->
-<section class="relative overflow-hidden bg-slate-950">
+<section class="hidden relative overflow-hidden bg-slate-200">
    <!-- BACKGROUND EFFECTS -->
    <div
       class="absolute top-0 left-0 w-[600px] h-[600px] bg-red-500/10 rounded-full -translate-x-1/2 -translate-y-1/2">
@@ -1714,7 +1529,7 @@
       class="absolute bottom-0 right-0 w-[700px] h-[700px] bg-primary/10 rounded-full translate-x-1/3 translate-y-1/3">
    </div>
    <div class="container-custom relative z-10">
-      <div class="py-24 lg:py-32">
+      <div class="py-12 lg:py-16">
          <!-- HEADER -->
          <div
             class="text-center max-w-4xl mx-auto mb-20">
@@ -1724,11 +1539,11 @@
             Medical Emergency Information
             </span>
             <h2
-               class="text-white text-5xl lg:text-6xl font-black mt-8">
+               class="text-primary text-4xl lg:text-5xl font-black mt-8">
                Emergency Altitude Response
             </h2>
             <p
-               class="text-white/70 mt-8 text-lg leading-8">
+               class="text-black/70 mt-8 text-lg leading-8">
                Severe altitude illness can progress rapidly and
                become life-threatening. Early recognition and
                immediate action can save lives.
@@ -1958,7 +1773,7 @@
    </div>
 </section>
 <!-- FAQ section -->
-<section class="bg-slate-50 py-20">
+<section class="bg-slate-100 py-20">
    <div class="container-custom">
       <div class="text-center mb-14">
          <span class="text-secondary uppercase tracking-[3px] font-bold text-sm">
@@ -2081,7 +1896,7 @@
       class="absolute bottom-0 right-0 w-[700px] h-[700px] bg-white/5 rounded-full translate-x-1/3 translate-y-1/3">
    </div>
    <div class="container-custom relative z-10">
-      <div class="py-24 lg:py-32">
+      <div class="py-12 lg:py-16">
          <!-- HEADER -->
          <div
             class="max-w-5xl mx-auto text-center">
@@ -2091,7 +1906,7 @@
             Expedition & Travel Medicine
             </span>
             <h2
-               class="text-white text-5xl lg:text-6xl font-black mt-8 leading-tight">
+               class="text-white text-4xl lg:text-5xl font-black mt-8 leading-tight">
                Prepare For The Mountains
                With Confidence
             </h2>
@@ -2188,7 +2003,7 @@
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-24">
             <div class="text-center">
                <h3
-                  class="text-white text-5xl font-black">
+                  class="text-white text-4xl font-black">
                   40+
                </h3>
                <p
@@ -2198,7 +2013,7 @@
             </div>
             <div class="text-center">
                <h3
-                  class="text-white text-5xl font-black">
+                  class="text-white text-4xl font-black">
                   Global
                </h3>
                <p
@@ -2208,7 +2023,7 @@
             </div>
             <div class="text-center">
                <h3
-                  class="text-white text-5xl font-black">
+                  class="text-white text-4xl font-black">
                   Expert
                </h3>
                <p
@@ -2218,7 +2033,7 @@
             </div>
             <div class="text-center">
                <h3
-                  class="text-white text-5xl font-black">
+                  class="text-white text-4xl font-black">
                   24/7
                </h3>
                <p
@@ -2235,7 +2050,7 @@
                <div
                   class="lg:col-span-8">
                   <h3
-                     class="text-white text-4xl lg:text-5xl font-black">
+                     class="text-white text-3xl lg:text-4xl font-black">
                      Planning A Trek Or Expedition?
                   </h3>
                   <p

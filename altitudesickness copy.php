@@ -80,7 +80,7 @@
         </div>
     </div>
 </section>
-<section class="bg-slate-50 py-20">
+<section class="bg-slate-100 py-20">
     <div class="container-custom">
         <div class="text-center mb-16">
             <h2 class="section-title">
@@ -115,7 +115,7 @@
         Headache
     </h4>
 </div>
-<section class="bg-slate-50 py-20 overflow-hidden">
+<section class="bg-slate-100 py-20 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
         <div class="text-center mb-16">
@@ -435,7 +435,7 @@
         </div>
     </div>
 </section>
-<section class="bg-slate-50 py-20">
+<section class="bg-slate-100 py-20">
     <div class="container-custom">
         <div class="text-center mb-14">
             <span class="text-secondary uppercase tracking-[3px] font-bold text-sm">

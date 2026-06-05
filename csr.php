@@ -1,5 +1,5 @@
 <?php
-   include "./include/header.php"; ?>
+include "./include/header.php"; ?>
 <section class="relative h-[220px] md:h-[280px] overflow-hidden">
    <img src="./assets/img/researchandpublication.png"
       class="absolute inset-0 w-full h-full object-cover">
@@ -11,11 +11,11 @@
          </h1>
          <div class="flex items-center justify-center gap-2 text-white/90">
             <a href="index.php" class="hover:text-secondary">
-            Home
+               Home
             </a>
             <i class="fa-solid fa-angle-right text-xs"></i>
             <span class="text-secondary">
-            Ciwec CSR
+               Ciwec CSR
             </span>
          </div>
       </div>
@@ -30,7 +30,7 @@
          <!-- LEFT CONTENT -->
          <div>
             <span class="section-subtitle">
-            Community Responsibility
+               Community Responsibility
             </span>
             <h2 class="section-title mt-4">
                Healthcare Beyond Hospital Walls
@@ -123,7 +123,7 @@
             <div
                class="absolute bottom-8 left-8 bg-white p-6 shadow-xl max-w-[260px]">
                <span class="text-secondary font-bold">
-               Since 1982
+                  Since 1982
                </span>
                <h4 class="text-primary text-xl font-black mt-2">
                   Serving Communities Across Nepal
@@ -150,12 +150,12 @@
 <!-- ========================================= -->
 <!-- CSR IMPACT STATISTICS -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
       <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
-         Community Impact
+            Community Impact
          </span>
          <h2 class="section-title">
             Making A Difference Beyond Healthcare
@@ -289,59 +289,59 @@
 </section>
 <script>
    const counters =
-       document.querySelectorAll('.counter');
-   
+      document.querySelectorAll('.counter');
+
    const observer =
-       new IntersectionObserver((entries) => {
-   
-           entries.forEach(entry => {
-   
-               if (entry.isIntersecting) {
-   
-                   const counter =
-                       entry.target;
-   
-                   const target = +counter.dataset.count;
-   
-                   let count = 0;
-   
-                   const update = () => {
-   
-                       const increment =
-                           target / 100;
-   
-                       count += increment;
-   
-                       if (count < target) {
-   
-                           counter.innerText =
-                               Math.ceil(count);
-   
-                           requestAnimationFrame(update);
-   
-                       } else {
-   
-                           counter.innerText =
-                               target + '+';
-   
-                       }
-   
-                   };
-   
-                   update();
-   
-                   observer.unobserve(counter);
-   
-               }
-   
-           });
-   
-       }, {
-           threshold: 0.4
-       });
-   
+      new IntersectionObserver((entries) => {
+
+         entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+               const counter =
+                  entry.target;
+
+               const target = +counter.dataset.count;
+
+               let count = 0;
+
+               const update = () => {
+
+                  const increment =
+                     target / 100;
+
+                  count += increment;
+
+                  if (count < target) {
+
+                     counter.innerText =
+                        Math.ceil(count);
+
+                     requestAnimationFrame(update);
+
+                  } else {
+
+                     counter.innerText =
+                        target + '+';
+
+                  }
+
+               };
+
+               update();
+
+               observer.unobserve(counter);
+
+            }
+
+         });
+
+      }, {
+         threshold: 0.4
+      });
+
    counters.forEach(counter => {
-       observer.observe(counter);
+      observer.observe(counter);
    });
 </script>
 <!-- ========================================= -->
@@ -352,7 +352,7 @@
       <!-- HEADING -->
       <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
-         Our Initiatives
+            Our Initiatives
          </span>
          <h2 class="section-title">
             Featured CSR Programs
@@ -367,7 +367,7 @@
       <div class="grid lg:grid-cols-2 gap-8">
          <!-- FIRST AID TRAINING -->
          <div
-            class="group bg-slate-50 border border-slate-200 hover:border-secondary transition-all duration-500 overflow-hidden">
+            class="group bg-slate-100 border border-slate-200 hover:border-secondary transition-all duration-500 overflow-hidden">
             <div class="grid md:grid-cols-2">
                <div class="overflow-hidden">
                   <img
@@ -390,8 +390,8 @@
                   <div class="mt-6">
                      <span
                         class="inline-flex items-center gap-2 text-secondary font-semibold">
-                     <i class="fa-solid fa-users"></i>
-                     1,500+ Participants Trained
+                        <i class="fa-solid fa-users"></i>
+                        1,500+ Participants Trained
                      </span>
                   </div>
                </div>
@@ -399,7 +399,7 @@
          </div>
          <!-- BLOOD DONATION -->
          <div
-            class="group bg-slate-50 border border-slate-200 hover:border-secondary transition-all duration-500 overflow-hidden">
+            class="group bg-slate-100 border border-slate-200 hover:border-secondary transition-all duration-500 overflow-hidden">
             <div class="grid md:grid-cols-2">
                <div class="overflow-hidden">
                   <img
@@ -422,8 +422,8 @@
                   <div class="mt-6">
                      <span
                         class="inline-flex items-center gap-2 text-secondary font-semibold">
-                     <i class="fa-solid fa-heart"></i>
-                     Hundreds Of Lives Supported
+                        <i class="fa-solid fa-heart"></i>
+                        Hundreds Of Lives Supported
                      </span>
                   </div>
                </div>
@@ -431,7 +431,7 @@
          </div>
          <!-- MEDICAL CAMPS -->
          <div
-            class="group bg-slate-50 border border-slate-200 hover:border-secondary transition-all duration-500 overflow-hidden">
+            class="group bg-slate-100 border border-slate-200 hover:border-secondary transition-all duration-500 overflow-hidden">
             <div class="grid md:grid-cols-2">
                <div class="overflow-hidden">
                   <img
@@ -453,8 +453,8 @@
                   <div class="mt-6">
                      <span
                         class="inline-flex items-center gap-2 text-secondary font-semibold">
-                     <i class="fa-solid fa-user-doctor"></i>
-                     Rural Healthcare Outreach
+                        <i class="fa-solid fa-user-doctor"></i>
+                        Rural Healthcare Outreach
                      </span>
                   </div>
                </div>
@@ -462,7 +462,7 @@
          </div>
          <!-- COMMUNITY -->
          <div
-            class="group bg-slate-50 border border-slate-200 hover:border-secondary transition-all duration-500 overflow-hidden">
+            class="group bg-slate-100 border border-slate-200 hover:border-secondary transition-all duration-500 overflow-hidden">
             <div class="grid md:grid-cols-2">
                <div class="overflow-hidden">
                   <img
@@ -485,8 +485,8 @@
                   <div class="mt-6">
                      <span
                         class="inline-flex items-center gap-2 text-secondary font-semibold">
-                     <i class="fa-solid fa-handshake-angle"></i>
-                     Strong Local Partnerships
+                        <i class="fa-solid fa-handshake-angle"></i>
+                        Strong Local Partnerships
                      </span>
                   </div>
                </div>
@@ -498,12 +498,12 @@
 <!-- ========================================= -->
 <!-- CSR JOURNEY TIMELINE -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
       <div class="text-center max-w-4xl mx-auto mb-20">
          <span class="section-subtitle">
-         Our Journey
+            Our Journey
          </span>
          <h2 class="section-title">
             CSR Milestones Through The Years
@@ -524,7 +524,7 @@
                   class="timeline-btn active-timeline w-full text-left p-5 bg-primary text-white"
                   data-year="2015">
                   <span class="text-2xl font-black">
-                  2015
+                     2015
                   </span>
                   <p class="text-white/80 text-sm mt-2">
                      Community Health Outreach
@@ -534,7 +534,7 @@
                   class="timeline-btn w-full text-left p-5 bg-white border border-slate-200 hover:border-secondary transition"
                   data-year="2018">
                   <span class="text-2xl font-black text-primary">
-                  2018
+                     2018
                   </span>
                   <p class="text-slate-500 text-sm mt-2">
                      First Aid Training Expansion
@@ -544,7 +544,7 @@
                   class="timeline-btn w-full text-left p-5 bg-white border border-slate-200 hover:border-secondary transition"
                   data-year="2020">
                   <span class="text-2xl font-black text-primary">
-                  2020
+                     2020
                   </span>
                   <p class="text-slate-500 text-sm mt-2">
                      Pandemic Support Programs
@@ -554,7 +554,7 @@
                   class="timeline-btn w-full text-left p-5 bg-white border border-slate-200 hover:border-secondary transition"
                   data-year="2023">
                   <span class="text-2xl font-black text-primary">
-                  2023
+                     2023
                   </span>
                   <p class="text-slate-500 text-sm mt-2">
                      Blood Donation Campaigns
@@ -564,7 +564,7 @@
                   class="timeline-btn w-full text-left p-5 bg-white border border-slate-200 hover:border-secondary transition"
                   data-year="2025">
                   <span class="text-2xl font-black text-primary">
-                  2025
+                     2025
                   </span>
                   <p class="text-slate-500 text-sm mt-2">
                      Sustainable Community Impact
@@ -585,7 +585,7 @@
                   <span
                      id="timelineYear"
                      class="text-secondary font-bold text-lg">
-                  2015
+                     2015
                   </span>
                   <h3
                      id="timelineTitle"
@@ -605,7 +605,7 @@
                   <div
                      class="grid md:grid-cols-3 gap-6 mt-10">
                      <div
-                        class="bg-slate-50 p-5 text-center">
+                        class="bg-slate-100 p-5 text-center">
                         <h4
                            class="text-primary text-3xl font-black">
                            1,200+
@@ -615,7 +615,7 @@
                         </p>
                      </div>
                      <div
-                        class="bg-slate-50 p-5 text-center">
+                        class="bg-slate-100 p-5 text-center">
                         <h4
                            class="text-primary text-3xl font-black">
                            15
@@ -625,7 +625,7 @@
                         </p>
                      </div>
                      <div
-                        class="bg-slate-50 p-5 text-center">
+                        class="bg-slate-100 p-5 text-center">
                         <h4
                            class="text-primary text-3xl font-black">
                            8
@@ -643,101 +643,101 @@
 </section>
 <script>
    const timelineData = {
-   
-       2015: {
-           image: "./assets/img/csr-timeline-1.jpg",
-           title: "Community Health Outreach Program",
-           description: "CIWEC initiated large-scale healthcare awareness and outreach activities, providing health education, screening and preventive care services to local communities.",
-           impact1: "1,200+",
-           impact2: "15",
-           impact3: "8"
-       },
-   
-       2018: {
-           image: "./assets/img/csr-timeline-2.jpg",
-           title: "First Aid Training Expansion",
-           description: "Training schools, businesses and community groups in emergency response and lifesaving first aid techniques.",
-           impact1: "2,500+",
-           impact2: "35",
-           impact3: "20"
-       },
-   
-       2020: {
-           image: "./assets/img/csr-timeline-3.jpg",
-           title: "Pandemic Response & Support",
-           description: "Providing healthcare support, awareness and emergency assistance during the COVID-19 pandemic.",
-           impact1: "10,000+",
-           impact2: "50",
-           impact3: "25"
-       },
-   
-       2023: {
-           image: "./assets/img/csr-timeline-4.jpg",
-           title: "Blood Donation Campaigns",
-           description: "Organizing regular blood donation drives to support hospitals and emergency care services.",
-           impact1: "500+",
-           impact2: "18",
-           impact3: "12"
-       },
-   
-       2025: {
-           image: "./assets/img/csr-timeline-5.jpg",
-           title: "Sustainable Community Impact",
-           description: "Expanding CSR initiatives with long-term community partnerships and healthcare education programs.",
-           impact1: "15,000+",
-           impact2: "75",
-           impact3: "40"
-       }
-   
+
+      2015: {
+         image: "./assets/img/csr-timeline-1.jpg",
+         title: "Community Health Outreach Program",
+         description: "CIWEC initiated large-scale healthcare awareness and outreach activities, providing health education, screening and preventive care services to local communities.",
+         impact1: "1,200+",
+         impact2: "15",
+         impact3: "8"
+      },
+
+      2018: {
+         image: "./assets/img/csr-timeline-2.jpg",
+         title: "First Aid Training Expansion",
+         description: "Training schools, businesses and community groups in emergency response and lifesaving first aid techniques.",
+         impact1: "2,500+",
+         impact2: "35",
+         impact3: "20"
+      },
+
+      2020: {
+         image: "./assets/img/csr-timeline-3.jpg",
+         title: "Pandemic Response & Support",
+         description: "Providing healthcare support, awareness and emergency assistance during the COVID-19 pandemic.",
+         impact1: "10,000+",
+         impact2: "50",
+         impact3: "25"
+      },
+
+      2023: {
+         image: "./assets/img/csr-timeline-4.jpg",
+         title: "Blood Donation Campaigns",
+         description: "Organizing regular blood donation drives to support hospitals and emergency care services.",
+         impact1: "500+",
+         impact2: "18",
+         impact3: "12"
+      },
+
+      2025: {
+         image: "./assets/img/csr-timeline-5.jpg",
+         title: "Sustainable Community Impact",
+         description: "Expanding CSR initiatives with long-term community partnerships and healthcare education programs.",
+         impact1: "15,000+",
+         impact2: "75",
+         impact3: "40"
+      }
+
    };
-   
+
    document.querySelectorAll(".timeline-btn")
-       .forEach(btn => {
-   
-           btn.addEventListener("click", function() {
-   
-               const year = this.dataset.year;
-   
-               document.querySelectorAll(".timeline-btn")
-                   .forEach(item => {
-   
-                       item.classList.remove(
-                           "active-timeline",
-                           "bg-primary",
-                           "text-white"
-                       );
-   
-                       item.classList.add(
-                           "bg-white",
-                           "border",
-                           "border-slate-200"
-                       );
-   
-                   });
-   
-               this.classList.add(
-                   "active-timeline",
-                   "bg-primary",
-                   "text-white"
-               );
-   
-               const data = timelineData[year];
-   
-               document.getElementById("timelineImage").src =
-                   data.image;
-   
-               document.getElementById("timelineYear").innerText =
-                   year;
-   
-               document.getElementById("timelineTitle").innerText =
-                   data.title;
-   
-               document.getElementById("timelineDescription").innerText =
-                   data.description;
-   
-           });
-   
-       });
+      .forEach(btn => {
+
+         btn.addEventListener("click", function() {
+
+            const year = this.dataset.year;
+
+            document.querySelectorAll(".timeline-btn")
+               .forEach(item => {
+
+                  item.classList.remove(
+                     "active-timeline",
+                     "bg-primary",
+                     "text-white"
+                  );
+
+                  item.classList.add(
+                     "bg-white",
+                     "border",
+                     "border-slate-200"
+                  );
+
+               });
+
+            this.classList.add(
+               "active-timeline",
+               "bg-primary",
+               "text-white"
+            );
+
+            const data = timelineData[year];
+
+            document.getElementById("timelineImage").src =
+               data.image;
+
+            document.getElementById("timelineYear").innerText =
+               year;
+
+            document.getElementById("timelineTitle").innerText =
+               data.title;
+
+            document.getElementById("timelineDescription").innerText =
+               data.description;
+
+         });
+
+      });
 </script>
 <!-- ========================================= -->
 <!-- SUCCESS STORIES -->
@@ -747,7 +747,7 @@
       <!-- HEADING -->
       <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
-         Real Impact
+            Real Impact
          </span>
          <h2 class="section-title">
             Stories From The Communities We Serve
@@ -762,7 +762,7 @@
       <div class="grid lg:grid-cols-3 gap-8">
          <!-- STORY -->
          <div
-            class="group bg-slate-50 border border-slate-200 hover:border-secondary transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 hover:border-secondary transition-all duration-500">
             <div class="p-8">
                <!-- QUOTE -->
                <div
@@ -800,7 +800,7 @@
          </div>
          <!-- STORY -->
          <div
-            class="group bg-slate-50 border border-slate-200 hover:border-secondary transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 hover:border-secondary transition-all duration-500">
             <div class="p-8">
                <div
                   class="w-14 h-14 bg-secondary/10 flex items-center justify-center mb-6">
@@ -835,7 +835,7 @@
          </div>
          <!-- STORY -->
          <div
-            class="group bg-slate-50 border border-slate-200 hover:border-secondary transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 hover:border-secondary transition-all duration-500">
             <div class="p-8">
                <div
                   class="w-14 h-14 bg-primary/10 flex items-center justify-center mb-6">
@@ -883,7 +883,7 @@
                class="lg:col-span-7 p-10 lg:p-16">
                <span
                   class="text-secondary font-bold uppercase tracking-[2px]">
-               Featured Story
+                  Featured Story
                </span>
                <h3
                   class="text-white text-4xl font-black mt-4">
@@ -910,12 +910,12 @@
 <!-- ========================================= -->
 <!-- CSR GALLERY -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-8">
          <span class="section-subtitle">
-         CSR Gallery
+            CSR Gallery
          </span>
          <h2 class="section-title">
             Moments Of Community Impact
@@ -929,31 +929,31 @@
       </div>
       <!-- FILTERS -->
       <div
-         class="flex flex-wrap justify-center gap-3 mb-12">
+         class="flex flex-wrap justify-center gap-3 mb-8">
          <button
-            class="csr-filter active-filter"
+            class="csr-filter active"
             data-filter="all">
-         All Activities
+            All Activities
          </button>
          <button
             class="csr-filter"
             data-filter="medical">
-         Medical Camps
+            Medical Camps
          </button>
          <button
             class="csr-filter"
             data-filter="blood">
-         Blood Donation
+            Blood Donation
          </button>
          <button
             class="csr-filter"
             data-filter="training">
-         First Aid Training
+            First Aid Training
          </button>
          <button
             class="csr-filter"
             data-filter="community">
-         Community Programs
+            Community Programs
          </button>
       </div>
       <!-- GALLERY -->
@@ -973,7 +973,7 @@
             <div
                class="absolute bottom-0 left-0 p-6 opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition duration-500">
                <span class="text-secondary text-sm font-bold">
-               Medical Camp
+                  Medical Camp
                </span>
                <h4 class="text-white text-xl font-black mt-2">
                   Community Health Screening
@@ -993,7 +993,7 @@
             <div
                class="absolute bottom-0 left-0 p-6 opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition duration-500">
                <span class="text-secondary text-sm font-bold">
-               Blood Donation
+                  Blood Donation
                </span>
                <h4 class="text-white text-xl font-black mt-2">
                   Lifesaving Blood Drive
@@ -1013,7 +1013,7 @@
             <div
                class="absolute bottom-0 left-0 p-6 opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition duration-500">
                <span class="text-secondary text-sm font-bold">
-               Training
+                  Training
                </span>
                <h4 class="text-white text-xl font-black mt-2">
                   Emergency First Aid Workshop
@@ -1033,7 +1033,7 @@
             <div
                class="absolute bottom-0 left-0 p-6 opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition duration-500">
                <span class="text-secondary text-sm font-bold">
-               Community
+                  Community
                </span>
                <h4 class="text-white text-xl font-black mt-2">
                   Public Awareness Campaign
@@ -1042,17 +1042,51 @@
          </div>
          <!-- Add More Gallery Items -->
       </div>
+      <div
+         id="csr-empty-state"
+         class="hidden">
+
+         <div
+            class="bg-white border border-slate-200 py-20 px-8 text-center">
+
+            <div
+               class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
+
+               <i
+                  class="fa-solid fa-camera-retro text-primary text-3xl">
+               </i>
+
+            </div>
+
+            <h3
+               class="text-primary text-2xl font-black mb-3">
+
+               No Activities Available
+
+            </h3>
+
+            <p
+               class="text-slate-600 max-w-xl mx-auto leading-8">
+
+               There are currently no CSR activities available in this category.
+               Please explore other categories or check back later for updates.
+
+            </p>
+
+         </div>
+
+      </div>
    </div>
 </section>
 <!-- ========================================= -->
 <!-- UPCOMING CSR INITIATIVES -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
       <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
-         Looking Ahead
+            Looking Ahead
          </span>
          <h2 class="section-title">
             Upcoming CSR Initiatives
@@ -1077,7 +1111,7 @@
                class="bg-white border border-slate-200 p-8 lg:text-right">
                <span
                   class="inline-block bg-primary/10 text-primary px-4 py-2 text-sm font-semibold">
-               March 2026
+                  March 2026
                </span>
                <h3
                   class="text-primary text-2xl font-black mt-5">
@@ -1111,7 +1145,7 @@
                class="order-1 lg:order-2 bg-white border border-slate-200 p-8">
                <span
                   class="inline-block bg-secondary/10 text-secondary px-4 py-2 text-sm font-semibold">
-               April 2026
+                  April 2026
                </span>
                <h3
                   class="text-primary text-2xl font-black mt-5">
@@ -1132,7 +1166,7 @@
                class="bg-white border border-slate-200 p-8 lg:text-right">
                <span
                   class="inline-block bg-primary/10 text-primary px-4 py-2 text-sm font-semibold">
-               June 2026
+                  June 2026
                </span>
                <h3
                   class="text-primary text-2xl font-black mt-5">
@@ -1167,13 +1201,13 @@
          </p>
          <div
             class="flex flex-wrap justify-center gap-4 mt-8">
-            <a href="#"
-               class="btn-light">
-            Become A Volunteer
+            <a href="./contactus.php"
+               class="btn-light text-white">
+               Become A Volunteer
             </a>
-            <a href="#"
+            <a href="./contactus.php"
                class="btn-secondary">
-            Contact CSR Team
+               Contact CSR Team
             </a>
          </div>
       </div>
@@ -1182,7 +1216,7 @@
 <!-- ========================================= -->
 <!-- JOIN OUR MISSION -->
 <!-- ========================================= -->
-<section class="relative overflow-hidden bg-primary">
+<section class="section-padding relative overflow-hidden bg-primary">
    <!-- BACKGROUND SHAPES -->
    <div
       class="absolute
@@ -1211,9 +1245,7 @@
       relative
       z-10">
       <div
-         class="py-24
-         lg:py-32
-         text-center
+         class="text-center
          max-w-5xl
          mx-auto">
          <!-- SUBTITLE -->
@@ -1224,7 +1256,7 @@
             tracking-[4px]
             font-bold
             mb-5">
-         Get Involved
+            Get Involved
          </span>
          <!-- TITLE -->
          <h2
@@ -1258,25 +1290,17 @@
             justify-center
             gap-4
             mt-12">
-            <a href="#"
-               class="btn-light">
-            Become A Volunteer
+            <a href="./contactus.php"
+               class="btn-light text-white">
+               Become A Volunteer
             </a>
-            <a href="#"
+            <a href="./contactus.php"
                class="btn-secondary">
-            Partner With CIWEC
+               Partner With CIWEC
             </a>
-            <a href="#"
-               class="border
-               border-white/30
-               text-white
-               px-8
-               py-4
-               font-semibold
-               hover:bg-white
-               hover:text-primary
-               transition-all">
-            Contact CSR Team
+            <a href="./contactus.php"
+               class="btn-light text-white">
+               Contact CSR Team
             </a>
          </div>
          <!-- IMPACT CARDS -->
@@ -1412,5 +1436,75 @@
       </div>
    </div>
 </section>
+<script>
+   document.addEventListener("DOMContentLoaded", () => {
+
+      const filterButtons =
+         document.querySelectorAll(".csr-filter");
+
+      const galleryItems =
+         document.querySelectorAll(".csr-item");
+
+      const emptyState =
+         document.getElementById("csr-empty-state");
+
+      function filterGallery(filter) {
+
+         let visibleCount = 0;
+
+         galleryItems.forEach(item => {
+
+            if (
+               filter === "all" ||
+               item.classList.contains(filter)
+            ) {
+
+               item.style.display = "block";
+               visibleCount++;
+
+            } else {
+
+               item.style.display = "none";
+
+            }
+
+         });
+
+         if (visibleCount === 0) {
+
+            emptyState.classList.remove("hidden");
+
+         } else {
+
+            emptyState.classList.add("hidden");
+
+         }
+
+      }
+
+      // Initial State
+      filterGallery("all");
+
+      filterButtons.forEach(button => {
+
+         button.addEventListener("click", () => {
+
+            const filter =
+               button.dataset.filter;
+
+            filterButtons.forEach(btn => {
+               btn.classList.remove("active");
+            });
+
+            button.classList.add("active");
+
+            filterGallery(filter);
+
+         });
+
+      });
+
+   });
+</script>
 <?php include "./include/footer.php";
-   ?>
+?>

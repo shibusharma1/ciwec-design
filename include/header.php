@@ -53,6 +53,7 @@
     <link rel="stylesheet" href="./assets/css/whatsnew.css">
     <link rel="stylesheet" href="./assets/css/faq.css">
     <link rel="stylesheet" href="./assets/css/services.css">
+    <link rel="stylesheet" href="./assets/css/gallery.css">
 
 </head>
 
@@ -227,7 +228,7 @@
                                     transition-all duration-300 z-50 overflow-hidden">
 
                             <!-- Header -->
-                            <div class="px-5 py-4 bg-slate-50 border-b border-slate-200">
+                            <div class="px-5 py-4 bg-slate-100 border-b border-slate-200">
                                 <h4 class="text-[15px] font-semibold text-primary">
                                     About CIWEC
                                 </h4>
@@ -296,7 +297,7 @@
                                     transition-all duration-300 z-50 overflow-hidden">
 
                             <!-- Header -->
-                            <div class="px-5 py-4 bg-slate-50 border-b border-slate-200">
+                            <div class="px-5 py-4 bg-slate-100 border-b border-slate-200">
                                 <h4 class="text-[15px] font-semibold text-primary">
                                     Medical Services
                                 </h4>

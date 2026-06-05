@@ -1,55 +1,15 @@
 <?php
-   include "./include/header.php"; ?>
-<style>
-   .gallery-filter {
-   padding-left: 1.5rem;
-   /* px-6 */
-   padding-right: 1.5rem;
-   /* px-6 */
-   height: 3rem;
-   /* h-12 */
-   border: 1px solid #e2e8f0;
-   /* border-slate-200 */
-   color: #0f172a;
-   /* text-primary (replace with your primary color) */
-   font-weight: 600;
-   /* font-semibold */
-   transition: all 300ms ease;
-   }
-   .gallery-filter:hover {
-   border-color: #f59e0b;
-   /* replace with your secondary color */
-   color: #f59e0b;
-   /* replace with your secondary color */
-   }
-</style>
-<section class="relative h-[220px] md:h-[280px] overflow-hidden">
-   <img src="./assets/img/researchandpublication.png"
-      class="absolute inset-0 w-full h-full object-cover">
-   <div class="absolute inset-0 bg-primary/80"></div>
-   <div class="relative z-10 h-full flex items-center">
-      <div class="container-custom">
-         <h1 class="text-white text-center text-3xl md:text-5xl font-black mb-3">
-            Our Gallery
-         </h1>
-         <div class="flex items-center justify-center gap-2 text-white/90">
-            <a href="index.php" class="hover:text-secondary">
-            Home
-            </a>
-            <i class="fa-solid fa-angle-right text-xs"></i>
-            <span class="text-secondary">
-            Gallery
-            </span>
-         </div>
-      </div>
-   </div>
-</section>
+$hero_title = "Our Gallery";
+include "./include/header.php";
+include "./include/herobanner.php";
+?>
+
 <section class="section-padding bg-white">
    <div class="container-custom">
       <div
          class="max-w-4xl mx-auto text-center">
          <span class="section-subtitle">
-         Explore CIWEC
+            Explore CIWEC
          </span>
          <h2 class="section-title">
             Moments That Define Our Journey
@@ -63,27 +23,8 @@
          </p>
       </div>
    </div>
-</section>
-<!-- ========================================= -->
-<!-- GALLERY FILTERS -->
-<!-- ========================================= -->
-<section class="bg-white pb-12">
-   <div class="container-custom">
-      <div
-         class="text-center mb-8">
-         <h3
-            class="text-primary
-            text-xl
-            md:text-2xl
-            font-black">
-            Browse By Category
-         </h3>
-         <p
-            class="text-slate-500
-            mt-2">
-            Explore photographs and videos from different aspects of CIWEC.
-         </p>
-      </div>
+
+   <div class="container-custom mt-8">
       <div
          class="flex
          flex-wrap
@@ -92,51 +33,47 @@
          <button
             class="gallery-filter active"
             data-filter="all">
-         All
+            All
          </button>
          <button
             class="gallery-filter"
             data-filter="hospital">
-         Hospital
+            Hospital
          </button>
          <button
             class="gallery-filter"
             data-filter="doctors">
-         Doctors
+            Doctors
          </button>
          <button
             class="gallery-filter"
             data-filter="events">
-         Events
+            Events
          </button>
          <button
             class="gallery-filter"
             data-filter="facilities">
-         Facilities
+            Facilities
          </button>
-         <button
+         <!-- <button
             class="gallery-filter"
             data-filter="community">
-         Community Outreach
-         </button>
+            Community Outreach
+         </button> -->
          <button
             class="gallery-filter"
             data-filter="research">
-         Research
+            Research
          </button>
          <button
             class="gallery-filter"
             data-filter="videos">
-         Videos
+            Videos
          </button>
       </div>
    </div>
-</section>
-<!-- ========================================= -->
-<!-- PHOTO GALLERY -->
-<!-- ========================================= -->
-<section class="section-padding bg-slate-50">
-   <div class="container-custom">
+
+   <div class="container-custom mt-8">
       <div
          id="galleryGrid"
          class="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
@@ -185,17 +122,51 @@
                class="w-full h-[300px] object-cover">
          </div>
       </div>
+      <div
+    id="gallery-empty-state"
+    class="hidden">
+
+    <div
+        class="bg-slate-100 border border-slate-200 py-20 px-8 text-center">
+
+        <div
+            class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
+
+            <i
+                class="fa-solid fa-images text-primary text-3xl">
+            </i>
+
+        </div>
+
+        <h3
+            class="text-primary text-2xl font-black mb-3">
+
+            No Images Available
+
+        </h3>
+
+        <p
+            class="text-slate-600 max-w-lg mx-auto leading-7">
+
+            There are currently no images available in this category.
+            Please explore other gallery sections or check back later.
+
+        </p>
+
+    </div>
+
+</div>
    </div>
 </section>
 <!-- ========================================= -->
 <!-- FEATURED GALLERY -->
 <!-- ========================================= -->
-<section class="pb-20 bg-white overflow-hidden">
+<section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
       <div class="text-center mb-12">
          <span class="section-subtitle">
-         Featured Moments
+            Featured Moments
          </span>
          <h2 class="section-title">
             Highlights From Our Journey
@@ -250,7 +221,7 @@
                   px-4 py-2
                   text-sm
                   font-bold">
-               FEATURED
+                  FEATURED
                </span>
                <h3
                   class="text-white
@@ -303,7 +274,7 @@
                   <span
                      class="text-secondary
                      font-bold">
-                  Medical Team
+                     Medical Team
                   </span>
                   <h3
                      class="text-white
@@ -342,7 +313,7 @@
                   <span
                      class="text-secondary
                      font-bold">
-                  Community Outreach
+                     Community Outreach
                   </span>
                   <h3
                      class="text-white
@@ -357,15 +328,13 @@
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- PHOTO GALLERY -->
-<!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
-      <div class="text-center mb-16">
+      <div class="text-center mb-12">
          <span class="section-subtitle">
-         Photo Gallery
+            Photo Gallery
          </span>
          <h2 class="section-title">
             Capturing Moments Of Excellence
@@ -425,7 +394,7 @@
                   class="text-secondary
                   text-sm
                   font-bold">
-               Hospital
+                  Hospital
                </span>
                <h3
                   class="text-white
@@ -471,7 +440,7 @@
                   class="text-secondary
                   text-sm
                   font-bold">
-               Doctors
+                  Doctors
                </span>
                <h3
                   class="text-white
@@ -517,7 +486,7 @@
                   class="text-secondary
                   text-sm
                   font-bold">
-               Event
+                  Event
                </span>
                <h3
                   class="text-white
@@ -563,7 +532,7 @@
                   class="text-secondary
                   text-sm
                   font-bold">
-               Community
+                  Community
                </span>
                <h3
                   class="text-white
@@ -576,25 +545,24 @@
          </div>
          <!-- Add More Images -->
       </div>
+   
       <!-- VIEW ALL -->
       <div class="text-center mt-16">
          <button
             id="loadMoreGallery"
             class="btn-primary">
-         View More Photos
+            View More Photos
          </button>
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- VIDEO GALLERY -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
-      <div class="text-center mb-16">
+      <div class="text-center mb-12">
          <span class="section-subtitle">
-         Video Gallery
+            Video Gallery
          </span>
          <h2 class="section-title">
             Stories In Motion
@@ -674,7 +642,7 @@
                   class="text-secondary
                   font-bold
                   text-sm">
-               Documentary
+                  Documentary
                </span>
                <h3
                   class="text-primary
@@ -742,7 +710,7 @@
                   class="text-secondary
                   font-bold
                   text-sm">
-               Medical Camp
+                  Medical Camp
                </span>
                <h3
                   class="text-primary
@@ -810,7 +778,7 @@
                   class="text-secondary
                   font-bold
                   text-sm">
-               Health Education
+                  Health Education
                </span>
                <h3
                   class="text-primary
@@ -856,7 +824,7 @@
          text-white
          text-3xl
          z-10">
-      <i class="fa-solid fa-xmark"></i>
+         <i class="fa-solid fa-xmark"></i>
       </button>
       <div
          class="w-full
@@ -873,54 +841,54 @@
 </div>
 <script>
    const videoBtns =
-       document.querySelectorAll(".videoBtn");
-   
+      document.querySelectorAll(".videoBtn");
+
    const videoModal =
-       document.getElementById("videoModal");
-   
+      document.getElementById("videoModal");
+
    const videoFrame =
-       document.getElementById("videoFrame");
-   
+      document.getElementById("videoFrame");
+
    const closeVideo =
-       document.getElementById("closeVideo");
-   
+      document.getElementById("closeVideo");
+
    const videoOverlay =
-       document.getElementById("videoOverlay");
-   
+      document.getElementById("videoOverlay");
+
    videoBtns.forEach(btn => {
-   
-       btn.addEventListener("click", () => {
-   
-           videoFrame.src =
-               btn.dataset.video + "?autoplay=1";
-   
-           videoModal.classList.remove("hidden");
-   
-           document.body.style.overflow =
-               "hidden";
-   
-       });
-   
+
+      btn.addEventListener("click", () => {
+
+         videoFrame.src =
+            btn.dataset.video + "?autoplay=1";
+
+         videoModal.classList.remove("hidden");
+
+         document.body.style.overflow =
+            "hidden";
+
+      });
+
    });
-   
+
    function closeVideoModal() {
-   
-       videoModal.classList.add("hidden");
-   
-       videoFrame.src = "";
-   
-       document.body.style.overflow = "";
-   
+
+      videoModal.classList.add("hidden");
+
+      videoFrame.src = "";
+
+      document.body.style.overflow = "";
+
    }
-   
+
    closeVideo.addEventListener(
-       "click",
-       closeVideoModal
+      "click",
+      closeVideoModal
    );
-   
+
    videoOverlay.addEventListener(
-       "click",
-       closeVideoModal
+      "click",
+      closeVideoModal
    );
 </script>
 <!-- ========================================= -->
@@ -936,7 +904,7 @@
             uppercase
             tracking-[3px]
             font-bold">
-         Media Highlights
+            Media Highlights
          </span>
          <h2
             class="text-white
@@ -981,13 +949,13 @@
                mb-5">
                <i
                   class="fa-solid fa-image
-                  text-secondary
+                  text-white
                   text-2xl">
                </i>
             </div>
             <h3
-               class="text-secondary
-               text-5xl
+               class="text-white
+               text-4xl
                font-black">
                500+
             </h3>
@@ -1016,13 +984,13 @@
                mb-5">
                <i
                   class="fa-solid fa-video
-                  text-secondary
+                  text-white
                   text-2xl">
                </i>
             </div>
             <h3
-               class="text-secondary
-               text-5xl
+               class="text-white
+               text-4xl
                font-black">
                75+
             </h3>
@@ -1051,13 +1019,13 @@
                mb-5">
                <i
                   class="fa-solid fa-calendar-days
-                  text-secondary
+                  text-white
                   text-2xl">
                </i>
             </div>
             <h3
-               class="text-secondary
-               text-5xl
+               class="text-white
+               text-4xl
                font-black">
                150+
             </h3>
@@ -1086,13 +1054,13 @@
                mb-5">
                <i
                   class="fa-solid fa-earth-asia
-                  text-secondary
+                  text-white
                   text-2xl">
                </i>
             </div>
             <h3
-               class="text-secondary
-               text-5xl
+               class="text-white
+               text-4xl
                font-black">
                170+
             </h3>
@@ -1105,7 +1073,7 @@
       </div>
       <!-- QUOTE -->
       <div
-         class="mt-20
+         class="mt-12
          max-w-5xl
          mx-auto
          text-center">
@@ -1161,7 +1129,7 @@
       relative
       z-10">
       <div
-         class="py-24
+         class="py-16
          text-center
          max-w-5xl
          mx-auto">
@@ -1172,14 +1140,14 @@
             uppercase
             tracking-[3px]
             font-bold">
-         Beyond The Gallery
+            Beyond The Gallery
          </span>
          <!-- TITLE -->
          <h2
             class="text-primary
-            text-4xl
-            md:text-5xl
-            xl:text-6xl
+            text-3xl
+            md:text-4xl
+            xl:text-5xl
             font-black
             leading-tight
             mt-5">
@@ -1208,11 +1176,11 @@
             mt-12">
             <a href="./bookappointment.php"
                class="btn-primary">
-            Book Appointment
+               Book Appointment
             </a>
             <a href="#"
                class="btn-outline">
-            Find A Doctor
+               Find A Doctor
             </a>
          </div>
          <!-- TRUST ITEMS -->
@@ -1325,78 +1293,77 @@
    </div>
 </section>
 <script>
-   const filterButtons =
-   document.querySelectorAll(".gallery-filter");
-   
-   const galleryItems =
-   document.querySelectorAll(".gallery-item");
-   
-   filterButtons.forEach(button => {
-   
-       button.addEventListener("click", () => {
-   
-           const filter =
-           button.dataset.filter;
-   
-           galleryItems.forEach(item => {
-   
-               if (
-                   filter === "all" ||
-                   item.classList.contains(filter)
-               ) {
-   
-                   item.style.display = "block";
-   
-               } else {
-   
-                   item.style.display = "none";
-   
-               }
-   
-           });
-   
-       });
-   
-   });
-   
-</script>
-<script>
-   const filters =
-       document.querySelectorAll(".gallery-filter");
-   
-   filters.forEach(button => {
-   
-       button.addEventListener("click", () => {
-   
-           filters.forEach(btn => {
-   
-               btn.classList.remove(
-                   "bg-primary",
-                   "text-white",
-                   "border-primary"
-               );
-   
-               btn.classList.add(
-                   "border-slate-200",
-                   "text-primary"
-               );
-   
-           });
-   
-           button.classList.add(
-               "bg-primary",
-               "text-white",
-               "border-primary"
-           );
-   
-           button.classList.remove(
-               "border-slate-200",
-               "text-primary"
-           );
-   
-       });
-   
+   document.addEventListener("DOMContentLoaded", () => {
+
+      const filterButtons =
+         document.querySelectorAll(".gallery-filter");
+
+      const galleryItems =
+         document.querySelectorAll(".gallery-item");
+
+      function filterGallery(filter) {
+
+         const emptyState =
+            document.getElementById("gallery-empty-state");
+
+         let visibleCount = 0;
+
+         galleryItems.forEach(item => {
+
+            if (
+               filter === "all" ||
+               item.classList.contains(filter)
+            ) {
+
+               item.style.display = "block";
+               visibleCount++;
+
+            } else {
+
+               item.style.display = "none";
+
+            }
+
+         });
+
+         if (visibleCount === 0) {
+
+            emptyState.classList.remove("hidden");
+
+         } else {
+
+            emptyState.classList.add("hidden");
+
+         }
+
+      }
+
+      // Initial state
+      filterGallery("all");
+
+      filterButtons.forEach(button => {
+
+         button.addEventListener("click", () => {
+
+            const filter =
+               button.dataset.filter;
+
+            // Remove active class
+            filterButtons.forEach(btn => {
+               btn.classList.remove("active");
+            });
+
+            // Add active class
+            button.classList.add("active");
+
+            // Filter gallery
+            filterGallery(filter);
+
+         });
+
+      });
+
    });
 </script>
 <?php include "./include/footer.php";
-   ?>
+?>

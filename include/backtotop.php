@@ -25,6 +25,6 @@
     <i class="fa-solid fa-arrow-up relative z-10 text-sm"></i>
 </button>
 <!-- ========================= HOVER DETECTION AREA ========================= -->
-<div id="hoverZone"
+<!-- <div id="hoverZone"
     class="fixed top-0 right-0 w-24 h-full z-40">
-</div>
+</div> -->

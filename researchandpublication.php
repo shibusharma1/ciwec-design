@@ -34,7 +34,7 @@ include "./include/herobanner.php";
    </div>
 </section>
 
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
       <div class="text-center max-w-4xl mx-auto mb-16">
@@ -64,7 +64,7 @@ include "./include/herobanner.php";
                </i>
             </div>
             <h3
-               class="counter text-primary text-6xl font-black"
+               class="counter text-primary text-4xl font-black"
                data-count="500">
                0
             </h3>
@@ -83,7 +83,7 @@ include "./include/herobanner.php";
                </i>
             </div>
             <h3
-               class="counter text-primary text-6xl font-black"
+               class="counter text-primary text-4xl font-black"
                data-count="170">
                0
             </h3>
@@ -102,7 +102,7 @@ include "./include/herobanner.php";
                </i>
             </div>
             <h3
-               class="counter text-primary text-6xl font-black"
+               class="counter text-primary text-4xl font-black"
                data-count="100">
                0
             </h3>
@@ -121,7 +121,7 @@ include "./include/herobanner.php";
                </i>
             </div>
             <h3
-               class="counter text-primary text-6xl font-black"
+               class="counter text-primary text-4xl font-black"
                data-count="42">
                0
             </h3>
@@ -284,7 +284,7 @@ include "./include/herobanner.php";
          class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
          <!-- TRAVEL MEDICINE -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -311,7 +311,7 @@ include "./include/herobanner.php";
          </div>
          <!-- ALTITUDE MEDICINE -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -338,7 +338,7 @@ include "./include/herobanner.php";
          </div>
          <!-- INFECTIOUS DISEASES -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -365,7 +365,7 @@ include "./include/herobanner.php";
          </div>
          <!-- TROPICAL MEDICINE -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -392,7 +392,7 @@ include "./include/herobanner.php";
          </div>
          <!-- PUBLIC HEALTH -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -419,7 +419,7 @@ include "./include/herobanner.php";
          </div>
          <!-- PREVENTIVE HEALTH -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -493,7 +493,7 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <section
    id="research-library"
-   class="section-padding bg-slate-50 overflow-hidden">
+   class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
       <div class="text-center max-w-4xl mx-auto mb-16">
@@ -940,7 +940,7 @@ include "./include/herobanner.php";
       </div>
       <!-- FEATURED PAPER -->
       <div
-         class="bg-slate-50 border border-slate-200 overflow-hidden">
+         class="bg-slate-100 border border-slate-200 overflow-hidden">
          <div
             class="grid lg:grid-cols-12 items-center">
             <!-- IMAGE -->
@@ -1112,7 +1112,7 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- RESEARCH TIMELINE -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
       <div class="text-center max-w-4xl mx-auto mb-20">
@@ -1477,7 +1477,7 @@ include "./include/herobanner.php";
          class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -1496,7 +1496,7 @@ include "./include/herobanner.php";
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-20 h-20 mx-auto bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -1515,7 +1515,7 @@ include "./include/herobanner.php";
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -1534,7 +1534,7 @@ include "./include/herobanner.php";
          </div>
          <!-- CARD -->
          <div
-            class="group bg-slate-50 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-20 h-20 mx-auto bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -1632,9 +1632,9 @@ include "./include/herobanner.php";
             </span>
             <h2
                class="text-white
-               text-4xl
-               md:text-5xl
-               xl:text-6xl
+               text-3xl
+               md:text-4xl
+               xl:text-5xl
                font-black
                leading-tight">
                Collaborate With CIWEC's
@@ -1660,7 +1660,7 @@ include "./include/herobanner.php";
             md:grid-cols-2
             xl:grid-cols-4
             gap-8
-            mt-20">
+            mt-16">
             <!-- ITEM -->
             <div
                class="bg-white/5

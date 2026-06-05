@@ -86,7 +86,7 @@ include "./include/header.php"; ?>
     </div>
 </section>
 
-<section id="kathmanduServices" class="bg-slate-50 py-20">
+<section id="kathmanduServices" class="bg-slate-100 py-20">
     <div class="container-custom">
         <div
             class="flex items-center gap-5 mb-14">
@@ -668,7 +668,7 @@ include "./include/header.php"; ?>
         </div>
     </div>
 </section>
-<section id="pokharaServices" class="bg-slate-50 py-20">
+<section id="pokharaServices" class="bg-slate-100 py-20">
     <div class="container-custom">
         <div
             class="flex items-center gap-5 mb-14">

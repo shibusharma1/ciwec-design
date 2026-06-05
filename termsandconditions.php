@@ -1,198 +1,9 @@
-<?php include "./include/header.php"; ?>
-<!-- ========================================= -->
-<!-- TERMS & CONDITIONS HERO -->
-<!-- ========================================= -->
-<section class="relative min-h-[700px] overflow-hidden">
-    <!-- BACKGROUND IMAGE -->
-    <img
-        src="./assets/img/terms-conditions-hero.jpg"
-        alt="Terms & Conditions"
-        class="absolute inset-0 w-full h-full object-cover">
-    <!-- OVERLAY -->
-    <div
-        class="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-primary/90 to-primary/75">
-    </div>
-    <!-- PATTERN -->
-    <div
-        class="absolute inset-0 opacity-10 bg-[url('./assets/img/legal-pattern.png')]">
-    </div>
-    <div
-        class="container-custom relative z-10">
-        <div
-            class="min-h-[700px] flex items-center">
-            <div
-                class="max-w-5xl">
-                <!-- BREADCRUMB -->
-                <div
-                    class="flex items-center gap-3 text-white/70 mb-8">
-                    <a
-                        href="/"
-                        class="hover:text-secondary transition">
-                        Home
-                    </a>
-                    <i
-                        class="fa-solid fa-angle-right text-xs">
-                    </i>
-                    <span
-                        class="text-secondary">
-                        Terms & Conditions
-                    </span>
-                </div>
-                <!-- BADGE -->
-                <span
-                    class="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm px-5 py-3 text-white font-semibold border border-white/20">
-                    <i
-                        class="fa-solid fa-scale-balanced text-secondary">
-                    </i>
-                    Healthcare Terms & Conditions
-                </span>
-                <!-- TITLE -->
-                <h1
-                    class="text-white text-5xl md:text-6xl xl:text-7xl font-black leading-tight mt-8">
-                    Understanding Your Rights
-                    <br>
-                    & Responsibilities
-                </h1>
-                <!-- DESCRIPTION -->
-                <p
-                    class="text-white/80 text-lg leading-8 mt-8 max-w-3xl">
-                    These Terms & Conditions govern the use of our
-                    website, healthcare services, appointments,
-                    communications and digital platforms. Please
-                    review them carefully before using our services.
-                </p>
-                <!-- BUTTONS -->
-                <div
-                    class="flex flex-wrap gap-5 mt-10">
-                    <a
-                        href="#terms-content"
-                        class="bg-secondary text-white px-8 py-4 font-bold hover:bg-white hover:text-primary transition">
-                        Read Terms
-                    </a>
-                    <a
-                        href="/contact"
-                        class="border border-white text-white px-8 py-4 font-bold hover:bg-white hover:text-primary transition">
-                        Contact Us
-                    </a>
-                </div>
-                <!-- QUICK HIGHLIGHTS -->
-                <div
-                    class="flex flex-wrap gap-8 mt-12 text-white">
-                    <div
-                        class="flex items-center gap-3">
-                        <i
-                            class="fa-solid fa-circle-check text-secondary">
-                        </i>
-                        Healthcare Transparency
-                    </div>
-                    <div
-                        class="flex items-center gap-3">
-                        <i
-                            class="fa-solid fa-circle-check text-secondary">
-                        </i>
-                        Patient Responsibilities
-                    </div>
-                    <div
-                        class="flex items-center gap-3">
-                        <i
-                            class="fa-solid fa-circle-check text-secondary">
-                        </i>
-                        Website Usage Guidelines
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- FLOATING TRUST CARDS -->
-    <div
-        class="container-custom relative z-20">
-        <div
-            class="grid md:grid-cols-2 xl:grid-cols-4 gap-6 -mt-20">
-            <!-- CARD -->
-            <div
-                class="bg-white p-8 shadow-2xl">
-                <div
-                    class="w-14 h-14 bg-primary/10 flex items-center justify-center mb-4">
-                    <i
-                        class="fa-solid fa-user-doctor text-primary text-xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Patient Care
-                </h3>
-                <p
-                    class="text-slate-600 mt-2">
-                    Service Expectations
-                </p>
-            </div>
-            <!-- CARD -->
-            <div
-                class="bg-white p-8 shadow-2xl">
-                <div
-                    class="w-14 h-14 bg-secondary/10 flex items-center justify-center mb-4">
-                    <i
-                        class="fa-solid fa-globe text-secondary text-xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Website Access
-                </h3>
-                <p
-                    class="text-slate-600 mt-2">
-                    Digital Platform Usage
-                </p>
-            </div>
-            <!-- CARD -->
-            <div
-                class="bg-white p-8 shadow-2xl">
-                <div
-                    class="w-14 h-14 bg-primary/10 flex items-center justify-center mb-4">
-                    <i
-                        class="fa-solid fa-calendar-check text-primary text-xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Appointments
-                </h3>
-                <p
-                    class="text-slate-600 mt-2">
-                    Booking & Scheduling
-                </p>
-            </div>
-            <!-- CARD -->
-            <div
-                class="bg-white p-8 shadow-2xl">
-                <div
-                    class="w-14 h-14 bg-secondary/10 flex items-center justify-center mb-4">
-                    <i
-                        class="fa-solid fa-scale-balanced text-secondary text-xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Compliance
-                </h3>
-                <p
-                    class="text-slate-600 mt-2">
-                    Terms & Policies
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- SCROLL INDICATOR -->
-    <div
-        class="absolute bottom-10 left-1/2 -translate-x-1/2 text-white animate-bounce">
-        <i
-            class="fa-solid fa-chevron-down text-2xl">
-        </i>
-    </div>
-</section>
-<!-- ========================================= -->
-<!-- TERMS OVERVIEW -->
-<!-- ========================================= -->
+<?php
+$hero_title = "Terms & Conditions";
+include "./include/header.php";
+include "./include/herobanner.php";
+?>
+
 <section id="terms-content" class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <div
@@ -291,7 +102,7 @@
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-24">
             <!-- PATIENT CARE -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
                     <i
@@ -310,7 +121,7 @@
             </div>
             <!-- WEBSITE ACCESS -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
                     <i
@@ -329,7 +140,7 @@
             </div>
             <!-- APPOINTMENTS -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
                     <i
@@ -348,7 +159,7 @@
             </div>
             <!-- LEGAL COMPLIANCE -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
                     <i
@@ -408,10 +219,10 @@
 <!-- ========================================= -->
 <!-- ACCEPTANCE OF TERMS -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-20">
+        <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
                 Acceptance Of Terms
             </span>
@@ -663,7 +474,7 @@
         <div class="py-24 lg:py-32">
             <!-- HEADER -->
             <div
-                class="text-center max-w-4xl mx-auto mb-20">
+                class="text-center max-w-4xl mx-auto mb-16">
                 <span
                     class="inline-flex items-center gap-3 bg-red-500/20 text-red-400 px-5 py-3 font-semibold">
                     <i class="fa-solid fa-triangle-exclamation"></i>
@@ -854,7 +665,7 @@
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-20">
+        <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
                 Appointments & Bookings
             </span>
@@ -874,7 +685,7 @@
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
             <!-- APPOINTMENT REQUEST -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
                     <i
@@ -893,7 +704,7 @@
             </div>
             <!-- CONFIRMATION -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
                     <i
@@ -912,7 +723,7 @@
             </div>
             <!-- CANCELLATION -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
                     <i
@@ -931,7 +742,7 @@
             </div>
             <!-- AVAILABILITY -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
                     <i
@@ -1089,7 +900,7 @@
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-20">
+        <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
                 Appointments & Bookings
             </span>
@@ -1109,7 +920,7 @@
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
             <!-- APPOINTMENT REQUEST -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
                     <i
@@ -1128,7 +939,7 @@
             </div>
             <!-- CONFIRMATION -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
                     <i
@@ -1147,7 +958,7 @@
             </div>
             <!-- CANCELLATION -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
                     <i
@@ -1166,7 +977,7 @@
             </div>
             <!-- AVAILABILITY -->
             <div
-                class="group bg-slate-50 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
                     <i
@@ -1324,7 +1135,7 @@
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-20">
+        <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
                 Website Usage Rules
             </span>
@@ -1469,7 +1280,7 @@
             class="grid md:grid-cols-2 gap-8 mt-24">
             <!-- ACCOUNT SECURITY -->
             <div
-                class="bg-slate-50 border border-slate-200 p-10 hover:border-primary transition-all duration-500">
+                class="bg-slate-100 border border-slate-200 p-10 hover:border-primary transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
                     <i
@@ -1489,7 +1300,7 @@
             </div>
             <!-- RESPONSIBLE ACCESS -->
             <div
-                class="bg-slate-50 border border-slate-200 p-10 hover:border-secondary transition-all duration-500">
+                class="bg-slate-100 border border-slate-200 p-10 hover:border-secondary transition-all duration-500">
                 <div
                     class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
                     <i
@@ -1564,7 +1375,7 @@
         <div class="py-24 lg:py-32">
             <!-- HEADER -->
             <div
-                class="text-center max-w-4xl mx-auto mb-20">
+                class="text-center max-w-4xl mx-auto mb-16">
                 <span
                     class="inline-flex items-center gap-3 bg-white/10 text-white px-5 py-3 font-semibold">
                     <i class="fa-solid fa-copyright text-secondary"></i>
@@ -1810,10 +1621,10 @@
 <!-- ========================================= -->
 <!-- LIMITATION OF LIABILITY -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-20">
+        <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
                 Limitation Of Liability
             </span>
@@ -2039,7 +1850,7 @@
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-20">
+        <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
                 Third-Party Services
             </span>
@@ -2059,7 +1870,7 @@
             class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
             <!-- EXTERNAL WEBSITES -->
             <div
-                class="group bg-slate-50 border border-slate-200 hover:border-primary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
+                class="group bg-slate-100 border border-slate-200 hover:border-primary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
                 <div class="h-2 bg-primary"></div>
                 <div class="p-10">
                     <div
@@ -2087,7 +1898,7 @@
             </div>
             <!-- PARTNER SERVICES -->
             <div
-                class="group bg-slate-50 border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
+                class="group bg-slate-100 border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
                 <div class="h-2 bg-secondary"></div>
                 <div class="p-10">
                     <div
@@ -2115,7 +1926,7 @@
             </div>
             <!-- THIRD-PARTY RESOURCES -->
             <div
-                class="group bg-slate-50 border border-slate-200 hover:border-primary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
+                class="group bg-slate-100 border border-slate-200 hover:border-primary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
                 <div class="h-2 bg-primary"></div>
                 <div class="p-10">
                     <div
@@ -2144,7 +1955,7 @@
         </div>
         <!-- MAIN NOTICE SECTION -->
         <div
-            class="mt-24 bg-slate-50 border border-slate-200 overflow-hidden">
+            class="mt-24 bg-slate-100 border border-slate-200 overflow-hidden">
             <div
                 class="grid lg:grid-cols-12 items-center">
                 <!-- CONTENT -->
@@ -2275,10 +2086,10 @@
 <!-- ========================================= -->
 <!-- CHANGES TO TERMS -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-50 overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-20">
+        <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
                 Policy Updates
             </span>
@@ -2495,7 +2306,7 @@
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-20">
+        <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
                 Contact Information
             </span>
@@ -2511,7 +2322,7 @@
         </div>
         <!-- MAIN CONTACT SECTION -->
         <div
-            class="grid lg:grid-cols-12 gap-0 bg-slate-50 border border-slate-200 overflow-hidden">
+            class="grid lg:grid-cols-12 gap-0 bg-slate-100 border border-slate-200 overflow-hidden">
             <!-- LEFT CONTENT -->
             <div
                 class="lg:col-span-7 p-10 lg:p-16">
