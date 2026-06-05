@@ -385,7 +385,7 @@ include "./include/herobanner.php";
         </div>
         <!-- TRUST BAR -->
         <div
-            class="grid md:grid-cols-4 gap-6 mt-20">
+            class="grid md:grid-cols-4 gap-6 mt-16">
             <div
                 class="text-center p-8 border border-slate-200">
                 <h3

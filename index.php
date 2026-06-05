@@ -1434,7 +1434,7 @@ include "./include/historytimelinesection.php";
     </div>
 </section>
 <!-- Award section -->
-<section class="section-padding bg-slate-100">
+<section class="section-padding bg-slate-200">
     <div class="container-custom">
         <!-- HEADER -->
         <div class="max-w-3xl mb-12">

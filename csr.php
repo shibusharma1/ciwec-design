@@ -501,7 +501,7 @@ include "./include/header.php"; ?>
 <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
-      <div class="text-center max-w-4xl mx-auto mb-20">
+      <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
             Our Journey
          </span>
@@ -745,7 +745,7 @@ include "./include/header.php"; ?>
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
             Real Impact
          </span>
@@ -1081,10 +1081,10 @@ include "./include/header.php"; ?>
 <!-- ========================================= -->
 <!-- UPCOMING CSR INITIATIVES -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-100 overflow-hidden">
+<section class="section-padding bg-slate-200 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
             Looking Ahead
          </span>
@@ -1261,9 +1261,9 @@ include "./include/header.php"; ?>
          <!-- TITLE -->
          <h2
             class="text-white
-            text-4xl
-            md:text-5xl
-            xl:text-6xl
+            text-3xl
+            md:text-4xl
+            xl:text-5xl
             font-black
             leading-tight">
             Together We Can Build
@@ -1308,7 +1308,7 @@ include "./include/header.php"; ?>
             class="grid
             md:grid-cols-3
             gap-8
-            mt-20">
+            mt-16">
             <!-- CARD -->
             <div
                class="bg-white/5
@@ -1420,7 +1420,7 @@ include "./include/header.php"; ?>
          </div>
          <!-- QUOTE -->
          <div
-            class="mt-20
+            class="mt-16
             max-w-4xl
             mx-auto">
             <blockquote

@@ -987,7 +987,7 @@ include "./include/herobanner.php";
                </p>
                <!-- META -->
                <div
-                  class="grid md:grid-cols-3 gap-6 mt-10">
+                  class="grid md:grid-cols-3 gap-6 mt-8">
                   <div>
                      <p
                         class="text-slate-500 text-sm">
@@ -1021,7 +1021,7 @@ include "./include/herobanner.php";
                </div>
                <!-- AUTHORS -->
                <div
-                  class="border-t border-slate-200 mt-10 pt-8">
+                  class="border-t border-slate-200 mt-8 pt-8">
                   <p
                      class="text-slate-500 text-sm">
                      Lead Researchers

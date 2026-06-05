@@ -240,7 +240,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
-      <div class="text-center max-w-4xl mx-auto mb-20">
+      <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
          Altitude Risk Assessment
          </span>
@@ -758,7 +758,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
-      <div class="text-center max-w-4xl mx-auto mb-20">
+      <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
          Recognize The Warning Signs
          </span>
@@ -1014,7 +1014,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
-      <div class="text-center max-w-4xl mx-auto mb-20">
+      <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
          Prevention First
          </span>
@@ -1040,7 +1040,7 @@ include "./include/herobanner.php";
             <!-- STEP 1 -->
             <div class="relative text-center">
                <div
-                  class="w-44 h-44 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
+                  class="w-40 h-40 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
                   <i
                      class="fa-solid fa-file-medical text-white text-5xl">
                   </i>
@@ -1063,7 +1063,7 @@ include "./include/herobanner.php";
             <!-- STEP 2 -->
             <div class="relative text-center">
                <div
-                  class="w-44 h-44 mx-auto bg-secondary rounded-full flex items-center justify-center shadow-xl relative z-10">
+                  class="w-40 h-40 mx-auto bg-secondary rounded-full flex items-center justify-center shadow-xl relative z-10">
                   <i
                      class="fa-solid fa-mountain text-white text-5xl">
                   </i>
@@ -1086,7 +1086,7 @@ include "./include/herobanner.php";
             <!-- STEP 3 -->
             <div class="relative text-center">
                <div
-                  class="w-44 h-44 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
+                  class="w-40 h-40 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
                   <i
                      class="fa-solid fa-bottle-water text-white text-5xl">
                   </i>
@@ -1109,7 +1109,7 @@ include "./include/herobanner.php";
             <!-- STEP 4 -->
             <div class="relative text-center">
                <div
-                  class="w-44 h-44 mx-auto bg-secondary rounded-full flex items-center justify-center shadow-xl relative z-10">
+                  class="w-40 h-40 mx-auto bg-secondary rounded-full flex items-center justify-center shadow-xl relative z-10">
                   <i
                      class="fa-solid fa-bed text-white text-5xl">
                   </i>
@@ -1132,7 +1132,7 @@ include "./include/herobanner.php";
             <!-- STEP 5 -->
             <div class="relative text-center">
                <div
-                  class="w-44 h-44 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
+                  class="w-40 h-40 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
                   <i
                      class="fa-solid fa-heart-pulse text-white text-5xl">
                   </i>
@@ -1156,7 +1156,7 @@ include "./include/herobanner.php";
       </div>
       <!-- BEST PRACTICES -->
       <div
-         class="grid lg:grid-cols-12 gap-12 items-center mt-28">
+         class="grid lg:grid-cols-12 gap-12 items-center mt-16">
          <!-- CONTENT -->
          <div
             class="lg:col-span-7">
@@ -1259,7 +1259,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
-      <div class="text-center max-w-4xl mx-auto mb-20">
+      <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
          Cold Weather Medicine
          </span>
@@ -1529,10 +1529,10 @@ include "./include/herobanner.php";
       class="absolute bottom-0 right-0 w-[700px] h-[700px] bg-primary/10 rounded-full translate-x-1/3 translate-y-1/3">
    </div>
    <div class="container-custom relative z-10">
-      <div class="py-12 lg:py-16">
+      <div>
          <!-- HEADER -->
          <div
-            class="text-center max-w-4xl mx-auto mb-20">
+            class="text-center max-w-4xl mx-auto mb-16">
             <span
                class="inline-flex items-center gap-3 bg-red-500/20 text-red-400 px-5 py-3 font-bold">
             <i class="fa-solid fa-triangle-exclamation"></i>

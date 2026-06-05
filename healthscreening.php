@@ -1,42 +1,9 @@
 <?php
-   include "./include/header.php"; ?>
-<style>
-   .knowledge-chip {
-   padding: 12px 22px;
-   background: white;
-   border: 1px solid #e2e8f0;
-   font-weight: 600;
-   transition: .3s;
-   }
-   .knowledge-chip:hover {
-   border-color: #f59e0b;
-   color: #f59e0b;
-   }
-</style>
-<section class="relative h-[220px] md:h-[280px] overflow-hidden">
-   <img src="./assets/img/researchandpublication.png"
-      class="absolute inset-0 w-full h-full object-cover">
-   <div class="absolute inset-0 bg-primary/80"></div>
-   <div class="relative z-10 h-full flex items-center">
-      <div class="container-custom">
-         <h1 class="text-white text-center text-3xl md:text-5xl font-black mb-3">
-            Health Information
-         </h1>
-         <div class="flex items-center justify-center gap-2 text-white/90">
-            <a href="index.php" class="hover:text-secondary">
-            Home
-            </a>
-            <i class="fa-solid fa-angle-right text-xs"></i>
-            <span class="text-secondary">
-            Health Information
-            </span>
-         </div>
-      </div>
-   </div>
-</section>
-<!-- ========================================= -->
-<!-- HEALTH INFORMATION INTRO -->
-<!-- ========================================= -->
+$hero_title = "Health Information";
+include "./include/header.php";
+include "./include/herobanner.php";
+?>
+
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <div
@@ -193,13 +160,11 @@
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- HEALTH CATEGORIES -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
          Explore Topics
          </span>
@@ -363,44 +328,8 @@
       </div>
    </div>
 </section>
-<script>
-   const categoryCards =
-       document.querySelectorAll(".health-category");
-   
-   const categorySelect =
-       document.getElementById("healthCategory");
-   
-   categoryCards.forEach(card => {
-   
-       card.addEventListener("click", () => {
-   
-           const category =
-               card.dataset.category;
-   
-           if (categorySelect) {
-   
-               categorySelect.value =
-                   category;
-   
-               categorySelect.dispatchEvent(
-                   new Event("change")
-               );
-   
-           }
-   
-           document
-               .getElementById("health-library")
-               ?.scrollIntoView({
-                   behavior: "smooth"
-               });
-   
-       });
-   
-   });
-</script>
-<!-- ========================================= -->
-<!-- FEATURED HEALTH GUIDES -->
-<!-- ========================================= -->
+
+
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
@@ -587,473 +516,7 @@
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- HEALTH INFORMATION LIBRARY -->
-<!-- ========================================= -->
-<section
-   id="health-library"
-   class="section-padding bg-slate-100 overflow-hidden">
-   <div class="container-custom">
-      <!-- HEADER -->
-      <div
-         class="text-center max-w-4xl mx-auto mb-16">
-         <span class="section-subtitle">
-         Medical Resource Center
-         </span>
-         <h2 class="section-title">
-            Health Information Library
-         </h2>
-         <p
-            class="text-slate-600 mt-6 leading-8">
-            Access educational resources, health guides,
-            patient information documents and medical
-            publications prepared by healthcare experts.
-         </p>
-      </div>
-      <!-- SEARCH PANEL -->
-      <div
-         class="bg-white border border-slate-200 p-6 lg:p-8 mb-10">
-         <div
-            class="grid lg:grid-cols-12 gap-5">
-            <!-- SEARCH -->
-            <div
-               class="lg:col-span-6">
-               <label
-                  class="block text-primary font-semibold mb-3">
-               Search Resources
-               </label>
-               <div
-                  class="relative">
-                  <input
-                     type="text"
-                     id="healthSearch"
-                     placeholder="Search health information..."
-                     class="w-full h-14 border border-slate-300 pl-14 pr-5 focus:border-secondary outline-none">
-                  <i
-                     class="fa-solid fa-magnifying-glass absolute left-5 top-1/2 -translate-y-1/2 text-slate-400">
-                  </i>
-               </div>
-            </div>
-            <!-- CATEGORY -->
-            <div
-               class="lg:col-span-3">
-               <label
-                  class="block text-primary font-semibold mb-3">
-               Category
-               </label>
-               <select
-                  id="healthCategory"
-                  class="w-full h-14 border border-slate-300 px-5">
-                  <option value="">
-                     All Categories
-                  </option>
-                  <option value="Travel Health">
-                     Travel Health
-                  </option>
-                  <option value="Altitude Illness">
-                     Altitude Illness
-                  </option>
-                  <option value="Vaccinations">
-                     Vaccinations
-                  </option>
-                  <option value="Infectious Diseases">
-                     Infectious Diseases
-                  </option>
-                  <option value="Family Health">
-                     Family Health
-                  </option>
-               </select>
-            </div>
-            <!-- SORT -->
-            <div
-               class="lg:col-span-3">
-               <label
-                  class="block text-primary font-semibold mb-3">
-               Sort By
-               </label>
-               <select
-                  id="healthSort"
-                  class="w-full h-14 border border-slate-300 px-5">
-                  <option>
-                     Latest First
-                  </option>
-                  <option>
-                     Oldest First
-                  </option>
-                  <option>
-                     A - Z
-                  </option>
-                  <option>
-                     Z - A
-                  </option>
-               </select>
-            </div>
-         </div>
-      </div>
-      <!-- RESULT INFO -->
-      <div
-         class="flex flex-wrap justify-between items-center mb-8">
-         <h3
-            class="text-primary text-2xl font-black">
-            Available Resources
-         </h3>
-         <span
-            id="resourceCount"
-            class="text-slate-500">
-         Showing 0 Resources
-         </span>
-      </div>
-      <!-- LOADER -->
-      <div
-         id="healthLoader"
-         class="hidden py-20">
-         <div
-            class="flex justify-center">
-            <div
-               class="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin">
-            </div>
-         </div>
-      </div>
-      <!-- RESOURCE GRID -->
-      <div
-         id="healthGrid"
-         class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-         <!-- JS RENDER -->
-      </div>
-      <!-- PAGINATION -->
-      <div
-         id="pagination"
-         class="flex justify-center mt-16 gap-3">
-      </div>
-   </div>
-</section>
-<section class="pb-20">
-   <div class="container-custom">
-      <div id="healthLoader" class="hidden py-16">
-         <div class="flex flex-col items-center">
-            <div class="w-12 h-12
-               border-[3px]
-               border-slate-200
-               border-t-secondary
-               rounded-full
-               animate-spin">
-            </div>
-            <p class="mt-4 text-sm
-               text-slate-500">
-               Loading Health Information...
-            </p>
-         </div>
-      </div>
-      <div
-         id="healthGrid"
-         class="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
-      </div>
-   </div>
-</section>
-<div
-   id="pdfModal"
-   class="fixed inset-0 bg-black/80 hidden items-center justify-center z-[9999]">
-   <div
-      class="bg-white w-[95%] max-w-7xl h-[90vh] shadow-[0_30px_80px_rgba(0,0,0,.3)] relative">
-      <div
-         class="h-16 border-b border-slate-200 flex items-center justify-between px-6">
-         <h3
-            class="font-black text-primary">
-            Health Information Viewer
-         </h3>
-         <button
-            id="closePdfModal"
-            class="w-10 h-10 border border-slate-200 hover:border-secondary">
-         <i class="fa-solid fa-xmark"></i>
-         </button>
-      </div>
-      <iframe
-         id="pdfViewer"
-         class="w-full h-[calc(100%-64px)]">
-      </iframe>
-   </div>
-</div>
-<div
-   id="researchPagination"
-   class="flex justify-center mt-10 gap-2"></div>
-<script>
-   const healthData = [
-   
-       {
-           title: "Adult Immunizations",
-           pdf: "./assets/pdf/news1.pdf"
-       },
-       {
-           title: "All About Cyclospora",
-           pdf: "./assets/pdf/news1.pdf"
-       },
-       {
-           title: "Altitude Illness Advice For Trekkers",
-           pdf: "./assets/pdf/news1.pdf"
-       },
-       {
-           title: "Cholera In Nepal",
-           pdf: "./assets/pdf/news1.pdf"
-       },
-       {
-           title: "Dengue Fever",
-           pdf: "./assets/pdf/news1.pdf"
-       },
-       {
-           title: "Rabies Prevention",
-           pdf: "./assets/pdf/news1.pdf"
-       }
-   ];
-</script>
-<script>
-   document.addEventListener("DOMContentLoaded", () => {
-       showLoader();
-       setTimeout(() => {
-           try {
-               renderCards(healthData);
-           } catch (error) {
-               console.error(error);
-           } finally {
-               hideLoader();
-           }
-       }, 800);
-   });
-</script>
-<script>
-   const healthGrid =
-       document.getElementById("healthGrid");
-   
-   const healthLoader =
-       document.getElementById("healthLoader");
-   
-   function showLoader() {
-       healthLoader.classList.remove("hidden");
-       healthGrid.classList.add("opacity-40");
-       healthGrid.classList.add("pointer-events-none");
-   }
-   
-   function hideLoader() {
-       healthLoader.classList.add("hidden");
-       healthGrid.classList.remove("opacity-40");
-       healthGrid.classList.remove("pointer-events-none");
-   }
-   
-   function renderCards(data) {
-       healthGrid.innerHTML = "";
-       if (data.length === 0) {
-           healthGrid.innerHTML = `
-       <div
-           class="col-span-full
-           text-center
-           py-20
-           border
-           border-slate-200
-           bg-white">
-   
-           <i
-               class="fa-solid fa-file-circle-xmark
-               text-5xl
-               text-slate-300
-               mb-4">
-           </i>
-   
-           <h3
-               class="text-primary
-               text-xl
-               font-bold
-               mb-2">
-   
-               No Health Information Found
-   
-           </h3>
-   
-           <p
-               class="text-slate-500">
-   
-               Please try another keyword.
-   
-           </p>
-   
-       </div>
-   
-       `;
-           return;
-       }
-   
-       data.forEach(item => {
-           healthGrid.innerHTML += `
-   
-   <article
-   class="group bg-white border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
-   
-   <div class="p-8">
-   
-       <div
-           class="flex items-center justify-between mb-5">
-   
-           <span
-               class="text-secondary font-black">
-   
-               ${item.category}
-   
-           </span>
-   
-           <div
-               class="w-12 h-12 bg-primary/10 flex items-center justify-center">
-   
-               <i
-                   class="fa-solid fa-file-medical text-primary">
-               </i>
-   
-           </div>
-   
-       </div>
-   
-       <h3
-           class="text-primary text-2xl font-black leading-snug mb-4 group-hover:text-secondary transition">
-   
-           ${item.title}
-   
-       </h3>
-   
-       <p
-           class="text-slate-600 leading-7 line-clamp-3">
-   
-           ${item.description}
-   
-       </p>
-   
-       <div
-           class="flex items-center justify-between mt-8 pt-6 border-t border-slate-200">
-   
-           <span
-               class="text-slate-500 text-sm">
-   
-               Health Information
-   
-           </span>
-   
-           <button
-               onclick="openPDFModal('${item.pdf}')"
-               class="text-primary hover:text-secondary font-semibold">
-   
-               Read Guide
-   
-           </button>
-   
-       </div>
-   
-   </div>
-   
-   </article>
-   
-   `;
-   
-       });
-   }
-</script>
-<script>
-   const searchInput =
-       document.getElementById("healthSearch");
-   searchInput.addEventListener("keyup", function() {
-       const keyword =
-           this.value.toLowerCase();
-       const filtered =
-           healthData.filter(item =>
-               item.title
-               .toLowerCase()
-               .includes(keyword)
-           );
-       showLoader();
-       setTimeout(() => {
-           renderCards(filtered);
-           hideLoader();
-       }, 600);
-   });
-</script>
-<script>
-   const pdfModal =
-       document.getElementById("pdfModal");
-   const pdfViewer =
-       document.getElementById("pdfViewer");
-   const closePdfModal =
-       document.getElementById("closePdfModal");
-   
-   function openPDF(pdfUrl) {
-       pdfViewer.src = pdfUrl;
-       pdfModal.classList.remove("hidden");
-       pdfModal.classList.add("flex");
-       document.body.style.overflow = "hidden";
-   }
-   
-   function closePDF() {
-       pdfModal.classList.add("hidden");
-       pdfModal.classList.remove("flex");
-       pdfViewer.src = "";
-       document.body.style.overflow = "";
-   }
-   closePdfModal.addEventListener("click", closePDF);
-   pdfModal.addEventListener("click", (e) => {
-       if (e.target === pdfModal) {
-           closePDF();
-       }
-   });
-   document.addEventListener("keydown", (e) => {
-       if (e.key === "Escape") {
-           closePDF();
-       }
-   });
-</script>
-<div
-   class="grid md:grid-cols-4 gap-6 mt-20">
-   <div
-      class="bg-white border border-slate-200 p-8 text-center">
-      <h3
-         class="text-primary text-4xl font-black">
-         100+
-      </h3>
-      <p
-         class="text-slate-600 mt-3">
-         Health Resources
-      </p>
-   </div>
-   <div
-      class="bg-white border border-slate-200 p-8 text-center">
-      <h3
-         class="text-primary text-4xl font-black">
-         Expert
-      </h3>
-      <p
-         class="text-slate-600 mt-3">
-         Reviewed Content
-      </p>
-   </div>
-   <div
-      class="bg-white border border-slate-200 p-8 text-center">
-      <h3
-         class="text-primary text-4xl font-black">
-         Updated
-      </h3>
-      <p
-         class="text-slate-600 mt-3">
-         Medical Information
-      </p>
-   </div>
-   <div
-      class="bg-white border border-slate-200 p-8 text-center">
-      <h3
-         class="text-primary text-4xl font-black">
-         Trusted
-      </h3>
-      <p
-         class="text-slate-600 mt-3">
-         Healthcare Guidance
-      </p>
-   </div>
-</div>
-<!-- ========================================= -->
-<!-- TRAVEL HEALTH CENTER -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
@@ -1325,9 +788,7 @@
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- FAQ SECTION -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
@@ -1492,6 +953,42 @@
    </div>
 </section>
 <script>
+   const categoryCards =
+       document.querySelectorAll(".health-category");
+   
+   const categorySelect =
+       document.getElementById("healthCategory");
+   
+   categoryCards.forEach(card => {
+   
+       card.addEventListener("click", () => {
+   
+           const category =
+               card.dataset.category;
+   
+           if (categorySelect) {
+   
+               categorySelect.value =
+                   category;
+   
+               categorySelect.dispatchEvent(
+                   new Event("change")
+               );
+   
+           }
+   
+           document
+               .getElementById("health-library")
+               ?.scrollIntoView({
+                   behavior: "smooth"
+               });
+   
+       });
+   
+   });
+</script>
+
+<script>
    renderCards(healthResources);
    updateResourceCount();
    const faqButtons =
@@ -1547,9 +1044,7 @@
    
    });
 </script>
-<!-- ========================================= -->
-<!-- EMERGENCY HEALTH RESOURCES -->
-<!-- ========================================= -->
+
 <section class="section-padding relative overflow-hidden bg-primary">
    <!-- BACKGROUND SHAPES -->
    <div
@@ -1599,7 +1094,7 @@
             <h2
                class="text-white
                text-3xl
-               md:text-5xl
+               md:text-4xl
                font-black
                mt-8">
                Know When To Seek Immediate Medical Care
@@ -1616,7 +1111,7 @@
          </div>
          <!-- WARNING SIGNS -->
          <div
-            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-16">
+            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-12">
             <!-- ITEM -->
             <div
                class="bg-white/5 border border-white/10 p-8">
@@ -1744,124 +1239,7 @@
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- HEALTH EDUCATION CTA -->
-<!-- ========================================= -->
-<section class="section-padding bg-white overflow-hidden">
-   <div class="container-custom">
-      <div
-         class="bg-primary relative overflow-hidden">
-         <!-- DECORATION -->
-         <div
-            class="absolute top-0 right-0 w-80 h-80 bg-secondary/10 rounded-full translate-x-1/3 -translate-y-1/3">
-         </div>
-         <div
-            class="absolute bottom-0 left-0 w-64 h-64 bg-white/5 rounded-full -translate-x-1/3 translate-y-1/3">
-         </div>
-         <div
-            class="relative z-10 p-10 lg:p-20">
-            <div
-               class="max-w-5xl mx-auto text-center">
-               <span
-                  class="inline-block text-secondary font-bold uppercase tracking-[4px] mb-5">
-               Professional Medical Guidance
-               </span>
-               <h2
-                  class="text-white text-4xl lg:text-6xl font-black leading-tight">
-                  Need Personalized Medical Advice?
-               </h2>
-               <p
-                  class="text-white/80 text-lg leading-8 mt-8 max-w-3xl mx-auto">
-                  The health information provided on this page is
-                  intended for educational purposes. If you have
-                  symptoms, medical concerns or require treatment,
-                  our healthcare professionals are ready to help.
-               </p>
-               <!-- CTA BUTTONS -->
-               <div
-                  class="flex flex-wrap justify-center gap-5 mt-12">
-                  <a
-                     href="./bookappointment.php"
-                     class="bg-secondary text-white px-8 py-4 font-bold hover:bg-white hover:text-primary transition">
-                  Book Appointment
-                  </a>
-                  <a
-                     href="doctors.php"
-                     class="bg-white text-primary px-8 py-4 font-bold hover:bg-secondary hover:text-white transition">
-                  Find A Doctor
-                  </a>
-                  <a
-                     href="contact.php"
-                     class="border border-white text-white px-8 py-4 font-bold hover:bg-white hover:text-primary transition">
-                  Contact CIWEC
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- SUPPORT CARDS -->
-      <div
-         class="grid md:grid-cols-3 gap-8 mt-12">
-         <!-- CARD -->
-         <div
-            class="bg-slate-100 border border-slate-200 p-8 text-center">
-            <div
-               class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-6">
-               <i
-                  class="fa-solid fa-user-doctor text-primary text-2xl">
-               </i>
-            </div>
-            <h3
-               class="text-primary text-2xl font-black">
-               Expert Doctors
-            </h3>
-            <p
-               class="text-slate-600 mt-4 leading-7">
-               Access experienced physicians,
-               specialists and healthcare professionals.
-            </p>
-         </div>
-         <!-- CARD -->
-         <div
-            class="bg-slate-100 border border-slate-200 p-8 text-center">
-            <div
-               class="w-16 h-16 mx-auto bg-secondary/10 flex items-center justify-center mb-6">
-               <i
-                  class="fa-solid fa-hospital text-secondary text-2xl">
-               </i>
-            </div>
-            <h3
-               class="text-primary text-2xl font-black">
-               Comprehensive Care
-            </h3>
-            <p
-               class="text-slate-600 mt-4 leading-7">
-               From preventive healthcare to
-               specialist consultations and treatment.
-            </p>
-         </div>
-         <!-- CARD -->
-         <div
-            class="bg-slate-100 border border-slate-200 p-8 text-center">
-            <div
-               class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-6">
-               <i
-                  class="fa-solid fa-headset text-primary text-2xl">
-               </i>
-            </div>
-            <h3
-               class="text-primary text-2xl font-black">
-               Patient Support
-            </h3>
-            <p
-               class="text-slate-600 mt-4 leading-7">
-               Our team is available to assist
-               with appointments and health inquiries.
-            </p>
-         </div>
-      </div>
-   </div>
-</section>
+
 <script>
    const healthResources = [{
            title: "Understanding Diabetes",
@@ -2044,9 +1422,7 @@
            .classList.remove('hidden');
    }
 </script>
-<!-- ========================================= -->
-<!-- HEALTH SCREENING CTA -->
-<!-- ========================================= -->
+
 <section class="relative overflow-hidden hidden bg-slate-950">
    <!-- DECORATIVE SHAPES -->
    <div
@@ -2242,5 +1618,6 @@
       </div>
    </div>
 </section>
+
 <?php include "./include/footer.php";
    ?>

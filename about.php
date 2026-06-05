@@ -1445,9 +1445,9 @@ include "./include/herobanner.php";
             </span>
             <!-- TITLE -->
             <h2 class="text-white
-                text-4xl
-                md:text-5xl
-                xl:text-6xl
+                text-3xl
+                md:text-4xl
+                xl:text-5xl
                 font-black
                 leading-tight">
                 Experience World-Class Healthcare
@@ -1486,7 +1486,7 @@ include "./include/herobanner.php";
                 grid-cols-2
                 lg:grid-cols-4
                 gap-8
-                mt-20">
+                mt-12">
                 <!-- ITEM -->
                 <div>
                     <h3

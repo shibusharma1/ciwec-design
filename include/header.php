@@ -54,6 +54,7 @@
     <link rel="stylesheet" href="./assets/css/faq.css">
     <link rel="stylesheet" href="./assets/css/services.css">
     <link rel="stylesheet" href="./assets/css/gallery.css">
+    <link rel="stylesheet" href="./assets/css/healthscreening.css">
 
 </head>
 

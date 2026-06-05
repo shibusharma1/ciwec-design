@@ -1,35 +1,12 @@
 <?php
-include "./include/header.php"; ?>
-<section class="relative h-[220px] md:h-[280px] overflow-hidden">
-    <img src="./assets/img/researchandpublication.png"
-        class="absolute inset-0 w-full h-full object-cover">
-    <div class="absolute inset-0 bg-primary/80"></div>
-    <div class="relative z-10 h-full flex items-center">
-        <div class="container-custom">
-            <h1 class="text-white text-center text-3xl md:text-5xl font-black mb-3">
-                Our History
-            </h1>
-            <div class="flex items-center justify-center gap-2 text-white/90">
-                <a href="index.php" class="hover:text-secondary">
-                    Home
-                </a>
-                <i class="fa-solid fa-angle-right text-xs"></i>
-                <span class="text-secondary">
-                    Our History
-                </span>
-            </div>
-        </div>
-    </div>
-</section>
-
-<?php 
+$hero_title = "Our History";
+include "./include/header.php";
+include "./include/herobanner.php";
 include "./include/historytimelinesection.php";
 ?>
 
-<!-- ========================================= -->
-<!-- CIWEC AT A GLANCE -->
-<!-- ========================================= -->
-<section class="section-padding bg-white overflow-hidden">
+
+<section class="section-padding bg-slate-200 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
         <div class="text-center mb-16">
@@ -78,7 +55,7 @@ include "./include/historytimelinesection.php";
                     </i>
                 </div>
                 <h3 class="text-primary
-                    text-5xl
+                    text-4xl
                     font-black
                     counter"
                     data-target="42">
@@ -114,7 +91,7 @@ include "./include/historytimelinesection.php";
                     </i>
                 </div>
                 <h3 class="text-primary
-                    text-5xl
+                    text-4xl
                     font-black">
                     170+
                 </h3>
@@ -151,7 +128,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <h3
                     class="text-primary
-                    text-5xl
+                    text-4xl
                     font-black">
                     80+
                 </h3>
@@ -200,7 +177,7 @@ include "./include/historytimelinesection.php";
                     </i>
                 </div>
                 <h3
-                    class="text-5xl
+                    class="text-4xl
                     font-black">
                     2
                 </h3>
@@ -1082,66 +1059,7 @@ include "./include/historytimelinesection.php";
                     Find A Doctor
                 </a>
             </div>
-            <!-- TRUST BAR -->
-            <div
-                class="grid
-                grid-cols-2
-                lg:grid-cols-4
-                gap-8
-                mt-20">
-                <div>
-                    <h3
-                        class="text-secondary
-                        text-4xl
-                        font-black">
-                        42+
-                    </h3>
-                    <p
-                        class="text-white/80
-                        mt-3">
-                        Years Of Service
-                    </p>
-                </div>
-                <div>
-                    <h3
-                        class="text-secondary
-                        text-4xl
-                        font-black">
-                        170+
-                    </h3>
-                    <p
-                        class="text-white/80
-                        mt-3">
-                        Nationalities Served
-                    </p>
-                </div>
-                <div>
-                    <h3
-                        class="text-secondary
-                        text-4xl
-                        font-black">
-                        80+
-                    </h3>
-                    <p
-                        class="text-white/80
-                        mt-3">
-                        Specialists
-                    </p>
-                </div>
-                <div>
-                    <h3
-                        class="text-secondary
-                        text-4xl
-                        font-black">
-                        2
-                    </h3>
-                    <p
-                        class="text-white/80
-                        mt-3">
-                        Hospital Locations
-                    </p>
-                </div>
-            </div>
+            
         </div>
     </div>
 </section>
@@ -1312,10 +1230,9 @@ include "./include/historytimelinesection.php";
         </div>
     </div>
 </section>
-<section class="bg-primary py-16">
+<section class="section-padding bg-primary">
     <div class="container-custom">
-        <div
-            class="grid
+        <div class="grid
             md:grid-cols-2
             xl:grid-cols-5
             gap-10

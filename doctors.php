@@ -990,7 +990,7 @@ include "./include/herobanner.php";
    <div class="container-custom">
       <!-- HEADER -->
       <div
-         class="text-center max-w-4xl mx-auto mb-20">
+         class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
             Areas Of Expertise
          </span>
@@ -1011,7 +1011,7 @@ include "./include/herobanner.php";
          <div
             class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
-               class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
+               class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                <i
                   class="fa-solid fa-stethoscope text-primary text-3xl">
                </i>
@@ -1049,7 +1049,7 @@ include "./include/herobanner.php";
          <div
             class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
-               class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
+               class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                <i
                   class="fa-solid fa-baby text-primary text-3xl">
                </i>
@@ -1087,7 +1087,7 @@ include "./include/herobanner.php";
          <div
             class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
-               class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
+               class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                <i
                   class="fa-solid fa-mountain text-primary text-3xl">
                </i>
@@ -1125,7 +1125,7 @@ include "./include/herobanner.php";
          <div
             class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
-               class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
+               class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                <i
                   class="fa-solid fa-lungs text-primary text-3xl">
                </i>
@@ -1244,11 +1244,11 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- CONSULTATION JOURNEY -->
 <!-- ========================================= -->
-<section class="section-padding bg-white overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
       <div
-         class="text-center max-w-4xl mx-auto mb-20">
+         class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
             Patient Experience
          </span>
@@ -1395,14 +1395,14 @@ include "./include/herobanner.php";
       </div>
       <!-- BOTTOM SECTION -->
       <div
-         class="grid lg:grid-cols-12 gap-12 items-center mt-24">
+         class="grid lg:grid-cols-12 gap-12 items-center mt-12">
          <!-- IMAGE -->
          <div
             class="lg:col-span-5">
             <img
                src="./assets/img/consultation-journey.jpg"
                alt="Consultation Journey"
-               class="w-full h-[550px] object-cover">
+               class="w-full h-[350px] object-cover">
          </div>
          <!-- CONTENT -->
          <div
@@ -1465,7 +1465,7 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- BOOK CONSULTATION CTA -->
 <!-- ========================================= -->
-<section class="relative overflow-hidden bg-primary">
+<section class="section-padding relative overflow-hidden bg-primary">
    <!-- BACKGROUND SHAPES -->
    <div
       class="absolute top-0 left-0 w-[500px] h-[500px] bg-white/[0.03] rounded-full -translate-x-1/2 -translate-y-1/2">
@@ -1475,8 +1475,7 @@ include "./include/herobanner.php";
    </div>
    <div
       class="container-custom relative z-10">
-      <div
-         class="py-24 lg:py-32">
+      <div>
          <!-- HEADER -->
          <div
             class="max-w-5xl mx-auto text-center">
@@ -1488,7 +1487,7 @@ include "./include/herobanner.php";
                Expert Medical Care Starts Here
             </span>
             <h2
-               class="text-white text-5xl lg:text-6xl font-black mt-8 leading-tight">
+               class="text-white text-4xl lg:text-5xl font-black mt-8 leading-tight">
                Connect With The Right
                Specialist Today
             </h2>
@@ -1502,12 +1501,12 @@ include "./include/herobanner.php";
          </div>
          <!-- ACTION CARDS -->
          <div
-            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-20">
+            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-16">
             <!-- BOOK -->
             <div
                class="bg-white p-8 text-center hover:-translate-y-2 transition-all duration-500">
                <div
-                  class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
+                  class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                   <i
                      class="fa-solid fa-calendar-check text-primary text-3xl">
                   </i>
@@ -1555,7 +1554,7 @@ include "./include/herobanner.php";
             <div
                class="bg-white p-8 text-center hover:-translate-y-2 transition-all duration-500">
                <div
-                  class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
+                  class="w-16 h-16 mx-auto bg-primary/10 flex items-center justify-center mb-6">
                   <i
                      class="fa-solid fa-headset text-primary text-3xl">
                   </i>

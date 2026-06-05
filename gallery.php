@@ -897,7 +897,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-primary overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
-      <div class="text-center mb-16">
+      <div class="text-center mb-12">
          <span
             class="inline-block
             text-secondary
@@ -909,7 +909,7 @@ include "./include/herobanner.php";
          <h2
             class="text-white
             text-3xl
-            md:text-5xl
+            md:text-4xl
             font-black
             mt-4">
             Capturing Our Journey Through The Years
@@ -1129,7 +1129,7 @@ include "./include/herobanner.php";
       relative
       z-10">
       <div
-         class="py-16
+         class="py-12
          text-center
          max-w-5xl
          mx-auto">
@@ -1188,7 +1188,7 @@ include "./include/herobanner.php";
             class="grid
             md:grid-cols-3
             gap-8
-            mt-20">
+            mt-16">
             <div
                class="bg-white
                border
