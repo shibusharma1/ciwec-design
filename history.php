@@ -339,7 +339,7 @@ include "./include/historytimelinesection.php";
                     </p>
                 </div>
                 <div class="lg:order-1">
-                    <img src="./assets/img/history-2000.jpg"
+                    <img src="./assets/img/history/history1.webp"
                         class="w-full
                         h-[400px]
                         object-cover
@@ -373,7 +373,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <div>
                     <img
-                        src="./assets/img/history-2014.jpg"
+                        src="./assets/img/history/history2.webp"
                         class="w-full
                         h-[400px]
                         object-cover
@@ -413,7 +413,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <div class="lg:order-1">
                     <img
-                        src="./assets/img/history-today.jpg"
+                        src="./assets/img/history/history3.webp"
                         class="w-full
                         h-[400px]
                         object-cover
@@ -459,7 +459,7 @@ include "./include/historytimelinesection.php";
                 overflow-hidden
                 h-[320px]">
                 <img
-                    src="./assets/img/history-gallery-1.jpg"
+                    src="./assets/img/history/history1.webp"
                     class="w-full h-full object-cover
                     transition-all duration-700
                     group-hover:scale-110">
@@ -496,7 +496,7 @@ include "./include/historytimelinesection.php";
                 overflow-hidden
                 h-[320px]">
                 <img
-                    src="./assets/img/history-gallery-2.jpg"
+                    src="./assets/img/history/history2.webp"
                     class="w-full h-full object-cover
                     transition-all duration-700
                     group-hover:scale-110">
@@ -534,7 +534,7 @@ include "./include/historytimelinesection.php";
                 h-[320px]
                 md:col-span-2">
                 <img
-                    src="./assets/img/history-gallery-3.jpg"
+                    src="./assets/img/history/history3.webp"
                     class="w-full h-full object-cover
                     transition-all duration-700
                     group-hover:scale-110">
@@ -579,7 +579,7 @@ include "./include/historytimelinesection.php";
                 h-[320px]
                 md:col-span-2">
                 <img
-                    src="./assets/img/history-gallery-4.jpg"
+                    src="./assets/img/history/history1.webp"
                     class="w-full h-full object-cover
                     transition-all duration-700
                     group-hover:scale-110">
@@ -622,7 +622,7 @@ include "./include/historytimelinesection.php";
                 overflow-hidden
                 h-[320px]">
                 <img
-                    src="./assets/img/history-gallery-5.jpg"
+                    src="./assets/img/history/history2.webp"
                     class="w-full h-full object-cover
                     transition-all duration-700
                     group-hover:scale-110">
@@ -659,7 +659,7 @@ include "./include/historytimelinesection.php";
                 overflow-hidden
                 h-[320px]">
                 <img
-                    src="./assets/img/history-gallery-6.jpg"
+                    src="./assets/img/history/history3.webp"
                     class="w-full h-full object-cover
                     transition-all duration-700
                     group-hover:scale-110">
@@ -1202,7 +1202,109 @@ include "./include/historytimelinesection.php";
                 hover:-translate-y-2
                 transition-all duration-500">
                 <img
-                    src="./assets/img/leader-1.jpg"
+                    src="./assets/img/doctors/samrat.png"
+                    class="w-full h-[320px] object-cover">
+                <div class="p-6">
+                    <h3
+                        class="text-primary
+                        font-black
+                        text-xl">
+                        Dr. Founder Name
+                    </h3>
+                    <p
+                        class="text-secondary
+                        font-semibold
+                        mt-2">
+                        Founder
+                    </p>
+                    <p
+                        class="text-slate-500
+                        text-sm
+                        mt-4">
+                        Established CIWEC's vision for
+                        international healthcare.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="bg-white
+                border
+                border-slate-200
+                text-center
+                overflow-hidden
+                hover:border-secondary
+                hover:-translate-y-2
+                transition-all duration-500">
+                <img
+                    src="./assets/img/doctors/samrat.png"
+                    class="w-full h-[320px] object-cover">
+                <div class="p-6">
+                    <h3
+                        class="text-primary
+                        font-black
+                        text-xl">
+                        Dr. Founder Name
+                    </h3>
+                    <p
+                        class="text-secondary
+                        font-semibold
+                        mt-2">
+                        Founder
+                    </p>
+                    <p
+                        class="text-slate-500
+                        text-sm
+                        mt-4">
+                        Established CIWEC's vision for
+                        international healthcare.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="bg-white
+                border
+                border-slate-200
+                text-center
+                overflow-hidden
+                hover:border-secondary
+                hover:-translate-y-2
+                transition-all duration-500">
+                <img
+                    src="./assets/img/doctors/samrat.png"
+                    class="w-full h-[320px] object-cover">
+                <div class="p-6">
+                    <h3
+                        class="text-primary
+                        font-black
+                        text-xl">
+                        Dr. Founder Name
+                    </h3>
+                    <p
+                        class="text-secondary
+                        font-semibold
+                        mt-2">
+                        Founder
+                    </p>
+                    <p
+                        class="text-slate-500
+                        text-sm
+                        mt-4">
+                        Established CIWEC's vision for
+                        international healthcare.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="bg-white
+                border
+                border-slate-200
+                text-center
+                overflow-hidden
+                hover:border-secondary
+                hover:-translate-y-2
+                transition-all duration-500">
+                <img
+                    src="./assets/img/doctors/samrat.png"
                     class="w-full h-[320px] object-cover">
                 <div class="p-6">
                     <h3

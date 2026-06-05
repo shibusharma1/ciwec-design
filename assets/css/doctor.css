@@ -1,0 +1,17 @@
+.specialty-chip {
+  padding: 12px 24px;
+  border: 1px solid #e2e8f0;
+  background: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.specialty-chip:hover {
+  border-color: var(--primary);
+}
+
+.active-specialty {
+  background: #0a3c69;
+  color: white;
+  border-color: #0a3c69;
+}

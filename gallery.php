@@ -80,87 +80,85 @@ include "./include/herobanner.php";
          <!-- HOSPITAL -->
          <div class="gallery-item hospital">
             <img
-               src="./assets/img/gallery-1.jpg"
+               src="./assets/img/history/history1.webp"
                class="w-full h-[300px] object-cover">
          </div>
          <div class="gallery-item hospital">
             <img
-               src="./assets/img/gallery-2.jpg"
+               src="./assets/img/history/history2.webp"
                class="w-full h-[300px] object-cover">
          </div>
          <!-- DOCTORS -->
          <div class="gallery-item doctors">
             <img
-               src="./assets/img/gallery-3.jpg"
+               src="./assets/img/history/history3.webp"
                class="w-full h-[300px] object-cover">
          </div>
          <div class="gallery-item doctors">
             <img
-               src="./assets/img/gallery-4.jpg"
+               src="./assets/img/doctors/david.png"
                class="w-full h-[300px] object-cover">
          </div>
          <!-- EVENTS -->
          <div class="gallery-item events">
             <img
-               src="./assets/img/gallery-5.jpg"
+               src="./assets/img/speciality/img1.jpg"
                class="w-full h-[300px] object-cover">
          </div>
          <div class="gallery-item events">
             <img
-               src="./assets/img/gallery-6.jpg"
+               src="./assets/img/speciality/img4.jpg"
                class="w-full h-[300px] object-cover">
          </div>
          <!-- FACILITIES -->
          <div class="gallery-item facilities">
             <img
-               src="./assets/img/gallery-7.jpg"
+               src="./assets/img/health/healthinformation.png"
                class="w-full h-[300px] object-cover">
          </div>
          <div class="gallery-item facilities">
             <img
-               src="./assets/img/gallery-8.jpg"
+               src="./assets/img/health/immunization.png"
                class="w-full h-[300px] object-cover">
          </div>
       </div>
       <div
-    id="gallery-empty-state"
-    class="hidden">
+         id="gallery-empty-state"
+         class="hidden">
 
-    <div
-        class="bg-slate-100 border border-slate-200 py-20 px-8 text-center">
+         <div
+            class="bg-slate-100 border border-slate-200 py-20 px-8 text-center">
 
-        <div
-            class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
+            <div
+               class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
 
-            <i
-                class="fa-solid fa-images text-primary text-3xl">
-            </i>
+               <i
+                  class="fa-solid fa-images text-primary text-3xl">
+               </i>
 
-        </div>
+            </div>
 
-        <h3
-            class="text-primary text-2xl font-black mb-3">
+            <h3
+               class="text-primary text-2xl font-black mb-3">
 
-            No Images Available
+               No Images Available
 
-        </h3>
+            </h3>
 
-        <p
-            class="text-slate-600 max-w-lg mx-auto leading-7">
+            <p
+               class="text-slate-600 max-w-lg mx-auto leading-7">
 
-            There are currently no images available in this category.
-            Please explore other gallery sections or check back later.
+               There are currently no images available in this category.
+               Please explore other gallery sections or check back later.
 
-        </p>
+            </p>
 
-    </div>
+         </div>
 
-</div>
+      </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- FEATURED GALLERY -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
@@ -192,9 +190,9 @@ include "./include/herobanner.php";
             relative
             group
             overflow-hidden
-            h-[500px]">
+            h-[700px]">
             <img
-               src="./assets/img/gallery-featured-1.jpg"
+               src="./assets/img/history/history1.webp"
                alt="CIWEC Hospital"
                class="w-full
                h-full
@@ -252,7 +250,7 @@ include "./include/herobanner.php";
                group
                overflow-hidden">
                <img
-                  src="./assets/img/gallery-featured-2.jpg"
+                  src="./assets/img/yourtrustedpartnere.jpg"
                   class="w-full
                   h-full
                   object-cover
@@ -291,7 +289,7 @@ include "./include/herobanner.php";
                group
                overflow-hidden">
                <img
-                  src="./assets/img/gallery-featured-3.jpg"
+                  src="./assets/img/"
                   class="w-full
                   h-full
                   object-cover
@@ -352,200 +350,238 @@ include "./include/herobanner.php";
       <!-- GALLERY GRID -->
       <div
          id="galleryGrid"
-         class="columns-1
-         md:columns-2
-         xl:columns-4
-         gap-6
-         space-y-6">
+         class="grid
+   grid-cols-1
+   md:grid-cols-2
+   xl:grid-cols-4
+   gap-6">
+
          <!-- ITEM -->
          <div
             class="gallery-item
-            hospital
-            relative
-            group
-            overflow-hidden
-            break-inside-avoid
-            cursor-pointer">
+      hospital
+      relative
+      group
+      overflow-hidden
+      h-[320px]
+      cursor-pointer">
+
             <img
-               src="./assets/img/gallery-1.jpg"
+               src="./assets/img/history/history1.webp"
+               alt="CIWEC Main Building"
                class="w-full
-               transition-all
-               duration-700
-               group-hover:scale-110">
-            <!-- OVERLAY -->
+         h-full
+         object-cover
+         transition-all
+         duration-700
+         group-hover:scale-110">
+
             <div
                class="absolute inset-0
-               bg-primary/0
-               group-hover:bg-primary/75
-               transition-all duration-500">
+         bg-primary/0
+         group-hover:bg-primary/75
+         transition-all duration-500">
             </div>
-            <!-- CONTENT -->
+
             <div
                class="absolute
-               bottom-0
-               left-0
-               p-6
-               translate-y-8
-               opacity-0
-               group-hover:translate-y-0
-               group-hover:opacity-100
-               transition-all duration-500">
+         bottom-0
+         left-0
+         p-6
+         translate-y-8
+         opacity-0
+         group-hover:translate-y-0
+         group-hover:opacity-100
+         transition-all duration-500">
+
                <span
                   class="text-secondary
-                  text-sm
-                  font-bold">
+            text-sm
+            font-bold">
                   Hospital
                </span>
+
                <h3
                   class="text-white
-                  text-xl
-                  font-black
-                  mt-2">
+            text-xl
+            font-black
+            mt-2">
                   CIWEC Main Building
                </h3>
+
             </div>
          </div>
+
          <!-- ITEM -->
          <div
             class="gallery-item
-            doctors
-            relative
-            group
-            overflow-hidden
-            break-inside-avoid
-            cursor-pointer">
+      doctors
+      relative
+      group
+      overflow-hidden
+      h-[320px]
+      cursor-pointer">
+
             <img
-               src="./assets/img/gallery-2.jpg"
+               src="./assets/img/doctors/david.png"
+               alt="Specialist Consultation"
                class="w-full
-               transition-all
-               duration-700
-               group-hover:scale-110">
+         h-full
+         object-cover
+         transition-all
+         duration-700
+         group-hover:scale-110">
+
             <div
                class="absolute inset-0
-               bg-primary/0
-               group-hover:bg-primary/75
-               transition-all duration-500">
+         bg-primary/0
+         group-hover:bg-primary/75
+         transition-all duration-500">
             </div>
+
             <div
                class="absolute
-               bottom-0
-               left-0
-               p-6
-               translate-y-8
-               opacity-0
-               group-hover:translate-y-0
-               group-hover:opacity-100
-               transition-all duration-500">
+         bottom-0
+         left-0
+         p-6
+         translate-y-8
+         opacity-0
+         group-hover:translate-y-0
+         group-hover:opacity-100
+         transition-all duration-500">
+
                <span
                   class="text-secondary
-                  text-sm
-                  font-bold">
+            text-sm
+            font-bold">
                   Doctors
                </span>
+
                <h3
                   class="text-white
-                  text-xl
-                  font-black
-                  mt-2">
+            text-xl
+            font-black
+            mt-2">
                   Specialist Consultation
                </h3>
+
             </div>
          </div>
+
          <!-- ITEM -->
          <div
             class="gallery-item
-            events
-            relative
-            group
-            overflow-hidden
-            break-inside-avoid
-            cursor-pointer">
+      events
+      relative
+      group
+      overflow-hidden
+      h-[320px]
+      cursor-pointer">
+
             <img
-               src="./assets/img/gallery-3.jpg"
+               src="./assets/img/history/history3.webp"
+               alt="Medical Conference"
                class="w-full
-               transition-all
-               duration-700
-               group-hover:scale-110">
+         h-full
+         object-cover
+         transition-all
+         duration-700
+         group-hover:scale-110">
+
             <div
                class="absolute inset-0
-               bg-primary/0
-               group-hover:bg-primary/75
-               transition-all duration-500">
+         bg-primary/0
+         group-hover:bg-primary/75
+         transition-all duration-500">
             </div>
+
             <div
                class="absolute
-               bottom-0
-               left-0
-               p-6
-               translate-y-8
-               opacity-0
-               group-hover:translate-y-0
-               group-hover:opacity-100
-               transition-all duration-500">
+         bottom-0
+         left-0
+         p-6
+         translate-y-8
+         opacity-0
+         group-hover:translate-y-0
+         group-hover:opacity-100
+         transition-all duration-500">
+
                <span
                   class="text-secondary
-                  text-sm
-                  font-bold">
+            text-sm
+            font-bold">
                   Event
                </span>
+
                <h3
                   class="text-white
-                  text-xl
-                  font-black
-                  mt-2">
+            text-xl
+            font-black
+            mt-2">
                   Medical Conference
                </h3>
+
             </div>
          </div>
+
          <!-- ITEM -->
          <div
             class="gallery-item
-            community
-            relative
-            group
-            overflow-hidden
-            break-inside-avoid
-            cursor-pointer">
+      community
+      relative
+      group
+      overflow-hidden
+      h-[320px]
+      cursor-pointer">
+
             <img
-               src="./assets/img/gallery-4.jpg"
+               src="./assets/img/speciality/img2.png"
+               alt="Health Awareness Program"
                class="w-full
-               transition-all
-               duration-700
-               group-hover:scale-110">
+         h-full
+         object-cover
+         transition-all
+         duration-700
+         group-hover:scale-110">
+
             <div
                class="absolute inset-0
-               bg-primary/0
-               group-hover:bg-primary/75
-               transition-all duration-500">
+         bg-primary/0
+         group-hover:bg-primary/75
+         transition-all duration-500">
             </div>
+
             <div
                class="absolute
-               bottom-0
-               left-0
-               p-6
-               translate-y-8
-               opacity-0
-               group-hover:translate-y-0
-               group-hover:opacity-100
-               transition-all duration-500">
+         bottom-0
+         left-0
+         p-6
+         translate-y-8
+         opacity-0
+         group-hover:translate-y-0
+         group-hover:opacity-100
+         transition-all duration-500">
+
                <span
                   class="text-secondary
-                  text-sm
-                  font-bold">
+            text-sm
+            font-bold">
                   Community
                </span>
+
                <h3
                   class="text-white
-                  text-xl
-                  font-black
-                  mt-2">
+            text-xl
+            font-black
+            mt-2">
                   Health Awareness Program
                </h3>
+
             </div>
          </div>
-         <!-- Add More Images -->
-      </div>
-   
+
+      </div>   
+
       <!-- VIEW ALL -->
       <div class="text-center mt-16">
          <button
@@ -597,7 +633,7 @@ include "./include/herobanner.php";
                class="relative
                overflow-hidden">
                <img
-                  src="./assets/img/video-1.jpg"
+                  src="./assets/img/history/history1.webp"
                   class="w-full
                   h-[260px]
                   object-cover
@@ -618,7 +654,7 @@ include "./include/herobanner.php";
                   flex
                   items-center
                   justify-center"
-                  data-video="https://www.youtube.com/embed/VIDEO_ID">
+                  data-video="./assets/vdo/banner.mp4">
                   <div
                      class="w-20
                      h-20
@@ -674,7 +710,7 @@ include "./include/herobanner.php";
                class="relative
                overflow-hidden">
                <img
-                  src="./assets/img/video-2.jpg"
+                  src="./assets/img/history/history2.webp"
                   class="w-full
                   h-[260px]
                   object-cover
@@ -691,7 +727,7 @@ include "./include/herobanner.php";
                   flex
                   items-center
                   justify-center"
-                  data-video="https://www.youtube.com/embed/VIDEO_ID">
+                  data-video="./assets/vdo/banner.mp4">
                   <div
                      class="w-20 h-20
                      rounded-full
@@ -742,7 +778,7 @@ include "./include/herobanner.php";
                class="relative
                overflow-hidden">
                <img
-                  src="./assets/img/video-3.jpg"
+                  src="./assets/img/history/history3.webp"
                   class="w-full
                   h-[260px]
                   object-cover
@@ -759,7 +795,7 @@ include "./include/herobanner.php";
                   flex
                   items-center
                   justify-center"
-                  data-video="https://www.youtube.com/embed/VIDEO_ID">
+                  data-video="./assets/vdo/banner.mp4">
                   <div
                      class="w-20 h-20
                      rounded-full

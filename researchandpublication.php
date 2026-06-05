@@ -489,11 +489,11 @@ include "./include/herobanner.php";
    </div>
 </section>
 <!-- ========================================= -->
-<!-- RESEARCH LIBRARY -->
+<!-- RESEARCH LIBRARY hidden since no use for now -->
 <!-- ========================================= -->
 <section
    id="research-library"
-   class="section-padding bg-slate-100 overflow-hidden">
+   class="section-padding hidden bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
       <div class="text-center max-w-4xl mx-auto mb-16">

@@ -13,9 +13,9 @@ include "./include/herobanner.php";
             <div
                class="relative">
                <img
-                  src="./assets/img/altitude-expert-doctor.jpg"
+                  src="./assets/img/altitude-expert-doctor.png"
                   alt="Altitude Medicine Expert"
-                  class="w-full h-[750px] object-cover">
+                  class="w-full h-[680px] object-fill">
                <!-- FLOATING CARD -->
                <div
                   class="absolute bottom-8 left-8 bg-white shadow-2xl p-6 max-w-[320px]">
@@ -226,7 +226,7 @@ include "./include/herobanner.php";
             <div
                class="lg:col-span-4">
                <img
-                  src="./assets/img/trekking-medical-support.jpg"
+                  src="./assets/img/trekking-medical-support.png"
                   alt=""
                   class="w-full h-[320px] object-cover">
             </div>
@@ -237,226 +237,226 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- ALTITUDE RISK LEVELS -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-100 overflow-hidden">
-   <div class="container-custom">
-      <!-- HEADER -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
-         <span class="section-subtitle">
-         Altitude Risk Assessment
-         </span>
-         <h2 class="section-title">
-            Understanding Altitude Risk Levels
-         </h2>
-         <p class="text-slate-600 mt-6 leading-8">
-            As altitude increases, oxygen levels decrease and the
-            risk of altitude-related illness rises significantly.
-            Understanding your risk level helps you prepare and
-            travel safely.
-         </p>
-      </div>
-      <!-- MOUNTAIN VISUAL -->
-      <div class="relative mb-16">
-         <img
-            src="./assets/img/mountain-altitude-map.jpg"
-            alt="Altitude Risk Levels"
-            class="w-full h-[600px] object-cover">
-         <!-- ALTITUDE MARKERS -->
-         <div class="absolute bottom-[12%] left-[15%]">
-            <div class="bg-green-500 text-white px-5 py-3 font-bold shadow-xl">
-               2,500m
-            </div>
-         </div>
-         <div class="absolute bottom-[30%] left-[35%]">
-            <div class="bg-yellow-500 text-white px-5 py-3 font-bold shadow-xl">
-               3,500m
-            </div>
-         </div>
-         <div class="absolute bottom-[50%] left-[55%]">
-            <div class="bg-orange-500 text-white px-5 py-3 font-bold shadow-xl">
-               4,500m
-            </div>
-         </div>
-         <div class="absolute bottom-[72%] left-[75%]">
-            <div class="bg-red-600 text-white px-5 py-3 font-bold shadow-xl">
-               5,500m+
-            </div>
-         </div>
-      </div>
-      <!-- RISK CARDS -->
-      <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
-         <!-- LOW RISK -->
-         <div
-            class="group bg-white border-t-4 border-green-500 p-8 hover:-translate-y-2 transition-all duration-500">
-            <span
-               class="inline-block bg-green-100 text-green-700 px-4 py-2 font-bold">
-            LOW RISK
+   <section class="section-padding bg-slate-100 overflow-hidden">
+      <div class="container-custom">
+         <!-- HEADER -->
+         <div class="text-center max-w-4xl mx-auto mb-16">
+            <span class="section-subtitle">
+            Altitude Risk Assessment
             </span>
+            <h2 class="section-title">
+               Understanding Altitude Risk Levels
+            </h2>
+            <p class="text-slate-600 mt-6 leading-8">
+               As altitude increases, oxygen levels decrease and the
+               risk of altitude-related illness rises significantly.
+               Understanding your risk level helps you prepare and
+               travel safely.
+            </p>
+         </div>
+         <!-- MOUNTAIN VISUAL -->
+         <div class="relative mb-16">
+            <img
+               src="./assets/img/mountain-altitude-map.png"
+               alt="Altitude Risk Levels"
+               class="w-full h-[600px] object-fill">
+            <!-- ALTITUDE MARKERS -->
+            <!-- <div class="absolute bottom-[12%] left-[15%]">
+               <div class="bg-green-500 text-white px-5 py-3 font-bold shadow-xl">
+                  2,500m
+               </div>
+            </div>
+            <div class="absolute bottom-[30%] left-[35%]">
+               <div class="bg-yellow-500 text-white px-5 py-3 font-bold shadow-xl">
+                  3,500m
+               </div>
+            </div>
+            <div class="absolute bottom-[50%] left-[55%]">
+               <div class="bg-orange-500 text-white px-5 py-3 font-bold shadow-xl">
+                  4,500m
+               </div>
+            </div>
+            <div class="absolute bottom-[72%] left-[75%]">
+               <div class="bg-red-600 text-white px-5 py-3 font-bold shadow-xl">
+                  5,500m+
+               </div>
+            </div> -->
+         </div>
+         <!-- RISK CARDS -->
+         <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
+            <!-- LOW RISK -->
+            <div
+               class="group bg-white border-t-4 border-green-500 p-8 hover:-translate-y-2 transition-all duration-500">
+               <span
+                  class="inline-block bg-green-100 text-green-700 px-4 py-2 font-bold">
+               LOW RISK
+               </span>
+               <h3
+                  class="text-primary text-2xl font-black mt-6">
+                  2,500m
+               </h3>
+               <p
+                  class="text-slate-500 font-semibold mt-2">
+                  Entry Altitude Zone
+               </p>
+               <ul class="mt-8 space-y-4">
+                  <li class="flex gap-3">
+                     <i class="fa-solid fa-check text-green-500 mt-1"></i>
+                     Mild shortness of breath
+                  </li>
+                  <li class="flex gap-3">
+                     <i class="fa-solid fa-check text-green-500 mt-1"></i>
+                     Minor fatigue
+                  </li>
+                  <li class="flex gap-3">
+                     <i class="fa-solid fa-check text-green-500 mt-1"></i>
+                     Usually well tolerated
+                  </li>
+               </ul>
+               <div class="mt-8 pt-6 border-t">
+                  <strong class="text-primary">
+                  Recommended:
+                  </strong>
+                  <p class="text-slate-600 mt-2">
+                     Stay hydrated and begin gradual ascent.
+                  </p>
+               </div>
+            </div>
+            <!-- MODERATE -->
+            <div
+               class="group bg-white border-t-4 border-yellow-500 p-8 hover:-translate-y-2 transition-all duration-500">
+               <span
+                  class="inline-block bg-yellow-100 text-yellow-700 px-4 py-2 font-bold">
+               MODERATE RISK
+               </span>
+               <h3
+                  class="text-primary text-2xl font-black mt-6">
+                  3,500m
+               </h3>
+               <p
+                  class="text-slate-500 font-semibold mt-2">
+                  AMS Risk Begins
+               </p>
+               <ul class="mt-8 space-y-4">
+                  <li class="flex gap-3">
+                     <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
+                     Headache
+                  </li>
+                  <li class="flex gap-3">
+                     <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
+                     Nausea
+                  </li>
+                  <li class="flex gap-3">
+                     <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
+                     Sleep disturbances
+                  </li>
+               </ul>
+               <div class="mt-8 pt-6 border-t">
+                  <strong class="text-primary">
+                  Recommended:
+                  </strong>
+                  <p class="text-slate-600 mt-2">
+                     Ascend slowly and monitor symptoms.
+                  </p>
+               </div>
+            </div>
+            <!-- HIGH -->
+            <div
+               class="group bg-white border-t-4 border-orange-500 p-8 hover:-translate-y-2 transition-all duration-500">
+               <span
+                  class="inline-block bg-orange-100 text-orange-700 px-4 py-2 font-bold">
+               HIGH RISK
+               </span>
+               <h3
+                  class="text-primary text-2xl font-black mt-6">
+                  4,500m
+               </h3>
+               <p
+                  class="text-slate-500 font-semibold mt-2">
+                  Severe AMS Possible
+               </p>
+               <ul class="mt-8 space-y-4">
+                  <li class="flex gap-3">
+                     <i class="fa-solid fa-circle-exclamation text-orange-500 mt-1"></i>
+                     Persistent headache
+                  </li>
+                  <li class="flex gap-3">
+                     <i class="fa-solid fa-circle-exclamation text-orange-500 mt-1"></i>
+                     Significant fatigue
+                  </li>
+                  <li class="flex gap-3">
+                     <i class="fa-solid fa-circle-exclamation text-orange-500 mt-1"></i>
+                     Reduced performance
+                  </li>
+               </ul>
+               <div class="mt-8 pt-6 border-t">
+                  <strong class="text-primary">
+                  Recommended:
+                  </strong>
+                  <p class="text-slate-600 mt-2">
+                     Consider acclimatization days.
+                  </p>
+               </div>
+            </div>
+            <!-- EXTREME -->
+            <div
+               class="group bg-white border-t-4 border-red-600 p-8 hover:-translate-y-2 transition-all duration-500">
+               <span
+                  class="inline-block bg-red-100 text-red-700 px-4 py-2 font-bold">
+               EXTREME RISK
+               </span>
+               <h3
+                  class="text-primary text-2xl font-black mt-6">
+                  5,500m+
+               </h3>
+               <p
+                  class="text-slate-500 font-semibold mt-2">
+                  HAPE / HACE Zone
+               </p>
+               <ul class="mt-8 space-y-4">
+                  <li class="flex gap-3">
+                     <i class="fa-solid fa-skull-crossbones text-red-500 mt-1"></i>
+                     Severe breathlessness
+                  </li>
+                  <li class="flex gap-3">
+                     <i class="fa-solid fa-skull-crossbones text-red-500 mt-1"></i>
+                     Confusion
+                  </li>
+                  <li class="flex gap-3">
+                     <i class="fa-solid fa-skull-crossbones text-red-500 mt-1"></i>
+                     Medical emergency
+                  </li>
+               </ul>
+               <div class="mt-8 pt-6 border-t">
+                  <strong class="text-primary">
+                  Recommended:
+                  </strong>
+                  <p class="text-slate-600 mt-2">
+                     Immediate descent and urgent medical care.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <!-- ALERT BANNER -->
+         <div
+            class="bg-primary mt-20 p-10 lg:p-14 text-center">
+            <i
+               class="fa-solid fa-triangle-exclamation text-secondary text-5xl">
+            </i>
             <h3
-               class="text-primary text-2xl font-black mt-6">
-               2,500m
+               class="text-white text-4xl font-black mt-6">
+               Altitude Illness Can Affect Anyone
             </h3>
             <p
-               class="text-slate-500 font-semibold mt-2">
-               Entry Altitude Zone
+               class="text-white/80 max-w-3xl mx-auto mt-6 leading-8">
+               Physical fitness does not prevent altitude sickness.
+               Proper acclimatization, awareness of symptoms and
+               early intervention are the most effective strategies
+               for staying safe at high elevations.
             </p>
-            <ul class="mt-8 space-y-4">
-               <li class="flex gap-3">
-                  <i class="fa-solid fa-check text-green-500 mt-1"></i>
-                  Mild shortness of breath
-               </li>
-               <li class="flex gap-3">
-                  <i class="fa-solid fa-check text-green-500 mt-1"></i>
-                  Minor fatigue
-               </li>
-               <li class="flex gap-3">
-                  <i class="fa-solid fa-check text-green-500 mt-1"></i>
-                  Usually well tolerated
-               </li>
-            </ul>
-            <div class="mt-8 pt-6 border-t">
-               <strong class="text-primary">
-               Recommended:
-               </strong>
-               <p class="text-slate-600 mt-2">
-                  Stay hydrated and begin gradual ascent.
-               </p>
-            </div>
-         </div>
-         <!-- MODERATE -->
-         <div
-            class="group bg-white border-t-4 border-yellow-500 p-8 hover:-translate-y-2 transition-all duration-500">
-            <span
-               class="inline-block bg-yellow-100 text-yellow-700 px-4 py-2 font-bold">
-            MODERATE RISK
-            </span>
-            <h3
-               class="text-primary text-2xl font-black mt-6">
-               3,500m
-            </h3>
-            <p
-               class="text-slate-500 font-semibold mt-2">
-               AMS Risk Begins
-            </p>
-            <ul class="mt-8 space-y-4">
-               <li class="flex gap-3">
-                  <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
-                  Headache
-               </li>
-               <li class="flex gap-3">
-                  <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
-                  Nausea
-               </li>
-               <li class="flex gap-3">
-                  <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
-                  Sleep disturbances
-               </li>
-            </ul>
-            <div class="mt-8 pt-6 border-t">
-               <strong class="text-primary">
-               Recommended:
-               </strong>
-               <p class="text-slate-600 mt-2">
-                  Ascend slowly and monitor symptoms.
-               </p>
-            </div>
-         </div>
-         <!-- HIGH -->
-         <div
-            class="group bg-white border-t-4 border-orange-500 p-8 hover:-translate-y-2 transition-all duration-500">
-            <span
-               class="inline-block bg-orange-100 text-orange-700 px-4 py-2 font-bold">
-            HIGH RISK
-            </span>
-            <h3
-               class="text-primary text-2xl font-black mt-6">
-               4,500m
-            </h3>
-            <p
-               class="text-slate-500 font-semibold mt-2">
-               Severe AMS Possible
-            </p>
-            <ul class="mt-8 space-y-4">
-               <li class="flex gap-3">
-                  <i class="fa-solid fa-circle-exclamation text-orange-500 mt-1"></i>
-                  Persistent headache
-               </li>
-               <li class="flex gap-3">
-                  <i class="fa-solid fa-circle-exclamation text-orange-500 mt-1"></i>
-                  Significant fatigue
-               </li>
-               <li class="flex gap-3">
-                  <i class="fa-solid fa-circle-exclamation text-orange-500 mt-1"></i>
-                  Reduced performance
-               </li>
-            </ul>
-            <div class="mt-8 pt-6 border-t">
-               <strong class="text-primary">
-               Recommended:
-               </strong>
-               <p class="text-slate-600 mt-2">
-                  Consider acclimatization days.
-               </p>
-            </div>
-         </div>
-         <!-- EXTREME -->
-         <div
-            class="group bg-white border-t-4 border-red-600 p-8 hover:-translate-y-2 transition-all duration-500">
-            <span
-               class="inline-block bg-red-100 text-red-700 px-4 py-2 font-bold">
-            EXTREME RISK
-            </span>
-            <h3
-               class="text-primary text-2xl font-black mt-6">
-               5,500m+
-            </h3>
-            <p
-               class="text-slate-500 font-semibold mt-2">
-               HAPE / HACE Zone
-            </p>
-            <ul class="mt-8 space-y-4">
-               <li class="flex gap-3">
-                  <i class="fa-solid fa-skull-crossbones text-red-500 mt-1"></i>
-                  Severe breathlessness
-               </li>
-               <li class="flex gap-3">
-                  <i class="fa-solid fa-skull-crossbones text-red-500 mt-1"></i>
-                  Confusion
-               </li>
-               <li class="flex gap-3">
-                  <i class="fa-solid fa-skull-crossbones text-red-500 mt-1"></i>
-                  Medical emergency
-               </li>
-            </ul>
-            <div class="mt-8 pt-6 border-t">
-               <strong class="text-primary">
-               Recommended:
-               </strong>
-               <p class="text-slate-600 mt-2">
-                  Immediate descent and urgent medical care.
-               </p>
-            </div>
          </div>
       </div>
-      <!-- ALERT BANNER -->
-      <div
-         class="bg-primary mt-20 p-10 lg:p-14 text-center">
-         <i
-            class="fa-solid fa-triangle-exclamation text-secondary text-5xl">
-         </i>
-         <h3
-            class="text-white text-4xl font-black mt-6">
-            Altitude Illness Can Affect Anyone
-         </h3>
-         <p
-            class="text-white/80 max-w-3xl mx-auto mt-6 leading-8">
-            Physical fitness does not prevent altitude sickness.
-            Proper acclimatization, awareness of symptoms and
-            early intervention are the most effective strategies
-            for staying safe at high elevations.
-         </p>
-      </div>
-   </div>
-</section>
+   </section>
 <!-- ========================================= -->
 <!-- TYPES OF ALTITUDE ILLNESS -->
 <!-- ========================================= -->
@@ -961,9 +961,9 @@ include "./include/herobanner.php";
          <div
             class="lg:col-span-5">
             <img
-               src="./assets/img/altitude-warning-signs.jpg"
+               src="./assets/img/altitude-warning-signs.png"
                alt="Altitude Warning Signs"
-               class="w-full h-[550px] object-cover">
+               class="w-full h-[550px] object-fill">
          </div>
          <div
             class="lg:col-span-7">
@@ -1208,7 +1208,7 @@ include "./include/herobanner.php";
          <div
             class="lg:col-span-5">
             <img
-               src="./assets/img/acclimatization-trek.jpg"
+               src="./assets/img/acclimatization-trek.png"
                alt="Acclimatization Trek"
                class="w-full h-[600px] object-cover">
          </div>
@@ -1280,7 +1280,7 @@ include "./include/herobanner.php";
          <div
             class="lg:col-span-5">
             <img
-               src="./assets/img/frostbite-care.jpg"
+               src="./assets/img/frostbite-care.png"
                alt="Frostbite Care"
                class="w-full h-full min-h-[600px] object-cover">
          </div>
