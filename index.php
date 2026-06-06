@@ -1,6 +1,6 @@
 <?php include "./include/header.php"; ?>
 <!-- HERO -->
-<section  id="hero-section" class="relative">
+<section id="hero-section" class="relative">
     <!-- VIDEO HERO -->
     <div class="relative h-[70vh] md:h-[80vh] xl:h-[90vh] overflow-hidden">
         <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline>
@@ -403,24 +403,21 @@
         <div class="speciality-pagination mt-10"></div>
     </div>
 </section>
-<?php 
+<?php
 include "./include/historytimelinesection.php";
 ?>
 
 <!-- Rectangular design of why ciwec -->
 <section class="section-padding bg-slate-100">
     <div class="container-custom">
-        <div class="max-w-3xl mb-14">
+        <div class="max-w-3xl mb-12">
             <span
                 class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-4">
                 <span class="w-2 h-2 bg-secondary"></span>
                 Why Choose CIWEC
             </span>
-            <h2
-                class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-6">
-                Trusted Healthcare For
-                International Travelers
-                And Local Communities
+            <h2 class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-6">
+                Trusted Healthcare for Travelers and Communities
             </h2>
             <p
                 class="text-slate-600 text-base md:text-lg leading-8">
@@ -433,7 +430,7 @@ include "./include/historytimelinesection.php";
                 <div class="relative overflow-hidden">
                     <img
                         src="./assets/img/speciality/img1.jpg"
-                        class="w-full h-[320px] md:h-[500px] object-cover">
+                        class="w-full h-[320px] md:h-[480px] object-cover">
                     <div
                         class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-8">
                         <h3
@@ -449,7 +446,7 @@ include "./include/historytimelinesection.php";
             </div>
             <div class="xl:col-span-7">
                 <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300">
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300 bg-white">
                         <img src="./assets/img/ISO-Certified-company-logo.webp"
                             class="w-14 h-14 object-contain mb-4">
                         <h3 class="text-primary text-lg font-black mb-3">
@@ -459,7 +456,7 @@ include "./include/historytimelinesection.php";
                             Internationally recognized quality standards.
                         </p>
                     </div>
-                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300">
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300 bg-white">
                         <img src="./assets/img/consulting.webp"
                             class="w-14 h-14 object-cover mb-4">
                         <h3 class="text-primary text-lg font-black mb-3">
@@ -469,7 +466,7 @@ include "./include/historytimelinesection.php";
                             Multi-disciplinary consultant team.
                         </p>
                     </div>
-                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300">
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300 bg-white">
                         <img src="./assets/img/42-years.webp"
                             class="w-14 h-14 object-cover mb-4">
                         <h3 class="text-primary text-lg font-black mb-3">
@@ -479,7 +476,7 @@ include "./include/historytimelinesection.php";
                             Experience in travel medicine.
                         </p>
                     </div>
-                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300">
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300 bg-white">
                         <img src="./assets/img/170.webp"
                             class="w-14 h-14 object-cover mb-4">
                         <h3 class="text-primary text-lg font-black mb-3">
@@ -489,7 +486,7 @@ include "./include/historytimelinesection.php";
                             Patients from around the globe.
                         </p>
                     </div>
-                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300">
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300 bg-white">
                         <img src="./assets/img/3000.webp"
                             class="w-14 h-14 object-cover mb-4">
                         <h3 class="text-primary text-lg font-black mb-3">
@@ -499,7 +496,7 @@ include "./include/historytimelinesection.php";
                             Insurance cases successfully handled.
                         </p>
                     </div>
-                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300">
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300 bg-white">
                         <img src="./assets/img/circular.webp"
                             class="w-14 h-14 object-cover mb-4">
                         <h3 class="text-primary text-lg font-black mb-3">
@@ -513,7 +510,7 @@ include "./include/historytimelinesection.php";
             </div>
         </div>
         <div
-            class="mt-14 grid grid-cols-2 lg:grid-cols-4 border-t border-slate-200">
+            class="mt-12 grid grid-cols-2 lg:grid-cols-4 border-t border-slate-200">
             <div class="py-8 text-center">
                 <h3 class="text-primary text-3xl font-black mb-2">
                     42+
@@ -549,6 +546,7 @@ include "./include/historytimelinesection.php";
         </div>
     </div>
 </section>
+
 <!-- =========================================
     WHAT'S NEW
     ========================================= -->
@@ -718,7 +716,7 @@ include "./include/historytimelinesection.php";
 <!-- =========================================
     OUR DOCTORS SECTION
     ========================================= -->
-<section class="section-padding bg-white">
+<section class="section-padding bg-slate-100">
     <div class="container-custom">
         <div class="grid xl:grid-cols-[1fr_1fr_1.2fr] gap-6 xl:gap-8 items-stretch">
             <!-- =========================
@@ -785,7 +783,7 @@ include "./include/historytimelinesection.php";
                 </div>
             </article>
 
-            <div class="bg-slate-100 border border-slate-200 p-8 md:p-10 xl:p-12 flex flex-col justify-center">
+            <div class="bg-slate-50 border border-slate-200 p-8 md:p-10 xl:p-12 flex flex-col justify-center">
                 <span class="inline-flex items-center gap-2 text-secondary text-xs font-semibold uppercase tracking-[3px] mb-5">
                     <span class="w-2 h-2 bg-secondary"></span>
                     Meet Our Experts
@@ -812,7 +810,7 @@ include "./include/historytimelinesection.php";
 <!-- =====================================================
     PATIENT STORIES SECTION
     ===================================================== -->
-<section class="relative py-10 md:py-14 xl:py-16 bg-[#f5f8fc] overflow-hidden">
+<section class="section-padding relative bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
         <div class="text-center mb-8 md:mb-10">
@@ -961,7 +959,6 @@ include "./include/historytimelinesection.php";
         </div>
     </div>
 </section>
-
 <!-- =====================================================
     VIDEO MODAL
     ===================================================== -->
@@ -986,9 +983,8 @@ include "./include/historytimelinesection.php";
     </div>
 </div>
 
-
 <!-- Statistics section -->
-<section class="section-padding bg-white overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <div class="grid xl:grid-cols-2 gap-12 xl:gap-20 items-center">
             <!-- LEFT -->
@@ -1103,7 +1099,7 @@ include "./include/historytimelinesection.php";
 </section>
 
 <!-- TESTIMONIAL -->
-<section class="section-padding bg-slate-100 overflow-hidden">
+<section class="section-padding bg-slate-200 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
         <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12">
@@ -1427,14 +1423,14 @@ include "./include/historytimelinesection.php";
                         </a>
                     </article>
                 </div>
-            </div>
+            </div>  
             <!-- PAGINATION -->
-            <div class="review-pagination mt-10"></div>
+            <!-- <div class="review-pagination mt-10"></div> -->
         </div>
     </div>
 </section>
 <!-- Award section -->
-<section class="section-padding bg-slate-200">
+<section class="section-padding bg-slate-100">
     <div class="container-custom">
         <!-- HEADER -->
         <div class="max-w-3xl mb-12">
@@ -1631,9 +1627,10 @@ include "./include/historytimelinesection.php";
         </div>
     </div>
 </section>
-<!-- =========================================================
-    NEWSLETTER SECTION
-    ========================================================= -->
+
+    <!-- =========================================================
+        NEWSLETTER SECTION
+        ========================================================= -->
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
@@ -1645,7 +1642,7 @@ include "./include/historytimelinesection.php";
                     Publications
                 </span>
                 <h2 class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-4">
-                    Newsletters & Health Publications
+                    Newsletters & Publications
                 </h2>
                 <p class="text-slate-600 text-base md:text-lg leading-8">
                     Explore healthcare updates, travel medicine insights,

@@ -1226,174 +1226,169 @@ include "./include/herobanner.php";
       const doctor = doctors[index];
 
       doctorModalContent.innerHTML = `
-    
-     <div class="grid lg:grid-cols-12">
-    
-         <!-- IMAGE -->
-    
-         <div class="lg:col-span-5">
-    
-             <img
-                 src="${doctor.image || "./assets/img/doctor-placeholder.jpg"}"
-                 class="w-full h-[350px] lg:h-full object-cover">
-    
-         </div>
-    
-         <!-- DETAILS -->
-    
-         <div class="lg:col-span-7 p-6 lg:p-8">
-    
-             <span
-                 class="inline-block bg-secondary/10 text-secondary px-4 py-2 font-semibold">
-    
-                 ${doctor.department}
-    
-             </span>
-    
-             <h2
-                 class="text-primary text-4xl font-black mt-4">
-    
-                 ${doctor.name}
-    
-             </h2>
-    
-             <p
-                 class="text-slate-600 mt-4">
-    
-                 ${doctor.qualification}
-    
-             </p>
-    
-             <div
-                 class="grid grid-cols-3 gap-5 mt-6">
-    
-                 <div>
-    
-                     <div
-                         class="text-primary text-3xl font-black">
-    
-                         ${doctor.experience}
-    
-                     </div>
-    
-                     <p class="text-sm text-slate-500">
-    
-                         Experience
-    
-                     </p>
-    
-                 </div>
-    
-                 <div>
-    
-                     <div
-                         class="text-primary text-3xl font-black">
-    
-                         ${doctor.patients}
-    
-                     </div>
-    
-                     <p class="text-sm text-slate-500">
-    
-                         Patients
-    
-                     </p>
-    
-                 </div>
-    
-                 <div>
-    
-                     <div
-                         class="text-primary text-3xl font-black">
-    
-                         ${doctor.research}
-    
-                     </div>
-    
-                     <p class="text-sm text-slate-500">
-    
-                         Publications
-    
-                     </p>
-    
-                 </div>
-    
-             </div>
-    
-             <div class="mt-6">
-    
-                 <h3
-                     class="text-primary text-xl font-black mb-4">
-    
-                     About Doctor
-    
-                 </h3>
-    
-                 <p
-                     class="text-slate-600 leading-8">
-    
-                     ${doctor.about}
-    
-                 </p>
-    
-             </div>
-    
-             <div class="mt-6">
-    
-                 <h3
-                     class="text-primary text-xl font-black mb-4">
-    
-                     Education
-    
-                 </h3>
-    
-                 <ul class="space-y-3">
-    
-                     ${doctor.education
-                       .map(
-                         (item) => `
-                         <li class="flex items-start gap-3">
-                             <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                             <span>${item}</span>
-                         </li>
-                     `,
-                       )
-                       .join("")}
-    
-                 </ul>
-    
-             </div>
-    
-             <div class="mt-6">
-    
-                 <h3
-                     class="text-primary text-xl font-black mb-4">
-    
-                     Languages
-    
-                 </h3>
-    
-                 <p class="text-slate-600">
-    
-                     ${doctor.languages}
-    
-                 </p>
-    
-             </div>
-    
-             <a
-                 href="./bookappointment.php"
-                 class="btn-primary mt-10 inline-flex">
-    
-                 Book Appointment
-    
-             </a>
-    
-         </div>
-    
-     </div>
-    
-     `;
+
+<div class="grid lg:grid-cols-12">
+
+    <!-- IMAGE -->
+    <div class="lg:col-span-5">
+
+        <img
+            src="${doctor.image || "./assets/img/doctor-placeholder.jpg"}"
+            class="w-full h-[280px] lg:h-full object-cover">
+
+    </div>
+
+    <!-- DETAILS -->
+    <div class="lg:col-span-7 p-3 lg:p-4">
+
+        <span
+            class="inline-block bg-secondary/10 text-secondary px-3 py-1 text-sm font-semibold">
+
+            ${doctor.department}
+
+        </span>
+
+        <h2
+            class="text-primary text-3xl font-black mt-3">
+
+            ${doctor.name}
+
+        </h2>
+
+        <p
+            class="text-slate-600 mt-2 text-sm">
+
+            ${doctor.qualification}
+
+        </p>
+
+        <!-- STATS -->
+        <div class="grid grid-cols-3 gap-3 mt-4">
+
+            <div class="text-center">
+
+                <div class="text-primary text-2xl font-black">
+
+                    ${doctor.experience}
+
+                </div>
+
+                <p class="text-xs text-slate-500">
+
+                    Experience
+
+                </p>
+
+            </div>
+
+            <div class="text-center">
+
+                <div class="text-primary text-2xl font-black">
+
+                    ${doctor.patients}
+
+                </div>
+
+                <p class="text-xs text-slate-500">
+
+                    Patients
+
+                </p>
+
+            </div>
+
+            <div class="text-center">
+
+                <div class="text-primary text-2xl font-black">
+
+                    ${doctor.research}
+
+                </div>
+
+                <p class="text-xs text-slate-500">
+
+                    Publications
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ABOUT -->
+        <div class="mt-4">
+
+            <h3 class="text-primary text-lg font-black mb-2">
+
+                About Doctor
+
+            </h3>
+
+            <p class="text-slate-600 leading-6 text-sm">
+
+                ${doctor.about}
+
+            </p>
+
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="mt-4">
+
+            <h3 class="text-primary text-lg font-black mb-2">
+
+                Education
+
+            </h3>
+
+            <ul class="space-y-2">
+
+                ${doctor.education
+                  .map(
+                    (item) => `
+                    <li class="flex items-start gap-2 text-sm text-slate-600">
+                        <i class="fa-solid fa-circle-check text-secondary mt-1 text-xs"></i>
+                        <span>${item}</span>
+                    </li>
+                `,
+                  )
+                  .join("")}
+
+            </ul>
+
+        </div>
+
+        <!-- LANGUAGES -->
+        <div class="mt-4">
+
+            <h3 class="text-primary text-lg font-black mb-2">
+
+                Languages
+
+            </h3>
+
+            <p class="text-slate-600 text-sm">
+
+                ${doctor.languages}
+
+            </p>
+
+        </div>
+
+        <!-- BUTTON -->
+        <a
+            href="./bookappointment.php"
+            class="btn-primary mt-6 inline-flex">
+
+            Book Appointment
+
+        </a>
+
+    </div>
+
+</div>
+
+`;
 
       doctorModal.classList.remove("hidden");
 

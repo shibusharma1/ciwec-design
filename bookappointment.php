@@ -1047,7 +1047,7 @@ include "./include/herobanner.php";
                         gap-4
                         mt-4">
                         <a
-                            href="#"
+                            href="tel:+977XXXXXXXX"
                             class="border
                             border-slate-200
                             py-4

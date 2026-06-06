@@ -8,7 +8,6 @@ include "./include/herobanner.php";
     <div class="container-custom">
         <div
             class="grid lg:grid-cols-12 gap-16 items-center">
-            <!-- IMAGE SIDE -->
             <div
                 class="lg:col-span-5">
                 <div class="relative">
@@ -36,7 +35,6 @@ include "./include/herobanner.php";
                     </div>
                 </div>
             </div>
-            <!-- CONTENT SIDE -->
             <div
                 class="lg:col-span-7">
                 <span class="section-subtitle">
@@ -52,14 +50,7 @@ include "./include/herobanner.php";
                     services, healthcare interactions and related
                     communications.
                 </p>
-                <!-- <p
-                    class="text-slate-600 mt-4 leading-8">
-                    By accessing our website, requesting appointments
-                    or using our services, you agree to comply with
-                    these terms and all applicable laws, regulations
-                    and hospital policies.
-                </p> -->
-                <!-- KEY POINTS -->
+
                 <div
                     class="space-y-5 mt-8">
                     <div class="flex gap-4">
@@ -97,359 +88,13 @@ include "./include/herobanner.php";
                 </div>
             </div>
         </div>
-        <!-- TERMS PILLARS -->
-        <!-- <div
-            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-24">
-            <div
-                class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
-                <div
-                    class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-user-doctor text-primary text-3xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Patient Care
-                </h3>
-                <p
-                    class="text-slate-600 mt-4 leading-7">
-                    Expectations and guidelines related to
-                    healthcare services and patient interactions.
-                </p>
-            </div>
-            <div
-                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
-                <div
-                    class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-globe text-secondary text-3xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Website Access
-                </h3>
-                <p
-                    class="text-slate-600 mt-4 leading-7">
-                    Rules and conditions for using our
-                    website and digital services.
-                </p>
-            </div>
-            <div
-                class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
-                <div
-                    class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-calendar-check text-primary text-3xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Appointments
-                </h3>
-                <p
-                    class="text-slate-600 mt-4 leading-7">
-                    Information regarding booking,
-                    scheduling and service availability.
-                </p>
-            </div>
-            <div
-                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
-                <div
-                    class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-scale-balanced text-secondary text-3xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Legal Compliance
-                </h3>
-                <p
-                    class="text-slate-600 mt-4 leading-7">
-                    Supporting regulatory requirements,
-                    policies and lawful use of services.
-                </p>
-            </div>
-        </div>
-        <div
-            class="mt-24 bg-primary overflow-hidden">
-            <div
-                class="grid lg:grid-cols-12 items-center">
-                <div
-                    class="lg:col-span-8 p-10 lg:p-14">
-                    <span
-                        class="text-secondary font-bold uppercase tracking-[3px]">
-                        Transparency & Trust
-                    </span>
-                    <h3
-                        class="text-white text-4xl font-black mt-5">
-                        Clear Terms Help Create
-                        Better Experiences
-                    </h3>
-                    <p
-                        class="text-white/80 mt-6 leading-8">
-                        Our Terms & Conditions are designed to provide
-                        clarity, protect patients and support a safe,
-                        respectful and efficient healthcare environment.
-                    </p>
-                </div>
-                <div
-                    class="lg:col-span-4 flex items-center justify-center p-10">
-                    <div class="text-center">
-                        <i
-                            class="fa-solid fa-file-contract text-secondary text-7xl">
-                        </i>
-                        <h4
-                            class="text-white text-2xl font-black mt-6">
-                            Clear Expectations
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </div>
 </section>
 
-<!-- <section class="section-padding bg-slate-100 overflow-hidden">
-    <div class="container-custom">
-        <div class="text-center max-w-4xl mx-auto mb-16">
-            <span class="section-subtitle">
-                Acceptance Of Terms
-            </span>
-            <h2 class="section-title">
-                When These Terms Apply
-            </h2>
-            <p
-                class="text-slate-600 mt-6 leading-8">
-                By accessing our website, using digital services,
-                requesting appointments or receiving healthcare
-                services, you acknowledge and agree to these
-                Terms & Conditions.
-            </p>
-        </div>
-        <div class="relative">
-            <div
-                class="hidden xl:block absolute top-24 left-[10%] right-[10%] h-[2px] bg-slate-300">
-            </div>
-            <div
-                class="grid md:grid-cols-2 xl:grid-cols-5 gap-10">
-                <div class="relative text-center">
-                    <div
-                        class="w-44 h-44 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
-                        <i
-                            class="fa-solid fa-globe text-white text-5xl">
-                        </i>
-                    </div>
-                    <div class="mt-8">
-                        <span class="text-secondary font-bold">
-                            STEP 01
-                        </span>
-                        <h3
-                            class="text-primary text-2xl font-black mt-3">
-                            Visit Website
-                        </h3>
-                        <p
-                            class="text-slate-600 mt-4 leading-7">
-                            Accessing and browsing our website
-                            is subject to these terms.
-                        </p>
-                    </div>
-                </div>
-                <div class="relative text-center">
-                    <div
-                        class="w-44 h-44 mx-auto bg-secondary rounded-full flex items-center justify-center shadow-xl relative z-10">
-                        <i
-                            class="fa-solid fa-laptop-medical text-white text-5xl">
-                        </i>
-                    </div>
-                    <div class="mt-8">
-                        <span class="text-secondary font-bold">
-                            STEP 02
-                        </span>
-                        <h3
-                            class="text-primary text-2xl font-black mt-3">
-                            Use Online Services
-                        </h3>
-                        <p
-                            class="text-slate-600 mt-4 leading-7">
-                            Using forms, inquiries and digital
-                            tools indicates agreement.
-                        </p>
-                    </div>
-                </div>
-                <div class="relative text-center">
-                    <div
-                        class="w-44 h-44 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
-                        <i
-                            class="fa-solid fa-calendar-check text-white text-5xl">
-                        </i>
-                    </div>
-                    <div class="mt-8">
-                        <span class="text-secondary font-bold">
-                            STEP 03
-                        </span>
-                        <h3
-                            class="text-primary text-2xl font-black mt-3">
-                            Book Appointment
-                        </h3>
-                        <p
-                            class="text-slate-600 mt-4 leading-7">
-                            Appointment requests are governed
-                            by these conditions.
-                        </p>
-                    </div>
-                </div>
-                <div class="relative text-center">
-                    <div
-                        class="w-44 h-44 mx-auto bg-secondary rounded-full flex items-center justify-center shadow-xl relative z-10">
-                        <i
-                            class="fa-solid fa-user-doctor text-white text-5xl">
-                        </i>
-                    </div>
-                    <div class="mt-8">
-                        <span class="text-secondary font-bold">
-                            STEP 04
-                        </span>
-                        <h3
-                            class="text-primary text-2xl font-black mt-3">
-                            Receive Services
-                        </h3>
-                        <p
-                            class="text-slate-600 mt-4 leading-7">
-                            Healthcare interactions are subject
-                            to hospital policies and terms.
-                        </p>
-                    </div>
-                </div>
-                <div class="relative text-center">
-                    <div
-                        class="w-44 h-44 mx-auto bg-green-600 rounded-full flex items-center justify-center shadow-xl relative z-10">
-                        <i
-                            class="fa-solid fa-circle-check text-white text-5xl">
-                        </i>
-                    </div>
-                    <div class="mt-8">
-                        <span class="text-green-600 font-bold">
-                            AGREEMENT
-                        </span>
-                        <h3
-                            class="text-primary text-2xl font-black mt-3">
-                            Acceptance Of Terms
-                        </h3>
-                        <p
-                            class="text-slate-600 mt-4 leading-7">
-                            Continued use confirms acceptance
-                            of these Terms & Conditions.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="grid lg:grid-cols-12 gap-12 items-center mt-28">
-            <div
-                class="lg:col-span-5">
-                <img
-                    src="./assets/img/acceptance-terms.png"
-                    alt="Acceptance Of Terms"
-                    class="w-full h-[600px] object-cover">
-            </div>
-            <div
-                class="lg:col-span-7">
-                <span
-                    class="text-secondary font-bold uppercase tracking-[3px]">
-                    User Agreement
-                </span>
-                <h3
-                    class="text-primary text-4xl font-black mt-5">
-                    Understanding Your Agreement
-                </h3>
-                <p
-                    class="text-slate-600 mt-6 leading-8">
-                    These terms help establish clear expectations
-                    regarding the use of our website, healthcare
-                    services, appointments and communications.
-                    Continued interaction with our services
-                    constitutes acceptance of these terms.
-                </p>
-                <div
-                    class="grid md:grid-cols-2 gap-6 mt-10">
-                    <div class="flex gap-4">
-                        <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                        <span>Website Access</span>
-                    </div>
-                    <div class="flex gap-4">
-                        <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                        <span>Online Service Usage</span>
-                    </div>
-                    <div class="flex gap-4">
-                        <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                        <span>Appointment Requests</span>
-                    </div>
-                    <div class="flex gap-4">
-                        <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                        <span>Healthcare Interactions</span>
-                    </div>
-                    <div class="flex gap-4">
-                        <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                        <span>Policy Compliance</span>
-                    </div>
-                    <div class="flex gap-4">
-                        <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                        <span>Responsible Usage</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="mt-24 bg-primary overflow-hidden">
-            <div
-                class="grid lg:grid-cols-12 items-center">
-                <div
-                    class="lg:col-span-8 p-10 lg:p-14">
-                    <span
-                        class="text-secondary font-bold uppercase tracking-[3px]">
-                        Important Notice
-                    </span>
-                    <h3
-                        class="text-white text-4xl font-black mt-5">
-                        Please Review These Terms Carefully
-                    </h3>
-                    <p
-                        class="text-white/80 mt-6 leading-8">
-                        Understanding these terms helps ensure a
-                        transparent, safe and efficient experience
-                        for patients, visitors and website users.
-                    </p>
-                </div>
-                <div
-                    class="lg:col-span-4 flex items-center justify-center p-10">
-                    <div class="text-center">
-                        <i
-                            class="fa-solid fa-file-signature text-secondary text-7xl">
-                        </i>
-                        <h4
-                            class="text-white text-2xl font-black mt-6">
-                            User Agreement
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-
-
-<!-- ========================================= -->
-<!-- WEBSITE USAGE RULES -->
-<!-- ========================================= -->
-<section class="section-padding bg-white overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-16">
+        <div class="text-center max-w-4xl mx-auto mb-12">
             <span class="section-subtitle">
                 Website Usage Rules
             </span>
@@ -474,15 +119,15 @@ include "./include/herobanner.php";
                     <div
                         class="flex items-center gap-4">
                         <i
-                            class="fa-solid fa-circle-check text-white text-3xl">
+                            class="fa-solid fa-circle-check text-white text-2xl">
                         </i>
                         <h3
-                            class="text-white text-3xl font-black">
+                            class="text-white text-2xl font-black">
                             Allowed Use
                         </h3>
                     </div>
                 </div>
-                <div class="p-10">
+                <div class="p-8">
                     <div class="space-y-6">
                         <div class="flex gap-4">
                             <i
@@ -535,15 +180,15 @@ include "./include/herobanner.php";
                     <div
                         class="flex items-center gap-4">
                         <i
-                            class="fa-solid fa-ban text-white text-3xl">
+                            class="fa-solid fa-ban text-white text-2xl">
                         </i>
                         <h3
-                            class="text-white text-3xl font-black">
+                            class="text-white text-2xl font-black">
                             Prohibited Activities
                         </h3>
                     </div>
                 </div>
-                <div class="p-10">
+                <div class="p-8">
                     <div class="space-y-6">
                         <div class="flex gap-4">
                             <i
@@ -590,9 +235,8 @@ include "./include/herobanner.php";
             </div>
         </div>
         <!-- ADDITIONAL RULES -->
-        <div
+        <!-- <div
             class="grid md:grid-cols-2 gap-8 mt-24">
-            <!-- ACCOUNT SECURITY -->
             <div
                 class="bg-slate-100 border border-slate-200 p-10 hover:border-primary transition-all duration-500">
                 <div
@@ -612,7 +256,6 @@ include "./include/herobanner.php";
                     of login credentials and account information.
                 </p>
             </div>
-            <!-- RESPONSIBLE ACCESS -->
             <div
                 class="bg-slate-100 border border-slate-200 p-10 hover:border-secondary transition-all duration-500">
                 <div
@@ -633,10 +276,10 @@ include "./include/herobanner.php";
                     hospital systems.
                 </p>
             </div>
-        </div>
+        </div> -->
         <!-- FEATURE SECTION -->
         <div
-            class="mt-24 bg-primary overflow-hidden">
+            class="mt-16 bg-primary overflow-hidden">
             <div
                 class="grid lg:grid-cols-12 items-center">
                 <div
@@ -675,117 +318,9 @@ include "./include/herobanner.php";
     </div>
 </section>
 
-<!-- ========================================= -->
-<!-- LIMITATION OF LIABILITY -->
-<!-- ========================================= -->
-<section class="section-padding bg-slate-100 overflow-hidden">
+<section class="section-padding bg-slate-200 overflow-hidden">
     <div class="container-custom">
-        <!-- <div class="text-center max-w-4xl mx-auto mb-16">
-            <span class="section-subtitle">
-                Limitation Of Liability
-            </span>
-            <h2 class="section-title">
-                Understanding Service Limitations
-            </h2>
-            <p
-                class="text-slate-600 mt-6 leading-8">
-                While we strive to provide reliable information,
-                quality healthcare services and a secure digital
-                experience, certain circumstances may be beyond
-                our control.
-            </p>
-        </div>
-        <div
-            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
-            <div
-                class="group bg-white border border-slate-200 hover:border-primary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
-                <div class="h-2 bg-primary"></div>
-                <div class="p-8">
-                    <div
-                        class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
-                        <i
-                            class="fa-solid fa-server text-primary text-3xl">
-                        </i>
-                    </div>
-                    <h3
-                        class="text-primary text-2xl font-black">
-                        Website Availability
-                    </h3>
-                    <p
-                        class="text-slate-600 mt-5 leading-7">
-                        Website access may occasionally be affected
-                        by maintenance, updates, technical issues or
-                        unforeseen disruptions.
-                    </p>
-                </div>
-            </div>
-            <div
-                class="group bg-white border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
-                <div class="h-2 bg-secondary"></div>
-                <div class="p-8">
-                    <div
-                        class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
-                        <i
-                            class="fa-solid fa-file-circle-check text-secondary text-3xl">
-                        </i>
-                    </div>
-                    <h3
-                        class="text-primary text-2xl font-black">
-                        Information Accuracy
-                    </h3>
-                    <p
-                        class="text-slate-600 mt-5 leading-7">
-                        We make reasonable efforts to maintain accurate
-                        information, but content may change, evolve or
-                        occasionally contain inaccuracies.
-                    </p>
-                </div>
-            </div>
-            <div
-                class="group bg-white border border-slate-200 hover:border-primary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
-                <div class="h-2 bg-primary"></div>
-                <div class="p-8">
-                    <div
-                        class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
-                        <i
-                            class="fa-solid fa-triangle-exclamation text-primary text-3xl">
-                        </i>
-                    </div>
-                    <h3
-                        class="text-primary text-2xl font-black">
-                        External Factors
-                    </h3>
-                    <p
-                        class="text-slate-600 mt-5 leading-7">
-                        Certain events, disruptions or circumstances
-                        beyond our control may impact service delivery
-                        or website operations.
-                    </p>
-                </div>
-            </div>
-            <div
-                class="group bg-white border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
-                <div class="h-2 bg-secondary"></div>
-                <div class="p-8">
-                    <div
-                        class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
-                        <i
-                            class="fa-solid fa-heart-pulse text-secondary text-3xl">
-                        </i>
-                    </div>
-                    <h3
-                        class="text-primary text-2xl font-black">
-                        Healthcare Outcomes
-                    </h3>
-                    <p
-                        class="text-slate-600 mt-5 leading-7">
-                        Medical outcomes may vary based on individual
-                        circumstances, health conditions and treatment
-                        responses.
-                    </p>
-                </div>
-            </div>
-        </div> -->
+
         <div
             class="bg-white border border-slate-200 overflow-hidden">
             <div
@@ -811,7 +346,7 @@ include "./include/herobanner.php";
                         efforts to minimize them.
                     </p>
                     <div
-                        class="space-y-5 mt-10">
+                        class="space-y-5 mt-8">
                         <div class="flex gap-4">
                             <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
                             <span>Services provided in good faith</span>
@@ -854,7 +389,7 @@ include "./include/herobanner.php";
         </div>
         <!-- NOTICE STRIP -->
         <div
-            class="mt-16 bg-amber-50 border-l-8 border-amber-500 p-8 lg:p-10">
+            class="mt-12 bg-amber-50 border-l-8 border-amber-500 p-8 lg:p-10">
             <div
                 class="flex flex-col lg:flex-row gap-6 items-start">
                 <i
@@ -876,461 +411,10 @@ include "./include/herobanner.php";
                 </div>
             </div>
         </div>
-        <!-- CLOSING STATEMENT -->
-        <!-- <div
-            class="text-center max-w-4xl mx-auto mt-24">
-            <h3
-                class="text-primary text-4xl font-black">
-                Transparency Supports Trust
-            </h3>
-            <p
-                class="text-slate-600 mt-8 leading-8">
-                By understanding the limitations associated with
-                digital services and healthcare information, users
-                can make informed decisions and engage responsibly
-                with our services.
-            </p>
-        </div> -->
     </div>
 </section>
-<!-- ========================================= -->
-<!-- THIRD-PARTY LINKS & SERVICES -->
-<!-- ========================================= -->
-<!-- <section class="section-padding bg-white overflow-hidden">
-    <div class="container-custom">
-        <div class="text-center max-w-4xl mx-auto mb-16">
-            <span class="section-subtitle">
-                Third-Party Services
-            </span>
-            <h2 class="section-title">
-                Third-Party Links & Resources
-            </h2>
-            <p
-                class="text-slate-600 mt-6 leading-8">
-                Our website may contain links to external websites,
-                healthcare resources, partner organizations or
-                third-party services for informational and convenience
-                purposes.
-            </p>
-        </div>
-        <div
-            class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-            <div
-                class="group bg-slate-100 border border-slate-200 hover:border-primary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
-                <div class="h-2 bg-primary"></div>
-                <div class="p-10">
-                    <div
-                        class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-8">
-                        <i
-                            class="fa-solid fa-globe text-primary text-3xl">
-                        </i>
-                    </div>
-                    <h3
-                        class="text-primary text-3xl font-black">
-                        External Websites
-                    </h3>
-                    <p
-                        class="text-slate-600 mt-5 leading-8">
-                        Links may direct visitors to websites
-                        operated by organizations outside of
-                        CIWEC Hospital.
-                    </p>
-                    <div
-                        class="mt-8 flex items-center gap-3 text-secondary font-semibold">
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        Independent Websites
-                    </div>
-                </div>
-            </div>
-            <div
-                class="group bg-slate-100 border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
-                <div class="h-2 bg-secondary"></div>
-                <div class="p-10">
-                    <div
-                        class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-8">
-                        <i
-                            class="fa-solid fa-handshake text-secondary text-3xl">
-                        </i>
-                    </div>
-                    <h3
-                        class="text-primary text-3xl font-black">
-                        Partner Services
-                    </h3>
-                    <p
-                        class="text-slate-600 mt-5 leading-8">
-                        Certain services may involve trusted
-                        partners, vendors or healthcare-related
-                        organizations.
-                    </p>
-                    <div
-                        class="mt-8 flex items-center gap-3 text-secondary font-semibold">
-                        <i class="fa-solid fa-users"></i>
-                        Service Partners
-                    </div>
-                </div>
-            </div>
-            <div
-                class="group bg-slate-100 border border-slate-200 hover:border-primary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
-                <div class="h-2 bg-primary"></div>
-                <div class="p-10">
-                    <div
-                        class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-8">
-                        <i
-                            class="fa-solid fa-book-open text-primary text-3xl">
-                        </i>
-                    </div>
-                    <h3
-                        class="text-primary text-3xl font-black">
-                        Third-Party Resources
-                    </h3>
-                    <p
-                        class="text-slate-600 mt-5 leading-8">
-                        Educational materials, references and
-                        external resources may be provided for
-                        convenience and information.
-                    </p>
-                    <div
-                        class="mt-8 flex items-center gap-3 text-secondary font-semibold">
-                        <i class="fa-solid fa-file-lines"></i>
-                        Reference Materials
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="mt-24 bg-slate-100 border border-slate-200 overflow-hidden">
-            <div
-                class="grid lg:grid-cols-12 items-center">
-                <div
-                    class="lg:col-span-7 p-10 lg:p-14">
-                    <span
-                        class="text-secondary font-bold uppercase tracking-[3px]">
-                        Important Notice
-                    </span>
-                    <h3
-                        class="text-primary text-4xl font-black mt-5">
-                        External Websites Operate
-                        Independently
-                    </h3>
-                    <p
-                        class="text-slate-600 mt-6 leading-8">
-                        Once you leave the CIWEC Hospital website,
-                        you may be subject to the terms, conditions,
-                        privacy policies and practices of the external
-                        website or service provider.
-                    </p>
-                    <div
-                        class="space-y-5 mt-10">
-                        <div class="flex gap-4">
-                            <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                            <span>Review external privacy policies</span>
-                        </div>
-                        <div class="flex gap-4">
-                            <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                            <span>Review external terms of use</span>
-                        </div>
-                        <div class="flex gap-4">
-                            <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                            <span>Exercise caution when sharing information</span>
-                        </div>
-                        <div class="flex gap-4">
-                            <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                            <span>Verify information through trusted sources</span>
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="lg:col-span-5 bg-primary h-full flex items-center justify-center">
-                    <div
-                        class="text-center p-12">
-                        <i
-                            class="fa-solid fa-arrow-up-right-from-square text-secondary text-8xl">
-                        </i>
-                        <h4
-                            class="text-white text-3xl font-black mt-8">
-                            External Resources
-                        </h4>
-                        <p
-                            class="text-white/80 mt-5 leading-8">
-                            External websites and services are
-                            managed independently from CIWEC
-                            Hospital.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="mt-24 bg-red-50 border-l-8 border-red-500 p-10 lg:p-14">
-            <div
-                class="flex flex-col lg:flex-row gap-6 items-start">
-                <i
-                    class="fa-solid fa-triangle-exclamation text-red-500 text-5xl">
-                </i>
-                <div>
-                    <h3
-                        class="text-primary text-3xl font-black">
-                        Third-Party Disclaimer
-                    </h3>
-                    <p
-                        class="text-slate-700 mt-4 leading-8">
-                        CIWEC Hospital does not control, endorse,
-                        guarantee or assume responsibility for the
-                        content, availability, privacy practices,
-                        products, services or policies of third-party
-                        websites or external resources.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div
-            class="mt-24 bg-primary overflow-hidden">
-            <div
-                class="grid lg:grid-cols-12 items-center">
-                <div
-                    class="lg:col-span-8 p-10 lg:p-14">
-                    <span
-                        class="text-secondary font-bold uppercase tracking-[3px]">
-                        User Awareness
-                    </span>
-                    <h3
-                        class="text-white text-4xl font-black mt-5">
-                        Make Informed Decisions
-                        When Leaving Our Website
-                    </h3>
-                    <p
-                        class="text-white/80 mt-6 leading-8">
-                        We encourage users to carefully review the
-                        policies and practices of any third-party
-                        website before engaging with its content,
-                        services or features.
-                    </p>
-                </div>
-                <div
-                    class="lg:col-span-4 flex items-center justify-center p-10">
-                    <div class="text-center">
-                        <i
-                            class="fa-solid fa-shield-halved text-secondary text-7xl">
-                        </i>
-                        <h4
-                            class="text-white text-2xl font-black mt-6">
-                            Browse Safely
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- ========================================= -->
-<!-- CHANGES TO TERMS -->
-<!-- ========================================= -->
-<!-- <section class="section-padding bg-slate-100 overflow-hidden">
-    <div class="container-custom">
-        <div class="text-center max-w-4xl mx-auto mb-16">
-            <span class="section-subtitle">
-                Policy Updates
-            </span>
-            <h2 class="section-title">
-                Changes To Terms
-            </h2>
-            <p
-                class="text-slate-600 mt-6 leading-8">
-                We may periodically review and update these Terms &
-                Conditions to reflect operational improvements,
-                healthcare requirements, legal obligations or
-                website enhancements.
-            </p>
-        </div>
-        <div class="relative">
-            <div
-                class="hidden xl:block absolute top-24 left-[12%] right-[12%] h-[2px] bg-slate-300">
-            </div>
-            <div
-                class="grid md:grid-cols-2 xl:grid-cols-4 gap-10">
-                <div class="relative text-center">
-                    <div
-                        class="w-44 h-44 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
-                        <i
-                            class="fa-solid fa-magnifying-glass text-white text-5xl">
-                        </i>
-                    </div>
-                    <div class="mt-8">
-                        <span class="text-secondary font-bold">
-                            STEP 01
-                        </span>
-                        <h3
-                            class="text-primary text-2xl font-black mt-3">
-                            Review Terms
-                        </h3>
-                        <p
-                            class="text-slate-600 mt-4 leading-7">
-                            Existing policies are periodically
-                            reviewed for relevance and accuracy.
-                        </p>
-                    </div>
-                </div>
-                <div class="relative text-center">
-                    <div
-                        class="w-44 h-44 mx-auto bg-secondary rounded-full flex items-center justify-center shadow-xl relative z-10">
-                        <i
-                            class="fa-solid fa-pen-to-square text-white text-5xl">
-                        </i>
-                    </div>
-                    <div class="mt-8">
-                        <span class="text-secondary font-bold">
-                            STEP 02
-                        </span>
-                        <h3
-                            class="text-primary text-2xl font-black mt-3">
-                            Update Content
-                        </h3>
-                        <p
-                            class="text-slate-600 mt-4 leading-7">
-                            Necessary revisions are made to reflect
-                            updated requirements or practices.
-                        </p>
-                    </div>
-                </div>
-                <div class="relative text-center">
-                    <div
-                        class="w-44 h-44 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
-                        <i
-                            class="fa-solid fa-upload text-white text-5xl">
-                        </i>
-                    </div>
-                    <div class="mt-8">
-                        <span class="text-secondary font-bold">
-                            STEP 03
-                        </span>
-                        <h3
-                            class="text-primary text-2xl font-black mt-3">
-                            Publish Changes
-                        </h3>
-                        <p
-                            class="text-slate-600 mt-4 leading-7">
-                            Updated terms are published on the
-                            website for public access.
-                        </p>
-                    </div>
-                </div>
-                <div class="relative text-center">
-                    <div
-                        class="w-44 h-44 mx-auto bg-green-600 rounded-full flex items-center justify-center shadow-xl relative z-10">
-                        <i
-                            class="fa-solid fa-calendar-days text-white text-5xl">
-                        </i>
-                    </div>
-                    <div class="mt-8">
-                        <span class="text-green-600 font-bold">
-                            EFFECTIVE
-                        </span>
-                        <h3
-                            class="text-primary text-2xl font-black mt-3">
-                            Effective Date
-                        </h3>
-                        <p
-                            class="text-slate-600 mt-4 leading-7">
-                            Updated terms become effective upon
-                            publication unless otherwise stated.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="grid lg:grid-cols-12 gap-12 items-center mt-28">
-            <div
-                class="lg:col-span-5">
-                <img
-                    src="./assets/img/acceptance-terms.png"
-                    alt="Changes To Terms"
-                    class="w-full h-[650px] object-cover">
-            </div>
-            <div
-                class="lg:col-span-7">
-                <span
-                    class="text-secondary font-bold uppercase tracking-[3px]">
-                    Staying Informed
-                </span>
-                <h3
-                    class="text-primary text-4xl font-black mt-5">
-                    Why Terms May Change
-                </h3>
-                <p
-                    class="text-slate-600 mt-6 leading-8">
-                    As healthcare services, technologies and legal
-                    requirements evolve, updates may be necessary to
-                    ensure accuracy, transparency and compliance.
-                    Users are encouraged to review these Terms &
-                    Conditions periodically.
-                </p>
-                <div
-                    class="space-y-5 mt-10">
-                    <div class="flex gap-4">
-                        <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                        <span>Operational improvements</span>
-                    </div>
-                    <div class="flex gap-4">
-                        <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                        <span>Healthcare service updates</span>
-                    </div>
-                    <div class="flex gap-4">
-                        <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                        <span>Regulatory compliance changes</span>
-                    </div>
-                    <div class="flex gap-4">
-                        <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                        <span>Website functionality enhancements</span>
-                    </div>
-                    <div class="flex gap-4">
-                        <i class="fa-solid fa-circle-check text-secondary mt-1"></i>
-                        <span>Improved user experience</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="mt-24 bg-primary overflow-hidden">
-            <div
-                class="grid lg:grid-cols-12 items-center">
-                <div
-                    class="lg:col-span-8 p-10 lg:p-14">
-                    <span
-                        class="text-secondary font-bold uppercase tracking-[3px]">
-                        Important Reminder
-                    </span>
-                    <h3
-                        class="text-white text-4xl font-black mt-5">
-                        Continued Use Indicates
-                        Acceptance Of Updates
-                    </h3>
-                    <p
-                        class="text-white/80 mt-6 leading-8">
-                        By continuing to use our website and services
-                        after updates are published, users acknowledge
-                        and accept the revised Terms & Conditions.
-                    </p>
-                </div>
-                <div
-                    class="lg:col-span-4 flex items-center justify-center p-10">
-                    <div class="text-center">
-                        <i
-                            class="fa-solid fa-arrows-rotate text-secondary text-7xl">
-                        </i>
-                        <h4
-                            class="text-white text-2xl font-black mt-6">
-                            Policy Updates
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- ========================================= -->
-<!-- CONTACT INFORMATION -->
-<!-- ========================================= -->
+
+
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->

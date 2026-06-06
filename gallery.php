@@ -143,6 +143,7 @@ include "./include/herobanner.php";
       </div>
    </div>
 </section>
+
 <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
@@ -164,144 +165,58 @@ include "./include/herobanner.php";
          </p>
       </div>
       <!-- GALLERY LAYOUT -->
-      <div
-         class="grid
-            lg:grid-cols-12
-            gap-6">
-         <!-- LARGE IMAGE -->
+      <div class="grid lg:grid-cols-12 gap-6">
+         <!-- LEFT IMAGE -->
          <div
-            class="lg:col-span-7
-                relative
-                group
-                overflow-hidden
-                h-[700px]">
+            class="lg:col-span-7 relative group overflow-hidden h-[500px]">
             <img
-               src="./assets/img/history/history1.webp"
+               src="./assets/img/history/history2.webp"
                alt="CIWEC Hospital"
-               class="w-full
-                    h-full
-                    object-cover
-                    transition-all
-                    duration-700
-                    group-hover:scale-110">
-            <div
-               class="absolute inset-0
-                    bg-gradient-to-t
-                    from-primary
-                    via-primary/50
-                    to-transparent">
-            </div>
-            <div
-               class="absolute
-                    bottom-0
-                    left-0
-                    p-8">
-               <span
-                  class="inline-block
-                        bg-secondary
-                        text-white
-                        px-4 py-2
-                        text-sm
-                        font-bold">
+               class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/50 to-transparent"></div>
+            <div class="absolute bottom-0 left-0 p-8">
+               <span class="inline-block bg-secondary text-white px-4 py-2 text-sm font-bold">
                   FEATURED
                </span>
-               <h3
-                  class="text-white
-                        text-3xl
-                        font-black
-                        mt-5">
+               <h3 class="text-white text-3xl font-black mt-5">
                   Four Decades Of Healthcare Excellence
                </h3>
-               <p
-                  class="text-white/80
-                        mt-4
-                        max-w-xl">
-                  Celebrating our journey from a travel
-                  medicine clinic to one of Nepal's
+               <p class="text-white/80 mt-4 max-w-xl">
+                  Celebrating our journey from a travel medicine clinic to one of Nepal's
                   most trusted healthcare institutions.
                </p>
             </div>
          </div>
          <!-- RIGHT SIDE -->
          <div
-            class="lg:col-span-5
-                grid
-                grid-rows-2
-                gap-6">
-            <!-- CARD -->
-            <div
-               class="relative
-                    group
-                    overflow-hidden">
+            class="lg:col-span-5 flex flex-col gap-6 h-[500px]">
+            <!-- CARD 1 -->
+            <div class="relative group overflow-hidden flex-1">
                <img
                   src="./assets/img/yourtrustedpartnere.jpg"
-                  class="w-full
-                        h-full
-                        object-cover
-                        transition-all
-                        duration-700
-                        group-hover:scale-110">
-               <div
-                  class="absolute inset-0
-                        bg-gradient-to-t
-                        from-primary
-                        via-primary/50
-                        to-transparent">
-               </div>
-               <div
-                  class="absolute
-                        bottom-0
-                        left-0
-                        p-6">
-                  <span
-                     class="text-secondary
-                            font-bold">
+                  class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+               <div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/50 to-transparent"></div>
+               <div class="absolute bottom-0 left-0 p-6">
+                  <span class="text-secondary font-bold">
                      Medical Team
                   </span>
-                  <h3
-                     class="text-white
-                            text-xl
-                            font-black
-                            mt-2">
+                  <h3 class="text-white text-xl font-black mt-2">
                      Dedicated Healthcare Professionals
                   </h3>
                </div>
             </div>
-            <!-- CARD -->
-            <div
-               class="relative
-                    group
-                    overflow-hidden">
+            <!-- CARD 2 -->
+            <div class="relative group overflow-hidden flex-1">
                <img
-                  src="./assets/img/"
-                  class="w-full
-                        h-full
-                        object-cover
-                        transition-all
-                        duration-700
-                        group-hover:scale-110">
-               <div
-                  class="absolute inset-0
-                        bg-gradient-to-t
-                        from-primary
-                        via-primary/50
-                        to-transparent">
-               </div>
-               <div
-                  class="absolute
-                        bottom-0
-                        left-0
-                        p-6">
-                  <span
-                     class="text-secondary
-                            font-bold">
+                  src="./assets/img/csr-main.png"
+                  class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
+               <div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/50 to-transparent"></div>
+               <div class="absolute bottom-0 left-0 p-6">
+                  <span class="text-secondary font-bold">
                      Community Outreach
                   </span>
-                  <h3
-                     class="text-white
-                            text-xl
-                            font-black
-                            mt-2">
+                  <h3 class="text-white text-xl font-black mt-2">
                      Serving Beyond Hospital Walls
                   </h3>
                </div>
@@ -546,6 +461,7 @@ include "./include/herobanner.php";
       </div>
    </div>
 </section>
+
 <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
@@ -828,6 +744,7 @@ include "./include/herobanner.php";
       </div>
    </div>
 </div>
+
 <script>
    const videoBtns =
       document.querySelectorAll(".videoBtn");
@@ -865,9 +782,7 @@ include "./include/herobanner.php";
       closeVideoModal
    );
 </script>
-<!-- ========================================= -->
-<!-- MEDIA HIGHLIGHTS -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-primary overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
@@ -1065,7 +980,8 @@ include "./include/herobanner.php";
       </div>
    </div>
 </section>
-<!-- ========================================= -->
+<!-- ============
+ ============================= -->
 <!-- EXPERIENCE CIWEC CTA -->
 <!-- ========================================= -->
 <!-- <section class="relative overflow-hidden bg-white">

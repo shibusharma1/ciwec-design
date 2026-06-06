@@ -1,8 +1,8 @@
 <?php
-    $hero_title = "Services";
-    include "./include/header.php";
-    include "./include/herobanner.php";
-    ?>
+$hero_title = "Services";
+include "./include/header.php";
+include "./include/herobanner.php";
+?>
 
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
@@ -23,7 +23,7 @@
                         class="absolute bottom-8 left-8 bg-white p-6 shadow-2xl max-w-[280px]">
                         <span
                             class="text-secondary font-bold uppercase text-sm">
-                        Trusted Healthcare
+                            Trusted Healthcare
                         </span>
                         <h3
                             class="text-primary text-2xl font-black mt-3">
@@ -41,7 +41,7 @@
             <div
                 class="lg:col-span-6">
                 <span class="section-subtitle">
-                Healthcare Excellence
+                    Healthcare Excellence
                 </span>
                 <h2 class="section-title">
                     Comprehensive Care,
@@ -182,11 +182,12 @@
         </div>
     </div>
 </section>
+
 <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <div class="max-w-5xl mx-auto text-center">
             <span class="section-subtitle">
-            Healthcare Services
+                Healthcare Services
             </span>
             <h2 class="section-title">
                 Find The Right Healthcare Service
@@ -210,38 +211,38 @@
                 </i>
             </div>
         </div>
-        <div class="flex flex-wrap justify-center gap-3 mt-12">
+        <!-- <div class="flex flex-wrap justify-center gap-3 mt-12">
             <button
                 class="gallery-filter active service-filter"
                 data-category="all">
-            All Services
+                All Services
             </button>
             <button
                 class="gallery-filter service-filter"
                 data-category="emergency">
-            Emergency Care
+                Emergency Care
             </button>
             <button
                 class="gallery-filter service-filter"
                 data-category="travel">
-            Travel Medicine
+                Travel Medicine
             </button>
             <button
                 class="gallery-filter service-filter"
                 data-category="screening">
-            Health Screening
+                Health Screening
             </button>
             <button
                 class="gallery-filter service-filter"
                 data-category="diagnostic">
-            Diagnostics
+                Diagnostics
             </button>
             <button
                 class="gallery-filter service-filter"
                 data-category="specialist">
-            Specialists
+                Specialists
             </button>
-        </div>
+        </div> -->
         <div
             id="serviceGrid"
             class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-12">
@@ -385,91 +386,17 @@
         </div>
     </div>
 </section>
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-    
-       const filters =
-          document.querySelectorAll(".service-filter");
-    
-       const cards =
-          document.querySelectorAll(".service-card");
-    
-       const resultCount =
-          document.getElementById("serviceResultCount");
-    
-       const emptyState =
-          document.getElementById("service-empty-state");
-    
-       function filterServices(category) {
-    
-          let count = 0;
-    
-          cards.forEach(card => {
-    
-             if (
-                category === "all" ||
-                card.dataset.category === category
-             ) {
-    
-                card.style.display = "block";
-                count++;
-    
-             } else {
-    
-                card.style.display = "none";
-    
-             }
-    
-          });
-    
-          resultCount.innerText =
-             `${count} Services Found`;
-    
-          if (count === 0) {
-    
-             emptyState.classList.remove("hidden");
-    
-          } else {
-    
-             emptyState.classList.add("hidden");
-    
-          }
-    
-       }
-    
-       filterServices("all");
-    
-       filters.forEach(btn => {
-    
-          btn.addEventListener("click", () => {
-    
-             filters.forEach(filter =>
-                filter.classList.remove("active")
-             );
-    
-             btn.classList.add("active");
-    
-             filterServices(
-                btn.dataset.category
-             );
-    
-          });
-    
-       });
-    
-    });
-</script>
+
 <!-- ========================================= -->
 <!-- SERVICES BY LOCATION -->
 <!-- ========================================= -->
-<section id="servicesSection"
-    class="section-padding bg-white overflow-hidden">
+<section id="servicesSection" class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
         <div
             class="text-center max-w-4xl mx-auto mb-12">
             <span class="section-subtitle">
-            Healthcare Services
+                Healthcare Services
             </span>
             <h2 class="section-title">
                 Available Services By Location
@@ -489,49 +416,16 @@
                 <button
                     id="kathmanduBtn"
                     class="location-btn active-location px-8 py-4 rounded-full font-bold transition-all duration-300">
-                Kathmandu Services
+                    Kathmandu Services
                 </button>
                 <button
                     id="pokharaBtn"
                     class="location-btn px-8 py-4 rounded-full font-bold transition-all duration-300">
-                Pokhara Services
+                    Pokhara Services
                 </button>
             </div>
         </div>
-        <!-- LOCATION INFO -->
-        <div
-            class="bg-primary overflow-hidden mb-12">
-            <div
-                class="grid lg:grid-cols-12 items-center">
-                <div
-                    class="lg:col-span-8 p-10">
-                    <span
-                        id="locationLabel"
-                        class="text-secondary font-bold uppercase tracking-[3px]">
-                    Kathmandu Center
-                    </span>
-                    <h3
-                        id="locationTitle"
-                        class="text-white text-4xl font-black mt-4">
-                        Comprehensive Healthcare Services
-                    </h3>
-                    <p
-                        id="locationDescription"
-                        class="text-white/80 mt-6 leading-8">
-                        Access a full range of medical services,
-                        specialist consultations, diagnostics,
-                        preventive care and emergency support.
-                    </p>
-                </div>
-                <div
-                    class="lg:col-span-4">
-                    <img
-                        id="locationImage"
-                        src="./assets/img/speciality/img4.jpg"
-                        class="w-full h-[300px] object-cover">
-                </div>
-            </div>
-        </div>
+
         <!-- KATHMANDU SERVICES -->
         <div
             id="kathmanduServices"
@@ -545,7 +439,7 @@
                         class="flex justify-between items-center mb-6">
                         <span
                             class="text-secondary font-bold">
-                        Travel Medicine
+                            Travel Medicine
                         </span>
                         <i
                             class="fa-solid fa-earth-asia text-secondary text-2xl">
@@ -565,7 +459,7 @@
                         <a
                             href="#"
                             class="font-semibold text-primary hover:text-secondary">
-                        Learn More →
+                            Learn More →
                         </a>
                     </div>
                 </div>
@@ -579,7 +473,7 @@
                         class="flex justify-between items-center mb-6">
                         <span
                             class="text-secondary font-bold">
-                        Preventive Care
+                            Preventive Care
                         </span>
                         <i
                             class="fa-solid fa-heart-pulse text-primary text-2xl">
@@ -599,7 +493,7 @@
                         <a
                             href="#"
                             class="font-semibold text-primary hover:text-secondary">
-                        Learn More →
+                            Learn More →
                         </a>
                     </div>
                 </div>
@@ -611,6 +505,39 @@
             id="pokharaServices"
             class="hidden grid md:grid-cols-2 xl:grid-cols-3 gap-8">
             <!-- Pokhara Cards -->
+            <div
+                class="service-card bg-white border border-slate-200 hover:border-secondary transition-all duration-300"
+                data-category="screening">
+                <div class="p-8">
+                    <div
+                        class="flex justify-between items-center mb-6">
+                        <span
+                            class="text-secondary font-bold">
+                            Preventive Care
+                        </span>
+                        <i
+                            class="fa-solid fa-heart-pulse text-primary text-2xl">
+                        </i>
+                    </div>
+                    <h3
+                        class="text-primary text-2xl font-black">
+                        Health Screening
+                    </h3>
+                    <p
+                        class="text-slate-600 mt-4 leading-7">
+                        Executive checkups and wellness
+                        screening programs.
+                    </p>
+                    <div
+                        class="mt-6 pt-6 border-t">
+                        <a
+                            href="#"
+                            class="font-semibold text-primary hover:text-secondary">
+                            Learn More →
+                        </a>
+                    </div>
+                </div>
+            </div>
             <!-- CARD -->
             <div
                 class="service-card bg-white border border-slate-200 hover:border-secondary transition-all duration-300"
@@ -620,7 +547,7 @@
                         class="flex justify-between items-center mb-6">
                         <span
                             class="text-secondary font-bold">
-                        Travel Medicine
+                            Travel Medicine
                         </span>
                         <i
                             class="fa-solid fa-earth-asia text-secondary text-2xl">
@@ -640,7 +567,7 @@
                         <a
                             href="#"
                             class="font-semibold text-primary hover:text-secondary">
-                        Learn More →
+                            Learn More →
                         </a>
                     </div>
                 </div>
@@ -654,7 +581,7 @@
                         class="flex justify-between items-center mb-6">
                         <span
                             class="text-secondary font-bold">
-                        Preventive Care
+                            Preventive Care
                         </span>
                         <i
                             class="fa-solid fa-heart-pulse text-primary text-2xl">
@@ -674,7 +601,7 @@
                         <a
                             href="#"
                             class="font-semibold text-primary hover:text-secondary">
-                        Learn More →
+                            Learn More →
                         </a>
                     </div>
                 </div>
@@ -682,85 +609,47 @@
         </div>
     </div>
 </section>
+
 <script>
     const kathmanduBtn =
-       document.getElementById("kathmanduBtn");
-    
+        document.getElementById("kathmanduBtn");
+
     const pokharaBtn =
-       document.getElementById("pokharaBtn");
-    
+        document.getElementById("pokharaBtn");
+
     const kathmanduServices =
-       document.getElementById("kathmanduServices");
-    
+        document.getElementById("kathmanduServices");
+
     const pokharaServices =
-       document.getElementById("pokharaServices");
-    
-    const locationLabel =
-       document.getElementById("locationLabel");
-    
-    const locationTitle =
-       document.getElementById("locationTitle");
-    
-    const locationDescription =
-       document.getElementById("locationDescription");
-    
-    const locationImage =
-       document.getElementById("locationImage");
-    
+        document.getElementById("pokharaServices");
+
     kathmanduBtn.addEventListener("click", () => {
-    
-       kathmanduBtn.classList.add("active-location");
-       pokharaBtn.classList.remove("active-location");
-    
-       kathmanduServices.classList.remove("hidden");
-       pokharaServices.classList.add("hidden");
-    
-       locationLabel.innerText =
-          "Kathmandu Center";
-    
-       locationTitle.innerText =
-          "Comprehensive Healthcare Services";
-    
-       locationDescription.innerText =
-          "Access a full range of medical services, specialist consultations, diagnostics and preventive healthcare.";
-    
-       locationImage.src =
-          "./assets/img/kathmandu-hospital.jpg";
-    
+
+        kathmanduBtn.classList.add("active-location");
+        pokharaBtn.classList.remove("active-location");
+
+        kathmanduServices.classList.remove("hidden");
+        pokharaServices.classList.add("hidden");
     });
-    
+
     pokharaBtn.addEventListener("click", () => {
-    
-       pokharaBtn.classList.add("active-location");
-       kathmanduBtn.classList.remove("active-location");
-    
-       pokharaServices.classList.remove("hidden");
-       kathmanduServices.classList.add("hidden");
-    
-       locationLabel.innerText =
-          "Pokhara Center";
-    
-       locationTitle.innerText =
-          "Quality Healthcare In Pokhara";
-    
-       locationDescription.innerText =
-          "Access essential healthcare services, consultations and diagnostics in Pokhara.";
-    
-       locationImage.src =
-          "./assets/img/pokhara-hospital.jpg";
-    
+
+        pokharaBtn.classList.add("active-location");
+        kathmanduBtn.classList.remove("active-location");
+
+        pokharaServices.classList.remove("hidden");
+        kathmanduServices.classList.add("hidden");
     });
 </script>
 <!-- ========================================= -->
 <!-- SIGNATURE SERVICES -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-100 overflow-hidden">
+<!-- <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
-        <!-- HEADER -->
         <div
             class="text-center max-w-4xl mx-auto mb-12">
             <span class="section-subtitle">
-            Signature Services
+                Signature Services
             </span>
             <h2 class="section-title">
                 What Makes CIWEC Unique
@@ -772,7 +661,6 @@
                 most trusted healthcare institutions.
             </p>
         </div>
-        <!-- SERVICE 1 -->
         <div
             class="bg-white border border-slate-200 overflow-hidden mb-12">
             <div
@@ -788,7 +676,7 @@
                     class="lg:col-span-7 p-10 lg:p-14">
                     <span
                         class="text-secondary font-bold uppercase tracking-[3px]">
-                    Internationally Recognized
+                        Internationally Recognized
                     </span>
                     <h3
                         class="text-primary text-4xl font-black mt-5">
@@ -824,7 +712,6 @@
                 </div>
             </div>
         </div>
-        <!-- SERVICE 2 -->
         <div
             class="bg-primary overflow-hidden mb-12">
             <div
@@ -833,7 +720,7 @@
                     class="lg:col-span-7 p-10 lg:p-14 order-2 lg:order-1">
                     <span
                         class="text-secondary font-bold uppercase tracking-[3px]">
-                    Mountain Medicine Experts
+                        Mountain Medicine Experts
                     </span>
                     <h3
                         class="text-white text-4xl font-black mt-5">
@@ -875,10 +762,8 @@
                 </div>
             </div>
         </div>
-        <!-- BOTTOM SERVICES -->
         <div
             class="grid lg:grid-cols-2 gap-8">
-            <!-- HEALTH SCREENING -->
             <div
                 class="bg-white border border-slate-200 p-10">
                 <div
@@ -905,7 +790,6 @@
                     <li>• Specialist Consultation</li>
                 </ul>
             </div>
-            <!-- EMERGENCY -->
             <div
                 class="bg-white border border-slate-200 p-10">
                 <div
@@ -933,7 +817,6 @@
                 </ul>
             </div>
         </div>
-        <!-- STATS -->
         <div
             class="grid md:grid-cols-4 gap-6 mt-12">
             <div
@@ -982,17 +865,17 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- ========================================= -->
 <!-- PATIENT JOURNEY -->
 <!-- ========================================= -->
-<section class="section-padding bg-white overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
         <div
             class="text-center max-w-4xl mx-auto mb-12">
             <span class="section-subtitle">
-            Patient Experience
+                Patient Experience
             </span>
             <h2 class="section-title">
                 Your Healthcare Journey At CIWEC
@@ -1024,7 +907,7 @@
                         class="mt-8">
                         <span
                             class="text-secondary font-bold">
-                        STEP 01
+                            STEP 01
                         </span>
                         <h3
                             class="text-primary text-2xl font-black mt-3">
@@ -1050,7 +933,7 @@
                         class="mt-8">
                         <span
                             class="text-secondary font-bold">
-                        STEP 02
+                            STEP 02
                         </span>
                         <h3
                             class="text-primary text-2xl font-black mt-3">
@@ -1076,7 +959,7 @@
                         class="mt-8">
                         <span
                             class="text-secondary font-bold">
-                        STEP 03
+                            STEP 03
                         </span>
                         <h3
                             class="text-primary text-2xl font-black mt-3">
@@ -1102,7 +985,7 @@
                         class="mt-8">
                         <span
                             class="text-secondary font-bold">
-                        STEP 04
+                            STEP 04
                         </span>
                         <h3
                             class="text-primary text-2xl font-black mt-3">
@@ -1128,7 +1011,7 @@
                         class="mt-8">
                         <span
                             class="text-secondary font-bold">
-                        STEP 05
+                            STEP 05
                         </span>
                         <h3
                             class="text-primary text-2xl font-black mt-3">
@@ -1144,9 +1027,8 @@
             </div>
         </div>
         <!-- JOURNEY BENEFITS -->
-        <div
+        <!-- <div
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-12">
-            <!-- CARD -->
             <div
                 class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <div
@@ -1164,7 +1046,6 @@
                     Streamlined processes for faster access to care.
                 </p>
             </div>
-            <!-- CARD -->
             <div
                 class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <div
@@ -1182,7 +1063,6 @@
                     Multidisciplinary specialists working together.
                 </p>
             </div>
-            <!-- CARD -->
             <div
                 class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <div
@@ -1200,7 +1080,6 @@
                     Advanced diagnostics and treatment facilities.
                 </p>
             </div>
-            <!-- CARD -->
             <div
                 class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <div
@@ -1218,19 +1097,18 @@
                     Ongoing guidance throughout your care journey.
                 </p>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <!-- ========================================= -->
 <!-- WHY CHOOSE CIWEC -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-100 overflow-hidden">
+<!-- <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
-        <!-- HEADER -->
         <div
             class="text-center max-w-4xl mx-auto mb-12">
             <span class="section-subtitle">
-            Why Choose CIWEC
+                Why Choose CIWEC
             </span>
             <h2 class="section-title">
                 Trusted Healthcare For Over Four Decades
@@ -1244,7 +1122,6 @@
         </div>
         <div
             class="grid lg:grid-cols-12 gap-12 items-center">
-            <!-- LEFT IMAGE -->
             <div
                 class="lg:col-span-5">
                 <div
@@ -1253,7 +1130,6 @@
                         src="./assets/img/altitude-expert-doctor.png"
                         alt="Why Choose CIWEC"
                         class="w-full h-[700px] object-cover">
-                    <!-- FLOATING STATS -->
                     <div
                         class="absolute bottom-8 left-8 bg-white p-6 shadow-xl">
                         <h3
@@ -1267,12 +1143,10 @@
                     </div>
                 </div>
             </div>
-            <!-- RIGHT CONTENT -->
             <div
                 class="lg:col-span-7">
                 <div
                     class="grid md:grid-cols-2 gap-8">
-                    <!-- ITEM -->
                     <div
                         class="bg-white border border-slate-200 p-8 hover:border-secondary transition">
                         <div
@@ -1291,7 +1165,6 @@
                             delivering expert medical care.
                         </p>
                     </div>
-                    <!-- ITEM -->
                     <div
                         class="bg-white border border-slate-200 p-8 hover:border-secondary transition">
                         <div
@@ -1310,7 +1183,6 @@
                             internationally recognized practices.
                         </p>
                     </div>
-                    <!-- ITEM -->
                     <div
                         class="bg-white border border-slate-200 p-8 hover:border-secondary transition">
                         <div
@@ -1329,7 +1201,6 @@
                             technologies supporting accurate care.
                         </p>
                     </div>
-                    <!-- ITEM -->
                     <div
                         class="bg-white border border-slate-200 p-8 hover:border-secondary transition">
                         <div
@@ -1348,7 +1219,6 @@
                             travel medicine and altitude health.
                         </p>
                     </div>
-                    <!-- ITEM -->
                     <div
                         class="bg-white hidden border border-slate-200 p-8 hover:border-secondary transition">
                         <div
@@ -1367,7 +1237,6 @@
                             healthcare services whenever needed.
                         </p>
                     </div>
-                    <!-- ITEM -->
                     <div
                         class="bg-white hidden border border-slate-200 p-8 hover:border-secondary transition">
                         <div
@@ -1389,7 +1258,6 @@
                 </div>
             </div>
         </div>
-        <!-- TRUST NUMBERS -->
         <div
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-6 mt-20">
             <div
@@ -1438,7 +1306,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- ========================================= -->
 <!-- FACILITIES & TECHNOLOGY -->
 <!-- ========================================= -->
@@ -1448,7 +1316,7 @@
         <div
             class="text-center max-w-4xl mx-auto mb-12">
             <span class="section-subtitle">
-            World-Class Infrastructure
+                World-Class Infrastructure
             </span>
             <h2 class="section-title">
                 Advanced Medical Technology & Facilities
@@ -1476,7 +1344,7 @@
                 class="lg:col-span-6 p-10 lg:p-16 flex flex-col justify-center">
                 <span
                     class="text-secondary font-bold uppercase tracking-[3px]">
-                Featured Facility
+                    Featured Facility
                 </span>
                 <h3
                     class="text-primary text-4xl font-black mt-5">
@@ -1497,7 +1365,7 @@
                             class="fa-solid fa-check text-secondary">
                         </i>
                         <span>
-                        Pathology Services
+                            Pathology Services
                         </span>
                     </div>
                     <div
@@ -1506,7 +1374,7 @@
                             class="fa-solid fa-check text-secondary">
                         </i>
                         <span>
-                        Blood Testing
+                            Blood Testing
                         </span>
                     </div>
                     <div
@@ -1515,7 +1383,7 @@
                             class="fa-solid fa-check text-secondary">
                         </i>
                         <span>
-                        Microbiology
+                            Microbiology
                         </span>
                     </div>
                     <div
@@ -1524,7 +1392,7 @@
                             class="fa-solid fa-check text-secondary">
                         </i>
                         <span>
-                        Rapid Reporting
+                            Rapid Reporting
                         </span>
                     </div>
                 </div>
@@ -1655,7 +1523,7 @@
             </div>
         </div>
         <!-- TECHNOLOGY STATS -->
-        <div
+        <!-- <div
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-20">
             <div
                 class="text-center bg-slate-100 border border-slate-200 p-8">
@@ -1701,8 +1569,8 @@
                     Patient Care
                 </p>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <?php include "./include/footer.php";
-    ?>
+?>

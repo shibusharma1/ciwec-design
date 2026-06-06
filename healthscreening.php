@@ -12,10 +12,10 @@ include "./include/herobanner.php";
          <div
             class="lg:col-span-6">
             <span class="section-subtitle">
-            Patient Education
+               Patient Education
             </span>
             <h2 class="section-title">
-               Trusted Health Information From Medical Experts
+               Trusted Health Information From Experts
             </h2>
             <p
                class="text-slate-600 leading-8 mt-8">
@@ -161,12 +161,12 @@ include "./include/herobanner.php";
    </div>
 </section>
 
-<section class="section-padding bg-white overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
       <div class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
-         Featured Resources
+            Featured Resources
          </span>
          <h2 class="section-title">
             Essential Health Guides
@@ -178,7 +178,7 @@ include "./include/herobanner.php";
          </p>
       </div>
       <!-- FEATURED GUIDE -->
-      <div class="bg-slate-100 border border-slate-200 overflow-hidden">
+      <div class="bg-white border border-slate-200 overflow-hidden">
          <div class="grid lg:grid-cols-12 items-center">
             <!-- IMAGE -->
             <div class="lg:col-span-5 relative">
@@ -187,14 +187,14 @@ include "./include/herobanner.php";
                   class="w-full h-full min-h-[550px] object-cover">
                <div class="absolute top-6 left-6">
                   <span class="bg-secondary text-white px-4 py-2 text-sm font-bold uppercase">
-                  Most Popular Guide
+                     Most Popular Guide
                   </span>
                </div>
             </div>
             <!-- CONTENT -->
             <div class="lg:col-span-7 p-10 lg:p-14">
                <span class="text-primary font-bold uppercase tracking-[3px]">
-               Altitude Medicine
+                  Altitude Medicine
                </span>
                <h3 class="text-primary text-4xl font-black mt-5 leading-tight">
                   Complete Guide To Altitude Sickness
@@ -212,21 +212,21 @@ include "./include/herobanner.php";
                      <i class="fa-solid fa-circle-check text-secondary">
                      </i>
                      <span>
-                     Symptoms Explained
+                        Symptoms Explained
                      </span>
                   </div>
                   <div class="flex items-center gap-3">
                      <i class="fa-solid fa-circle-check text-secondary">
                      </i>
                      <span>
-                     Prevention Strategies
+                        Prevention Strategies
                      </span>
                   </div>
                   <div class="flex items-center gap-3">
                      <i class="fa-solid fa-circle-check text-secondary">
                      </i>
                      <span>
-                     Emergency Warning Signs
+                        Emergency Warning Signs
                      </span>
                   </div>
                   <div
@@ -235,21 +235,21 @@ include "./include/herobanner.php";
                         class="fa-solid fa-circle-check text-secondary">
                      </i>
                      <span>
-                     Treatment Options
+                        Treatment Options
                      </span>
                   </div>
                </div>
                <!-- ACTIONS -->
                <div
                   class="flex flex-wrap gap-4 mt-10">
-                  <button
+                  <a href="./assets/pdf/news1.pdf" target="_blank"
                      class="btn-primary">
-                  Read Full Guide
-                  </button>
-                  <button
+                     Read Full Guide
+                  </a>
+                  <a href="./assets/pdf/news1.pdf" download
                      class="btn-secondary">
-                  Download PDF
-                  </button>
+                     Download PDF
+                  </a>
                </div>
             </div>
          </div>
@@ -266,7 +266,7 @@ include "./include/herobanner.php";
             <div class="p-8">
                <span
                   class="text-secondary text-sm font-bold uppercase">
-               Travel Health
+                  Travel Health
                </span>
                <h3
                   class="text-primary text-2xl font-black mt-4">
@@ -277,12 +277,12 @@ include "./include/herobanner.php";
                   Essential travel health advice,
                   vaccinations and preventive measures.
                </p>
-               <a href="#"
+               <a href="./assets/pdf/news1.pdf" target="_blank"
                   class="inline-flex items-center gap-2 text-primary hover:text-secondary font-semibold mt-6">
-               Read Guide
-               <i
-                  class="fa-solid fa-arrow-right">
-               </i>
+                  Read Guide
+                  <i
+                     class="fa-solid fa-arrow-right">
+                  </i>
                </a>
             </div>
          </article>
@@ -295,7 +295,7 @@ include "./include/herobanner.php";
             <div class="p-8">
                <span
                   class="text-secondary text-sm font-bold uppercase">
-               Vaccinations
+                  Vaccinations
                </span>
                <h3
                   class="text-primary text-2xl font-black mt-4">
@@ -306,12 +306,12 @@ include "./include/herobanner.php";
                   Recommended vaccines,
                   schedules and travel preparation.
                </p>
-               <a href="#"
+               <a href="./assets/pdf/news1.pdf" target="_blank"
                   class="inline-flex items-center gap-2 text-primary hover:text-secondary font-semibold mt-6">
-               Read Guide
-               <i
-                  class="fa-solid fa-arrow-right">
-               </i>
+                  Read Guide
+                  <i
+                     class="fa-solid fa-arrow-right">
+                  </i>
                </a>
             </div>
          </article>
@@ -324,7 +324,7 @@ include "./include/herobanner.php";
             <div class="p-8">
                <span
                   class="text-secondary text-sm font-bold uppercase">
-               Preventive Care
+                  Preventive Care
                </span>
                <h3
                   class="text-primary text-2xl font-black mt-4">
@@ -335,12 +335,12 @@ include "./include/herobanner.php";
                   Learn the importance of regular
                   health screening and early detection.
                </p>
-               <a href="#"
+               <a href="./assets/pdf/news1.pdf" target="_blank"
                   class="inline-flex items-center gap-2 text-primary hover:text-secondary font-semibold mt-6">
-               Read Guide
-               <i
-                  class="fa-solid fa-arrow-right">
-               </i>
+                  Read Guide
+                  <i
+                     class="fa-solid fa-arrow-right">
+                  </i>
                </a>
             </div>
          </article>
@@ -354,7 +354,7 @@ include "./include/herobanner.php";
       <div
          class="text-center max-w-4xl mx-auto mb-16">
          <span class="section-subtitle">
-         Travel Medicine Expertise
+            Travel Medicine Expertise
          </span>
          <h2 class="section-title">
             CIWEC Travel Health Center
@@ -372,12 +372,11 @@ include "./include/herobanner.php";
          class="bg-primary overflow-hidden">
          <div
             class="grid lg:grid-cols-12 items-center">
-            <!-- CONTENT -->
             <div
                class="lg:col-span-7 p-10 lg:p-14">
                <span
                   class="text-secondary font-bold uppercase tracking-[3px]">
-               Featured Travel Guide
+                  Featured Travel Guide
                </span>
                <h3
                   class="text-white text-4xl font-black mt-5">
@@ -398,7 +397,7 @@ include "./include/herobanner.php";
                         class="fa-solid fa-circle-check text-secondary">
                      </i>
                      <span class="text-white">
-                     Vaccination Guidance
+                        Vaccination Guidance
                      </span>
                   </div>
                   <div
@@ -407,7 +406,7 @@ include "./include/herobanner.php";
                         class="fa-solid fa-circle-check text-secondary">
                      </i>
                      <span class="text-white">
-                     Trekking Preparation
+                        Trekking Preparation
                      </span>
                   </div>
                   <div
@@ -416,7 +415,7 @@ include "./include/herobanner.php";
                         class="fa-solid fa-circle-check text-secondary">
                      </i>
                      <span class="text-white">
-                     Altitude Awareness
+                        Altitude Awareness
                      </span>
                   </div>
                   <div
@@ -425,23 +424,22 @@ include "./include/herobanner.php";
                         class="fa-solid fa-circle-check text-secondary">
                      </i>
                      <span class="text-white">
-                     Emergency Planning
+                        Emergency Planning
                      </span>
                   </div>
                </div>
                <div
                   class="flex flex-wrap gap-4 mt-10">
-                  <button
+                  <a href="./assets/pdf/news1.pdf" target="_blank"
                      class="btn-secondary">
-                  Read Guide
-                  </button>
-                  <button
+                     Read Guide
+                  </a>
+                  <a href="./assets/pdf/news1.pdf" target="_blank"
                      class="btn-light text-white">
-                  Download PDF
-                  </button>
+                     Download PDF
+                  </a>
                </div>
             </div>
-            <!-- IMAGE -->
             <div
                class="lg:col-span-5">
                <img
@@ -452,9 +450,8 @@ include "./include/herobanner.php";
          </div>
       </div>
       <!-- TOPICS -->
-      <div
+      <!-- <div
          class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-16">
-         <!-- CARD -->
          <div
             class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -473,7 +470,6 @@ include "./include/herobanner.php";
                schedules before international travel.
             </p>
          </div>
-         <!-- CARD -->
          <div
             class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -492,7 +488,6 @@ include "./include/herobanner.php";
                symptoms and prevention strategies.
             </p>
          </div>
-         <!-- CARD -->
          <div
             class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -511,7 +506,6 @@ include "./include/herobanner.php";
                foodborne and waterborne illnesses.
             </p>
          </div>
-         <!-- CARD -->
          <div
             class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -530,7 +524,6 @@ include "./include/herobanner.php";
                supplies every traveler should carry.
             </p>
          </div>
-         <!-- CARD -->
          <div
             class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -549,7 +542,6 @@ include "./include/herobanner.php";
                hiking and adventure travel.
             </p>
          </div>
-         <!-- CARD -->
          <div
             class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -568,7 +560,7 @@ include "./include/herobanner.php";
                during a medical emergency abroad.
             </p>
          </div>
-      </div>
+      </div> -->
       <!-- QUICK STATS -->
       <div
          class="grid md:grid-cols-4 gap-6 mt-20">
@@ -620,262 +612,104 @@ include "./include/herobanner.php";
    </div>
 </section>
 
-<section class="section-padding bg-slate-100 overflow-hidden">
+<section class="section-padding bg-slate-200">
    <div class="container-custom">
-      <!-- HEADER -->
-      <div
-         class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center mb-12">
          <span class="section-subtitle">
-         Frequently Asked Questions
+            Frequently Asked Questions
          </span>
-         <h2 class="section-title">
-            Health Information FAQs
+         <h2 class="text-primary text-4xl font-black">
+            Health Screening FAQs
          </h2>
-         <p
-            class="text-slate-600 mt-6 leading-8">
-            Find answers to common questions about travel health,
-            altitude illness, vaccinations and preventive healthcare.
-         </p>
       </div>
-      <!-- FAQS -->
-      <div
-         class="max-w-5xl mx-auto space-y-4">
-         <!-- FAQ 1 -->
-         <div
-            class="faq-item bg-white border border-slate-200">
-            <button
-               class="faq-btn w-full flex items-center justify-between p-6 text-left">
-            <span
-               class="text-primary text-lg font-bold">
-            How can I prevent altitude sickness while trekking?
-            </span>
-            <i
-               class="fa-solid fa-plus faq-icon text-secondary">
-            </i>
+      <div class="max-w-4xl mx-auto space-y-4">
+         <div class="faq-item active">
+            <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
+               <span class="text-primary font-bold text-lg">
+                  What is included in a routine health screening?
+               </span>
+               <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
             </button>
-            <div
-               class="faq-content hidden px-6 pb-6">
-               <p
-                  class="text-slate-600 leading-8">
-                  Ascend gradually, stay hydrated,
-                  avoid excessive alcohol and allow
-                  adequate time for acclimatization.
-                  Seek medical advice before high-altitude travel.
-               </p>
+            <div class="faq-content">
+               <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
+                  A routine health screening typically includes blood pressure check,
+                  blood tests, glucose levels, cholesterol screening and basic physical examination.
+               </div>
             </div>
          </div>
-         <!-- FAQ 2 -->
-         <div
-            class="faq-item bg-white border border-slate-200">
-            <button
-               class="faq-btn w-full flex items-center justify-between p-6 text-left">
-            <span
-               class="text-primary text-lg font-bold">
-            What vaccinations should I consider before traveling?
-            </span>
-            <i
-               class="fa-solid fa-plus faq-icon text-secondary">
-            </i>
+         <div class="faq-item">
+            <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
+               <span class="text-primary font-bold text-lg">
+                  Who should undergo regular health screening?
+               </span>
+               <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
             </button>
-            <div
-               class="faq-content hidden px-6 pb-6">
-               <p
-                  class="text-slate-600 leading-8">
-                  Vaccination recommendations depend
-                  on your destination, travel duration
-                  and medical history. Common travel
-                  vaccines may include Hepatitis A,
-                  Typhoid, Rabies and others.
-               </p>
+            <div class="faq-content">
+               <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
+                  Adults above 30 years, individuals with chronic conditions,
+                  and those with family history of diseases should undergo regular health screening.
+               </div>
             </div>
          </div>
-         <!-- FAQ 3 -->
-         <div
-            class="faq-item bg-white border border-slate-200">
-            <button
-               class="faq-btn w-full flex items-center justify-between p-6 text-left">
-            <span
-               class="text-primary text-lg font-bold">
-            How can I avoid traveler's diarrhea?
-            </span>
-            <i
-               class="fa-solid fa-plus faq-icon text-secondary">
-            </i>
+         <div class="faq-item">
+            <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
+               <span class="text-primary font-bold text-lg">
+                  How often should I do a full body checkup?
+               </span>
+               <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
             </button>
-            <div
-               class="faq-content hidden px-6 pb-6">
-               <p
-                  class="text-slate-600 leading-8">
-                  Drink safe water, eat thoroughly
-                  cooked food, practice good hand
-                  hygiene and avoid questionable
-                  street food sources.
-               </p>
+            <div class="faq-content">
+               <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
+                  It is generally recommended to undergo a full body checkup once every year,
+                  or more frequently if advised by your doctor.
+               </div>
             </div>
          </div>
-         <!-- FAQ 4 -->
-         <div
-            class="faq-item bg-white border border-slate-200">
-            <button
-               class="faq-btn w-full flex items-center justify-between p-6 text-left">
-            <span
-               class="text-primary text-lg font-bold">
-            When should I seek medical attention while traveling?
-            </span>
-            <i
-               class="fa-solid fa-plus faq-icon text-secondary">
-            </i>
+         <div class="faq-item">
+            <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
+               <span class="text-primary font-bold text-lg">
+                  Do I need to fast before a health screening?
+               </span>
+               <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
             </button>
-            <div
-               class="faq-content hidden px-6 pb-6">
-               <p
-                  class="text-slate-600 leading-8">
-                  Seek immediate medical attention if
-                  you experience severe breathing
-                  difficulty, chest pain, persistent
-                  fever, dehydration or symptoms of
-                  severe altitude illness.
-               </p>
+            <div class="faq-content">
+               <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
+                  Yes, fasting for 8–12 hours may be required for certain blood tests
+                  like glucose and lipid profile.
+               </div>
             </div>
          </div>
-         <!-- FAQ 5 -->
-         <div
-            class="faq-item bg-white border border-slate-200">
-            <button
-               class="faq-btn w-full flex items-center justify-between p-6 text-left">
-            <span
-               class="text-primary text-lg font-bold">
-            What should I include in a travel medical kit?
-            </span>
-            <i
-               class="fa-solid fa-plus faq-icon text-secondary">
-            </i>
+         <div class="faq-item">
+            <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
+               <span class="text-primary font-bold text-lg">
+                  Are health screenings painful or risky?
+               </span>
+               <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
             </button>
-            <div
-               class="faq-content hidden px-6 pb-6">
-               <p
-                  class="text-slate-600 leading-8">
-                  A travel medical kit should include
-                  prescription medications, pain relievers,
-                  antiseptics, bandages, oral rehydration
-                  salts and destination-specific medications.
-               </p>
+            <div class="faq-content">
+               <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
+                  No, health screenings are safe, simple and minimally invasive,
+                  usually involving basic blood tests and physical measurements.
+               </div>
             </div>
          </div>
       </div>
       <!-- HELP BOX -->
-      <div
-         class="bg-primary text-center p-10 mt-16 max-w-5xl mx-auto">
-         <h3
-            class="text-white text-3xl font-black">
+      <div class="bg-primary text-center p-10 mt-16 max-w-5xl mx-auto">
+         <h3 class="text-white text-3xl font-black">
             Still Have Questions?
          </h3>
-         <p
-            class="text-white/80 mt-4 max-w-2xl mx-auto leading-8">
+         <p class="text-white/80 mt-4 max-w-2xl mx-auto leading-8">
             Our healthcare professionals are available
-            to provide personalized medical advice and
-            travel health recommendations.
+            to guide you with personalized health screening recommendations.
          </p>
-         <a href="#"
+         <a href="./contactus.php"
             class="btn-secondary mt-8">
-         Contact Our Team
+            Contact Our Team
          </a>
       </div>
    </div>
 </section>
-<script>
-   const categoryCards =
-       document.querySelectorAll(".health-category");
-   
-   const categorySelect =
-       document.getElementById("healthCategory");
-   
-   categoryCards.forEach(card => {
-   
-       card.addEventListener("click", () => {
-   
-           const category =
-               card.dataset.category;
-   
-           if (categorySelect) {
-   
-               categorySelect.value =
-                   category;
-   
-               categorySelect.dispatchEvent(
-                   new Event("change")
-               );
-   
-           }
-   
-           document
-               .getElementById("health-library")
-               ?.scrollIntoView({
-                   behavior: "smooth"
-               });
-   
-       });
-   
-   });
-</script>
-
-<script>
-   renderCards(healthResources);
-   updateResourceCount();
-   const faqButtons =
-       document.querySelectorAll(".faq-btn");
-   
-   faqButtons.forEach(button => {
-   
-       button.addEventListener("click", () => {
-   
-           const currentItem =
-               button.parentElement;
-   
-           const currentContent =
-               currentItem.querySelector(".faq-content");
-   
-           const currentIcon =
-               currentItem.querySelector(".faq-icon");
-   
-           document
-               .querySelectorAll(".faq-item")
-               .forEach(item => {
-   
-                   if (item !== currentItem) {
-   
-                       item.querySelector(".faq-content")
-                           .classList.add("hidden");
-   
-                       item.querySelector(".faq-icon")
-                           .classList.remove("fa-minus");
-   
-                       item.querySelector(".faq-icon")
-                           .classList.add("fa-plus");
-   
-                   }
-   
-               });
-   
-           currentContent.classList.toggle("hidden");
-   
-           if (currentContent.classList.contains("hidden")) {
-   
-               currentIcon.classList.remove("fa-minus");
-               currentIcon.classList.add("fa-plus");
-   
-           } else {
-   
-               currentIcon.classList.remove("fa-plus");
-               currentIcon.classList.add("fa-minus");
-   
-           }
-   
-       });
-   
-   });
-</script>
-
 <!-- <section class="section-padding relative overflow-hidden bg-primary">
    <div
       class="absolute
@@ -1061,384 +895,5 @@ include "./include/herobanner.php";
    </div>
 </section> -->
 
-<script>
-   const healthResources = [{
-           title: "Understanding Diabetes",
-           category: "Preventive Health",
-           description: "Learn about diabetes prevention and management.",
-           image: "./assets/img/diabetes.jpg",
-           pdf: "pdfs/diabetes.pdf"
-       },
-       {
-           title: "Travel Health Guide",
-           category: "Travel Medicine",
-           description: "Essential health advice for international travelers.",
-           image: "./assets/img/travel-health.jpg",
-           pdf: "pdfs/travel.pdf"
-       },
-       {
-           title: "Heart Health Tips",
-           category: "Wellness",
-           description: "Lifestyle changes for better cardiovascular health.",
-           image: "./assets/img/heart-health.jpg",
-           pdf: "pdfs/heart.pdf"
-       }
-   ];
-   const healthSearch =
-       document.getElementById('healthSearch');
-   
-   const categoryFilter =
-       document.getElementById('categoryFilter');
-   
-   const resourceCount =
-       document.getElementById('resourceCount');
-   
-   let filteredResources = [...healthResources];
-   
-   function filterResources() {
-       const searchTerm =
-           healthSearch.value.toLowerCase();
-   
-       const category =
-           categoryFilter.value.toLowerCase();
-   
-       filteredResources =
-           healthResources.filter(item => {
-               const matchSearch =
-                   item.title.toLowerCase().includes(searchTerm) ||
-                   item.description.toLowerCase().includes(searchTerm);
-   
-               const matchCategory = !category ||
-                   item.category.toLowerCase() === category;
-   
-               return matchSearch && matchCategory;
-           });
-   
-       updateResourceCount();
-       renderCards(filteredResources);
-   }
-   
-   healthSearch.addEventListener(
-       'input',
-       filterResources
-   );
-   
-   categoryFilter.addEventListener(
-       'change',
-       filterResources
-   );
-   
-   function updateResourceCount() {
-       const total =
-           filteredResources.length;
-   
-       resourceCount.innerHTML =
-           `${total} Resource${total !== 1 ? 's' : ''} Found`;
-   }
-   
-   function renderCards(resources) {
-       const container =
-           document.getElementById('articlesContainer');
-   
-       if (resources.length === 0) {
-           container.innerHTML = `
-       <div class="bg-white border border-slate-200 p-16 text-center">
-   
-           <i class="fa-solid fa-book-medical text-6xl text-slate-300"></i>
-   
-           <h3 class="text-primary text-3xl font-black mt-8">
-               No Resources Found
-           </h3>
-   
-           <p class="text-slate-600 mt-4">
-               Try adjusting your search or category.
-           </p>
-   
-       </div>
-       `;
-   
-           return;
-       }
-   
-       container.innerHTML =
-           `
-   <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-   
-       ${resources.map(item => `
-   
-           <div
-               class="group bg-white border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
-   
-               <div class="relative">
-   
-                   <img
-                       src="${item.image}"
-                       alt="${item.title}"
-                       class="w-full h-64 object-cover group-hover:scale-110 transition duration-700">
-   
-                   <div
-                       class="absolute top-5 left-5 bg-primary text-white px-4 py-2 text-sm font-semibold">
-   
-                       ${item.category}
-   
-                   </div>
-   
-               </div>
-   
-               <div class="p-8">
-   
-                   <h3
-                       class="text-primary text-2xl font-black">
-   
-                       ${item.title}
-   
-                   </h3>
-   
-                   <p
-                       class="text-slate-600 mt-4 line-clamp-3">
-   
-                       ${item.description}
-   
-                   </p>
-   
-                   <button
-                       onclick="openPDF('${item.pdf}')"
-                       class="mt-8 text-secondary font-semibold flex items-center gap-2">
-   
-                       Read Resource
-   
-                       <i class="fa-solid fa-arrow-right"></i>
-   
-                   </button>
-   
-               </div>
-   
-           </div>
-   
-       `).join('')}
-   
-   </div>
-   `;
-   }
-   
-   // for knowledge chip
-   document
-       .querySelectorAll('.knowledge-chip')
-       .forEach(chip => {
-           chip.addEventListener('click', () => {
-               healthSearch.value =
-                   chip.innerText;
-   
-               filterResources();
-           });
-       });
-   
-   function openPDF(pdfUrl) {
-       document
-           .getElementById('pdfViewer')
-           .src = pdfUrl;
-   
-       document
-           .getElementById('pdfModal')
-           .classList.remove('hidden');
-   }
-</script>
-
-<section class="relative overflow-hidden hidden bg-slate-950">
-   <!-- DECORATIVE SHAPES -->
-   <div
-      class="absolute top-0 left-0 w-[500px] h-[500px] bg-primary/20 rounded-full -translate-x-1/2 -translate-y-1/2">
-   </div>
-   <div
-      class="absolute bottom-0 right-0 w-[600px] h-[600px] bg-secondary/10 rounded-full translate-x-1/3 translate-y-1/3">
-   </div>
-   <div class="container-custom relative z-10">
-      <div class="py-24 lg:py-32">
-         <!-- HEADER -->
-         <div
-            class="max-w-5xl mx-auto text-center">
-            <span
-               class="inline-flex items-center gap-3 bg-white/10 text-white px-5 py-3 font-semibold">
-            <i
-               class="fa-solid fa-heart-pulse text-secondary">
-            </i>
-            Take Control Of Your Health
-            </span>
-            <h2
-               class="text-white text-4xl lg:text-6xl font-black mt-8 leading-tight">
-               Your Future Health
-               Starts With One Screening
-            </h2>
-            <p
-               class="text-white/70 text-lg leading-8 mt-8 max-w-3xl mx-auto">
-               Whether you're planning a routine health check,
-               executive assessment, corporate wellness program
-               or preventive healthcare consultation, our team
-               is ready to guide you.
-            </p>
-         </div>
-         <!-- CTA CARDS -->
-         <div
-            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-20">
-            <!-- CARD -->
-            <div
-               class="bg-white p-8 text-center hover:-translate-y-2 transition-all duration-500">
-               <div
-                  class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
-                  <i
-                     class="fa-solid fa-calendar-check text-primary text-3xl">
-                  </i>
-               </div>
-               <h3
-                  class="text-primary text-2xl font-black">
-                  Book Screening
-               </h3>
-               <p
-                  class="text-slate-600 mt-4 leading-7">
-                  Schedule a preventive health
-                  assessment with our experts.
-               </p>
-               <a
-                  href="./bookappointment.php"
-                  class="inline-block mt-8 bg-primary text-white px-8 py-3 font-semibold hover:bg-secondary transition">
-               Book Now
-               </a>
-            </div>
-            <!-- CARD -->
-            <div
-               class="bg-white p-8 text-center hover:-translate-y-2 transition-all duration-500">
-               <div
-                  class="w-20 h-20 mx-auto bg-secondary/10 flex items-center justify-center mb-6">
-                  <i
-                     class="fa-solid fa-building text-secondary text-3xl">
-                  </i>
-               </div>
-               <h3
-                  class="text-primary text-2xl font-black">
-                  Corporate Packages
-               </h3>
-               <p
-                  class="text-slate-600 mt-4 leading-7">
-                  Wellness programs designed
-                  for organizations and teams.
-               </p>
-               <a
-                  href="contact.php"
-                  class="inline-block mt-8 bg-secondary text-white px-8 py-3 font-semibold hover:bg-primary transition">
-               Learn More
-               </a>
-            </div>
-            <!-- CARD -->
-            <div
-               class="bg-white p-8 text-center hover:-translate-y-2 transition-all duration-500">
-               <div
-                  class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
-                  <i
-                     class="fa-solid fa-user-doctor text-primary text-3xl">
-                  </i>
-               </div>
-               <h3
-                  class="text-primary text-2xl font-black">
-                  Talk To Advisor
-               </h3>
-               <p
-                  class="text-slate-600 mt-4 leading-7">
-                  Discuss your health concerns
-                  with our medical team.
-               </p>
-               <a
-                  href="contact.php"
-                  class="inline-block mt-8 bg-primary text-white px-8 py-3 font-semibold hover:bg-secondary transition">
-               Contact Us
-               </a>
-            </div>
-            <!-- CARD -->
-            <div
-               class="bg-white p-8 text-center border-t-4 border-red-500 hover:-translate-y-2 transition-all duration-500">
-               <div
-                  class="w-20 h-20 mx-auto bg-red-100 flex items-center justify-center mb-6">
-                  <i
-                     class="fa-solid fa-phone-volume text-red-600 text-3xl">
-                  </i>
-               </div>
-               <h3
-                  class="text-primary text-2xl font-black">
-                  Call Hospital
-               </h3>
-               <p
-                  class="text-slate-600 mt-4 leading-7">
-                  Speak directly with our
-                  healthcare support team.
-               </p>
-               <a
-                  href="tel:+977XXXXXXXXX"
-                  class="inline-block mt-8 bg-red-600 text-white px-8 py-3 font-semibold hover:bg-red-700 transition">
-               Call Now
-               </a>
-            </div>
-         </div>
-         <!-- TRUST BAR -->
-         <div
-            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-24">
-            <div class="text-center">
-               <h3
-                  class="text-white text-4xl font-black">
-                  40+
-               </h3>
-               <p
-                  class="text-white/70 mt-3">
-                  Years Of Excellence
-               </p>
-            </div>
-            <div class="text-center">
-               <h3
-                  class="text-white text-4xl font-black">
-                  Trusted
-               </h3>
-               <p
-                  class="text-white/70 mt-3">
-                  Healthcare Provider
-               </p>
-            </div>
-            <div class="text-center">
-               <h3
-                  class="text-white text-4xl font-black">
-                  Preventive
-               </h3>
-               <p
-                  class="text-white/70 mt-3">
-                  Health Focus
-               </p>
-            </div>
-            <div class="text-center">
-               <h3
-                  class="text-white text-4xl font-black">
-                  Expert
-               </h3>
-               <p
-                  class="text-white/70 mt-3">
-                  Medical Guidance
-               </p>
-            </div>
-         </div>
-         <!-- FINAL MESSAGE -->
-         <div
-            class="max-w-4xl mx-auto text-center mt-24">
-            <h3
-               class="text-white text-3xl lg:text-4xl font-black">
-               Prevention Is One Of The Most Powerful
-               Investments You Can Make In Your Health
-            </h3>
-            <p
-               class="text-white/70 leading-8 mt-6">
-               Don't wait for symptoms to appear. Take a proactive
-               approach to your wellbeing and gain the confidence
-               that comes from understanding your health.
-            </p>
-         </div>
-      </div>
-   </div>
-</section>
-
 <?php include "./include/footer.php";
-   ?>
+?>

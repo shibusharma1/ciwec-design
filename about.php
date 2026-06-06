@@ -97,7 +97,7 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
-        <div class="text-center mb-16">
+        <div class="text-center mb-12">
             <span class="section-subtitle">
                 Our Journey
             </span>
@@ -407,7 +407,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
-        <div class="text-center mb-16">
+        <div class="text-center mb-12">
             <span class="section-subtitle">
                 What Drives Us
             </span>
@@ -632,7 +632,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
-        <div class="text-center mb-16">
+        <div class="text-center mb-12">
             <span class="section-subtitle">
                 Why Choose CIWEC
             </span>
@@ -898,7 +898,7 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- <section class="section-padding bg-primary text-white overflow-hidden">
     <div class="container-custom">
-        <div class="text-center mb-16">
+        <div class="text-center mb-12">
             <span
                 class="inline-block
                 text-secondary
@@ -1137,7 +1137,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
-        <div class="text-center mb-16">
+        <div class="text-center mb-12">
             <span class="section-subtitle">
                 Our Culture
             </span>

@@ -7,7 +7,7 @@ include "./include/herobanner.php";
 
 <!-- <section class="section-padding bg-slate-200 overflow-hidden">
     <div class="container-custom">
-        <div class="text-center mb-16">
+        <div class="text-center mb-12">
             <span class="section-subtitle">
                 CIWEC At A Glance
             </span>
@@ -248,7 +248,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
-        <div class="text-center mb-16">
+        <div class="text-center mb-12">
             <span class="section-subtitle">
                 Evolution Of CIWEC
             </span>
@@ -421,7 +421,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
-        <div class="text-center mb-16">
+        <div class="text-center mb-12">
             <span class="section-subtitle">
                 Historical Gallery
             </span>
@@ -711,7 +711,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
-        <div class="text-center mb-16">
+        <div class="text-center mb-12">
             <span class="section-subtitle">
                 Looking Back & Moving Forward
             </span>
@@ -1035,7 +1035,7 @@ include "./include/herobanner.php";
                     class="btn-secondary">
                     Book Appointment
                 </a>
-                <a href="#"
+                <a href="./doctors.php"
                     class="btn-light text-white">
                     Find A Doctor
                 </a>
@@ -1049,7 +1049,7 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
-        <div class="text-center mb-16">
+        <div class="text-center mb-12">
             <span class="section-subtitle">
                 Leadership Legacy
             </span>

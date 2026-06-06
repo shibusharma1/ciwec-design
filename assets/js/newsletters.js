@@ -103,7 +103,7 @@ function renderTable(data) {
                      ${item.title}
                 </td>
                 <td class="px-5 py-4 text-center">
-                    <a href="${item.file}"
+                    <a href="${item.file}" download
                         class="inline-flex items-center gap-2 text-primary font-semibold hover:text-secondary transition">
                     <i class="fa-solid fa-file-pdf text-secondary"></i>
                     Download
