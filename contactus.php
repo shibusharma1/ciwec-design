@@ -391,14 +391,13 @@ include "./include/herobanner.php";
     </div>
 </section>
 
-<section id="map" class="relative overflow-hidden bg-primary">
+<!-- <section id="map" class="relative overflow-hidden bg-primary">
     <div class="absolute top-0 left-0 w-[500px] h-[500px] bg-white/5 rounded-full -translate-x-1/2 -translate-y-1/2">
     </div>
     <div class="absolute bottom-0 right-0 w-[600px] h-[600px] bg-secondary/10 rounded-full translate-x-1/3 translate-y-1/3">
     </div>
     <div class="container-custom relative z-10">
         <div class="py-16">
-            <!-- EMERGENCY CTA -->
             <div
                 class="max-w-5xl mx-auto text-center">
                 <span
@@ -432,10 +431,8 @@ include "./include/herobanner.php";
                     </a>
                 </div>
             </div>
-            <!-- LOCATION CARDS -->
             <div
                 class="grid md:grid-cols-2 gap-8 mt-12">
-                <!-- KATHMANDU -->
                 <div
                     class="bg-white p-8">
                     <div
@@ -469,7 +466,6 @@ include "./include/herobanner.php";
                         <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
-                <!-- POKHARA -->
                 <div
                     class="bg-white p-8">
                     <div
@@ -507,5 +503,5 @@ include "./include/herobanner.php";
            
         </div>
     </div>
-</section>
+</section> -->
 <?php include "./include/footer.php"; ?>

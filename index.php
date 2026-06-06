@@ -125,7 +125,7 @@
                     international-standard healthcare services to residents,
                     expatriates, travelers and organizations.
                 </p>
-                <a href="#"
+                <a href="./about.php"
                     class="inline-flex mt-8 bg-primary text-white px-7 py-4 font-semibold hover:bg-primary/90 transition">
                     Learn More
                 </a>
@@ -148,7 +148,7 @@
                     Specialized Medical Services
                 </h2>
             </div>
-            <a href="#"
+            <a href="./services.php"
                 class="hidden lg:inline-flex items-center gap-2 text-primary font-semibold hover:text-secondary transition">
                 View All
                 <i class="fa-solid fa-arrow-right"></i>
@@ -184,7 +184,7 @@
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#" class="speciality-card group">
+                <a href="./services.php" class="speciality-card group">
                     <img src="./assets/img/speciality/img11.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
@@ -208,7 +208,7 @@
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#" class="speciality-card group">
+                <a href="./services.php" class="speciality-card group">
                     <img src="./assets/img/speciality/img1.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
@@ -232,7 +232,7 @@
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#" class="speciality-card group">
+                <a href="./services.php" class="speciality-card group">
                     <img src="./assets/img/speciality/img11.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
@@ -256,7 +256,7 @@
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#" class="speciality-card group">
+                <a href="./services.php" class="speciality-card group">
                     <img src="./assets/img/speciality/img1.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
@@ -280,7 +280,7 @@
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#" class="speciality-card group">
+                <a href="./services.php" class="speciality-card group">
                     <img src="./assets/img/speciality/img11.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
@@ -304,7 +304,7 @@
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#" class="speciality-card group">
+                <a href="./services.php" class="speciality-card group">
                     <img src="./assets/img/speciality/img1.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
@@ -328,7 +328,7 @@
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#" class="speciality-card group">
+                <a href="./services.php" class="speciality-card group">
                     <img src="./assets/img/speciality/img11.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
@@ -352,7 +352,7 @@
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#" class="speciality-card group">
+                <a href="./services.php" class="speciality-card group">
                     <img src="./assets/img/speciality/img1.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
@@ -376,7 +376,7 @@
             </div>
             <!-- CARD -->
             <div class="swiper-slide">
-                <a href="#" class="speciality-card group">
+                <a href="./services.php" class="speciality-card group">
                     <img src="./assets/img/speciality/img11.jpg"
                         class="speciality-image">
                     <div class="speciality-overlay"></div>
@@ -572,7 +572,7 @@ include "./include/historytimelinesection.php";
                     diagnostic facilities and patient-focused innovations at CIWEC.
                 </p>
             </div>
-            <a href="#"
+            <a href="./services.php"
                 class="inline-flex items-center gap-3 text-primary font-bold group">
                 View All Updates
                 <span
@@ -607,7 +607,7 @@ include "./include/historytimelinesection.php";
                             Get expert medical advice from experienced specialists
                             before making important treatment decisions.
                         </p>
-                        <a href="#"
+                        <a href="./bookappointment.php"
                             class="inline-flex items-center gap-3 text-primary font-bold group">
                             Learn More
                             <span
@@ -637,7 +637,7 @@ include "./include/historytimelinesection.php";
                             Reliable medication delivered safely to your home
                             with professional pharmacy support.
                         </p>
-                        <a href="#"
+                        <a href="./doctors.php"
                             class="inline-flex items-center gap-3 text-primary font-bold mt-6">
                             Learn More
                             <i class="fa-solid fa-arrow-right text-secondary"></i>
@@ -659,7 +659,7 @@ include "./include/historytimelinesection.php";
                             Comprehensive diagnostic services powered by modern
                             equipment and expert laboratory professionals.
                         </p>
-                        <a href="#"
+                        <a href="./doctors.php"
                             class="inline-flex items-center gap-3 text-primary font-bold mt-6">
                             Learn More
                             <i class="fa-solid fa-arrow-right text-secondary"></i>
@@ -681,7 +681,7 @@ include "./include/historytimelinesection.php";
                             Preventive healthcare programs tailored for
                             individuals, families and corporate clients.
                         </p>
-                        <a href="#"
+                        <a href="./healthscreening.php"
                             class="inline-flex items-center gap-3 text-primary font-bold mt-6">
                             Learn More
                             <i class="fa-solid fa-arrow-right text-secondary"></i>
@@ -703,7 +703,7 @@ include "./include/historytimelinesection.php";
                             Access expert consultations from experienced doctors
                             across multiple medical specialties.
                         </p>
-                        <a href="#"
+                        <a href="./bookappointment.php"
                             class="inline-flex items-center gap-3 text-primary font-bold mt-6">
                             Learn More
                             <i class="fa-solid fa-arrow-right text-secondary"></i>
@@ -745,7 +745,7 @@ include "./include/historytimelinesection.php";
                     <p class="text-secondary font-semibold mb-5">
                         Senior Consultant Physician
                     </p>
-                    <a href="#" class="inline-flex items-center gap-3 text-primary font-bold text-sm group">
+                    <a href="./doctors.php" class="inline-flex items-center gap-3 text-primary font-bold text-sm group">
                         View Profile
                         <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
                             <i class="fa-solid fa-arrow-right text-[11px]"></i>
@@ -775,7 +775,7 @@ include "./include/historytimelinesection.php";
                     <p class="text-secondary font-semibold mb-5">
                         Travel Medicine Specialist
                     </p>
-                    <a href="#"
+                    <a href="./doctors.php"
                         class="inline-flex items-center gap-3 text-primary font-bold text-sm group">
                         View Profile
                         <span class="w-8 h-8 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
@@ -800,7 +800,7 @@ include "./include/historytimelinesection.php";
                     from Nepal and around the world.
                 </p>
                 <div>
-                    <a href="#"
+                    <a href="./doctors.php"
                         class="btn-primary">
                         View All Doctors
                     </a>
@@ -1011,11 +1011,11 @@ include "./include/historytimelinesection.php";
                 </p>
                 <div
                     class="flex flex-wrap gap-4">
-                    <a href="#"
+                    <a href="./about.php"
                         class="border border-primary text-white font-bold px-7 py-4 bg-primary hover:bg-secondary hover:text-white transition-all duration-300">
                         Learn More
                     </a>
-                    <a href="#"
+                    <a href="./contactus.php"
                         class="border border-primary text-primary font-bold px-7 py-4 hover:bg-primary hover:text-white transition-all duration-300">
                         Contact Us
                     </a>
@@ -1652,7 +1652,7 @@ include "./include/historytimelinesection.php";
                     research publications and hospital newsletters.
                 </p>
             </div>
-            <a href="#" class="inline-flex items-center gap-3 text-primary font-bold group">
+            <a href="./researchandpublication.php" class="inline-flex items-center gap-3 text-primary font-bold group">
                 View All Publications
                 <span class="w-9 h-9 bg-secondary text-white flex items-center justify-center transition-all duration-300 group-hover:translate-x-1">
                     <i class="fa-solid fa-arrow-right text-xs"></i>

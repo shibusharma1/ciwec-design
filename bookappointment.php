@@ -286,7 +286,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
-        <div class="text-center max-w-4xl mx-auto mb-16">
+        <div class="text-center max-w-4xl mx-auto mb-12">
             <span class="section-subtitle">
             Why Choose CIWEC
             </span>
@@ -389,7 +389,7 @@ include "./include/herobanner.php";
             <div
                 class="text-center p-8 border border-slate-200">
                 <h3
-                    class="text-primary text-5xl font-black">
+                    class="text-primary text-4xl font-black">
                     42+
                 </h3>
                 <p
@@ -400,7 +400,7 @@ include "./include/herobanner.php";
             <div
                 class="text-center p-8 border border-slate-200">
                 <h3
-                    class="text-primary text-5xl font-black">
+                    class="text-primary text-4xl font-black">
                     80+
                 </h3>
                 <p
@@ -411,7 +411,7 @@ include "./include/herobanner.php";
             <div
                 class="text-center p-8 border border-slate-200">
                 <h3
-                    class="text-primary text-5xl font-black">
+                    class="text-primary text-4xl font-black">
                     50K+
                 </h3>
                 <p
@@ -422,7 +422,7 @@ include "./include/herobanner.php";
             <div
                 class="text-center p-8 border border-slate-200">
                 <h3
-                    class="text-primary text-5xl font-black">
+                    class="text-primary text-4xl font-black">
                     24/7
                 </h3>
                 <p
@@ -439,7 +439,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-16">
+        <div class="text-center max-w-4xl mx-auto mb-12">
             <span class="section-subtitle">
             Medical Specialties
             </span>

@@ -7,7 +7,6 @@ include "./include/herobanner.php";
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <div class="grid lg:grid-cols-12 gap-16 items-center">
-            <!-- LEFT CONTENT -->
             <div class="lg:col-span-6">
                 <span class="section-subtitle">
                     Patient Education
@@ -21,14 +20,13 @@ include "./include/herobanner.php";
                     Our goal is to help patients, families, travelers
                     and communities make informed healthcare decisions.
                 </p>
-                <p class="text-slate-600 leading-8 mt-6">
+                <!-- <p class="text-slate-600 leading-8 mt-6">
                     From preventive healthcare and travel medicine
                     to altitude illness, vaccinations and disease
                     prevention, explore resources designed to support
                     healthier lives and better healthcare outcomes.
-                </p>
-                <!-- HIGHLIGHTS -->
-                <div class="grid md:grid-cols-2 gap-5 mt-10">
+                </p> -->
+                <div class="grid md:grid-cols-2 gap-5 mt-8">
                     <div class="flex gap-4">
                         <div class="w-12 h-12 bg-primary/10 flex items-center justify-center flex-shrink-0">
                             <i class="fa-solid fa-circle-check text-primary">
@@ -91,11 +89,9 @@ include "./include/herobanner.php";
                     </div>
                 </div>
             </div>
-            <!-- RIGHT IMAGE -->
             <div class="lg:col-span-6">
                 <div class="relative">
-                    <img src="./assets/img/health/healthinformation.png" alt="Health Information" class="w-full h-[650px] object-cover">
-                    <!-- FLOATING CARD -->
+                    <img src="./assets/img/medical-expert.png" alt="Health Information" class="w-full h-[520px] object-cover">
                     <div class="absolute bottom-8 left-8 bg-white p-6 shadow-xl max-w-[280px]">
                         <div class="flex items-center gap-4">
                             <div class="w-14 h-14 bg-primary text-white flex items-center justify-center">
@@ -114,8 +110,7 @@ include "./include/herobanner.php";
                 </div>
             </div>
         </div>
-        <!-- BOTTOM STATS -->
-        <div class="grid md:grid-cols-4 gap-6 mt-20">
+        <div class="grid md:grid-cols-4 gap-6 mt-12">
             <div class="bg-slate-100 border border-slate-200 p-8 text-center">
                 <h3 class="text-primary text-4xl font-black">
                     100+
@@ -155,7 +150,7 @@ include "./include/herobanner.php";
 <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
-        <div class="text-center max-w-4xl mx-auto mb-16">
+        <div class="text-center max-w-4xl mx-auto mb-12">
             <span class="section-subtitle">
                 Explore Topics
             </span>
@@ -172,7 +167,7 @@ include "./include/herobanner.php";
         <!-- CATEGORY GRID -->
         <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
             <!-- TRAVEL HEALTH -->
-            <div class="health-category group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
+            <div class="health-category group bg-white border border-slate-200 px-8 py-4 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
                 data-category="Travel Health">
                 <div class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                     <i class="fa-solid fa-earth-asia text-primary text-2xl">
@@ -185,7 +180,7 @@ include "./include/herobanner.php";
                     Essential information for international travelers,
                     vaccinations, travel safety and preventive care.
                 </p>
-                <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
+                <div class="flex justify-between items-center mt-4 pt-6 border-t border-slate-200">
                     <span class="text-secondary font-semibold">
                         25 Articles
                     </span>
@@ -194,7 +189,7 @@ include "./include/herobanner.php";
                 </div>
             </div>
             <!-- ALTITUDE ILLNESS -->
-            <div class="health-category group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
+            <div class="health-category group bg-white border border-slate-200 px-8 py-4 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
                 data-category="Altitude Illness">
                 <div class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                     <i class="fa-solid fa-mountain text-secondary text-2xl">
@@ -207,7 +202,7 @@ include "./include/herobanner.php";
                     Learn about altitude sickness,
                     acclimatization, prevention and treatment.
                 </p>
-                <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
+                <div class="flex justify-between items-center mt-4 pt-6 border-t border-slate-200">
                     <span class="text-secondary font-semibold">
                         18 Articles
                     </span>
@@ -216,7 +211,7 @@ include "./include/herobanner.php";
                 </div>
             </div>
             <!-- VACCINATIONS -->
-            <div class="health-category group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
+            <div class="health-category group bg-white border border-slate-200 px-8 py-4 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
                 data-category="Vaccinations">
                 <div class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                     <i class="fa-solid fa-syringe text-primary text-2xl">
@@ -229,7 +224,7 @@ include "./include/herobanner.php";
                     Vaccination recommendations,
                     schedules and travel vaccine guidance.
                 </p>
-                <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
+                <div class="flex justify-between items-center mt-4 pt-6 border-t border-slate-200">
                     <span class="text-secondary font-semibold">
                         15 Articles
                     </span>
@@ -239,7 +234,7 @@ include "./include/herobanner.php";
             </div>
 
             <!-- INFECTIOUS DISEASES -->
-            <div class="health-category group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
+            <div class="health-category group bg-white border border-slate-200 px-8 py-4 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
                 data-category="Infectious Diseases">
                 <div class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                     <i class="fa-solid fa-virus text-secondary text-2xl">
@@ -252,7 +247,7 @@ include "./include/herobanner.php";
                     Information on prevention,
                     symptoms and treatment options.
                 </p>
-                <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
+                <div class="flex justify-between items-center mt-4 pt-6 border-t border-slate-200">
                     <span class="text-secondary font-semibold">
                         30 Articles
                     </span>
@@ -261,7 +256,7 @@ include "./include/herobanner.php";
                 </div>
             </div>
             <!-- FAMILY HEALTH -->
-            <div class="health-category group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
+            <div class="health-category group bg-white border border-slate-200 px-8 py-4 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
                 data-category="Family Health">
                 <div class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                     <i class="fa-solid fa-people-group text-primary text-2xl">
@@ -274,7 +269,7 @@ include "./include/herobanner.php";
                     Healthcare guidance for children,
                     adults and family wellness.
                 </p>
-                <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
+                <div class="flex justify-between items-center mt-4 pt-6 border-t border-slate-200">
                     <span
                         class="text-secondary font-semibold">
                         20 Articles
@@ -284,7 +279,7 @@ include "./include/herobanner.php";
                 </div>
             </div>
             <!-- PREVENTIVE CARE -->
-            <div class="health-category group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
+            <div class="health-category group bg-white border border-slate-200 px-8 py-4 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
                 data-category="Preventive Care">
                 <div class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                     <i class="fa-solid fa-heart-pulse text-secondary text-2xl">
@@ -297,7 +292,7 @@ include "./include/herobanner.php";
                     Health screenings, wellness programs
                     and disease prevention strategies.
                 </p>
-                <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
+                <div class="flex justify-between items-center mt-4 pt-6 border-t border-slate-200">
                     <span class="text-secondary font-semibold">
                         22 Articles
                     </span>
@@ -307,7 +302,7 @@ include "./include/herobanner.php";
             </div>
         </div>
         <!-- BOTTOM CTA -->
-        <div class="mt-16 bg-primary p-10 text-center">
+        <!-- <div class="mt-16 bg-primary p-10 text-center">
             <h3 class="text-white text-3xl font-black">
                 Looking For Specific Health Information?
             </h3>
@@ -317,14 +312,14 @@ include "./include/herobanner.php";
                 or use the search feature below to find articles,
                 guides and educational resources.
             </p>
-        </div>
+        </div> -->
     </div>
 </section>
 
-<section class="section-padding bg-white overflow-hidden">
+<section class="section-padding bg-slate-200 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
-        <div class="text-center max-w-4xl mx-auto mb-16">
+        <!-- <div class="text-center max-w-4xl mx-auto mb-12">
             <span class="section-subtitle">
                 Featured Resources
             </span>
@@ -336,38 +331,35 @@ include "./include/herobanner.php";
                 information resources, prepared by CIWEC's medical
                 professionals to help you stay informed and healthy.
             </p>
-        </div>
+        </div> -->
         <!-- FEATURED GUIDE -->
-        <div class="bg-slate-100 border border-slate-200 overflow-hidden">
+        <!-- <div class="bg-slate-100 border border-slate-200 overflow-hidden">
             <div class="grid lg:grid-cols-12 items-center">
-                <!-- IMAGE -->
                 <div class="lg:col-span-5 relative">
                     <img src="./assets/img/altitudesickness.png"
                         alt=""
-                        class="w-full h-full min-h-[550px] object-cover">
+                        class="w-full h-full min-h-[500px] object-cover">
                     <div class="absolute top-6 left-6">
                         <span class="bg-secondary text-white px-4 py-2 text-sm font-bold uppercase">
                             Most Popular Guide
                         </span>
                     </div>
                 </div>
-                <!-- CONTENT -->
                 <div class="lg:col-span-7 p-10 lg:p-14">
-                    <span class="text-primary font-bold uppercase tracking-[3px]">
+                    <span class="section-subtitle">
                         Altitude Medicine
                     </span>
-                    <h3 class="text-primary text-4xl font-black mt-5 leading-tight">
+                    <h3 class="text-primary text-4xl font-black leading-tight">
                         Complete Guide To Altitude Sickness
                     </h3>
-                    <p class="text-slate-600 mt-8 leading-8">
+                    <p class="text-slate-600 mt-6 leading-8">
                         Learn how altitude affects the body,
                         understand early warning signs,
                         recognize symptoms and discover
                         proven prevention strategies for
                         safe trekking and mountain travel.
                     </p>
-                    <!-- FEATURES -->
-                    <div class="grid md:grid-cols-2 gap-5 mt-10">
+                    <div class="grid md:grid-cols-2 gap-5 mt-8">
                         <div class="flex items-center gap-3">
                             <i class="fa-solid fa-circle-check text-secondary">
                             </i>
@@ -399,9 +391,8 @@ include "./include/herobanner.php";
                             </span>
                         </div>
                     </div>
-                    <!-- ACTIONS -->
                     <div
-                        class="flex flex-wrap gap-4 mt-10">
+                        class="flex flex-wrap gap-4 mt-8">
                         <button
                             class="btn-primary">
                             Read Full Guide
@@ -413,8 +404,21 @@ include "./include/herobanner.php";
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- OTHER GUIDES -->
+        <div class="text-center max-w-4xl mx-auto mb-12">
+            <span class="section-subtitle">
+                Featured Resources
+            </span>
+            <h2 class="section-title">
+                Essential Health Guides
+            </h2>
+            <p class="text-slate-600 mt-6 leading-8">
+                Explore some of our most frequently accessed health
+                information resources, prepared by CIWEC's medical
+                professionals to help you stay informed and healthy.
+            </p>
+        </div>
         <div
             class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-12">
             <!-- GUIDE -->
@@ -423,7 +427,7 @@ include "./include/herobanner.php";
                 <img
                     src="./assets/img/travel-health-guide.png"
                     class="w-full h-60 object-cover">
-                <div class="p-8">
+                <div class="px-8 py-4">
                     <span
                         class="text-secondary text-sm font-bold uppercase">
                         Travel Health
@@ -452,7 +456,7 @@ include "./include/herobanner.php";
                 <img
                     src="./assets/img/vaccination-center.png"
                     class="w-full h-60 object-cover">
-                <div class="p-8">
+                <div class="px-8 py-4">
                     <span
                         class="text-secondary text-sm font-bold uppercase">
                         Vaccinations
@@ -481,7 +485,7 @@ include "./include/herobanner.php";
                 <img
                     src="./assets/img/preventive-guide.png"
                     class="w-full h-60 object-cover">
-                <div class="p-8">
+                <div class="px-8 py-4">
                     <span
                         class="text-secondary text-sm font-bold uppercase">
                         Preventive Care
@@ -514,7 +518,7 @@ include "./include/herobanner.php";
     <div class="container-custom">
         <!-- HEADER -->
         <div
-            class="text-center max-w-4xl mx-auto mb-16">
+            class="text-center max-w-4xl mx-auto mb-12">
             <span class="section-subtitle">
                 Medical Resource Center
             </span>
@@ -902,12 +906,12 @@ include "./include/herobanner.php";
     <div class="container-custom">
         <!-- HEADER -->
         <div
-            class="text-center max-w-4xl mx-auto mb-16">
+            class="text-center max-w-4xl mx-auto mb-12">
             <span class="section-subtitle">
                 Travel Medicine Expertise
             </span>
             <h2 class="section-title">
-                CIWEC Travel Health Center
+                Essential Travel Health Preparation
             </h2>
             <p
                 class="text-slate-600 mt-6 leading-8">
@@ -918,11 +922,10 @@ include "./include/herobanner.php";
             </p>
         </div>
         <!-- MAIN FEATURE -->
-        <div
+        <!-- <div
             class="bg-primary overflow-hidden">
             <div
                 class="grid lg:grid-cols-12 items-center">
-                <!-- CONTENT -->
                 <div
                     class="lg:col-span-7 p-10 lg:p-14">
                     <span
@@ -991,7 +994,6 @@ include "./include/herobanner.php";
                         </button>
                     </div>
                 </div>
-                <!-- IMAGE -->
                 <div
                     class="lg:col-span-5">
                     <img
@@ -1000,10 +1002,10 @@ include "./include/herobanner.php";
                         class="w-full h-full min-h-[500px] object-cover">
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- TOPICS -->
         <div
-            class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-16">
+            class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-12">
             <!-- CARD -->
             <div
                 class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
@@ -1120,7 +1122,7 @@ include "./include/herobanner.php";
             </div>
         </div>
         <!-- QUICK STATS -->
-        <div
+        <!-- <div
             class="grid md:grid-cols-4 gap-6 mt-16">
             <div
                 class="bg-slate-100 border border-slate-200 p-8 text-center">
@@ -1166,132 +1168,105 @@ include "./include/herobanner.php";
                     Patient Support
                 </p>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 
-<section class="section-padding bg-slate-100 overflow-hidden">
+<section class="section-padding bg-slate-200">
     <div class="container-custom">
-        <!-- HEADER -->
-        <div
-            class="text-center max-w-4xl mx-auto mb-16">
+        <div class="text-center mb-12">
             <span class="section-subtitle">
                 Frequently Asked Questions
             </span>
-            <h2 class="section-title">
+            <h2 class="text-primary text-4xl font-black">
                 Health Information FAQs
             </h2>
-            <p
-                class="text-slate-600 mt-6 leading-8">
-                Find answers to common questions about travel health,
-                altitude illness, vaccinations and preventive healthcare.
-            </p>
         </div>
-        <!-- FAQS -->
-        <div
-            class="max-w-5xl mx-auto space-y-4">
-            <!-- FAQ 1 -->
-            <div
-                class="faq-item bg-white border border-slate-200">
-                <button
-                    class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                    <span
-                        class="text-primary text-lg font-bold">
+        <div class="max-w-4xl mx-auto space-y-4">
+            <div class="faq-item active">
+                <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
+                    <span class="text-primary font-bold text-lg">
                         How can I prevent altitude sickness while trekking?
                     </span>
-                    <i
-                        class="fa-solid fa-plus faq-icon text-secondary">
-                    </i>
+                    <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
                 </button>
-                <div
-                    class="faq-content hidden px-6 pb-6">
-                    <p
-                        class="text-slate-600 leading-8">
+                <div class="faq-content">
+                    <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
                         Ascend gradually, stay hydrated,
                         avoid excessive alcohol and allow
                         adequate time for acclimatization.
                         Seek medical advice before high-altitude travel.
-                    </p>
+                    </div>
                 </div>
             </div>
             <!-- FAQ 2 -->
-            <div
-                class="faq-item bg-white border border-slate-200">
-                <button
-                    class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                    <span
-                        class="text-primary text-lg font-bold">
+            <div class="faq-item">
+                <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
+                    <span class="text-primary font-bold text-lg">
                         What vaccinations should I consider before traveling?
                     </span>
-                    <i
-                        class="fa-solid fa-plus faq-icon text-secondary">
-                    </i>
+                    <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
                 </button>
-                <div
-                    class="faq-content hidden px-6 pb-6">
-                    <p class="text-slate-600 leading-8">
+                <div class="faq-content">
+                    <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
                         Vaccination recommendations depend
                         on your destination, travel duration
                         and medical history. Common travel
                         vaccines may include Hepatitis A,
                         Typhoid, Rabies and others.
-                    </p>
+                    </div>
                 </div>
             </div>
             <!-- FAQ 3 -->
-            <div class="faq-item bg-white border border-slate-200">
-                <button class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                    <span class="text-primary text-lg font-bold">
+            <div class="faq-item">
+                <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
+                    <span class="text-primary font-bold text-lg">
                         How can I avoid traveler's diarrhea?
                     </span>
-                    <i class="fa-solid fa-plus faq-icon text-secondary">
-                    </i>
+                    <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
                 </button>
-                <div class="faq-content hidden px-6 pb-6">
-                    <p class="text-slate-600 leading-8">
+                <div class="faq-content">
+                    <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
                         Drink safe water, eat thoroughly
                         cooked food, practice good hand
                         hygiene and avoid questionable
                         street food sources.
-                    </p>
+                    </div>
                 </div>
             </div>
             <!-- FAQ 4 -->
-            <div class="faq-item bg-white border border-slate-200">
-                <button class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                    <span class="text-primary text-lg font-bold">
+            <div class="faq-item">
+                <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
+                    <span class="text-primary font-bold text-lg">
                         When should I seek medical attention while traveling?
                     </span>
-                    <i class="fa-solid fa-plus faq-icon text-secondary">
-                    </i>
+                    <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
                 </button>
-                <div class="faq-content hidden px-6 pb-6">
-                    <p class="text-slate-600 leading-8">
+                <div class="faq-content">
+                    <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
                         Seek immediate medical attention if
                         you experience severe breathing
                         difficulty, chest pain, persistent
                         fever, dehydration or symptoms of
                         severe altitude illness.
-                    </p>
+                    </div>
                 </div>
             </div>
             <!-- FAQ 5 -->
-            <div class="faq-item bg-white border border-slate-200">
-                <button class="faq-btn w-full flex items-center justify-between p-6 text-left">
-                    <span class="text-primary text-lg font-bold">
+            <div class="faq-item">
+                <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
+                    <span class="text-primary font-bold text-lg">
                         What should I include in a travel medical kit?
                     </span>
-                    <i
-                        class="fa-solid fa-plus faq-icon text-secondary">
-                    </i>
+                    <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
                 </button>
-                <div class="faq-content hidden px-6 pb-6">
-                    <p class="text-slate-600 leading-8">
+                <div class="faq-content">
+                    <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
                         A travel medical kit should include
                         prescription medications, pain relievers,
                         antiseptics, bandages, oral rehydration
                         salts and destination-specific medications.
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1310,67 +1285,13 @@ include "./include/herobanner.php";
                 Contact Our Team
             </a>
         </div>
+        
     </div>
 </section>
-<script>
-    const faqButtons =
-        document.querySelectorAll(".faq-btn");
-
-    faqButtons.forEach(button => {
-
-        button.addEventListener("click", () => {
-
-            const currentItem =
-                button.parentElement;
-
-            const currentContent =
-                currentItem.querySelector(".faq-content");
-
-            const currentIcon =
-                currentItem.querySelector(".faq-icon");
-
-            document
-                .querySelectorAll(".faq-item")
-                .forEach(item => {
-
-                    if (item !== currentItem) {
-
-                        item.querySelector(".faq-content")
-                            .classList.add("hidden");
-
-                        item.querySelector(".faq-icon")
-                            .classList.remove("fa-minus");
-
-                        item.querySelector(".faq-icon")
-                            .classList.add("fa-plus");
-
-                    }
-
-                });
-
-            currentContent.classList.toggle("hidden");
-
-            if (currentContent.classList.contains("hidden")) {
-
-                currentIcon.classList.remove("fa-minus");
-                currentIcon.classList.add("fa-plus");
-
-            } else {
-
-                currentIcon.classList.remove("fa-plus");
-                currentIcon.classList.add("fa-minus");
-
-            }
-
-        });
-
-    });
-</script>
 <!-- ========================================= -->
 <!-- EMERGENCY HEALTH RESOURCES -->
 <!-- ========================================= -->
-<section class="section-padding relative overflow-hidden bg-primary">
-    <!-- BACKGROUND SHAPES -->
+<!-- <section class="section-padding relative overflow-hidden bg-primary">
     <div
         class="absolute
         top-0
@@ -1398,7 +1319,6 @@ include "./include/herobanner.php";
         relative
         z-10">
         <div>
-            <!-- HEADER -->
             <div
                 class="text-center max-w-4xl mx-auto">
                 <span
@@ -1433,10 +1353,8 @@ include "./include/herobanner.php";
                     seek medical attention immediately.
                 </p>
             </div>
-            <!-- WARNING SIGNS -->
             <div
                 class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-20">
-                <!-- ITEM -->
                 <div
                     class="bg-white/5 border border-white/10 p-8">
                     <div
@@ -1456,7 +1374,6 @@ include "./include/herobanner.php";
                         respiratory distress.
                     </p>
                 </div>
-                <!-- ITEM -->
                 <div
                     class="bg-white/5 border border-white/10 p-8">
                     <div
@@ -1476,7 +1393,6 @@ include "./include/herobanner.php";
                         suggestive of heart problems.
                     </p>
                 </div>
-                <!-- ITEM -->
                 <div
                     class="bg-white/5 border border-white/10 p-8">
                     <div
@@ -1496,7 +1412,6 @@ include "./include/herobanner.php";
                         or stroke symptoms.
                     </p>
                 </div>
-                <!-- ITEM -->
                 <div
                     class="bg-white/5 border border-white/10 p-8">
                     <div
@@ -1517,12 +1432,10 @@ include "./include/herobanner.php";
                     </p>
                 </div>
             </div>
-            <!-- ACTION PANEL -->
             <div
                 class="bg-white mt-20 p-10 lg:p-14">
                 <div
                     class="grid lg:grid-cols-12 gap-10 items-center">
-                    <!-- LEFT -->
                     <div
                         class="lg:col-span-8">
                         <h3
@@ -1536,7 +1449,6 @@ include "./include/herobanner.php";
                             or visit the nearest emergency department.
                         </p>
                     </div>
-                    <!-- RIGHT -->
                     <div
                         class="lg:col-span-4">
                         <div
@@ -1562,7 +1474,7 @@ include "./include/herobanner.php";
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php include "./include/footer.php";
 ?>

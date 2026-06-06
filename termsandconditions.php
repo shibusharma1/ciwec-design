@@ -15,16 +15,16 @@ include "./include/herobanner.php";
                     <img
                         src="./assets/img/history/history2.webp"
                         alt="Terms Overview"
-                        class="w-full h-[750px] object-cover">
+                        class="w-full h-[480px] object-cover">
                     <!-- FLOATING CARD -->
                     <div
-                        class="absolute bottom-8 left-8 bg-white shadow-2xl p-6 max-w-[320px]">
+                        class="absolute bottom-6 left-6 bg-white shadow-2xl p-6 max-w-[320px]">
                         <span
                             class="text-secondary font-bold uppercase text-sm">
                             Legal Agreement
                         </span>
                         <h3
-                            class="text-primary text-2xl font-black mt-3">
+                            class="text-primary text-2xl font-black mt-2">
                             Clear Expectations
                         </h3>
                         <p
@@ -46,22 +46,22 @@ include "./include/herobanner.php";
                     Welcome To CIWEC Hospital
                 </h2>
                 <p
-                    class="text-slate-600 mt-8 leading-8">
+                    class="text-slate-600 mt-6 leading-8">
                     These Terms & Conditions govern your access to and
                     use of our website, digital platforms, appointment
                     services, healthcare interactions and related
                     communications.
                 </p>
-                <p
-                    class="text-slate-600 mt-6 leading-8">
+                <!-- <p
+                    class="text-slate-600 mt-4 leading-8">
                     By accessing our website, requesting appointments
                     or using our services, you agree to comply with
                     these terms and all applicable laws, regulations
                     and hospital policies.
-                </p>
+                </p> -->
                 <!-- KEY POINTS -->
                 <div
-                    class="space-y-5 mt-10">
+                    class="space-y-5 mt-8">
                     <div class="flex gap-4">
                         <i
                             class="fa-solid fa-circle-check text-secondary text-xl mt-1">
@@ -98,9 +98,8 @@ include "./include/herobanner.php";
             </div>
         </div>
         <!-- TERMS PILLARS -->
-        <div
+        <!-- <div
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-24">
-            <!-- PATIENT CARE -->
             <div
                 class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
                 <div
@@ -119,7 +118,6 @@ include "./include/herobanner.php";
                     healthcare services and patient interactions.
                 </p>
             </div>
-            <!-- WEBSITE ACCESS -->
             <div
                 class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
@@ -138,7 +136,6 @@ include "./include/herobanner.php";
                     website and digital services.
                 </p>
             </div>
-            <!-- APPOINTMENTS -->
             <div
                 class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
                 <div
@@ -157,7 +154,6 @@ include "./include/herobanner.php";
                     scheduling and service availability.
                 </p>
             </div>
-            <!-- LEGAL COMPLIANCE -->
             <div
                 class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
                 <div
@@ -177,7 +173,6 @@ include "./include/herobanner.php";
                 </p>
             </div>
         </div>
-        <!-- TRUST STRIP -->
         <div
             class="mt-24 bg-primary overflow-hidden">
             <div
@@ -213,15 +208,12 @@ include "./include/herobanner.php";
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
-<!-- ========================================= -->
-<!-- ACCEPTANCE OF TERMS -->
-<!-- ========================================= -->
-<section class="section-padding bg-slate-100 overflow-hidden">
+
+<!-- <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
-        <!-- HEADER -->
         <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
                 Acceptance Of Terms
@@ -237,15 +229,12 @@ include "./include/herobanner.php";
                 Terms & Conditions.
             </p>
         </div>
-        <!-- TIMELINE -->
         <div class="relative">
-            <!-- DESKTOP CONNECTOR -->
             <div
                 class="hidden xl:block absolute top-24 left-[10%] right-[10%] h-[2px] bg-slate-300">
             </div>
             <div
                 class="grid md:grid-cols-2 xl:grid-cols-5 gap-10">
-                <!-- STEP 1 -->
                 <div class="relative text-center">
                     <div
                         class="w-44 h-44 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -268,7 +257,6 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                 </div>
-                <!-- STEP 2 -->
                 <div class="relative text-center">
                     <div
                         class="w-44 h-44 mx-auto bg-secondary rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -291,7 +279,6 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                 </div>
-                <!-- STEP 3 -->
                 <div class="relative text-center">
                     <div
                         class="w-44 h-44 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -314,7 +301,6 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                 </div>
-                <!-- STEP 4 -->
                 <div class="relative text-center">
                     <div
                         class="w-44 h-44 mx-auto bg-secondary rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -337,7 +323,6 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                 </div>
-                <!-- STEP 5 -->
                 <div class="relative text-center">
                     <div
                         class="w-44 h-44 mx-auto bg-green-600 rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -362,10 +347,8 @@ include "./include/herobanner.php";
                 </div>
             </div>
         </div>
-        <!-- EXPLANATION SECTION -->
         <div
             class="grid lg:grid-cols-12 gap-12 items-center mt-28">
-            <!-- IMAGE -->
             <div
                 class="lg:col-span-5">
                 <img
@@ -373,7 +356,6 @@ include "./include/herobanner.php";
                     alt="Acceptance Of Terms"
                     class="w-full h-[600px] object-cover">
             </div>
-            <!-- CONTENT -->
             <div
                 class="lg:col-span-7">
                 <span
@@ -421,7 +403,6 @@ include "./include/herobanner.php";
                 </div>
             </div>
         </div>
-        <!-- NOTICE STRIP -->
         <div
             class="mt-24 bg-primary overflow-hidden">
             <div
@@ -458,478 +439,10 @@ include "./include/herobanner.php";
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<!-- ========================================= -->
-<!-- APPOINTMENTS & BOOKINGS -->
-<!-- ========================================= -->
-<section class="section-padding bg-white overflow-hidden">
-    <div class="container-custom">
-        <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-16">
-            <span class="section-subtitle">
-                Appointments & Bookings
-            </span>
-            <h2 class="section-title">
-                Scheduling Healthcare Services
-            </h2>
-            <p
-                class="text-slate-600 mt-6 leading-8">
-                Our appointment system is designed to help patients
-                access healthcare services efficiently. Appointment
-                requests are subject to availability, confirmation
-                and operational requirements.
-            </p>
-        </div>
-        <!-- BOOKING CARDS -->
-        <div
-            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
-            <!-- APPOINTMENT REQUEST -->
-            <div
-                class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
-                <div
-                    class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-calendar-plus text-primary text-3xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Appointment Requests
-                </h3>
-                <p
-                    class="text-slate-600 mt-5 leading-7">
-                    Online submissions are considered appointment
-                    requests and may require review before scheduling.
-                </p>
-            </div>
-            <!-- CONFIRMATION -->
-            <div
-                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
-                <div
-                    class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-circle-check text-secondary text-3xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Confirmation
-                </h3>
-                <p
-                    class="text-slate-600 mt-5 leading-7">
-                    An appointment is considered scheduled only after
-                    confirmation by the hospital.
-                </p>
-            </div>
-            <!-- CANCELLATION -->
-            <div
-                class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
-                <div
-                    class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-calendar-xmark text-primary text-3xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Cancellation Policy
-                </h3>
-                <p
-                    class="text-slate-600 mt-5 leading-7">
-                    Patients are encouraged to provide advance notice
-                    when cancelling or rescheduling appointments.
-                </p>
-            </div>
-            <!-- AVAILABILITY -->
-            <div
-                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
-                <div
-                    class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-clock text-secondary text-3xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Service Availability
-                </h3>
-                <p
-                    class="text-slate-600 mt-5 leading-7">
-                    Appointment times and healthcare services may
-                    vary depending on availability.
-                </p>
-            </div>
-        </div>
-        <!-- BOOKING PROCESS -->
-        <div
-            class="mt-24">
-            <div
-                class="text-center mb-16">
-                <span
-                    class="text-secondary font-bold uppercase tracking-[3px]">
-                    Booking Process
-                </span>
-                <h3
-                    class="text-primary text-4xl font-black mt-4">
-                    How Appointment Requests Work
-                </h3>
-            </div>
-            <div
-                class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 relative">
-                <!-- DESKTOP LINE -->
-                <div
-                    class="hidden xl:block absolute top-12 left-[12%] right-[12%] h-[2px] bg-slate-200">
-                </div>
-                <!-- STEP 1 -->
-                <div class="relative text-center">
-                    <div
-                        class="w-24 h-24 mx-auto bg-primary rounded-full flex items-center justify-center relative z-10">
-                        <span
-                            class="text-white text-2xl font-black">
-                            1
-                        </span>
-                    </div>
-                    <h4
-                        class="text-primary text-xl font-black mt-6">
-                        Submit Request
-                    </h4>
-                    <p
-                        class="text-slate-600 mt-3">
-                        Complete the booking form.
-                    </p>
-                </div>
-                <!-- STEP 2 -->
-                <div class="relative text-center">
-                    <div
-                        class="w-24 h-24 mx-auto bg-secondary rounded-full flex items-center justify-center relative z-10">
-                        <span
-                            class="text-white text-2xl font-black">
-                            2
-                        </span>
-                    </div>
-                    <h4
-                        class="text-primary text-xl font-black mt-6">
-                        Review
-                    </h4>
-                    <p
-                        class="text-slate-600 mt-3">
-                        Hospital staff review availability.
-                    </p>
-                </div>
-                <!-- STEP 3 -->
-                <div class="relative text-center">
-                    <div
-                        class="w-24 h-24 mx-auto bg-primary rounded-full flex items-center justify-center relative z-10">
-                        <span
-                            class="text-white text-2xl font-black">
-                            3
-                        </span>
-                    </div>
-                    <h4
-                        class="text-primary text-xl font-black mt-6">
-                        Confirmation
-                    </h4>
-                    <p
-                        class="text-slate-600 mt-3">
-                        Appointment details are confirmed.
-                    </p>
-                </div>
-                <!-- STEP 4 -->
-                <div class="relative text-center">
-                    <div
-                        class="w-24 h-24 mx-auto bg-green-600 rounded-full flex items-center justify-center relative z-10">
-                        <span
-                            class="text-white text-2xl font-black">
-                            4
-                        </span>
-                    </div>
-                    <h4
-                        class="text-primary text-xl font-black mt-6">
-                        Attend Visit
-                    </h4>
-                    <p
-                        class="text-slate-600 mt-3">
-                        Receive healthcare services.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- IMPORTANT NOTICE -->
-        <div
-            class="mt-24 bg-primary overflow-hidden">
-            <div
-                class="grid lg:grid-cols-12 items-center">
-                <div
-                    class="lg:col-span-8 p-10 lg:p-14">
-                    <span
-                        class="text-secondary font-bold uppercase tracking-[3px]">
-                        Important Information
-                    </span>
-                    <h3
-                        class="text-white text-4xl font-black mt-5">
-                        Appointment Requests Do Not
-                        Guarantee Availability
-                    </h3>
-                    <p
-                        class="text-white/80 mt-6 leading-8">
-                        Appointment requests are subject to provider
-                        availability, scheduling requirements and
-                        operational considerations. Confirmation
-                        will be provided when an appointment is approved.
-                    </p>
-                </div>
-                <div
-                    class="lg:col-span-4 flex items-center justify-center p-10">
-                    <div class="text-center">
-                        <i
-                            class="fa-solid fa-calendar-days text-secondary text-7xl">
-                        </i>
-                        <h4
-                            class="text-white text-2xl font-black mt-6">
-                            Scheduling Policy
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- ========================================= -->
-<!-- APPOINTMENTS & BOOKINGS -->
-<!-- ========================================= -->
-<section class="section-padding bg-white overflow-hidden">
-    <div class="container-custom">
-        <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-16">
-            <span class="section-subtitle">
-                Appointments & Bookings
-            </span>
-            <h2 class="section-title">
-                Scheduling Healthcare Services
-            </h2>
-            <p
-                class="text-slate-600 mt-6 leading-8">
-                Our appointment system is designed to help patients
-                access healthcare services efficiently. Appointment
-                requests are subject to availability, confirmation
-                and operational requirements.
-            </p>
-        </div>
-        <!-- BOOKING CARDS -->
-        <div
-            class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
-            <!-- APPOINTMENT REQUEST -->
-            <div
-                class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
-                <div
-                    class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-calendar-plus text-primary text-3xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Appointment Requests
-                </h3>
-                <p
-                    class="text-slate-600 mt-5 leading-7">
-                    Online submissions are considered appointment
-                    requests and may require review before scheduling.
-                </p>
-            </div>
-            <!-- CONFIRMATION -->
-            <div
-                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
-                <div
-                    class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-circle-check text-secondary text-3xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Confirmation
-                </h3>
-                <p
-                    class="text-slate-600 mt-5 leading-7">
-                    An appointment is considered scheduled only after
-                    confirmation by the hospital.
-                </p>
-            </div>
-            <!-- CANCELLATION -->
-            <div
-                class="group bg-slate-100 border border-slate-200 p-8 hover:border-primary hover:-translate-y-2 transition-all duration-500">
-                <div
-                    class="w-20 h-20 bg-primary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-calendar-xmark text-primary text-3xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Cancellation Policy
-                </h3>
-                <p
-                    class="text-slate-600 mt-5 leading-7">
-                    Patients are encouraged to provide advance notice
-                    when cancelling or rescheduling appointments.
-                </p>
-            </div>
-            <!-- AVAILABILITY -->
-            <div
-                class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
-                <div
-                    class="w-20 h-20 bg-secondary/10 flex items-center justify-center mb-6">
-                    <i
-                        class="fa-solid fa-clock text-secondary text-3xl">
-                    </i>
-                </div>
-                <h3
-                    class="text-primary text-2xl font-black">
-                    Service Availability
-                </h3>
-                <p
-                    class="text-slate-600 mt-5 leading-7">
-                    Appointment times and healthcare services may
-                    vary depending on availability.
-                </p>
-            </div>
-        </div>
-        <!-- BOOKING PROCESS -->
-        <div
-            class="mt-24">
-            <div
-                class="text-center mb-16">
-                <span
-                    class="text-secondary font-bold uppercase tracking-[3px]">
-                    Booking Process
-                </span>
-                <h3
-                    class="text-primary text-4xl font-black mt-4">
-                    How Appointment Requests Work
-                </h3>
-            </div>
-            <div
-                class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 relative">
-                <!-- DESKTOP LINE -->
-                <div
-                    class="hidden xl:block absolute top-12 left-[12%] right-[12%] h-[2px] bg-slate-200">
-                </div>
-                <!-- STEP 1 -->
-                <div class="relative text-center">
-                    <div
-                        class="w-24 h-24 mx-auto bg-primary rounded-full flex items-center justify-center relative z-10">
-                        <span
-                            class="text-white text-2xl font-black">
-                            1
-                        </span>
-                    </div>
-                    <h4
-                        class="text-primary text-xl font-black mt-6">
-                        Submit Request
-                    </h4>
-                    <p
-                        class="text-slate-600 mt-3">
-                        Complete the booking form.
-                    </p>
-                </div>
-                <!-- STEP 2 -->
-                <div class="relative text-center">
-                    <div
-                        class="w-24 h-24 mx-auto bg-secondary rounded-full flex items-center justify-center relative z-10">
-                        <span
-                            class="text-white text-2xl font-black">
-                            2
-                        </span>
-                    </div>
-                    <h4
-                        class="text-primary text-xl font-black mt-6">
-                        Review
-                    </h4>
-                    <p
-                        class="text-slate-600 mt-3">
-                        Hospital staff review availability.
-                    </p>
-                </div>
-                <!-- STEP 3 -->
-                <div class="relative text-center">
-                    <div
-                        class="w-24 h-24 mx-auto bg-primary rounded-full flex items-center justify-center relative z-10">
-                        <span
-                            class="text-white text-2xl font-black">
-                            3
-                        </span>
-                    </div>
-                    <h4
-                        class="text-primary text-xl font-black mt-6">
-                        Confirmation
-                    </h4>
-                    <p
-                        class="text-slate-600 mt-3">
-                        Appointment details are confirmed.
-                    </p>
-                </div>
-                <!-- STEP 4 -->
-                <div class="relative text-center">
-                    <div
-                        class="w-24 h-24 mx-auto bg-green-600 rounded-full flex items-center justify-center relative z-10">
-                        <span
-                            class="text-white text-2xl font-black">
-                            4
-                        </span>
-                    </div>
-                    <h4
-                        class="text-primary text-xl font-black mt-6">
-                        Attend Visit
-                    </h4>
-                    <p
-                        class="text-slate-600 mt-3">
-                        Receive healthcare services.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- IMPORTANT NOTICE -->
-        <div
-            class="mt-24 bg-primary overflow-hidden">
-            <div
-                class="grid lg:grid-cols-12 items-center">
-                <div
-                    class="lg:col-span-8 p-10 lg:p-14">
-                    <span
-                        class="text-secondary font-bold uppercase tracking-[3px]">
-                        Important Information
-                    </span>
-                    <h3
-                        class="text-white text-4xl font-black mt-5">
-                        Appointment Requests Do Not
-                        Guarantee Availability
-                    </h3>
-                    <p
-                        class="text-white/80 mt-6 leading-8">
-                        Appointment requests are subject to provider
-                        availability, scheduling requirements and
-                        operational considerations. Confirmation
-                        will be provided when an appointment is approved.
-                    </p>
-                </div>
-                <div
-                    class="lg:col-span-4 flex items-center justify-center p-10">
-                    <div class="text-center">
-                        <i
-                            class="fa-solid fa-calendar-days text-secondary text-7xl">
-                        </i>
-                        <h4
-                            class="text-white text-2xl font-black mt-6">
-                            Scheduling Policy
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+
 <!-- ========================================= -->
 <!-- WEBSITE USAGE RULES -->
 <!-- ========================================= -->
@@ -1167,8 +680,7 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
-        <!-- HEADER -->
-        <div class="text-center max-w-4xl mx-auto mb-16">
+        <!-- <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
                 Limitation Of Liability
             </span>
@@ -1183,10 +695,8 @@ include "./include/herobanner.php";
                 our control.
             </p>
         </div>
-        <!-- LIABILITY CARDS -->
         <div
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
-            <!-- WEBSITE AVAILABILITY -->
             <div
                 class="group bg-white border border-slate-200 hover:border-primary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
                 <div class="h-2 bg-primary"></div>
@@ -1209,7 +719,6 @@ include "./include/herobanner.php";
                     </p>
                 </div>
             </div>
-            <!-- INFORMATION ACCURACY -->
             <div
                 class="group bg-white border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
                 <div class="h-2 bg-secondary"></div>
@@ -1232,7 +741,6 @@ include "./include/herobanner.php";
                     </p>
                 </div>
             </div>
-            <!-- EXTERNAL FACTORS -->
             <div
                 class="group bg-white border border-slate-200 hover:border-primary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
                 <div class="h-2 bg-primary"></div>
@@ -1255,7 +763,6 @@ include "./include/herobanner.php";
                     </p>
                 </div>
             </div>
-            <!-- HEALTHCARE OUTCOMES -->
             <div
                 class="group bg-white border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
                 <div class="h-2 bg-secondary"></div>
@@ -1278,13 +785,11 @@ include "./include/herobanner.php";
                     </p>
                 </div>
             </div>
-        </div>
-        <!-- MAIN EXPLANATION -->
+        </div> -->
         <div
-            class="mt-24 bg-white border border-slate-200 overflow-hidden">
+            class="bg-white border border-slate-200 overflow-hidden">
             <div
                 class="grid lg:grid-cols-12 items-center">
-                <!-- CONTENT -->
                 <div
                     class="lg:col-span-7 p-10 lg:p-14">
                     <span
@@ -1349,11 +854,11 @@ include "./include/herobanner.php";
         </div>
         <!-- NOTICE STRIP -->
         <div
-            class="mt-24 bg-amber-50 border-l-8 border-amber-500 p-10 lg:p-14">
+            class="mt-16 bg-amber-50 border-l-8 border-amber-500 p-8 lg:p-10">
             <div
                 class="flex flex-col lg:flex-row gap-6 items-start">
                 <i
-                    class="fa-solid fa-circle-info text-amber-500 text-5xl">
+                    class="fa-solid fa-circle-info text-amber-500 text-4xl">
                 </i>
                 <div>
                     <h3
@@ -1372,7 +877,7 @@ include "./include/herobanner.php";
             </div>
         </div>
         <!-- CLOSING STATEMENT -->
-        <div
+        <!-- <div
             class="text-center max-w-4xl mx-auto mt-24">
             <h3
                 class="text-primary text-4xl font-black">
@@ -1385,15 +890,14 @@ include "./include/herobanner.php";
                 can make informed decisions and engage responsibly
                 with our services.
             </p>
-        </div>
+        </div> -->
     </div>
 </section>
 <!-- ========================================= -->
 <!-- THIRD-PARTY LINKS & SERVICES -->
 <!-- ========================================= -->
-<section class="section-padding bg-white overflow-hidden">
+<!-- <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
-        <!-- HEADER -->
         <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
                 Third-Party Services
@@ -1409,10 +913,8 @@ include "./include/herobanner.php";
                 purposes.
             </p>
         </div>
-        <!-- SERVICE CARDS -->
         <div
             class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-            <!-- EXTERNAL WEBSITES -->
             <div
                 class="group bg-slate-100 border border-slate-200 hover:border-primary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
                 <div class="h-2 bg-primary"></div>
@@ -1440,7 +942,6 @@ include "./include/herobanner.php";
                     </div>
                 </div>
             </div>
-            <!-- PARTNER SERVICES -->
             <div
                 class="group bg-slate-100 border border-slate-200 hover:border-secondary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
                 <div class="h-2 bg-secondary"></div>
@@ -1468,7 +969,6 @@ include "./include/herobanner.php";
                     </div>
                 </div>
             </div>
-            <!-- THIRD-PARTY RESOURCES -->
             <div
                 class="group bg-slate-100 border border-slate-200 hover:border-primary hover:-translate-y-2 transition-all duration-500 overflow-hidden">
                 <div class="h-2 bg-primary"></div>
@@ -1497,12 +997,10 @@ include "./include/herobanner.php";
                 </div>
             </div>
         </div>
-        <!-- MAIN NOTICE SECTION -->
         <div
             class="mt-24 bg-slate-100 border border-slate-200 overflow-hidden">
             <div
                 class="grid lg:grid-cols-12 items-center">
-                <!-- CONTENT -->
                 <div
                     class="lg:col-span-7 p-10 lg:p-14">
                     <span
@@ -1541,7 +1039,6 @@ include "./include/herobanner.php";
                         </div>
                     </div>
                 </div>
-                <!-- VISUAL -->
                 <div
                     class="lg:col-span-5 bg-primary h-full flex items-center justify-center">
                     <div
@@ -1563,7 +1060,6 @@ include "./include/herobanner.php";
                 </div>
             </div>
         </div>
-        <!-- LIABILITY NOTICE -->
         <div
             class="mt-24 bg-red-50 border-l-8 border-red-500 p-10 lg:p-14">
             <div
@@ -1587,7 +1083,6 @@ include "./include/herobanner.php";
                 </div>
             </div>
         </div>
-        <!-- INFORMATION STRIP -->
         <div
             class="mt-24 bg-primary overflow-hidden">
             <div
@@ -1626,13 +1121,12 @@ include "./include/herobanner.php";
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- ========================================= -->
 <!-- CHANGES TO TERMS -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-100 overflow-hidden">
+<!-- <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
-        <!-- HEADER -->
         <div class="text-center max-w-4xl mx-auto mb-16">
             <span class="section-subtitle">
                 Policy Updates
@@ -1648,15 +1142,12 @@ include "./include/herobanner.php";
                 website enhancements.
             </p>
         </div>
-        <!-- TIMELINE PROCESS -->
         <div class="relative">
-            <!-- DESKTOP LINE -->
             <div
                 class="hidden xl:block absolute top-24 left-[12%] right-[12%] h-[2px] bg-slate-300">
             </div>
             <div
                 class="grid md:grid-cols-2 xl:grid-cols-4 gap-10">
-                <!-- STEP 1 -->
                 <div class="relative text-center">
                     <div
                         class="w-44 h-44 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -1679,7 +1170,6 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                 </div>
-                <!-- STEP 2 -->
                 <div class="relative text-center">
                     <div
                         class="w-44 h-44 mx-auto bg-secondary rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -1702,7 +1192,6 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                 </div>
-                <!-- STEP 3 -->
                 <div class="relative text-center">
                     <div
                         class="w-44 h-44 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -1725,7 +1214,6 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                 </div>
-                <!-- STEP 4 -->
                 <div class="relative text-center">
                     <div
                         class="w-44 h-44 mx-auto bg-green-600 rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -1750,10 +1238,8 @@ include "./include/herobanner.php";
                 </div>
             </div>
         </div>
-        <!-- MAIN CONTENT -->
         <div
             class="grid lg:grid-cols-12 gap-12 items-center mt-28">
-            <!-- IMAGE -->
             <div
                 class="lg:col-span-5">
                 <img
@@ -1761,7 +1247,6 @@ include "./include/herobanner.php";
                     alt="Changes To Terms"
                     class="w-full h-[650px] object-cover">
             </div>
-            <!-- CONTENT -->
             <div
                 class="lg:col-span-7">
                 <span
@@ -1805,7 +1290,6 @@ include "./include/herobanner.php";
                 </div>
             </div>
         </div>
-        <!-- UPDATE NOTICE -->
         <div
             class="mt-24 bg-primary overflow-hidden">
             <div
@@ -1843,7 +1327,7 @@ include "./include/herobanner.php";
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- ========================================= -->
 <!-- CONTACT INFORMATION -->
 <!-- ========================================= -->

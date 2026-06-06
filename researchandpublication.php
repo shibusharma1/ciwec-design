@@ -28,16 +28,15 @@ include "./include/herobanner.php";
          <div class="lg:col-span-6">
             <img
                src="./assets/img/research-intro.png"
-               class="w-full h-[500px] object-cover">
+               class="w-full h-[450px] object-cover">
          </div>
       </div>
    </div>
 </section>
 
-<section class="section-padding bg-slate-100 overflow-hidden">
+<!-- <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
-      <!-- HEADER -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
             Global Impact
          </span>
@@ -51,10 +50,8 @@ include "./include/herobanner.php";
             infectious diseases and preventive healthcare worldwide.
          </p>
       </div>
-      <!-- STATS -->
       <div
          class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
-         <!-- ITEM -->
          <div
             class="group bg-white border border-slate-200 p-10 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -73,7 +70,6 @@ include "./include/herobanner.php";
                Research Publications
             </p>
          </div>
-         <!-- ITEM -->
          <div
             class="group bg-white border border-slate-200 p-10 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -92,7 +88,6 @@ include "./include/herobanner.php";
                Countries Referencing CIWEC Research
             </p>
          </div>
-         <!-- ITEM -->
          <div
             class="group bg-white border border-slate-200 p-10 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -111,7 +106,6 @@ include "./include/herobanner.php";
                Collaborative Studies
             </p>
          </div>
-         <!-- ITEM -->
          <div
             class="group bg-white border border-slate-200 p-10 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -131,12 +125,10 @@ include "./include/herobanner.php";
             </p>
          </div>
       </div>
-      <!-- FEATURED IMPACT -->
       <div
          class="mt-16 bg-primary overflow-hidden">
          <div
             class="grid lg:grid-cols-12 items-center">
-            <!-- LEFT -->
             <div
                class="lg:col-span-7 p-10 lg:p-16">
                <span
@@ -189,7 +181,6 @@ include "./include/herobanner.php";
                   </div>
                </div>
             </div>
-            <!-- RIGHT -->
             <div
                class="lg:col-span-5">
                <img
@@ -200,69 +191,69 @@ include "./include/herobanner.php";
          </div>
       </div>
    </div>
-</section>
+</section> -->
 <script>
-   const counters =
-      document.querySelectorAll('.counter');
+   // const counters =
+   //    document.querySelectorAll('.counter');
 
-   const observer =
-      new IntersectionObserver((entries) => {
+   // const observer =
+   //    new IntersectionObserver((entries) => {
 
-         entries.forEach(entry => {
+   //       entries.forEach(entry => {
 
-            if (entry.isIntersecting) {
+   //          if (entry.isIntersecting) {
 
-               const counter =
-                  entry.target;
+   //             const counter =
+   //                entry.target;
 
-               const target = +counter.dataset.count;
+   //             const target = +counter.dataset.count;
 
-               let count = 0;
+   //             let count = 0;
 
-               const update = () => {
+   //             const update = () => {
 
-                  const increment =
-                     target / 80;
+   //                const increment =
+   //                   target / 80;
 
-                  count += increment;
+   //                count += increment;
 
-                  if (count < target) {
+   //                if (count < target) {
 
-                     counter.innerText =
-                        Math.ceil(count);
+   //                   counter.innerText =
+   //                      Math.ceil(count);
 
-                     requestAnimationFrame(update);
+   //                   requestAnimationFrame(update);
 
-                  } else {
+   //                } else {
 
-                     counter.innerText =
-                        target + '+';
+   //                   counter.innerText =
+   //                      target + '+';
 
-                  }
+   //                }
 
-               };
+   //             };
 
-               update();
+   //             update();
 
-               observer.unobserve(counter);
+   //             observer.unobserve(counter);
 
-            }
+   //          }
 
-         });
+   //       });
 
-      }, {
-         threshold: 0.4
-      });
+   //    }, {
+   //       threshold: 0.4
+   //    });
 
-   counters.forEach(counter => {
-      observer.observe(counter);
-   });
+   // counters.forEach(counter => {
+   //    observer.observe(counter);
+   // });
 </script>
 
-<section class="section-padding bg-white overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
             Areas Of Expertise
          </span>
@@ -282,7 +273,7 @@ include "./include/herobanner.php";
          class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
          <!-- TRAVEL MEDICINE -->
          <div
-            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -309,7 +300,7 @@ include "./include/herobanner.php";
          </div>
          <!-- ALTITUDE MEDICINE -->
          <div
-            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -335,8 +326,8 @@ include "./include/herobanner.php";
             </div>
          </div>
          <!-- INFECTIOUS DISEASES -->
-         <div
-            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+         <!-- <div
+            class="group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -360,10 +351,10 @@ include "./include/herobanner.php";
                   Ongoing Studies
                </span>
             </div>
-         </div>
+         </div> -->
          <!-- TROPICAL MEDICINE -->
-         <div
-            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+         <!-- <div
+            class="group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -387,10 +378,10 @@ include "./include/herobanner.php";
                   International Collaboration
                </span>
             </div>
-         </div>
+         </div> -->
          <!-- PUBLIC HEALTH -->
-         <div
-            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+         <!-- <div
+            class="group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
                <i
@@ -414,10 +405,10 @@ include "./include/herobanner.php";
                   Community Impact
                </span>
             </div>
-         </div>
+         </div> -->
          <!-- PREVENTIVE HEALTH -->
          <div
-            class="group bg-slate-100 border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
+            class="group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
                class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
                <i
@@ -444,7 +435,7 @@ include "./include/herobanner.php";
          </div>
       </div>
       <!-- BOTTOM HIGHLIGHT -->
-      <div
+      <!-- <div
          class="mt-20 bg-primary overflow-hidden">
          <div
             class="grid lg:grid-cols-12 items-center">
@@ -483,18 +474,15 @@ include "./include/herobanner.php";
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
    </div>
 </section>
 <!-- ========================================= -->
 <!-- RESEARCH LIBRARY hidden since no use for now -->
 <!-- ========================================= -->
-<section
-   id="research-library"
-   class="section-padding hidden bg-slate-100 overflow-hidden">
+<!-- <section id="research-library" class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
-      <!-- HEADER -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
             Knowledge Center
          </span>
@@ -509,12 +497,10 @@ include "./include/herobanner.php";
             altitude medicine and preventive healthcare.
          </p>
       </div>
-      <!-- SEARCH PANEL -->
       <div
          class="bg-white border border-slate-200 p-6 lg:p-8 mb-12">
          <div
             class="grid lg:grid-cols-12 gap-5">
-            <!-- SEARCH -->
             <div
                class="lg:col-span-6">
                <label
@@ -532,7 +518,6 @@ include "./include/herobanner.php";
                   </i>
                </div>
             </div>
-            <!-- CATEGORY -->
             <div
                class="lg:col-span-3">
                <label
@@ -559,7 +544,6 @@ include "./include/herobanner.php";
                   </option>
                </select>
             </div>
-            <!-- YEAR -->
             <div
                class="lg:col-span-3">
                <label
@@ -588,7 +572,6 @@ include "./include/herobanner.php";
             </div>
          </div>
       </div>
-      <!-- RESULT INFO -->
       <div
          class="flex flex-wrap justify-between items-center mb-8">
          <h3
@@ -601,7 +584,6 @@ include "./include/herobanner.php";
             Showing 0 Publications
          </span>
       </div>
-      <!-- LOADER -->
       <div
          id="researchLoader"
          class="hidden py-24">
@@ -612,13 +594,10 @@ include "./include/herobanner.php";
             </div>
          </div>
       </div>
-      <!-- GRID -->
       <div
          id="researchGrid"
          class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-         <!-- JS RENDER -->
       </div>
-      <!-- VIEW ALL -->
       <div
          class="text-center mt-16">
          <button
@@ -628,7 +607,7 @@ include "./include/herobanner.php";
          </button>
       </div>
    </div>
-</section>
+</section> -->
 
 <script>
    const publications = [
@@ -923,131 +902,25 @@ include "./include/herobanner.php";
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
             Featured Publication
          </span>
          <h2 class="section-title">
             Highlighted Research Study
          </h2>
-         <p
-            class="text-slate-600 mt-6 leading-8">
+         <p class="text-slate-600 mt-6 leading-8">
             Explore one of CIWEC Hospital's notable contributions
             to global medical knowledge and healthcare advancement.
          </p>
       </div>
       <!-- FEATURED PAPER -->
-      <div
-         class="bg-slate-100 border border-slate-200 overflow-hidden">
-         <div
-            class="grid lg:grid-cols-12 items-center">
-            <!-- IMAGE -->
-            <div
-               class="lg:col-span-5 relative">
-               <img
-                  src="./assets/img/featured-research.png"
-                  alt=""
-                  class="w-full h-full object-cover min-h-[500px]">
-               <div
-                  class="absolute top-6 left-6">
-                  <span
-                     class="bg-secondary text-white px-4 py-2 text-sm font-bold uppercase">
-                     Featured Research
-                  </span>
-               </div>
-            </div>
-            <!-- CONTENT -->
-            <div
-               class="lg:col-span-7 p-10 lg:p-14">
-               <span
-                  class="text-primary font-bold uppercase tracking-[3px]">
-                  Travel Medicine Research
-               </span>
-               <h3
-                  class="text-primary text-4xl font-black mt-5 leading-tight">
-                  Health Risks, Disease Patterns
-                  And Medical Challenges Among
-                  International Travelers Visiting Nepal
-               </h3>
-               <p
-                  class="text-slate-600 mt-8 leading-8">
-                  This landmark study examined health risks,
-                  travel-related illnesses and preventive
-                  healthcare strategies among international
-                  travelers visiting Nepal.
-               </p>
-               <p
-                  class="text-slate-600 mt-6 leading-8">
-                  Findings from this research have contributed
-                  to improved travel medicine guidelines,
-                  healthcare recommendations and disease
-                  prevention strategies used globally.
-               </p>
-               <!-- META -->
-               <div
-                  class="grid md:grid-cols-3 gap-6 mt-8">
-                  <div>
-                     <p
-                        class="text-slate-500 text-sm">
-                        Published
-                     </p>
-                     <h4
-                        class="text-primary font-bold mt-2">
-                        2024
-                     </h4>
-                  </div>
-                  <div>
-                     <p
-                        class="text-slate-500 text-sm">
-                        Category
-                     </p>
-                     <h4
-                        class="text-primary font-bold mt-2">
-                        Travel Medicine
-                     </h4>
-                  </div>
-                  <div>
-                     <p
-                        class="text-slate-500 text-sm">
-                        Citations
-                     </p>
-                     <h4
-                        class="text-primary font-bold mt-2">
-                        250+
-                     </h4>
-                  </div>
-               </div>
-               <!-- AUTHORS -->
-               <div
-                  class="border-t border-slate-200 mt-8 pt-8">
-                  <p
-                     class="text-slate-500 text-sm">
-                     Lead Researchers
-                  </p>
-                  <h4
-                     class="text-primary font-bold mt-2">
-                     Dr. David R. Shlim & Research Team
-                  </h4>
-               </div>
-               <!-- BUTTONS -->
-               <div
-                  class="flex flex-wrap gap-4 mt-10">
-                  <button
-                     class="btn-primary">
-                     Read Full Publication
-                  </button>
-                  <button
-                     class="btn-light border-1 border-primary">
-                     Download PDF
-                  </button>
-               </div>
-            </div>
-         </div>
-      </div>
+      <?php
+      include "./include/researchcards.php"
+      ?>
       <!-- RESEARCH HIGHLIGHTS -->
-      <div
+      <!-- <div
          class="grid md:grid-cols-3 gap-8 mt-16">
-         <!-- CARD -->
          <div
             class="border border-slate-200 p-8 text-center">
             <div
@@ -1066,7 +939,6 @@ include "./include/herobanner.php";
                observations and scientific analysis.
             </p>
          </div>
-         <!-- CARD -->
          <div
             class="border border-slate-200 p-8 text-center">
             <div
@@ -1085,7 +957,6 @@ include "./include/herobanner.php";
                professionals around the world.
             </p>
          </div>
-         <!-- CARD -->
          <div
             class="border border-slate-200 p-8 text-center">
             <div
@@ -1104,15 +975,12 @@ include "./include/herobanner.php";
                and improved patient outcomes.
             </p>
          </div>
-      </div>
+      </div> -->
    </div>
 </section>
-<!-- ========================================= -->
-<!-- RESEARCH TIMELINE -->
-<!-- ========================================= -->
-<section class="section-padding bg-slate-100 overflow-hidden">
+
+<!-- <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
-      <!-- HEADER -->
       <div class="text-center max-w-4xl mx-auto mb-20">
          <span class="section-subtitle">
             Research Journey
@@ -1127,13 +995,10 @@ include "./include/herobanner.php";
             decades of scientific contribution and innovation.
          </p>
       </div>
-      <!-- TIMELINE -->
       <div class="relative">
-         <!-- CENTER LINE -->
          <div
             class="hidden lg:block absolute left-1/2 top-0 bottom-0 w-[2px] bg-slate-200 -translate-x-1/2">
          </div>
-         <!-- 1983 -->
          <div
             class="grid lg:grid-cols-2 gap-10 items-center mb-20">
             <div
@@ -1165,7 +1030,6 @@ include "./include/herobanner.php";
                </div>
             </div>
          </div>
-         <!-- 1995 -->
          <div
             class="grid lg:grid-cols-2 gap-10 items-center mb-20">
             <div
@@ -1195,7 +1059,6 @@ include "./include/herobanner.php";
                </p>
             </div>
          </div>
-         <!-- 2005 -->
          <div
             class="grid lg:grid-cols-2 gap-10 items-center mb-20">
             <div
@@ -1224,7 +1087,6 @@ include "./include/herobanner.php";
                </div>
             </div>
          </div>
-         <!-- 2015 -->
          <div
             class="grid lg:grid-cols-2 gap-10 items-center mb-20">
             <div
@@ -1254,7 +1116,6 @@ include "./include/herobanner.php";
                </p>
             </div>
          </div>
-         <!-- TODAY -->
          <div
             class="grid lg:grid-cols-2 gap-10 items-center">
             <div
@@ -1289,7 +1150,6 @@ include "./include/herobanner.php";
             </div>
          </div>
       </div>
-      <!-- BOTTOM SUMMARY -->
       <div
          class="grid md:grid-cols-4 gap-6 mt-20">
          <div
@@ -1338,14 +1198,14 @@ include "./include/herobanner.php";
          </div>
       </div>
    </div>
-</section>
+</section> -->
+
 <!-- ========================================= -->
 <!-- RESEARCH COLLABORATIONS -->
 <!-- ========================================= -->
-<section class="section-padding bg-white overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
-      <!-- HEADING -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <!-- <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
             Global Partnerships
          </span>
@@ -1359,17 +1219,17 @@ include "./include/herobanner.php";
             and research networks to advance medical knowledge
             and improve healthcare outcomes worldwide.
          </p>
-      </div>
+      </div> -->
       <!-- MAIN SHOWCASE -->
       <div
-         class="grid xl:grid-cols-12 gap-10 items-center mb-20">
+         class="grid xl:grid-cols-12 gap-10 items-center">
          <!-- LEFT -->
          <div
             class="xl:col-span-6">
             <img
-               src="./assets/img/history/history1.webp"
+               src="./assets/img/history/history2.webp"
                alt=""
-               class="w-full h-[550px] object-cover">
+               class="w-full h-[520px] object-cover">
          </div>
          <!-- RIGHT -->
          <div
@@ -1390,13 +1250,13 @@ include "./include/herobanner.php";
                infectious diseases, altitude medicine and
                preventive healthcare.
             </p>
-            <p
+            <!-- <p
                class="text-slate-600 mt-6 leading-8">
                These collaborations help strengthen scientific
                evidence, improve healthcare practices and
                create meaningful contributions to international
                medical research.
-            </p>
+            </p> -->
             <div
                class="grid md:grid-cols-2 gap-6 mt-10">
                <div
@@ -1470,91 +1330,19 @@ include "./include/herobanner.php";
             </div>
          </div>
       </div>
-      <!-- PARTNER TYPES -->
-      <div
-         class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
-         <!-- CARD -->
-         <div
-            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
-            <div
-               class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
-               <i
-                  class="fa-solid fa-graduation-cap text-primary text-3xl">
-               </i>
-            </div>
-            <h3
-               class="text-primary text-2xl font-black">
-               Universities
-            </h3>
-            <p
-               class="text-slate-600 mt-4">
-               Academic institutions supporting
-               scientific research and education.
-            </p>
-         </div>
-         <!-- CARD -->
-         <div
-            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
-            <div
-               class="w-20 h-20 mx-auto bg-secondary/10 flex items-center justify-center mb-6">
-               <i
-                  class="fa-solid fa-hospital text-secondary text-3xl">
-               </i>
-            </div>
-            <h3
-               class="text-primary text-2xl font-black">
-               Hospitals
-            </h3>
-            <p
-               class="text-slate-600 mt-4">
-               Clinical research partnerships
-               and healthcare studies.
-            </p>
-         </div>
-         <!-- CARD -->
-         <div
-            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
-            <div
-               class="w-20 h-20 mx-auto bg-primary/10 flex items-center justify-center mb-6">
-               <i
-                  class="fa-solid fa-earth-americas text-primary text-3xl">
-               </i>
-            </div>
-            <h3
-               class="text-primary text-2xl font-black">
-               Global Networks
-            </h3>
-            <p
-               class="text-slate-600 mt-4">
-               International organizations
-               advancing global health.
-            </p>
-         </div>
-         <!-- CARD -->
-         <div
-            class="group bg-slate-100 border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
-            <div
-               class="w-20 h-20 mx-auto bg-secondary/10 flex items-center justify-center mb-6">
-               <i
-                  class="fa-solid fa-microscope text-secondary text-3xl">
-               </i>
-            </div>
-            <h3
-               class="text-primary text-2xl font-black">
-               Research Centers
-            </h3>
-            <p
-               class="text-slate-600 mt-4">
-               Specialized institutes supporting
-               innovation and discovery.
-            </p>
-         </div>
-      </div>
+
+   </div>
+</section>
+
+<section class="section-padding bg-slate-200 overflow-hidden">
+   <div class="container-custom">
       <!-- LOGO WALL -->
-      <div
-         class="mt-20">
+      <div>
          <div
             class="text-center mb-10">
+            <span class="section-subtitle">
+               Our Partners
+            </span>
             <h3
                class="text-primary text-3xl font-black">
                Trusted Research Partners
@@ -1562,33 +1350,32 @@ include "./include/herobanner.php";
          </div>
          <div
             class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-6">
-            <div class="border border-slate-200 p-8 flex items-center justify-center">
+            <div class="border border-slate-50 p-8 flex items-center justify-center bg-white">
                <img src="./assets/img/ismt_certified.webp" class="h-12 object-contain">
             </div>
-            <div class="border border-slate-200 p-8 flex items-center justify-center">
+            <div class="border border-slate-50 p-8 flex items-center justify-center bg-white">
                <img src="./assets/img/ismt_certified.webp" class="h-12 object-contain">
             </div>
-            <div class="border border-slate-200 p-8 flex items-center justify-center">
+            <div class="border border-slate-50 p-8 flex items-center justify-center bg-white">
                <img src="./assets/img/ismt_certified.webp" class="h-12 object-contain">
             </div>
-            <div class="border border-slate-200 p-8 flex items-center justify-center">
+            <div class="border border-slate-50 p-8 flex items-center justify-center bg-white">
                <img src="./assets/img/ismt_certified.webp" class="h-12 object-contain">
             </div>
-            <div class="border border-slate-200 p-8 flex items-center justify-center">
+            <div class="border border-slate-50 p-8 flex items-center justify-center bg-white">
                <img src="./assets/img/ismt_certified.webp" class="h-12 object-contain">
             </div>
-            <div class="border border-slate-200 p-8 flex items-center justify-center">
+            <div class="border border-slate-50 p-8 flex items-center justify-center bg-white">
                <img src="./assets/img/ismt_certified.webp" class="h-12 object-contain">
             </div>
          </div>
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- RESEARCH PARTNERSHIP & INQUIRY CTA -->
-<!-- ========================================= -->
-<section class="section-padding relative overflow-hidden bg-primary">
-   <!-- DECORATION -->
+
+
+
+<!-- <section class="section-padding relative overflow-hidden bg-primary">
    <div
       class="absolute
       top-0
@@ -1616,7 +1403,6 @@ include "./include/herobanner.php";
       relative
       z-10">
       <div>
-         <!-- HEADING -->
          <div
             class="max-w-5xl mx-auto text-center">
             <span
@@ -1652,14 +1438,12 @@ include "./include/herobanner.php";
                publications and scientific advancement.
             </p>
          </div>
-         <!-- FEATURES -->
          <div
             class="grid
             md:grid-cols-2
             xl:grid-cols-4
             gap-8
             mt-16">
-            <!-- ITEM -->
             <div
                class="bg-white/5
                border
@@ -1695,7 +1479,6 @@ include "./include/herobanner.php";
                   infectious diseases and public health.
                </p>
             </div>
-            <!-- ITEM -->
             <div
                class="bg-white/5
                border
@@ -1731,7 +1514,6 @@ include "./include/herobanner.php";
                   conferences and publications.
                </p>
             </div>
-            <!-- ITEM -->
             <div
                class="bg-white/5
                border
@@ -1767,7 +1549,6 @@ include "./include/herobanner.php";
                   and academic institutions.
                </p>
             </div>
-            <!-- ITEM -->
             <div
                class="bg-white/5
                border
@@ -1804,7 +1585,6 @@ include "./include/herobanner.php";
                </p>
             </div>
          </div>
-         <!-- CTA BOX -->
          <div
             class="bg-white
             mt-20
@@ -1815,7 +1595,6 @@ include "./include/herobanner.php";
                lg:grid-cols-12
                gap-10
                items-center">
-               <!-- LEFT -->
                <div
                   class="lg:col-span-8">
                   <span
@@ -1845,7 +1624,6 @@ include "./include/herobanner.php";
                      for collaboration and knowledge sharing.
                   </p>
                </div>
-               <!-- RIGHT -->
                <div
                   class="lg:col-span-4">
                   <div
@@ -1888,7 +1666,6 @@ include "./include/herobanner.php";
                </div>
             </div>
          </div>
-         <!-- RESEARCH NUMBERS -->
          <div
             class="grid
             md:grid-cols-4
@@ -1953,6 +1730,6 @@ include "./include/herobanner.php";
          </div>
       </div>
    </div>
-</section>
+</section> -->
 <?php include "./include/footer.php";
 ?>

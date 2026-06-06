@@ -58,35 +58,33 @@ include "./include/herobanner.php";
 </section>
 <section class="bg-slate-100 section-padding">
     <div class="container-custom">
-        <div
-            class="grid lg:grid-cols-12 gap-10 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+            <!-- Image -->
             <div class="lg:col-span-4">
                 <img
                     src="./assets/img/about/director.png"
-                    class="w-full max-w-[320px] mx-auto rounded-full">
+                    alt="Medical Director"
+                    class="w-full max-w-[220px] sm:max-w-[260px] lg:max-w-[320px] mx-auto rounded-full">
             </div>
-            <div class="lg:col-span-8">
+            <!-- Content -->
+            <div class="lg:col-span-8 text-center lg:text-left">
                 <span class="section-subtitle">
                     Leadership Message
                 </span>
-                <h2
-                    class="section-title mt-4">
+                <h2 class="section-title mt-3 lg:mt-4">
                     Message From The Medical Director
                 </h2>
                 <blockquote
-                    class="mt-8 text-lg leading-9 text-slate-600 italic">
+                    class="mt-6 lg:mt-8 text-base sm:text-lg leading-8 lg:leading-9 text-slate-600 italic">
                     "At CIWEC Hospital, our mission is to
                     deliver world-class healthcare with
                     compassion, integrity and innovation."
                 </blockquote>
-                <div
-                    class="mt-8">
-                    <h4
-                        class="font-black text-primary">
+                <div class="mt-6 lg:mt-8">
+                    <h4 class="font-black text-primary text-lg">
                         Dr. Prativa Pandey
                     </h4>
-                    <p
-                        class="text-slate-500">
+                    <p class="text-slate-500 mt-1">
                         Medical Director
                     </p>
                 </div>
@@ -97,9 +95,8 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- OUR JOURNEY -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-100 overflow-hidden">
+<!-- <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
-        <!-- HEADING -->
         <div class="text-center mb-16">
             <span class="section-subtitle">
                 Our Journey
@@ -119,9 +116,7 @@ include "./include/herobanner.php";
                 diplomats and local communities.
             </p>
         </div>
-        <!-- TIMELINE -->
         <div class="relative">
-            <!-- DESKTOP LINE -->
             <div
                 class="hidden xl:block
                 absolute
@@ -133,7 +128,6 @@ include "./include/herobanner.php";
             </div>
             <div
                 class="grid md:grid-cols-2 xl:grid-cols-5 gap-8">
-                <!-- ITEM -->
                 <div class="relative text-center">
                     <div
                         class="w-14 h-14
@@ -189,7 +183,6 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                 </div>
-                <!-- ITEM -->
                 <div class="relative text-center">
                     <div
                         class="w-14 h-14
@@ -244,7 +237,6 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                 </div>
-                <!-- ITEM -->
                 <div class="relative text-center">
                     <div
                         class="w-14 h-14
@@ -299,7 +291,6 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                 </div>
-                <!-- ITEM -->
                 <div class="relative text-center">
                     <div
                         class="w-14 h-14
@@ -354,7 +345,6 @@ include "./include/herobanner.php";
                         </p>
                     </div>
                 </div>
-                <!-- ITEM -->
                 <div class="relative text-center">
                     <div
                         class="w-14 h-14
@@ -410,7 +400,7 @@ include "./include/herobanner.php";
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- ========================================= -->
 <!-- VISION • MISSION • VALUES -->
 <!-- ========================================= -->
@@ -906,9 +896,8 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- CERTIFICATIONS & RECOGNITION -->
 <!-- ========================================= -->
-<section class="section-padding bg-primary text-white overflow-hidden">
+<!-- <section class="section-padding bg-primary text-white overflow-hidden">
     <div class="container-custom">
-        <!-- HEADING -->
         <div class="text-center mb-16">
             <span
                 class="inline-block
@@ -936,13 +925,11 @@ include "./include/herobanner.php";
                 patient care, medical research and healthcare excellence.
             </p>
         </div>
-        <!-- CERTIFICATIONS -->
         <div
             class="grid
             md:grid-cols-2
             xl:grid-cols-4
             gap-8">
-            <!-- ISO -->
             <div
                 class="group
                 bg-white/5
@@ -979,7 +966,6 @@ include "./include/herobanner.php";
                     management systems and patient safety.
                 </p>
             </div>
-            <!-- ISTM -->
             <div
                 class="group
                 bg-white/5
@@ -1016,7 +1002,6 @@ include "./include/herobanner.php";
                     the International Society of Travel Medicine.
                 </p>
             </div>
-            <!-- RESEARCH -->
             <div
                 class="group
                 bg-white/5
@@ -1054,7 +1039,6 @@ include "./include/herobanner.php";
                     infectious diseases and global health.
                 </p>
             </div>
-            <!-- TRUST -->
             <div
                 class="group
                 bg-white/5
@@ -1093,7 +1077,6 @@ include "./include/herobanner.php";
                 </p>
             </div>
         </div>
-        <!-- BOTTOM HIGHLIGHT -->
         <div
             class="mt-16
             border
@@ -1147,7 +1130,7 @@ include "./include/herobanner.php";
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- ========================================= -->
 <!-- OUR CORE VALUES -->
 <!-- ========================================= -->

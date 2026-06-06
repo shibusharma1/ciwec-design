@@ -25,7 +25,7 @@ include "./include/header.php"; ?>
    <div class="container-custom">
       <div class="grid md:grid-cols-3 border border-slate-200 bg-white">
          <div class="text-center p-8 border-b md:border-b-0 md:border-r border-slate-200">
-            <h3 class="text-primary text-5xl font-black">
+            <h3 class="text-primary text-4xl font-black">
                40+
             </h3>
             <p class="mt-3 text-slate-600">
@@ -33,7 +33,7 @@ include "./include/header.php"; ?>
             </p>
          </div>
          <div class="text-center p-8 border-b md:border-b-0 md:border-r border-slate-200">
-            <h3 class="text-primary text-5xl font-black">
+            <h3 class="text-primary text-4xl font-black">
                500+
             </h3>
             <p class="mt-3 text-slate-600">
@@ -41,7 +41,7 @@ include "./include/header.php"; ?>
             </p>
          </div>
          <div class="text-center p-8">
-            <h3 class="text-primary text-5xl font-black">
+            <h3 class="text-primary text-4xl font-black">
                170+
             </h3>
             <p class="mt-3 text-slate-600">

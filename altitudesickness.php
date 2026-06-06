@@ -15,23 +15,21 @@ include "./include/herobanner.php";
                <img
                   src="./assets/img/altitude-expert-doctor.png"
                   alt="Altitude Medicine Expert"
-                  class="w-full h-[680px] object-fill">
+                  class="w-full h-[480px] object-fill">
                <!-- FLOATING CARD -->
                <div
-                  class="absolute bottom-8 left-8 bg-white shadow-2xl p-6 max-w-[320px]">
+                  class="absolute bottom-6 left-8 bg-white shadow-2xl p-6 max-w-[300px]">
                   <span
                      class="text-secondary font-bold uppercase text-sm">
-                  Specialized Care
+                     Specialized Care
                   </span>
                   <h3
                      class="text-primary text-2xl font-black mt-3">
-                     Trusted By Trekkers Worldwide
+                     Trusted by trekkers
                   </h3>
                   <p
                      class="text-slate-600 mt-3 leading-7 text-sm">
-                     Decades of experience supporting trekkers,
-                     climbers and travelers in Nepal's high-altitude
-                     environments.
+                     Decades supporting trekkers and climbers in Nepal’s high altitudes.
                   </p>
                </div>
             </div>
@@ -40,7 +38,7 @@ include "./include/herobanner.php";
          <div
             class="lg:col-span-7">
             <span class="section-subtitle">
-            Altitude Medicine Excellence
+               Altitude Medicine Excellence
             </span>
             <h2 class="section-title">
                Nepal's Trusted Experts In
@@ -54,14 +52,14 @@ include "./include/herobanner.php";
                supports thousands of trekkers, climbers and travelers
                every year.
             </p>
-            <p
+            <!-- <p
                class="text-slate-600 mt-6 leading-8">
                Whether you're preparing for Everest Base Camp,
                trekking through the Annapurna region or joining a
                high-altitude expedition, our specialists help reduce
                health risks and provide expert guidance throughout
                your journey.
-            </p>
+            </p> -->
             <!-- EXPERTISE GRID -->
             <div
                class="grid md:grid-cols-2 gap-8 mt-12">
@@ -153,7 +151,7 @@ include "./include/herobanner.php";
          </div>
       </div>
       <!-- TRUST STATS -->
-      <div
+      <!-- <div
          class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-24">
          <div
             class="bg-slate-100 border border-slate-200 p-8 text-center">
@@ -199,17 +197,17 @@ include "./include/herobanner.php";
                Emergency Support
             </p>
          </div>
-      </div>
+      </div> -->
       <!-- FEATURE STRIP -->
       <div
-         class="bg-primary mt-20 overflow-hidden">
+         class="bg-primary mt-16 overflow-hidden">
          <div
             class="grid lg:grid-cols-12 items-center">
             <div
                class="lg:col-span-8 p-10 lg:p-14">
                <span
                   class="text-secondary font-bold uppercase tracking-[3px]">
-               International Reputation
+                  International Reputation
                </span>
                <h3
                   class="text-white text-4xl font-black mt-5">
@@ -237,31 +235,31 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- ALTITUDE RISK LEVELS -->
 <!-- ========================================= -->
-   <section class="section-padding bg-slate-100 overflow-hidden">
-      <div class="container-custom">
-         <!-- HEADER -->
-         <div class="text-center max-w-4xl mx-auto mb-16">
-            <span class="section-subtitle">
+<section class="section-padding bg-slate-100 overflow-hidden">
+   <div class="container-custom">
+      <!-- HEADER -->
+      <div class="text-center max-w-4xl mx-auto mb-12">
+         <span class="section-subtitle">
             Altitude Risk Assessment
-            </span>
-            <h2 class="section-title">
-               Understanding Altitude Risk Levels
-            </h2>
-            <p class="text-slate-600 mt-6 leading-8">
-               As altitude increases, oxygen levels decrease and the
-               risk of altitude-related illness rises significantly.
-               Understanding your risk level helps you prepare and
-               travel safely.
-            </p>
-         </div>
-         <!-- MOUNTAIN VISUAL -->
-         <div class="relative mb-16">
-            <img
-               src="./assets/img/mountain-altitude-map.png"
-               alt="Altitude Risk Levels"
-               class="w-full h-[600px] object-fill">
-            <!-- ALTITUDE MARKERS -->
-            <!-- <div class="absolute bottom-[12%] left-[15%]">
+         </span>
+         <h2 class="section-title">
+            Understanding Altitude Risk Levels
+         </h2>
+         <p class="text-slate-600 mt-6 leading-8">
+            As altitude increases, oxygen levels decrease and the
+            risk of altitude-related illness rises significantly.
+            Understanding your risk level helps you prepare and
+            travel safely.
+         </p>
+      </div>
+      <!-- MOUNTAIN VISUAL -->
+      <div class="relative mb-12">
+         <img
+            src="./assets/img/mountain-altitude-map.png"
+            alt="Altitude Risk Levels"
+            class="w-full h-[480px] object-fill">
+         <!-- ALTITUDE MARKERS -->
+         <!-- <div class="absolute bottom-[12%] left-[15%]">
                <div class="bg-green-500 text-white px-5 py-3 font-bold shadow-xl">
                   2,500m
                </div>
@@ -281,191 +279,191 @@ include "./include/herobanner.php";
                   5,500m+
                </div>
             </div> -->
-         </div>
-         <!-- RISK CARDS -->
-         <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
-            <!-- LOW RISK -->
-            <div
-               class="group bg-white border-t-4 border-green-500 p-8 hover:-translate-y-2 transition-all duration-500">
-               <span
-                  class="inline-block bg-green-100 text-green-700 px-4 py-2 font-bold">
-               LOW RISK
-               </span>
-               <h3
-                  class="text-primary text-2xl font-black mt-6">
-                  2,500m
-               </h3>
-               <p
-                  class="text-slate-500 font-semibold mt-2">
-                  Entry Altitude Zone
-               </p>
-               <ul class="mt-8 space-y-4">
-                  <li class="flex gap-3">
-                     <i class="fa-solid fa-check text-green-500 mt-1"></i>
-                     Mild shortness of breath
-                  </li>
-                  <li class="flex gap-3">
-                     <i class="fa-solid fa-check text-green-500 mt-1"></i>
-                     Minor fatigue
-                  </li>
-                  <li class="flex gap-3">
-                     <i class="fa-solid fa-check text-green-500 mt-1"></i>
-                     Usually well tolerated
-                  </li>
-               </ul>
-               <div class="mt-8 pt-6 border-t">
-                  <strong class="text-primary">
-                  Recommended:
-                  </strong>
-                  <p class="text-slate-600 mt-2">
-                     Stay hydrated and begin gradual ascent.
-                  </p>
-               </div>
-            </div>
-            <!-- MODERATE -->
-            <div
-               class="group bg-white border-t-4 border-yellow-500 p-8 hover:-translate-y-2 transition-all duration-500">
-               <span
-                  class="inline-block bg-yellow-100 text-yellow-700 px-4 py-2 font-bold">
-               MODERATE RISK
-               </span>
-               <h3
-                  class="text-primary text-2xl font-black mt-6">
-                  3,500m
-               </h3>
-               <p
-                  class="text-slate-500 font-semibold mt-2">
-                  AMS Risk Begins
-               </p>
-               <ul class="mt-8 space-y-4">
-                  <li class="flex gap-3">
-                     <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
-                     Headache
-                  </li>
-                  <li class="flex gap-3">
-                     <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
-                     Nausea
-                  </li>
-                  <li class="flex gap-3">
-                     <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
-                     Sleep disturbances
-                  </li>
-               </ul>
-               <div class="mt-8 pt-6 border-t">
-                  <strong class="text-primary">
-                  Recommended:
-                  </strong>
-                  <p class="text-slate-600 mt-2">
-                     Ascend slowly and monitor symptoms.
-                  </p>
-               </div>
-            </div>
-            <!-- HIGH -->
-            <div
-               class="group bg-white border-t-4 border-orange-500 p-8 hover:-translate-y-2 transition-all duration-500">
-               <span
-                  class="inline-block bg-orange-100 text-orange-700 px-4 py-2 font-bold">
-               HIGH RISK
-               </span>
-               <h3
-                  class="text-primary text-2xl font-black mt-6">
-                  4,500m
-               </h3>
-               <p
-                  class="text-slate-500 font-semibold mt-2">
-                  Severe AMS Possible
-               </p>
-               <ul class="mt-8 space-y-4">
-                  <li class="flex gap-3">
-                     <i class="fa-solid fa-circle-exclamation text-orange-500 mt-1"></i>
-                     Persistent headache
-                  </li>
-                  <li class="flex gap-3">
-                     <i class="fa-solid fa-circle-exclamation text-orange-500 mt-1"></i>
-                     Significant fatigue
-                  </li>
-                  <li class="flex gap-3">
-                     <i class="fa-solid fa-circle-exclamation text-orange-500 mt-1"></i>
-                     Reduced performance
-                  </li>
-               </ul>
-               <div class="mt-8 pt-6 border-t">
-                  <strong class="text-primary">
-                  Recommended:
-                  </strong>
-                  <p class="text-slate-600 mt-2">
-                     Consider acclimatization days.
-                  </p>
-               </div>
-            </div>
-            <!-- EXTREME -->
-            <div
-               class="group bg-white border-t-4 border-red-600 p-8 hover:-translate-y-2 transition-all duration-500">
-               <span
-                  class="inline-block bg-red-100 text-red-700 px-4 py-2 font-bold">
-               EXTREME RISK
-               </span>
-               <h3
-                  class="text-primary text-2xl font-black mt-6">
-                  5,500m+
-               </h3>
-               <p
-                  class="text-slate-500 font-semibold mt-2">
-                  HAPE / HACE Zone
-               </p>
-               <ul class="mt-8 space-y-4">
-                  <li class="flex gap-3">
-                     <i class="fa-solid fa-skull-crossbones text-red-500 mt-1"></i>
-                     Severe breathlessness
-                  </li>
-                  <li class="flex gap-3">
-                     <i class="fa-solid fa-skull-crossbones text-red-500 mt-1"></i>
-                     Confusion
-                  </li>
-                  <li class="flex gap-3">
-                     <i class="fa-solid fa-skull-crossbones text-red-500 mt-1"></i>
-                     Medical emergency
-                  </li>
-               </ul>
-               <div class="mt-8 pt-6 border-t">
-                  <strong class="text-primary">
-                  Recommended:
-                  </strong>
-                  <p class="text-slate-600 mt-2">
-                     Immediate descent and urgent medical care.
-                  </p>
-               </div>
-            </div>
-         </div>
-         <!-- ALERT BANNER -->
+      </div>
+      <!-- RISK CARDS -->
+      <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
+         <!-- LOW RISK -->
          <div
-            class="bg-primary mt-20 p-10 lg:p-14 text-center">
-            <i
-               class="fa-solid fa-triangle-exclamation text-secondary text-5xl">
-            </i>
+            class="group bg-white border-t-4 border-green-500 p-8 hover:-translate-y-2 transition-all duration-500">
+            <span
+               class="inline-block bg-green-100 text-green-700 px-4 py-2 font-bold">
+               LOW RISK
+            </span>
             <h3
-               class="text-white text-4xl font-black mt-6">
-               Altitude Illness Can Affect Anyone
+               class="text-primary text-2xl font-black mt-6">
+               2,500m
             </h3>
             <p
-               class="text-white/80 max-w-3xl mx-auto mt-6 leading-8">
-               Physical fitness does not prevent altitude sickness.
-               Proper acclimatization, awareness of symptoms and
-               early intervention are the most effective strategies
-               for staying safe at high elevations.
+               class="text-slate-500 font-semibold mt-2">
+               Entry Altitude Zone
             </p>
+            <ul class="mt-8 space-y-4">
+               <li class="flex gap-3">
+                  <i class="fa-solid fa-check text-green-500 mt-1"></i>
+                  Mild shortness of breath
+               </li>
+               <li class="flex gap-3">
+                  <i class="fa-solid fa-check text-green-500 mt-1"></i>
+                  Minor fatigue
+               </li>
+               <li class="flex gap-3">
+                  <i class="fa-solid fa-check text-green-500 mt-1"></i>
+                  Usually well tolerated
+               </li>
+            </ul>
+            <div class="mt-8 pt-6 border-t">
+               <strong class="text-primary">
+                  Recommended:
+               </strong>
+               <p class="text-slate-600 mt-2">
+                  Stay hydrated and begin gradual ascent.
+               </p>
+            </div>
+         </div>
+         <!-- MODERATE -->
+         <div
+            class="group bg-white border-t-4 border-yellow-500 p-8 hover:-translate-y-2 transition-all duration-500">
+            <span
+               class="inline-block bg-yellow-100 text-yellow-700 px-4 py-2 font-bold">
+               MODERATE RISK
+            </span>
+            <h3
+               class="text-primary text-2xl font-black mt-6">
+               3,500m
+            </h3>
+            <p
+               class="text-slate-500 font-semibold mt-2">
+               AMS Risk Begins
+            </p>
+            <ul class="mt-8 space-y-4">
+               <li class="flex gap-3">
+                  <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
+                  Headache
+               </li>
+               <li class="flex gap-3">
+                  <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
+                  Nausea
+               </li>
+               <li class="flex gap-3">
+                  <i class="fa-solid fa-triangle-exclamation text-yellow-500 mt-1"></i>
+                  Sleep disturbances
+               </li>
+            </ul>
+            <div class="mt-8 pt-6 border-t">
+               <strong class="text-primary">
+                  Recommended:
+               </strong>
+               <p class="text-slate-600 mt-2">
+                  Ascend slowly and monitor symptoms.
+               </p>
+            </div>
+         </div>
+         <!-- HIGH -->
+         <div
+            class="group bg-white border-t-4 border-orange-500 p-8 hover:-translate-y-2 transition-all duration-500">
+            <span
+               class="inline-block bg-orange-100 text-orange-700 px-4 py-2 font-bold">
+               HIGH RISK
+            </span>
+            <h3
+               class="text-primary text-2xl font-black mt-6">
+               4,500m
+            </h3>
+            <p
+               class="text-slate-500 font-semibold mt-2">
+               Severe AMS Possible
+            </p>
+            <ul class="mt-8 space-y-4">
+               <li class="flex gap-3">
+                  <i class="fa-solid fa-circle-exclamation text-orange-500 mt-1"></i>
+                  Persistent headache
+               </li>
+               <li class="flex gap-3">
+                  <i class="fa-solid fa-circle-exclamation text-orange-500 mt-1"></i>
+                  Significant fatigue
+               </li>
+               <li class="flex gap-3">
+                  <i class="fa-solid fa-circle-exclamation text-orange-500 mt-1"></i>
+                  Reduced performance
+               </li>
+            </ul>
+            <div class="mt-8 pt-6 border-t">
+               <strong class="text-primary">
+                  Recommended:
+               </strong>
+               <p class="text-slate-600 mt-2">
+                  Consider acclimatization days.
+               </p>
+            </div>
+         </div>
+         <!-- EXTREME -->
+         <div
+            class="group bg-white border-t-4 border-red-600 p-8 hover:-translate-y-2 transition-all duration-500">
+            <span
+               class="inline-block bg-red-100 text-red-700 px-4 py-2 font-bold">
+               EXTREME RISK
+            </span>
+            <h3
+               class="text-primary text-2xl font-black mt-6">
+               5,500m+
+            </h3>
+            <p
+               class="text-slate-500 font-semibold mt-2">
+               HAPE / HACE Zone
+            </p>
+            <ul class="mt-8 space-y-4">
+               <li class="flex gap-3">
+                  <i class="fa-solid fa-skull-crossbones text-red-500 mt-1"></i>
+                  Severe breathlessness
+               </li>
+               <li class="flex gap-3">
+                  <i class="fa-solid fa-skull-crossbones text-red-500 mt-1"></i>
+                  Confusion
+               </li>
+               <li class="flex gap-3">
+                  <i class="fa-solid fa-skull-crossbones text-red-500 mt-1"></i>
+                  Medical emergency
+               </li>
+            </ul>
+            <div class="mt-8 pt-6 border-t">
+               <strong class="text-primary">
+                  Recommended:
+               </strong>
+               <p class="text-slate-600 mt-2">
+                  Immediate descent and urgent medical care.
+               </p>
+            </div>
          </div>
       </div>
-   </section>
+      <!-- ALERT BANNER -->
+      <!-- <div
+         class="bg-primary mt-16 p-10 lg:p-14 text-center">
+         <i
+            class="fa-solid fa-triangle-exclamation text-secondary text-5xl">
+         </i>
+         <h3
+            class="text-white text-4xl font-black mt-6">
+            Altitude Illness Can Affect Anyone
+         </h3>
+         <p
+            class="text-white/80 max-w-3xl mx-auto mt-6 leading-8">
+            Physical fitness does not prevent altitude sickness.
+            Proper acclimatization, awareness of symptoms and
+            early intervention are the most effective strategies
+            for staying safe at high elevations.
+         </p>
+      </div> -->
+   </div>
+</section>
 <!-- ========================================= -->
 <!-- TYPES OF ALTITUDE ILLNESS -->
 <!-- ========================================= -->
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADER -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
-         Altitude Illness Education
+            Altitude Illness Education
          </span>
          <h2 class="section-title">
             Types Of Altitude Illness
@@ -493,7 +491,7 @@ include "./include/herobanner.php";
                   <div>
                      <span
                         class="inline-block bg-yellow-100 text-yellow-700 px-4 py-2 font-bold">
-                     MOST COMMON
+                        MOST COMMON
                      </span>
                      <h3
                         class="text-primary text-2xl font-black mt-5">
@@ -555,7 +553,7 @@ include "./include/herobanner.php";
                   <div>
                      <span
                         class="inline-block bg-red-100 text-red-700 px-4 py-2 font-bold">
-                     LIFE THREATENING
+                        LIFE THREATENING
                      </span>
                      <h3
                         class="text-primary text-2xl font-black mt-5">
@@ -617,7 +615,7 @@ include "./include/herobanner.php";
                   <div>
                      <span
                         class="inline-block bg-red-100 text-red-700 px-4 py-2 font-bold">
-                     CRITICAL EMERGENCY
+                        CRITICAL EMERGENCY
                      </span>
                      <h3
                         class="text-primary text-2xl font-black mt-5">
@@ -679,7 +677,7 @@ include "./include/herobanner.php";
                   <div>
                      <span
                         class="inline-block bg-blue-100 text-blue-700 px-4 py-2 font-bold">
-                     COMMON CONDITION
+                        COMMON CONDITION
                      </span>
                      <h3
                         class="text-primary text-2xl font-black mt-5">
@@ -731,7 +729,7 @@ include "./include/herobanner.php";
          </div>
       </div>
       <!-- EMERGENCY NOTICE -->
-      <div
+      <!-- <div
          class="mt-20 bg-slate-200 p-10 lg:p-14 text-center">
          <div
             class="max-w-4xl mx-auto">
@@ -749,7 +747,7 @@ include "./include/herobanner.php";
                require immediate medical attention and rapid descent.
             </p>
          </div>
-      </div>
+      </div> -->
    </div>
 </section>
 <!-- ========================================= -->
@@ -757,10 +755,9 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
-      <!-- HEADER -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <!-- <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
-         Recognize The Warning Signs
+            Recognize The Warning Signs
          </span>
          <h2 class="section-title">
             Symptoms & Warning Signs
@@ -771,10 +768,8 @@ include "./include/herobanner.php";
             altitude-related complications. Monitor your condition
             carefully and seek medical assistance if symptoms worsen.
          </p>
-      </div>
-      <!-- SYMPTOM LEVELS -->
-      <div class="grid lg:grid-cols-3 gap-8">
-         <!-- MILD -->
+      </div> -->
+      <!-- <div class="grid lg:grid-cols-3 gap-8">
          <div
             class="bg-white border-t-8 border-yellow-500 shadow-sm overflow-hidden">
             <div class="p-8">
@@ -786,7 +781,7 @@ include "./include/herobanner.php";
                </div>
                <span
                   class="inline-block bg-yellow-100 text-yellow-700 px-4 py-2 font-bold">
-               MONITOR SYMPTOMS
+                  MONITOR SYMPTOMS
                </span>
                <h3
                   class="text-primary text-2xl font-black mt-6">
@@ -834,7 +829,6 @@ include "./include/herobanner.php";
                </div>
             </div>
          </div>
-         <!-- SERIOUS -->
          <div
             class="bg-white border-t-8 border-orange-500 shadow-sm overflow-hidden">
             <div class="p-8">
@@ -846,7 +840,7 @@ include "./include/herobanner.php";
                </div>
                <span
                   class="inline-block bg-orange-100 text-orange-700 px-4 py-2 font-bold">
-               SERIOUS SYMPTOMS
+                  SERIOUS SYMPTOMS
                </span>
                <h3
                   class="text-primary text-2xl font-black mt-6">
@@ -894,7 +888,6 @@ include "./include/herobanner.php";
                </div>
             </div>
          </div>
-         <!-- EMERGENCY -->
          <div
             class="bg-white border-t-8 border-red-600 shadow-sm overflow-hidden">
             <div class="p-8">
@@ -906,7 +899,7 @@ include "./include/herobanner.php";
                </div>
                <span
                   class="inline-block bg-red-100 text-red-700 px-4 py-2 font-bold">
-               MEDICAL EMERGENCY
+                  MEDICAL EMERGENCY
                </span>
                <h3
                   class="text-primary text-2xl font-black mt-6">
@@ -954,25 +947,24 @@ include "./include/herobanner.php";
                </div>
             </div>
          </div>
-      </div>
-      <!-- VISUAL CHECKLIST -->
+      </div> -->
       <div
-         class="grid lg:grid-cols-12 gap-12 items-center mt-24">
+         class="grid lg:grid-cols-12 gap-12 items-center">
          <div
             class="lg:col-span-5">
             <img
                src="./assets/img/altitude-warning-signs.png"
                alt="Altitude Warning Signs"
-               class="w-full h-[550px] object-fill">
+               class="w-full h-[450px] object-fill">
          </div>
          <div
             class="lg:col-span-7">
             <span
-               class="text-secondary font-bold uppercase tracking-[3px]">
-            Quick Self Assessment
+               class="section-subtitle">
+               Quick Self Assessment
             </span>
             <h3
-               class="text-primary text-4xl font-black mt-5">
+               class="text-primary text-4xl font-black">
                Ask Yourself These Questions
             </h3>
             <p
@@ -1008,36 +1000,12 @@ include "./include/herobanner.php";
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- PREVENTION & ACCLIMATIZATION -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
-      <!-- HEADER -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
-         <span class="section-subtitle">
-         Prevention First
-         </span>
-         <h2 class="section-title">
-            Prevention & Acclimatization Timeline
-         </h2>
-         <p
-            class="text-slate-600 mt-6 leading-8">
-            Proper acclimatization is the most effective way to
-            prevent altitude illness. Follow these essential steps
-            before and during your trek to reduce health risks and
-            improve your mountain experience.
-         </p>
-      </div>
-      <!-- TIMELINE -->
       <div class="relative">
-         <!-- DESKTOP CONNECTOR -->
-         <div
-            class="hidden xl:block absolute top-24 left-0 right-0 h-[2px] bg-slate-200">
-         </div>
-         <div
+         <!-- <div
             class="grid md:grid-cols-2 xl:grid-cols-5 gap-10">
-            <!-- STEP 1 -->
             <div class="relative text-center">
                <div
                   class="w-40 h-40 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -1060,7 +1028,6 @@ include "./include/herobanner.php";
                   </p>
                </div>
             </div>
-            <!-- STEP 2 -->
             <div class="relative text-center">
                <div
                   class="w-40 h-40 mx-auto bg-secondary rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -1083,7 +1050,6 @@ include "./include/herobanner.php";
                   </p>
                </div>
             </div>
-            <!-- STEP 3 -->
             <div class="relative text-center">
                <div
                   class="w-40 h-40 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -1106,7 +1072,6 @@ include "./include/herobanner.php";
                   </p>
                </div>
             </div>
-            <!-- STEP 4 -->
             <div class="relative text-center">
                <div
                   class="w-40 h-40 mx-auto bg-secondary rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -1129,7 +1094,6 @@ include "./include/herobanner.php";
                   </p>
                </div>
             </div>
-            <!-- STEP 5 -->
             <div class="relative text-center">
                <div
                   class="w-40 h-40 mx-auto bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
@@ -1152,17 +1116,15 @@ include "./include/herobanner.php";
                   </p>
                </div>
             </div>
-         </div>
+         </div> -->
       </div>
-      <!-- BEST PRACTICES -->
       <div
-         class="grid lg:grid-cols-12 gap-12 items-center mt-16">
-         <!-- CONTENT -->
+         class="grid lg:grid-cols-12 gap-12 items-center">
          <div
             class="lg:col-span-7">
             <span
                class="text-secondary font-bold uppercase tracking-[3px]">
-            Trekking Best Practices
+               Trekking Best Practices
             </span>
             <h3
                class="text-primary text-4xl font-black mt-5">
@@ -1177,7 +1139,7 @@ include "./include/herobanner.php";
                significantly improve safety.
             </p>
             <div
-               class="grid md:grid-cols-2 gap-6 mt-10">
+               class="grid md:grid-cols-2 gap-6 mt-8">
                <div class="flex gap-4">
                   <i class="fa-solid fa-circle-check text-secondary text-xl mt-1"></i>
                   <span>Avoid rapid altitude gain</span>
@@ -1204,25 +1166,23 @@ include "./include/herobanner.php";
                </div>
             </div>
          </div>
-         <!-- IMAGE -->
          <div
             class="lg:col-span-5">
             <img
                src="./assets/img/acclimatization-trek.png"
                alt="Acclimatization Trek"
-               class="w-full h-[600px] object-cover">
+               class="w-full h-[450px] object-cover">
          </div>
       </div>
-      <!-- FEATURE STRIP -->
       <div
-         class="mt-24 bg-primary overflow-hidden">
+         class="mt-16 bg-primary overflow-hidden">
          <div
             class="grid lg:grid-cols-12 items-center">
             <div
                class="lg:col-span-8 p-10 lg:p-14">
                <span
                   class="text-secondary font-bold uppercase tracking-[3px]">
-               Expert Advice
+                  Expert Advice
                </span>
                <h3
                   class="text-white text-4xl font-black mt-5">
@@ -1253,15 +1213,12 @@ include "./include/herobanner.php";
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- FROSTBITE & COLD INJURY CARE -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
-      <!-- HEADER -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-8">
          <span class="section-subtitle">
-         Cold Weather Medicine
+            Cold Weather Medicine
          </span>
          <h2 class="section-title">
             Frostbite & Cold Injury Care
@@ -1274,21 +1231,20 @@ include "./include/herobanner.php";
             long-term damage and life-threatening complications.
          </p>
       </div>
-      <!-- FEATURE SECTION -->
       <div
-         class="grid lg:grid-cols-12 gap-0 overflow-hidden bg-white border border-slate-200 mb-16">
+         class="grid lg:grid-cols-12 gap-0 overflow-hidden bg-white border border-slate-200 mb-12">
          <div
             class="lg:col-span-5">
             <img
                src="./assets/img/frostbite-care.png"
                alt="Frostbite Care"
-               class="w-full h-full min-h-[600px] object-cover">
+               class="w-full h-full min-h-[420px] object-cover">
          </div>
          <div
             class="lg:col-span-7 p-10 lg:p-14 flex flex-col justify-center">
             <span
                class="text-secondary font-bold uppercase tracking-[3px]">
-            Cold Injury Awareness
+               Cold Injury Awareness
             </span>
             <h3
                class="text-primary text-4xl font-black mt-5">
@@ -1323,10 +1279,8 @@ include "./include/herobanner.php";
             </div>
          </div>
       </div>
-      <!-- CONDITION CARDS -->
-      <div
+      <!-- <div
          class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
-         <!-- FROSTNIP -->
          <div
             class="bg-white border border-slate-200 hover:border-blue-500 transition-all duration-500 hover:-translate-y-2">
             <div class="p-8">
@@ -1347,7 +1301,7 @@ include "./include/herobanner.php";
                </p>
                <div class="mt-6 pt-6 border-t">
                   <strong class="text-primary">
-                  Signs
+                     Signs
                   </strong>
                   <ul class="mt-3 space-y-2 text-slate-600">
                      <li>• Numbness</li>
@@ -1357,7 +1311,6 @@ include "./include/herobanner.php";
                </div>
             </div>
          </div>
-         <!-- FROSTBITE -->
          <div
             class="bg-white border border-slate-200 hover:border-orange-500 transition-all duration-500 hover:-translate-y-2">
             <div class="p-8">
@@ -1378,7 +1331,7 @@ include "./include/herobanner.php";
                </p>
                <div class="mt-6 pt-6 border-t">
                   <strong class="text-primary">
-                  Signs
+                     Signs
                   </strong>
                   <ul class="mt-3 space-y-2 text-slate-600">
                      <li>• White or gray skin</li>
@@ -1388,7 +1341,6 @@ include "./include/herobanner.php";
                </div>
             </div>
          </div>
-         <!-- HYPOTHERMIA -->
          <div
             class="bg-white border border-slate-200 hover:border-red-500 transition-all duration-500 hover:-translate-y-2">
             <div class="p-8">
@@ -1409,7 +1361,7 @@ include "./include/herobanner.php";
                </p>
                <div class="mt-6 pt-6 border-t">
                   <strong class="text-primary">
-                  Signs
+                     Signs
                   </strong>
                   <ul class="mt-3 space-y-2 text-slate-600">
                      <li>• Shivering</li>
@@ -1419,7 +1371,6 @@ include "./include/herobanner.php";
                </div>
             </div>
          </div>
-         <!-- COLD EXPOSURE -->
          <div
             class="bg-white border border-slate-200 hover:border-secondary transition-all duration-500 hover:-translate-y-2">
             <div class="p-8">
@@ -1440,7 +1391,7 @@ include "./include/herobanner.php";
                </p>
                <div class="mt-6 pt-6 border-t">
                   <strong class="text-primary">
-                  Signs
+                     Signs
                   </strong>
                   <ul class="mt-3 space-y-2 text-slate-600">
                      <li>• Fatigue</li>
@@ -1450,17 +1401,16 @@ include "./include/herobanner.php";
                </div>
             </div>
          </div>
-      </div>
-      <!-- FIRST AID SECTION -->
+      </div> -->
       <div
-         class="mt-24 bg-primary overflow-hidden">
+         class="mt-12 bg-primary overflow-hidden">
          <div
             class="grid lg:grid-cols-12 items-center">
             <div
                class="lg:col-span-7 p-10 lg:p-14">
                <span
                   class="text-secondary font-bold uppercase tracking-[3px]">
-               Immediate First Aid
+                  Immediate First Aid
                </span>
                <h3
                   class="text-white text-4xl font-black mt-5">
@@ -1517,11 +1467,8 @@ include "./include/herobanner.php";
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- EMERGENCY ALTITUDE RESPONSE design if necessary -->
-<!-- ========================================= -->
-<section class="hidden relative overflow-hidden bg-slate-200">
-   <!-- BACKGROUND EFFECTS -->
+
+<!-- <section class="relative overflow-hidden bg-slate-200">
    <div
       class="absolute top-0 left-0 w-[600px] h-[600px] bg-red-500/10 rounded-full -translate-x-1/2 -translate-y-1/2">
    </div>
@@ -1530,13 +1477,12 @@ include "./include/herobanner.php";
    </div>
    <div class="container-custom relative z-10">
       <div>
-         <!-- HEADER -->
          <div
-            class="text-center max-w-4xl mx-auto mb-16">
+            class="text-center max-w-4xl mx-auto mb-12">
             <span
                class="inline-flex items-center gap-3 bg-red-500/20 text-red-400 px-5 py-3 font-bold">
-            <i class="fa-solid fa-triangle-exclamation"></i>
-            Medical Emergency Information
+               <i class="fa-solid fa-triangle-exclamation"></i>
+               Medical Emergency Information
             </span>
             <h2
                class="text-primary text-4xl lg:text-5xl font-black mt-8">
@@ -1549,10 +1495,8 @@ include "./include/herobanner.php";
                immediate action can save lives.
             </p>
          </div>
-         <!-- WARNING SIGNS -->
          <div
             class="grid md:grid-cols-2 xl:grid-cols-5 gap-6">
-            <!-- ITEM -->
             <div
                class="bg-white/5 border border-red-500/20 p-8 text-center">
                <i
@@ -1563,7 +1507,6 @@ include "./include/herobanner.php";
                   Severe Breathlessness
                </h3>
             </div>
-            <!-- ITEM -->
             <div
                class="bg-white/5 border border-red-500/20 p-8 text-center">
                <i
@@ -1574,7 +1517,6 @@ include "./include/herobanner.php";
                   Confusion
                </h3>
             </div>
-            <!-- ITEM -->
             <div
                class="bg-white/5 border border-red-500/20 p-8 text-center">
                <i
@@ -1585,7 +1527,6 @@ include "./include/herobanner.php";
                   Loss Of Coordination
                </h3>
             </div>
-            <!-- ITEM -->
             <div
                class="bg-white/5 border border-red-500/20 p-8 text-center">
                <i
@@ -1596,7 +1537,6 @@ include "./include/herobanner.php";
                   Persistent Vomiting
                </h3>
             </div>
-            <!-- ITEM -->
             <div
                class="bg-white/5 border border-red-500/20 p-8 text-center">
                <i
@@ -1608,15 +1548,13 @@ include "./include/herobanner.php";
                </h3>
             </div>
          </div>
-         <!-- RESPONSE STEPS -->
          <div
             class="grid lg:grid-cols-12 gap-12 items-center mt-24">
-            <!-- LEFT -->
             <div
                class="lg:col-span-7">
                <span
                   class="text-secondary font-bold uppercase tracking-[3px]">
-               Immediate Response Plan
+                  Immediate Response Plan
                </span>
                <h3
                   class="text-white text-4xl font-black mt-5">
@@ -1701,7 +1639,6 @@ include "./include/herobanner.php";
                   </div>
                </div>
             </div>
-            <!-- RIGHT -->
             <div
                class="lg:col-span-5">
                <div
@@ -1724,20 +1661,19 @@ include "./include/herobanner.php";
                      <a
                         href="tel:+977XXXXXXXXX"
                         class="flex items-center justify-center gap-3 bg-white text-red-600 font-black py-4 hover:bg-slate-100 transition">
-                     <i class="fa-solid fa-phone"></i>
-                     Call Emergency Support
+                        <i class="fa-solid fa-phone"></i>
+                        Call Emergency Support
                      </a>
                      <a
                         href="appointment.php"
                         class="flex items-center justify-center gap-3 border border-white text-white font-black py-4 hover:bg-white hover:text-red-600 transition">
-                     <i class="fa-solid fa-user-doctor"></i>
-                     Request Medical Consultation
+                        <i class="fa-solid fa-user-doctor"></i>
+                        Request Medical Consultation
                      </a>
                   </div>
                </div>
             </div>
          </div>
-         <!-- EVACUATION INFO -->
          <div
             class="mt-24 bg-white/5 border border-white/10 p-10 lg:p-14">
             <div
@@ -1746,7 +1682,7 @@ include "./include/herobanner.php";
                   class="lg:col-span-8">
                   <span
                      class="text-secondary font-bold uppercase tracking-[3px]">
-                  Critical Safety Message
+                     Critical Safety Message
                   </span>
                   <h3
                      class="text-white text-4xl font-black mt-5">
@@ -1771,29 +1707,29 @@ include "./include/herobanner.php";
          </div>
       </div>
    </div>
-</section>
+</section> -->
+
 <!-- FAQ section -->
-<section class="bg-slate-100 py-20">
+<section class="section-padding bg-slate-200">
    <div class="container-custom">
-      <div class="text-center mb-14">
-         <span class="text-secondary uppercase tracking-[3px] font-bold text-sm">
-         Frequently Asked Questions
+      <div class="text-center mb-12">
+         <span class="section-subtitle">
+            Frequently Asked Questions
          </span>
-         <h2 class="text-primary text-4xl font-black mt-4">
+         <h2 class="text-primary text-4xl font-black">
             Travel & Mountain Medicine FAQ
          </h2>
       </div>
       <div class="max-w-4xl mx-auto space-y-4">
-         <!-- FAQ 1 -->
          <div class="faq-item active">
             <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
-            <span class="text-primary font-bold text-lg">
-            What is Travel & Mountain Medicine?
-            </span>
-            <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
+               <span class="text-primary font-bold text-lg">
+                  What is Travel & Mountain Medicine?
+               </span>
+               <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
             </button>
             <div class="faq-content">
-               <div class="px-6 pb-6 text-slate-600 leading-8">
+               <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
                   Travel and Mountain Medicine focuses on the prevention,
                   diagnosis and treatment of health conditions related to
                   travel, high-altitude environments and remote expeditions.
@@ -1803,13 +1739,13 @@ include "./include/herobanner.php";
          <!-- FAQ 2 -->
          <div class="faq-item">
             <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
-            <span class="text-primary font-bold text-lg">
-            What are the symptoms of altitude illness?
-            </span>
-            <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
+               <span class="text-primary font-bold text-lg">
+                  What are the symptoms of altitude illness?
+               </span>
+               <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
             </button>
             <div class="faq-content">
-               <div class="px-6 pb-6 text-slate-600 leading-8">
+               <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
                   Common symptoms include headache, dizziness, nausea,
                   fatigue, shortness of breath and difficulty sleeping.
                   Early recognition is essential to prevent serious complications.
@@ -1819,13 +1755,13 @@ include "./include/herobanner.php";
          <!-- FAQ 3 -->
          <div class="faq-item">
             <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
-            <span class="text-primary font-bold text-lg">
-            How can altitude sickness be prevented?
-            </span>
-            <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
+               <span class="text-primary font-bold text-lg">
+                  How can altitude sickness be prevented?
+               </span>
+               <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
             </button>
             <div class="faq-content">
-               <div class="px-6 pb-6 text-slate-600 leading-8">
+               <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
                   Gradual ascent, proper hydration, adequate rest and
                   medical consultation before travel can significantly
                   reduce the risk of altitude-related illnesses.
@@ -1835,13 +1771,13 @@ include "./include/herobanner.php";
          <!-- FAQ 4 -->
          <div class="faq-item">
             <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
-            <span class="text-primary font-bold text-lg">
-            When should I seek medical attention for frostbite?
-            </span>
-            <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
+               <span class="text-primary font-bold text-lg">
+                  When should I seek medical attention for frostbite?
+               </span>
+               <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
             </button>
             <div class="faq-content">
-               <div class="px-6 pb-6 text-slate-600 leading-8">
+               <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
                   Immediate medical evaluation is recommended if you
                   experience numbness, skin discoloration, hard or frozen
                   tissue, or persistent pain after exposure to extreme cold.
@@ -1851,13 +1787,13 @@ include "./include/herobanner.php";
          <!-- FAQ 5 -->
          <div class="faq-item">
             <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
-            <span class="text-primary font-bold text-lg">
-            Do you provide pre-travel medical consultations?
-            </span>
-            <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
+               <span class="text-primary font-bold text-lg">
+                  Do you provide pre-travel medical consultations?
+               </span>
+               <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
             </button>
             <div class="faq-content">
-               <div class="px-6 pb-6 text-slate-600 leading-8">
+               <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
                   Yes. We offer travel health consultations, vaccination
                   advice, altitude preparation guidance and personalized
                   recommendations based on your destination and itinerary.
@@ -1867,13 +1803,13 @@ include "./include/herobanner.php";
          <!-- FAQ 6 -->
          <div class="faq-item">
             <button class="faq-btn w-full flex items-center justify-between bg-white border border-slate-200 px-6 py-5 text-left">
-            <span class="text-primary font-bold text-lg">
-            Who can benefit from Travel & Mountain Medicine services?
-            </span>
-            <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
+               <span class="text-primary font-bold text-lg">
+                  Who can benefit from Travel & Mountain Medicine services?
+               </span>
+               <i class="faq-icon fa-solid fa-plus text-secondary transition-all duration-300"></i>
             </button>
             <div class="faq-content">
-               <div class="px-6 pb-6 text-slate-600 leading-8">
+               <div class="px-6 pb-6 text-slate-600 bg-slate-50 leading-8">
                   Trekkers, mountaineers, adventure travelers, expedition
                   teams, humanitarian workers and anyone visiting
                   high-altitude or remote destinations can benefit from
@@ -1887,8 +1823,7 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- EXPEDITION & TRAVEL CONSULTATION CTA -->
 <!-- ========================================= -->
-<section class="relative overflow-hidden bg-gradient-to-br from-primary via-primary to-slate-900">
-   <!-- BACKGROUND EFFECTS -->
+<!-- <section class="relative overflow-hidden bg-gradient-to-br from-primary via-primary to-slate-900">
    <div
       class="absolute top-0 left-0 w-[600px] h-[600px] bg-secondary/10 rounded-full -translate-x-1/2 -translate-y-1/2">
    </div>
@@ -1897,7 +1832,6 @@ include "./include/herobanner.php";
    </div>
    <div class="container-custom relative z-10">
       <div class="py-12 lg:py-16">
-         <!-- HEADER -->
          <div
             class="max-w-5xl mx-auto text-center">
             <span
@@ -1918,10 +1852,8 @@ include "./include/herobanner.php";
                prepare safely and reduce health risks.
             </p>
          </div>
-         <!-- SERVICE CARDS -->
          <div
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-20">
-            <!-- CARD 1 -->
             <div
                class="bg-white p-8 hover:-translate-y-3 transition-all duration-500">
                <div
@@ -1940,7 +1872,6 @@ include "./include/herobanner.php";
                   acclimatization and prevention strategies.
                </p>
             </div>
-            <!-- CARD 2 -->
             <div
                class="bg-white p-8 hover:-translate-y-3 transition-all duration-500">
                <div
@@ -1959,7 +1890,6 @@ include "./include/herobanner.php";
                   potential health concerns before departure.
                </p>
             </div>
-            <!-- CARD 3 -->
             <div
                class="bg-white p-8 hover:-translate-y-3 transition-all duration-500">
                <div
@@ -1978,7 +1908,6 @@ include "./include/herobanner.php";
                   destination-specific health guidance.
                </p>
             </div>
-            <!-- CARD 4 -->
             <div
                class="bg-white p-8 hover:-translate-y-3 transition-all duration-500">
                <div
@@ -1998,7 +1927,6 @@ include "./include/herobanner.php";
                </p>
             </div>
          </div>
-         <!-- TRUST BAR -->
          <div
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-24">
             <div class="text-center">
@@ -2042,7 +1970,6 @@ include "./include/herobanner.php";
                </p>
             </div>
          </div>
-         <!-- FINAL CTA -->
          <div
             class="mt-24 bg-white/10 backdrop-blur-sm border border-white/10 p-10 lg:p-16">
             <div
@@ -2080,5 +2007,5 @@ include "./include/herobanner.php";
          </div>
       </div>
    </div>
-</section>
+</section> -->
 <?php include "./include/footer.php"; ?>

@@ -335,7 +335,7 @@ include "./include/herobanner.php";
          id="doctorEmptyState"
          class="hidden">
          <div
-            class="bg-slate-50 border border-slate-200 py-24 px-8 text-center">
+            class="bg-slate-100 border border-slate-200 py-24 px-8 text-center">
             <div
                class="w-24 h-24 mx-auto bg-primary/10 flex items-center justify-center mb-8">
                <i

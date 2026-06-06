@@ -18,22 +18,19 @@ include "./include/herobanner.php";
                Healthcare Beyond Hospital Walls
             </h2>
             <p class="mt-8 text-slate-600 leading-8">
-               At CIWEC Hospital, Corporate Social Responsibility is more than
-               a commitment—it is a core part of our mission. We believe
-               quality healthcare should reach every individual, regardless
-               of location, background, or circumstance.
+               At CIWEC Hospital, Corporate Social Responsibility is a core part of our mission.
+               We believe quality healthcare should be accessible to everyone, everywhere.
             </p>
             <p class="mt-6 text-slate-600 leading-8">
-               Through free medical camps, blood donation drives, first aid
-               training programs, disaster relief initiatives, environmental
-               campaigns, and community partnerships, we actively contribute
-               to building healthier and stronger communities across Nepal.
+               Through medical camps, blood donation drives, disaster relief efforts,
+               and community partnerships, we help build healthier and stronger
+               communities across Nepal.
             </p>
-            <p class="mt-6 text-slate-600 leading-8">
+            <!-- <p class="mt-6 text-slate-600 leading-8">
                Our CSR programs focus on prevention, education, emergency
                preparedness, and access to healthcare, ensuring a lasting
                positive impact on society.
-            </p>
+            </p> -->
             <!-- HIGHLIGHTS -->
             <div class="grid sm:grid-cols-2 gap-5 mt-10">
                <div class="flex items-start gap-4">
@@ -132,10 +129,9 @@ include "./include/herobanner.php";
 <!-- ========================================= -->
 <!-- CSR IMPACT STATISTICS -->
 <!-- ========================================= -->
-<section class="section-padding bg-slate-100 overflow-hidden">
+<!-- <section class="hidden lg:flex section-padding bg-slate-100 overflow-hidden">
    <div class="container-custom">
-      <!-- HEADING -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
             Community Impact
          </span>
@@ -149,9 +145,7 @@ include "./include/herobanner.php";
             disaster response, and community development programs.
          </p>
       </div>
-      <!-- STATS GRID -->
       <div class="grid md:grid-cols-2 xl:grid-cols-5 gap-6">
-         <!-- ITEM -->
          <div
             class="group bg-white border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -161,7 +155,7 @@ include "./include/herobanner.php";
                </i>
             </div>
             <h3
-               class="counter text-primary text-5xl font-black"
+               class="counter text-primary text-4xl font-black"
                data-count="5000">
                0
             </h3>
@@ -170,7 +164,6 @@ include "./include/herobanner.php";
                Lives Impacted
             </p>
          </div>
-         <!-- ITEM -->
          <div
             class="group bg-white border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -180,7 +173,7 @@ include "./include/herobanner.php";
                </i>
             </div>
             <h3
-               class="counter text-primary text-5xl font-black"
+               class="counter text-primary text-4xl font-black"
                data-count="120">
                0
             </h3>
@@ -189,7 +182,6 @@ include "./include/herobanner.php";
                Blood Donors
             </p>
          </div>
-         <!-- ITEM -->
          <div
             class="group bg-white border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -199,7 +191,7 @@ include "./include/herobanner.php";
                </i>
             </div>
             <h3
-               class="counter text-primary text-5xl font-black"
+               class="counter text-primary text-4xl font-black"
                data-count="50">
                0
             </h3>
@@ -208,7 +200,6 @@ include "./include/herobanner.php";
                Medical Camps
             </p>
          </div>
-         <!-- ITEM -->
          <div
             class="group bg-white border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -218,7 +209,7 @@ include "./include/herobanner.php";
                </i>
             </div>
             <h3
-               class="counter text-primary text-5xl font-black"
+               class="counter text-primary text-4xl font-black"
                data-count="25">
                0
             </h3>
@@ -227,7 +218,6 @@ include "./include/herobanner.php";
                Community Events
             </p>
          </div>
-         <!-- ITEM -->
          <div
             class="group bg-white border border-slate-200 p-8 text-center hover:border-secondary hover:-translate-y-2 transition-all duration-500">
             <div
@@ -237,7 +227,7 @@ include "./include/herobanner.php";
                </i>
             </div>
             <h3
-               class="counter text-primary text-5xl font-black"
+               class="counter text-primary text-4xl font-black"
                data-count="42">
                0
             </h3>
@@ -247,7 +237,6 @@ include "./include/herobanner.php";
             </p>
          </div>
       </div>
-      <!-- IMPACT BANNER -->
       <div
          class="mt-20 bg-primary relative overflow-hidden">
          <div
@@ -268,71 +257,70 @@ include "./include/herobanner.php";
          </div>
       </div>
    </div>
-</section>
+</section> -->
 <script>
-   const counters =
-      document.querySelectorAll('.counter');
+   // const counters =
+   //    document.querySelectorAll('.counter');
 
-   const observer =
-      new IntersectionObserver((entries) => {
+   // const observer =
+   //    new IntersectionObserver((entries) => {
 
-         entries.forEach(entry => {
+   //       entries.forEach(entry => {
 
-            if (entry.isIntersecting) {
+   //          if (entry.isIntersecting) {
 
-               const counter =
-                  entry.target;
+   //             const counter =
+   //                entry.target;
 
-               const target = +counter.dataset.count;
+   //             const target = +counter.dataset.count;
 
-               let count = 0;
+   //             let count = 0;
 
-               const update = () => {
+   //             const update = () => {
 
-                  const increment =
-                     target / 100;
+   //                const increment =
+   //                   target / 100;
 
-                  count += increment;
+   //                count += increment;
 
-                  if (count < target) {
+   //                if (count < target) {
 
-                     counter.innerText =
-                        Math.ceil(count);
+   //                   counter.innerText =
+   //                      Math.ceil(count);
 
-                     requestAnimationFrame(update);
+   //                   requestAnimationFrame(update);
 
-                  } else {
+   //                } else {
 
-                     counter.innerText =
-                        target + '+';
+   //                   counter.innerText =
+   //                      target + '+';
 
-                  }
+   //                }
 
-               };
+   //             };
 
-               update();
+   //             update();
 
-               observer.unobserve(counter);
+   //             observer.unobserve(counter);
 
-            }
+   //          }
 
-         });
+   //       });
 
-      }, {
-         threshold: 0.4
-      });
+   //    }, {
+   //       threshold: 0.4
+   //    });
 
-   counters.forEach(counter => {
-      observer.observe(counter);
-   });
+   // counters.forEach(counter => {
+   //    observer.observe(counter);
+   // });
 </script>
-<!-- ========================================= -->
-<!-- FEATURED CSR PROGRAMS -->
-<!-- ========================================= -->
-<section class="section-padding bg-white overflow-hidden">
+
+
+<section class="section-padding bg-slate-200 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
             Our Initiatives
          </span>
@@ -452,8 +440,7 @@ include "./include/herobanner.php";
                      class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110">
                </div>
                <div class="p-8">
-                  <div
-                     class="w-14 h-14 bg-secondary/10 flex items-center justify-center mb-5">
+                  <div class="w-14 h-14 bg-secondary/10 flex items-center justify-center mb-5">
                      <i class="fa-solid fa-people-group text-secondary text-xl"></i>
                   </div>
                   <h3 class="text-primary text-2xl font-black">
@@ -465,8 +452,7 @@ include "./include/herobanner.php";
                      community wellbeing initiatives.
                   </p>
                   <div class="mt-6">
-                     <span
-                        class="inline-flex items-center gap-2 text-secondary font-semibold">
+                     <span class="inline-flex items-center gap-2 text-secondary font-semibold">
                         <i class="fa-solid fa-handshake-angle"></i>
                         Strong Local Partnerships
                      </span>
@@ -477,13 +463,10 @@ include "./include/herobanner.php";
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- CSR JOURNEY TIMELINE -->
-<!-- ========================================= -->
-<section class="section-padding bg-slate-100 overflow-hidden">
+
+<!-- <section class="section-padding bg-slate-200 overflow-hidden">
    <div class="container-custom">
-      <!-- HEADING -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
+      <div class="text-center max-w-4xl mx-auto mb-12">
          <span class="section-subtitle">
             Our Journey
          </span>
@@ -497,9 +480,7 @@ include "./include/herobanner.php";
             awareness campaigns and humanitarian support.
          </p>
       </div>
-      <!-- TIMELINE -->
       <div class="grid xl:grid-cols-12 gap-10 items-start">
-         <!-- LEFT YEARS -->
          <div class="xl:col-span-4">
             <div class="space-y-4">
                <button
@@ -554,7 +535,6 @@ include "./include/herobanner.php";
                </button>
             </div>
          </div>
-         <!-- RIGHT CONTENT -->
          <div class="xl:col-span-8">
             <div
                id="timelineContent"
@@ -583,7 +563,6 @@ include "./include/herobanner.php";
                      and preventive care services to local
                      communities.
                   </p>
-                  <!-- IMPACT -->
                   <div
                      class="grid md:grid-cols-3 gap-6 mt-10">
                      <div
@@ -622,108 +601,106 @@ include "./include/herobanner.php";
          </div>
       </div>
    </div>
-</section>
+</section> -->
 <script>
-   const timelineData = {
+   // const timelineData = {
 
-      2015: {
-         image: "./assets/img/csr-timeline-1.png",
-         title: "Community Health Outreach Program",
-         description: "CIWEC initiated large-scale healthcare awareness and outreach activities, providing health education, screening and preventive care services to local communities.",
-         impact1: "1,200+",
-         impact2: "15",
-         impact3: "8"
-      },
+   //    2015: {
+   //       image: "./assets/img/csr-timeline-1.png",
+   //       title: "Community Health Outreach Program",
+   //       description: "CIWEC initiated large-scale healthcare awareness and outreach activities, providing health education, screening and preventive care services to local communities.",
+   //       impact1: "1,200+",
+   //       impact2: "15",
+   //       impact3: "8"
+   //    },
 
-      2018: {
-         image: "./assets/img/csr-firstaid.png",
-         title: "First Aid Training Expansion",
-         description: "Training schools, businesses and community groups in emergency response and lifesaving first aid techniques.",
-         impact1: "2,500+",
-         impact2: "35",
-         impact3: "20"
-      },
+   //    2018: {
+   //       image: "./assets/img/csr-firstaid.png",
+   //       title: "First Aid Training Expansion",
+   //       description: "Training schools, businesses and community groups in emergency response and lifesaving first aid techniques.",
+   //       impact1: "2,500+",
+   //       impact2: "35",
+   //       impact3: "20"
+   //    },
 
-      2020: {
-         image: "./assets/img/csr-main.png",
-         title: "Pandemic Response & Support",
-         description: "Providing healthcare support, awareness and emergency assistance during the COVID-19 pandemic.",
-         impact1: "10,000+",
-         impact2: "50",
-         impact3: "25"
-      },
+   //    2020: {
+   //       image: "./assets/img/csr-main.png",
+   //       title: "Pandemic Response & Support",
+   //       description: "Providing healthcare support, awareness and emergency assistance during the COVID-19 pandemic.",
+   //       impact1: "10,000+",
+   //       impact2: "50",
+   //       impact3: "25"
+   //    },
 
-      2023: {
-         image: "./assets/img/csr-blood.png",
-         title: "Blood Donation Campaigns",
-         description: "Organizing regular blood donation drives to support hospitals and emergency care services.",
-         impact1: "500+",
-         impact2: "18",
-         impact3: "12"
-      },
+   //    2023: {
+   //       image: "./assets/img/csr-blood.png",
+   //       title: "Blood Donation Campaigns",
+   //       description: "Organizing regular blood donation drives to support hospitals and emergency care services.",
+   //       impact1: "500+",
+   //       impact2: "18",
+   //       impact3: "12"
+   //    },
 
-      2025: {
-         image: "./assets/img/csr-timeline-1.png",
-         title: "Sustainable Community Impact",
-         description: "Expanding CSR initiatives with long-term community partnerships and healthcare education programs.",
-         impact1: "15,000+",
-         impact2: "75",
-         impact3: "40"
-      }
+   //    2025: {
+   //       image: "./assets/img/csr-timeline-1.png",
+   //       title: "Sustainable Community Impact",
+   //       description: "Expanding CSR initiatives with long-term community partnerships and healthcare education programs.",
+   //       impact1: "15,000+",
+   //       impact2: "75",
+   //       impact3: "40"
+   //    }
 
-   };
+   // };
 
-   document.querySelectorAll(".timeline-btn")
-      .forEach(btn => {
+   // document.querySelectorAll(".timeline-btn")
+   //    .forEach(btn => {
 
-         btn.addEventListener("click", function() {
+   //       btn.addEventListener("click", function() {
 
-            const year = this.dataset.year;
+   //          const year = this.dataset.year;
 
-            document.querySelectorAll(".timeline-btn")
-               .forEach(item => {
+   //          document.querySelectorAll(".timeline-btn")
+   //             .forEach(item => {
 
-                  item.classList.remove(
-                     "active-timeline",
-                     "bg-primary",
-                     "text-white"
-                  );
+   //                item.classList.remove(
+   //                   "active-timeline",
+   //                   "bg-primary",
+   //                   "text-white"
+   //                );
 
-                  item.classList.add(
-                     "bg-white",
-                     "border",
-                     "border-slate-200"
-                  );
+   //                item.classList.add(
+   //                   "bg-white",
+   //                   "border",
+   //                   "border-slate-200"
+   //                );
 
-               });
+   //             });
 
-            this.classList.add(
-               "active-timeline",
-               "bg-primary",
-               "text-white"
-            );
+   //          this.classList.add(
+   //             "active-timeline",
+   //             "bg-primary",
+   //             "text-white"
+   //          );
 
-            const data = timelineData[year];
+   //          const data = timelineData[year];
 
-            document.getElementById("timelineImage").src =
-               data.image;
+   //          document.getElementById("timelineImage").src =
+   //             data.image;
 
-            document.getElementById("timelineYear").innerText =
-               year;
+   //          document.getElementById("timelineYear").innerText =
+   //             year;
 
-            document.getElementById("timelineTitle").innerText =
-               data.title;
+   //          document.getElementById("timelineTitle").innerText =
+   //             data.title;
 
-            document.getElementById("timelineDescription").innerText =
-               data.description;
+   //          document.getElementById("timelineDescription").innerText =
+   //             data.description;
 
-         });
+   //       });
 
-      });
+   //    });
 </script>
-<!-- ========================================= -->
-<!-- SUCCESS STORIES -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
@@ -1058,9 +1035,7 @@ include "./include/herobanner.php";
       </div>
    </div>
 </section>
-<!-- ========================================= -->
-<!-- UPCOMING CSR INITIATIVES -->
-<!-- ========================================= -->
+
 <section class="section-padding bg-slate-200 overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
@@ -1086,7 +1061,7 @@ include "./include/herobanner.php";
          </div>
          <!-- ITEM -->
          <div
-            class="grid lg:grid-cols-2 gap-10 items-center mb-16">
+            class="grid lg:grid-cols-2 gap-10 items-center mb-8">
             <div
                class="bg-white border border-slate-200 p-8 lg:text-right">
                <span
@@ -1115,7 +1090,7 @@ include "./include/herobanner.php";
          </div>
          <!-- ITEM -->
          <div
-            class="grid lg:grid-cols-2 gap-10 items-center mb-16">
+            class="grid lg:grid-cols-2 gap-10 items-center mb-8">
             <div class="order-2 lg:order-1">
                <img
                   src="./assets/img/csr-blood.png"
@@ -1166,9 +1141,24 @@ include "./include/herobanner.php";
             </div>
          </div>
       </div>
+      <div
+         class="mt-16
+            bg-slate-100
+            border-l-4
+            border-secondary
+            p-8 md:p-10
+            max-w-5xl
+            mx-auto">
+
+         <blockquote
+            class="text-xl md:text-2xl italic text-slate-700 leading-10 text-center">
+            "The greatest impact happens when healthcare, compassion and community come together."
+         </blockquote>
+
+      </div>
       <!-- BOTTOM CTA -->
       <div
-         class="mt-20 bg-primary p-10 lg:p-14 text-center">
+         class="mt-16 bg-primary p-10 lg:p-14 text-center">
          <h3
             class="text-white text-3xl lg:text-4xl font-black">
             Want To Participate?
@@ -1191,13 +1181,11 @@ include "./include/herobanner.php";
             </a>
          </div>
       </div>
+
    </div>
 </section>
-<!-- ========================================= -->
-<!-- JOIN OUR MISSION -->
-<!-- ========================================= -->
-<section class="section-padding relative overflow-hidden bg-primary">
-   <!-- BACKGROUND SHAPES -->
+
+<!-- <section class="section-padding relative overflow-hidden bg-primary">
    <div
       class="absolute
       top-0
@@ -1228,7 +1216,6 @@ include "./include/herobanner.php";
          class="text-center
          max-w-5xl
          mx-auto">
-         <!-- SUBTITLE -->
          <span
             class="inline-block
             text-secondary
@@ -1238,7 +1225,6 @@ include "./include/herobanner.php";
             mb-5">
             Get Involved
          </span>
-         <!-- TITLE -->
          <h2
             class="text-white
             text-3xl
@@ -1249,7 +1235,6 @@ include "./include/herobanner.php";
             Together We Can Build
             Healthier Communities
          </h2>
-         <!-- DESCRIPTION -->
          <p
             class="text-white/80
             text-lg
@@ -1263,7 +1248,6 @@ include "./include/herobanner.php";
             blood donation campaigns or community initiatives,
             you can help us create lasting positive impact.
          </p>
-         <!-- CTA BUTTONS -->
          <div
             class="flex
             flex-wrap
@@ -1283,13 +1267,11 @@ include "./include/herobanner.php";
                Contact CSR Team
             </a>
          </div>
-         <!-- IMPACT CARDS -->
          <div
             class="grid
             md:grid-cols-3
             gap-8
             mt-16">
-            <!-- CARD -->
             <div
                class="bg-white/5
                border
@@ -1325,7 +1307,6 @@ include "./include/herobanner.php";
                   health camps and awareness programs.
                </p>
             </div>
-            <!-- CARD -->
             <div
                class="bg-white/5
                border
@@ -1361,7 +1342,6 @@ include "./include/herobanner.php";
                   access and social impact.
                </p>
             </div>
-            <!-- CARD -->
             <div
                class="bg-white/5
                border
@@ -1398,7 +1378,6 @@ include "./include/herobanner.php";
                </p>
             </div>
          </div>
-         <!-- QUOTE -->
          <div
             class="mt-16
             max-w-4xl
@@ -1415,7 +1394,8 @@ include "./include/herobanner.php";
          </div>
       </div>
    </div>
-</section>
+</section> -->
+
 <script>
    document.addEventListener("DOMContentLoaded", () => {
 

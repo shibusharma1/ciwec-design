@@ -2,13 +2,11 @@
 $hero_title = "Our History";
 include "./include/header.php";
 include "./include/herobanner.php";
-include "./include/historytimelinesection.php";
+// include "./include/historytimelinesection.php";
 ?>
 
-
-<section class="section-padding bg-slate-200 overflow-hidden">
+<!-- <section class="section-padding bg-slate-200 overflow-hidden">
     <div class="container-custom">
-        <!-- HEADING -->
         <div class="text-center mb-16">
             <span class="section-subtitle">
                 CIWEC At A Glance
@@ -26,12 +24,10 @@ include "./include/historytimelinesection.php";
                 in quality healthcare, research and patient care.
             </p>
         </div>
-        <!-- STATS -->
         <div class="grid
             md:grid-cols-2
             xl:grid-cols-4
             gap-8">
-            <!-- ITEM -->
             <div class="group
                 bg-slate-100
                 border
@@ -67,7 +63,6 @@ include "./include/historytimelinesection.php";
                     Years Of Excellence
                 </p>
             </div>
-            <!-- ITEM -->
             <div class="group
                 bg-slate-100
                 border
@@ -101,7 +96,6 @@ include "./include/historytimelinesection.php";
                     Nationalities Served
                 </p>
             </div>
-            <!-- ITEM -->
             <div class="group
                 bg-slate-100
                 border
@@ -139,7 +133,6 @@ include "./include/historytimelinesection.php";
                     Medical Specialists
                 </p>
             </div>
-            <!-- ITEM -->
             <div
                 class="group
                 bg-primary
@@ -189,7 +182,6 @@ include "./include/historytimelinesection.php";
                 </p>
             </div>
         </div>
-        <!-- HIGHLIGHT BAR -->
         <div
             class="mt-16
             bg-primary
@@ -249,14 +241,14 @@ include "./include/historytimelinesection.php";
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- ========================================= -->
 <!-- GROWTH THROUGH THE YEARS -->
 <!-- ========================================= -->
 <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
-        <div class="text-center mb-20">
+        <div class="text-center mb-16">
             <span class="section-subtitle">
                 Evolution Of CIWEC
             </span>
@@ -275,7 +267,7 @@ include "./include/historytimelinesection.php";
             </p>
         </div>
         <!-- JOURNEY -->
-        <div class="space-y-24">
+        <div class="space-y-8">
             <!-- ROW 1 -->
             <div
                 class="grid lg:grid-cols-2 gap-12 items-center">
@@ -308,7 +300,7 @@ include "./include/historytimelinesection.php";
                 <div>
                     <img src="./assets/img/history-1982.jpg"
                         class="w-full
-                        h-[400px]
+                        h-[300px]
                         object-cover
                         shadow-lg">
                 </div>
@@ -341,7 +333,7 @@ include "./include/historytimelinesection.php";
                 <div class="lg:order-1">
                     <img src="./assets/img/history/history1.webp"
                         class="w-full
-                        h-[400px]
+                        h-[300px]
                         object-cover
                         shadow-lg">
                 </div>
@@ -375,7 +367,7 @@ include "./include/historytimelinesection.php";
                     <img
                         src="./assets/img/history/history2.webp"
                         class="w-full
-                        h-[400px]
+                        h-[300px]
                         object-cover
                         shadow-lg">
                 </div>
@@ -415,7 +407,7 @@ include "./include/historytimelinesection.php";
                     <img
                         src="./assets/img/history/history3.webp"
                         class="w-full
-                        h-[400px]
+                        h-[300px]
                         object-cover
                         shadow-lg">
                 </div>
@@ -692,7 +684,7 @@ include "./include/historytimelinesection.php";
         </div>
         <!-- QUOTE -->
         <div
-            class="mt-20
+            class="mt-16
             bg-slate-100
             border-l-4
             border-secondary
@@ -719,7 +711,7 @@ include "./include/historytimelinesection.php";
 <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->
-        <div class="text-center mb-20">
+        <div class="text-center mb-16">
             <span class="section-subtitle">
                 Looking Back & Moving Forward
             </span>
@@ -839,8 +831,7 @@ include "./include/historytimelinesection.php";
                 </div>
             </div>
             <!-- FUTURE -->
-            <div
-                class="group
+            <div class="group
                 relative
                 bg-primary
                 text-white
@@ -952,36 +943,29 @@ include "./include/historytimelinesection.php";
             </div>
         </div>
         <!-- QUOTE -->
-        <div
-            class="mt-20
-            text-center
-            max-w-5xl
-            mx-auto">
-            <h3
-                class="text-primary
-                text-3xl
-                md:text-4xl
-                font-black
-                leading-tight">
-                Building On Our History,
-                Advancing Towards The Future
-            </h3>
-            <p
-                class="text-slate-600
-                leading-8
-                mt-6">
-                Our commitment remains unchanged:
-                delivering trusted healthcare with compassion,
-                innovation and excellence for generations to come.
-            </p>
+        <div class="mt-12
+                bg-white
+                border-l-4
+                border-secondary
+                p-6 md:p-8
+                max-w-5xl
+                mx-auto">
+            <blockquote class="text-center">
+                <p class="text-xl md:text-2xl italic text-slate-700 leading-10">
+                    "Building On Our History, Advancing Towards The Future"
+                </p>
+                <p class="text-slate-600 leading-8 mt-6 not-italic">
+                    Our commitment remains unchanged: delivering trusted healthcare
+                    with compassion, innovation and excellence for generations to come.
+                </p>
+            </blockquote>
         </div>
     </div>
 </section>
 
 <section class="relative overflow-hidden bg-primary">
     <!-- DECORATION -->
-    <div
-        class="absolute
+    <div class="absolute
         top-0
         left-0
         w-[500px]
@@ -991,8 +975,7 @@ include "./include/historytimelinesection.php";
         -translate-x-1/2
         -translate-y-1/2">
     </div>
-    <div
-        class="absolute
+    <div class="absolute
         bottom-0
         right-0
         w-[600px]
@@ -1003,8 +986,7 @@ include "./include/historytimelinesection.php";
         translate-y-1/3">
     </div>
     <div class="container-custom relative z-10">
-        <div
-            class="py-8
+        <div class="py-8
             lg:py-8
             text-center
             max-w-5xl
@@ -1031,8 +1013,7 @@ include "./include/historytimelinesection.php";
                 Four Decades Of Excellence
             </h2>
             <!-- TEXT -->
-            <p
-                class="max-w-3xl
+            <p class="max-w-3xl
                 mx-auto
                 text-white/80
                 text-lg
@@ -1059,110 +1040,10 @@ include "./include/historytimelinesection.php";
                     Find A Doctor
                 </a>
             </div>
-            
+
         </div>
     </div>
 </section>
-<!-- ========================================= -->
-<!-- HISTORY VIDEO MODAL -->
-<!-- ========================================= -->
-<div id="historyVideoModal"
-    class="fixed inset-0 z-[9999] hidden">
-    <!-- BACKDROP -->
-    <div
-        id="historyVideoOverlay"
-        class="absolute inset-0 bg-black/90">
-    </div>
-    <!-- CONTENT -->
-    <div
-        class="relative
-        flex
-        items-center
-        justify-center
-        h-full
-        p-4">
-        <div
-            class="relative
-            w-full
-            max-w-6xl">
-            <!-- CLOSE -->
-            <button
-                id="closeHistoryVideo"
-                class="absolute
-                -top-12
-                right-0
-                text-white
-                text-3xl">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
-            <!-- IFRAME -->
-            <div
-                class="aspect-video">
-                <iframe
-                    id="historyVideoFrame"
-                    class="w-full h-full"
-                    src=""
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-    </div>
-</div>
-<script>
-    const historyVideoBtns =
-        document.querySelectorAll(".historyVideoBtn");
-
-    const historyVideoModal =
-        document.getElementById("historyVideoModal");
-
-    const historyVideoFrame =
-        document.getElementById("historyVideoFrame");
-
-    const closeHistoryVideo =
-        document.getElementById("closeHistoryVideo");
-
-    const historyVideoOverlay =
-        document.getElementById("historyVideoOverlay");
-
-    historyVideoBtns.forEach(btn => {
-
-        btn.addEventListener("click", () => {
-
-            const video =
-                btn.dataset.video;
-
-            historyVideoFrame.src =
-                video + "?autoplay=1";
-
-            historyVideoModal.classList.remove("hidden");
-
-            document.body.style.overflow =
-                "hidden";
-
-        });
-
-    });
-
-    function closeVideo() {
-
-        historyVideoModal.classList.add("hidden");
-
-        historyVideoFrame.src = "";
-
-        document.body.style.overflow = "";
-
-    }
-
-    closeHistoryVideo.addEventListener(
-        "click",
-        closeVideo
-    );
-
-    historyVideoOverlay.addEventListener(
-        "click",
-        closeVideo
-    );
-</script>
 <!-- ========================================= -->
 <!-- LEADERSHIP THROUGH THE YEARS -->
 <!-- ========================================= -->

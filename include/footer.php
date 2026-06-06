@@ -138,7 +138,7 @@ include "./include/locationsection.php"; ?>
                         class="text-white/60 hover:text-secondary transition">
                         Privacy Policy
                     </a>
-                    <a href="#"
+                    <a href="./termsandconditions.php"
                         class="text-white/60 hover:text-secondary transition">
                         Terms & Conditions
                     </a>

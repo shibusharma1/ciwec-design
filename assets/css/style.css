@@ -58,20 +58,9 @@ body {
     padding-inline: 40px;
   }
 }
-/* .section-sm {
-  padding-block: 64px;
-}
 
-.section-md {
-  padding-block: 96px;
-}
-
-.section-lg {
-  padding-block: 128px;
-}
-*/
 .section-padding {
-  padding-block: 70px;
+  padding-block: 3.5rem;
 }
 
 .hero-title {
@@ -97,7 +86,27 @@ body {
   line-height: 1.15;
   font-weight: 700;
   color: var(--text-heading);
+  margin-bottom: 4px;
+}
+
+.section-subtitle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--secondary);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
   margin-bottom: 16px;
+}
+
+.section-subtitle::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: var(--secondary);
+  flex-shrink: 0;
 }
 
 .section-desc {

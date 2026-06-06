@@ -161,175 +161,6 @@ include "./include/herobanner.php";
    </div>
 </section>
 
-<section class="section-padding bg-slate-100 overflow-hidden">
-   <div class="container-custom">
-      <!-- HEADING -->
-      <div class="text-center max-w-4xl mx-auto mb-12">
-         <span class="section-subtitle">
-         Explore Topics
-         </span>
-         <h2 class="section-title">
-            Browse Health Information By Category
-         </h2>
-         <p class="text-slate-600 mt-6 leading-8">
-            Discover expert guidance across a wide range of
-            healthcare topics including travel medicine,
-            altitude illness, vaccinations, disease prevention
-            and family health.
-         </p>
-      </div>
-      <!-- CATEGORY GRID -->
-      <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-         <!-- TRAVEL HEALTH -->
-         <div class="health-category group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
-            data-category="Travel Health">
-            <div class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
-               <i class="fa-solid fa-earth-asia text-primary text-2xl">
-               </i>
-            </div>
-            <h3 class="text-primary text-2xl font-black">
-               Travel Health
-            </h3>
-            <p class="text-slate-600 mt-4 leading-7">
-               Essential information for international travelers,
-               vaccinations, travel safety and preventive care.
-            </p>
-            <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
-               <span class="text-secondary font-semibold">
-               25 Articles
-               </span>
-               <i class="fa-solid fa-arrow-right text-primary group-hover:text-secondary">
-               </i>
-            </div>
-         </div>
-         <!-- ALTITUDE ILLNESS -->
-         <div class="health-category group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
-            data-category="Altitude Illness">
-            <div class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
-               <i class="fa-solid fa-mountain text-secondary text-2xl">
-               </i>
-            </div>
-            <h3 class="text-primary text-2xl font-black">
-               Altitude Illness
-            </h3>
-            <p class="text-slate-600 mt-4 leading-7">
-               Learn about altitude sickness,
-               acclimatization, prevention and treatment.
-            </p>
-            <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
-               <span class="text-secondary font-semibold">
-               18 Articles
-               </span>
-               <i class="fa-solid fa-arrow-right text-primary group-hover:text-secondary">
-               </i>
-            </div>
-         </div>
-         <!-- VACCINATIONS -->
-         <div class="health-category group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
-            data-category="Vaccinations">
-            <div class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
-               <i class="fa-solid fa-syringe text-primary text-2xl">
-               </i>
-            </div>
-            <h3 class="text-primary text-2xl font-black">
-               Vaccinations
-            </h3>
-            <p class="text-slate-600 mt-4 leading-7">
-               Vaccination recommendations,
-               schedules and travel vaccine guidance.
-            </p>
-            <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
-               <span class="text-secondary font-semibold">
-               15 Articles
-               </span>
-               <i class="fa-solid fa-arrow-right text-primary group-hover:text-secondary">
-               </i>
-            </div>
-         </div>
-         <!-- INFECTIOUS DISEASES -->
-         <div class="health-category group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
-            data-category="Infectious Diseases">
-            <div class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
-               <i class="fa-solid fa-virus text-secondary text-2xl">
-               </i>
-            </div>
-            <h3 class="text-primary text-2xl font-black">
-               Infectious Diseases
-            </h3>
-            <p class="text-slate-600 mt-4 leading-7">
-               Information on prevention,
-               symptoms and treatment options.
-            </p>
-            <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
-               <span class="text-secondary font-semibold">
-               30 Articles
-               </span>
-               <i class="fa-solid fa-arrow-right text-primary group-hover:text-secondary">
-               </i>
-            </div>
-         </div>
-         <!-- FAMILY HEALTH -->
-         <div class="health-category group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
-            data-category="Family Health">
-            <div class="w-16 h-16 bg-primary/10 flex items-center justify-center mb-6">
-               <i class="fa-solid fa-people-group text-primary text-2xl">
-               </i>
-            </div>
-            <h3 class="text-primary text-2xl font-black">
-               Family Health
-            </h3>
-            <p class="text-slate-600 mt-4 leading-7">
-               Healthcare guidance for children,
-               adults and family wellness.
-            </p>
-            <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
-               <span
-                  class="text-secondary font-semibold">
-               20 Articles
-               </span>
-               <i class="fa-solid fa-arrow-right text-primary group-hover:text-secondary">
-               </i>
-            </div>
-         </div>
-         <!-- PREVENTIVE CARE -->
-         <div class="health-category group bg-white border border-slate-200 p-8 hover:border-secondary hover:-translate-y-2 transition-all duration-500 cursor-pointer"
-            data-category="Preventive Care">
-            <div class="w-16 h-16 bg-secondary/10 flex items-center justify-center mb-6">
-               <i class="fa-solid fa-heart-pulse text-secondary text-2xl">
-               </i>
-            </div>
-            <h3 class="text-primary text-2xl font-black">
-               Preventive Care
-            </h3>
-            <p class="text-slate-600 mt-4 leading-7">
-               Health screenings, wellness programs
-               and disease prevention strategies.
-            </p>
-            <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-200">
-               <span class="text-secondary font-semibold">
-               22 Articles
-               </span>
-               <i class="fa-solid fa-arrow-right text-primary group-hover:text-secondary">
-               </i>
-            </div>
-         </div>
-      </div>
-      <!-- BOTTOM CTA -->
-      <div class="mt-16 bg-primary p-10 text-center">
-         <h3 class="text-white text-3xl font-black">
-            Looking For Specific Health Information?
-         </h3>
-         <p
-            class="text-white/80 mt-5 max-w-3xl mx-auto leading-8">
-            Browse our complete health information library
-            or use the search feature below to find articles,
-            guides and educational resources.
-         </p>
-      </div>
-   </div>
-</section>
-
-
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <!-- HEADING -->
@@ -1045,8 +876,7 @@ include "./include/herobanner.php";
    });
 </script>
 
-<section class="section-padding relative overflow-hidden bg-primary">
-   <!-- BACKGROUND SHAPES -->
+<!-- <section class="section-padding relative overflow-hidden bg-primary">
    <div
       class="absolute
       top-0
@@ -1074,7 +904,6 @@ include "./include/herobanner.php";
       relative
       z-10">
       <div>
-         <!-- HEADER -->
          <div
             class="text-center max-w-4xl mx-auto">
             <span
@@ -1109,10 +938,8 @@ include "./include/herobanner.php";
                seek medical attention immediately.
             </p>
          </div>
-         <!-- WARNING SIGNS -->
          <div
             class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mt-12">
-            <!-- ITEM -->
             <div
                class="bg-white/5 border border-white/10 p-8">
                <div
@@ -1132,7 +959,6 @@ include "./include/herobanner.php";
                   respiratory distress.
                </p>
             </div>
-            <!-- ITEM -->
             <div
                class="bg-white/5 border border-white/10 p-8">
                <div
@@ -1152,7 +978,6 @@ include "./include/herobanner.php";
                   suggestive of heart problems.
                </p>
             </div>
-            <!-- ITEM -->
             <div
                class="bg-white/5 border border-white/10 p-8">
                <div
@@ -1172,7 +997,6 @@ include "./include/herobanner.php";
                   or stroke symptoms.
                </p>
             </div>
-            <!-- ITEM -->
             <div
                class="bg-white/5 border border-white/10 p-8">
                <div
@@ -1193,12 +1017,10 @@ include "./include/herobanner.php";
                </p>
             </div>
          </div>
-         <!-- ACTION PANEL -->
          <div
             class="bg-white mt-20 p-10 lg:p-14">
             <div
                class="grid lg:grid-cols-12 gap-10 items-center">
-               <!-- LEFT -->
                <div
                   class="lg:col-span-8">
                   <h3
@@ -1212,7 +1034,6 @@ include "./include/herobanner.php";
                      or visit the nearest emergency department.
                   </p>
                </div>
-               <!-- RIGHT -->
                <div
                   class="lg:col-span-4">
                   <div
@@ -1238,7 +1059,7 @@ include "./include/herobanner.php";
          </div>
       </div>
    </div>
-</section>
+</section> -->
 
 <script>
    const healthResources = [{

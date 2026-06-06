@@ -14,37 +14,37 @@ const newsletters = [
   {
     id: 3,
     title: "Newsletter Jan-Feb 2024",
-    file: "./assets/pdf/news3.pdf",
+    file: "./assets/pdf/news1.pdf",
   },
 
   {
     id: 4,
     title: "Newsletter September – October 2023",
-    file: "./assets/pdf/news4.pdf",
+    file: "./assets/pdf/news2.pdf",
   },
 
   {
     id: 5,
     title: "Newsletter July – August 2023",
-    file: "./assets/pdf/news5.pdf",
+    file: "./assets/pdf/news1.pdf",
   },
 
   {
     id: 6,
     title: "Newsletter May 2023",
-    file: "./assets/pdf/news6.pdf",
+    file: "./assets/pdf/news2.pdf",
   },
 
   {
     id: 7,
     title: "Newsletter January 2023",
-    file: "./assets/pdf/news7.pdf",
+    file: "./assets/pdf/news1.pdf",
   },
 
   {
     id: 8,
     title: "Newsletter December 2022",
-    file: "./assets/pdf/news8.pdf",
+    file: "./assets/pdf/news2.pdf",
   },
 ];
 
