@@ -94,16 +94,14 @@
     </div>
 </section>
 <!-- ABOUT -->
-<section class="section-padding bg-white">
+<!-- <section class="section-padding bg-white">
     <div class="container-custom">
         <div class="grid lg:grid-cols-2 gap-16 items-center">
-            <!-- Image -->
             <div>
                 <img
                     src="./assets/img/about-ciwec.webp"
                     class="w-full h-[500px] object-cover">
             </div>
-            <!-- Content -->
             <div>
                 <span
                     class="text-secondary uppercase tracking-[3px] text-sm font-semibold">
@@ -132,11 +130,12 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
+
 <!-- =========================
     SPECIALITY CENTERS
     ========================= -->
-<section class="speciality-section section-padding bg-slate-100">
+<section class="speciality-section section-padding bg-white">
     <div class="container-custom">
         <!-- HEADER -->
         <div class="flex items-end justify-between mb-10">
@@ -408,7 +407,7 @@ include "./include/historytimelinesection.php";
 ?>
 
 <!-- Rectangular design of why ciwec -->
-<section class="section-padding bg-slate-100">
+<section class="section-padding bg-slate-200">
     <div class="container-custom">
         <div class="max-w-3xl mb-12">
             <span
@@ -426,7 +425,7 @@ include "./include/historytimelinesection.php";
             </p>
         </div>
         <div class="grid xl:grid-cols-12 gap-8 xl:gap-12 items-center">
-            <div class="xl:col-span-5">
+            <!-- <div class="xl:col-span-5">
                 <div class="relative overflow-hidden">
                     <img
                         src="./assets/img/speciality/img1.jpg"
@@ -443,9 +442,9 @@ include "./include/historytimelinesection.php";
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="xl:col-span-7">
-                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            </div> -->
+            <!-- <div class="xl:col-span-12">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
                     <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300 bg-white">
                         <img src="./assets/img/ISO-Certified-company-logo.webp"
                             class="w-14 h-14 object-contain mb-4">
@@ -487,6 +486,26 @@ include "./include/historytimelinesection.php";
                         </p>
                     </div>
                     <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300 bg-white">
+                        <img src="./assets/img/ISO-Certified-company-logo.webp"
+                            class="w-14 h-14 object-contain mb-4">
+                        <h3 class="text-primary text-lg font-black mb-3">
+                            ISO Certified
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-6">
+                            Internationally recognized quality standards.
+                        </p>
+                    </div>
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300 bg-white">
+                        <img src="./assets/img/consulting.webp"
+                            class="w-14 h-14 object-cover mb-4">
+                        <h3 class="text-primary text-lg font-black mb-3">
+                            80+ Specialists
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-6">
+                            Multi-disciplinary consultant team.
+                        </p>
+                    </div>
+                    <div class="group border border-slate-200 p-6 hover:border-secondary hover:-translate-y-1 transition-all duration-300 bg-white">
                         <img src="./assets/img/3000.webp"
                             class="w-14 h-14 object-cover mb-4">
                         <h3 class="text-primary text-lg font-black mb-3">
@@ -507,9 +526,224 @@ include "./include/historytimelinesection.php";
                         </p>
                     </div>
                 </div>
+            </div> -->
+            <div class="xl:col-span-12">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <!-- Card -->
+                    <div
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+
+                        <!-- Top Accent -->
+                        <span
+                            class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
+
+                        <!-- Glow -->
+                        <div
+                            class="absolute -top-10 -right-10 h-24 w-24 rounded-full bg-secondary/10 blur-3xl opacity-0 transition-all duration-500 group-hover:opacity-100">
+                        </div>
+
+                        <div class="relative z-10">
+                            <img src="./assets/img/ISO-Certified-company-logo.webp"
+                                class="w-14 h-14 object-contain mb-4 transition-all duration-500 group-hover:scale-110">
+
+                            <h3
+                                class="text-primary text-lg font-black mb-3 transition-colors duration-300 group-hover:text-secondary">
+                                ISO Certified
+                            </h3>
+
+                            <p class="text-slate-600 text-sm leading-6">
+                                Internationally recognized quality standards.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+
+                        <span
+                            class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
+
+                        <div
+                            class="absolute -top-10 -right-10 h-24 w-24 rounded-full bg-secondary/10 blur-3xl opacity-0 transition-all duration-500 group-hover:opacity-100">
+                        </div>
+
+                        <div class="relative z-10">
+                            <img src="./assets/img/consulting.webp"
+                                class="w-14 h-14 object-cover mb-4 transition-all duration-500 group-hover:scale-110">
+
+                            <h3
+                                class="text-primary text-lg font-black mb-3 transition-colors duration-300 group-hover:text-secondary">
+                                80+ Specialists
+                            </h3>
+
+                            <p class="text-slate-600 text-sm leading-6">
+                                Multi-disciplinary consultant team.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+
+                        <span
+                            class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
+
+                        <div
+                            class="absolute -top-10 -right-10 h-24 w-24 rounded-full bg-secondary/10 blur-3xl opacity-0 transition-all duration-500 group-hover:opacity-100">
+                        </div>
+
+                        <div class="relative z-10">
+                            <img src="./assets/img/42-years.webp"
+                                class="w-14 h-14 object-cover mb-4 transition-all duration-500 group-hover:scale-110">
+
+                            <h3
+                                class="text-primary text-lg font-black mb-3 transition-colors duration-300 group-hover:text-secondary">
+                                42+ Years
+                            </h3>
+
+                            <p class="text-slate-600 text-sm leading-6">
+                                Experience in travel medicine.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+
+                        <span
+                            class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
+
+                        <div
+                            class="absolute -top-10 -right-10 h-24 w-24 rounded-full bg-secondary/10 blur-3xl opacity-0 transition-all duration-500 group-hover:opacity-100">
+                        </div>
+
+                        <div class="relative z-10">
+                            <img src="./assets/img/170.webp"
+                                class="w-14 h-14 object-cover mb-4 transition-all duration-500 group-hover:scale-110">
+
+                            <h3
+                                class="text-primary text-lg font-black mb-3 transition-colors duration-300 group-hover:text-secondary">
+                                170+ Nations
+                            </h3>
+
+                            <p class="text-slate-600 text-sm leading-6">
+                                Patients from around the globe.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+
+                        <span
+                            class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
+
+                        <div
+                            class="absolute -top-10 -right-10 h-24 w-24 rounded-full bg-secondary/10 blur-3xl opacity-0 transition-all duration-500 group-hover:opacity-100">
+                        </div>
+
+                        <div class="relative z-10">
+                            <img src="./assets/img/ISO-Certified-company-logo.webp"
+                                class="w-14 h-14 object-contain mb-4 transition-all duration-500 group-hover:scale-110">
+
+                            <h3
+                                class="text-primary text-lg font-black mb-3 transition-colors duration-300 group-hover:text-secondary">
+                                ISO Certified
+                            </h3>
+
+                            <p class="text-slate-600 text-sm leading-6">
+                                Internationally recognized quality standards.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+
+                        <span
+                            class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
+
+                        <div
+                            class="absolute -top-10 -right-10 h-24 w-24 rounded-full bg-secondary/10 blur-3xl opacity-0 transition-all duration-500 group-hover:opacity-100">
+                        </div>
+
+                        <div class="relative z-10">
+                            <img src="./assets/img/consulting.webp"
+                                class="w-14 h-14 object-cover mb-4 transition-all duration-500 group-hover:scale-110">
+
+                            <h3
+                                class="text-primary text-lg font-black mb-3 transition-colors duration-300 group-hover:text-secondary">
+                                80+ Specialists
+                            </h3>
+
+                            <p class="text-slate-600 text-sm leading-6">
+                                Multi-disciplinary consultant team.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+
+                        <span
+                            class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
+
+                        <div
+                            class="absolute -top-10 -right-10 h-24 w-24 rounded-full bg-secondary/10 blur-3xl opacity-0 transition-all duration-500 group-hover:opacity-100">
+                        </div>
+
+                        <div class="relative z-10">
+                            <img src="./assets/img/3000.webp"
+                                class="w-14 h-14 object-cover mb-4 transition-all duration-500 group-hover:scale-110">
+
+                            <h3
+                                class="text-primary text-lg font-black mb-3 transition-colors duration-300 group-hover:text-secondary">
+                                30,000+
+                            </h3>
+
+                            <p class="text-slate-600 text-sm leading-6">
+                                Insurance cases successfully handled.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+
+                        <span
+                            class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
+
+                        <div
+                            class="absolute -top-10 -right-10 h-24 w-24 rounded-full bg-secondary/10 blur-3xl opacity-0 transition-all duration-500 group-hover:opacity-100">
+                        </div>
+
+                        <div class="relative z-10">
+                            <img src="./assets/img/circular.webp"
+                                class="w-14 h-14 object-cover mb-4 transition-all duration-500 group-hover:scale-110">
+
+                            <h3
+                                class="text-primary text-lg font-black mb-3 transition-colors duration-300 group-hover:text-secondary">
+                                35+ Years
+                            </h3>
+
+                            <p class="text-slate-600 text-sm leading-6">
+                                Research in travel related illnesses.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-        <div
+        <!-- <div
             class="mt-12 grid grid-cols-2 lg:grid-cols-4 border-t border-slate-200">
             <div class="py-8 text-center">
                 <h3 class="text-primary text-3xl font-black mb-2">
@@ -543,7 +777,7 @@ include "./include/historytimelinesection.php";
                     Emergency Care
                 </p>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 
@@ -1423,7 +1657,7 @@ include "./include/historytimelinesection.php";
                         </a>
                     </article>
                 </div>
-            </div>  
+            </div>
             <!-- PAGINATION -->
             <!-- <div class="review-pagination mt-10"></div> -->
         </div>
@@ -1453,11 +1687,9 @@ include "./include/historytimelinesection.php";
         <!-- SWIPER -->
         <div class="swiper awardSwiper">
             <div class="swiper-wrapper">
-                <!-- CARD -->
-                <div class="swiper-slide h-auto">
+                <!-- <div class="swiper-slide h-auto">
                     <article
                         class="h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300 flex flex-col">
-                        <!-- TOP -->
                         <div class="flex items-center justify-between mb-8">
                             <div
                                 class="w-14 h-14 bg-primary/5 flex items-center justify-center">
@@ -1470,7 +1702,6 @@ include "./include/historytimelinesection.php";
                                 2025
                             </span>
                         </div>
-                        <!-- CONTENT -->
                         <h3
                             class="text-primary text-2xl font-black leading-tight mb-4">
                             Best Travel Medicine Hospital
@@ -1480,7 +1711,6 @@ include "./include/historytimelinesection.php";
                             Recognized for excellence in travel medicine,
                             preventive healthcare and international patient care.
                         </p>
-                        <!-- ORGANIZATION -->
                         <div
                             class="mt-8 pt-6 border-t border-slate-200">
                             <span
@@ -1490,7 +1720,6 @@ include "./include/historytimelinesection.php";
                         </div>
                     </article>
                 </div>
-                <!-- CARD -->
                 <div class="swiper-slide h-auto">
                     <article
                         class="h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300 flex flex-col">
@@ -1524,7 +1753,6 @@ include "./include/historytimelinesection.php";
                         </div>
                     </article>
                 </div>
-                <!-- CARD -->
                 <div class="swiper-slide h-auto">
                     <article
                         class="h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300 flex flex-col">
@@ -1558,7 +1786,6 @@ include "./include/historytimelinesection.php";
                         </div>
                     </article>
                 </div>
-                <!-- CARD -->
                 <div class="swiper-slide h-auto">
                     <article
                         class="h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300 flex flex-col">
@@ -1587,7 +1814,6 @@ include "./include/historytimelinesection.php";
                         </div>
                     </article>
                 </div>
-                <!-- CARD -->
                 <div class="swiper-slide h-auto">
                     <article
                         class="h-full bg-white border border-slate-200 p-8 hover:border-secondary transition-all duration-300 flex flex-col">
@@ -1620,7 +1846,175 @@ include "./include/historytimelinesection.php";
                             </span>
                         </div>
                     </article>
+                </div> -->
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+                        <div
+                            class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
+                        </div>
+
+                        <img
+                            src="./assets/img/award-1.png"
+                            alt=""
+                            class="relative z-10 h-24 w-auto object-contain">
+                    </div>
                 </div>
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+                        <div
+                            class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
+                        </div>
+
+                        <img
+                            src="./assets/img/award-2.jpg"
+                            alt=""
+                            class="relative z-10 h-24 w-auto object-contain">
+                    </div>
+                </div>
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+                        <div
+                            class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
+                        </div>
+
+                        <img
+                            src="./assets/img/award-3.jpg"
+                            alt=""
+                            class="relative z-10 h-24 w-auto object-contain">
+                    </div>
+                </div>
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+                        <div
+                            class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
+                        </div>
+
+                        <img
+                            src="./assets/img/award-2.jpg"
+                            alt=""
+                            class="relative z-10 h-24 w-auto object-contain">
+                    </div>
+                </div>
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+                        <div
+                            class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
+                        </div>
+
+                        <img
+                            src="./assets/img/award-1.png"
+                            alt=""
+                            class="relative z-10 h-24 w-auto object-contain">
+                    </div>
+                </div>
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+                        <div
+                            class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
+                        </div>
+
+                        <img
+                            src="./assets/img/award-3.jpg"
+                            alt=""
+                            class="relative z-10 h-24 w-auto object-contain">
+                    </div>
+                </div>
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+                        <div
+                            class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
+                        </div>
+
+                        <img
+                            src="./assets/img/award-1.png"
+                            alt=""
+                            class="relative z-10 h-24 w-auto object-contain">
+                    </div>
+                </div>
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+                        <div
+                            class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
+                        </div>
+
+                        <img
+                            src="./assets/img/award-3.jpg"
+                            alt=""
+                            class="relative z-10 h-24 w-auto object-contain">
+                    </div>
+                </div>
+                <!-- <div class="swiper-slide h-auto">
+                    <div
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+                        <div
+                            class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
+                        </div>
+
+                        <img
+                            src="./assets/img/award-1.png"
+                            alt=""
+                            class="relative z-10 h-24 w-auto object-contain">
+                    </div>
+                </div>
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+                        <div
+                            class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
+                        </div>
+
+                        <img
+                            src="./assets/img/award-1.png"
+                            alt=""
+                            class="relative z-10 h-24 w-auto object-contain">
+                    </div>
+                </div>
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+                        <div
+                            class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
+                        </div>
+
+                        <img
+                            src="./assets/img/award-1.png"
+                            alt=""
+                            class="relative z-10 h-24 w-auto object-contain">
+                    </div>
+                </div>
+                <div class="swiper-slide h-auto">
+                    <div
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+                        <div
+                            class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
+                        </div>
+
+                        <img
+                            src="./assets/img/award-1.png"
+                            alt=""
+                            class="relative z-10 h-24 w-auto object-contain">
+                    </div>
+                </div> -->
             </div>
             <!-- PAGINATION -->
             <!-- <div class="award-pagination mt-10"></div> -->
@@ -1628,7 +2022,7 @@ include "./include/historytimelinesection.php";
     </div>
 </section>
 
-    <!-- =========================================================
+<!-- =========================================================
         NEWSLETTER SECTION
         ========================================================= -->
 <section class="section-padding bg-white overflow-hidden">

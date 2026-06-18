@@ -102,7 +102,7 @@
             </span>
         </a>
         <!-- DOCTOR -->
-        <a href="./doctors.php"
+        <!-- <a href="./doctors.php"
             class="group
             flex
             items-center
@@ -135,7 +135,7 @@
                 pr-8">
                 Find Doctor
             </span>
-        </a>
+        </a> -->
         <!-- INQUIRY -->
         <a href="./contactus.php"
             class="group
@@ -164,15 +164,15 @@
     class="fixed bottom-0 left-0 w-full z-50 bg-white border-t border-slate-200 shadow-[0_-8px_25px_rgba(0,0,0,.08)]
     transform transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
     lg:hidden md:hidden">
-    <div class="grid grid-cols-3">
+    <div class="grid grid-cols-2">
         <!-- DOCTOR -->
-        <a href="./doctors.php"
+        <!-- <a href="./doctors.php"
             class="flex flex-col items-center justify-center py-3 text-primary">
             <i class="fa-solid fa-user-doctor text-lg mb-1"></i>
             <span class="text-[11px] font-semibold">
                 Doctor
             </span>
-        </a>
+        </a> -->
         <!-- INQUIRY -->
         <a href="./contactus.php"
             class="flex flex-col items-center justify-center py-3 border-x border-slate-200 text-primary">

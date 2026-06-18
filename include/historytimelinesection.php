@@ -1,7 +1,8 @@
 <!-- =========================
     Our History
     ========================= -->
-<section class="section-padding bg-white overflow-hidden">
+<section class="section-padding bg-slate-100 overflow-hidden">
+    <div class="medical-pattern absolute inset-0"></div>
     <div class="container-custom">
         <!-- HEADER -->
         <div class="max-w-3xl mb-14">
@@ -98,7 +99,7 @@
         </div>
         <!-- CONTENT CARD -->
         <div
-            class="grid lg:grid-cols-12 bg-slate-100 border border-slate-200 overflow-hidden">
+            class="grid lg:grid-cols-12 bg-slate-200 border border-slate-200 overflow-hidden">
             <!-- IMAGE -->
             <div class="lg:col-span-5">
                 <img

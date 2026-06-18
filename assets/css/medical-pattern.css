@@ -1,0 +1,10 @@
+.medical-pattern {
+  background-image:
+    url("./assets/img/patterns/stethoscope.svg"),
+    url("./assets/img/patterns/dna.svg"), url("./assets/img/patterns/heart.svg");
+
+  background-size: 180px;
+  background-repeat: repeat;
+  background-position: center;
+  opacity: 0.03;
+}
