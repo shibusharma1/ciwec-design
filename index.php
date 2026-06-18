@@ -1849,7 +1849,7 @@ include "./include/historytimelinesection.php";
                 </div> -->
                 <div class="swiper-slide h-auto">
                     <div
-                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
 
                         <div
                             class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
@@ -1863,7 +1863,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <div class="swiper-slide h-auto">
                     <div
-                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
 
                         <div
                             class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
@@ -1877,7 +1877,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <div class="swiper-slide h-auto">
                     <div
-                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
 
                         <div
                             class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
@@ -1891,7 +1891,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <div class="swiper-slide h-auto">
                     <div
-                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
 
                         <div
                             class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
@@ -1905,7 +1905,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <div class="swiper-slide h-auto">
                     <div
-                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
 
                         <div
                             class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
@@ -1919,7 +1919,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <div class="swiper-slide h-auto">
                     <div
-                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
 
                         <div
                             class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
@@ -1933,7 +1933,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <div class="swiper-slide h-auto">
                     <div
-                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
 
                         <div
                             class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
@@ -1947,7 +1947,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <div class="swiper-slide h-auto">
                     <div
-                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
 
                         <div
                             class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
@@ -1961,7 +1961,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <!-- <div class="swiper-slide h-auto">
                     <div
-                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
 
                         <div
                             class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
@@ -1975,7 +1975,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <div class="swiper-slide h-auto">
                     <div
-                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
 
                         <div
                             class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
@@ -1989,7 +1989,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <div class="swiper-slide h-auto">
                     <div
-                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
 
                         <div
                             class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
@@ -2003,7 +2003,7 @@ include "./include/historytimelinesection.php";
                 </div>
                 <div class="swiper-slide h-auto">
                     <div
-                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 rounded-2xl flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                        class="group relative overflow-hidden h-[180px] bg-white border border-slate-100 flex items-center justify-center transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
 
                         <div
                             class="absolute w-0 h-0 rounded-full bg-primary/5 transition-all duration-700 group-hover:w-56 group-hover:h-56">
@@ -2022,9 +2022,11 @@ include "./include/historytimelinesection.php";
     </div>
 </section>
 
-<!-- =========================================================
-        NEWSLETTER SECTION
-        ========================================================= -->
+<?php
+$_GET['type'] = 'newsletter';
+include './publication-list.php';
+?>
+<!-- NEWSLETTER SECTION -->
 <section class="section-padding bg-white overflow-hidden">
     <div class="container-custom">
         <!-- HEADER -->
@@ -2086,7 +2088,7 @@ include "./include/historytimelinesection.php";
             </div>
         </div>
         <!-- LOADER -->
-        <div
+        <!-- <div
             id="newsletterLoader"
             class="hidden py-12">
             <div
@@ -2097,10 +2099,9 @@ include "./include/historytimelinesection.php";
                 animate-spin
                 mx-auto">
             </div>
-        </div>
+        </div> -->
         <!-- CONTENT -->
-        <div id="newsletterContent">
-            <!-- TABLE -->
+        <!-- <div id="newsletterContent">
             <div class="overflow-x-auto border border-slate-200 bg-white">
                 <table class="w-full">
                     <thead>
@@ -2117,17 +2118,67 @@ include "./include/historytimelinesection.php";
                         </tr>
                     </thead>
                     <tbody id="newsletterTable">
-                        <!-- AJAX DATA -->
                     </tbody>
                 </table>
             </div>
-            <!-- PAGINATION -->
             <div
                 id="newsletterPagination"
                 class="flex flex-wrap justify-center gap-2 mt-8">
             </div>
+        </div> -->
+        <!-- LOADER -->
+        <div id="publicationLoader" class="hidden py-12">
+            <div
+                class="w-12 h-12 border-[3px]
+        border-slate-200
+        border-t-secondary
+        rounded-full
+        animate-spin
+        mx-auto">
+            </div>
+        </div>
+
+        <!-- CONTENT -->
+        <div id="publicationContent">
+
+            <!-- TABLE -->
+            <div class="overflow-x-auto border border-slate-200 bg-white">
+                <table class="w-full">
+
+                    <thead>
+                        <tr class="bg-primary text-white">
+                            <th class="px-5 py-4 text-left text-sm font-bold uppercase tracking-wide">
+                                #
+                            </th>
+
+                            <th class="px-5 py-4 text-left text-sm font-bold uppercase tracking-wide">
+                                Publication Title
+                            </th>
+
+                            <th class="px-5 py-4 text-center text-sm font-bold uppercase tracking-wide">
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="publicationTable">
+                    </tbody>
+
+                </table>
+            </div>
+
+            <!-- PAGINATION -->
+            <div
+                id="publicationPagination"
+                class="flex flex-wrap justify-center gap-2 mt-8">
+            </div>
+
         </div>
     </div>
 </section>
+<script>
+    const currentType = "<?= $type ?>";
+    const actionType = "<?= $page['action_type'] ?>";
+</script>
 
 <?php include "./include/footer.php"; ?>

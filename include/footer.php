@@ -130,7 +130,7 @@ include "./include/locationsection.php"; ?>
             <div class="flex flex-col md:flex-row justify-between items-center gap-4 py-6">
                 <p
                     class="text-white/60 text-sm">
-                    © 2025 CIWEC Hospital. All Rights Reserved.
+                    © 2026 CIWEC Hospital. All Rights Reserved.
                 </p>
                 <div
                     class="flex gap-5 text-sm">
@@ -166,8 +166,8 @@ include "./include/stickyfooterbar.php";
 <script src="./assets/js/stickyfooter.js"></script>
 <script src="./assets/js/history.js"></script>
 <script src="./assets/js/counter.js"></script>
-<script src="./assets/js/newsletters.js"></script>
-<script src="./assets/js/healthinformationcards.js"></script>
+<script src="./assets/js/publication-data.js"></script>
+<script src="./assets/js/publication-table.js"></script>
 
 </body>
 </html>

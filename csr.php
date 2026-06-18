@@ -3,9 +3,8 @@ $hero_title = "Ciwec CSR";
 include "./include/header.php";
 include "./include/herobanner.php";
 ?>
-<!-- ========================================= -->
+
 <!-- CSR MISSION -->
-<!-- ========================================= -->
 <section class="section-padding bg-white overflow-hidden">
    <div class="container-custom">
       <div class="grid lg:grid-cols-2 gap-16 items-center">

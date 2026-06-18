@@ -242,9 +242,7 @@ include "./include/herobanner.php";
         </div>
     </div>
 </section> -->
-<!-- ========================================= -->
 <!-- GROWTH THROUGH THE YEARS -->
-<!-- ========================================= -->
 <section class="section-padding bg-slate-100 overflow-hidden">
     <div class="container-custom">
         <!-- HEADING -->

@@ -1,5 +1,5 @@
 <?php
-$hero_title = "Health Information";
+$hero_title = "Health Screening";
 include "./include/header.php";
 include "./include/herobanner.php";
 ?>

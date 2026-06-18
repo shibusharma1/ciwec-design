@@ -25,10 +25,7 @@ const patientStoriesSwiper = new Swiper(".patientStoriesSwiper", {
   },
 });
 
-// =====================================================
 // VIDEO MODAL
-// =====================================================
-
 const videoModal = document.getElementById("videoModal");
 const storyVideo = document.getElementById("storyVideo");
 const closeVideoModal = document.getElementById("closeVideoModal");
