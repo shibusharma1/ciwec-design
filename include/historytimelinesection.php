@@ -99,7 +99,7 @@
         </div>
         <!-- CONTENT CARD -->
         <div
-            class="grid lg:grid-cols-12 bg-slate-200 border border-slate-200 overflow-hidden">
+            class="grid lg:grid-cols-12 bg-white border border-slate-200 overflow-hidden">
             <!-- IMAGE -->
             <div class="lg:col-span-5">
                 <img

@@ -55,7 +55,7 @@
     <link rel="stylesheet" href="./assets/css/services.css">
     <link rel="stylesheet" href="./assets/css/gallery.css">
     <link rel="stylesheet" href="./assets/css/healthscreening.css">
-    <link rel="stylesheet" href="./assets/css/medical-pattern.css">
+    <!-- <link rel="stylesheet" href="./assets/css/medical-pattern.css"> -->
 
 </head>
 
