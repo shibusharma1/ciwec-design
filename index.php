@@ -419,7 +419,7 @@ include "./include/historytimelinesection.php";
                 <span class="w-2 h-2 bg-secondary"></span>
                 Why Choose CIWEC
             </span>
-            <h2 class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-6">
+            <h2 class="text-primary text-3xl md:text-4xl xl:text-5xl font-black leading-tight mb-6" data-aos="fade-up">
                 Trusted Healthcare for Travelers and Communities
             </h2>
             <p
@@ -535,7 +535,7 @@ include "./include/historytimelinesection.php";
                 <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     <!-- Card -->
                     <div
-                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)] why-card animate-left">
                         <!-- Top Accent -->
                         <span
                             class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
@@ -557,7 +557,7 @@ include "./include/historytimelinesection.php";
                     </div>
                     <!-- Card -->
                     <div
-                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)] why-card animate-left">
                         <span
                             class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
                         <div
@@ -577,7 +577,7 @@ include "./include/historytimelinesection.php";
                     </div>
                     <!-- Card -->
                     <div
-                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)] why-card animate-left">
                         <span
                             class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
                         <div
@@ -597,7 +597,7 @@ include "./include/historytimelinesection.php";
                     </div>
                     <!-- Card -->
                     <div
-                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)] why-card animate-left">
                         <span
                             class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
                         <div
@@ -617,7 +617,7 @@ include "./include/historytimelinesection.php";
                     </div>
                     <!-- Card -->
                     <div
-                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)] why-card animate-left">
                         <span
                             class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
                         <div
@@ -637,7 +637,7 @@ include "./include/historytimelinesection.php";
                     </div>
                     <!-- Card -->
                     <div
-                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)] why-card animate-left">
                         <span
                             class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
                         <div
@@ -657,7 +657,7 @@ include "./include/historytimelinesection.php";
                     </div>
                     <!-- Card -->
                     <div
-                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)] why-card animate-left">
                         <span
                             class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
                         <div
@@ -677,7 +677,7 @@ include "./include/historytimelinesection.php";
                     </div>
                     <!-- Card -->
                     <div
-                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
+                        class="group relative overflow-hidden border border-slate-200 bg-white p-6 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)] why-card animate-left">
                         <span
                             class="absolute top-0 left-0 h-1 w-0 bg-secondary transition-all duration-500 group-hover:w-full"></span>
                         <div

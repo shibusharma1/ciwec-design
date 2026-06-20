@@ -156,6 +156,7 @@ include "./include/stickyfooterbar.php";
 
 <!-- swiper js  -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./assets/js/animation.js"></script>
 <script src="./assets/js/stickyheader.js"></script>
 <script defer src="./assets/js/backtotop.js"></script>
 <script defer src="./assets/js/faq.js"></script>

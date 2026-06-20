@@ -565,3 +565,21 @@ textarea.form-control {
   color: #d71920;
   transform: translateX(4px);
 }
+
+/*Animations for why ciwec section */
+.animate-left {
+  opacity: 0;
+  transform: translateX(-80px);
+  transition: all 0.9s ease;
+}
+
+.animate-right {
+  opacity: 0;
+  transform: translateX(80px);
+  transition: all 0.9s ease;
+}
+
+.animate-show {
+  opacity: 1;
+  transform: translateX(0);
+}
